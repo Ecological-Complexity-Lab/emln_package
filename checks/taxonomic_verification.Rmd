@@ -1,0 +1,110 @@
+---
+title: "Taxonomic_verification"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(readr)
+library(tibble)
+library(dplyr)
+library(readr)
+library(taxize)
+library(beepr)
+library(stringr)
+library(tidyr)
+```
+
+```{r Folders to work with}
+parent.folder <- "~/GitHub/emln_db/EMLN_Datasets/datasets copy"
+sub.folders.short <- list.dirs(path = parent.folder, recursive = T, full.names = F)[-1]
+sub.folders.long <- list.dirs(path = parent.folder, recursive = T, full.names = T)[-1]
+
+#order the sub folders according to the id, using the short sub folders so I can use the id, but I eventually need the long to read the csvs
+sub.folders.long <- sub.folders.long[str_order(sub.folders.short, numeric = T)]
+
+
+```
+
+```{r API key}
+options(ENTREZ_KEY = 'c995e6273b9a384f22e461db01cb5f6ee808')
+```
+
+```{r functions}
+taxa_verification <- function(classification_var,nodes,names) {
+  for (i in 1:length(names)) { #if no id was found, then taxa_verified == FALSE. If any id is found in the species rank (because the values given were species names), taxa_verified == TRUE.
+  if (length(is.na(classification_var[[names[[i]]]]))>1) {
+    if (grepl(names[[i]], 'unidentified|Unidentified', fixed = TRUE)) { #there are cases where taxize recognizes 'unidentified' as a taxa. which is not correct.
+    nodes <- rbind(nodes, data.frame(node_id = i, attribute = 'taxa_verified', value = FALSE))
+    next
+    }
+    nodes <- rbind(nodes, data.frame(node_id = i, attribute = 'taxa_verified', value = TRUE))
+    nodes <- rbind(nodes, data.frame(node_id = i, attribute = 'verification_level', value = classification_var[[names[[i]]]][['rank']][length(classification_var[[names[[i]]]][['rank']])]))
+  } else {
+    nodes <- rbind(nodes, data.frame(node_id = i, attribute = 'taxa_verified', value = FALSE))
+  }
+  }
+  nodes <- nodes[order(nodes$node_id),] #order the nodes by the node_id
+  return(nodes)
+}
+
+taxa_verification_parse <- function(folders_list) {
+  errors <- list()
+  for (i in folders_list) {
+    path_from <- i
+    path_to <- gsub(' copy','',i)
+    nodes <- read_csv(paste(path_from,"/nodes.csv",sep = ''))
+    View(nodes) #look at the nodes to determine from which attribute to take the taxa from
+    beep()
+    a = readline(prompt="Enter attribute from which to check classification: ") #give the attribtue name to check
+    names <- gsub('([[:blank:]]|[[:punct:]])((sp|spp|sp[1-9+])[^a-zA-Z].*$|(sp|spp|sp[1-9+])$)','',nodes[nodes$attribute == a, ]$value) #remove 'sp' string if it appears, it throws off the classification function.
+    names <- gsub('[[:punct:]]',' ',names) #create a list of taxa names to verify
+    View(names) #check that the names are ok
+    beep()
+    b = readline(prompt="Continue? (TRUE/FALSE): ") #if they are ok, continue, else, skip and add to errors list
+    if (b == TRUE) {
+      classif <- classification(names, db = "ncbi",max_tries = 1, max_batch = 1, row = 1) #check the scientific name in the ncbi database and find its associated id. 
+      nodes <- taxa_verification(classif,nodes,names)
+      View(nodes)
+      beep()
+      c = readline(prompt="Continue? (TRUE/FALSE): ") #if the nodes are ok, write the csv
+      if (c == TRUE) {
+        write.csv(nodes,paste(path_to,"/nodes.csv", sep = ''), row.names = FALSE)
+      } else if (exists('c')) {
+        errors <- c(errors, i)
+        next
+        }
+    } else if (exists('b')) {
+      errors <- c(errors, i)
+      next
+    }
+  }
+  return(errors)
+}
+
+```
+
+```{r RUN}
+errors <- taxa_verification_parse((sub.folders.long))
+
+##change dataset 43's nodes - so I can verify the taxon #########################
+nodes <- read_csv(paste(sub.folders.long[43],'/nodes.csv',sep=''))
+nodes[nodes$node_id == 101 & nodes$attribute == 'node_name',]$value <- sub("(.{2})(.*)", "\\1_\\2", nodes[nodes$node_id == 101 & nodes$attribute == 'node_name',]$value)
+
+for (i in 1:max(nodes$node_id)) {
+  nodes <- rbind(nodes, data.frame(node_id = i, attribute = 'taxonomy_name', value = paste(replace_na(tolower(filter(nodes, attribute == 'family')$value[[i]]),''),gsub(filter(nodes, attribute == 'node_name')$value[[i]], pattern = '^[a-zA-Z][[:punct:]]', replacement = ''),sep = '')))
+}
+
+nodes <- nodes[order(nodes$node_id),]
+
+gsub('([[:blank:]]|[[:punct:]])((sp|spp|sp[1-9+])[^a-zA-Z].*$|(sp|spp|sp[1-9+])$)','','lasioglossum_sdff')
+
+
+write_csv(nodes, paste(sub.folders.long[43],'/nodes.csv',sep=''))
+##########################################
+```
+
+
+
+
+
