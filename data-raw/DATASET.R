@@ -68,7 +68,6 @@ load(paste('/Users/noni/Documents/elmn_package/DataLists/',sub.folders.short[2],
 
 
 
-
 #create an igraph edgelist from the interactions.csv
 graph_from_edgelist(el, directed = TRUE)
 
