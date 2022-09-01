@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 /Users/noni/GitHub/emln_package/emln/datasets/39_Spatial_Krasnov_ectoparasites
+data-raw/39_Spatial_Krasnov_ectoparasites/interactions.csv
