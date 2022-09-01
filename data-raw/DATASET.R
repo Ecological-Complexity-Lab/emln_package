@@ -14,15 +14,14 @@ library(stringr)
 
 
 #read the file path
-parent.folder <- "~/GitHub/emln_package/datasets"
+parent.folder <- "~/GitHub/emln_package/data-raw/"
 
-setwd("~/GitHub/emln_package/datasets") ##in this chunk, we want the working directory to be the one with all the networks in order to read them
-
-sub.folders.short <- list.dirs(path = parent.folder, recursive = T, full.names = F)[-1]
-sub.folders.long <- list.dirs(path = parent.folder, recursive = T, full.names = T)[-1]
+sub.folders.short <- list.dirs(path = parent.folder, recursive = F, full.names = F)
+sub.folders.long <- list.dirs(path = parent.folder, recursive = F, full.names = T)
 
 #order the sub folders according to the id, using the short sub folders so I can use the id, but I eventually need the long to read the csvs
 sub.folders.long <- sub.folders.long[str_order(sub.folders.short, numeric = T)]
+sub.folders.short <- sub.folders.short[str_order(sub.folders.short, numeric = T)]
 
 
 for (i in 1:length(sub.folders.long)) {
@@ -34,14 +33,18 @@ for (i in 1:length(sub.folders.long)) {
                       state_nodes = read_csv(paste(sub.folders.long[[i]],'state_nodes.csv',sep = '/')),
                       interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')))
       class(network) <- 'EMLN'
-      saveRDS( file=paste('/Users/noni/Documents/DataLists/',sub.folders.short[i],'.Rdata',sep=''), network)
+      network_name <- sub.folders.short[i] #hanging network name
+      assign(network_name, network) #assign it to the network variable
+      do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
     } else {
       network <- list(description = read_csv(paste(sub.folders.long[[i]],'description.csv',sep = '/')),
                       references = read_csv(paste(sub.folders.long[[i]],'references.csv',sep = '/')),
                       nodes = read_csv(paste(sub.folders.long[[i]],'nodes.csv',sep = '/')),
                       interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')))
       class(network) <- 'EMLN'
-      saveRDS(file=paste('/Users/noni/Documents/DataLists/',sub.folders.short[i],'.Rdata',sep=''), network)
+      network_name <- sub.folders.short[i] #hanging network name
+      assign(network_name, network) #assign it to the network variable
+      do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
     }
   } else {
     if (file.exists(paste(sub.folders.long[[i]],'state_nodes.csv',sep = '/'))) {
@@ -50,23 +53,31 @@ for (i in 1:length(sub.folders.long)) {
                       state_nodes = read_csv(paste(sub.folders.long[[i]],'state_nodes.csv',sep = '/')),
                       interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')))
       class(network) <- 'EMLN'
-      saveRDS( file=paste('/Users/noni/Documents/DataLists/',sub.folders.short[i],'.Rdata',sep=''), network)
+      network_name <- sub.folders.short[i] #hanging network name
+      assign(network_name, network) #assign it to the network variable
+      do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
     } else {
       network <- list(description = read_csv(paste(sub.folders.long[[i]],'description.csv',sep = '/')),
                       nodes = read_csv(paste(sub.folders.long[[i]],'nodes.csv',sep = '/')),
                       interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')))
       class(network) <- 'EMLN'
-      saveRDS(file=paste('/Users/noni/Documents/DataLists/',sub.folders.short[i],'.Rdata',sep=''), network)
+      network_name <- sub.folders.short[i] #hanging network name
+      assign(network_name, network) #assign it to the network variable
+      do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
     }
   }
 }
 
-
+##maybeuselater##saveRDS(file=paste('~/GitHub/emln_package/data/',sub.folders.short[i],'.Rdata',sep=''), network)
 load(paste('/Users/noni/Documents/elmn_package/DataLists/',sub.folders.short[2],'.Rdata',sep=''))
 
 
 
-
+for(i in 1:81) {                    # Head of for-loop
+  network_name <- sub.folders.short[i]
+  assign(network_name, network)
+  do.call("use_data", list(as.name(network_name), overwrite = TRUE))
+}
 
 #create an igraph edgelist from the interactions.csv
 graph_from_edgelist(el, directed = TRUE)
@@ -79,5 +90,11 @@ graph_from_edgelist(as.matrix(pivot_wider(network$interactions,names_from = 'att
 
 readRDS('2_Environment_Benadi_JAE_2013')
 
-use_data(network, overwrite = TRUE)
+usethis::use_data(network, overwrite = TRUE)
 
+
+
+library(usethis)
+network_name <- sub.folders.short[i] #hanging network name
+assign(network_name, network) #assign it to the network variable
+do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
