@@ -11,6 +11,7 @@ library(tibble)
 library(dplyr)
 library(readr)
 library(stringr)
+library(usethis)
 
 
 #read the file path
@@ -33,7 +34,7 @@ for (i in 1:length(sub.folders.long)) {
                       state_nodes = read_csv(paste(sub.folders.long[[i]],'state_nodes.csv',sep = '/')),
                       interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')))
       class(network) <- 'EMLN'
-      network_name <- sub.folders.short[i] #hanging network name
+      network_name <- paste0('emln',sub.folders.short[i]) #hanging network name
       assign(network_name, network) #assign it to the network variable
       do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
     } else {
@@ -42,7 +43,7 @@ for (i in 1:length(sub.folders.long)) {
                       nodes = read_csv(paste(sub.folders.long[[i]],'nodes.csv',sep = '/')),
                       interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')))
       class(network) <- 'EMLN'
-      network_name <- sub.folders.short[i] #hanging network name
+      network_name <- paste0('emln',sub.folders.short[i]) #hanging network name
       assign(network_name, network) #assign it to the network variable
       do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
     }
@@ -53,7 +54,7 @@ for (i in 1:length(sub.folders.long)) {
                       state_nodes = read_csv(paste(sub.folders.long[[i]],'state_nodes.csv',sep = '/')),
                       interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')))
       class(network) <- 'EMLN'
-      network_name <- sub.folders.short[i] #hanging network name
+      network_name <- paste0('emln',sub.folders.short[i]) #hanging network name
       assign(network_name, network) #assign it to the network variable
       do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
     } else {
@@ -61,7 +62,7 @@ for (i in 1:length(sub.folders.long)) {
                       nodes = read_csv(paste(sub.folders.long[[i]],'nodes.csv',sep = '/')),
                       interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')))
       class(network) <- 'EMLN'
-      network_name <- sub.folders.short[i] #hanging network name
+      network_name <- paste0('emln',sub.folders.short[i]) #hanging network name
       assign(network_name, network) #assign it to the network variable
       do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
     }
