@@ -99,3 +99,9 @@ library(usethis)
 network_name <- sub.folders.short[i] #hanging network name
 assign(network_name, network) #assign it to the network variable
 do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
+
+
+
+load('data/emln1_Environment_Schleuning_2010.rda')
+
+check <- emln1_Environment_Schleuning_2010$description$value[6]
