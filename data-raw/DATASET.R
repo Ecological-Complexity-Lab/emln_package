@@ -32,7 +32,8 @@ for (i in 1:length(sub.folders.long)) {
                       references = read_csv(paste(sub.folders.long[[i]],'references.csv',sep = '/')),
                       nodes = read_csv(paste(sub.folders.long[[i]],'nodes.csv',sep = '/')),
                       state_nodes = read_csv(paste(sub.folders.long[[i]],'state_nodes.csv',sep = '/')),
-                      interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')))
+                      interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')),
+                      layers = read_csv(paste(sub.folders.long[[i]],'layers.csv',sep = '/')))
       class(network) <- 'EMLN'
       network_name <- paste0('emln',sub.folders.short[i]) #hanging network name
       assign(network_name, network) #assign it to the network variable
@@ -41,7 +42,8 @@ for (i in 1:length(sub.folders.long)) {
       network <- list(description = read_csv(paste(sub.folders.long[[i]],'description.csv',sep = '/')),
                       references = read_csv(paste(sub.folders.long[[i]],'references.csv',sep = '/')),
                       nodes = read_csv(paste(sub.folders.long[[i]],'nodes.csv',sep = '/')),
-                      interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')))
+                      interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')),
+                      layers = read_csv(paste(sub.folders.long[[i]],'layers.csv',sep = '/')))
       class(network) <- 'EMLN'
       network_name <- paste0('emln',sub.folders.short[i]) #hanging network name
       assign(network_name, network) #assign it to the network variable
@@ -52,7 +54,8 @@ for (i in 1:length(sub.folders.long)) {
       network <- list(description = read_csv(paste(sub.folders.long[[i]],'description.csv',sep = '/')),
                       nodes = read_csv(paste(sub.folders.long[[i]],'nodes.csv',sep = '/')),
                       state_nodes = read_csv(paste(sub.folders.long[[i]],'state_nodes.csv',sep = '/')),
-                      interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')))
+                      interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')),
+                      layers = read_csv(paste(sub.folders.long[[i]],'layers.csv',sep = '/')))
       class(network) <- 'EMLN'
       network_name <- paste0('emln',sub.folders.short[i]) #hanging network name
       assign(network_name, network) #assign it to the network variable
@@ -60,7 +63,8 @@ for (i in 1:length(sub.folders.long)) {
     } else {
       network <- list(description = read_csv(paste(sub.folders.long[[i]],'description.csv',sep = '/')),
                       nodes = read_csv(paste(sub.folders.long[[i]],'nodes.csv',sep = '/')),
-                      interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')))
+                      interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')),
+                      layers = read_csv(paste(sub.folders.long[[i]],'layers.csv',sep = '/')))
       class(network) <- 'EMLN'
       network_name <- paste0('emln',sub.folders.short[i]) #hanging network name
       assign(network_name, network) #assign it to the network variable
