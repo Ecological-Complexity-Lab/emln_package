@@ -1,0 +1,16 @@
+#'
+#' @title emln41_Spatial_Leather_1991
+#' @docType data
+#' @description feeding specialisation and host distribution
+#' 
+#' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
+#' |:----------:|:-----------------------:|:-----------------------:|:-----------:|
+#' |     41     |         Spatial         |     Plant-Herbivore     |    TRUE     |
+#' 
+#' @format NULL
+#' @usage NULL
+#' @source Web_of_Life
+#' @source Interaction_Web_DataBase
+#' @source http://www.web-of-life.es/map.php
+#' @source http://www.ecologia.ib.usp.br/iwdb/html/leather_1991.htm
+'emln41_Spatial_Leather_1991'

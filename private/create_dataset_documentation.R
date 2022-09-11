@@ -1,8 +1,10 @@
 library(tidyverse)
-generate_data_description <- function(dataset){
-  dataset_name <- deparse(substitute(dataset))
+generate_data_description <- function(folders){
+  for (i in folders) {
+    dataset <- loadRData(paste0('data/',i)) #load the networks by order
+  dataset_name <- gsub(i,pattern = '.rda',replacement = '')
   description <- dataset$description
-  f <- paste('R/',dataset_name,'.R',sep='')
+  f <- paste('./R/',dataset_name,'.R',sep='')
   table <- description %>%
     filter(!attribute %in% c('source', 'data_url', 'description', 'data_entry')) %>% pivot_wider(values_from = 'value', names_from = 'attribute')
   table <- knitr::kable(cbind(tibble(network_id = as.numeric(gsub(dataset_name, pattern = '^emln|_.+$', replacement = '')),table)),align = 'c')
@@ -18,10 +20,21 @@ generate_data_description <- function(dataset){
   write_lines(paste0("#' @source ",unlist(description[description$attribute == 'source','value'])), f, append = T)
   write_lines(paste0("#' @source ",unlist(description[description$attribute == 'data_url','value'])), f, append = T)
   write_lines(paste0("\'",dataset_name,"\'"), f, append = T)
-
-
+  rm(dataset)
+  }
 }
 
-for (i in gsub(list.files(path = './data/',full.names = F),pattern = '.rda',replacement = '')) {
-  generate_data_description(i)
+folders <-  list.files(path = './data/',full.names = F)
+
+generate_data_description(folders)
+
+loadRData <- function(fileName){
+  #loads an RData file, and returns it
+  load(fileName)
+  get(ls()[ls() != "fileName"])
 }
+
+theloadedobjects <- loadRData('data/emln3_Environment_Bird_1930.rda')
+list.files(path = './data/',full.names = F)
+generate_data_description(theloadedobjects)
+
