@@ -1,5 +1,5 @@
 #'
-#' @title emln32_Spatial_Environment_Cornaby_1974
+#' @title emln32_spatial_environment_cornaby_1974
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln32_Spatial_Environment_Cornaby_1974'
+'emln32_spatial_environment_cornaby_1974'

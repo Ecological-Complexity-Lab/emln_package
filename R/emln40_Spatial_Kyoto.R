@@ -1,5 +1,5 @@
 #'
-#' @title emln40_Spatial_Kyoto
+#' @title emln40_spatial_kyoto
 #' @docType data
 #' @description NA
 #' 
@@ -13,4 +13,4 @@
 #' @source Interaction_Web_DataBase
 #' @source http://www.web-of-life.es/map.php
 #' @source http://www.ecologia.ib.usp.br/iwdb/resources.html
-'emln40_Spatial_Kyoto'
+'emln40_spatial_kyoto'

@@ -1,5 +1,5 @@
 #'
-#' @title emln64_Spatial_Yanez_1978
+#' @title emln64_spatial_yanez_1978
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln64_Spatial_Yanez_1978'
+'emln64_spatial_yanez_1978'

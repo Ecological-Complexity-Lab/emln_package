@@ -1,5 +1,5 @@
 #'
-#' @title emln15_Multiplex_Milne_1972
+#' @title emln15_multiplex_milne_1972
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln15_Multiplex_Milne_1972'
+'emln15_multiplex_milne_1972'

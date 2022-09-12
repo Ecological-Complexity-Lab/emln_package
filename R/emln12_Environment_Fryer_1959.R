@@ -1,5 +1,5 @@
 #'
-#' @title emln12_Environment_Fryer_1959
+#' @title emln12_environment_fryer_1959
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln12_Environment_Fryer_1959'
+'emln12_environment_fryer_1959'

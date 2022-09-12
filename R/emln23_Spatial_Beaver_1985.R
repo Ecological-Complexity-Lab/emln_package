@@ -1,5 +1,5 @@
 #'
-#' @title emln23_Spatial_Beaver_1985
+#' @title emln23_spatial_beaver_1985
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln23_Spatial_Beaver_1985'
+'emln23_spatial_beaver_1985'

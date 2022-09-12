@@ -1,5 +1,5 @@
 #'
-#' @title emln58_Spatial_Temporal_Closs_1994
+#' @title emln58_spatial_temporal_closs_1994
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln58_Spatial_Temporal_Closs_1994'
+'emln58_spatial_temporal_closs_1994'

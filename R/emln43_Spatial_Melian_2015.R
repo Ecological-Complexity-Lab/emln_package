@@ -1,5 +1,5 @@
 #'
-#' @title emln43_Spatial_Melian_2015
+#' @title emln43_spatial_melian_2015
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Dryad
 #' @source https://datadryad.org/stash/dataset/doi:10.5061/dryad.06bb5
-'emln43_Spatial_Melian_2015'
+'emln43_spatial_melian_2015'

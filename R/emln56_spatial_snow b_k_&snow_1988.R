@@ -1,5 +1,5 @@
 #'
-#' @title emln56_Spatial_Snow B.K.&Snow_1988
+#' @title emln56_spatial_snow b_k_&snow_1988
 #' @docType data
 #' @description To what extent and in what ways the the feeding ecology differs among the various Trinidad bird species.
 #' 
@@ -13,4 +13,4 @@
 #' @source Interaction_Web_DataBase
 #' @source http://www.ecologia.ib.usp.br/iwdb/html/snow_snow_1971.htm
 #' @source http://www.web-of-life.es/map.php?type=6
-'emln56_Spatial_Snow B.K.&Snow_1988'
+'emln56_spatial_snow b_k_&snow_1988'

@@ -1,5 +1,5 @@
 #'
-#' @title emln65_Temporal_Angelini_2006
+#' @title emln65_temporal_angelini_2006
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln65_Temporal_Angelini_2006'
+'emln65_temporal_angelini_2006'

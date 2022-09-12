@@ -1,5 +1,5 @@
 #'
-#' @title emln41_Spatial_Leather_1991
+#' @title emln41_spatial_leather_1991
 #' @docType data
 #' @description feeding specialisation and host distribution
 #' 
@@ -13,4 +13,4 @@
 #' @source Interaction_Web_DataBase
 #' @source http://www.web-of-life.es/map.php
 #' @source http://www.ecologia.ib.usp.br/iwdb/html/leather_1991.htm
-'emln41_Spatial_Leather_1991'
+'emln41_spatial_leather_1991'

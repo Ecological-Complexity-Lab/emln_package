@@ -1,5 +1,5 @@
 #'
-#' @title emln10_Environment_Temporal_Parker_Huryn_2006
+#' @title emln10_environment_temporal_parker_huryn_2006
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln10_Environment_Temporal_Parker_Huryn_2006'
+'emln10_environment_temporal_parker_huryn_2006'

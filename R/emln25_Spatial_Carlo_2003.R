@@ -1,5 +1,5 @@
 #'
-#' @title emln25_Spatial_Carlo_2003
+#' @title emln25_spatial_carlo_2003
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Web_of_Life
 #' @source http://www.web-of-life.es/map.php
-'emln25_Spatial_Carlo_2003'
+'emln25_spatial_carlo_2003'

@@ -1,5 +1,5 @@
 #'
-#' @title emln79_Temporal_Tavares_Cromar_1996
+#' @title emln79_temporal_tavares_cromar_1996
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln79_Temporal_Tavares_Cromar_1996'
+'emln79_temporal_tavares_cromar_1996'

@@ -1,5 +1,5 @@
 #'
-#' @title emln70_Temporal_Douglas_2011
+#' @title emln70_temporal_douglas_2011
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln70_Temporal_Douglas_2011'
+'emln70_temporal_douglas_2011'

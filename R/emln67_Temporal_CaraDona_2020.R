@@ -1,5 +1,5 @@
 #'
-#' @title emln67_Temporal_CaraDona_2020
+#' @title emln67_temporal_caradona_2020
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source EDI_data_portal
 #' @source https://portal.edirepository.org/nis/mapbrowse?packageid=edi.512.1
-'emln67_Temporal_CaraDona_2020'
+'emln67_temporal_caradona_2020'

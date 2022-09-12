@@ -1,5 +1,5 @@
 #'
-#' @title emln29_Spatial_Dicks_2002
+#' @title emln29_spatial_dicks_2002
 #' @docType data
 #' @description Study the compartmentalization in plants-insects webs in two sites.
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Web_of_Life
 #' @source http://www.web-of-life.es/map.php?type=6
-'emln29_Spatial_Dicks_2002'
+'emln29_spatial_dicks_2002'

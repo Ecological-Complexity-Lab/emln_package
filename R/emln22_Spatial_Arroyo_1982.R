@@ -1,5 +1,5 @@
 #'
-#' @title emln22_Spatial_Arroyo_1982
+#' @title emln22_spatial_arroyo_1982
 #' @docType data
 #' @description NA
 #' 
@@ -13,4 +13,4 @@
 #' @source Interaction_Web_DataBase
 #' @source http://www.web-of-life.es/map.php
 #' @source http://www.ecologia.ib.usp.br/iwdb/html/arroyo_1982.html
-'emln22_Spatial_Arroyo_1982'
+'emln22_spatial_arroyo_1982'

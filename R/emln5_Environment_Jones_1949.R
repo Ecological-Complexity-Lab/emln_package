@@ -1,5 +1,5 @@
 #'
-#' @title emln5_Environment_Jones_1949
+#' @title emln5_environment_jones_1949
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln5_Environment_Jones_1949'
+'emln5_environment_jones_1949'

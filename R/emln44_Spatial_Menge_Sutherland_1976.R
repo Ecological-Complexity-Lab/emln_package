@@ -1,5 +1,5 @@
 #'
-#' @title emln44_Spatial_Menge_Sutherland_1976
+#' @title emln44_spatial_menge_sutherland_1976
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln44_Spatial_Menge_Sutherland_1976'
+'emln44_spatial_menge_sutherland_1976'

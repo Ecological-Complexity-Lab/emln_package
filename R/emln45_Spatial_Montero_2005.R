@@ -1,5 +1,5 @@
 #'
-#' @title emln45_Spatial_Montero_2005
+#' @title emln45_spatial_montero_2005
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Web_of_Life
 #' @source http://www.web-of-life.es/map.php
-'emln45_Spatial_Montero_2005'
+'emln45_spatial_montero_2005'

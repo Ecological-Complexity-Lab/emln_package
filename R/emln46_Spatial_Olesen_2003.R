@@ -1,5 +1,5 @@
 #'
-#' @title emln46_Spatial_Olesen_2003
+#' @title emln46_spatial_olesen_2003
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Web_of_Life
 #' @source http://www.web-of-life.es/map.php
-'emln46_Spatial_Olesen_2003'
+'emln46_spatial_olesen_2003'

@@ -1,5 +1,5 @@
 #'
-#' @title emln30_Spatial_Dupont_Olesen_2009
+#' @title emln30_spatial_dupont_olesen_2009
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Web_of_Life
 #' @source http://www.web-of-life.es/map.php
-'emln30_Spatial_Dupont_Olesen_2009'
+'emln30_spatial_dupont_olesen_2009'

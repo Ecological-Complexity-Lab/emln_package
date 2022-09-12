@@ -1,5 +1,5 @@
 #'
-#' @title emln76_Temporal_Ramos_robles_2016
+#' @title emln76_temporal_ramos_robles_2016
 #' @docType data
 #' @description the effects of bird migration and food availability on the temporal structure of a plant-frugivore network.
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source PeerJ
 #' @source https://peerj.com/articles/2048/#supplemental-information
-'emln76_Temporal_Ramos_robles_2016'
+'emln76_temporal_ramos_robles_2016'

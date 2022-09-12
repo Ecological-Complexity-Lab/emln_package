@@ -1,5 +1,5 @@
 #'
-#' @title emln28_Spatial_Dexter_1947
+#' @title emln28_spatial_dexter_1947
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln28_Spatial_Dexter_1947'
+'emln28_spatial_dexter_1947'

@@ -1,5 +1,5 @@
 #'
-#' @title emln75_Temporal_Ponisio_2017
+#' @title emln75_temporal_ponisio_2017
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln75_Temporal_Ponisio_2017'
+'emln75_temporal_ponisio_2017'

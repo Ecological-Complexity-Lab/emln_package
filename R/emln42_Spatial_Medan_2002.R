@@ -1,5 +1,5 @@
 #'
-#' @title emln42_Spatial_Medan_2002
+#' @title emln42_spatial_medan_2002
 #' @docType data
 #' @description NA
 #' 
@@ -13,4 +13,4 @@
 #' @source Interaction_Web_DataBase
 #' @source http://www.ecologia.ib.usp.br/iwdb/html/medan_et_al_2002.html
 #' @source http://www.web-of-life.es/map.php
-'emln42_Spatial_Medan_2002'
+'emln42_spatial_medan_2002'

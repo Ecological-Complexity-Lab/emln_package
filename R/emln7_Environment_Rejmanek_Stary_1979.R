@@ -1,5 +1,5 @@
 #'
-#' @title emln7_Environment_Rejmanek_Stary_1979
+#' @title emln7_environment_rejmanek_stary_1979
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln7_Environment_Rejmanek_Stary_1979'
+'emln7_environment_rejmanek_stary_1979'

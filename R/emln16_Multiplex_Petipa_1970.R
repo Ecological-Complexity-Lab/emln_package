@@ -1,5 +1,5 @@
 #'
-#' @title emln16_Multiplex_Petipa_1970
+#' @title emln16_multiplex_petipa_1970
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln16_Multiplex_Petipa_1970'
+'emln16_multiplex_petipa_1970'

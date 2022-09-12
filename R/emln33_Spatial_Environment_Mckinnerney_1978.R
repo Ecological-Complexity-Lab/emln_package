@@ -1,5 +1,5 @@
 #'
-#' @title emln33_Spatial_Environment_Mckinnerney_1978
+#' @title emln33_spatial_environment_mckinnerney_1978
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln33_Spatial_Environment_Mckinnerney_1978'
+'emln33_spatial_environment_mckinnerney_1978'

@@ -1,5 +1,5 @@
 #'
-#' @title emln35_Spatial_Havens_1992
+#' @title emln35_spatial_havens_1992
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln35_Spatial_Havens_1992'
+'emln35_spatial_havens_1992'

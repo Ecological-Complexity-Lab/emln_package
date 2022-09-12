@@ -1,5 +1,5 @@
 #'
-#' @title emln77_Temporal_Ruzicka_2012
+#' @title emln77_temporal_ruzicka_2012
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln77_Temporal_Ruzicka_2012'
+'emln77_temporal_ruzicka_2012'

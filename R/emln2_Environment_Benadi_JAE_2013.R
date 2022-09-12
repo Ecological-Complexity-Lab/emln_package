@@ -1,5 +1,5 @@
 #'
-#' @title emln2_Environment_Benadi_JAE_2013
+#' @title emln2_environment_benadi_jae_2013
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Dryad
 #' @source https://datadryad.org/stash/dataset/doi:10.5061/dryad.8mn44
-'emln2_Environment_Benadi_JAE_2013'
+'emln2_environment_benadi_jae_2013'

@@ -1,5 +1,5 @@
 #'
-#' @title emln59_Spatial_Temporal_Davidson
+#' @title emln59_spatial_temporal_davidson
 #' @docType data
 #' @description NA
 #' 
@@ -13,4 +13,4 @@
 #' @source Interaction_Web_DataBase
 #' @source http://www.web-of-life.es/map.php
 #' @source http://www.ecologia.ib.usp.br/iwdb/resources.html
-'emln59_Spatial_Temporal_Davidson'
+'emln59_spatial_temporal_davidson'

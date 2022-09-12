@@ -1,5 +1,5 @@
 #'
-#' @title emln24_Spatial_Canadian-fish-parasite
+#' @title emln24_spatial_canadian_fish_parasite
 #' @docType data
 #' @description Data on host use by parasites were obtained from 7 Canadian freshwater systems, either large lakes or rivers, in which most fish species have been surveyed for parasites.
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Interaction_Web_DataBase
 #' @source http://www.ecologia.ib.usp.br/iwdb/html/canadian_fish.html
-'emln24_Spatial_Canadian-fish-parasite'
+'emln24_spatial_canadian_fish_parasite'

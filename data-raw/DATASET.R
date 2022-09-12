@@ -35,7 +35,7 @@ for (i in 1:length(sub.folders.long)) {
                       interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')),
                       layers = read_csv(paste(sub.folders.long[[i]],'layers.csv',sep = '/')))
       class(network) <- 'EMLN'
-      network_name <- paste0('emln',sub.folders.short[i]) #hanging network name
+      network_name <- tolower(paste0('emln',gsub(sub.folders.short[i],pattern = '-|\\.',replacement = '_'))) #hanging network name
       assign(network_name, network) #assign it to the network variable
       do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
     } else {
@@ -45,7 +45,7 @@ for (i in 1:length(sub.folders.long)) {
                       interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')),
                       layers = read_csv(paste(sub.folders.long[[i]],'layers.csv',sep = '/')))
       class(network) <- 'EMLN'
-      network_name <- paste0('emln',sub.folders.short[i]) #hanging network name
+      network_name <- tolower(paste0('emln',gsub(sub.folders.short[i],pattern = '-|\\.',replacement = '_'))) #hanging network name
       assign(network_name, network) #assign it to the network variable
       do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
     }
@@ -57,7 +57,7 @@ for (i in 1:length(sub.folders.long)) {
                       interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')),
                       layers = read_csv(paste(sub.folders.long[[i]],'layers.csv',sep = '/')))
       class(network) <- 'EMLN'
-      network_name <- paste0('emln',sub.folders.short[i]) #hanging network name
+      network_name <- tolower(paste0('emln',gsub(sub.folders.short[i],pattern = '-|\\.',replacement = '_'))) #hanging network name
       assign(network_name, network) #assign it to the network variable
       do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
     } else {
@@ -66,46 +66,34 @@ for (i in 1:length(sub.folders.long)) {
                       interactions = read_csv(paste(sub.folders.long[[i]],'interactions.csv',sep = '/')),
                       layers = read_csv(paste(sub.folders.long[[i]],'layers.csv',sep = '/')))
       class(network) <- 'EMLN'
-      network_name <- paste0('emln',sub.folders.short[i]) #hanging network name
+      network_name <- tolower(paste0('emln',gsub(sub.folders.short[i],pattern = '-|\\.',replacement = '_'))) #hanging network name
       assign(network_name, network) #assign it to the network variable
       do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
     }
   }
 }
 
-##maybeuselater##saveRDS(file=paste('~/GitHub/emln_package/data/',sub.folders.short[i],'.Rdata',sep=''), network)
-load(paste('/Users/noni/Documents/elmn_package/DataLists/',sub.folders.short[2],'.Rdata',sep=''))
 
 
 
-for(i in 1:81) {                    # Head of for-loop
-  network_name <- sub.folders.short[i]
-  assign(network_name, network)
-  do.call("use_data", list(as.name(network_name), overwrite = TRUE))
+# Create dataset that contains all the description files  -----------------
+
+descriptions <- tibble()
+for (i in list.files("data")) {
+  theloadedobjects <- loadRData(paste0('data/',i)) #load the networks by order
+  descriptions <- rbind(descriptions, tibble(network_id = as.numeric(gsub(i, pattern = '^emln|_.+$', replacement = '')),
+                                               network_name =  gsub(i,pattern = '.rda',replacement = ''),
+                                               ecological_network_type = filter(theloadedobjects$description, attribute == 'ecological_network_type')$value,
+                                               multilayer_network_type = filter(theloadedobjects$description, attribute == 'multilayer_network_type')$value,
+                                               state_nodes = filter(theloadedobjects$description, attribute == 'state_nodes')$value,
+                                               weighted = if_else(all(grepl(filter(theloadedobjects$interactions, attribute == 'weight')$value, pattern = '1')),true = FALSE, false = TRUE),
+                                               directed = if_else('directed' %in% theloadedobjects$layers$attribute, true = TRUE, false = FALSE),
+                                               interlayer = if_else('interlayer' %in% filter(theloadedobjects$interactions,attribute == 'type')$value, true = TRUE, false = FALSE),
+                                               layer_num = max(theloadedobjects$layers$layer),
+                                               node_num = max(theloadedobjects$nodes$node_id)
+  ))
+  rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
 }
 
-#create an igraph edgelist from the interactions.csv
-graph_from_edgelist(el, directed = TRUE)
 
-
-as.matrix(pivot_wider(network$interactions,names_from = 'attribute', values_from = 'value')[,c(2,4)])
-
-graph_from_edgelist(as.matrix(pivot_wider(network$interactions,names_from = 'attribute', values_from = 'value')[,c(2,4)]))
-
-
-readRDS('2_Environment_Benadi_JAE_2013')
-
-usethis::use_data(network, overwrite = TRUE)
-
-
-
-library(usethis)
-network_name <- sub.folders.short[i] #hanging network name
-assign(network_name, network) #assign it to the network variable
-do.call("use_data", list(as.name(network_name), overwrite = TRUE)) #save it with said name
-
-
-
-load('data/emln1_Environment_Schleuning_2010.rda')
-
-check <- emln1_Environment_Schleuning_2010$description$value[6]
+use_data(descriptions)

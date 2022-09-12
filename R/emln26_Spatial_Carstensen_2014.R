@@ -1,5 +1,5 @@
 #'
-#' @title emln26_Spatial_Carstensen_2014
+#' @title emln26_spatial_carstensen_2014
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source figshare
 #' @source https://figshare.com/articles/dataset/_Beta_Diversity_of_Plant_Pollinator_Networks_and_the_Spatial_Turnover_of_Pairwise_Interactions_/1234708
-'emln26_Spatial_Carstensen_2014'
+'emln26_spatial_carstensen_2014'

@@ -1,5 +1,5 @@
 #'
-#' @title emln3_Environment_Bird_1930
+#' @title emln3_environment_bird_1930
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln3_Environment_Bird_1930'
+'emln3_environment_bird_1930'

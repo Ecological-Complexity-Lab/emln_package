@@ -1,5 +1,5 @@
 #'
-#' @title emln27_Spatial_Chacoff_2020
+#' @title emln27_spatial_chacoff_2020
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Dryad
 #' @source https://datadryad.org/stash/dataset/doi:10.5061/dryad.8cz8w9gm1
-'emln27_Spatial_Chacoff_2020'
+'emln27_spatial_chacoff_2020'

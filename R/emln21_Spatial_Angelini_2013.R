@@ -1,5 +1,5 @@
 #'
-#' @title emln21_Spatial_Angelini_2013
+#' @title emln21_spatial_angelini_2013
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Web_of_Life
 #' @source http://www.web-of-life.es/map.php
-'emln21_Spatial_Angelini_2013'
+'emln21_spatial_angelini_2013'

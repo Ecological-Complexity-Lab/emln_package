@@ -1,5 +1,5 @@
 #'
-#' @title emln61_Spatial_Temporal_Martins_2020
+#' @title emln61_spatial_temporal_martins_2020
 #' @docType data
 #' @description Here, we used a spatial-temporal system comprising asteraceous plants and flower head herbivores from remnants of Brazilian Cerrado to investigate whether the relationship between spatial beta-diversity of species and network structural dissimilarity changes over time.
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Dryad
 #' @source https://doi.org/10.5061/dryad.vmcvdncq0
-'emln61_Spatial_Temporal_Martins_2020'
+'emln61_spatial_temporal_martins_2020'

@@ -1,5 +1,5 @@
 #'
-#' @title emln78_Temporal_Schoenly_Reid_1983
+#' @title emln78_temporal_schoenly_reid_1983
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln78_Temporal_Schoenly_Reid_1983'
+'emln78_temporal_schoenly_reid_1983'

@@ -1,5 +1,5 @@
 #'
-#' @title emln52_Spatial_Poulin_1999
+#' @title emln52_spatial_poulin_1999
 #' @docType data
 #' @description NA
 #' 
@@ -13,4 +13,4 @@
 #' @source Interaction_Web_DataBase
 #' @source http://www.web-of-life.es/map.php
 #' @source http://www.ecologia.ib.usp.br/iwdb/resources.html
-'emln52_Spatial_Poulin_1999'
+'emln52_spatial_poulin_1999'

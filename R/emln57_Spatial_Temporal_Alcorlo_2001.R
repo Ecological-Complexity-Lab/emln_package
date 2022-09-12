@@ -1,5 +1,5 @@
 #'
-#' @title emln57_Spatial_Temporal_Alcorlo_2001
+#' @title emln57_spatial_temporal_alcorlo_2001
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln57_Spatial_Temporal_Alcorlo_2001'
+'emln57_spatial_temporal_alcorlo_2001'

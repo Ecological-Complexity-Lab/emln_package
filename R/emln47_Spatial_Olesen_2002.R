@@ -1,5 +1,5 @@
 #'
-#' @title emln47_Spatial_Olesen_2002
+#' @title emln47_spatial_olesen_2002
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln47_Spatial_Olesen_2002'
+'emln47_spatial_olesen_2002'

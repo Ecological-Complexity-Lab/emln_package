@@ -1,5 +1,5 @@
 #'
-#' @title emln4_Environment_Hawkins_Goeden_1984
+#' @title emln4_environment_hawkins_goeden_1984
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln4_Environment_Hawkins_Goeden_1984'
+'emln4_environment_hawkins_goeden_1984'

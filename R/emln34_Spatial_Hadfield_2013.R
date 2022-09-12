@@ -1,5 +1,5 @@
 #'
-#' @title emln34_Spatial_Hadfield_2013
+#' @title emln34_spatial_hadfield_2013
 #' @docType data
 #' @description NA
 #' 
@@ -13,4 +13,4 @@
 #' @source Dryad
 #' @source http://www.web-of-life.es/map.php
 #' @source https://datadryad.org/stash/dataset/doi:10.5061/dryad.jf3tj
-'emln34_Spatial_Hadfield_2013'
+'emln34_spatial_hadfield_2013'

@@ -1,5 +1,5 @@
 #'
-#' @title emln1_Environment_Schleuning_2010
+#' @title emln1_environment_schleuning_2010
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Interaction_Web_DataBase
 #' @source http://www.ecologia.ib.usp.br/iwdb/html/schleuning-et-al-2010.html
-'emln1_Environment_Schleuning_2010'
+'emln1_environment_schleuning_2010'

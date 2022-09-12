@@ -1,5 +1,5 @@
 #'
-#' @title emln11_Environment_Thompson_Townsend_2004
+#' @title emln11_environment_thompson_townsend_2004
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln11_Environment_Thompson_Townsend_2004'
+'emln11_environment_thompson_townsend_2004'

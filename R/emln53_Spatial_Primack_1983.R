@@ -1,5 +1,5 @@
 #'
-#' @title emln53_Spatial_Primack_1983
+#' @title emln53_spatial_primack_1983
 #' @docType data
 #' @description specialisation of plants and insects
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Web_of_Life
 #' @source http://www.web-of-life.es
-'emln53_Spatial_Primack_1983'
+'emln53_spatial_primack_1983'

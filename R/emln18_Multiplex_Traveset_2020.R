@@ -1,5 +1,5 @@
 #'
-#' @title emln18_Multiplex_Traveset_2020
+#' @title emln18_multiplex_traveset_2020
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Figshare
 #' @source https://doi.org/10.6084/m9.figshare.c.5208546.v1
-'emln18_Multiplex_Traveset_2020'
+'emln18_multiplex_traveset_2020'

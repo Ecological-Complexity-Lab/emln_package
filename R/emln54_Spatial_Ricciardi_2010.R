@@ -1,5 +1,5 @@
 #'
-#' @title emln54_Spatial_Ricciardi_2010
+#' @title emln54_spatial_ricciardi_2010
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln54_Spatial_Ricciardi_2010'
+'emln54_spatial_ricciardi_2010'

@@ -1,5 +1,5 @@
 #'
-#' @title emln55_Spatial_Slovakia
+#' @title emln55_spatial_slovakia
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source NA
 #' @source NA
-'emln55_Spatial_Slovakia'
+'emln55_spatial_slovakia'

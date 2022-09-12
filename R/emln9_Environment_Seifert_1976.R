@@ -1,5 +1,5 @@
 #'
-#' @title emln9_Environment_Seifert_1976
+#' @title emln9_environment_seifert_1976
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln9_Environment_Seifert_1976'
+'emln9_environment_seifert_1976'

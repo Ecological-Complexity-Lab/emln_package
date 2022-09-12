@@ -1,14 +1,14 @@
 #'
-#' @title emln48_Spatial_P. Jno_ unpubl
+#' @title emln38_spatial_jordano_unpubl
 #' @docType data
 #' @description NA
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|
-#' |     48     |         Spatial         |     Seed-Dispersal      |    FALSE    |
+#' |     38     |         Spatial         |     Seed-Dispersal      |    FALSE    |
 #' 
 #' @format NULL
 #' @usage NULL
 #' @source Web_of_Life
 #' @source http://www.web-of-life.es/map.php
-'emln48_Spatial_P. Jno_ unpubl'
+'emln38_spatial_jordano_unpubl'

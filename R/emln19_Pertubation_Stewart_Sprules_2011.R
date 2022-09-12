@@ -1,5 +1,5 @@
 #'
-#' @title emln19_Pertubation_Stewart_Sprules_2011
+#' @title emln19_pertubation_stewart_sprules_2011
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln19_Pertubation_Stewart_Sprules_2011'
+'emln19_pertubation_stewart_sprules_2011'

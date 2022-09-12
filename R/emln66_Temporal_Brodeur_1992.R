@@ -1,5 +1,5 @@
 #'
-#' @title emln66_Temporal_Brodeur_1992
+#' @title emln66_temporal_brodeur_1992
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln66_Temporal_Brodeur_1992'
+'emln66_temporal_brodeur_1992'

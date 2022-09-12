@@ -1,5 +1,5 @@
 #'
-#' @title emln39_Spatial_Krasnov_ectoparasites
+#' @title emln39_spatial_krasnov_ectoparasites
 #' @docType data
 #' @description unpublished
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source owner_of_data
 #' @source NA
-'emln39_Spatial_Krasnov_ectoparasites'
+'emln39_spatial_krasnov_ectoparasites'

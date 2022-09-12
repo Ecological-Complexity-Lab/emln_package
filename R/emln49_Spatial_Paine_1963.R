@@ -1,5 +1,5 @@
 #'
-#' @title emln49_Spatial_Paine_1963
+#' @title emln49_spatial_paine_1963
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln49_Spatial_Paine_1963'
+'emln49_spatial_paine_1963'

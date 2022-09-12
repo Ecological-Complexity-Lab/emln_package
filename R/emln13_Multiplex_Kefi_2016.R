@@ -1,5 +1,5 @@
 #'
-#' @title emln13_Multiplex_Kefi_2016
+#' @title emln13_multiplex_kefi_2016
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Dryad
 #' @source https://datadryad.org/stash/dataset/doi:10.5061/dryad.b4vg0
-'emln13_Multiplex_Kefi_2016'
+'emln13_multiplex_kefi_2016'

@@ -1,5 +1,5 @@
 #'
-#' @title emln8_Environment_Savely_1939
+#' @title emln8_environment_savely_1939
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln8_Environment_Savely_1939'
+'emln8_environment_savely_1939'

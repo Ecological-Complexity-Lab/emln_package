@@ -1,5 +1,5 @@
 #'
-#' @title emln60_Spatial_Temporal_Kolpelke_2017
+#' @title emln60_spatial_temporal_kolpelke_2017
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln60_Spatial_Temporal_Kolpelke_2017'
+'emln60_spatial_temporal_kolpelke_2017'

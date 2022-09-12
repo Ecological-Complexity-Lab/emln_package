@@ -1,5 +1,5 @@
 #'
-#' @title emln62_Spatial_Thompson_2003
+#' @title emln62_spatial_thompson_2003
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Web_of_Life
 #' @source http://www.web-of-life.es/map.php
-'emln62_Spatial_Thompson_2003'
+'emln62_spatial_thompson_2003'

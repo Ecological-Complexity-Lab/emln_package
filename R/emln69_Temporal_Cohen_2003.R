@@ -1,5 +1,5 @@
 #'
-#' @title emln69_Temporal_Cohen_2003
+#' @title emln69_temporal_cohen_2003
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln69_Temporal_Cohen_2003'
+'emln69_temporal_cohen_2003'

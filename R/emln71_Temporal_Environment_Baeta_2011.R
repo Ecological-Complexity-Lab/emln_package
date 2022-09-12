@@ -1,5 +1,5 @@
 #'
-#' @title emln71_Temporal_Environment_Baeta_2011
+#' @title emln71_temporal_environment_baeta_2011
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln71_Temporal_Environment_Baeta_2011'
+'emln71_temporal_environment_baeta_2011'

@@ -1,5 +1,5 @@
 #'
-#' @title emln73_Temporal_Mayse_Price_1978
+#' @title emln73_temporal_mayse_price_1978
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln73_Temporal_Mayse_Price_1978'
+'emln73_temporal_mayse_price_1978'

@@ -1,5 +1,5 @@
 #'
-#' @title emln36_Spatial_Ingversen_2006
+#' @title emln36_spatial_ingversen_2006
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Web_of_Life
 #' @source http://www.web-of-life.es/map.php
-'emln36_Spatial_Ingversen_2006'
+'emln36_spatial_ingversen_2006'

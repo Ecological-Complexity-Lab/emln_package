@@ -1,5 +1,5 @@
 #'
-#' @title emln17_Multiplex_Pocock_2012
+#' @title emln17_multiplex_pocock_2012
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source Dryad
 #' @source https://datadryad.org/stash/dataset/doi:10.5061/dryad.3s36r118
-'emln17_Multiplex_Pocock_2012'
+'emln17_multiplex_pocock_2012'

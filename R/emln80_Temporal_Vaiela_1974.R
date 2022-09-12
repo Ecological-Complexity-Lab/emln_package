@@ -1,5 +1,5 @@
 #'
-#' @title emln80_Temporal_Vaiela_1974
+#' @title emln80_temporal_vaiela_1974
 #' @docType data
 #' @description NA
 #' 
@@ -11,4 +11,4 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
-'emln80_Temporal_Vaiela_1974'
+'emln80_temporal_vaiela_1974'
