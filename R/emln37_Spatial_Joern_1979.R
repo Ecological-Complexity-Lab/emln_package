@@ -1,7 +1,8 @@
 #'
 #' @title emln37_spatial_joern_1979
 #' @docType data
-#' @description In this paper, the authors examined the feeding patterns of grasshoppers from two arid grassland communities in Trans-Pecos, Texas.
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

@@ -1,4 +1,4 @@
-#' Search networks (search_emln)
+#' Search networks
 #'
 #'@name search_emln
 #'
@@ -80,11 +80,6 @@ loadRData <- function(fileName){
   load(fileName)
   get(ls()[ls() != "fileName"])
 }
-
-x <- helper_attribute_ecomulti_type('spatial',c())
-y <- helper_attribute_ecomulti_type('pollination',c())
-
-check <- descriptions %>% filter(network_id %in% Reduce(intersect,list(x,y,c(),c(),c())))
 
 helper_attribute_ecomulti_type <- function(attribute_temp,ids) {
     for (i in list.files("data")[-1]) {
@@ -184,19 +179,4 @@ helper_attribute_state_nodes <- function(attribute,ids) {
   }
   return(ids)
 }
-
-
-
-# possible arguments ------------------------------------------------------
-
-
-
-table <- tibble(multilayer_network_types = paste("Environment","Temporal","Multiplex", "Pertubation","Spatial" ,sep = '/'),
-                ecological_network_types = paste("Seed-Dispersal","Pollination","Food-Web" ,"Host-Parasite","Multiples","Plant-Herbivore","Anemone-Fish","Plant-Ant",sep = '/'),
-                state_nodes = paste(TRUE,FALSE,sep = '/'), node_number_minimum = 'max node number is 3490',
-                layer_number_minimum = 'max layer number is 777',
-                weighted =  paste(TRUE,FALSE,sep = '/'),
-                interlayer =  paste(TRUE,FALSE,sep = '/'),
-                directed =  paste(TRUE,FALSE,sep = '/'))
-a <- knitr::kable(table, align = 'c')
 

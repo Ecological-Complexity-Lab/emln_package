@@ -10,7 +10,7 @@ Dryad
 https://datadryad.org/stash/dataset/doi:10.5061/dryad.8cz8w9gm1
 }
 \description{
-NA\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    68 \tab Temporal \tab Pollination \tab FALSE \cr
 }

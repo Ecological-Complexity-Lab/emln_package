@@ -1,7 +1,8 @@
 #'
 #' @title emln74_temporal_pertubation_kaiser_bunbury_2009
 #' @docType data
-#' @description This paper describes the community structure of pollination webs of Mauritian heathland habitats. Visitation rates are calculated and  compared between areas that are heavily invaded by introduced plant species (control site) and areas from which non-native plants were removed (restored site).
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type  | ecological_network_type | state_nodes |
 #' |:----------:|:------------------------:|:-----------------------:|:-----------:|

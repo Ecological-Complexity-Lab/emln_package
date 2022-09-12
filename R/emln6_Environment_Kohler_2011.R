@@ -1,7 +1,8 @@
 #'
 #' @title emln6_environment_kohler_2011
 #' @docType data
-#' @description Data describing the interactions between hummingbirds and floral resources in an altitudinal gradient in the Brazilian Atlantic Rainforest.
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

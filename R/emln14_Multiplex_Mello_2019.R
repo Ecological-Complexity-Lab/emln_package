@@ -1,7 +1,8 @@
 #'
 #' @title emln14_multiplex_mello_2019
 #' @docType data
-#' @description In this article, they shed light on the assembly rules of a multilayer network formed by frugivory and nectarivory interactions between bats and plants in the Neotropics.
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

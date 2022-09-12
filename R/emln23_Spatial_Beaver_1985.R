@@ -1,7 +1,8 @@
 #'
 #' @title emln23_spatial_beaver_1985
 #' @docType data
-#' @description NA
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | mangal_code | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------:|:-----------------------:|:-----------:|

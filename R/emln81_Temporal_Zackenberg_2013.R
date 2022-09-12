@@ -1,7 +1,8 @@
 #'
 #' @title emln81_temporal_zackenberg_2013
 #' @docType data
-#' @description the impact of temporal resolution on the structure of an plant-pollinator ecological network.
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

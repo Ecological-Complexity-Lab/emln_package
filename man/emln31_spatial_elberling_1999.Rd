@@ -14,7 +14,7 @@ http://www.web-of-life.es/map.php?type=6
 http://www.ecologia.ib.usp.br/iwdb/
 }
 \description{
-The objective was to describe the plant-flower visitor interaction matrix of this area and compare it with the characteristics of other subarctic alpine systems and with pollination systems of lower latitudes, especially in relation to the role of flies as flower visitors at high latitudes.\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    31 \tab Spatial \tab Pollination \tab TRUE \cr
 }

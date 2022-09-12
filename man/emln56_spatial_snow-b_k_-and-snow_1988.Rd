@@ -14,7 +14,7 @@ http://www.ecologia.ib.usp.br/iwdb/html/snow_snow_1971.htm
 http://www.web-of-life.es/map.php?type=6
 }
 \description{
-To what extent and in what ways the the feeding ecology differs among the various Trinidad bird species.\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    56 \tab Spatial \tab Pollination \tab TRUE \cr
 }

@@ -1,7 +1,8 @@
 #'
 #' @title emln72_temporal_fang_2012
 #' @docType data
-#' @description the stability of a pollination networks biodiverse hotspot over four years
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

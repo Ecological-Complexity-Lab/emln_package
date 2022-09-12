@@ -1,7 +1,8 @@
 #'
 #' @title emln21_spatial_angelini_2013
 #' @docType data
-#' @description NA
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

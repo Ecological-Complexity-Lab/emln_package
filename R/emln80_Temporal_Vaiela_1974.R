@@ -1,7 +1,8 @@
 #'
 #' @title emln80_temporal_vaiela_1974
 #' @docType data
-#' @description NA
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | mangal_code | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------:|:-----------------------:|:-----------:|

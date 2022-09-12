@@ -10,7 +10,7 @@ EDI_data_portal
 https://portal.edirepository.org/nis/mapbrowse?packageid=edi.512.1
 }
 \description{
-NA\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    67 \tab Temporal \tab Pollination \tab FALSE \cr
 }

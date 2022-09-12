@@ -10,7 +10,7 @@ Web_of_Life
 http://www.web-of-life.es/map.php?type=6
 }
 \description{
-Study the compartmentalization in plants-insects webs in two sites.\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    29 \tab Spatial \tab Pollination \tab TRUE \cr
 }

@@ -1,7 +1,8 @@
 #'
 #' @title emln50_spatial_pertubation_bartomeus_2008
 #' @docType data
-#' @description The authors compared uninvaded and invaded ecological communities, to examine how two species of invasive plants with large and showy flowers (Carpobrotus affine acinaciformis and Opuntia stricta) affect the structure of Mediterranean plant–pollinator networks at the Natural Park of Cap de Creus, Catalonia.
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type  | ecological_network_type | state_nodes |
 #' |:----------:|:------------------------:|:-----------------------:|:-----------:|

@@ -10,7 +10,7 @@ mangal
 https://mangal.io/doc/api/
 }
 \description{
-NA\tabular{ccccc}{
+Network Description:\tabular{ccccc}{
    network_id \tab multilayer_network_type \tab mangal_code \tab ecological_network_type \tab state_nodes \cr
    60 \tab Spatial , Temporal \tab 6 \tab Host-Parasite \tab FALSE \cr
 }

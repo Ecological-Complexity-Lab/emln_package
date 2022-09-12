@@ -10,7 +10,7 @@ Interaction_Web_DataBase
 http://www.ecologia.ib.usp.br/iwdb/html/canadian_fish.html
 }
 \description{
-Data on host use by parasites were obtained from 7 Canadian freshwater systems, either large lakes or rivers, in which most fish species have been surveyed for parasites.\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    24 \tab Spatial \tab Host-Parasite \tab TRUE \cr
 }

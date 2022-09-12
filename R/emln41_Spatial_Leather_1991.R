@@ -1,7 +1,8 @@
 #'
 #' @title emln41_spatial_leather_1991
 #' @docType data
-#' @description feeding specialisation and host distribution
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

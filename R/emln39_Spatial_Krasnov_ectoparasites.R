@@ -1,7 +1,8 @@
 #'
 #' @title emln39_spatial_krasnov_ectoparasites
 #' @docType data
-#' @description unpublished
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

@@ -1,7 +1,8 @@
 #'
 #' @title emln56_spatial_snow b_k_&snow_1988
 #' @docType data
-#' @description To what extent and in what ways the the feeding ecology differs among the various Trinidad bird species.
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

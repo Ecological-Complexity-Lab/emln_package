@@ -14,7 +14,7 @@ http://www.web-of-life.es/map.php
 http://www.ecologia.ib.usp.br/iwdb/html/leather_1991.htm
 }
 \description{
-feeding specialisation and host distribution\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    41 \tab Spatial \tab Plant-Herbivore \tab TRUE \cr
 }

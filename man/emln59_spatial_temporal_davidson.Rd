@@ -14,7 +14,7 @@ http://www.web-of-life.es/map.php
 http://www.ecologia.ib.usp.br/iwdb/resources.html
 }
 \description{
-NA\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    59 \tab Spatial , Temporal \tab Plant-Ant \tab FALSE \cr
 }

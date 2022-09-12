@@ -10,7 +10,7 @@ plos
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0081694
 }
 \description{
-the impact of temporal resolution on the structure of an plant-pollinator ecological network.\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    81 \tab Temporal \tab Pollination \tab FALSE \cr
 }

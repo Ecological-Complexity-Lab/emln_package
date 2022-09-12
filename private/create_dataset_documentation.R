@@ -19,7 +19,8 @@ generate_data_description <- function(folders){
   write_lines(x = "#'",file =  f, append = F) # Append=F means that the file will be created. If there is an existing file it will be overwritten.
   write_lines(paste0("#' @title ",tolower(dataset_name)), f, append = T)
   write_lines(paste0("#' @docType ",'data'), f, append = T)
-  write_lines(paste0("#' @description ", description[description$attribute == 'description','value']), f, append = T)
+  write_lines(paste0("#' "), f, append = T)
+  write_lines(paste0("#' @description ", 'Network Description:'), f, append = T)
   write_lines(paste0("#' "), f, append = T)
   write_lines(paste0("#' ",table), f, append = T)
   write_lines(paste0("#' "), f, append = T)
@@ -32,7 +33,7 @@ generate_data_description <- function(folders){
   }
 }
 
-folders <-  list.files(path = './data/',full.names = F)
+folders <-  list.files(path = './data/',full.names = F, recursive = FALSE)[-1]
 
 generate_data_description(folders)
 
@@ -41,27 +42,3 @@ loadRData <- function(fileName){
   load(fileName)
   get(ls()[ls() != "fileName"])
 }
-
-theloadedobjects <- loadRData('data/emln3_Environment_Bird_1930.rda')
-list.files(path = './data/',full.names = F)
-generate_data_description(theloadedobjects)
-
-dataset <- loadRData('data/emln38_spatial_jordano_unpubl.rda')
-dataset_name <- gsub('emln38_spatial_jordano_unpubl.rda',pattern = '\\.rda',replacement = '')
-description <- dataset$description
-f <- paste('./R/',dataset_name,'.R',sep='')
-table <- description %>%
-  filter(!attribute %in% c('source', 'data_url', 'description', 'data_entry')) %>% pivot_wider(values_from = 'value', names_from = 'attribute')
-table <- knitr::kable(cbind(tibble(network_id = as.numeric(gsub(dataset_name, pattern = '^emln|_.+$', replacement = '')),table)),align = 'c')
-write_lines(x = "#'",file =  f, append = F) # Append=F means that the file will be created. If there is an existing file it will be overwritten.
-write_lines(paste0("#' @title ",tolower(dataset_name)), f, append = T)
-write_lines(paste0("#' @docType ",'data'), f, append = T)
-write_lines(paste0("#' @description ", description[description$attribute == 'description','value']), f, append = T)
-write_lines(paste0("#' "), f, append = T)
-write_lines(paste0("#' ",table), f, append = T)
-write_lines(paste0("#' "), f, append = T)
-write_lines(paste0("#' @format ",'NULL'), f, append = T)
-write_lines(paste0("#' @usage ",'NULL'), f, append = T)
-write_lines(paste0("#' @source ",unlist(description[description$attribute == 'source','value'])), f, append = T)
-write_lines(paste0("#' @source ",unlist(description[description$attribute == 'data_url','value'])), f, append = T)
-write_lines(paste0("\'",tolower(dataset_name),"\'"), f, append = T)

@@ -10,7 +10,7 @@ Dryad
 https://doi.org/10.5061/dryad.vmcvdncq0
 }
 \description{
-Here, we used a spatial-temporal system comprising asteraceous plants and flower head herbivores from remnants of Brazilian Cerrado to investigate whether the relationship between spatial beta-diversity of species and network structural dissimilarity changes over time.\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    61 \tab Spatial , Temporal \tab Plant-Herbivore \tab TRUE \cr
 }

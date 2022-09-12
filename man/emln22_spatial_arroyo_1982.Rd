@@ -14,7 +14,7 @@ http://www.web-of-life.es/map.php
 http://www.ecologia.ib.usp.br/iwdb/html/arroyo_1982.html
 }
 \description{
-NA\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    22 \tab Spatial \tab Pollination \tab FALSE \cr
 }

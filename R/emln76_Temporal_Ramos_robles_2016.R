@@ -1,7 +1,8 @@
 #'
 #' @title emln76_temporal_ramos_robles_2016
 #' @docType data
-#' @description the effects of bird migration and food availability on the temporal structure of a plant-frugivore network.
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

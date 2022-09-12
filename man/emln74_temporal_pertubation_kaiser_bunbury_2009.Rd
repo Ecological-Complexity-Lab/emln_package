@@ -15,7 +15,7 @@ http://www.ecologia.ib.usp.br/iwdb/html/kaiser-bunbury_2009.html
 http://www.web-of-life.es/map.php
 }
 \description{
-This paper describes the community structure of pollination webs of Mauritian heathland habitats. Visitation rates are calculated and  compared between areas that are heavily invaded by introduced plant species (control site) and areas from which non-native plants were removed (restored site).\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    74 \tab Temporal   , Pertubation \tab Pollination \tab FALSE \cr
 }

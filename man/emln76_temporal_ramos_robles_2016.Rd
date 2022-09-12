@@ -10,7 +10,7 @@ PeerJ
 https://peerj.com/articles/2048/#supplemental-information
 }
 \description{
-the effects of bird migration and food availability on the temporal structure of a plant-frugivore network.\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    76 \tab Temporal \tab Seed-Dispersal \tab FALSE \cr
 }

@@ -14,7 +14,7 @@ http://www.web-of-life.es/map.php?type=6
 http://www.ecologia.ib.usp.br/iwdb/html/joern_1979.htm
 }
 \description{
-In this paper, the authors examined the feeding patterns of grasshoppers from two arid grassland communities in Trans-Pecos, Texas.\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    37 \tab Spatial \tab Plant-Herbivore \tab TRUE \cr
 }

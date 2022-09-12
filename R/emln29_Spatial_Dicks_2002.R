@@ -1,7 +1,8 @@
 #'
 #' @title emln29_spatial_dicks_2002
 #' @docType data
-#' @description Study the compartmentalization in plants-insects webs in two sites.
+#' 
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

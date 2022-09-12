@@ -10,7 +10,7 @@ Web_of_Life
 http://www.web-of-life.es
 }
 \description{
-In this article, they shed light on the assembly rules of a multilayer network formed by frugivory and nectarivory interactions between bats and plants in the Neotropics.\tabular{cccc}{
+Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    14 \tab Multiplex \tab Seed-Dispersal \tab FALSE \cr
 }
