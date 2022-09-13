@@ -2,7 +2,7 @@
 % Please edit documentation in R/search_emln.R
 \name{search_emln}
 \alias{search_emln}
-\title{Search networks (search_emln)}
+\title{Search networks}
 \usage{
 search_emln(
   ecological_network_type = NULL,
