@@ -12,4 +12,5 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
+#' @keywords internal
 'emln23_spatial_beaver_1985'

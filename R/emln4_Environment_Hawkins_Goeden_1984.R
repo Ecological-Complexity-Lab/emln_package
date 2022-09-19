@@ -12,4 +12,5 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
+#' @keywords internal
 'emln4_environment_hawkins_goeden_1984'

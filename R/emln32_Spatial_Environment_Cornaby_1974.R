@@ -12,4 +12,5 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
+#' @keywords internal
 'emln32_spatial_environment_cornaby_1974'

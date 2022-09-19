@@ -4,10 +4,10 @@
 \alias{load_emln}
 \title{Load networks}
 \usage{
-load_emln(network_id, network_name, wide = TRUE)
+load_emln(network_id = NULL, network_name = NULL, wide = TRUE)
 }
 \arguments{
-\item{network_id, network_name, wide=TRUE}{}
+\item{network_id, , wide=TRUE}{}
 }
 \value{
 An emln object containing 5 dataframes of the relevant network - description, references (only if the network was obtained from a paper), layer, nodes, interactions in a or long format.

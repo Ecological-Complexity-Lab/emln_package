@@ -28,7 +28,10 @@ generate_data_description <- function(folders){
   write_lines(paste0("#' @usage ",'NULL'), f, append = T)
   write_lines(paste0("#' @source ",unlist(description[description$attribute == 'source','value'])), f, append = T)
   write_lines(paste0("#' @source ",unlist(description[description$attribute == 'data_url','value'])), f, append = T)
+  write_lines(paste0("#' @keywords", ' internal'), f, append = T)
   write_lines(paste0("\'",tolower(dataset_name),"\'"), f, append = T)
+
+
   rm(dataset)
   }
 }

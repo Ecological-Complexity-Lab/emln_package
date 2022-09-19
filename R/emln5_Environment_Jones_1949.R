@@ -12,4 +12,5 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
+#' @keywords internal
 'emln5_environment_jones_1949'

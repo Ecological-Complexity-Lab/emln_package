@@ -12,4 +12,5 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
+#' @keywords internal
 'emln19_pertubation_stewart_sprules_2011'

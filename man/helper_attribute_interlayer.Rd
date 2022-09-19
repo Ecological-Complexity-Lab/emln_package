@@ -4,7 +4,7 @@
 \alias{helper_attribute_interlayer}
 \title{Internal function - searches for a network with/without interlayer edges in the database and returns the id of the networks that hit the search.}
 \usage{
-helper_attribute_interlayer(ids)
+helper_attribute_interlayer(attribute_temp, ids)
 }
 \arguments{
 \item{ids}{,a list to add the ids to}
