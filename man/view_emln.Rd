@@ -2,7 +2,7 @@
 % Please edit documentation in R/view_emln.R
 \name{view_emln}
 \alias{view_emln}
-\title{Search networks}
+\title{View networks}
 \usage{
 view_emln()
 }

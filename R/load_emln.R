@@ -26,7 +26,7 @@ load_emln <- function(network_id, network_name, wide=TRUE) {
 
     #get the network name in order to load it -- depending on the argument entered
   if (!is.null(network_id)) {
-    for (i in as.list(network_id)) {
+    for (i in unique(as.list(network_id))) {
       network_name <- list.files('./data/',pattern = paste0('emln',as.character(i),'_'))
       if (length(network_name) == 0) {
         return(paste0('Error: Network id ',i, ' does not exist'))

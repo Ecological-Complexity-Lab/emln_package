@@ -18,6 +18,7 @@
 #'
 #' @return A tibble containing the network id, emln name and data url. The object including all datasets corresponding to the query.
 #'
+#'
 #' @examples
 #' \dontrun{
 #' Generates a tibble of all the networks in the package that are pollination networks
@@ -61,122 +62,16 @@ search_emln <- function(ecological_network_type=NULL,multilayer_network_type=NUL
         ids$ids7 <- c(ids$ids7,helper_attribute_directed(ids$ids7))
         next
       } else if (i == 'interlayer') {
-        ids$ids8 <- c(ids$ids8,helper_attribute_interlayer(ids$ids8))
+          ids$ids8 <- c(ids$ids8,helper_attribute_interlayer(attributes_entered[['interlayer']],ids$ids8))
+        }
         next
       }
-    }
+  }
   ids_to_keep <- Reduce(intersect, ids)
   descriptions <- descriptions %>%
-    filter(network_id %in% ids_to_keep)
+    filter(network_id %in% ids_to_keep) %>%
+    group_by(network_id,network_name)  %>%
+    arrange(network_id,network_name)
   return(descriptions)
   }
-
-
-# Helper Functions --------------------------------------------------------
-
-
-loadRData <- function(fileName){
-  #loads an RData file, and returns it
-  load(fileName)
-  get(ls()[ls() != "fileName"])
-}
-
-helper_attribute_ecomulti_type <- function(attribute_temp,ids) {
-    for (i in list.files("data")[-1]) {
-      theloadedobjects <- loadRData(paste0('data/',i)) #load the networks by order
-      if(tolower(attribute_temp) %in% tolower(theloadedobjects$description$value)) { #check if the current network[i] is of the searched type
-        ids <- c(ids, as.numeric(gsub(i, pattern = '^emln|_.+$', replacement = '')))
-        rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
-      } else {
-        rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
-        next
-      }
-    }
-  return(ids)
-}
-
-helper_attribute_node_cutoff <- function(attribute,ids) {
-  for (i in list.files("data")[-1]) {
-    theloadedobjects <- loadRData(paste0('data/',i)) #load the networks by order
-    if(max(theloadedobjects$nodes$node_id) >= attribute) { #check if the current network[i] is of the searched type
-      ids <- c(ids, as.numeric(gsub(i, pattern = '^emln|_.+$', replacement = '')))
-      rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
-    } else {
-      rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
-      next
-    }
-  }
-  return(ids)
-}
-
-helper_attribute_layer_cutoff <- function(attribute,ids) {
-  for (i in list.files("data")[-1]) {
-    theloadedobjects <- loadRData(paste0('data/',i)) #load the networks by order
-    if(max(theloadedobjects$layers$layer) >= attribute) { #check if the current network[i] is of the searched type
-      ids <- c(ids, as.numeric(gsub(i, pattern = '^emln|_.+$', replacement = '')))
-      rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
-    } else {
-      rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
-      next
-    }
-  }
-  return(ids)
-}
-
-helper_attribute_weighted <- function(ids) {
-  for (i in list.files("data")[-1]) {
-    theloadedobjects <- loadRData(paste0('data/',i)) #load the networks by order
-    if(if_else(all(grepl(filter(theloadedobjects$interactions, attribute == 'weight')$value, pattern = '1')),true = FALSE, false = TRUE)) { #check if the current network[i] is of the searched type
-      ids <- c(ids, as.numeric(gsub(i, pattern = '^emln|_.+$', replacement = '')))
-      rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
-    } else {
-      rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
-      next
-    }
-  }
-  return(ids)
-}
-
-helper_attribute_directed <- function(ids) {
-  for (i in list.files("data")[-1]) {
-    theloadedobjects <- loadRData(paste0('data/',i)) #load the networks by order
-    if(if_else('directed' %in% theloadedobjects$layers$attribute, true = TRUE, false = FALSE)) { #check if the current network[i] is of the searched type
-      ids <- c(ids, as.numeric(gsub(i, pattern = '^emln|_.+$', replacement = '')))
-      rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
-    } else {
-      rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
-      next
-    }
-  }
-  return(ids)
-}
-
-
-helper_attribute_interlayer <- function(ids) {
-  for (i in list.files("data")[-1]) {
-    theloadedobjects <- loadRData(paste0('data/',i)) #load the networks by order
-    if(if_else('interlayer' %in% filter(theloadedobjects$interactions,attribute == 'type')$value, true = TRUE, false = FALSE)) { #check if the current network[i] is of the searched type
-      ids <- c(ids, as.numeric(gsub(i, pattern = '^emln|_.+$', replacement = '')))
-      rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
-    } else {
-      rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
-      next
-    }
-  }
-  return(ids)
-}
-
-helper_attribute_state_nodes <- function(attribute,ids) {
-  for (i in list.files("data")[-1]) {
-    theloadedobjects <- loadRData(paste0('data/',i)) #load the networks by order
-    if(filter(theloadedobjects$description, attribute == 'state_nodes')$value == attribute) { #check if the current network[i] is of the searched type
-      ids <- c(ids, as.numeric(gsub(i, pattern = '^emln|_.+$', replacement = '')))
-      rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
-    } else {
-      rm(theloadedobjects) #delete the object that was loaded so there won't be 81 datasets loaded
-      next
-    }
-  }
-  return(ids)
-}
 
