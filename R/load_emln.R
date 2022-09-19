@@ -5,7 +5,7 @@
 #' @description Load specific networks via id or network name, id or name must be entred as list.
 
 #'
-#' @param network_id,network_name,wide=TRUE
+#' @param network_id,,wide=TRUE
 #'
 #' @return An emln object containing 5 dataframes of the relevant network - description, references (only if the network was obtained from a paper), layer, nodes, interactions in a or long format.
 #'
@@ -20,7 +20,7 @@
 #' @export load_emln
 
 
-load_emln <- function(network_id, network_name, wide=TRUE) {
+load_emln <- function(network_id = NULL, network_name = NULL, wide=TRUE) {
   networks_wanted <- list()
   arguments_entered <- as.list(match.call())
 
@@ -34,17 +34,7 @@ load_emln <- function(network_id, network_name, wide=TRUE) {
         networks_wanted[[network_name]] <- loadRData(paste0('./data/',network_name))
       }
     }
-  } else if ('network_name' %in% names(arguments_entered)) {
-    for (i in list(arguments_entered$network_name)) {
-      network_name <- list.files('./data/',pattern = as.character(i))
-      if (length(network_name) == 0) {
-        return(paste0('Error: Typo in network_name',i))
-      } else {
-        networks_wanted[[network_name]] <- loadRData(paste0('./data/',network_name))
-      }
-    }
   }
-
   #load the network and add to the big list depending on if it need to be wide or long
   if (wide == TRUE) {
     for (i in names(networks_wanted)) {

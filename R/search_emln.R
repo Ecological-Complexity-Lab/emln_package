@@ -29,7 +29,7 @@
 #' }
 #' @export search_emln
 
-
+####
 search_emln <- function(ecological_network_type=NULL,multilayer_network_type=NULL,
                         state_nodes=NULL,node_number_minimum=NULL,layer_number_minimum=NULL,
                         weighted = NULL, interlayer = NULL, directed =NULL){
@@ -66,7 +66,7 @@ search_emln <- function(ecological_network_type=NULL,multilayer_network_type=NUL
         }
         next
       }
-  }
+
   ids_to_keep <- Reduce(intersect, ids)
   descriptions <- descriptions %>%
     filter(network_id %in% ids_to_keep) %>%
