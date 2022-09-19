@@ -19,3 +19,4 @@ helper_attribute_ecomulti_type <- function(attribute_temp,ids) {
   }
   return(ids)
 }
+

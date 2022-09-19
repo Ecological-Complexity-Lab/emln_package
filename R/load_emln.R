@@ -35,6 +35,7 @@ load_emln <- function(network_id = NULL, network_name = NULL, wide=TRUE) {
       }
     }
   }
+
   #load the network and add to the big list depending on if it need to be wide or long
   if (wide == TRUE) {
     for (i in names(networks_wanted)) {

@@ -6,10 +6,20 @@
 #'
 #' @details
 #' Possible Search Terms:
-#'
-#' |multilayer_network_types                           |ecological_network_types                                                                           |state_nodes |node_number_minimum     |layer_number_minimum    |weighted   |interlayer |directed   |
-#' |:--------------------------------------------------:|:--------------------------------------------------------------------------------------------------:|:-----------:|:-----------------------:|:-----------------------:|:----------:|:----------:|:----------:|
-#' |Environment/Temporal/Multiplex/Pertubation/Spatial |Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant |TRUE/FALSE  |max node number is 3490 |max layer number is 777 |TRUE/FALSE |TRUE/FALSE |TRUE/FALSE |
+#> #' \tabular{cccccccc} {
+#> #'   \strong{multilayer_network_types} \tab \strong{ecological_network_types} \tab \strong{state_nodes} \tab \strong{node_number_minimum} \tab \strong{layer_number_minimum} \tab \strong{weighted}\tab \strong{interlayer}\tab \strong{directed} \cr
+#> #'   Environment/Temporal/Multiplex/Pertubation/Spatial \tab Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant  \tab max node number is 3490 \tab max layer number is 777 \tab TRUE/FALSE \tab TRUE/FALSE \tab TRUE/FALSE \tab TRUE/FALSE \cr
+#> }
+#' \describe {
+#'   \item{multilayer_network_types}{Environment/Temporal/Multiplex/Pertubation/Spatial}
+#'   \item{ecological_network_types}{Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant}
+#'   \item{state_nodes}{TRUE/FALSE}
+#'   \item{node_number_minimum}{TRUE/FALSE}
+#'   \item{layer_number_minimum}{TRUE/FALSE}
+#'   \item{weighted}{TRUE/FALSE}
+#'   \item{interlayer}{TRUE/FALSE}
+#'   \item{directed}{TRUE/FALSE}
+#' }
 #'
 #' @md
 #'
@@ -29,49 +39,60 @@
 #' }
 #' @export search_emln
 
-####
 search_emln <- function(ecological_network_type=NULL,multilayer_network_type=NULL,
                         state_nodes=NULL,node_number_minimum=NULL,layer_number_minimum=NULL,
                         weighted = NULL, interlayer = NULL, directed =NULL){
-  load('./data/descriptions.rda') #load the large tibble that contains all the descriptions for it to be filtered
+  desc <- loadRData('./data/descriptions.rda') #load the large tibble that contains all the descriptions for it to be filtered
   attributes_entered <- compact(as.list(match.call()))[-1] #check which arguments were entered so i can loop over it.
-  ##create empty vectors that will contain the ids that answer the arguments demands, later they will be intersected
-
-  ids <- list()
 
   for (i in names(attributes_entered)) {
       if (i == 'ecological_network_type') {
-        ids$ids1 <- c(ids$ids1,helper_attribute_ecomulti_type(ecological_network_type,ids$ids1))
+        desc <- desc %>%
+          filter(ecological_network_type == str_to_title(attributes_entered[['ecological_network_type']]))
         next
       } else if (i == 'multilayer_network_type') {
-        ids$ids2 <- c(ids$ids2,helper_attribute_ecomulti_type(multilayer_network_type,ids$ids2))
+        desc <- desc %>%
+          filter(multilayer_network_type == str_to_title(attributes_entered[['multilayer_network_type']]))
         next
       } else if (i == 'state_nodes') {
-        ids$ids3 <- c(ids$ids3,helper_attribute_state_nodes(state_nodes,ids$ids3))
+        desc <- desc %>%
+          filter(state_nodes == attributes_entered[['state_nodes']])
         next
       } else if (i == 'node_number_cutoff') {
-        ids$ids4 <- c(ids$ids4,helper_attribute_node_cutoff(node_number_cutoff,ids$ids4))
+        desc <- desc %>%
+          filter(node_number_cutoff >= attributes_entered[['node_number_cutoff']])
         next
       } else if (i == 'layer_number_cutoff') {
-        ids$ids5 <- c(ids$ids5,helper_attribute_layer_cutoff(layer_number_cutoff,ids$ids5))
+        desc <- desc %>%
+          filter(layer_number_cutoff >= attributes_entered[['layer_number_cutoff']])
         next
       } else if (i == 'weighted') {
-        ids$ids6 <- c(ids$ids6,helper_attribute_weighted(ids$ids6))
+        desc <- desc %>%
+          filter(weighted == attributes_entered[['weighted']])
         next
       } else if (i == 'directed') {
-        ids$ids7 <- c(ids$ids7,helper_attribute_directed(ids$ids7))
+        desc <- desc %>%
+          filter(directed == attributes_entered[['directed']])
         next
       } else if (i == 'interlayer') {
-          ids$ids8 <- c(ids$ids8,helper_attribute_interlayer(attributes_entered[['interlayer']],ids$ids8))
+        desc <- desc %>%
+          filter(interlayer == attributes_entered[['interlayer']])
         }
         next
       }
-
-  ids_to_keep <- Reduce(intersect, ids)
-  descriptions <- descriptions %>%
-    filter(network_id %in% ids_to_keep) %>%
+  # ids_to_keep <- Reduce(intersect, ids)
+  # descriptions <- descriptions %>%
+  #   filter(network_id %in% ids_to_keep) %>%
+  #   group_by(network_id,network_name)  %>%
+  #   arrange(network_id,network_name)
+  desc <- desc %>%
     group_by(network_id,network_name)  %>%
     arrange(network_id,network_name)
-  return(descriptions)
+  return(desc)
   }
 
+
+
+
+
+tabular::tabular(search)

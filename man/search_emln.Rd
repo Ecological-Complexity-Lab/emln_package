@@ -25,10 +25,7 @@ A tibble containing the network id, emln name and data url. The object including
 Search the database for networks depeding on search parameters specified below.
 }
 \details{
-Possible Search Terms:\tabular{cccccccc}{
-   multilayer_network_types \tab ecological_network_types \tab state_nodes \tab node_number_minimum \tab layer_number_minimum \tab weighted \tab interlayer \tab directed \cr
-   Environment/Temporal/Multiplex/Pertubation/Spatial \tab Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant \tab TRUE/FALSE \tab max node number is 3490 \tab max layer number is 777 \tab TRUE/FALSE \tab TRUE/FALSE \tab TRUE/FALSE \cr
-}
+Possible Search Terms:
 }
 \examples{
 \dontrun{
