@@ -19,20 +19,29 @@ search_emln(
 \item{ecological_network_type, multilayer_network_type, state_node, layer_number_cutoff, node_number_cutoff, weighted, directed, interlayer}{}
 }
 \value{
-A tibble containing the network id, emln name and data url. The object including all datasets corresponding to the query.
+A tibble containing the network id, and all the search arguments for each of the networks that are compatible with the search.
 }
 \description{
 Search the database for networks depeding on search parameters specified below.
 }
 \details{
 Possible Search Terms:
+\describe{
+\item{\strong{multilayer_network_types}}{Environment/Temporal/Multiplex/Pertubation/Spatial}
+\item{\strong{ecological_network_types}}{Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant}
+\item{\strong{state_nodes}}{TRUE/FALSE}
+\item{\strong{node_number_minimum}}{max node number is 3490}
+\item{\strong{layer_number_minimum}}{max layer number is 777}
+\item{\strong{weighted}}{TRUE/FALSE}
+\item{\strong{interlayer}}{TRUE/FALSE}
+\item{\strong{directed}}{TRUE/FALSE}
+}
 }
 \examples{
-\dontrun{
 Generates a tibble of all the networks in the package that are pollination networks
-search_emln(ecological_network_type = 'pollination')
+\code{search_emln(ecological_network_type = 'Plant-Ant')}
 
 Generates a tibble of all the networks in the package that have state nodes and are temporal
-search_emln(multilayer_network_type = 'time', state_node = TRUE)
-}
+\code{search_emln(multilayer_network_type = 'Temporal', state_node = TRUE)}
+
 }

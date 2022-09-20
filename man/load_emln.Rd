@@ -4,10 +4,10 @@
 \alias{load_emln}
 \title{Load networks}
 \usage{
-load_emln(network_id = NULL, network_name = NULL, wide = TRUE)
+load_emln(network_id = NULL, wide = TRUE, ids = TRUE)
 }
 \arguments{
-\item{network_id, , wide=TRUE}{}
+\item{network_id, wide=TRUE, ids=TRUE}{}
 }
 \value{
 An emln object containing 5 dataframes of the relevant network - description, references (only if the network was obtained from a paper), layer, nodes, interactions in a or long format.
@@ -17,10 +17,10 @@ Load specific networks via id or network name, id or name must be entred as list
 }
 \examples{
 \dontrun{
-Load a network via network id (default wide is TRUE)
+Load a network via network id (default wide is TRUE, default ids is TRUE - the result is in wide format and edge list is with node and layer ids not names)
 load_emln(network_id = list(15))
 
-Load a network via network name in a long format
-load_emln(network_name = list('emln20_spatial_angelini'), wide = FALSE)
+Load a network via network name in a long format without switching the node and layer names to ids in the edge list
+load_emln(network_name = list('emln20_spatial_angelini'), wide = FALSE, ids = FALSE)
 }
 }
