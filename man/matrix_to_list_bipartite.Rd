@@ -22,9 +22,8 @@ Assigns column and row names if those do not exist.
 Cannot handle node attributes/metadata. Always assumes an undirected network.
 }
 \examples{
-\dontrun{
 matrix_to_list_bipartite(bipartite::memmott1999, group_names = c('Animals', 'Plants'))
-}
+
 }
 \seealso{
 \code{create_monolayer_object, monolayer}

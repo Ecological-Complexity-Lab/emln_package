@@ -12,9 +12,8 @@
 #' @seealso \code{create_monolayer_object, monolayer}
 #'
 #' @examples
-#' \dontrun{
 #' matrix_to_list_bipartite(bipartite::memmott1999, group_names = c('Animals', 'Plants'))
-#'}
+#'
 #' @export
 ## @import dplyr
 ## @importFrom igraph graph.incidence degree

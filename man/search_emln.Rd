@@ -16,26 +16,27 @@ search_emln(
 )
 }
 \arguments{
-\item{ecological_network_type, multilayer_network_type, state_node, layer_number_cutoff, node_number_cutoff, weighted, directed, interlayer}{}
+\item{ecological_network_type}{Environment/Temporal/Multiplex/Pertubation/Spatial}
+
+\item{multilayer_network_type}{Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant}
+
+\item{weighted}{TRUE/FALSE}
+
+\item{interlayer}{TRUE/FALSE}
+
+\item{directed}{TRUE/FALSE}
+
+\item{state_node}{TRUE/FALSE}
+
+\item{layer_number_cutoff}{The maximum number of layers wanted in the network (max is 777 layers)}
+
+\item{node_number_cutoff}{The maximum number of layers wanted in the network (max is 3490 nodes)}
 }
 \value{
 A tibble containing the network id, and all the search arguments for each of the networks that are compatible with the search.
 }
 \description{
 Search the database for networks depeding on search parameters specified below.
-}
-\details{
-Possible Search Terms:
-\describe{
-\item{\strong{multilayer_network_types}}{Environment/Temporal/Multiplex/Pertubation/Spatial}
-\item{\strong{ecological_network_types}}{Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant}
-\item{\strong{state_nodes}}{TRUE/FALSE}
-\item{\strong{node_number_minimum}}{max node number is 3490}
-\item{\strong{layer_number_minimum}}{max layer number is 777}
-\item{\strong{weighted}}{TRUE/FALSE}
-\item{\strong{interlayer}}{TRUE/FALSE}
-\item{\strong{directed}}{TRUE/FALSE}
-}
 }
 \examples{
 Generates a tibble of all the networks in the package that are pollination networks

@@ -38,29 +38,12 @@ igraph. The first column in the \code{node_metadata} data frame should have
 the names of the nodes in the edge list.
 }
 \examples{
-\dontrun{
-data(otago_nodes)
-data(otago_links)
+network <- load_emln(4)
+nodes <- network$nodes
+links <- network$intra
 
-# Clean and prepare data
-otago_nodes_2 <- otago_nodes \%>\%
-filter(StageID==1) \%>\%
-  select(node_name=WorkingName, node_id_original=NodeID, WorkingName,StageID, everything())
-anyDuplicated(otago_nodes_2$node_name)
-otago_links_2 <- otago_links \%>\%
-filter(LinkType=='Predation') \%>\%
- filter(ConsumerSpecies.StageID==1) \%>\%
- filter(ResourceSpecies.StageID==1) \%>\%
- select(from=ResourceNodeID, to=ConsumerNodeID) \%>\%
- left_join(otago_nodes_2, by=c('from'='node_id_original')) \%>\%
- select(from, node_name, to) \%>\%
- left_join(otago_nodes_2, by=c('to'='node_id_original')) \%>\%
-  select(from=node_name.x, to=node_name.y) \%>\%
- mutate(weight=1)
+list_to_matrix(links, directed = TRUE, node_metadata = nodes)
 
-list_to_matrix(otago_links_2, directed = TRUE,
- bipartite = FALSE, node_metadata = otago_nodes_2)
-}
 
 }
 \seealso{

@@ -3,23 +3,19 @@
 #'@name search_emln
 #'
 #' @description Search the database for networks depeding on search parameters specified below.
-#'
-#' @details Possible Search Terms:
-#' \describe{
-#'   \item{\strong{multilayer_network_types}}{Environment/Temporal/Multiplex/Pertubation/Spatial}
-#'   \item{\strong{ecological_network_types}}{Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant}
-#'   \item{\strong{state_nodes}}{TRUE/FALSE}
-#'   \item{\strong{node_number_minimum}}{max node number is 3490}
-#'   \item{\strong{layer_number_minimum}}{max layer number is 777}
-#'   \item{\strong{weighted}}{TRUE/FALSE}
-#'   \item{\strong{interlayer}}{TRUE/FALSE}
-#'   \item{\strong{directed}}{TRUE/FALSE}
-#' }
-#'
-#' @md
+#' @param ecological_network_type Environment/Temporal/Multiplex/Pertubation/Spatial
+#' @param multilayer_network_type Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant
+#' @param state_node TRUE/FALSE
+#' @param weighted TRUE/FALSE
+#' @param directed TRUE/FALSE
+#' @param interlayer TRUE/FALSE
+#' @param layer_number_cutoff The maximum number of layers wanted in the network (max is 777 layers)
+#' @param node_number_cutoff The maximum number of layers wanted in the network (max is 3490 nodes)
 #'
 #'
-#' @param ecological_network_type,multilayer_network_type,state_node,layer_number_cutoff,node_number_cutoff,weighted,directed,interlayer
+#'
+#'
+#'
 #'
 #' @return A tibble containing the network id, and all the search arguments for each of the networks that are compatible with the search.
 #'
@@ -36,8 +32,15 @@
 search_emln <- function(ecological_network_type=NULL,multilayer_network_type=NULL,
                         state_nodes=NULL,node_number_minimum=NULL,layer_number_minimum=NULL,
                         weighted = NULL, interlayer = NULL, directed =NULL){
-  desc <- loadRData('./data/descriptions.rda') #load the large tibble that contains all the descriptions for it to be filtered
-  attributes_entered <- compact(as.list(match.call()))[-1] #check which arguments were entered so i can loop over it.
+
+  #load the large tibble that contains all the descriptions for it to be filtered
+
+  desc <- loadRData('./data/descriptions.rda')
+
+
+  #check which arguments were entered so I can loop over it.
+
+  attributes_entered <- purrr::compact(as.list(match.call()))[-1]
 
   for (i in names(attributes_entered)) {
       if (i == 'ecological_network_type') {
@@ -74,14 +77,16 @@ search_emln <- function(ecological_network_type=NULL,multilayer_network_type=NUL
         }
         next
       }
-  # ids_to_keep <- Reduce(intersect, ids)
-  # descriptions <- descriptions %>%
-  #   filter(network_id %in% ids_to_keep) %>%
-  #   group_by(network_id,network_name)  %>%
-  #   arrange(network_id,network_name)
+
+  #sort the tibble
+
   desc <- desc %>%
-    group_by(network_id,network_name)  %>%
-    arrange(network_id,network_name)
+    dplyr::group_by(network_id,network_name)  %>%
+    dplyr::arrange(network_id,network_name)
+
+  if (nrow(desc) == 0) {return('There are no Networks with that combination of attributes')}
+
   return(desc)
+
   }
 

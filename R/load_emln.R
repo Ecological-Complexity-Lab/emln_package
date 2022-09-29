@@ -5,24 +5,23 @@
 #' @description Load specific networks via id or network name, id or name must be entred as list.
 
 #'
-#' @param network_id,wide=TRUE,ids=TRUE
+#' @param network_id The network ID retrieved from the emln_search function.
+#' @param wide Will the layers, interactions and nodes return in a wide format (default is TRUE).
+#' @param ids Will the nodes and layers in the edge list returned are ids or node names (default is ids).
 #'
-#' @return An emln object containing 5 dataframes of the relevant network - description, references (only if the network was obtained from a paper), layer, nodes, interactions in a or long format.
+#' @return An emln object containing 5 dataframes of the relevant network - description, references, layer, nodes, state_nodes, interactions in a wide or long format. If one of the previous does not exist, their value will be NULL.
 #'
 #' @examples
-#' \dontrun{
 #' Load a network via network id (default wide is TRUE, default ids is TRUE - the result is in wide format and edge list is with node and layer ids not names)
-#' load_emln(network_id = list(15))
+#' \code{load_emln(network_id = 15)}
 #'
 #' Load a network via network name in a long format without switching the node and layer names to ids in the edge list
-#' load_emln(network_name = list('emln20_spatial_angelini'), wide = FALSE, ids = FALSE)
-#' }
+#' \code{load_emln(network_id = 62, wide = FALSE, ids = FALSE)}
+#' @import tidyr
 #' @export load_emln
 
 
-load_emln <- function(network_id = NULL, wide=TRUE, ids = TRUE) {
-  networks_wanted <- list()
-  arguments_entered <- as.list(match.call())
+load_emln <- function(network_id, wide=TRUE, ids = TRUE) {
 
   #get the network name in order to load it -- depending on the network id entered
 
@@ -43,7 +42,7 @@ load_emln <- function(network_id = NULL, wide=TRUE, ids = TRUE) {
     network$interactions <-  network$interactions %>%
       tidyr::pivot_wider(names_from = 'attribute',
                          values_from = 'value', values_fn = list) %>%
-      select(interaction_id,layer_from,node_from,layer_to,node_to,weight)
+      dplyr::select(interaction_id,layer_from,node_from,layer_to,node_to,weight)
     #pivot layers wider
     network$layers <-  network$layers %>%
       tidyr::pivot_wider(names_from = 'attribute',
@@ -52,7 +51,7 @@ load_emln <- function(network_id = NULL, wide=TRUE, ids = TRUE) {
 
     #turn the interactions node names to ids - if the user wants to - default = it does
     #if statment is to make sure to do the conversion only if the layer/node from is not already in id format)
-    if (ids) {
+    if (ids == TRUE) {
       #join layer_from (
       if (!all(unique(network$layers$layer) %in% unique(network$interactions$layer_from))) {
           network$interactions <- network$interactions %>%
@@ -90,13 +89,13 @@ load_emln <- function(network_id = NULL, wide=TRUE, ids = TRUE) {
       #order the interactions
 
       network$interactions <- network$interactions %>%
-        select(interaction_id, layer_from, node_from, layer_to, node_to, weight, everything())
+        dplyr::select(interaction_id, layer_from, node_from, layer_to, node_to, weight, tidyselect::everything())
     }
 
     #turn the interactions layers and nodes to the infomapecology format
 
-    intra <- network$interactions %>% filter(layer_from==layer_to)
-    inter <- network$interactions %>% filter(layer_from!=layer_to)
+    intra <- network$interactions %>% dplyr::filter(as.data.frame(layer_from)==as.data.frame(layer_to))
+    inter <- network$interactions %>% dplyr::filter(as.data.frame(layer_from)!=as.data.frame(layer_to))
     # If there are no interlayer edges
     if (nrow(inter)==0){inter <- NULL}
 

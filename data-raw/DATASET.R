@@ -2,9 +2,6 @@
 
 usethis::use_data(DATASET, overwrite = TRUE)
 
-
-
-#generate the Rdata for the DATA folder
 library(ggplot2)
 library(readr)
 library(tibble)
@@ -12,6 +9,9 @@ library(dplyr)
 library(readr)
 library(stringr)
 library(usethis)
+
+# generate the Rdata for the DATA folder ----------------------------------
+
 
 
 #read the file path
@@ -25,6 +25,7 @@ sub.folders.long <- sub.folders.long[str_order(sub.folders.short, numeric = T)]
 sub.folders.short <- sub.folders.short[str_order(sub.folders.short, numeric = T)]
 
 
+#create the data file for each network where its format is a list that contains description, references, nodes, state_nodes, interactions and layers for each network.
 for (i in 1:length(sub.folders.long)) {
   if (file.exists(paste(sub.folders.long[[i]],'references.csv',sep = '/'))) {
     if (file.exists(paste(sub.folders.long[[i]],'state_nodes.csv',sep = '/'))) {
@@ -80,7 +81,8 @@ for (i in 1:length(sub.folders.long)) {
 
 descriptions <- tibble()
 for (i in list.files("data")) {
-  theloadedobjects <- loadRData(paste0('data/',i)) #load the networks by order
+  if (i == 'descriptions.rda') {next} #we don't want it to loop on itself
+  theloadedobjects <- loadRData(paste0('data/',i)) #load the network
   descriptions <- rbind(descriptions, tibble(network_id = as.numeric(gsub(i, pattern = '^emln|_.+$', replacement = '')),
                                                network_name =  gsub(i,pattern = '.rda',replacement = ''),
                                                ecological_network_type = filter(theloadedobjects$description, attribute == 'ecological_network_type')$value,
@@ -96,4 +98,4 @@ for (i in list.files("data")) {
 }
 
 
-use_data(descriptions)
+use_data(descriptions) #create the descriptions.rda in the data folder

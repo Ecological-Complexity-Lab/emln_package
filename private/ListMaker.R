@@ -6,6 +6,9 @@ library(readr)
 library(stringr)
 
 
+# In this r file, I move all the formats of each network from the  --------
+
+
 #read the file path
 parent.folder <- "~/GitHub/emln_package/datasets"
 
