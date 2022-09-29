@@ -6,22 +6,21 @@
 
 #'
 #' @param network_id The network ID retrieved from the emln_search function.
-#' @param wide Will the layers, interactions and nodes return in a wide format (default is TRUE).
 #' @param ids Will the nodes and layers in the edge list returned are ids or node names (default is ids).
 #'
-#' @return An emln object containing 5 dataframes of the relevant network - description, references, layer, nodes, state_nodes, interactions in a wide or long format. If one of the previous does not exist, their value will be NULL.
+#' @return An emln object containing 5 dataframes of the relevant network - description, references, layer, nodes, state_nodes, interactions. If one of the previous does not exist, their value will be NULL.
 #'
 #' @examples
-#' Load a network via network id (default wide is TRUE, default ids is TRUE - the result is in wide format and edge list is with node and layer ids not names)
+#' Load a network via network id ( default ids is TRUE - the result is in wide format and edge list is with node and layer ids not names)
 #' \code{load_emln(network_id = 15)}
 #'
 #' Load a network via network name in a long format without switching the node and layer names to ids in the edge list
-#' \code{load_emln(network_id = 62, wide = FALSE, ids = FALSE)}
+#' \code{load_emln(network_id = 62, ids = FALSE)}
 #' @import tidyr
 #' @export load_emln
 
 
-load_emln <- function(network_id, wide=TRUE, ids = TRUE) {
+load_emln <- function(network_id, ids = TRUE) {
 
   #get the network name in order to load it -- depending on the network id entered
 
@@ -89,7 +88,7 @@ load_emln <- function(network_id, wide=TRUE, ids = TRUE) {
       #order the interactions
 
       network$interactions <- network$interactions %>%
-        dplyr::select(interaction_id, layer_from, node_from, layer_to, node_to, weight, tidyselect::everything())
+        dplyr::select(layer_from, node_from, layer_to, node_to, weight, tidyselect::everything(), -interaction_id)
     }
 
     #turn the interactions layers and nodes to the infomapecology format
@@ -99,14 +98,17 @@ load_emln <- function(network_id, wide=TRUE, ids = TRUE) {
     # If there are no interlayer edges
     if (nrow(inter)==0){inter <- NULL}
 
-    out <- list(description=network$description,
-                references=network$references,
-                state_nodes=network$state_nodes,
+
+    out <- list(nodes=network$nodes,
+                layers=network$layers,
                 intra=intra,
                 inter=inter,
-                nodes=network$nodes,
-                layers=network$layers)
+                state_nodes=network$state_nodes,
+                description=network$description,
+                references=network$references)
+
     class(out) <- 'multilayer'
+
     return(out)
 }
 

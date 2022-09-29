@@ -33,17 +33,17 @@
 
 list_to_matrix <- function(x, directed=F, bipartite=T, group_names=c('set_cols','set_rows'), node_metadata=NULL){
   names(x)[3] <- 'weight'
-  g <- graph.data.frame(x, directed = directed, vertices = node_metadata)
+  g <- igraph::graph.data.frame(x, directed = directed, vertices = node_metadata)
   if(bipartite){
-    V(g)$type <- V(g)$name %in% as.data.frame(x)[,1] # As.data.frame is necessary because if x is a tibble then x[,1] does not work
-    output_mat <- as_incidence_matrix(g, names = T, attr = 'weight', sparse = F)
+    igraph::V(g)$type <- igraph::V(g)$name %in% as.data.frame(x)[,1] # As.data.frame is necessary because if x is a tibble then x[,1] does not work
+    output_mat <- igraph::as_incidence_matrix(g, names = T, attr = 'weight', sparse = F)
   } else {
-    output_mat <- as_adjacency_matrix(g, names = T, sparse = F, attr = 'weight')
+    output_mat <- igraph::as_adjacency_matrix(g, names = T, sparse = F, attr = 'weight')
     output_mat <- t(output_mat) # This is needed so from will be in columns and to in rows
   }
 
   # Create a table with node data
-  nodes <- V(g)$name
+  nodes <- igraph::V(g)$name
   if (bipartite){
     node_list <- tibble(node_id=1:length(nodes),
                         node_group=c(rep(group_names[1],ncol(output_mat)),rep(group_names[2],nrow(output_mat))),

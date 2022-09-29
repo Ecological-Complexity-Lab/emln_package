@@ -1,20 +1,27 @@
 Package: emln
-Title: Ecological Multilayer Networks
-Version: 0.0.0.9000
-Authors@R: 
-    person("Noa", "Frydman", , "noafrydman97@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Standardized database of ecological multilayer networks for analysis.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Type: Package
+Title: Data and analysis of ecological multilayer networks
+Version: 0.0.1
+URL: https://github.com/Ecological-Complexity-Lab/emln_package
+Date: 2022-09-29
+Author: Shai Pilosof, <"pilos@post.bgu.ac.il">,
+    person("Noa", "Frydman", email = "noafrydman97@gmail.com", role = "aut"))
+Maintainer: Shai Pilosof <pilos@post.bgu.ac.il>, Geut Galai <geutg@post.bgu.ac.il>, Noa Frydman <noafrydman97@gmail.com>
+BugReports: https://github.com/Ecological-Complexity-Lab/emln_package/issues
+Description: Collection of R functions to perform community detection analysis with Infomap. Also includes standardized objects to store and further analyze monolayer and multilayer networks. Inspired by ecological networks but can work for other networks too! Ideas/requests for features are welcome (open an issue here: https://github.com/Ecological-Complexity-Lab/infomap_ecology_package/issues). This work was supported by research grant ISF (Israel Science Foundation) 1281/20 to Shai Pilosof
+License: GPL
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
-Depends: 
-    R (>= 2.10)
 LazyData: true
-Suggests: 
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
-Imports: 
-    tibble
+Depends:
+  R (>= 4.1.0),
+  magrittr,
+  dplyr,
+  ggplot2,
+  stringr,
+  tibble,
+  tidyr,
+  rlang,
+  igraph,
+  vegan
+Suggests:
+  bipartite
