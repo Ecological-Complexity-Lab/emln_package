@@ -16,7 +16,6 @@
 #'
 #' Load a network via network name in a long format without switching the node and layer names to ids in the edge list
 #' \code{load_emln(network_id = 62, ids = FALSE)}
-#' @import tidyr
 #' @export load_emln
 
 
@@ -34,33 +33,64 @@ load_emln <- function(network_id, ids = TRUE) {
   #load the network and add to the big list depending on if it need to be wide or long
 
     #pivot nodes wider
+
     network$nodes <- network$nodes %>%
       tidyr::pivot_wider(names_from = 'attribute',values_from = 'value',
-                           values_fn = list)
+                           values_fn = list) %>%
+      tidyr::unnest(cols = everything())
+
+    #fix the column types (so not all columns are character type)
+
+    for (i in colnames(network$nodes)) {network$nodes[[i]] <- hablar::retype(network$nodes[[i]])}
+
     #pivot interactions wider
+
     network$interactions <-  network$interactions %>%
       tidyr::pivot_wider(names_from = 'attribute',
                          values_from = 'value', values_fn = list) %>%
-      dplyr::select(interaction_id,layer_from,node_from,layer_to,node_to,weight)
-    #pivot layers wider
-    network$layers <-  network$layers %>%
-      tidyr::pivot_wider(names_from = 'attribute',
-                         values_from = 'value', values_fn = list)
+      dplyr::select(interaction_id,layer_from,node_from,layer_to,node_to,weight) %>%
+      tidyr::unnest(cols = everything())
 
+    #fix the column types
+
+    for (i in colnames(network$interactions)) {network$interactions[[i]] <- hablar::retype(network$interactions[[i]])}
+
+    #pivot layers wider
+
+     network$layers <-  network$layers %>%
+      tidyr::pivot_wider(names_from = 'attribute',
+                         values_from = 'value', values_fn = list) %>%
+      tidyr::unnest(cols = everything()) #if there are multiple types to the same layer, write them as individual rows and not lists
+
+    #fix the column types
+
+    for (i in colnames(network$layers)) {
+      if('date' %in% tolower(i)) {
+        if(all(grepl(pattern = '/', x = network$layers$date))) { #if there are dates that are written with '/' (wrong format to fix)
+          network$layers$date <- strptime(as.character(network$layers$date), "%d/%m/%Y") #fix the format
+          format(network$layers$date, "%Y-%m-%d")
+        }
+      }
+      network$layers[[i]] <- hablar::retype(network$layers[[i]])
+      }
 
     #turn the interactions node names to ids - if the user wants to - default = it does
-    #if statment is to make sure to do the conversion only if the layer/node from is not already in id format)
-    if (ids == TRUE) {
-      #join layer_from (
-      if (!all(unique(network$layers$layer) %in% unique(network$interactions$layer_from))) {
+
+     if (ids == TRUE) {
+
+      #join layer_from
+
+       if (!all(unique(network$layers$layer) %in% unique(network$interactions$layer_from))) {
           network$interactions <- network$interactions %>%
             dplyr::left_join(y = network$layers[,c('layer','layer_name')],
                              by = c('layer_from' = 'layer_name')) %>%
             dplyr::select(-layer_from) %>%
             dplyr::rename(layer_from = layer)
         }
+
       #join node_from
-      if (!all(unique(network$nodes$node_id) %in% unique(network$interactions$node_from))) {
+
+       if (!all(unique(network$nodes$node_id) %in% unique(network$interactions$node_from))) {
         network$interactions <- network$interactions %>%
           dplyr::left_join(y = network$nodes[, c('node_id','node_name')],
                            by = c("node_from" = "node_name")) %>%
@@ -68,16 +98,20 @@ load_emln <- function(network_id, ids = TRUE) {
           dplyr::rename(node_from = node_id)
 
         }
+
       #join layer_to
-      if (!all(unique(network$layers$layer) %in% unique(network$interactions$layer_to))) {
+
+       if (!all(unique(network$layers$layer) %in% unique(network$interactions$layer_to))) {
         network$interactions <- network$interactions %>%
           dplyr::left_join(y = network$layers[,c('layer','layer_name')],
                            by = c('layer_to' = 'layer_name')) %>%
           dplyr::select(-layer_to) %>%
           dplyr::rename(layer_to = layer)
       }
+
       #join node_to
-      if (!all(unique(network$nodes$node_id) %in% unique(network$interactions$node_to))) {
+
+       if (!all(unique(network$nodes$node_id) %in% unique(network$interactions$node_to))) {
         network$interactions <- network$interactions %>%
           dplyr::left_join(y = network$nodes[, c('node_id','node_name')],
                            by = c("node_to" = "node_name")) %>%
@@ -87,15 +121,30 @@ load_emln <- function(network_id, ids = TRUE) {
 
       #order the interactions
 
-      network$interactions <- network$interactions %>%
+       network$interactions <- network$interactions %>%
         dplyr::select(layer_from, node_from, layer_to, node_to, weight, tidyselect::everything(), -interaction_id)
+
+      #convert the weight column to numeric from list
+      #network$interactions$weight <- as.numeric(network$interactions$weight)
+
+      #if the user doesn't want the ids to be used in the intra/inter formats, check if there are networks that *only* have ids
+
+       } else {
+      if (!'layer_name' %in% colnames(network$layers)) {
+          print('layer ids were used, no layer names were found.')
+      }
+      if (!'node_name' %in% colnames(network$nodes)) {
+          print('node ids were used, no node names were found.')
+      }
     }
 
     #turn the interactions layers and nodes to the infomapecology format
 
     intra <- network$interactions %>% dplyr::filter(as.data.frame(layer_from)==as.data.frame(layer_to))
     inter <- network$interactions %>% dplyr::filter(as.data.frame(layer_from)!=as.data.frame(layer_to))
+
     # If there are no interlayer edges
+
     if (nrow(inter)==0){inter <- NULL}
 
 
@@ -111,5 +160,4 @@ load_emln <- function(network_id, ids = TRUE) {
 
     return(out)
 }
-
 
