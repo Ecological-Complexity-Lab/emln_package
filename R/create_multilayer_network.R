@@ -65,14 +65,15 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
   mEdges <- as.data.frame(extended_edge_list)
   Nodes <- nrow(nodes)
   layers <- length(list_of_matrices)
-  mEdges[mEdges$layer_from == 2,]$node_from <- mEdges[mEdges$layer_from == 2,]$node_from + max(mEdges[mEdges$layer_from == 2,]$node_from)
-  mEdges[mEdges$layer_to == 2,]$node_to <- mEdges[mEdges$layer_to == 2,]$node_to + max(mEdges[mEdges$layer_to == 2,]$node_to)
+  max_node <- max(mEdges[mEdges$layer_from == 2,]$node_from)
+  mEdges[mEdges$layer_from == 2,]$node_from <- mEdges[mEdges$layer_from == 2,]$node_from + max_node
+  mEdges$node_to <- mEdges$node_to + max_node
   edges <- data.frame(from = mEdges$node_from,
                       to = mEdges$node_to,
                       weight = mEdges[, 5])
   M <- Matrix::sparseMatrix(i = edges$from, j = edges$to,
                             x = edges$weight, dims = c(Nodes * layers, Nodes * layers))
-  M <- (M + Matrix::t(M)) # Make matrix symmetric
+  #M <- (M + Matrix::t(M)) # Make matrix symmetric
   return(M)}
 
   #if they don't want supra-adjacency matrix
