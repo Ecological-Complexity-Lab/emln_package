@@ -131,10 +131,10 @@ load_emln <- function(network_id, ids = TRUE) {
 
        } else {
       if (!'layer_name' %in% colnames(network$layers)) {
-          print('layer ids were used, no layer names were found.')
+          message('Warning: layer ids were used, no layer names were found.')
       }
       if (!'node_name' %in% colnames(network$nodes)) {
-          print('node ids were used, no node names were found.')
+          print('Warning: node ids were used, no node names were found.')
       }
     }
 

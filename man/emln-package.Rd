@@ -6,7 +6,7 @@
 \alias{emln-package}
 \title{emln: Data and analysis of ecological multilayer networks}
 \description{
-An R package for data and analysis of ecological multilayer networks. This work was supported by research grant ISF (Israel Science Foundation) 1281/20 to Shai Pilosof
+An R package for data and analysis of ecological multilayer networks. Including standarization of data structures and functions to convert between them. This work was supported by research grant ISF (Israel Science Foundation) 1281/20 to Shai Pilosof
 }
 \seealso{
 Useful links:

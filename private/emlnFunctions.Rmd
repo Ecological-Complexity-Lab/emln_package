@@ -19,6 +19,8 @@ library(readr)
 library(stringr)
 ```
 
+
+
 ```{r Creation of lists for each csv file type}
 
 
@@ -108,8 +110,6 @@ Types:
 -   multilayer network (e.g., multiplex)
 
 -   layer (e.g., space)
-
-<!-- -->
 
 -   interaction type (e.g., frugivory)
 
