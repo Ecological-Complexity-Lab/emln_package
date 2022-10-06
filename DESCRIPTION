@@ -24,3 +24,4 @@ Depends:
   vegan
 Suggests:
   bipartite
+RoxygenNote: 7.2.1

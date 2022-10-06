@@ -4,12 +4,16 @@
 \name{emln-package}
 \alias{emln}
 \alias{emln-package}
-\title{emln: Ecological Multilayer Networks}
+\title{emln: Data and analysis of ecological multilayer networks}
 \description{
-Standardized database of ecological multilayer networks for analysis.
+An R package for data and analysis of ecological multilayer networks. This work was supported by research grant ISF (Israel Science Foundation) 1281/20 to Shai Pilosof
 }
-\author{
-\strong{Maintainer}: Noa Frydman \email{noafrydman97@gmail.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/Ecological-Complexity-Lab/emln_package}
+  \item Report bugs at \url{https://github.com/Ecological-Complexity-Lab/emln_package/issues}
+}
 
 }
 \keyword{internal}

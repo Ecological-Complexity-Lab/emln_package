@@ -4,25 +4,23 @@
 \alias{load_emln}
 \title{Load networks}
 \usage{
-load_emln(network_id, wide = TRUE, ids = TRUE)
+load_emln(network_id, ids = TRUE)
 }
 \arguments{
 \item{network_id}{The network ID retrieved from the emln_search function.}
 
-\item{wide}{Will the layers, interactions and nodes return in a wide format (default is TRUE).}
-
 \item{ids}{Will the nodes and layers in the edge list returned are ids or node names (default is ids).}
 }
 \value{
-An emln object containing 5 dataframes of the relevant network - description, references, layer, nodes, state_nodes, interactions in a wide or long format. If one of the previous does not exist, their value will be NULL.
+An emln object containing 5 dataframes of the relevant network - description, references, layer, nodes, state_nodes, interactions. If one of the previous does not exist, their value will be NULL.
 }
 \description{
 Load specific networks via id or network name, id or name must be entred as list.
 }
 \examples{
-Load a network via network id (default wide is TRUE, default ids is TRUE - the result is in wide format and edge list is with node and layer ids not names)
+Load a network via network id ( default ids is TRUE - the result is in wide format and edge list is with node and layer ids not names)
 \code{load_emln(network_id = 15)}
 
 Load a network via network name in a long format without switching the node and layer names to ids in the edge list
-\code{load_emln(network_id = 62, wide = FALSE, ids = FALSE)}
+\code{load_emln(network_id = 62, ids = FALSE)}
 }

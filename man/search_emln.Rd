@@ -28,9 +28,9 @@ search_emln(
 
 \item{state_node}{TRUE/FALSE}
 
-\item{layer_number_cutoff}{The maximum number of layers wanted in the network (max is 777 layers)}
+\item{layer_number_cutoff}{The maximum number of layers wanted in the network}
 
-\item{node_number_cutoff}{The maximum number of layers wanted in the network (max is 3490 nodes)}
+\item{node_number_cutoff}{The maximum number of layers wanted in the network}
 }
 \value{
 A tibble containing the network id, and all the search arguments for each of the networks that are compatible with the search.
@@ -44,5 +44,4 @@ Generates a tibble of all the networks in the package that are pollination netwo
 
 Generates a tibble of all the networks in the package that have state nodes and are temporal
 \code{search_emln(multilayer_network_type = 'Temporal', state_node = TRUE)}
-
 }
