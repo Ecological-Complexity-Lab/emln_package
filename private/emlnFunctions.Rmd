@@ -128,29 +128,7 @@ Numbers of:
 -   nodes
 
 
-
-
-
-Here I want to visualize and extract all the information I have about the layers.
-
-```{r Layer Type Count}
-##first, I will address the layers type, I need to remove the duplicates from the list so I can create a pie chart that shows the proprtion of the types layers in all the networks
-
-#checking for typos, if there is a duplicate that shows up more then once, its a typo
-unique(layer_type$value)
-
-#Capital letters
-layer_type$value <- str_to_title(layer_type$value)
-
-counted_layer_types<-count(layer_type,value)
-colnames(counted_layer_types) = c('layer_type','count')
-
-#calculate the position of the y labels and the proportion of the layers 
-counted_layer_types <- counted_layer_types %>% 
-  arrange(desc(layer_type)) %>%
-  mutate(prop = count / sum(counted_layer_types$count) *100) %>%
-  mutate(ypos = cumsum(prop)- 0.5*prop )
-
+```{r Nodes Information}
 #the lab ggplot2 theme
 paper_figs_theme <- 
   theme_bw()+
@@ -164,22 +142,6 @@ paper_figs_theme_no_legend <-
   paper_figs_theme +
   theme(legend.position = 'none')
 
-#plot the data
-
-#as a bar chart
-p1<-ggplot(counted_layer_types, aes(x=layer_type, y = count, fill=layer_type)) +
-  geom_bar(stat="identity") + xlab('Layer Type') + paper_figs_theme
-p1
-
-
-#as a pie chart
-p2 <- ggplot(counted_layer_types, aes(x="",y=prop, fill=layer_type)) +
- geom_bar(stat="identity", width=1, color="white") + coord_polar("y", start = 0) +
- paper_figs_theme + theme_void()
-p2
-```
-
-```{r Nodes Information}
 #num of nodes per paper
 num_of_nodes <- data.frame()
 for (i in 1:length(all_nodes)) {
@@ -205,7 +167,7 @@ dev.off()
 
 #abundance
 ###a function that returns a dataframe with the networks that have an abundance attribute in their nodes.csv or state_nodes.csv
-abundance <- function() { 
+abundance.physical <- function() { 
   abund <- data.frame()
   for (i in 1:length(all_nodes)) {
     if (TRUE %in% grepl('.*abundance.*', all_nodes[[i]]$attribute)) {
@@ -222,14 +184,13 @@ abundance <- function() {
   return(abund)
 }
 
-abundance()
+abundance.physical()
 
 ```
 
-
-
+Check if there is an abundance attribute in the state nodes
 ```{r State nodes}
-abundance <- function() { ###a function that returns a dataframe with the networks that have an abundance attribute in their nodes.csv 
+abundance.state <- function() { ###a function that returns a dataframe with the networks that have an abundance attribute in their nodes.csv 
   abund <- data.frame()
   for (i in 1:length(all_state_nodes)) {
     if (!length(all_state_nodes[[i]]) == 1) {
@@ -242,7 +203,7 @@ abundance <- function() { ###a function that returns a dataframe with the networ
   return(abund)
 }
 
-abundance()
+abundance.state()
 ```
 
 
@@ -293,10 +254,70 @@ counted_eco_types <- counted_eco_types %>%
 
 p3 <- ggplot(counted_eco_types, aes(x="",y=prop, fill=eco_type)) +
  geom_bar(stat="identity", width=1, color="white") + coord_polar("y", start = 0) +
- paper_figs_theme + ylab('') + xlab('') + ggtitle('Proportion of Ecological Network Types')
+ paper_figs_theme + ylab('') + xlab('') + ggtitle('Proportion of Ecological Layer Types')
 p3 + guides(fill=guide_legend(title="Ecological Network Types"))
 
 
  
 
 ```
+
+
+
+
+```{r Map Visualization}
+latitudes<-NULL
+longitudes<-NULL
+coord <- NULL
+for(i in 1:81){
+  if ('latitude' %in% all_layers[[i]]$attribute) {
+    coord <- rbind(coord, data.frame(network_id = i,
+                                     latitude = as.numeric(unlist(strsplit(filter(all_layers[[i]],
+                                                                       attribute == 'latitude')$value,split = ','))),
+                                     longitude = as.numeric(unlist(strsplit(filter(all_layers[[i]],
+                                                                        attribute == 'longitude')$value, split =',')))
+    ))
+    latitudes<-c(latitudes,all_layers[[i]] %>% filter(attribute=="latitude") %>% unique)
+    longitudes<-c(longitudes,all_layers[[i]] %>% filter(attribute=="longitude") %>% unique) 
+  }
+}
+
+coord <- coord %>%
+  group_by(latitude, longitude) %>%
+  distinct() %>% 
+  na.omit()
+
+
+worldmap <- map_data("world")
+ggplot(worldmap) +
+  geom_map(
+    data = worldmap, map = worldmap,
+    aes(long, lat, map_id = region),
+    color = "white", fill = "lightgray", size = 0.1
+  ) +
+  geom_point(
+    data = coord,
+    aes(longitude, latitude, color = network_id),
+    alpha = 0.6
+  ) +
+  expand_limits(x = worldmap$long, y = worldmap$lat) +
+  theme_void() +
+  theme(legend.position = "none") 
+ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/worldmap_plot_new.pdf",width = 25,height =15) 
+
+ggplot() +
+  geom_map(
+    data = worldmap, map = worldmap,
+    aes(long, lat, map_id = region),
+    color = "white", fill = "lightgray", size = 0.1
+  ) +
+  geom_point(
+    data = coord,
+    aes(longitude, latitude, color = network_id),
+    alpha = 0.6
+  ) + theme_void() +
+  theme(legend.position = "none") 
+
+
+```
+

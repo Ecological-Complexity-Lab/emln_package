@@ -122,7 +122,7 @@ load_emln <- function(network_id, ids = TRUE) {
       #order the interactions
 
        network$interactions <- network$interactions %>%
-        dplyr::select(layer_from, node_from, layer_to, node_to, weight, tidyselect::everything(), -interaction_id)
+        dplyr::select(node_from, layer_from, node_to, layer_to, weight, tidyselect::everything(), -interaction_id)
 
       #convert the weight column to numeric from list
       #network$interactions$weight <- as.numeric(network$interactions$weight)
@@ -134,24 +134,14 @@ load_emln <- function(network_id, ids = TRUE) {
           message('Warning: layer ids were used, no layer names were found.')
       }
       if (!'node_name' %in% colnames(network$nodes)) {
-          print('Warning: node ids were used, no node names were found.')
+          message('Warning: node ids were used, no node names were found.')
       }
     }
-
-    #turn the interactions layers and nodes to the infomapecology format
-
-    intra <- network$interactions %>% dplyr::filter(as.data.frame(layer_from)==as.data.frame(layer_to))
-    inter <- network$interactions %>% dplyr::filter(as.data.frame(layer_from)!=as.data.frame(layer_to))
-
-    # If there are no interlayer edges
-
-    if (nrow(inter)==0){inter <- NULL}
 
 
     out <- list(nodes=network$nodes,
                 layers=network$layers,
-                intra=intra,
-                inter=inter,
+                extended=network$interactions,
                 state_nodes=network$state_nodes,
                 description=network$description,
                 references=network$references)

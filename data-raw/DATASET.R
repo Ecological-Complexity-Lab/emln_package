@@ -1,6 +1,6 @@
 ## code to prepare `DATASET` dataset goes here
 
-usethis::use_data(DATASET, overwrite = TRUE)
+#usethis::use_data(DATASET, overwrite = TRUE)
 
 library(ggplot2)
 library(readr)
@@ -98,4 +98,4 @@ for (i in list.files("data")) {
 }
 
 
-use_data(descriptions) #create the descriptions.rda in the data folder
+use_data(descriptions, overwrite =  TRUE) #create the descriptions.rda in the data folder
