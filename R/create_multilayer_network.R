@@ -51,7 +51,7 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
     extended_edge_list[i,3] <- as.character(nodes[nodes$node_name == unlist(extended_edge_list[i,3]),]$node_id)
   }
 
-  extended_edge_list <- hablar::retype(extended_edge_list)
+  extended_edge_list <- hablar::retype(extended_edge_list) ###?
 
 
   ###  conversion of the extended edge list to a supra-adjacency matrix  ###
@@ -83,9 +83,8 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
 }
 
 
-
-# x <- matrix(rbinom(n = 15, size = 1, prob = 1),nrow=3, ncol = 5)
-# y <- matrix(rbinom(n = 15, size = 1, prob = 1),nrow=3, ncol = 5)
+# x <- matrix(rbinom(n = 15, size = 1, prob = 0.5),nrow=3, ncol = 5)
+# y <- matrix(rbinom(n = 15, size = 1, prob = 0.5),nrow=3, ncol = 5)
 #
 # matrix1 <- as.matrix(create_multilayer_network(list(x,y), bipartite = T, Directed = T,
 #                                                isSupraMatrix = T))

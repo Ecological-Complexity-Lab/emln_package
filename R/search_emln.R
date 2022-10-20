@@ -27,6 +27,8 @@
 #' Generates a tibble of all the networks in the package that have state nodes and are temporal
 #' \code{search_emln(multilayer_network_type = 'Temporal', state_node = TRUE)}
 #' @export search_emln
+#'
+#'
 
 search_emln <- function(ecological_network_type=NULL,multilayer_network_type=NULL,
                         state_nodes=NULL,node_number_minimum=NULL,layer_number_minimum=NULL,
