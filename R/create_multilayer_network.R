@@ -92,6 +92,9 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
 # matrix2 <- as.matrix(create_multilayer_network(list(bipartite::olesen2002aigrettes,bipartite::olesen2002flores),
 #                                                isSupraMatrix = T, bipartite = T, Directed = F, Interlayer = data.frame(node_from = 'Protaetia.aurichalcea', layer_from = 1, node_to = 'Reseda:luteola', layer_to = 2, weight = 234)))
 #
+#
+#
+#
 # image(x = matrix2, useRaster=TRUE, axes=F)
 
 
