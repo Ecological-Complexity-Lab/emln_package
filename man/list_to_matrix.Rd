@@ -40,7 +40,7 @@ the names of the nodes in the edge list.
 \examples{
 network <- load_emln(4)
 nodes <- network$nodes
-links <- network$intra
+links <- network$interactions
 
 list_to_matrix(links, directed = TRUE, node_metadata = nodes)
 

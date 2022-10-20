@@ -82,8 +82,8 @@ load_emln <- function(network_id, ids = TRUE) {
 
        if (!all(unique(network$layers$layer) %in% unique(network$interactions$layer_from))) {
           network$interactions <- network$interactions %>%
-            dplyr::left_join(y = network$layers[,c('layer','layer_name')],
-                             by = c('layer_from' = 'layer_name')) %>%
+            dplyr::left_join(y = network$layers[,c('layer','name')],
+                             by = c('layer_from' = 'name')) %>%
             dplyr::select(-layer_from) %>%
             dplyr::rename(layer_from = layer)
         }
@@ -103,8 +103,8 @@ load_emln <- function(network_id, ids = TRUE) {
 
        if (!all(unique(network$layers$layer) %in% unique(network$interactions$layer_to))) {
         network$interactions <- network$interactions %>%
-          dplyr::left_join(y = network$layers[,c('layer','layer_name')],
-                           by = c('layer_to' = 'layer_name')) %>%
+          dplyr::left_join(y = network$layers[,c('layer','name')],
+                           by = c('layer_to' = 'name')) %>%
           dplyr::select(-layer_to) %>%
           dplyr::rename(layer_to = layer)
       }
@@ -130,12 +130,17 @@ load_emln <- function(network_id, ids = TRUE) {
       #if the user doesn't want the ids to be used in the intra/inter formats, check if there are networks that *only* have ids
 
        } else {
-      if (!'layer_name' %in% colnames(network$layers)) {
+      if (!'name' %in% colnames(network$layers)) {
           message('Warning: layer ids were used, no layer names were found.')
       }
       if (!'node_name' %in% colnames(network$nodes)) {
           message('Warning: node ids were used, no node names were found.')
       }
+
+         #order the interactions
+
+         network$interactions <- network$interactions %>%
+           dplyr::select(node_from, layer_from, node_to, layer_to, weight, tidyselect::everything(), -interaction_id)
     }
 
 

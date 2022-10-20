@@ -16,4 +16,13 @@ Useful links:
 }
 
 }
+\author{
+\strong{Maintainer}: Shai Pilosof \email{pilos@post.bgu.ac.il}
+
+Authors:
+\itemize{
+  \item Noa Frydman \email{noafrydman97@gmail.com}
+}
+
+}
 \keyword{internal}
