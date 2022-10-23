@@ -69,7 +69,7 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
   #M <- (M + Matrix::t(M)) # Make matrix symmetric
   return(M)}
 
-  #if they don't want supra-adjacency matrix
+  ###  if they don't want supra-adjacency matrix  ###
   out <- list(nodes=nodes,
               layers=NULL,
               extended=extended_edge_list,
@@ -81,6 +81,12 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
 
   return(out)
 }
+
+
+
+
+### examples ###
+
 
 
 # x <- matrix(rbinom(n = 15, size = 1, prob = 0.5),nrow=3, ncol = 5)
