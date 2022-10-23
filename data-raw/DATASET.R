@@ -79,6 +79,16 @@ for (i in 1:length(sub.folders.long)) {
 
 # Create dataset that contains all the description files  -----------------
 
+
+#run this helper function so the next function will be able to work
+loadRData <- function(fileName){
+  load(fileName)
+  get(ls()[ls() != "fileName"])
+}
+
+
+
+#loading all the networks description file and creating a big description dataframe that connects all the data to the releven networks.
 descriptions <- tibble()
 for (i in list.files("data")) {
   if (i == 'descriptions.rda') {next} #we don't want it to loop on itself
