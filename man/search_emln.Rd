@@ -16,9 +16,13 @@ search_emln(
 )
 }
 \arguments{
-\item{ecological_network_type}{Environment/Temporal/Multiplex/Pertubation/Spatial}
+\item{ecological_network_type}{Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant}
 
-\item{multilayer_network_type}{Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant}
+\item{multilayer_network_type}{Environment/Temporal/Multiplex/Pertubation/Spatial}
+
+\item{node_number_minimum}{The minimum number of layers wanted in the network}
+
+\item{layer_number_minimum}{The minimum number of layers wanted in the network}
 
 \item{weighted}{TRUE/FALSE}
 
@@ -27,10 +31,6 @@ search_emln(
 \item{directed}{TRUE/FALSE}
 
 \item{state_node}{TRUE/FALSE}
-
-\item{layer_number_cutoff}{The maximum number of layers wanted in the network}
-
-\item{node_number_cutoff}{The maximum number of layers wanted in the network}
 }
 \value{
 A tibble containing the network id, and all the search arguments for each of the networks that are compatible with the search.

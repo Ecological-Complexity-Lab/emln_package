@@ -3,14 +3,14 @@
 #'@name search_emln
 #'
 #' @description Search the database for networks depeding on search parameters specified below.
-#' @param ecological_network_type Environment/Temporal/Multiplex/Pertubation/Spatial
-#' @param multilayer_network_type Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant
+#' @param ecological_network_type Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant
+#' @param multilayer_network_type Environment/Temporal/Multiplex/Pertubation/Spatial
 #' @param state_node TRUE/FALSE
 #' @param weighted TRUE/FALSE
 #' @param directed TRUE/FALSE
 #' @param interlayer TRUE/FALSE
-#' @param layer_number_cutoff The maximum number of layers wanted in the network
-#' @param node_number_cutoff The maximum number of layers wanted in the network
+#' @param layer_number_minimum The minimum number of layers wanted in the network
+#' @param node_number_minimum The minimum number of layers wanted in the network
 #'
 #'
 #'
@@ -58,13 +58,13 @@ search_emln <- function(ecological_network_type=NULL,multilayer_network_type=NUL
         desc <- desc %>%
           dplyr::filter(state_nodes == attributes_entered[['state_nodes']])
         next
-      } else if (i == 'node_number_cutoff') {
+      } else if (i == 'node_number_minimum') {
         desc <- desc %>%
-          dplyr::filter(node_number_cutoff >= attributes_entered[['node_number_cutoff']])
+          dplyr::filter(node_num >= attributes_entered[['node_number_minimum']])
         next
-      } else if (i == 'layer_number_cutoff') {
+      } else if (i == 'layer_number_minimum') {
         desc <- desc %>%
-          dplyr::filter(layer_number_cutoff >= attributes_entered[['layer_number_cutoff']])
+          dplyr::filter(layer_num >= attributes_entered[['layer_number_minimum']])
         next
       } else if (i == 'weighted') {
         desc <- desc %>%
