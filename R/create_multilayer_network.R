@@ -23,7 +23,11 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
     ###  edge list  ###
     if (bipartite) {igraph_network <- matrix_to_list_bipartite(x = i,group_names = c('set_cols','set_rows'))
                     edge_list <- igraph_network$edge_list}
-    if (!bipartite) {igraph_network <- matrix_to_list_unipartite(x = i, directed = Directed)
+    if (!bipartite) {print(sprintf('Layer # %s', layer))
+                     #In an undirected network expected a symmetric matrix, otherwise throw the warning. 
+                     if ((Directed == FALSE) && (isSymmetric(i) ==FALSE))
+                            print(sprintf('WARNING: Layer %s. In an undirected network expected a symmetric matrix. Proceed with caution! The result edge list is unexpected.', layer))
+                     igraph_network <- matrix_to_list_unipartite(x = i, directed = Directed)
                      edge_list <- igraph_network$edge_list}
 
     #add the current edge list to the extended_edge_list
