@@ -21,7 +21,10 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
   for (i in list_of_matrices) {
     layer <- layer+1
     ###  edge list  ###
-    if (bipartite) {igraph_network <- matrix_to_list_bipartite(x = i,group_names = c('set_cols','set_rows'))
+    if (bipartite) {#in supra-adjacency matrix expected i=j
+                    if (isSupraMatrix == TRUE)
+                        stop('ERROR: supra-adjacency matrix is suitable only for unipartite networks')
+                    igraph_network <- matrix_to_list_bipartite(x = i,group_names = c('set_cols','set_rows'))
                     edge_list <- igraph_network$edge_list}
     if (!bipartite) {print(sprintf('Layer # %s', layer))
                      #In an undirected network expected a symmetric matrix, otherwise throw the warning. 
