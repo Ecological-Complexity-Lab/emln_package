@@ -27,7 +27,7 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
                     igraph_network <- matrix_to_list_bipartite(x = i,group_names = c('set_cols','set_rows'))
                     edge_list <- igraph_network$edge_list}
     if (!bipartite) {print(sprintf('Layer # %s', layer))
-                     #In an undirected network expected a symmetric matrix, otherwise throw the warning. 
+                     #In an undirected network expected a symmetric matrix, otherwise throw the warning.
                      if ((Directed == FALSE) && (isSymmetric(i) ==FALSE))
                             print(sprintf('WARNING: Layer %s. In an undirected network expected a symmetric matrix. Proceed with caution! The result edge list is unexpected.', layer))
                      igraph_network <- matrix_to_list_unipartite(x = i, directed = Directed)
@@ -67,6 +67,12 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
     #                                                     Nodes =  nrow(nodes),
     #                                                     isDirected = Directed,
     #                                                     Layers = length(list_of_matrices))
+  SAM_nodes_map <- NULL
+  SAM_nodes_map <- rbind(SAM_nodes_map, tibble(layer_id = extended_edge_list$layer_from, node_id = extended_edge_list$node_from, state_node_id = 0, node_name = NA ))
+  SAM_nodes_map <- rbind(SAM_nodes_map, tibble(layer_id = extended_edge_list$layer_to, node_id = extended_edge_list$node_to, state_node_id = 0, node_name = NA ))
+  SAM_nodes_map <- unique(SAM_nodes_map)
+  SAM_nodes_map$node_name[SAM_nodes_map$node_id == nodes$node_id] <- nodes$node_name
+  SAM_nodes_map$state_node_id <- ifelse(SAM_nodes_map$layer_id ==1, SAM_nodes_map$node_id, (SAM_nodes_map$node_id+nrow(nodes)) )
   mEdges <- as.data.frame(extended_edge_list)
   Nodes <- nrow(nodes)
   layers <- length(list_of_matrices)
@@ -74,7 +80,17 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
                       weight = mEdges[, 5])
   M <- list_to_matrix(edges, bipartite = bipartite, directed = Directed)$mat
   #M <- (M + Matrix::t(M)) # Make matrix symmetric
-  return(M)}
+  out <- list(nodes=nodes,
+              layers=NULL,
+              extended=extended_edge_list,
+              state_nodes=NULL,
+              description=NULL,
+              references=NULL,
+              SAM = M,
+              SAM_nodes_map = SAM_nodes_map,
+              directed = Directed)
+  class(out) <- 'multilayer'
+  return(out)}
 
   ###  if they don't want supra-adjacency matrix  ###
   out <- list(nodes=nodes,
