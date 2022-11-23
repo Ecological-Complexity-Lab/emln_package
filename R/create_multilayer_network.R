@@ -98,7 +98,8 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
               extended=extended_edge_list,
               state_nodes=NULL,
               description=NULL,
-              references=NULL)
+              references=NULL,
+              directed = Directed)
 
   class(out) <- 'multilayer'
 
