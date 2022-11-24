@@ -68,10 +68,10 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
     #                                                     isDirected = Directed,
     #                                                     Layers = length(list_of_matrices))
   SAM_nodes_map <- NULL
-  SAM_nodes_map <- rbind(SAM_nodes_map, tibble(layer_id = extended_edge_list$layer_from, node_id = extended_edge_list$node_from, state_node_id = 0, node_name = NA ))
-  SAM_nodes_map <- rbind(SAM_nodes_map, tibble(layer_id = extended_edge_list$layer_to, node_id = extended_edge_list$node_to, state_node_id = 0, node_name = NA ))
+  SAM_nodes_map <- rbind(SAM_nodes_map, tibble(layer_id = extended_edge_list$layer_from, node_id = extended_edge_list$node_from, state_node_id = 0 ))
+  SAM_nodes_map <- rbind(SAM_nodes_map, tibble(layer_id = extended_edge_list$layer_to, node_id = extended_edge_list$node_to, state_node_id = 0 ))
   SAM_nodes_map <- unique(SAM_nodes_map)
-  SAM_nodes_map$node_name[SAM_nodes_map$node_id == nodes$node_id] <- nodes$node_name
+  SAM_nodes_map <- SAM_nodes_map %>% left_join(nodes, by = c('node_id' = 'node_id'))
   SAM_nodes_map$state_node_id <- ifelse(SAM_nodes_map$layer_id ==1, SAM_nodes_map$node_id, (SAM_nodes_map$node_id+nrow(nodes)) )
   mEdges <- as.data.frame(extended_edge_list)
   Nodes <- nrow(nodes)
@@ -107,11 +107,7 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
 }
 
 
-
-
 ### examples ###
-
-
 
 # x <- matrix(rbinom(n = 15, size = 1, prob = 0.5),nrow=3, ncol = 5)
 # y <- matrix(rbinom(n = 15, size = 1, prob = 0.5),nrow=3, ncol = 5)
@@ -127,4 +123,24 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
 # image(x = matrix2, useRaster=TRUE, axes=F)
 
 
+#### QA ### Shirly
+
+x_binary_Nonames_square<-matrix(rbinom(16, 1, 0.6), 4, 4)
+x_Nobinary_Nonames_square <- x_binary_Nonames_square*round(runif(16,1,4),0)
+
+x_Nobinary_names_square<-x_Nobinary_Nonames_square
+rownames(x_Nobinary_names_square)<-c('Orange', 'Blue', 'Red', 'Green')
+colnames(x_Nobinary_names_square)<-c('Orange', 'Blue', 'Red', 'Green')
+
+x2_Nobinary_names_square<-x_Nobinary_Nonames_square
+rownames(x2_Nobinary_names_square)<-c('Red', 'Purple', 'Green', 'White')
+colnames(x2_Nobinary_names_square)<-c('Red', 'Purple', 'Green', 'White')
+
+x3_Nobinary_names_square<-x_Nobinary_Nonames_square
+rownames(x3_Nobinary_names_square)<-c('Orange', 'Purple', 'Red', 'White')
+colnames(x3_Nobinary_names_square)<-c('Orange', 'Purple', 'Red', 'White')
+
+
+xy_Nobinary_namesColRow_square<-x_Nobinary_names_square
+colnames(xy_Nobinary_namesColRow_square) <-c("Xx", "Gg","Aa","Bb")
 
