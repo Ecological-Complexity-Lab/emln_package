@@ -22,16 +22,19 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
     layer <- layer+1
     ###  edge list  ###
     if (bipartite) {#in supra-adjacency matrix expected i=j
+                    print(sprintf('Layer # %s processing.', layer))
                     if (isSupraMatrix == TRUE)
                         stop('ERROR: supra-adjacency matrix is suitable only for unipartite networks')
                     igraph_network <- matrix_to_list_bipartite(x = i,group_names = c('set_cols','set_rows'))
-                    edge_list <- igraph_network$edge_list}
-    if (!bipartite) {print(sprintf('Layer # %s', layer))
+                    edge_list <- igraph_network$edge_list
+                    print('Done.')}
+    if (!bipartite) {print(sprintf('Layer # %s processing.', layer))
                      #In an undirected network expected a symmetric matrix, otherwise throw the warning.
                      if ((Directed == FALSE) && (isSymmetric(i) ==FALSE))
-                            print(sprintf('WARNING: Layer %s. In an undirected network expected a symmetric matrix. Proceed with caution! The result edge list is unexpected.', layer))
+                            print(sprintf('WARNING: In an undirected network expected a symmetric matrix. Proceed with caution! The result edge list is unexpected.'))
                      igraph_network <- matrix_to_list_unipartite(x = i, directed = Directed)
-                     edge_list <- igraph_network$edge_list}
+                     edge_list <- igraph_network$edge_list
+                     print('Done.')}
 
     #add the current edge list to the extended_edge_list
     extended_edge_list <- rbind(extended_edge_list,tibble(node_from=edge_list$from, layer_from= layer, node_to=edge_list$to,
