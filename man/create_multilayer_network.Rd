@@ -22,5 +22,5 @@ supra-adjacency matrix from a list of matrices
 This function creates a multilayer network out of a list of matrices.
 }
 \examples{
-create_multilayer_network(list(bipartite::olesen2002aigrettes,bipartite::olesen2002flores), bipartite = TRUE, Directed = FALSE, isSupraMatrix = TRUE)
+create_multilayer_network(list(bipartite::olesen2002aigrettes,bipartite::olesen2002flores), bipartite = TRUE, Directed = FALSE, isSupraMatrix = FALSE)
 }

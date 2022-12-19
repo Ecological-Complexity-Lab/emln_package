@@ -8,7 +8,7 @@
 #' @export
 #'
 #' @examples
-#' create_multilayer_network(list(bipartite::olesen2002aigrettes,bipartite::olesen2002flores), bipartite = TRUE, Directed = FALSE, isSupraMatrix = TRUE)
+#' create_multilayer_network(list(bipartite::olesen2002aigrettes,bipartite::olesen2002flores), bipartite = TRUE, Directed = FALSE, isSupraMatrix = FALSE)
 
 create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isSupraMatrix, Interlayer = NULL) {
 
