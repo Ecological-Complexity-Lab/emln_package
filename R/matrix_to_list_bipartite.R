@@ -21,14 +21,17 @@
 
 matrix_to_list_bipartite <- function(x, group_names=c('set_cols','set_rows')){
   # Assign column and row names
-  if (is.null(rownames(x))) {rownames(x) <- paste('R',1:nrow(x),sep='')}
-  if (is.null(colnames(x))) {colnames(x) <- paste('C',1:ncol(x),sep='')}
+  if (is.null(rownames(x))) {print('Assigning missing row names'); rownames(x) <- paste('R',1:nrow(x),sep='')}
+  if (is.null(colnames(x))) {print('Assigning missing column names'); colnames(x) <- paste('C',1:ncol(x),sep='')}
+
+  #Check that in the bipartite network no overlap between the sets of nodes.
+  if (length(intersect(rownames(x),colnames(x)))>0)  {stop('ERROR: Check that there is no overlap between communities in the bipartite network.')}
 
   g <- igraph::graph.incidence(t(x), weighted = T) # transposing ensures that "from" is at the columns and "to" is the rows
   l_bip <- as_tibble(igraph::as_data_frame(g, 'edges'))
   # summary(g)
   if(any(igraph::degree(g)==0)){print('Some node have no interactions. They will appear in the node table but not in the edge list')}
-  nodes <- c(sort(colnames(x)),sort(rownames(x)))
+  nodes <- c((colnames(x)),(rownames(x)))
   node_list <- tibble(node_id=1:length(nodes),
                       node_group=c(rep(group_names[1],ncol(x)),rep(group_names[2],nrow(x))),
                       node_name=nodes)
