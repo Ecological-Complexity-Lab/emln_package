@@ -101,25 +101,21 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
   M <- list_to_matrix(edges, bipartite = bipartite, directed = Directed)$mat
   #M <- (M + Matrix::t(M)) # Make matrix symmetric
   out <- list(nodes=nodes,
-              layers=NULL,
+              layers = tibble(layer = 1:length(list_of_matrices), directed = Directed),
               extended=extended_edge_list,
               state_nodes=NULL,
               description=NULL,
-              references=NULL,
-              SAM = M,
-              SAM_nodes_map = SAM_nodes_map,
-              directed = Directed)
+              references=NULL)
   class(out) <- 'multilayer'
-  return(out)}
+  return(list(Multilayer=out, SAM=M , SAM_nodes_map=SAM_nodes_map))}
 
   ###  if they don't want supra-adjacency matrix  ###
   out <- list(nodes=nodes,
-              layers=NULL,
+              layers = tibble(layer = 1:length(list_of_matrices), directed = Directed),
               extended=extended_edge_list,
               state_nodes=NULL,
               description=NULL,
-              references=NULL,
-              directed = Directed)
+              references=NULL)
 
   class(out) <- 'multilayer'
 
