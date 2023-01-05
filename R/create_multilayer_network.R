@@ -14,6 +14,7 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
 
   node_names <- NULL
   extended_edge_list <- NULL
+  node_names_layer <-NULL
   layer <- 0
 
 
@@ -43,12 +44,28 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
 
     ###  nodes  ###
     node_names <- unique(c(node_names,igraph_network$nodes$node_name))
+    node_names_layer <- rbind(node_names_layer, tibble(node_number = 1:length(igraph_network$nodes$node_name), node_name = igraph_network$nodes$node_name, node_layer = layer))
 
   }
 
 
   ##if inter exists - do an rbind to the extended edge list
-  if (!is.null(Interlayer)) {extended_edge_list <- rbind(extended_edge_list,Interlayer)}
+  if (!is.null(Interlayer)) {
+                            tInter_from<-unique(Interlayer[c("node_from","layer_from")])
+                            tInter_to<-unique(Interlayer[c("node_to","layer_to")])
+                            tNodes<-unique(node_names_layer[c("node_name","node_layer")])
+                            colnames(tInter_from) = colnames(tInter_to) = colnames(tNodes)
+                            tInter_all <-unique(rbind(tInter_from, tInter_to))
+                            tMerge <-merge(tNodes, tInter_all)
+
+                            if (dim(tMerge)[1]==dim(tInter_all)[1])
+                                                extended_edge_list <- rbind(extended_edge_list,Interlayer)
+                            else{
+                                  tAntiMerge <- anti_join(tInter_all, tNodes)
+                                  print('WARNING: Check node names in the Interlayer dataframe. Some nodes do not appear in the list of provided matrices.')
+                                  print(sprintf('Problematic nodes : %s', list(tAntiMerge)))
+                                  print('Interlayer not added.')}
+  }
 
 
   #Create node ids
