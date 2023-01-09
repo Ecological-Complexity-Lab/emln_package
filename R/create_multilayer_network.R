@@ -16,21 +16,22 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
   extended_edge_list <- NULL
   node_names_layer <-NULL
   layer <- 0
+  SAM_nodes_map <- NULL
 
 
-  #loop over the list of matrices, creating an edge list for each network seperetly and appending them to the original edge list
+  #Loop over the list of matrices, creating an edge list for each network separately and appending them to the original edge list.
   for (i in list_of_matrices) {
     layer <- layer+1
     ###  edge list  ###
-    if (bipartite) {#in supra-adjacency matrix expected i=j
-                    print(sprintf('Layer # %s processing.', layer))
+    if (bipartite) {print(sprintf('Layer # %s processing.', layer))
+                    #Future development: Supra-adjacency matrix for the bipartite network.
                     if (isSupraMatrix == TRUE)
                         stop('ERROR: supra-adjacency matrix is suitable only for unipartite networks')
                     igraph_network <- matrix_to_list_bipartite(x = i,group_names = c('set_cols','set_rows'))
                     edge_list <- igraph_network$edge_list
                     print('Done.')}
     if (!bipartite) {print(sprintf('Layer # %s processing.', layer))
-                     #In an undirected network expected a symmetric matrix, otherwise throw the warning.
+                     #Expected a symmetric matrix in an undirected network. Otherwise, throw the warning.
                      if ((Directed == FALSE) && (isSymmetric(i) ==FALSE))
                             print(sprintf('WARNING: In an undirected network expected a symmetric matrix. Proceed with caution! The result edge list is unexpected.'))
                      igraph_network <- matrix_to_list_unipartite(x = i, directed = Directed)
@@ -49,7 +50,8 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
   }
 
 
-  ##if inter exists - do an rbind to the extended edge list
+  # If Interlayer exists - do an rbind to the extended edge list
+  # If some nodes do not appear in the list of provided matrices, Interlayer will not be added to the extended edge list.
   if (!is.null(Interlayer)) {
                             tInter_from<-unique(Interlayer[c("node_from","layer_from")])
                             tInter_to<-unique(Interlayer[c("node_to","layer_to")])
@@ -68,7 +70,7 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
   }
 
 
-  #Create node ids
+  # Create node ids
   nodes <- tibble(node_id = 1:length(node_names), node_name = node_names)
 
 
@@ -87,7 +89,7 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
     #                                                     Nodes =  nrow(nodes),
     #                                                     isDirected = Directed,
     #                                                     Layers = length(list_of_matrices))
-  SAM_nodes_map <- NULL
+
   SAM_nodes_map <- rbind(SAM_nodes_map, tibble(layer_id = extended_edge_list$layer_from, node_id = extended_edge_list$node_from, state_node_id = 0 ))
   SAM_nodes_map <- rbind(SAM_nodes_map, tibble(layer_id = extended_edge_list$layer_to, node_id = extended_edge_list$node_to, state_node_id = 0 ))
   SAM_nodes_map <- unique(SAM_nodes_map)

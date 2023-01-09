@@ -19,9 +19,9 @@
 #' @seealso Functions \code{create_monolayer_object, monolayer}, also,\code{graph.data.frame} from igraph.
 #'
 #' @examples
-#' network <- load_emln(4)
+#' network <- load_emln(40)
 #' nodes <- network$nodes
-#' links <- network$interactions
+#' links <- network$extended
 #'
 #' list_to_matrix(links, directed = TRUE, node_metadata = nodes)
 #'

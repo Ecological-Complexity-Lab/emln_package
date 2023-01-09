@@ -18,9 +18,9 @@ An emln object containing 5 dataframes of the relevant network - description, re
 Load specific networks via id or network name, id or name must be entred as list.
 }
 \examples{
-Load a network via network id ( default ids is TRUE - the result is in wide format and edge list is with node and layer ids not names)
-\code{load_emln(network_id = 15)}
+# Load a network via network id ( default ids is TRUE - the result is in wide format and edge list is with node and layer ids not names)
+load_emln(network_id = 2)
 
-Load a network via network name in a long format without switching the node and layer names to ids in the edge list
-\code{load_emln(network_id = 62, ids = FALSE)}
+# Load a network via network name in a long format without switching the node and layer names to ids in the edge list
+load_emln(network_id = 55, ids = FALSE)
 }
