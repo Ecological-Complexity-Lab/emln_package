@@ -15,7 +15,8 @@ library(usethis)
 
 
 #read the file path
-parent.folder <- "~/GitHub/emln_package/data-raw/"
+parent.folder <- "/Users/shirlyf/Documents/GitHub/emln_package/data-raw/"
+parent_data.folder <- "/Users/shirlyf/Documents/GitHub/emln_package/data/"
 
 sub.folders.short <- list.dirs(path = parent.folder, recursive = F, full.names = F)
 sub.folders.long <- list.dirs(path = parent.folder, recursive = F, full.names = T)
@@ -90,9 +91,11 @@ loadRData <- function(fileName){
 
 #loading all the networks description file and creating a big description dataframe that connects all the data to the releven networks.
 descriptions <- tibble()
-for (i in list.files("data")) {
+#for (i in list.files("data")) {
+for (i in list.files(parent_data.folder)) {
   if (i == 'descriptions.rda') {next} #we don't want it to loop on itself
-  theloadedobjects <- loadRData(paste0('data/',i)) #load the network
+  #theloadedobjects <- loadRData(paste0('data/',i)) #load the network
+  theloadedobjects <- loadRData(paste0(parent_data.folder,i)) #load the network
   descriptions <- rbind(descriptions, tibble(network_id = as.numeric(gsub(i, pattern = '^emln|_.+$', replacement = '')),
                                                network_name =  gsub(i,pattern = '.rda',replacement = ''),
                                                ecological_network_type = filter(theloadedobjects$description, attribute == 'ecological_network_type')$value,
