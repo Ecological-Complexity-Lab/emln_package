@@ -19,11 +19,11 @@
 #' @seealso Functions \code{create_monolayer_object, monolayer}, also,\code{graph.data.frame} from igraph.
 #'
 #' @examples
-#' network <- load_emln(40)
+#' network <- load_emln(16)
 #' nodes <- network$nodes
-#' links <- network$extended
+#' links<-subset(network$extended %>% filter(layer_from==1), select=c(node_from, node_to, weight))
 #'
-#' list_to_matrix(links, directed = TRUE, node_metadata = nodes)
+#' list_to_matrix(links, directed = TRUE, bipartite = FALSE, node_metadata = nodes)
 #'
 #'
 #' @export

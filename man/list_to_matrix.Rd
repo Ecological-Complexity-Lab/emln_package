@@ -38,11 +38,11 @@ igraph. The first column in the \code{node_metadata} data frame should have
 the names of the nodes in the edge list.
 }
 \examples{
-network <- load_emln(40)
+network <- load_emln(16)
 nodes <- network$nodes
-links <- network$extended
+links<-subset(network$extended \%>\% filter(layer_from==1), select=c(node_from, node_to, weight))
 
-list_to_matrix(links, directed = TRUE, node_metadata = nodes)
+list_to_matrix(links, directed = TRUE, bipartite = FALSE, node_metadata = nodes)
 
 
 }
