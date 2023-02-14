@@ -2,9 +2,23 @@
 #'
 #' This function creates a multilayer network out of a list of matrices.
 #'
-#' @param list_of_matrices
+#' @param list_of_matrices List of matrices
+#' @param bipartite Is the network bipartite?
+#' @param Directed Is the network directed?
+#' @param isSupraMatrix Should supra-adjacency matrix be returned?
+#' @param Interlayer Interlayer extended edge list of the format \code{node_from layer_from node_to layer_to weight}. Specify nodes and layers by IDs, not names. Default is NULL, assuming a lack of interlayer edges.
 #'
-#' @return supra-adjacency matrix from a list of matrices
+#' @return A multilayer object, which is an R list of dataframes:
+#' \itemize{
+#'   \item \code{nodes} Nodes' metadata
+#'   \item \code{layers} Layers's metadata
+#'   \item \code{extended} An extended edge list of the format \code{node_from layer_from node_to layer_to weight}. All nodes and layers are identified by unique IDs rather than names
+#'   \item \code{state_nodes} State node information
+#'   \item \code{description} Contain a description of the created network
+#'   \item \code{references} Contain reference details
+#' }
+#' @return The value of any missing data frames in the multilayer object will be set to NULL.
+#' @return The supra-adjacency matrix (SAM) and node mapping (SAM_nodes_map), if it was requested.
 #' @export
 #'
 #' @examples

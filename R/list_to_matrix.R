@@ -7,7 +7,7 @@
 #' igraph. The first column in the \code{node_metadata} data frame should have
 #' the names of the nodes in the edge list.
 #'
-#' @param x An edge list of the format from, to, weight.
+#' @param x An edge list of the format \code{from to weight}.
 #' @param directed Is the network directed?
 #' @param bipartite Is network bipartite?
 #' @param group_names For bipartite networks: name of the groups in the columns

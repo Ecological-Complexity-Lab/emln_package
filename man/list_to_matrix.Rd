@@ -13,7 +13,7 @@ list_to_matrix(
 )
 }
 \arguments{
-\item{x}{An edge list of the format from, to, weight.}
+\item{x}{An edge list of the format \code{from to weight}.}
 
 \item{directed}{Is the network directed?}
 
