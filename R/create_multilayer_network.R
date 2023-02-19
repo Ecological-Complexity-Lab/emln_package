@@ -6,7 +6,7 @@
 #' @param bipartite Is the network bipartite?
 #' @param Directed Is the network directed?
 #' @param isSupraMatrix Should supra-adjacency matrix be returned?
-#' @param Interlayer Interlayer extended edge list of the format \code{node_from layer_from node_to layer_to weight}. Specify nodes and layers by IDs, not names. Default is NULL, assuming a lack of interlayer edges.
+#' @param Interlayer Interlayer extended edge list of the format \code{node_from layer_from node_to layer_to weight}. Specify layers by IDs,  and nodes by names. Default is NULL, assuming a lack of interlayer edges.
 #'
 #' @return A multilayer object, which is an R list of dataframes:
 #' \itemize{
