@@ -22,16 +22,18 @@ License: GPL
 Encoding: UTF-8
 LazyData: true
 Depends:
-  R (>= 4.1.0),
-  magrittr,
-  dplyr,
-  ggplot2,
-  stringr,
-  tibble,
-  tidyr,
-  rlang,
-  igraph,
-  vegan
+    R (>= 4.1.0),
+    magrittr,
+    dplyr,
+    ggplot2,
+    stringr,
+    tibble,
+    tidyr,
+    rlang,
+    igraph,
+    vegan,
+    hablar,
+    DT
 Suggests:
   bipartite
 RoxygenNote: 7.2.1
