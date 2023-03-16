@@ -24,7 +24,7 @@
 #' @examples
 #' create_multilayer_network(list(bipartite::olesen2002aigrettes,bipartite::olesen2002flores), bipartite = TRUE, Directed = FALSE, isSupraMatrix = FALSE)
 
-create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isSupraMatrix, Interlayer = NULL) {
+create_multilayer_network <- function(list_of_matrices, isMatrix = TRUE, bipartite, Directed, isSupraMatrix, Interlayer = NULL) {
 
   node_names <- NULL
   extended_edge_list <- NULL
@@ -32,47 +32,69 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
   layer <- 0
   SAM_nodes_map <- NULL
 
+  if (isMatrix == TRUE){
 
-  #Loop over the list of matrices, creating an edge list for each network separately and appending them to the original edge list.
-  for (i in list_of_matrices) {
-    layer <- layer+1
-    ###  edge list  ###
-    if (bipartite) {print(sprintf('Layer # %s processing.', layer))
-                    #Future development: Supra-adjacency matrix for the bipartite network.
-                    if (isSupraMatrix == TRUE)
-                        stop('ERROR: supra-adjacency matrix is suitable only for unipartite networks')
-                    igraph_network <- matrix_to_list_bipartite(x = i,group_names = c('set_cols','set_rows'))
-                    edge_list <- igraph_network$edge_list
-                    print('Done.')}
-    if (!bipartite) {print(sprintf('Layer # %s processing.', layer))
-                     #Expected a symmetric matrix in an undirected network. Otherwise, throw the warning.
-                     if ((Directed == FALSE) && (isSymmetric(i) ==FALSE))
-                            print(sprintf('WARNING: In an undirected network expected a symmetric matrix. Proceed with caution! The result edge list is unexpected.'))
-                     igraph_network <- matrix_to_list_unipartite(x = i, directed = Directed)
-                     edge_list <- igraph_network$edge_list
-                     print('Done.')}
+    #Loop over the list of matrices, creating an edge list for each network separately and appending them to the original edge list.
+    for (i in list_of_matrices) {
+      layer <- layer+1
+      ###  edge list  ###
+      if (bipartite) {print(sprintf('Layer # %s processing.', layer))
+                      #Future development: Supra-adjacency matrix for the bipartite network.
+                      if (isSupraMatrix == TRUE)
+                          stop('ERROR: supra-adjacency matrix is suitable only for unipartite networks')
+                      igraph_network <- matrix_to_list_bipartite(x = i,group_names = c('set_cols','set_rows'))
+                      edge_list <- igraph_network$edge_list
+                      print('Done.')}
+      if (!bipartite) {print(sprintf('Layer # %s processing.', layer))
+                       #Expected a symmetric matrix in an undirected network. Otherwise, throw the warning.
+                       if ((Directed == FALSE) && (isSymmetric(i) ==FALSE))
+                              print(sprintf('WARNING: In an undirected network expected a symmetric matrix. Proceed with caution! The result edge list is unexpected.'))
+                       igraph_network <- matrix_to_list_unipartite(x = i, directed = Directed)
+                       edge_list <- igraph_network$edge_list
+                       print('Done.')}
 
-    #add the current edge list to the extended_edge_list
-    extended_edge_list <- rbind(extended_edge_list,tibble(node_from=edge_list$from, layer_from= layer, node_to=edge_list$to,
-                                 layer_to = layer, weight=edge_list$weight))
+      #add the current edge list to the extended_edge_list
+      extended_edge_list <- rbind(extended_edge_list,tibble(node_from=edge_list$from, layer_from= layer, node_to=edge_list$to,
+                                   layer_to = layer, weight=edge_list$weight))
 
 
-    ###  nodes  ###
-    node_names <- unique(c(node_names,igraph_network$nodes$node_name))
-    node_names_layer <- rbind(node_names_layer, tibble(node_number = 1:length(igraph_network$nodes$node_name), node_name = igraph_network$nodes$node_name, node_layer = layer))
+      ###  nodes  ###
+      node_names <- unique(c(node_names,igraph_network$nodes$node_name))
+      node_names_layer <- rbind(node_names_layer, tibble(node_number = 1:length(igraph_network$nodes$node_name), node_name = igraph_network$nodes$node_name, node_layer = layer))
 
+    }
   }
 
+  else{
+
+    for (i in list_of_matrices) {
+      layer <- layer+1
+      print(sprintf('Layer # %s processing.', layer))
+      edge_list <- i
+      extended_edge_list <- rbind(extended_edge_list,tibble(node_from=as.character(edge_list$from), layer_from= layer, node_to=as.character(edge_list$to),
+                                                            layer_to = layer, weight=edge_list$weight))
+      ###  nodes  ###
+
+      node_names <- unique(c(node_names,i$from))
+      node_names <- unique(c(node_names,i$to))
+      node_names_layer <- rbind(node_names_layer, tibble(node_number = 1:length(node_names), node_name = node_names, node_layer = layer))
+      print('Done.')
+    }
+  }
 
   # If Interlayer exists - do an rbind to the extended edge list
   # If some nodes do not appear in the list of provided matrices, Interlayer will not be added to the extended edge list.
   if (!is.null(Interlayer)) {
-                            tInter_from<-unique(Interlayer[c("node_from","layer_from")])
-                            tInter_to<-unique(Interlayer[c("node_to","layer_to")])
-                            tNodes<-unique(node_names_layer[c("node_name","node_layer")])
-                            colnames(tInter_from) = colnames(tInter_to) = colnames(tNodes)
-                            tInter_all <-unique(rbind(tInter_from, tInter_to))
+
+                            tInter_from <- Interlayer %>% select(node_from, layer_from) %>% unique()
+                            tInter_to <- Interlayer %>% select(node_to, layer_to) %>% unique()
+                            tNodes <- node_names_layer %>% select(node_name, node_layer) %>% unique()
+
+                            colnames(tInter_from) <- colnames(tInter_to) <- colnames(tNodes)
+
+                            tInter_all <- bind_rows(tInter_from, tInter_to) %>% unique()
                             tMerge <-merge(tNodes, tInter_all)
+
 
                             if (dim(tMerge)[1]==dim(tInter_all)[1])
                                                 extended_edge_list <- rbind(extended_edge_list,Interlayer)
@@ -104,9 +126,10 @@ create_multilayer_network <- function(list_of_matrices, bipartite, Directed, isS
     #                                                     isDirected = Directed,
     #                                                     Layers = length(list_of_matrices))
 
-  SAM_nodes_map <- rbind(SAM_nodes_map, tibble(layer_id = extended_edge_list$layer_from, node_id = extended_edge_list$node_from, state_node_id = 0 ))
-  SAM_nodes_map <- rbind(SAM_nodes_map, tibble(layer_id = extended_edge_list$layer_to, node_id = extended_edge_list$node_to, state_node_id = 0 ))
-  SAM_nodes_map <- unique(SAM_nodes_map)
+  SAM_nodes_map <- bind_rows(
+    tibble(layer_id = extended_edge_list$layer_from, node_id = extended_edge_list$node_from, state_node_id = 0),
+    tibble(layer_id = extended_edge_list$layer_to, node_id = extended_edge_list$node_to, state_node_id = 0)) %>% unique()
+
   SAM_nodes_map <- SAM_nodes_map %>% left_join(nodes, by = c('node_id' = 'node_id'))
   SAM_nodes_map$state_node_id <- ifelse(SAM_nodes_map$layer_id ==1, SAM_nodes_map$node_id, (SAM_nodes_map$node_id+nrow(nodes)) )
   mEdges <- as.data.frame(extended_edge_list)

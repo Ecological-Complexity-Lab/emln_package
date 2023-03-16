@@ -6,6 +6,7 @@
 \usage{
 create_multilayer_network(
   list_of_matrices,
+  isMatrix = TRUE,
   bipartite,
   Directed,
   isSupraMatrix,
