@@ -3,7 +3,7 @@
 \docType{data}
 \name{descriptions}
 \alias{descriptions}
-\title{Data to show}
+\title{View the data sets}
 \format{
 An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 93 rows and 10 columns.
 }
@@ -11,14 +11,12 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 descriptions
 }
 \description{
-@format A data folder
- \describe {
-    \item {item1}
-    \item {item2}}
- @source {create}
+@format Data set of multilayer networks
 }
 \details{
-@examples
+@source {create}
+
+ @examples
  data(descriptions)
 }
 \keyword{datasets}

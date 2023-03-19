@@ -1,9 +1,7 @@
-#' Data to show
+#' View the data sets
 #'
-#'  @format A data folder
-#'  \describe {
-#'     \item {item1}
-#'     \item {item2}}
+#'  @format Data set of multilayer networks
+#'
 #'  @source {create}
 #'
 #'  @examples

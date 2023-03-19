@@ -14,7 +14,9 @@ create_multilayer_network(
 )
 }
 \arguments{
-\item{list_of_matrices}{List of matrices}
+\item{list_of_matrices}{List of matrices or list of interlayer edges.}
+
+\item{isMatrix}{By default, the expected input format is a list of matrices. If you have a list of interlayer edges instead, set 'isMatrix' as FALSE.}
 
 \item{bipartite}{Is the network bipartite?}
 
