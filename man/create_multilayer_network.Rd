@@ -16,7 +16,7 @@ create_multilayer_network(
 \arguments{
 \item{list_of_matrices}{List of matrices or list of interlayer edges.}
 
-\item{isMatrix}{By default, the expected input format is a list of matrices. If you have a list of interlayer edges instead, set 'isMatrix' as FALSE.}
+\item{isMatrix}{By default, the expected input format is a list of matrices. If you have a list of intralayer edges instead, set 'isMatrix' as FALSE.}
 
 \item{bipartite}{Is the network bipartite?}
 
@@ -42,7 +42,7 @@ The value of any missing data frames in the multilayer object will be set to NUL
 The supra-adjacency matrix (SAM) and node mapping (SAM_nodes_map), if it was requested.
 }
 \description{
-This function creates a multilayer network out of a list of matrices.
+This function creates a multilayer network out of a list of matrices / list of intralayer edges.
 }
 \examples{
 create_multilayer_network(list(bipartite::olesen2002aigrettes,bipartite::olesen2002flores), bipartite = TRUE, Directed = FALSE, isSupraMatrix = FALSE)

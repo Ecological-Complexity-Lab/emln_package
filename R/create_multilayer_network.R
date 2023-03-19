@@ -1,9 +1,9 @@
 #' Create Multilayer Network
 #'
-#' This function creates a multilayer network out of a list of matrices.
+#' This function creates a multilayer network out of a list of matrices / list of intralayer edges.
 #'
 #' @param list_of_matrices List of matrices or list of interlayer edges.
-#' @param isMatrix By default, the expected input format is a list of matrices. If you have a list of interlayer edges instead, set 'isMatrix' as FALSE.
+#' @param isMatrix By default, the expected input format is a list of matrices. If you have a list of intralayer edges instead, set 'isMatrix' as FALSE.
 #' @param bipartite Is the network bipartite?
 #' @param Directed Is the network directed?
 #' @param isSupraMatrix Should supra-adjacency matrix be returned?
