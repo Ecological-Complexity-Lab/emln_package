@@ -11,7 +11,7 @@
 
 
 view_emln <- function() {
-  load('./data/descriptions.rda')
+  #load('./data/descriptions.rda')
   DT::datatable(descriptions)
 }
 

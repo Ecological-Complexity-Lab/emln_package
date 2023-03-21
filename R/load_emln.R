@@ -33,11 +33,14 @@ load_emln <- function(network_id, ids = TRUE) {
 
   #get the network name in order to load it -- depending on the network id entered
 
-    network_name <- list.files('./data/',pattern = paste0('emln',as.character(network_id),'_'))
+    #network_name <- list.files('./data/',pattern = paste0('emln',as.character(network_id),'_'))
+    pattern <- paste0("emln", network_id, "_")
+    network_name <- descriptions %>% filter(str_detect(network_name, pattern)) %>% slice(1) %>% pull(network_name)
     if (length(network_name) == 0) {
       return(paste0('Error: Network id',network_name, ' does not exist'))
     } else {
-      network <- loadRData(paste0('./data/',network_name))
+      #network <- loadRData(paste0('./data/',network_name))
+      network <- get(network_name)
     }
 
   #load the network and add to the big list depending on if it need to be wide or long
