@@ -97,7 +97,8 @@ for (i in list.files(parent_data.folder)) {
   #theloadedobjects <- loadRData(paste0('data/',i)) #load the network
   theloadedobjects <- loadRData(paste0(parent_data.folder,i)) #load the network
   descriptions <- rbind(descriptions, tibble(network_id = as.numeric(gsub(i, pattern = '^emln|_.+$', replacement = '')),
-                                               network_name =  gsub(i,pattern = '.rda',replacement = ''),
+                                               #network_name =  gsub(i,pattern = '.rda',replacement = ''),
+                                               network_name =  sub("\\.rda$", "", i),
                                                ecological_network_type = filter(theloadedobjects$description, attribute == 'ecological_network_type')$value,
                                                multilayer_network_type = filter(theloadedobjects$description, attribute == 'multilayer_network_type')$value,
                                                state_nodes = filter(theloadedobjects$description, attribute == 'state_nodes')$value,
