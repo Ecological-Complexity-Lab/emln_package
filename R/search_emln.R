@@ -38,7 +38,8 @@ search_emln <- function(ecological_network_type=NULL,multilayer_network_type=NUL
 
   #load the large tibble that contains all the descriptions for it to be filtered
 
-  desc <- loadRData('./data/descriptions.rda')
+  #desc <- loadRData('./data/descriptions.rda')
+  desc <- descriptions
 
 
   #check which arguments were entered so I can loop over it.
