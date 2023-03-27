@@ -17,6 +17,7 @@ library(tibble)
 library(dplyr)
 library(readr)
 library(stringr)
+library(ggsci)
 ```
 
 
@@ -147,23 +148,29 @@ num_of_nodes <- data.frame()
 for (i in 1:length(all_nodes)) {
   num_of_nodes <- rbind(num_of_nodes, data.frame(network_id = i, num_nodes = max(all_nodes[[i]]$node_id)))
   }
-
+num_of_layers <- data.frame()
+for (i in 1:length(all_nodes)) {
+  num_of_layers <- rbind(num_of_layers, data.frame(network_id = i, num_layers = max(all_layers[[i]]$layer)))
+  }
 
 #as histogram
-p1 <- ggplot(num_of_nodes, aes(x=num_nodes, fill = "#56B4E9", color = "#56B4E9")) +
-  geom_histogram(position="identity", alpha=0.5) +  paper_figs_theme_no_legend + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + scale_x_continuous(breaks = round(seq(0, 3500, by = 100),1)) + ggtitle('Frequency of no. of nodes in the database')
-p1
+p0 <- ggplot(num_of_nodes, aes(x=num_nodes, color=num_nodes)) +
+               geom_histogram(alpha=0.5, color='black',fill=pal_nejm(palette = 'default')(8)[4]) +
+  paper_figs_theme_no_legend +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, size = 10)) + 
+               scale_x_continuous(breaks = round(seq(0, 3500, by = 500),1)) + 
+  xlab('Number of nodes') + scale_color_nejm() + scale_x_break(1000,3000)
+p0
 
 
-#as bar plot
-p2 <- ggplot(num_of_nodes, aes(x=num_nodes, y = network_id)) +
-  geom_bar(stat="identity") + xlab('Number of Nodes') + paper_figs_theme
-p2
+#i will add some attributes to the num_of_nodes and color the histogram accordingly
+num_of_nodes <- merge_
+
+
 
 
 #save the plot
-ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/num_nodes_plot.pdf",width = 20,height =10) 
-dev.off()
+ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/num_nodes_plot.pdf",plot = p0,width =  10, height = 6)
 
 #abundance
 ###a function that returns a dataframe with the networks that have an abundance attribute in their nodes.csv or state_nodes.csv
@@ -229,12 +236,12 @@ counted_multi_types <- counted_multi_types %>%
 
 
 p2 <- ggplot(counted_multi_types, aes(x="",y=prop, fill=multi_type)) +
- geom_bar(stat="identity", width=1, color="white") + coord_polar("y", start = 0) +
- paper_figs_theme + ylab('') + xlab('') + ggtitle('Proportion of Multilayer Network Types')
-p2 + guides(fill=guide_legend(title="Multilayer Network Types"))
+ geom_bar(stat="identity", width=1, color="black") + coord_polar("y", start = 0) +
+ paper_figs_theme + ylab('') + xlab('')+ guides(fill=guide_legend(title=NULL)) + scale_fill_nejm()
+p2
 
 
-###ecological network types###
+###ecological layer types###
 eco <- data.frame()
 for (i in 1:length(all_descriptions)) {
   eco <- rbind(eco, data.frame(network_id = i,
@@ -253,15 +260,50 @@ counted_eco_types <- counted_eco_types %>%
 
 
 p3 <- ggplot(counted_eco_types, aes(x="",y=prop, fill=eco_type)) +
- geom_bar(stat="identity", width=1, color="white") + coord_polar("y", start = 0) +
- paper_figs_theme + ylab('') + xlab('') + ggtitle('Proportion of Ecological Layer Types')
-p3 + guides(fill=guide_legend(title="Ecological Network Types"))
+ geom_bar(stat="identity", width=1, color="black") + coord_polar("y", start = 0) +
+ paper_figs_theme + ylab('') + xlab('') + guides(fill=guide_legend(title=NULL)) + scale_fill_nejm()
+p3
 
 
- 
+#save multilayer types
+ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/pie_multi_types.pdf",plot = p2,width =  10, height = 6)
+
+#save ecological types
+ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/pie_eco_types.pdf",plot = p3,width =  10, height = 6)
+
+
+#array of the types
+library(ggpubr)
+p5 <- ggarrange(plotlist = list(p2,p3), labels = list('(A)','(B)'), vjust = 7)
+
+ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/net_types_array.pdf",plot = p5,width =  10, height = 6)
 
 ```
 
+```{r Layers Inbformation}
+#layer plot - how many layers of what types I have
+p4 <- ggplot(counted_eco_types, aes(x=eco_type,y=count)) + 
+  geom_bar(stat = 'identity', color='black',fill="gray") + xlab('Layer Type') + paper_figs_theme +
+  theme(axis.text.x = element_text(angle = 75, vjust = 0.5, size = 12))
+
+ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/layer_types.pdf",plot = p4,width =  10, height = 6)
+
+
+#combination of layer type and network type
+multi_eco <- merge(multi,eco,by = 'network_id')
+
+multi_eco <- count(multi_eco, multi_type, eco_type)
+
+
+p10 <- ggplot(multi_eco, aes(x=multi_type,y=n, fill=eco_type)) + 
+  geom_bar(stat = 'identity', color='black') + xlab('Multilayer Network Type') + paper_figs_theme +
+  theme(axis.text.x = element_text(angle = 75, vjust = 0.5, size = 12)) + ylab('Count')  + scale_fill_nejm(name = 'Ecological Network Type')
+p10 
+
+ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/multi_layer_types.pdf",plot = p10,width =  10, height = 6)
+
+
+```
 
 
 
@@ -288,8 +330,14 @@ coord <- coord %>%
   na.omit()
 
 
+#there is a problem with the coordinates of network 39
+coord <- coord[!coord$network_id==39,]
+
+#add attributes to the map
+coord <- merge(coord,multi[,c('network_id','multi_type')], by = 'network_id')
+
 worldmap <- map_data("world")
-ggplot(worldmap) +
+p6 <- ggplot(worldmap) +
   geom_map(
     data = worldmap, map = worldmap,
     aes(long, lat, map_id = region),
@@ -297,15 +345,14 @@ ggplot(worldmap) +
   ) +
   geom_point(
     data = coord,
-    aes(longitude, latitude, color = network_id),
-    alpha = 0.6
-  ) +
-  expand_limits(x = worldmap$long, y = worldmap$lat) +
-  theme_void() +
-  theme(legend.position = "none") 
+    aes(longitude, latitude, color = multi_type),
+    alpha = 0.6) + expand_limits(x = worldmap$long, y = worldmap$lat) +
+  theme_void() + theme(title = NULL)  + scale_color_nejm()
+p6
+
 ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/worldmap_plot_new.pdf",width = 25,height =15) 
 
-ggplot() +
+p7 <- ggplot() +
   geom_map(
     data = worldmap, map = worldmap,
     aes(long, lat, map_id = region),
@@ -319,5 +366,9 @@ ggplot() +
   theme(legend.position = "none") 
 
 
+grid <- ggarrange(plotlist = list(p0,p10,p2,p6), labels = list('(A)','(B)','(C)','(D)'))
+grid
+
+ggsave('~/GitHub/emln_db/EMLN_Datasets/metadata/emln_metadata_figure.pdf', width =  10, height = 6, plot=grid)
 ```
 
