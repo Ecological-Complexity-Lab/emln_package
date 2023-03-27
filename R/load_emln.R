@@ -87,19 +87,25 @@ load_emln <- function(network_id, ids = TRUE) {
       network$layers[[i]] <- hablar::retype(network$layers[[i]])
       }
 
-    #turn the interactions node names to ids - if the user wants to - default = it does
+    #turn the interactions node names to ids - if the user wants to (by default it does).
 
      if (ids == TRUE) {
 
       #join layer_from
 
-       if (!all(unique(network$layers$layer) %in% unique(network$interactions$layer_from))) {
-          network$interactions <- network$interactions %>%
-            dplyr::left_join(y = network$layers[,c('layer','name')],
-                             by = c('layer_from' = 'name')) %>%
-            dplyr::select(-layer_from) %>%
-            dplyr::rename(layer_from = layer)
-        }
+       #if there is a "name" column in the layers.csv, and the layer_from is not numeric (not in ids)
+
+       if (!all(unique(network$layers$layer) %in% unique(network$interactions$layer_from)) && ("name" %in% colnames(network$layers))) {
+         if (!is.numeric(network$interactions$layer_from)) {
+           network$interactions <- network$interactions %>%
+             dplyr::left_join(y = network$layers[,c('layer','name')],
+                              by = c('layer_from' = 'name')) %>%
+             dplyr::select(-layer_from) %>%
+             dplyr::rename(layer_from = layer)
+         }
+       }
+
+       #if there isn't a "name" column in the layers.csv
 
       #join node_from
 
@@ -114,12 +120,16 @@ load_emln <- function(network_id, ids = TRUE) {
 
       #join layer_to
 
-       if (!all(unique(network$layers$layer) %in% unique(network$interactions$layer_to))) {
-        network$interactions <- network$interactions %>%
-          dplyr::left_join(y = network$layers[,c('layer','name')],
-                           by = c('layer_to' = 'name')) %>%
-          dplyr::select(-layer_to) %>%
-          dplyr::rename(layer_to = layer)
+       #if there is a "name" column in the layers.csv, and the layer_from is not numeric (not in ids)
+
+       if (!all(unique(network$layers$layer) %in% unique(network$interactions$layer_to)) && ("name" %in% colnames(network$layers))) {
+         if (!is.numeric(network$interactions$layer_to)) {
+           network$interactions <- network$interactions %>%
+             dplyr::left_join(y = network$layers[,c('layer','name')],
+                              by = c('layer_to' = 'name')) %>%
+             dplyr::select(-layer_to) %>%
+             dplyr::rename(layer_to = layer)
+         }
       }
 
       #join node_to
