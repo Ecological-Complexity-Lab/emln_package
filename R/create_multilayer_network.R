@@ -40,9 +40,6 @@ create_multilayer_network <- function(list_of_matrices, isMatrix = TRUE, biparti
       layer <- layer+1
       ###  edge list  ###
       if (bipartite) {print(sprintf('Layer # %s processing.', layer))
-                      #Future development: Supra-adjacency matrix for the bipartite network.
-                      if (isSupraMatrix == TRUE)
-                          stop('ERROR: supra-adjacency matrix is suitable only for unipartite networks')
                       igraph_network <- matrix_to_list_bipartite(x = i,group_names = c('set_cols','set_rows'))
                       edge_list <- igraph_network$edge_list
                       print('Done.')}
@@ -127,18 +124,102 @@ create_multilayer_network <- function(list_of_matrices, isMatrix = TRUE, biparti
     #                                                     isDirected = Directed,
     #                                                     Layers = length(list_of_matrices))
 
-  SAM_nodes_map <- bind_rows(
-    tibble(layer_id = extended_edge_list$layer_from, node_id = extended_edge_list$node_from, state_node_id = 0),
-    tibble(layer_id = extended_edge_list$layer_to, node_id = extended_edge_list$node_to, state_node_id = 0)) %>% unique()
+    if (!bipartite) {
+        SAM_nodes_map <- bind_rows(
+          tibble(layer_id = extended_edge_list$layer_from, node_id = extended_edge_list$node_from, state_node_id = 0),
+          tibble(layer_id = extended_edge_list$layer_to, node_id = extended_edge_list$node_to, state_node_id = 0)) %>% unique()
 
-  SAM_nodes_map <- SAM_nodes_map %>% left_join(nodes, by = c('node_id' = 'node_id'))
-  SAM_nodes_map$state_node_id <- ifelse(SAM_nodes_map$layer_id ==1, SAM_nodes_map$node_id, (SAM_nodes_map$node_id+nrow(nodes)) )
-  mEdges <- as.data.frame(extended_edge_list)
-  Nodes <- nrow(nodes)
-  layers <- length(list_of_matrices)
-  edges <- data.frame(from = mEdges[, 1] + Nodes * (mEdges[,2] - 1), to = mEdges[, 3] + Nodes * (mEdges[, 4] - 1),
-                      weight = mEdges[, 5])
-  M <- list_to_matrix(edges, bipartite = bipartite, directed = Directed)$mat
+        SAM_nodes_map <- SAM_nodes_map %>% left_join(nodes, by = c('node_id' = 'node_id'))
+        SAM_nodes_map$state_node_id <- ifelse(SAM_nodes_map$layer_id ==1, SAM_nodes_map$node_id, (SAM_nodes_map$node_id+nrow(nodes)) )
+        mEdges <- as.data.frame(extended_edge_list)
+        Nodes <- nrow(nodes)
+        layers <- length(list_of_matrices)
+        edges <- data.frame(from = mEdges[, 1] + Nodes * (mEdges[,2] - 1), to = mEdges[, 3] + Nodes * (mEdges[, 4] - 1),
+                            weight = mEdges[, 5])
+        M <- list_to_matrix(edges, bipartite = bipartite, directed = Directed)$mat
+    }
+    if (bipartite){
+      # Create an empty supra-adjacency matrix
+      M <- matrix(0, nrow = 0, ncol = 0)
+      # initialize an empty dataframe to hold the SAM_nodes_map
+      SAM_nodes_map <- data.frame(layer_id = integer(),
+                                  node_id = integer(),
+                                  state_node_id = character(),
+                                  node_name = character())
+
+      # create a named vector of node names
+      node_names <- nodes$node_name
+      names(node_names) <- nodes$node_id
+
+      if (isMatrix == FALSE) {
+        # Convert a list of intralayer edges to a list of matrices
+        list_of_matrices_T <-list()
+        for (i in list_of_matrices) {
+              i <- (list_to_matrix(i, directed = Directed, bipartite = TRUE))$mat
+              list_of_matrices_T <- c(list_of_matrices_T, list(i))
+      }
+        list_of_matrices <-list_of_matrices_T
+      }
+
+      layer<-1
+
+      for (i in list_of_matrices)  {
+        # Assign column and row names
+        if (is.null(rownames(i))) {rownames(i) <- paste('R',1:nrow(i),sep='')}
+        if (is.null(colnames(i))) {colnames(i) <- paste('C',1:ncol(i),sep='')}
+        # Extract dimensions A and P from bipartite matrix
+        P <- nrow(i)
+        A <- ncol(i)
+        # Transform bipartite matrix to a square matrix with dimensions N = A + P
+        N <- A + P
+        i_squ <- matrix(0, nrow = N, ncol = N, dimnames = list(c(rownames(i), colnames(i)), c(rownames(i), colnames(i))))
+        i_squ[1:P, (P+1):N] <- i
+        i_squ[(P+1):N, 1:P] <- t(i)
+
+        # To populate SAM_nodes_map
+        node_name <- rownames(i_squ)
+        node_id <- match(node_name, node_names)
+
+        # replace row and column names in M with state_node_id values
+        rownames(i_squ) <- match(rownames(i_squ), node_names) + N*(layer-1)
+        colnames(i_squ) <- match(colnames(i_squ), node_names) + N*(layer-1)
+
+        # populate SAM_nodes_map
+        state_node_id <- rownames(i_squ)
+        new_SAM_nodes_map <- data.frame(layer_id = layer,
+                                        node_id = node_id,
+                                        state_node_id = state_node_id,
+                                        node_name = node_name)
+
+        SAM_nodes_map <- rbind(SAM_nodes_map, new_SAM_nodes_map)
+
+        # Append the current matrix to the supra-adjacency matrix
+        rownames_M <- c(rownames(M), rownames(i_squ))
+        colnames_M <- c(colnames(M), colnames(i_squ))
+        M <- rbind(cbind(M, matrix(0, nrow = ncol(M), ncol = nrow(i_squ))),
+                   cbind(matrix(0, nrow = nrow(i_squ), ncol = ncol(M)), i_squ))
+        rownames(M) <- rownames_M
+        colnames(M) <- colnames_M
+
+        layer <- layer+1
+
+      }
+
+      # Identify and populate interlayer interactions
+      interlayer_edges <- extended_edge_list[extended_edge_list$layer_from != extended_edge_list$layer_to, ]
+
+      for (i in seq_len(nrow(interlayer_edges))) {
+        from_node <- interlayer_edges$node_from[i]
+        from_layer <- interlayer_edges$layer_from[i]
+        to_node <- interlayer_edges$node_to[i]
+        to_layer <- interlayer_edges$layer_to[i]
+        weight <- interlayer_edges$weight[i]
+        from_state_node_id <- SAM_nodes_map[SAM_nodes_map$node_id == from_node & SAM_nodes_map$layer_id == from_layer, "state_node_id"]
+        to_state_node_id <- SAM_nodes_map[SAM_nodes_map$node_id == to_node & SAM_nodes_map$layer_id == to_layer, "state_node_id"]
+        M[to_state_node_id, from_state_node_id] <- weight
+      }
+    }
+
   #M <- (M + Matrix::t(M)) # Make matrix symmetric
   out <- list(nodes=nodes,
               layers = tibble(layer = 1:length(list_of_matrices), directed = Directed),

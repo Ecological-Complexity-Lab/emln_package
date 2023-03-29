@@ -18,16 +18,29 @@ library(dplyr)
 library(readr)
 library(stringr)
 library(ggsci)
+library(ggbreak)
 ```
 
 
 
 ```{r Creation of lists for each csv file type}
 
+#the lab ggplot2 theme
+paper_figs_theme <- 
+  theme_bw()+
+  theme(panel.grid = element_blank(),
+        panel.border = element_rect(color = "black",fill = NA,size = 1),
+        panel.spacing = unit(0.5, "cm", data = NULL),
+        axis.text = element_text(size=14, color='black'),
+        axis.title = element_text(size=14, color='black'),
+        axis.line = element_blank())
+paper_figs_theme_no_legend <- 
+  paper_figs_theme +
+  theme(legend.position = 'none')
 
 ## creation of the lists
 #read the file path
-parent.folder <- "~/GitHub/emln_package/data-raw/"
+parent.folder <- "~/GitHub/ecomplab/emln_package/data-raw/"
 
 #setwd("~/GitHub/emln_db/EMLN_Datasets/datasets") ##in this chunk, we want the working directory to be the one with all the networks in order to read them
 
@@ -128,30 +141,14 @@ Numbers of:
 
 -   nodes
 
+# Node inforamtion
 
-```{r Nodes Figures}
-#the lab ggplot2 theme
-paper_figs_theme <- 
-  theme_bw()+
-  theme(panel.grid = element_blank(),
-        panel.border = element_rect(color = "black",fill = NA,size = 1),
-        panel.spacing = unit(0.5, "cm", data = NULL),
-        axis.text = element_text(size=14, color='black'),
-        axis.title = element_text(size=14, color='black'),
-        axis.line = element_blank())
-paper_figs_theme_no_legend <- 
-  paper_figs_theme +
-  theme(legend.position = 'none')
-
+```{r Nodes Information}
 #num of nodes per paper
 num_of_nodes <- data.frame()
 for (i in 1:length(all_nodes)) {
   num_of_nodes <- rbind(num_of_nodes, data.frame(network_id = i, num_nodes = max(all_nodes[[i]]$node_id)))
-  }
-num_of_layers <- data.frame()
-for (i in 1:length(all_nodes)) {
-  num_of_layers <- rbind(num_of_layers, data.frame(network_id = i, num_layers = max(all_layers[[i]]$layer)))
-  }
+}
 
 #as histogram
 p0 <- ggplot(num_of_nodes, aes(x=num_nodes, color=num_nodes)) +
@@ -159,16 +156,16 @@ p0 <- ggplot(num_of_nodes, aes(x=num_nodes, color=num_nodes)) +
   paper_figs_theme_no_legend +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, size = 10)) + 
                scale_x_continuous(breaks = round(seq(0, 3500, by = 500),1)) + 
-  xlab('Number of nodes') + scale_color_nejm() + scale_x_break(1000,3000)
+  xlab('Number of nodes') + scale_color_nejm()
+ # + scale_x_break(1000,3000)
 p0
 
 
 #i will add some attributes to the num_of_nodes and color the histogram accordingly
-##to be added
-
+# num_of_nodes <- merge_
 
 #save the plot
-ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/num_nodes_plot.pdf",plot = p0,width =  10, height = 6)
+ggsave("~/GitHub/ecomplab/emln_package/data-raw//num_nodes_plot.pdf",plot = p0,width =  10, height = 6)
 
 #abundance
 ###a function that returns a dataframe with the networks that have an abundance attribute in their nodes.csv or state_nodes.csv
@@ -212,8 +209,30 @@ abundance.state()
 ```
 
 
+# layer information
+```{r Layer Information}
+num_of_layers <- data.frame()
+for (i in 1:length(all_layers)) {
+  num_of_layers <- rbind(num_of_layers, data.frame(network_id = i, num_layers = max(all_layers[[i]]$layer)))
+}
+#as histogram
+p_layers <- ggplot(num_of_layers, aes(x=num_layers)) +
+               geom_histogram(alpha=0.5, color='black',fill=pal_nejm(palette = 'default')(8)[5]) +
+  paper_figs_theme_no_legend +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, size = 10)) + 
+               # scale_x_continuous(breaks = round(seq(0, 3500, by = 500),1)) + 
+  xlab('Number of layers') + scale_color_nejm()
+p_layers
 
-```{r Network Figure}
+
+#i will add some attributes to the num_of_nodes and color the histogram accordingly
+# num_of_nodes <- merge_
+
+```
+
+# network information
+
+```{r Network Information}
 ###multilayer network types###
 multi <- data.frame()
 for (i in 1:length(all_descriptions)) {
@@ -264,27 +283,27 @@ p3
 
 
 #save multilayer types
-ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/pie_multi_types.pdf",plot = p2,width =  10, height = 6)
+ggsave("~/GitHub/ecomplab/emln_package/data-raw//pie_multi_types.pdf",plot = p2,width =  10, height = 6)
 
 #save ecological types
-ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/pie_eco_types.pdf",plot = p3,width =  10, height = 6)
+ggsave("~/GitHub/ecomplab/emln_package/data-raw//pie_eco_types.pdf",plot = p3,width =  10, height = 6)
 
 
 #array of the types
 library(ggpubr)
 p5 <- ggarrange(plotlist = list(p2,p3), labels = list('(A)','(B)'), vjust = 7)
 
-ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/net_types_array.pdf",plot = p5,width =  10, height = 6)
+ggsave("~/GitHub/ecomplab/emln_package/data-raw//net_types_array.pdf",plot = p5,width =  10, height = 6)
 
 ```
 
-```{r Layers Inbformation}
+```{r Layers Information}
 #layer plot - how many layers of what types I have
 p4 <- ggplot(counted_eco_types, aes(x=eco_type,y=count)) + 
   geom_bar(stat = 'identity', color='black',fill="gray") + xlab('Layer Type') + paper_figs_theme +
   theme(axis.text.x = element_text(angle = 75, vjust = 0.5, size = 12))
 
-ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/layer_types.pdf",plot = p4,width =  10, height = 6)
+ggsave("~/GitHub/ecomplab/emln_package/data-raw//layer_types.pdf",plot = p4,width =  10, height = 6)
 
 
 #combination of layer type and network type
@@ -292,20 +311,21 @@ multi_eco <- merge(multi,eco,by = 'network_id')
 
 multi_eco <- count(multi_eco, multi_type, eco_type)
 
+multi_eco$multi_type <- factor(multi_eco$multi_type , levels=c("Spatial","Temporal","Environment", "Multiplex","Pertubation"))
 
 p10 <- ggplot(multi_eco, aes(x=multi_type,y=n, fill=eco_type)) + 
   geom_bar(stat = 'identity', color='black') + xlab('Multilayer Network Type') + paper_figs_theme +
   theme(axis.text.x = element_text(angle = 75, vjust = 0.5, size = 12)) + ylab('Count')  + scale_fill_nejm(name = 'Ecological Network Type')
 p10 
 
-ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/multi_layer_types.pdf",plot = p10,width =  10, height = 6)
+ggsave("~/GitHub/ecomplab/emln_package/data-raw//multi_layer_types.pdf",plot = p10,width =  10, height = 6)
 
 
 ```
 
 
 
-```{r Map Figure}
+```{r Map Visualization}
 latitudes<-NULL
 longitudes<-NULL
 coord <- NULL
@@ -348,7 +368,7 @@ p6 <- ggplot(worldmap) +
   theme_void() + theme(title = NULL)  + scale_color_nejm()
 p6
 
-ggsave("~/GitHub/emln_db/EMLN_Datasets/metadata/worldmap_plot_new.pdf",width = 25,height =15) 
+ggsave("~/GitHub/ecomplab/emln_package/data-raw//worldmap_plot_new.pdf",width = 25,height =15) 
 
 p7 <- ggplot() +
   geom_map(
@@ -364,9 +384,16 @@ p7 <- ggplot() +
   theme(legend.position = "none") 
 
 
-grid <- ggarrange(plotlist = list(p0,p10,p2,p6), labels = list('(A)','(B)','(C)','(D)'))
+# grid <- ggpubr::ggarrange(plotlist = list(p0,p10,p_layers,p6), labels = list('(A)','(B)','(C)','(D)'))
+# grid
+
+grid <- ggpubr::ggarrange(
+          ggpubr::ggarrange(p0,p_layers, ncol = 2, labels = c("(A)", "(B)")), 
+          ggpubr::ggarrange(p10, labels = "(C)"), 
+          ggpubr::ggarrange(p6, labels = "(D)"), 
+          nrow = 3)
 grid
 
-ggsave('~/GitHub/emln_db/EMLN_Datasets/metadata/emln_metadata_figure.pdf', width =  10, height = 6, plot=grid)
-```
+ggsave('~/GitHub/ecomplab/emln_package/data-raw//emln_metadata_figure.pdf', width =  10, height = 15, plot=grid)
+ ```
 
