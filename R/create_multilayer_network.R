@@ -25,7 +25,7 @@
 #' @examples
 #' create_multilayer_network(list(bipartite::olesen2002aigrettes,bipartite::olesen2002flores), bipartite = TRUE, Directed = FALSE, isSupraMatrix = FALSE)
 
-create_multilayer_network <- function(list_of_matrices, isMatrix = TRUE, bipartite, Directed, isSupraMatrix, Interlayer = NULL) {
+create_multilayer_network <- function(list_of_matrices, isMatrix = TRUE, layersData = NULL, bipartite, Directed, isSupraMatrix, Interlayer = NULL) {
 
   node_names <- NULL
   extended_edge_list <- NULL
@@ -115,6 +115,8 @@ create_multilayer_network <- function(list_of_matrices, isMatrix = TRUE, biparti
   }
 
   extended_edge_list <- hablar::retype(extended_edge_list) ###?
+
+
 
 
   ###  conversion of the extended edge list to a supra-adjacency matrix  ###
@@ -222,7 +224,7 @@ create_multilayer_network <- function(list_of_matrices, isMatrix = TRUE, biparti
 
   #M <- (M + Matrix::t(M)) # Make matrix symmetric
   out <- list(nodes=nodes,
-              layers = tibble(layer = 1:length(list_of_matrices), directed = Directed),
+              layers = select(bind_cols(tibble(layer = 1:length(list_of_matrices), directed = Directed),layersData), layer, colnames(layersInput), directed ),
               extended=extended_edge_list,
               state_nodes=NULL,
               description=NULL,
@@ -232,7 +234,7 @@ create_multilayer_network <- function(list_of_matrices, isMatrix = TRUE, biparti
 
   ###  if they don't want supra-adjacency matrix  ###
   out <- list(nodes=nodes,
-              layers = tibble(layer = 1:length(list_of_matrices), directed = Directed),
+              layers = select(bind_cols(tibble(layer = 1:length(list_of_matrices), directed = Directed),layersData), layer, colnames(layersInput), directed ),
               extended=extended_edge_list,
               state_nodes=NULL,
               description=NULL,
