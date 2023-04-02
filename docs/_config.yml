@@ -1,5 +1,6 @@
 name: "EMLN package website"
 output_dir: "pages"
+url: https://ecological-complexity-lab.github.io/emln_package/
 navbar:
   title: "EMLN"
   left:
@@ -10,3 +11,4 @@ navbar:
 output:
   html_document:
     theme: simplex
+
