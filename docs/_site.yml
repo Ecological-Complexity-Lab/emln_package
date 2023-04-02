@@ -1,0 +1,12 @@
+name: "EMLN package website"
+output_dir: "pages"
+navbar:
+  title: "EMLN"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Monolayer workflow"
+      href: monolayer.html
+output:
+  html_document:
+    theme: simplex
