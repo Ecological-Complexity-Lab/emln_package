@@ -33,6 +33,8 @@ create_multilayer_network <- function(list_of_matrices, isMatrix = TRUE, layersD
   layer <- 0
   SAM_nodes_map <- NULL
 
+  if (is.null(layersData)) {layersData<- tibble(layerNumber = 1:length(list_of_matrices))}
+
   if (isMatrix == TRUE){
 
     #Loop over the list of matrices, creating an edge list for each network separately and appending them to the original edge list.
@@ -224,7 +226,8 @@ create_multilayer_network <- function(list_of_matrices, isMatrix = TRUE, layersD
 
   #M <- (M + Matrix::t(M)) # Make matrix symmetric
   out <- list(nodes=nodes,
-              layers = select(bind_cols(tibble(layer = 1:length(list_of_matrices), directed = Directed),layersData), layer, colnames(layersInput), directed ),
+              #layers = select(bind_cols(tibble(layer = 1:length(list_of_matrices), directed = Directed),layersData), layer, colnames(layersInput), directed ),
+              layers = bind_cols(tibble(layer = 1:length(list_of_matrices), directed = Directed),layersData),
               extended=extended_edge_list,
               state_nodes=NULL,
               description=NULL,
@@ -234,7 +237,8 @@ create_multilayer_network <- function(list_of_matrices, isMatrix = TRUE, layersD
 
   ###  if they don't want supra-adjacency matrix  ###
   out <- list(nodes=nodes,
-              layers = select(bind_cols(tibble(layer = 1:length(list_of_matrices), directed = Directed),layersData), layer, colnames(layersInput), directed ),
+              #layers = select(bind_cols(tibble(layer = 1:length(list_of_matrices), directed = Directed),layersData), layer, colnames(layersInput), directed ),
+              layers = bind_cols(tibble(layer = 1:length(list_of_matrices), directed = Directed),layersData),
               extended=extended_edge_list,
               state_nodes=NULL,
               description=NULL,
