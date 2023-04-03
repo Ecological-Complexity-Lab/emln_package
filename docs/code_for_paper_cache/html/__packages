@@ -21,3 +21,7 @@ statnet.common
 network
 sna
 bipartite
+attempt
+cowplot
+ggalluvial
+infomapecology

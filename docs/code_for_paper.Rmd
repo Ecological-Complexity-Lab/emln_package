@@ -47,7 +47,7 @@ bipartite_monolayer$edge_list
 bipartite_monolayer$igraph_object
 ```
 
-We can also convert a link list to a monolayer object
+We can also convert a link list to a monolayer object.
 
 ```{r}
 ll <- bipartite_monolayer$edge_list
@@ -56,18 +56,33 @@ bipartite_monolayer2 <- list_to_matrix(ll, bipartite = T, group_names = c('Polli
 
 
 ## Unipartite 
-We will use darta froim 
+
+We will use a binary directed marine food web from [Jacob, Ute, Aaron Thierry, Ulrich Brose, Wolf E. Arntz, Sofia Berg, Thomas Brey, Ingo Fetzer, et al. 2011. “The Role of Body Size in Complex Food Webs: A Cold Case.” In Advances in Ecological Research, edited by Andrea Belgrano, 45:181–223. Academic Press.](https://www.sciencedirect.com/science/article/pii/B9780123864758000058) Kongsfjorden is a glacial fjord on the northwest corner of the Svalbard archipelago. It is a 30 km open fjord with no marked sill at the entrance, and with a maximum depth exceeding 300 m. The network consists of 262 species with 1,544 feeding interactions.
+
+**These data are organized as a link list, so it is possible to include node attributes.**
+
 
 ```{r}
-otago_nodes <-  read_csv('data/otago_nodes.csv')
-head(otago_nodes)
-otago_links <- read_csv('data/otago_links.csv')
-otago_links
-network_object <- create_monolayer_object(x=otago_links, directed = T, bipartite = F, node_metadata = otago_nodes)
-network_object$edge_list
-network_object$nodes
-network_object$mat[1:5,1:5]
+library(infomapecology) # The data is included in this package
+data("kongsfjorden_links")
+data("kongsfjorden_nodes")
+nodes <- kongsfjorden_nodes %>%
+  select(node_name=Species, node_id_original=NodeID, everything())
+
+interactions <- kongsfjorden_links %>%
+  select(from=consumer, to=resource) %>%
+  mutate_if(is.factor, as.character) %>%
+  mutate(weight=1)
+
+# Prepare network objects
+monolayer_unipartite <- list_to_matrix(x=interactions, directed = T, bipartite = F, node_metadata = nodes)
+
+monolayer_unipartite$nodes
+
+monolayer_unipartite$edge_list
 ```
+
+Now let's take the matrix we obtained and create a monolayer object from a matrix
 
 
 
