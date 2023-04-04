@@ -21,6 +21,7 @@ knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=TRUE)
 library(tidyverse)
 library(emln)
 library(bipartite)
+library(magrittr)
 ```
 
 # Monolayer
@@ -166,12 +167,13 @@ names(interlayer_2) <- names(interlayer)
 interlayer <- rbind(interlayer, interlayer_2)
 
 multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, pond_3), 
-                          is_matrix = T,
                           interlayer_links = interlayer,
                           bipartite = F, 
                           directed = T, 
                           layer_attributes = layer_attrib,
                           get_sam = F)
+multilayer$nodes
+multilayer$extended
 ```
 
 ### Example with real data from Kefi 2016
@@ -219,14 +221,12 @@ setequal(colnames(chilean_TI), colnames(chilean_NTIpos))
 chilean_NTIpos <- chilean_NTIpos[rownames(chilean_TI),colnames(chilean_TI)]
 all(rownames(chilean_TI)==rownames(chilean_NTIpos))
 
-layer_attributes <- tibble(layer_id=1:3, type=c('TI','NTIneg','NTIpos'))
+layer_attributes <- tibble(layer_id=1:3, layer_name=c('TI','NTIneg','NTIpos'))
 
 multilayer_kefi <- create_multilayer_network(list_of_layers = list(chilean_TI,chilean_NTIneg,chilean_NTIpos),
-                                             is_matrix = T, 
                                              layer_attributes = layer_attributes,
                                              bipartite = F,
-                                             directed = T,
-                                             get_sam = F)
+                                             directed = T)
 
 ```
 
@@ -234,15 +234,29 @@ Now, we can try and use link lists as input. We will convert the matrices to lin
 
 
 ```{r}
+
+# This is for the Kefi data set
 chilean_TI_ll <- emln::matrix_to_list_unipartite(x = chilean_TI, directed = TRUE)$edge_list
 chilean_NTIneg_ll <- emln::matrix_to_list_unipartite(x = chilean_NTIneg, directed = TRUE)$edge_list
 chilean_NTIpos_ll <- emln::matrix_to_list_unipartite(x = chilean_NTIpos, directed = TRUE)$edge_list
 
-multilayer_kefi <- create_multilayer_network(list_of_matrices = c(chilean_TI_ll,chilean_NTIneg_ll,chilean_NTIpos_ll),
-                                             isMatrix = F, 
-                                             layersData = layer_attributes,
+multilayer_kefi_ll <- create_multilayer_network(list_of_layers = list(chilean_TI_ll,chilean_NTIneg_ll,chilean_NTIpos_ll),
+                                             layer_attributes = layer_attributes,
                                              bipartite = F,
-                                             Directed = T)
+                                             directed = T)
+
+# Check that the set of links is the same in both
+links_mat <- multilayer_kefi$extended_ids %>% unite(layer_from, node_from, layer_to, node_to)
+links_mat$layer_from
+
+links_ll <- multilayer_kefi_ll$extended_ids %>% unite(layer_from, node_from, layer_to, node_to)
+links_ll$layer_from
+
+any(duplicated(links_mat$layer_from))
+any(duplicated(links_ll$layer_from))
+
+setequal(links_mat$layer_from, links_ll$layer_from)
+
 ```
 
 

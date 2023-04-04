@@ -5,34 +5,33 @@
 \title{Create Multilayer Network}
 \usage{
 create_multilayer_network(
-  list_of_matrices,
-  isMatrix = TRUE,
-  layersData = NULL,
+  list_of_layers,
   bipartite,
-  Directed,
-  isSupraMatrix,
-  Interlayer = NULL
+  directed,
+  get_sam,
+  interlayer_links = NULL,
+  layer_attributes = NULL
 )
 }
 \arguments{
-\item{list_of_matrices}{List of matrices or list of interlayer edges.}
-
-\item{isMatrix}{By default, the expected input format is a list of matrices. If you have a list of intralayer edges instead, set 'isMatrix' as FALSE.}
+\item{list_of_layers}{List of matrices or list of interlayer edges.}
 
 \item{bipartite}{Is the network bipartite?}
 
-\item{Directed}{Is the network directed?}
+\item{directed}{Is the network directed?}
 
-\item{isSupraMatrix}{Should supra-adjacency matrix be returned?}
+\item{get_sam}{Should supra-adjacency matrix be returned?}
 
-\item{Interlayer}{Interlayer extended edge list of the format \code{node_from layer_from node_to layer_to weight}. Specify layers by IDs,  and nodes by names. Default is NULL, assuming a lack of interlayer edges.}
+\item{interlayer_links}{Interlayer extended edge list of the format \code{layer_from node_from layer_to node_to weight}. Specify layers by IDs,  and nodes by names. Default is NULL, assuming a lack of interlayer edges.}
+
+\item{layer_attributes}{A data frame with layer attributes. The data frame must have a layer_id column and the order of layers should be the same as in \code{list_of_layers}.}
 }
 \value{
 A multilayer object, which is an R list of dataframes:
 \itemize{
   \item \code{nodes} Nodes' metadata
   \item \code{layers} Layers's metadata
-  \item \code{extended} An extended edge list of the format \code{node_from layer_from node_to layer_to weight}. All nodes and layers are identified by unique IDs rather than names
+  \item \code{extended} An extended edge list of the format \code{layer_from node_from layer_to node_to weight}. All nodes and layers are identified by unique IDs rather than names
   \item \code{state_nodes} State node information
   \item \code{description} Contain a description of the created network
   \item \code{references} Contain reference details
@@ -46,5 +45,5 @@ The supra-adjacency matrix (SAM) and node mapping (SAM_nodes_map), if it was req
 This function creates a multilayer network out of a list of matrices / list of intralayer edges.
 }
 \examples{
-create_multilayer_network(list(bipartite::olesen2002aigrettes,bipartite::olesen2002flores), bipartite = TRUE, Directed = FALSE, isSupraMatrix = FALSE)
+create_multilayer_network(list(bipartite::olesen2002aigrettes,bipartite::olesen2002flores), bipartite = TRUE, Directed = FALSE, get_sam = FALSE)
 }
