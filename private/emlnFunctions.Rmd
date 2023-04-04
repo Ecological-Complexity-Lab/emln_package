@@ -311,7 +311,7 @@ multi_eco <- merge(multi,eco,by = 'network_id')
 
 multi_eco <- count(multi_eco, multi_type, eco_type)
 
-multi_eco$multi_type <- factor(multi_eco$multi_type , levels=c("Spatial","Temporal","Environment", "Multiplex","Pertubation"))
+multi_eco$multi_type <- factor(multi_eco$multi_type , levels=c("Spatial","Temporal","Environment", "Multiplex","Perturbation"))
 
 p10 <- ggplot(multi_eco, aes(x=multi_type,y=n, fill=eco_type)) + 
   geom_bar(stat = 'identity', color='black') + xlab('Multilayer Network Type') + paper_figs_theme +

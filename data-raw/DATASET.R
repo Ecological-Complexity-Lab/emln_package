@@ -2,6 +2,7 @@
 
 
 # Copy files from Datasets folder to Data-Raw folder ----------------------
+setwd('~')
 x <- list.dirs('./GitHub/emln_db/EMLN_Datasets/datasets/', full.names = F, recursive = F)
 sub.folders.short <- list.dirs(path = './GitHub/emln_db/EMLN_Datasets/datasets/', recursive = F, full.names = F)
 sub.folders.long <- list.dirs(path = './GitHub/emln_db/EMLN_Datasets/datasets/', recursive = F, full.names = T)
