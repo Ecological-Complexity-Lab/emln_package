@@ -21,7 +21,6 @@ knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=TRUE)
 library(tidyverse)
 library(emln)
 library(bipartite)
-library(infomapecology)
 ```
 
 # Monolayer
@@ -97,9 +96,9 @@ To illustrate working with real data we will use a binary directed marine food w
 
 
 ```{r}
-library(infomapecology) # The data is included in this package
-data("kongsfjorden_links")
-data("kongsfjorden_nodes")
+# The data is included in the infomapecology package
+data("kongsfjorden_links", package = 'infomapecology')
+data("kongsfjorden_nodes", package = 'infomapecology')
 nodes <- kongsfjorden_nodes %>%
   select(node_name=Species, node_id_original=NodeID, everything())
 
@@ -149,7 +148,8 @@ pond_2 <- matrix(c(0,1,0,0,0,1,0,0,0), byrow = T, nrow = 3, ncol = 3, dimnames =
 
 pond_3 <- matrix(c(0,1,1,0,0,1,0,0,0), byrow = T, nrow = 3, ncol = 3, dimnames = list(c('pelican','fish','tadpole'),c('pelican','fish','tadpole')))
 
-layer_data <- tibble(layer=c('pond_1','pond_2','pond_3'),
+layer_attrib <- tibble(layer_id=1:3,
+                     layer_name=c('pond_1','pond_2','pond_3'),
                      location=c('valley','mid-elevation','uphill'))
 
 
@@ -165,13 +165,13 @@ interlayer_2 <- interlayer[,c(3,4,1,2,5)]
 names(interlayer_2) <- names(interlayer)
 interlayer <- rbind(interlayer, interlayer_2)
 
-multilayer <- create_multilayer_network(list_of_matrices = list(pond_1, pond_2, pond_3), 
-                          Interlayer = interlayer,
-                          isMatrix = T, 
+multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, pond_3), 
+                          is_matrix = T,
+                          interlayer_links = interlayer,
                           bipartite = F, 
-                          Directed = T, 
-                          layersData = layer_data,
-                          isSupraMatrix = F)
+                          directed = T, 
+                          layer_attributes = layer_attrib,
+                          get_sam = F)
 ```
 
 ### Example with real data from Kefi 2016
@@ -219,13 +219,14 @@ setequal(colnames(chilean_TI), colnames(chilean_NTIpos))
 chilean_NTIpos <- chilean_NTIpos[rownames(chilean_TI),colnames(chilean_TI)]
 all(rownames(chilean_TI)==rownames(chilean_NTIpos))
 
-layer_attributes <- tibble(type=c('TI','NTIneg','NTIpos'))
+layer_attributes <- tibble(layer_id=1:3, type=c('TI','NTIneg','NTIpos'))
 
-multilayer_kefi <- create_multilayer_network(list_of_matrices = c(chilean_TI,chilean_NTIneg,chilean_NTIpos),
-                                             isMatrix = T, 
-                                             layersData = layer_attributes,
+multilayer_kefi <- create_multilayer_network(list_of_layers = list(chilean_TI,chilean_NTIneg,chilean_NTIpos),
+                                             is_matrix = T, 
+                                             layer_attributes = layer_attributes,
                                              bipartite = F,
-                                             Directed = T)
+                                             directed = T,
+                                             get_sam = F)
 
 ```
 
@@ -247,6 +248,7 @@ multilayer_kefi <- create_multilayer_network(list_of_matrices = c(chilean_TI_ll,
 
 ## Create a bipartite multilayer network
 
+We will work with 
 Work with the data from the Sierras data
 
 ### Only intralayer links
