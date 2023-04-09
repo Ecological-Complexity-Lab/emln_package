@@ -18,7 +18,7 @@ search_emln(
 \arguments{
 \item{ecological_network_type}{Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant}
 
-\item{multilayer_network_type}{Environment/Temporal/Multiplex/Pertubation/Spatial}
+\item{multilayer_network_type}{Environment/Temporal/Multiplex/Perturbation/Spatial}
 
 \item{node_number_minimum}{The minimum number of layers wanted in the network}
 

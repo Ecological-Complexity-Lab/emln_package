@@ -87,6 +87,16 @@ load_emln <- function(network_id, ids = TRUE) {
       network$layers[[i]] <- hablar::retype(network$layers[[i]])
       }
 
+
+    #if there are state_nodes - pivot them wider
+     if ('state_nodes' %in% names(network)) {
+       network$state_nodes <- network$state_nodes %>%
+         tidyr::pivot_wider(names_from = 'attribute',values_from = 'value',
+                            values_fn = list) %>%
+         tidyr::unnest(cols = everything())
+     }
+
+
     #turn the interactions node names to ids - if the user wants to (by default it does).
 
      if (ids == TRUE) {
@@ -115,7 +125,6 @@ load_emln <- function(network_id, ids = TRUE) {
                            by = c("node_from" = "node_name")) %>%
           dplyr::select(-node_from) %>%
           dplyr::rename(node_from = node_id)
-
         }
 
       #join layer_to
