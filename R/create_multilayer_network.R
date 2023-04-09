@@ -3,11 +3,12 @@
 #' This function creates a multilayer network out of a list of matrices / list of intralayer edges.
 #'
 #' @param list_of_layers List of matrices or list of interlayer edges.
-#' @param bipartite Is the network bipartite?
-#' @param directed Is the network directed?
+#' @param bipartite Is the network bipartite? Must be provided (no default value).
+#' @param directed Is the network directed? Must be provided (no default value).
+#' @param interlayer_links Interlayer extended edge list of the format \code{layer_from node_from layer_to node_to weight}. Specify layer and nodes by names. Layer names should correspond to those provided in layer_attributes. Default is NULL, assuming no interlayer links.
+#' @param layer_attributes Optional. A data frame with layer attributes. The first column must be \code{layer_id} and the second \code{layer_name}.  The order of the rows and layer_id should be the same as in \code{list_of_layers}.
+#' @param state_nodes_user Optional. Additional information on physical nodes in layers. Must contain columns \code{layer_name} and \code{node_name}
 #' @param get_sam Should supra-adjacency matrix be returned?
-#' @param interlayer_links Interlayer extended edge list of the format \code{layer_from node_from layer_to node_to weight}. Specify layers by IDs,  and nodes by names. Default is NULL, assuming a lack of interlayer edges.
-#' @param layer_attributes A data frame with layer attributes. The data frame must have a layer_id column and the order of layers should be the same as in \code{list_of_layers}.
 #'
 #' @return A multilayer object, which is an R list of dataframes:
 #' \itemize{
@@ -26,24 +27,26 @@
 #' create_multilayer_network(list(bipartite::olesen2002aigrettes,bipartite::olesen2002flores), bipartite = TRUE, Directed = FALSE, get_sam = FALSE)
 
 create_multilayer_network <- function(list_of_layers,
-                                      bipartite, directed, interlayer_links = NULL,
+                                      bipartite,
+                                      directed,
+                                      interlayer_links = NULL,
                                       layer_attributes = NULL,
+                                      state_nodes_user = NULL,
                                       get_sam=F) {
 
-  node_names <- NULL
+
   extended_edge_list <- NULL
   SAM_nodes_map <- NULL
+  state_nodes <- NULL
 
   # Check validity of layer attribute table
   if (is.null(layer_attributes)) {
+    print('Layer attributes not provided, I added them (see layer_attributes in the final object)')
     layer_attributes <- data.frame(layer_id = 1:length(list_of_layers), layer_name=paste('layer_',1:length(list_of_layers),sep = ''))
   } else {
-    layer_attributes <- data.frame(layer_attributes)
+    layer_attributes <- data.frame(layer_attributes) # working with data frame is easier than with tibbles.
     if (names(layer_attributes)[1]!='layer_id') {stop('First column in layer attributes should be layer_id, and the order should be as provied in the list of layers.')}
-    if (! 'layer_name' %in% names(layer_attributes)) {
-      layer_attributes$layer_name=paste('layer_',1:length(list_of_layers),sep = '')
-      print('layer_name column not provided, I added it.')
-    }
+    if (names(layer_attributes)[2]!='layer_name') {stop('Second column in layer attributes should be layer_name.')}
   }
 
   #Loop over the list of layers, creating an edge list for each network separately and appending them to the original edge list.
@@ -75,23 +78,23 @@ create_multilayer_network <- function(list_of_layers,
                                                           weight=edge_list$weight))
 
 
-    ###  nodes  ###
-    node_names <- unique(c(node_names,igraph_network$nodes$node_name))
+    ###  state nodes  ###
+    state_nodes <- rbind(state_nodes, data.frame(layer_id=layer_id, node_name=igraph_network$nodes$node_name))
   }
 
   # If interlayer_links exists - do an rbind to the extended edge list
   if (!is.null(interlayer_links)){
-    # If some nodes do not appear in the list of provided matrices, interlayer_links will not be added to the extended edge list
+    # If some nodes do not appear in the list of provided layers, interlayer_links will not be added to the extended edge list
     nodes_in_interlayer <- unique(c(interlayer_links$node_from, interlayer_links$node_to))
     nodes_in_layers <- unique(c(extended_edge_list$node_from, extended_edge_list$node_to))
     if (any(nodes_in_interlayer %in% nodes_in_layers)==F){
       stop('STOPPING: Check node names in the interlayer_links dataframe. Some nodes do not appear in the list of provided layers')
     }
-    # If some nodes do not appear in the list of provided matrices, interlayer_links will not be added to the extended edge list
+    # If some layers do not appear in the list of provided layers, interlayer_links will not be added to the extended edge list
     layers_in_interlayer <- unique(c(interlayer_links$layer_from, interlayer_links$layer_to))
     layers_in_intralayer <- unique(c(extended_edge_list$layer_from, extended_edge_list$layer_to))
     if (any(layers_in_interlayer %in% layers_in_intralayer)==F){
-      stop('STOPPING: Check layer names in the interlayer_links dataframe. Some layers do not appear in the list of provided layer attributes. You can provide layer attributes that include layer names.')
+      stop('STOPPING: Check layer names in the interlayer_links dataframe. Some layers do not appear in the list of provided layer attributes. You must provide a layer attributes table that include layer names.')
     }
 
     # Add the interlayer links
@@ -100,17 +103,34 @@ create_multilayer_network <- function(list_of_layers,
 
 
   # Create node ids
-  nodes <- data.frame(node_id = 1:length(node_names), node_name = node_names)
+  physical_nodes <- unique(state_nodes$node_name)
+  physical_nodes <- data.frame(node_id = 1:length(physical_nodes), node_name = sort(physical_nodes))
 
-
-  ###  conversion of the nodes names to node ids in the edge list  ###
+  ###  conversion of the node names to node ids in the edge list  ###
+  print('Creating extended link list with node IDs')
   extended_edge_list_ids <- extended_edge_list
   for (i in 1:nrow(extended_edge_list)) {
-    extended_edge_list_ids[i,2] <- nodes[nodes$node_name == extended_edge_list[i,2],]$node_id
-    extended_edge_list_ids[i,4] <- nodes[nodes$node_name == extended_edge_list[i,4],]$node_id
+    extended_edge_list_ids[i,2] <- physical_nodes[physical_nodes$node_name == extended_edge_list[i,2],]$node_id
+    extended_edge_list_ids[i,4] <- physical_nodes[physical_nodes$node_name == extended_edge_list[i,4],]$node_id
     # Change layer names for ids
     extended_edge_list_ids[i,1] <- layer_attributes[layer_attributes$layer_name == extended_edge_list[i,1],]$layer_id
     extended_edge_list_ids[i,3] <- layer_attributes[layer_attributes$layer_name == extended_edge_list[i,3],]$layer_id
+  }
+  # Make IDs integer instead of character
+  extended_edge_list_ids <- apply(extended_edge_list_ids, MARGIN = 2, FUN = as.integer)
+
+
+  # Organized the layer_attributes and state_nodes
+  print('Organizing state nodes')
+  state_nodes <- as_tibble(state_nodes)
+  suppressMessages(
+  state_nodes %<>% left_join(layer_attributes) %>%
+    left_join(as_tibble(physical_nodes)) %>%
+    select(layer_id, node_id, layer_name, node_name)
+  )
+  if (!is.null(state_nodes_user)){
+    print('Joining with user-provided state nodes')
+    state_nodes %<>% left_join(state_nodes_user)
   }
 
   ###  conversion of the extended edge list to a supra-adjacency matrix  ###
@@ -221,18 +241,18 @@ create_multilayer_network <- function(list_of_layers,
               #layers = select(bind_cols(tibble(layer = 1:length(list_of_layers), directed = directed),layer_attributes), layer, colnames(layersInput), directed ),
               layers = bind_cols(tibble(layer = 1:length(list_of_layers), directed = directed),layer_attributes),
               extended=extended_edge_list,
-              state_nodes=NULL,
+              state_nodes=as_tibble(state_nodes),
               description=NULL,
               references=NULL)
   class(out) <- 'multilayer'
   return(list(Multilayer=out, SAM=M , SAM_nodes_map=SAM_nodes_map))}
 
   ###  if they don't want supra-adjacency matrix  ###
-  out <- list(nodes=as_tibble(nodes),
+  out <- list(nodes=as_tibble(physical_nodes),
               extended=as_tibble(extended_edge_list),
               extended_ids=as_tibble(extended_edge_list_ids),
               layer_attributes = as_tibble(layer_attributes),
-              state_nodes=NULL,
+              state_nodes=as_tibble(state_nodes),
               description=NULL,
               references=NULL)
 
@@ -259,23 +279,23 @@ create_multilayer_network <- function(list_of_layers,
 
 
 #### QA ### Shirly
-
-x_binary_Nonames_square<-matrix(rbinom(16, 1, 0.6), 4, 4)
-x_Nobinary_Nonames_square <- x_binary_Nonames_square*round(runif(16,1,4),0)
-
-x_Nobinary_names_square<-x_Nobinary_Nonames_square
-rownames(x_Nobinary_names_square)<-c('Orange', 'Blue', 'Red', 'Green')
-colnames(x_Nobinary_names_square)<-c('Orange', 'Blue', 'Red', 'Green')
-
-x2_Nobinary_names_square<-x_Nobinary_Nonames_square
-rownames(x2_Nobinary_names_square)<-c('Red', 'Purple', 'Green', 'White')
-colnames(x2_Nobinary_names_square)<-c('Red', 'Purple', 'Green', 'White')
-
-x3_Nobinary_names_square<-x_Nobinary_Nonames_square
-rownames(x3_Nobinary_names_square)<-c('Orange', 'Purple', 'Red', 'White')
-colnames(x3_Nobinary_names_square)<-c('Orange', 'Purple', 'Red', 'White')
-
-
-xy_Nobinary_namesColRow_square<-x_Nobinary_names_square
-colnames(xy_Nobinary_namesColRow_square) <-c("Xx", "Gg","Aa","Bb")
+#
+# x_binary_Nonames_square<-matrix(rbinom(16, 1, 0.6), 4, 4)
+# x_Nobinary_Nonames_square <- x_binary_Nonames_square*round(runif(16,1,4),0)
+#
+# x_Nobinary_names_square<-x_Nobinary_Nonames_square
+# rownames(x_Nobinary_names_square)<-c('Orange', 'Blue', 'Red', 'Green')
+# colnames(x_Nobinary_names_square)<-c('Orange', 'Blue', 'Red', 'Green')
+#
+# x2_Nobinary_names_square<-x_Nobinary_Nonames_square
+# rownames(x2_Nobinary_names_square)<-c('Red', 'Purple', 'Green', 'White')
+# colnames(x2_Nobinary_names_square)<-c('Red', 'Purple', 'Green', 'White')
+#
+# x3_Nobinary_names_square<-x_Nobinary_Nonames_square
+# rownames(x3_Nobinary_names_square)<-c('Orange', 'Purple', 'Red', 'White')
+# colnames(x3_Nobinary_names_square)<-c('Orange', 'Purple', 'Red', 'White')
+#
+#
+# xy_Nobinary_namesColRow_square<-x_Nobinary_names_square
+# colnames(xy_Nobinary_namesColRow_square) <-c("Xx", "Gg","Aa","Bb")
 

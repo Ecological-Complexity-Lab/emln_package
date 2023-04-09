@@ -17,7 +17,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Shai Pilosof \email{pilos@post.bgu.ac.il}
+\strong{Maintainer}: Shai Pilosof \email{pilos@bgu.ac.il}
 
 Authors:
 \itemize{
