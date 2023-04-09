@@ -8,9 +8,9 @@ create_multilayer_network(
   list_of_layers,
   bipartite,
   directed,
-  get_sam,
   interlayer_links = NULL,
-  layer_attributes = NULL
+  layer_attributes = NULL,
+  get_sam = F
 )
 }
 \arguments{
@@ -20,11 +20,11 @@ create_multilayer_network(
 
 \item{directed}{Is the network directed?}
 
-\item{get_sam}{Should supra-adjacency matrix be returned?}
-
 \item{interlayer_links}{Interlayer extended edge list of the format \code{layer_from node_from layer_to node_to weight}. Specify layers by IDs,  and nodes by names. Default is NULL, assuming a lack of interlayer edges.}
 
 \item{layer_attributes}{A data frame with layer attributes. The data frame must have a layer_id column and the order of layers should be the same as in \code{list_of_layers}.}
+
+\item{get_sam}{Should supra-adjacency matrix be returned?}
 }
 \value{
 A multilayer object, which is an R list of dataframes:

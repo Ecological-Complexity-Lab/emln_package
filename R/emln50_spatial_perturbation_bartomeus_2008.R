@@ -1,18 +1,18 @@
 #'
-#' @title emln74_temporal_pertubation_kaiser_bunbury_2009
+#' @title emln50_spatial_perturbation_bartomeus_2008
 #' @docType data
-#' 
+#'
 #' @description Network Description:
-#' 
+#'
 #' | network_id | multilayer_network_type  | ecological_network_type | state_nodes |
 #' |:----------:|:------------------------:|:-----------------------:|:-----------:|
-#' |     74     | Temporal   , Pertubation |       Pollination       |    FALSE    |
-#' 
+#' |     50     | Spatial    , Perturbation |       Pollination       |    FALSE    |
+#'
 #' @format NULL
 #' @usage NULL
-#' @source Interaction_Web_DataBase
 #' @source Web_of_Life
-#' @source http://www.ecologia.ib.usp.br/iwdb/html/kaiser-bunbury_2009.html
+#' @source Interaction_Web_DataBase
+#' @source http://www.ecologia.ib.usp.br/iwdb/html/bartomeus_2008.html
 #' @source http://www.web-of-life.es/map.php
 #' @keywords internal
-'emln74_temporal_pertubation_kaiser_bunbury_2009'
+'emln50_spatial_perturbation_bartomeus_2008'

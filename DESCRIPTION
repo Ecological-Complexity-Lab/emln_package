@@ -36,4 +36,4 @@ Depends:
     DT
 Suggests:
   bipartite
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
