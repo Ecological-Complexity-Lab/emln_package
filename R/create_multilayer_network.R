@@ -31,14 +31,19 @@
 #'
 #' @details Input of \code{list_of_layers} is handled by the function
 #'   \code{create_monolayer_object}; see it's description for details on input.
-#'   If link lists are provided as input for intralayer links the
-#'   format is \code{from to weight}. Using link lists it is also possible to include link attributes.
+#'   If link lists are provided as input for intralayer links the format is
+#'   \code{from to weight}. Using link lists, it is possible to include link
+#'   attributes. In that case the headers of all the link lists and, if
+#'   included, the interlayer links, must be the same (after the weight), even if some attributes
+#'   are included in only some layers (see detailed example in the code accompanying the paper). Missing link attributes can be set to NA.
 #'
-#'   If interlayer links are provided, then layer_attributes must also be provided. Specify layer and nodes by names
-#'   (not IDs). Layer names should correspond to those provided in
-#'   layer_attributes.
+#'   If interlayer links are provided, then layer_attributes must also be
+#'   provided. Specify layer and nodes by names (not IDs). Layer names should
+#'   correspond to those provided in layer_attributes.
 #'
-#'   Attributes of state nodes can be provided with state_nodes_user. If provided, then columns \code{layer_name} and \code{node_name} must be included.
+#'   Attributes of state nodes can be provided with state_nodes_user. If
+#'   provided, then columns \code{layer_name} and \code{node_name} must be
+#'   included.
 #'
 #'   For compatibility with function \code{load_emln} the output contains
 #'   \code{description} and \code{references}. The value of any missing data
@@ -71,6 +76,21 @@
 #' multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, pond_3), interlayer_links = interlayer, bipartite = F, directed = T)
 
 create_multilayer_network <- function(list_of_layers, bipartite, directed, interlayer_links = NULL, layer_attributes = NULL, state_nodes_user = NULL) {
+
+  # When link lists are used then it is possible to add link attributes. Check if all the headers are the same for all layers.
+  if ("data.frame" %in% class(list_of_layers[[1]])){
+    headers <- lapply(list_of_layers, names)
+    all_identical <- all(sapply(headers, function(x) identical(x, headers[[1]])))
+    if (all_identical==F){stop('The headers of all the link lists in list_of_layers must be identical')}
+
+    # To compare with interlayer links take only the headers after the weight
+    if (!is.null(interlayer_links)){
+      intralayer_headers <- names(list_of_layers[[1]])
+      intralayer_headers <- intralayer_headers[4:length(intralayer_headers)]
+      interlayer_headers <- names(interlayer_links)[6:length(interlayer_links)]
+      if(interlayer_headers != intralayer_headers){stop('The link attributes of intralayer andinterlayer links must be identical')}
+    }
+  }
 
   # Initialize
   extended_edge_list <- NULL

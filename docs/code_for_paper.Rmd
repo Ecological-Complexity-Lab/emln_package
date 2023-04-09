@@ -18,6 +18,13 @@ knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=FALSE)
 ```
 
 ```{r message=FALSE, warning=FALSE}
+# Change the source for library(emln) later
+source('../R/create_multilayer_network.R')
+source('../R/create_monolayer_object.R')
+source('../R/list_to_matrix.R')
+source('../R/matrix_to_list_bipartite.R')
+source('../R/matrix_to_list_unipartite.R')
+
 library(tidyverse)
 # library(emln)
 library(bipartite)
@@ -198,9 +205,11 @@ This is the obtained `multilayer` class.
 multilayer
 ```
 
+### Working with node and link attributes
+
 Now let's try to provide attributes for state nodes. That is, a specific attribute of a physical node in a layer. For instance, the abundance of species can change between layers. When providing state nodes the names of the nodes and the layers must be the same as in the list of layers and in the layer attribute table. Here, we only provide the abundance for the pelican.
 
-We also include in this example attributes of intralayer links, which can be done when the input is of the format link list.
+We also include in this example attributes of intralayer links, which can be done when the input is of the format link list. **When providing link attributes, the headers of all the layers' link lists, and that of the interlayer links, must be the same, even if not all attributes are provided in all layers.** Here, we add a link attribute called method.
 
 ```{r emln_fig1A_2}
 
@@ -294,9 +303,9 @@ Now, we can try and use link lists as input. We will convert the matrices to lin
 ```{r}
 
 # This is for the Kefi data set
-chilean_TI_ll <- emln::matrix_to_list_unipartite(x = chilean_TI, directed = TRUE)$edge_list
-chilean_NTIneg_ll <- emln::matrix_to_list_unipartite(x = chilean_NTIneg, directed = TRUE)$edge_list
-chilean_NTIpos_ll <- emln::matrix_to_list_unipartite(x = chilean_NTIpos, directed = TRUE)$edge_list
+chilean_TI_ll <- matrix_to_list_unipartite(x = chilean_TI, directed = TRUE)$edge_list
+chilean_NTIneg_ll <- matrix_to_list_unipartite(x = chilean_NTIneg, directed = TRUE)$edge_list
+chilean_NTIpos_ll <- matrix_to_list_unipartite(x = chilean_NTIpos, directed = TRUE)$edge_list
 
 multilayer_kefi_ll <- create_multilayer_network(list_of_layers = list(chilean_TI_ll,chilean_NTIneg_ll,chilean_NTIpos_ll), layer_attributes = layer_attributes, bipartite = F, directed = T)
 
