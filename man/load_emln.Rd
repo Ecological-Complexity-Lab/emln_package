@@ -18,7 +18,7 @@ A multilayer object, which is an R list of dataframes:
 \itemize{
   \item \code{nodes} Represents physical nodes' metadata. A node ID is assigned to each node
   \item \code{layers} All the details related to the layers that make up the multilayer network
-  \item \code{extended} An extended edge list of the format \code{node_from layer_from node_to layer_to weight}.The interactions present in the data can contain both interlayer edges and intralayer edges
+  \item \code{extended} An extended edge list of the format \code{layer_from node_from layer_to node_to weight}. The interactions present in the data can contain both interlayer edges and intralayer edges
   \item \code{state_nodes} State node information
   \item \code{description} Contain a description of the created network.This information can be used to identify the creator of the data entry (Noa or Ofir) and the type of network (Spatial, Temporal, etc.) or ecological type (Seed-Dispersal, Pollination, etc.) it pertains to. Additionally, the entry mentions whether "state nodes" exist or not. A description line may provide additional information about the data and article. Furthermore, the entry also identifies the source of the data and provides a URL for accessing it
   \item \code{references} Contains all the relevant information required to find the article where the data is presented
