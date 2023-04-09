@@ -192,26 +192,42 @@ multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, po
                           directed = T)
 ```
 
-This is the obtinaed `multilayer` class.
+This is the obtained `multilayer` class.
 
 ```{r}
 multilayer
 ```
 
+Now let's try to provide attributes for state nodes. That is, a specific attribute of a physical node in a layer. For instance, the abundance of species can change between layers. When providing state nodes the names of the nodes and the layers must be the same as in the list of layers and in the layer attribute table. Here, we only provide the abundance for the pelican.
 
-Now let's try to provide information on state nodes. That is, a specific attribute of a physical node in a layer. For instance, the abundance of species can change between layers. When providing state nodes the names of the nodes and the layers must be the same as in the list of layers and in the layer attribute table. Here, we only provide the abundance for the pelican.
+We also include in this example attributes of intralayer links, which can be done when the input is of the format link list.
 
 ```{r emln_fig1A_2}
+
+# Input will be link lists
+pond_1_ll <- matrix_to_list_unipartite(pond_1, directed = T)$edge_list
+pond_2_ll <- matrix_to_list_unipartite(pond_2, directed = T)$edge_list
+pond_3_ll <- matrix_to_list_unipartite(pond_3, directed = T)$edge_list
+
+# Add attributes to links
+pond_1_ll$method <- c('observation', 'observation', 'gut analysis')
+pond_2_ll$method <- c('observation', 'gut analysis')
+pond_3_ll$method <- c('observation', 'observation', 'gut analysis')
+
+names(pond_1_ll)
+names(interlayer)
+interlayer$method <- NA
+
 abundance_sn <- data.frame(layer_name=c('pond_1','pond_2','pond_3'), node_name=c('pelican','pelican','pelican'), abund=c(6,2,3))
-multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, pond_3),
+multilayer <- create_multilayer_network(list_of_layers = list(pond_1_ll, pond_2_ll, pond_3_ll),
                           interlayer_links = interlayer,
                           layer_attributes = layer_attrib,
                           state_nodes_user=abundance_sn,
                           bipartite = F,
                           directed = T)
+
+multilayer
 ```
-
-
 
 
 ### Example with real data from Kefi 2016
