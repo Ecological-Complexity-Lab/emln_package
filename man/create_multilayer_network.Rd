@@ -7,6 +7,7 @@
 create_multilayer_network(
   list_of_matrices,
   isMatrix = TRUE,
+  layersData = NULL,
   bipartite,
   Directed,
   isSupraMatrix,

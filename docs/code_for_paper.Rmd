@@ -1,0 +1,203 @@
+---
+title: "Code accompanying the EMLN paper"
+subtitlke: 
+output:
+  html_document: 
+    fig_height: 4
+    fig_width: 6
+    theme: united
+    code_folding: show
+    toc: true
+    toc_float:
+      collapsed: true
+      number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=TRUE)
+```
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(emln)
+library(bipartite)
+```
+
+# Monolayer
+
+<!-- In unipartite networks matrix row and column names (or the nodes in the from and to fields in a data frame) are identical, while in bipartite networks they do not overlap. -->
+
+## Bipartite
+We will use an incidence matrix included in the bipartite package to create a monolayer object.
+
+```{r}
+# create a monolayer object from a bipartite matrix
+bipartite_monolayer <- matrix_to_list_bipartite(x = olesen2002flores, group_names = c('Pollinator', 'Plant'))
+
+# What is included in the monolayer class object
+names(bipartite_monolayer)
+
+# The nodes in the network
+bipartite_monolayer$nodes
+
+# The link (edge) list
+bipartite_monolayer$edge_list
+
+# An igraph object is also created
+bipartite_monolayer$igraph_object
+```
+
+We can also convert a link list to a monolayer object.
+
+```{r}
+ll <- bipartite_monolayer$edge_list
+bipartite_monolayer2 <- list_to_matrix(ll, bipartite = T, group_names = c('Pollinator', 'Plant'))
+```
+
+
+## Unipartite 
+
+We will use a binary directed marine food web from [Jacob, Ute, Aaron Thierry, Ulrich Brose, Wolf E. Arntz, Sofia Berg, Thomas Brey, Ingo Fetzer, et al. 2011. “The Role of Body Size in Complex Food Webs: A Cold Case.” In Advances in Ecological Research, edited by Andrea Belgrano, 45:181–223. Academic Press.](https://www.sciencedirect.com/science/article/pii/B9780123864758000058) Kongsfjorden is a glacial fjord on the northwest corner of the Svalbard archipelago. It is a 30 km open fjord with no marked sill at the entrance, and with a maximum depth exceeding 300 m. The network consists of 262 species with 1,544 feeding interactions.
+
+**These data are organized as a link list, so it is possible to include node attributes.**
+
+
+```{r}
+library(infomapecology) # The data is included in this package
+data("kongsfjorden_links")
+data("kongsfjorden_nodes")
+nodes <- kongsfjorden_nodes %>%
+  select(node_name=Species, node_id_original=NodeID, everything())
+
+interactions <- kongsfjorden_links %>%
+  select(from=consumer, to=resource) %>%
+  mutate_if(is.factor, as.character) %>%
+  mutate(weight=1)
+
+# Prepare network objects
+monolayer_unipartite <- list_to_matrix(x=interactions, directed = T, bipartite = F, node_metadata = nodes)
+
+monolayer_unipartite$nodes
+
+monolayer_unipartite$edge_list
+```
+
+Now let's take the matrix we obtained and create a monolayer object from a matrix
+
+
+
+
+# Multilayer
+
+## Create a unipartite multilayer network
+
+### Example of Fig 1A
+The resulting class includes the ELL, attributes of nodes (names), links (dispersal), and layers (pond name).
+
+### Example with real data from Kefi 2016
+
+Input R list of matrices
+Input R list of link lists
+
+## Create a bipartite multilayer network
+
+Work with the data from the Canary Islands
+
+### Only intralayer links
+
+### Add interlayer links
+
+### Add state nodes (abundance data)
+
+## Example of linking node/layer attributes with network topology
+
+
+## Get supra-adjacency matrices
+
+### Unipartite example
+Fig 1A
+Real data
+
+### Bipartite example
+
+# EMLN analysis example
+On the Canary islands
+
+
+
+
+
+
+
+
+
+
+<!-- # Other -->
+
+<!-- # Creating supra-adjacency matrices for bipartite networks -->
+
+<!-- Use the example from the figure -->
+<!-- ```{r} -->
+<!-- #Test case for #48 Supra-adjacency matrix for bipartite layers -->
+
+<!-- #Input - list of matrices  -->
+<!-- mat3 <- matrix(rbinom(16, 1, 0.6) * sample(1:4, 16, replace=TRUE), 4, 4) -->
+<!-- mat4<- cbind (mat3,c(7,7,7,7)) -->
+
+<!-- interlayer_edges <- data.frame(node_from = c('R1','R2','C1'), layer_from = c(1,2,1), node_to = c('R4','C4','R1'), layer_to = c(2,1,2), weight = c(23,33,43)) -->
+
+<!-- tb<-create_multilayer_network(list(mat3, mat4), bipartite = TRUE, Directed = FALSE, isSupraMatrix = TRUE, Interlayer = interlayer_edges) -->
+
+<!-- #Input - list of intralayer edges. -->
+<!-- EdgeListB <- data.frame(from=c(1, 1, 2, 2, 2, 3, 3), to=c(4, 5, 6, 4, 5, 6, 5), weight=round(rnorm(7, 1, 0.2),2)) -->
+
+<!-- interlayer_edges_E <- data.frame(node_from = c('1','5','3'), layer_from = c(1,2,1), node_to = c('4','3','1'), layer_to = c(2,1,2), weight = c(23,33,43)) -->
+
+<!-- tb2_E<-create_multilayer_network(list(EdgeListB, EdgeListB), isMatrix = FALSE,bipartite = TRUE, Directed = FALSE, isSupraMatrix = TRUE, Interlayer = interlayer_edges_E) -->
+
+<!-- #Issue 52 - Allow input of layers and state nodes -->
+
+<!-- layersInput <- data.frame(layer_name = c('pond green','pond orange'), type = c('space','space')) -->
+
+<!-- networkULayers<-create_multilayer_network(list(mat2, mat3), layersData = layersInput, bipartite = FALSE, Directed = TRUE, isSupraMatrix = FALSE) -->
+
+<!-- networkBLayers<-create_multilayer_network(list(EdgeListB, EdgeListB), isMatrix = FALSE, layersData = layersInput, bipartite = TRUE, Directed = FALSE, isSupraMatrix = TRUE, Interlayer = interlayer_edges_E) -->
+<!-- ``` -->
+
+
+
+
+
+<!-- ```{r} -->
+<!-- # Case "Unipartite networks" -->
+<!-- # Generate a matrix with random weighted interactions -->
+<!-- # matU is a matrix representation for unipartite network  -->
+<!-- n<-3 -->
+<!-- matU <- matrix(round(runif(n*n,1,5),0), ncol = n, dimnames = list(paste0("A", 1:n), paste0("A", 1:n))) -->
+
+<!-- # Convert a matrix to an edge list -->
+<!-- # The output object of class monolayer contains all the necessary information on a monolayer network, including both an edge list and an igraph object -->
+
+<!-- matrix_to_list_unipartite(matU, directed = TRUE) -->
+
+<!-- # Generate a data frame with random links -->
+<!-- # EdgeListU is a edge list representation for unipartite network  -->
+<!-- EdgeListU <- data.frame(from=c("A1", "A1", "A1", "A2", "A2", "A2", "A3", "A3","A3"), to=c("A1", "A2", "A3", "A1", "A2", "A3", "A1", "A2","A3"), weight=round(runif(n*n,1,5),0)) -->
+
+
+<!-- # Convert an edge list to a matrix -->
+<!-- # As previously, the list_to_matrix function generates a monolayer object that provides complete information about a monolayer network. In the example illustrated below, only the matrix component of this output is intended to be displayed. -->
+<!-- list_to_matrix(EdgeListU, directed = TRUE, bipartite = FALSE)$mat -->
+
+<!-- # Case "Bipartite networks" -->
+<!-- # Generate a random matrix for bipartite network with dimensions A X B. Bipartite networks have two sets of nodes. There is no overlap between communities of nodes in the bipartite network -->
+<!-- A<-4 -->
+<!-- B<-3 -->
+<!-- matB <- matrix(round(runif(A*B,1,5),0), ncol = n, dimnames = list(paste0("A", 1:A), paste0("B", 1:B))) -->
+
+<!-- # Convert an matrix to an edge list for bipartite network -->
+<!-- matrix_to_list_bipartite(matB, group_names = c('B_set', 'A_set'))$edge_list -->
+
+<!-- ``` -->
+
+
