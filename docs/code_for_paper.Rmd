@@ -337,12 +337,62 @@ multilayer <- create_multilayer_network(list_of_layers = list(pollination_layer,
 
 ### Real data example
 
+```{r}
+library(readxl)
+# Import layers
+Sierras_matrices <- NULL
+for (layer in 1:12){
+  d <- suppressMessages(read_excel('Gilarranz2014_Datos Sierras.xlsx', sheet = layer+2))
+  web <- data.matrix(d[,2:ncol(d)])
+  rownames(web) <- as.data.frame(d)[,1]
+  web[is.na(web)] <- 0
+  Sierras_matrices[[layer]] <- web
+}
 
-Work with the data from the Sierras data
+# Layer dimensions
+sapply(Sierras_matrices, dim)
 
-### Only intralayer links
+# Layer attribute table
+layer_attrib <- tibble(layer_id=1:12,
+                     layer_name=excel_sheets('Gilarranz2014_Datos Sierras.xlsx')[3:14])
 
-### Add interlayer links
+multilayer <- create_multilayer_network(list_of_layers = Sierras_matrices, bipartite = T, directed = F, layer_attributes = layer_attrib)
+```
+
+We will now add interlayer links. We will connect a pollinator to itself between layers, and weigh these links by the distance between the layers. **We emphasize that this is for illustration purposes only; there is no hypothesis behind this exercise.**
+
+```{r}
+dist <- data.matrix(read_csv('Gilarranz2014_distances.csv'))
+dimnames(dist) <- list(layer_attrib$layer_name, layer_attrib$layer_name)
+
+# Get the dispersal matrix, for pollinators only. This matrix shows whoch pollinator is in which layer
+dispersal <- multilayer$extended %>% group_by(node_from) %>% dplyr::select(layer_from) %>% table()
+dispersal <- 1*(dispersal>0)
+
+Sierras_interlayer <- NULL
+for (s in rownames(dispersal)){ # For each pollinator
+  x <- dispersal[s,]
+  print(s)
+  locations <- names(which(x!=0)) # locations where pollinator occurs
+  if (length(locations)<2){next}
+  pairwise <- combn(locations, 2)
+  # Create interlayer edges between pairwise combinations of locations
+  for (i in 1:ncol(pairwise)){
+    a <- pairwise[1,i]
+    b <- pairwise[2,i]
+    weight <- dist[a,b] # Get the interlayer edge weight
+    Sierras_interlayer %<>% bind_rows(tibble(layer_from=a, node_from=s, layer_to=b, node_to=s, weight=weight))
+  }
+}
+
+# Re-create the multilayer object with interlayer links
+multilayer <- create_multilayer_network(list_of_layers = Sierras_matrices, bipartite = T, directed = F, layer_attributes = layer_attrib, interlayer_links = Sierras_interlayer)
+
+# See the interlayer links
+multilayer$extended %>% filter(node_from==node_to)
+multilayer$extended_ids %>% filter(node_from==node_to)
+```
+
 
 ### Add state nodes (abundance data)
 

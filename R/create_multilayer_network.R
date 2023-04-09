@@ -24,7 +24,7 @@
 #' @export
 #'
 #' @examples
-#' create_multilayer_network(list(bipartite::olesen2002aigrettes,bipartite::olesen2002flores), bipartite = TRUE, Directed = FALSE, get_sam = FALSE)
+#'
 
 create_multilayer_network <- function(list_of_layers,
                                       bipartite,
@@ -117,7 +117,7 @@ create_multilayer_network <- function(list_of_layers,
     extended_edge_list_ids[i,3] <- layer_attributes[layer_attributes$layer_name == extended_edge_list[i,3],]$layer_id
   }
   # Make IDs integer instead of character
-  extended_edge_list_ids <- apply(extended_edge_list_ids, MARGIN = 2, FUN = as.integer)
+  extended_edge_list_ids[1:4,] <- apply(extended_edge_list_ids[1:4,], MARGIN = 2, FUN = as.integer)
 
 
   # Organized the layer_attributes and state_nodes
