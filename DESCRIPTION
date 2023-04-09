@@ -1,7 +1,7 @@
 Package: emln
 Type: Package
 Title: Data and analysis of ecological multilayer networks
-Version: 0.0.1
+Version: 0.1
 URL: https://github.com/Ecological-Complexity-Lab/emln_package
 Date: 2023-04-09
 Authors@R: c(

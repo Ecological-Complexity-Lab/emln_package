@@ -14,7 +14,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=TRUE)
+knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=FALSE)
 ```
 
 ```{r message=FALSE, warning=FALSE}
@@ -409,13 +409,11 @@ multilayer$extended %>% filter(node_from==node_to)
 multilayer$extended_ids %>% filter(node_from==node_to)
 ```
 
-
-### Add state nodes (abundance data)
-
-## Example of linking node/layer attributes with network topology
+<!-- ## Example of linking node/layer attributes with network topology -->
 
 
 ## Get supra-adjacency matrices
+
 This can be completed when the function that takes a multilayer and provides SAM is finished
 ### Unipartite example
 Fig 1A

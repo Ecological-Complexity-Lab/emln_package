@@ -8,9 +8,7 @@
 #' @param sparse Should the returned matrix be a sparse matrix (class Matrix)? Defaults to false.
 #'
 #' @return A matrix or sparse matrix object, and node mapping for easily linking row and column names to the node names.
-#' @export
 #'
-#' @examples
 #'
 
 get_sam <- function(multilayer,bipartite,directed,sparse=F) {
@@ -119,4 +117,3 @@ get_sam <- function(multilayer,bipartite,directed,sparse=F) {
 
 
   return(list(SAM=M , SAM_nodes_map=SAM_nodes_map))}
-}
