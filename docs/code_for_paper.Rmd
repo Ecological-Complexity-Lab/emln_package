@@ -19,16 +19,16 @@ knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=FALSE)
 
 ```{r message=FALSE, warning=FALSE}
 # Change the source for library(emln) later
-source('../R/create_multilayer_network.R')
-source('../R/create_monolayer_object.R')
-source('../R/list_to_matrix.R')
-source('../R/matrix_to_list_bipartite.R')
-source('../R/matrix_to_list_unipartite.R')
+# source('../R/create_multilayer_network.R')
+# source('../R/create_monolayer_object.R')
+# source('../R/list_to_matrix.R')
+# source('../R/matrix_to_list_bipartite.R')
+# source('../R/matrix_to_list_unipartite.R')
 
+library(emln)
 library(tidyverse)
 # library(emln)
 library(bipartite)
-library(infomapecology)
 library(magrittr)
 ```
 
@@ -469,6 +469,9 @@ Real data
 
 ## Searching and loading
 
+```{r}
+view_e
+```
 
 
 
