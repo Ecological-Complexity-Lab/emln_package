@@ -15,8 +15,9 @@
 #'   first column must be \code{layer_id} and the second \code{layer_name}.  The
 #'   order of the rows and layer_id should be the same as in
 #'   \code{list_of_layers}.
-#' @param state_nodes_user Optional. Additional information on physical nodes in
+#' @param state_node_attributes Optional. Additional information on physical nodes in
 #'   layers. Must contain columns \code{layer_name} and \code{node_name}.
+#'   @param physical_node_attributes Optional. Additional information on physical nodes. Must contain column \code{node_name}.
 #'
 #' @return A multilayer object, which is an R list of tibbles:
 #' \itemize{
@@ -31,17 +32,19 @@
 #'
 #' @details Input of \code{list_of_layers} is handled by the function
 #'   \code{create_monolayer_object}; see it's description for details on input.
-#'   If link lists are provided as input for intralayer links the format is
-#'   \code{from to weight}. Using link lists, it is possible to include link
+#'   If using matrices as input, they should contain row and column names. If link lists are provided as input column names should be
+#'   \code{from to weight}.
+#'
+#'   When using link lists, it is possible to include link
 #'   attributes. In that case the headers of all the link lists and, if
 #'   included, the interlayer links, must be the same (after the weight), even if some attributes
-#'   are included in only some layers (see detailed example in the code accompanying the paper). Missing link attributes can be set to NA.
+#'   are included in only some layers (see detailed example in the code accompanying the package). Missing link attributes can be set to \code{NA}.
 #'
 #'   If interlayer links are provided, then layer_attributes must also be
-#'   provided. Specify layer and nodes by names (not IDs). Layer names should
+#'   provided. Specify layer and nodes by UNIQUE names (not IDs). Layer names should
 #'   correspond to those provided in layer_attributes.
 #'
-#'   Attributes of state nodes can be provided with state_nodes_user. If
+#'   Attributes of state nodes can be provided with \code{state_node_attributes}. If
 #'   provided, then columns \code{layer_name} and \code{node_name} must be
 #'   included.
 #'
@@ -49,7 +52,7 @@
 #'   \code{description} and \code{references}. The value of any missing data
 #'   frames in the multilayer object will be set to NULL.
 #'
-#'   See multiple example in the code accompanying the paper.
+#'   See multiple example in the code accompanying the package
 #'
 #' @export
 #'
@@ -75,7 +78,7 @@
 #'
 #' multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, pond_3), interlayer_links = interlayer, bipartite = F, directed = T)
 
-create_multilayer_network <- function(list_of_layers, bipartite, directed, interlayer_links = NULL, layer_attributes = NULL, state_nodes_user = NULL) {
+create_multilayer_network <- function(list_of_layers, bipartite, directed, interlayer_links = NULL, layer_attributes = NULL, state_node_attributes = NULL, physical_node_attributes = NULL) {
 
   # When link lists are used then it is possible to add link attributes. Check if all the headers are the same for all layers.
   if ("data.frame" %in% class(list_of_layers[[1]])){
@@ -161,6 +164,11 @@ create_multilayer_network <- function(list_of_layers, bipartite, directed, inter
   # Create physical nodes table
   physical_nodes <- unique(state_nodes$node_name)
   physical_nodes <- data.frame(node_id = 1:length(physical_nodes), node_name = sort(physical_nodes))
+  # Add user-provided attributes
+  if (!is.null(physical_node_attributes)){
+    print('Organizing state nodes')
+    suppressMessages(physical_nodes %<>% left_join(physical_node_attributes))
+  }
 
   ###  conversion of the node names to node ids in the edge list  ###
   print('Creating extended link list with node IDs')
@@ -188,9 +196,9 @@ create_multilayer_network <- function(list_of_layers, bipartite, directed, inter
     left_join(as_tibble(physical_nodes)) %>%
     select(layer_id, node_id, layer_name, node_name)
   )
-  if (!is.null(state_nodes_user)){
+  if (!is.null(state_node_attributes)){
     print('Joining with user-provided state nodes')
-    state_nodes %<>% left_join(state_nodes_user)
+    state_nodes %<>% left_join(state_node_attributes)
   }
 
   # Output

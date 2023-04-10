@@ -5,7 +5,7 @@ output:
   html_document: 
     fig_height: 4
     fig_width: 6
-    theme: united
+    theme: cerulean
     code_folding: show
     toc: true
     toc_float:
@@ -222,16 +222,29 @@ pond_3_ll <- matrix_to_list_unipartite(pond_3, directed = T)$edge_list
 pond_1_ll$method <- c('observation', 'observation', 'gut analysis')
 pond_2_ll$method <- c('observation', 'gut analysis')
 pond_3_ll$method <- c('observation', 'observation', 'gut analysis')
-
-names(pond_1_ll)
-names(interlayer)
+# Check that the column names correspond after the weight column
+identical(names(pond_1_ll)[4:length(pond_1_ll)], names(interlayer)[6:length(interlayer)])
+# The column names after the weight in the interlayer must be the same as in the layers' link lists
 interlayer$method <- NA
+identical(names(pond_1_ll)[4:length(pond_1_ll)], names(interlayer)[6:length(interlayer)])
 
-abundance_sn <- data.frame(layer_name=c('pond_1','pond_2','pond_3'), node_name=c('pelican','pelican','pelican'), abund=c(6,2,3))
+# Add state node attributes
+pond_1_sn <- data.frame(node_name=c('fish','pelican','crab'),n=c(10,1,100))
+pond_2_sn <- data.frame(node_name=c('fish','pelican','crab'),n=c(20,2,200))
+pond_3_sn <- data.frame(node_name=c('fish','pelican','tadpole'),n=c(30,3,300))
+abundance_sn <- bind_rows(pond_1_sn, pond_2_sn, pond_3_sn) %>% 
+  mutate(layer_name=rep(c('pond_1','pond_2','pond_3'),each=3)) %>% 
+  select(layer_name, node_name, n) 
+
+# Add attributes of the physical nodes
+physical_node_attrib <- data.frame(node_name=c('fish','pelican','crab','tadpole'), 
+                                   order=c('Chondrichthyes','Pelecaniformes','Decapoda','Anura'))
+
 multilayer <- create_multilayer_network(list_of_layers = list(pond_1_ll, pond_2_ll, pond_3_ll),
                           interlayer_links = interlayer,
                           layer_attributes = layer_attrib,
-                          state_nodes_user=abundance_sn,
+                          state_node_attributes=abundance_sn,
+                          physical_node_attributes=physical_node_attrib,
                           bipartite = F,
                           directed = T)
 
@@ -356,7 +369,7 @@ multilayer <- create_multilayer_network(list_of_layers = list(pollination_layer,
 
 # Now add information on state nodes for pollinators
 abundance_sn <- data.frame(layer_name=c('Pollination','Pollination','Pollination'), node_name=c('A1','A2','A3','A4','A5','A6'), abund=c(15,20,7,8,12,3))
-multilayer <- create_multilayer_network(list_of_layers = list(pollination_layer, herbivory_layer), bipartite = T, directed = F, interlayer_links = interlayer, layer_attributes = layer_attrib, state_nodes_user = abundance_sn)
+multilayer <- create_multilayer_network(list_of_layers = list(pollination_layer, herbivory_layer), bipartite = T, directed = F, interlayer_links = interlayer, layer_attributes = layer_attrib, state_node_attributes = abundance_sn)
 
 ```
 
