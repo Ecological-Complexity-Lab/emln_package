@@ -5,7 +5,7 @@ output:
   html_document: 
     fig_height: 4
     fig_width: 6
-    theme: united
+    theme: cerulean
     code_folding: show
     toc: true
     toc_float:
@@ -14,14 +14,30 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=TRUE)
+knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=FALSE)
 ```
 
 ```{r message=FALSE, warning=FALSE}
-library(tidyverse)
+
+# devtools::install_github(repo = 'Ecological-Complexity-Lab/emln_package', force = T, auth_token = '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')
+
+# Change the source for library(emln) later
+source('../R/create_multilayer_network.R')
+source('../R/create_monolayer_object.R')
+source('../R/list_to_matrix.R')
+source('../R/matrix_to_list_bipartite.R')
+source('../R/matrix_to_list_unipartite.R')
+source('../R/view_emln.R')
+source('../R/load_emln.R')
+source('../R/search_emln.R')
+
+
+
+
 # library(emln)
+library(igraph)
+library(tidyverse)
 library(bipartite)
-library(infomapecology)
 library(magrittr)
 ```
 
@@ -29,51 +45,9 @@ library(magrittr)
 
 We provide examples with simulated toy networks and with real data to create an object of class `monolayer`. See help (`?monolayer`) to learn more about this class 
 
-## Bipartite
-
-We start with a toy example. We generate a random incidence matrix with dimensions P X A. Bipartite networks have two sets of nodes with no overlap between the sets.
-
-```{r monolayer_bip_1}
-# Case "Bipartite networks"
-# 
-P <- 4 # 4 rows
-A <- 3 # 3 columns
-incidence_matrix <- matrix(round(runif(P*A,1,5),0), ncol = A, dimnames = list(paste0("P", 1:P), paste0("A", 1:A)))
-
-# Convert an matrix to an edge list for bipartite network
-matrix_to_list_bipartite(incidence_matrix, group_names = c('A_set', 'P_set'))$edge_list
-```
-
-To demonstrate real data we use the incidence matrix olesen2002flores included in the bipartite package.
-
-```{r monolayer_bip_2}
-# create a monolayer object from a bipartite matrix
-monolayer_bipartite <- matrix_to_list_bipartite(x = olesen2002flores, group_names = c('Pollinator', 'Plant'))
-
-# What is included in the monolayer class object
-names(monolayer_bipartite)
-
-# The nodes in the network
-monolayer_bipartite$nodes
-
-# The link (edge) list
-head(monolayer_bipartite$edge_list)
-
-# An igraph object is also created
-monolayer_bipartite$igraph_object
-```
-
-We can also convert a link list to a monolayer object.
-
-```{r monolayer_bip_3}
-ll <- monolayer_bipartite$edge_list
-monolayer_bipartite_2 <- list_to_matrix(ll, bipartite = T, group_names = c('Pollinator', 'Plant'))
-```
-
-
 ## Unipartite 
 
-We start with a toy example. We generate a 3x3 matrix and with random weighted interactions.
+We start with a toy example. We generate a 3x3 matrix with random weighted interactions.
 
 ```{r monolayer_uni_1}
 n <- 3
@@ -123,6 +97,50 @@ kongsfjorden_matrix <- monolayer_unipartite$mat
 monolayer_unipartite <- matrix_to_list_unipartite(x = kongsfjorden_matrix, directed = T)
 ```
 
+
+
+## Bipartite
+
+We start with a toy example. We generate a random incidence matrix with dimensions P X A. Bipartite networks have two sets of nodes with no overlap between the sets.
+
+```{r monolayer_bip_1}
+# Case "Bipartite networks"
+# 
+P <- 4 # 4 rows
+A <- 3 # 3 columns
+incidence_matrix <- matrix(round(runif(P*A,1,5),0), ncol = A, dimnames = list(paste0("P", 1:P), paste0("A", 1:A)))
+
+# Convert an matrix to an edge list for bipartite network
+matrix_to_list_bipartite(incidence_matrix, group_names = c('A_set', 'P_set'))$edge_list
+```
+
+To demonstrate real data we use the incidence matrix olesen2002flores included in the bipartite package.
+
+```{r monolayer_bip_2}
+# create a monolayer object from a bipartite matrix
+monolayer_bipartite <- matrix_to_list_bipartite(x = olesen2002flores, group_names = c('Pollinator', 'Plant'))
+
+# What is included in the monolayer class object
+names(monolayer_bipartite)
+
+# The nodes in the network
+monolayer_bipartite$nodes
+
+# The link (edge) list
+monolayer_bipartite$edge_list
+
+# An igraph object is also created
+monolayer_bipartite$igraph_object
+```
+
+We can also convert a link list to a monolayer object.
+
+```{r monolayer_bip_3}
+ll <- monolayer_bipartite$edge_list
+monolayer_bipartite_2 <- list_to_matrix(ll, bipartite = T, group_names = c('Pollinator', 'Plant'))
+```
+
+
 ## Function create_monolayer_object
 
 This function is a wrapper for the `matrix_to_list_unipartite`, `matrix_to_list_bipartite`, and `list_to_matrix` functions. It is convenient because it automatically selects the input type.
@@ -140,11 +158,15 @@ bipartite_monolayer <- create_monolayer_object(x = olesen2002flores, group_names
 # Multilayer
 
 
-## Create a unipartite multilayer network
+## Unipartite multilayer network
 
 
-### Example of Fig 1A
-We start with a toy example using Fig. 1A from the paper. The resulting class includes the ELL, attributes of nodes (names), links (dispersal), and layers (pond name).
+### Toy example
+
+We start with a toy example using Fig. 1A from the paper shown below.
+
+![](unipartite_multilayer.png)
+
 
 ```{r emln_fig1A_1}
 pond_1 <- matrix(c(0,1,1,0,0,1,0,0,0), byrow = T, nrow = 3, ncol = 3, dimnames = list(c('pelican','fish','crab'),c('pelican','fish','crab')))
@@ -192,33 +214,76 @@ multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, po
                           directed = T)
 ```
 
-This is the obtinaed `multilayer` class.
+## Class `multilayer`
+ The resulting `multilayer` class includes the following tables:
+ 
+* **nodes:** Physical nodes. First column is a unique node id. Node attributes are included if provided as input.
+* **layers:** Information on layers.
+* **extended:** An extended link list of the format `layer_from node_from layer_to node_to weight`. All nodes and layers are identified by names.
+* **extended_ids:** An extended link list of the format `layer_from node_from layer_to node_to weight`. All nodes and layers are identified by unique IDs automoatically generated.
+* **state_nodes:** List of state nodes of the format `layer_id node_id layer_name node_name`. Also includes state node attributes if provided as input.
+
+
+```{r}
+multilayer
+```
+
+## Working with node and link attributes
+
+Now let's try to provide attributes for state nodes. That is, a specific attribute of a physical node in a layer. For instance, the abundance of species can change between layers. When providing state nodes the names of the nodes and the layers must be the same as in the list of layers and in the layer attribute table.
+
+We also include in this example attributes of intralayer links. This can be done when the input is a link list. **When providing link attributes, the headers of all the layers' link lists, and that of the interlayer links, must be the same, even if not all the attributes are provided in all layers.** Here, we add a link attribute called method.
+
+```{r emln_fig1A_2}
+
+# Input will be link lists
+pond_1_ll <- matrix_to_list_unipartite(pond_1, directed = T)$edge_list
+pond_2_ll <- matrix_to_list_unipartite(pond_2, directed = T)$edge_list
+pond_3_ll <- matrix_to_list_unipartite(pond_3, directed = T)$edge_list
+
+# Add attributes to links
+pond_1_ll$method <- c('observation', 'observation', 'gut analysis')
+pond_2_ll$method <- c('observation', 'gut analysis')
+pond_3_ll$method <- c('observation', 'observation', 'gut analysis')
+# Check that the column names correspond after the weight column
+identical(names(pond_1_ll)[4:length(pond_1_ll)], names(interlayer)[6:length(interlayer)])
+# The column names after the weight in the interlayer must be the same as in the layers' link lists
+interlayer$method <- NA
+identical(names(pond_1_ll)[4:length(pond_1_ll)], names(interlayer)[6:length(interlayer)])
+
+# Add state node attributes
+pond_1_sn <- data.frame(node_name=c('fish','pelican','crab'),n=c(10,1,100))
+pond_2_sn <- data.frame(node_name=c('fish','pelican','crab'),n=c(20,2,200))
+pond_3_sn <- data.frame(node_name=c('fish','pelican','tadpole'),n=c(30,3,300))
+abundance_sn <- bind_rows(pond_1_sn, pond_2_sn, pond_3_sn) %>% 
+  mutate(layer_name=rep(c('pond_1','pond_2','pond_3'),each=3)) %>% 
+  select(layer_name, node_name, n) 
+
+# Add attributes of the physical nodes
+physical_node_attrib <- data.frame(node_name=c('fish','pelican','crab','tadpole'), 
+                                   order=c('Chondrichthyes','Pelecaniformes','Decapoda','Anura'))
+
+multilayer <- create_multilayer_network(list_of_layers = list(pond_1_ll, pond_2_ll, pond_3_ll),
+                          interlayer_links = interlayer,
+                          layer_attributes = layer_attrib,
+                          state_node_attributes=abundance_sn,
+                          physical_node_attributes=physical_node_attrib,
+                          bipartite = F,
+                          directed = T)
+```
+
+Note that the node, state_nodes and link tables now include the attributes.
 
 ```{r}
 multilayer
 ```
 
 
-Now let's try to provide information on state nodes. That is, a specific attribute of a physical node in a layer. For instance, the abundance of species can change between layers. When providing state nodes the names of the nodes and the layers must be the same as in the list of layers and in the layer attribute table. Here, we only provide the abundance for the pelican.
-
-```{r emln_fig1A_2}
-abundance_sn <- data.frame(layer_name=c('pond_1','pond_2','pond_3'), node_name=c('pelican','pelican','pelican'), abund=c(6,2,3))
-multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, pond_3),
-                          interlayer_links = interlayer,
-                          layer_attributes = layer_attrib,
-                          state_nodes_user=abundance_sn,
-                          bipartite = F,
-                          directed = T)
-```
-
-
-
-
-### Example with real data from Kefi 2016
+## Example with real data from Kefi 2016
 
 This is a node-aligned multiplex network with three layers: trophic interactions, non-trophic poisitve interactions and non-trophic negative interactions.
 
-First, we will see how we can use matrices as input.
+First, we will see how we can use matrices as input. Along the way we perform sanity checks such as making sure the number and identity of of species is the same in the 3 layers.
 
 ```{r}
 # Load and oprganize the trophic interactions matrix
@@ -278,9 +343,9 @@ Now, we can try and use link lists as input. We will convert the matrices to lin
 ```{r}
 
 # This is for the Kefi data set
-chilean_TI_ll <- emln::matrix_to_list_unipartite(x = chilean_TI, directed = TRUE)$edge_list
-chilean_NTIneg_ll <- emln::matrix_to_list_unipartite(x = chilean_NTIneg, directed = TRUE)$edge_list
-chilean_NTIpos_ll <- emln::matrix_to_list_unipartite(x = chilean_NTIpos, directed = TRUE)$edge_list
+chilean_TI_ll <- matrix_to_list_unipartite(x = chilean_TI, directed = TRUE)$edge_list
+chilean_NTIneg_ll <- matrix_to_list_unipartite(x = chilean_NTIneg, directed = TRUE)$edge_list
+chilean_NTIpos_ll <- matrix_to_list_unipartite(x = chilean_NTIpos, directed = TRUE)$edge_list
 
 multilayer_kefi_ll <- create_multilayer_network(list_of_layers = list(chilean_TI_ll,chilean_NTIneg_ll,chilean_NTIpos_ll), layer_attributes = layer_attributes, bipartite = F, directed = T)
 
@@ -295,11 +360,13 @@ setequal(links_mat$layer_from, links_ll$layer_from)
 ```
 
 
-## Create a bipartite multilayer network
+## Bipartite multilayer network
 
 ### Toy example
 
-We will work with the toy example from Fig. 2A in the paper.
+We will work with the toy example from Fig. 3 in the paper.
+
+![](bipartite_multilayer.png)
 
 ```{r}
 pollination_layer <- matrix(c(5,3,5,3,1,1,
@@ -331,25 +398,75 @@ multilayer <- create_multilayer_network(list_of_layers = list(pollination_layer,
 
 # Now add information on state nodes for pollinators
 abundance_sn <- data.frame(layer_name=c('Pollination','Pollination','Pollination'), node_name=c('A1','A2','A3','A4','A5','A6'), abund=c(15,20,7,8,12,3))
-multilayer <- create_multilayer_network(list_of_layers = list(pollination_layer, herbivory_layer), bipartite = T, directed = F, interlayer_links = interlayer, layer_attributes = layer_attrib, state_nodes_user = abundance_sn)
+multilayer <- create_multilayer_network(list_of_layers = list(pollination_layer, herbivory_layer), bipartite = T, directed = F, interlayer_links = interlayer, layer_attributes = layer_attrib, state_node_attributes = abundance_sn)
 
 ```
 
 ### Real data example
 
+We will work with data from the paper [Hot spots of mutualistic networks (Gilarranz et al 2014. J Anim Ecol)](http://dx.doi.org/10.1111/1365-2656.12304). The data contains 12 layers (patches) of plant-pollinator interactions. We use the original data, provided in Excel to show how working with real data feels like. This illustrates the workflow discussed in the paper.
 
-Work with the data from the Sierras data
+```{r}
+library(readxl)
+# Import layers
+Sierras_matrices <- NULL
+for (layer in 1:12){
+  d <- suppressMessages(read_excel('Gilarranz2014_Datos Sierras.xlsx', sheet = layer+2))
+  web <- data.matrix(d[,2:ncol(d)])
+  rownames(web) <- as.data.frame(d)[,1]
+  web[is.na(web)] <- 0
+  Sierras_matrices[[layer]] <- web
+}
 
-### Only intralayer links
+# Layer dimensions
+sapply(Sierras_matrices, dim)
 
-### Add interlayer links
+# Layer attribute table
+layer_attrib <- tibble(layer_id=1:12,
+                     layer_name=excel_sheets('Gilarranz2014_Datos Sierras.xlsx')[3:14])
 
-### Add state nodes (abundance data)
+multilayer <- create_multilayer_network(list_of_layers = Sierras_matrices, bipartite = T, directed = F, layer_attributes = layer_attrib)
+```
 
-## Example of linking node/layer attributes with network topology
+To illustrate working with interlayer links, we will connect a pollinator to itself between layers, and weigh these links by the distance between the layers. **We emphasize that this is for illustration purposes only; there is no hypothesis behind this exercise.** We already calculated the distances between the 12 pathces.
+
+```{r}
+dist <- data.matrix(read_csv('Gilarranz2014_distances.csv'))
+dimnames(dist) <- list(layer_attrib$layer_name, layer_attrib$layer_name)
+
+# Get the dispersal matrix, for pollinators only. This matrix shows whoch pollinator is in which layer
+dispersal <- multilayer$extended %>% group_by(node_from) %>% dplyr::select(layer_from) %>% table()
+dispersal <- 1*(dispersal>0)
+
+Sierras_interlayer <- NULL
+for (s in rownames(dispersal)){ # For each pollinator
+  x <- dispersal[s,]
+  print(s)
+  locations <- names(which(x!=0)) # locations where pollinator occurs
+  if (length(locations)<2){next}
+  pairwise <- combn(locations, 2)
+  # Create interlayer edges between pairwise combinations of locations
+  for (i in 1:ncol(pairwise)){
+    a <- pairwise[1,i]
+    b <- pairwise[2,i]
+    weight <- dist[a,b] # Get the interlayer edge weight
+    Sierras_interlayer %<>% bind_rows(tibble(layer_from=a, node_from=s, layer_to=b, node_to=s, weight=weight))
+  }
+}
+
+# Re-create the multilayer object with interlayer links
+multilayer <- create_multilayer_network(list_of_layers = Sierras_matrices, bipartite = T, directed = F, layer_attributes = layer_attrib, interlayer_links = Sierras_interlayer)
+
+# See the interlayer links
+multilayer$extended %>% filter(node_from==node_to)
+multilayer$extended_ids %>% filter(node_from==node_to)
+```
+
+<!-- ## Example of linking node/layer attributes with network topology -->
 
 
 ## Get supra-adjacency matrices
+
 This can be completed when the function that takes a multilayer and provides SAM is finished
 ### Unipartite example
 Fig 1A
@@ -357,10 +474,23 @@ Real data
 
 ### Bipartite example
 
-# EMLN analysis example
-On the Canary islands
+# Working with included data sets
 
+## Searching
 
+```{r}
+view_emln()
+load_emln()
+```
+
+## Loading
+We load the spatial multilayer network (network_id = 38) that comes with the package. The development of the network and other networks is described in the paper and in our Wiki page. This is a seed-Dispersal network (collected from Web of Life) with a spatial multilayer aspect. The network has five layers and 22 physical nodes, with a total of 84 interactions that are all intralayer, undirected, and unweighted. There are no interlayer interactions recorded for this network.
+
+```{r}
+d38 <- load_emln(38)
+
+d38
+```
 
 
 
@@ -402,6 +532,38 @@ On the Canary islands
 <!-- ``` -->
 
 
+<!-- # Internal use from the Wiki -->
+
+<!-- ```{r} -->
+<!-- ```R -->
+<!-- #Test case for #48 Supra-adjacency matrix for bipartite layers -->
+
+<!-- #Input - list of matrices  -->
+<!-- mat3 <- matrix(rbinom(16, 1, 0.6) * sample(1:4, 16, replace=TRUE), 4, 4) -->
+<!-- mat2 <- mat3 -->
+<!-- mat4<- cbind (mat3,c(7,7,7,7)) -->
+
+<!-- interlayer_edges <- data.frame(node_from = c('R1','R2','C1'), layer_from = c(1,2,1), node_to = c('R4','C4','R1'), layer_to = c(2,1,2), weight = c(23,33,43)) -->
+
+<!-- tb<-create_multilayer_network(list(mat3, mat4), bipartite = TRUE, Directed = FALSE, isSupraMatrix = TRUE, Interlayer = interlayer_edges) -->
+
+<!-- #Input - list of intralayer edges. -->
+<!-- EdgeListB <- data.frame(from=c(1, 1, 2, 2, 2, 3, 3), to=c(4, 5, 6, 4, 5, 6, 5), weight=round(rnorm(7, 1, 0.2),2)) -->
+
+<!-- interlayer_edges_E <- data.frame(node_from = c('1','5','3'), layer_from = c(1,2,1), node_to = c('4','3','1'), layer_to = c(2,1,2), weight = c(23,33,43)) -->
+
+<!-- tb2_E<-create_multilayer_network(list(EdgeListB, EdgeListB), isMatrix = FALSE,bipartite = TRUE, Directed = FALSE, isSupraMatrix = TRUE, Interlayer = interlayer_edges_E) -->
+
+<!-- #Issue 52 - Allow input of layers and state nodes -->
+
+<!-- layersInput <- data.frame(layer_name = c('pond green','pond orange'), type = c('space','space')) -->
+
+<!-- networkULayers<-create_multilayer_network(list(mat2, mat3), layersData = layersInput, bipartite = FALSE, Directed = TRUE, isSupraMatrix = FALSE) -->
+
+<!-- networkBLayers<-create_multilayer_network(list(EdgeListB, EdgeListB), isMatrix = FALSE, layersData = layersInput, bipartite = TRUE, Directed = FALSE, isSupraMatrix = TRUE, Interlayer = interlayer_edges_E) -->
+
+<!-- ``` -->
+```
 
 
 
