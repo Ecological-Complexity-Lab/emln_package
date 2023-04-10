@@ -76,7 +76,7 @@
 #' names(interlayer_2) <- names(interlayer)
 #' interlayer <- rbind(interlayer, interlayer_2)
 #'
-#' multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, pond_3), interlayer_links = interlayer, bipartite = F, directed = T)
+#' multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, pond_3), layer_attributes = layer_attrib, interlayer_links = interlayer, bipartite = F, directed = T)
 
 create_multilayer_network <- function(list_of_layers, bipartite, directed, interlayer_links = NULL, layer_attributes = NULL, state_node_attributes = NULL, physical_node_attributes = NULL) {
 
