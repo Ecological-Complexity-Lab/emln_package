@@ -5,10 +5,10 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Publications"
-      href: publications.html
-    - text: "Code examples"
-      href: code_for_paper.html
+    - text: "Monolayer"
+      href: monolayer.html
+    - text: "Multilayer"
+      href: multilayer.html
 output:
   html_document:
     theme: cerulean

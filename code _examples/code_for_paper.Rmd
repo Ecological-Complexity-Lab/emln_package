@@ -1,10 +1,5 @@
 ---
 title: "Code accompanying the EMLN paper"
-navbar:
-  title: "This is a test website"
-  left:
-    - text: "Code examples"
-      href: code_for_paper.html
 output:
   html_document: 
     fig_height: 4
