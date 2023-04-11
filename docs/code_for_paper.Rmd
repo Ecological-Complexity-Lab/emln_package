@@ -24,6 +24,7 @@ knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=FALSE)
 # Change the source for library(emln) later
 source('../R/create_multilayer_network.R')
 source('../R/create_monolayer_object.R')
+source('../R/get_sam.R')
 source('../R/list_to_matrix.R')
 source('../R/matrix_to_list_bipartite.R')
 source('../R/matrix_to_list_unipartite.R')
@@ -39,6 +40,7 @@ library(igraph)
 library(tidyverse)
 library(bipartite)
 library(magrittr)
+library(Matrix)
 ```
 
 # Monolayer
@@ -66,7 +68,7 @@ link_list_unipartite <- data.frame(from=c("A1", "A1", "A1", "A2", "A2", "A2", "A
 list_to_matrix(link_list_unipartite, directed = TRUE, bipartite = FALSE)
 ```
 
-To illustrate working with real data we will use a binary directed marine food web from [Jacob, Ute, Aaron Thierry, Ulrich Brose, Wolf E. Arntz, Sofia Berg, Thomas Brey, Ingo Fetzer, et al. 2011. “The Role of Body Size in Complex Food Webs: A Cold Case.” In Advances in Ecological Research, edited by Andrea Belgrano, 45:181–223. Academic Press.](https://www.sciencedirect.com/science/article/pii/B9780123864758000058) Kongsfjorden is a glacial fjord on the northwest corner of the Svalbard archipelago. It is a 30 km open fjord with no marked sill at the entrance, and with a maximum depth exceeding 300 m. The network consists of 262 species with 1,544 feeding interactions. **Note the warning messges**; these are ok for this data set.
+To illustrate working with real data we will use a binary directed marine food web from [Jacob, Ute, Aaron Thierry, Ulrich Brose, Wolf E. Arntz, Sofia Berg, Thomas Brey, Ingo Fetzer, et al. 2011. “The Role of Body Size in Complex Food Webs: A Cold Case.” In Advances in Ecological Research, edited by Andrea Belgrano, 45:181–223. Academic Press.](https://www.sciencedirect.com/science/article/pii/B9780123864758000058) Kongsfjorden is a glacial fjord on the northwest corner of the Svalbard archipelago. It is a 30 km open fjord with no marked sill at the entrance, and with a maximum depth exceeding 300 m. The network consists of 262 species with 1,544 feeding interactions. **Note the warning messages**; these are OK for this data set.
 
 **These data are organized as a link list, so it is possible to include node attributes.**
 
@@ -165,7 +167,7 @@ bipartite_monolayer <- create_monolayer_object(x = olesen2002flores, group_names
 
 We start with a toy example using Fig. 1A from the paper shown below.
 
-![](unipartite_multilayer.png)
+![](unipartite_multilayer_For Rmd.png)
 
 
 ```{r emln_fig1A_1}
@@ -207,7 +209,7 @@ multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, po
 multilayer$layer_attributes
 
 # An example with layer attributes and interlayer links
-multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, pond_3),
+multilayer_unip_toy <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, pond_3),
                           interlayer_links = interlayer,
                           layer_attributes = layer_attrib,
                           bipartite = F,
@@ -220,12 +222,12 @@ multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, po
 * **nodes:** Physical nodes. First column is a unique node id. Node attributes are included if provided as input.
 * **layers:** Information on layers.
 * **extended:** An extended link list of the format `layer_from node_from layer_to node_to weight`. All nodes and layers are identified by names.
-* **extended_ids:** An extended link list of the format `layer_from node_from layer_to node_to weight`. All nodes and layers are identified by unique IDs automoatically generated.
+* **extended_ids:** An extended link list of the format `layer_from node_from layer_to node_to weight`. All nodes and layers are identified by unique IDs automatically generated.
 * **state_nodes:** List of state nodes of the format `layer_id node_id layer_name node_name`. Also includes state node attributes if provided as input.
 
 
 ```{r}
-multilayer
+multilayer_unip_toy
 ```
 
 ## Working with node and link attributes
@@ -281,12 +283,12 @@ multilayer
 
 ## Example with real data from Kefi 2016
 
-This is a node-aligned multiplex network with three layers: trophic interactions, non-trophic poisitve interactions and non-trophic negative interactions.
+This is a node-aligned multiplex network with three layers: trophic interactions, non-trophic positive interactions and non-trophic negative interactions.
 
 First, we will see how we can use matrices as input. Along the way we perform sanity checks such as making sure the number and identity of of species is the same in the 3 layers.
 
 ```{r}
-# Load and oprganize the trophic interactions matrix
+# Load and organize the trophic interactions matrix
 chilean_TI <- read_delim('chilean_TI.txt', delim = '\t')
 nodes <- chilean_TI[,2]
 names(nodes) <- 'Species'
@@ -294,7 +296,7 @@ chilean_TI <- data.matrix(chilean_TI[,3:ncol(chilean_TI)])
 dim(chilean_TI)
 dimnames(chilean_TI) <- list(nodes$Species,nodes$Species)
 
-# Load and oprganize the negative non-trophic interactions matrix
+# Load and organize the negative non-trophic interactions matrix
 chilean_NTIneg <- read_delim('chilean_NTIneg.txt', delim = '\t')
 nodes <- chilean_NTIneg[,2]
 names(nodes) <- 'Species'
@@ -309,7 +311,7 @@ setequal(colnames(chilean_TI), colnames(chilean_NTIneg))
 chilean_NTIneg <- chilean_NTIneg[rownames(chilean_TI),colnames(chilean_TI)]
 all(rownames(chilean_TI)==rownames(chilean_NTIneg))
 
-# Load and oprganize the negative non-trophic positive matrix
+# Load and organize the negative non-trophic positive matrix
 chilean_NTIpos <- read_delim('chilean_NTIpos.txt', delim = '\t')
 nodes <- chilean_NTIpos[,2]
 names(nodes) <- 'Species'
@@ -394,12 +396,11 @@ interlayer <- tibble(layer_from=c('Pollination','Pollination','Pollination','Pol
                      node_to=c('P1','P2','P3','P4'),
                      weight=1)
 
-multilayer <- create_multilayer_network(list_of_layers = list(pollination_layer, herbivory_layer), bipartite = T, directed = F, interlayer_links = interlayer, layer_attributes = layer_attrib)
+multilayer_bip_toy <- create_multilayer_network(list_of_layers = list(pollination_layer, herbivory_layer), bipartite = T, directed = F, interlayer_links = interlayer, layer_attributes = layer_attrib)
 
 # Now add information on state nodes for pollinators
 abundance_sn <- data.frame(layer_name=c('Pollination','Pollination','Pollination'), node_name=c('A1','A2','A3','A4','A5','A6'), abund=c(15,20,7,8,12,3))
 multilayer <- create_multilayer_network(list_of_layers = list(pollination_layer, herbivory_layer), bipartite = T, directed = F, interlayer_links = interlayer, layer_attributes = layer_attrib, state_node_attributes = abundance_sn)
-
 ```
 
 ### Real data example
@@ -425,16 +426,16 @@ sapply(Sierras_matrices, dim)
 layer_attrib <- tibble(layer_id=1:12,
                      layer_name=excel_sheets('Gilarranz2014_Datos Sierras.xlsx')[3:14])
 
-multilayer <- create_multilayer_network(list_of_layers = Sierras_matrices, bipartite = T, directed = F, layer_attributes = layer_attrib)
+multilayer_sierras <- create_multilayer_network(list_of_layers = Sierras_matrices, bipartite = T, directed = F, layer_attributes = layer_attrib)
 ```
 
-To illustrate working with interlayer links, we will connect a pollinator to itself between layers, and weigh these links by the distance between the layers. **We emphasize that this is for illustration purposes only; there is no hypothesis behind this exercise.** We already calculated the distances between the 12 pathces.
+To illustrate working with interlayer links, we will connect a pollinator to itself between layers, and weigh these links by the distance between the layers. **We emphasize that this is for illustration purposes only; there is no hypothesis behind this exercise.** We already calculated the distances between the 12 patches.
 
 ```{r}
 dist <- data.matrix(read_csv('Gilarranz2014_distances.csv'))
 dimnames(dist) <- list(layer_attrib$layer_name, layer_attrib$layer_name)
 
-# Get the dispersal matrix, for pollinators only. This matrix shows whoch pollinator is in which layer
+# Get the dispersal matrix, for pollinators only. This matrix shows which pollinator is in which layer
 dispersal <- multilayer$extended %>% group_by(node_from) %>% dplyr::select(layer_from) %>% table()
 dispersal <- 1*(dispersal>0)
 
@@ -455,42 +456,191 @@ for (s in rownames(dispersal)){ # For each pollinator
 }
 
 # Re-create the multilayer object with interlayer links
-multilayer <- create_multilayer_network(list_of_layers = Sierras_matrices, bipartite = T, directed = F, layer_attributes = layer_attrib, interlayer_links = Sierras_interlayer)
+multilayer_sierras_interlayer <- create_multilayer_network(list_of_layers = Sierras_matrices, bipartite = T, directed = F, layer_attributes = layer_attrib, interlayer_links = Sierras_interlayer)
 
 # See the interlayer links
-multilayer$extended %>% filter(node_from==node_to)
-multilayer$extended_ids %>% filter(node_from==node_to)
+multilayer_sierras_interlayer$extended %>% filter(node_from==node_to)
+multilayer_sierras_interlayer$extended_ids %>% filter(node_from==node_to)
 ```
 
 <!-- ## Example of linking node/layer attributes with network topology -->
 
 
-## Get supra-adjacency matrices
+# Get supra-adjacency matrices
 
-This can be completed when the function that takes a multilayer and provides SAM is finished
-### Unipartite example
-Fig 1A
-Real data
+A SAM is convenient for matrix operations. See a [visual guide](https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md#operatively-rank-4-tensors-can-be-mapped-into-rank-2-supra-adjacency-matrices-to-facilitate-operations-with-care) on the idea of tensor flattening and producing SAM. Use the function `get_sam` to obtain a SAM. See `?get_sam` for an explanation on what the function returns.
 
-### Bipartite example
+## Unipartite example
 
-# Working with included data sets
+Let's take take the toy unipartite network first. This is a directed network.
 
-## Searching
+![](unipartite_multilayer_For Rmd.png)
 
 ```{r}
-view_emln()
-load_emln()
+# Order the physical nodes as in the image for convenience
+multilayer_unip_toy$nodes <- multilayer_unip_toy$nodes[c(3,2,1,4),]
+
+# get the SAM
+sam_unipartite <- get_sam(multilayer = multilayer_unip_toy, bipartite = F, directed = T, sparse = F, remove_zero_rows_cols = F)
 ```
 
-## Loading
-We load the spatial multilayer network (network_id = 38) that comes with the package. The development of the network and other networks is described in the paper and in our Wiki page. This is a seed-Dispersal network (collected from Web of Life) with a spatial multilayer aspect. The network has five layers and 22 physical nodes, with a total of 84 interactions that are all intralayer, undirected, and unweighted. There are no interlayer interactions recorded for this network.
+The SAM contains 3 layers by 4 physical nodes = 12 state nodes
+```{r}
+sam_unipartite$M
+```
+However, not all nodes always occur in all layers. This will be reflected in the `state_nodes_map`: When layer and node ids are NA that means that the node did not occur in the layer.
 
 ```{r}
-d38 <- load_emln(38)
-
-d38
+sam_unipartite$state_nodes_map
 ```
+
+A node may not have links across all the layers. In that case, its row or column sum will be zero. This can happen in a directed network like this one; for example, the tadpole does not have incoming links. The user can choose to remove rows and columns that sum to zero by setting `remove_zero_rows_cols to TRUE.
+
+```{r}
+sam_unipartite <- get_sam(multilayer = multilayer_unip_toy, bipartite = F, directed = T, sparse = F, remove_zero_rows_cols = T)
+# That matrix has less than 12 rows/columns
+dim(sam_unipartite$M)
+sam_unipartite$M
+```
+
+When matrices are very large and sparse, excess of zeroes takes a lot of memory. It is possible to use a sparse matrix.
+
+```{r}
+sam_unipartite <- get_sam(multilayer = multilayer_unip_toy, bipartite = F, directed = T, sparse = T, remove_zero_rows_cols = T)
+sam_unipartite$M
+```
+
+
+## Bipartite example
+
+Bipartite networks are rectangular matrices. Therefore, it is necessary first to transform the incidence matrix to a square adjacency matrix. A visual example is in the figure below, in panels A-->B. Each layer is independently transformed. Then the layers are put together to a SAM as for unipartite network (panel C).
+
+![](bipartite_sam.png)
+
+Now that the network is effectively a unipartite network, we proceed as with the previous example (e.g., state nodes and rows/columns that sum to zero).
+
+### Toy example
+
+We will start with the example in this figure. We already created this network. Note the `bipartite` and `directed` arguments.
+
+```{r}
+# get the SAM
+sam_bipartite <- get_sam(multilayer = multilayer_bip_toy, bipartite = T, directed = F, sparse = F, remove_zero_rows_cols = F)
+
+```
+
+Because this is a diagnoally-copouled network and only plants are common between layers, there will be many NAs in the state node table.
+
+```{r}
+sam_bipartite$state_nodes_map
+```
+
+Also possible to remove zero rows/cols and get a sparse matrix
+```{r}
+sam_bipartite <- get_sam(multilayer = multilayer_bip_toy, bipartite = T, directed = F, sparse = F, remove_zero_rows_cols = T)
+# That matrix has less than 12 rows/columns
+dim(sam_bipartite$M)
+sam_bipartite$M
+
+# Sparse
+sam_bipartite <- get_sam(multilayer = multilayer_bip_toy, bipartite = T, directed = F, sparse = T, remove_zero_rows_cols = T)
+sam_bipartite$M
+```
+
+Note that in this undirected network, each layer and the final SAM are symmetric.
+
+```{r}
+Matrix::isSymmetric(sam_bipartite$M) # Does not work on sparse matrices
+```
+
+
+### Temporal bipartite
+
+The past example was a 
+Now let's try an example with a directed, temporal bipartite network. We will use the pollination layer from the previous example to start with, and we will work with the same pollinators and plants.
+
+```{r}
+time_1 <- matrix(c(5,3,5,3,1,1,
+                   3,3,3,3,0,0,
+                   3,0,0,0,1,0,
+                   0,0,3,1,0,0), byrow = T, nrow = 4, ncol = 6,
+                   dimnames = list(paste('P',1:4,sep=''),paste('A',1:6,sep='')))
+
+time_2 <- matrix(c(7,0,5,3,0,1,
+                   5,2,3,2,0,1,
+                   1,0,0,0,1,0,
+                   0,2,2,1,0,0), byrow = T, nrow = 4, ncol = 6,
+                   dimnames = list(paste('P',1:4,sep=''),paste('A',1:6,sep='')))
+
+time_3 <- matrix(c(5,1,1,1,0,1,
+                   3,0,1,1,0,1,
+                   2,0,0,0,0,0,
+                   1,0,0,1,0,0), byrow = T, nrow = 4, ncol = 6,
+                   dimnames = list(paste('P',1:4,sep=''),paste('A',1:6,sep='')))
+
+# Plot the layers
+visweb(time_1, type = 'none')
+visweb(time_2, type = 'none')
+visweb(time_3, type = 'none') # A5 has no links here
+```
+
+```{r}
+layer_attrib <- tibble(layer_id=1:3, layer_name=c('Time_1','Time_2', 'Time_3'))
+                    
+# Create the ELL tibble with interlayer links.
+# We will link a some plant species for the example. The value is 100 so they will be easy to spot
+interlayer <- tibble(layer_from=c('Time_1', 'Time_2', 'Time_2', 'Time_2'),
+                     node_from= c('P1',     'P1',     'P2',     'P4'),
+                     layer_to=  c('Time_2', 'Time_3', 'Time_3', 'Time_3'), 
+                     node_to=  c('P1',     'P1',     'P2',     'P4'),
+                     weight=c(100,100,100,100))
+
+multilayer_bip_temporal <- create_multilayer_network(list_of_layers = list(time_1, time_2,time_3), bipartite = T, directed = F, interlayer_links = interlayer, layer_attributes = layer_attrib)
+```
+
+Now get the SAM. Notice that interlayer links are only on one matrix diagonal off-blocks.
+
+```{r}
+temporal_SAM <- get_sam(multilayer_bip_temporal, bipartite = T, directed = T, sparse = T)
+temporal_SAM$M
+Matrix::isSymmetric(temporal_SAM$M) # Should be FALSE
+```
+
+
+
+### Real data example
+
+This example shows that the function can handle large networks. This is the spatial network we used before.
+```{r}
+# Without interlayer links
+sierras_SAM <- get_sam(multilayer = multilayer_sierras, bipartite = T, directed = F, sparse = T, remove_zero_rows_cols = F)
+sum(sierras_SAM$M)==2*nrow(multilayer_sierras$extended) # Number of interactions in the SAM should be links the number of links because we created the square matrices
+
+# With interlayer links
+sierras_SAM_interlayer <- get_sam(multilayer = multilayer_sierras_interlayer, bipartite = T, directed = F, sparse = T, remove_zero_rows_cols = F)
+
+# Look at a subset of the data
+sierras_SAM_interlayer$M[1:20,1:20]
+```
+
+
+<!-- # Working with included data sets -->
+
+<!-- ## Searching -->
+
+<!-- ```{r} -->
+<!-- view_emln() -->
+<!-- load_emln() -->
+<!-- ``` -->
+
+<!-- ## Loading -->
+<!-- We load the spatial multilayer network (network_id = 38) that comes with the package. The development of the network and other networks is described in the paper and in our Wiki page. This is a seed-Dispersal network (collected from Web of Life) with a spatial multilayer aspect. The network has five layers and 22 physical nodes, with a total of 84 interactions that are all intralayer, undirected, and weighted. There are no interlayer interactions recorded for this network. -->
+
+<!-- ```{r} -->
+<!-- d38 <- load_emln(38) -->
+
+<!-- d38 -->
+<!-- ``` -->
 
 
 

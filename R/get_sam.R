@@ -3,117 +3,126 @@
 #' This function creates a supra-adjacency matrix from a multilayer object.
 #'
 #' @param multilayer The multilayer object.
-#' @param bipartite Is the network bipartite? Must be provided (no default value).
+#' @param bipartite Is the network bipartite? Must be provided (no default
+#'   value).
 #' @param directed Is the network directed? Must be provided (no default value).
-#' @param sparse Should the returned matrix be a sparse matrix (class Matrix)? Defaults to false.
+#' @param sparse Should the returned matrix be a sparse matrix (class Matrix)?
+#'   Defaults to false.
+#' @param remove_zero_rows_cols Should rows and columns that sum to 0 be
+#'   removed? Defaults to false.
 #'
-#' @return A matrix or sparse matrix object, and node mapping for easily linking row and column names to the node names.
+#' @return A list:   out <- list(M=M, nodes=nodes,
+#'   state_nodes_map=state_nodes_map)
+#' \itemize{
+#'   \item \code{M} The SAM. Can also be sparse.
+#'   \item \code{nodes} A table of physical nodes, as in the multlayer object.
+#'   \item \code{state_nodes_map} A table with state nodes to map the nodes to the row and columns of the SAM.
+#' }
 #'
+#' @details By default, a SAM contains all the nodes in all the layers. However,
+#'   not all nodes always occur in all layers. This will be reflected in the
+#'   \code{state_nodes_map}: When layer and node ids are NA that means that the
+#'   node did not occur in the layer.
 #'
+#'   A node may not have links across all
+#'   the layers. In that case, its row or column sum will be zero. This can happen in a
+#'   directed matrix (see toy example for unipartite network), or in
+#'   diagonally-coupled networks (see toy bipartite example). The user can choose to remove rows and columns that sum to zero by setting \code{remove_zero_rows_cols} to \code{TRUE}.
+#'
+#' @export
 
-get_sam <- function(multilayer,bipartite,directed,sparse=F) {
-
-  SAM_nodes_map <- NULL
-  # supra_matrix <- muxViz::BuildSupraAdjacencyMatrixFromExtendedEdgelist(mEdges = as.data.frame(extended_edge_list),
-  #                                                     Nodes =  nrow(nodes),
-  #                                                     isDirected = Directed,
-  #                                                     Layers = length(list_of_layers))
-
+get_sam <- function(multilayer, bipartite, directed, sparse=F, remove_zero_rows_cols=F) {
   if (!bipartite) {
-    SAM_nodes_map <- bind_rows(
-      tibble(layer_id = extended_edge_list$layer_from, node_id = extended_edge_list$node_from, state_node_id = 0),
-      tibble(layer_id = extended_edge_list$layer_to, node_id = extended_edge_list$node_to, state_node_id = 0)) %>% unique()
+    # See https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md#operatively-rank-4-tensors-can-be-mapped-into-rank-2-supra-adjacency-matrices-to-facilitate-operations-with-care
 
-    SAM_nodes_map <- SAM_nodes_map %>% left_join(nodes, by = c('node_id' = 'node_id'))
-    SAM_nodes_map$state_node_id <- ifelse(SAM_nodes_map$layer_id ==1, SAM_nodes_map$node_id, (SAM_nodes_map$node_id+nrow(nodes)) )
-    mEdges <- as.data.frame(extended_edge_list)
-    Nodes <- nrow(nodes)
-    layers <- length(list_of_layers)
-    edges <- data.frame(from = mEdges[, 1] + Nodes * (mEdges[,2] - 1), to = mEdges[, 3] + Nodes * (mEdges[, 4] - 1),
-                        weight = mEdges[, 5])
-    M <- list_to_matrix(edges, bipartite = bipartite, directed = directed)$mat
-  }
+    # Create a map of state nodes
+    nodes <- multilayer$nodes
+    layers <- multilayer$layers
+    state_nodes_map <- expand.grid(node_name=nodes$node_name, layer_name=layers$layer_name)
+    state_nodes_map$sn_id <- 1:nrow(state_nodes_map)
+    state_nodes_map$tuple <- paste(state_nodes_map$layer_name,state_nodes_map$node_name,sep='_')
+    # Use state node names (the layer-node tuple) in the extended link list
+    ell_tuples <- multilayer$extended %>%
+      mutate(from=paste(layer_from,node_from,sep='_')) %>%
+      mutate(to=paste(layer_to,node_to,sep='_')) %>%
+      select(from,to,weight)
+    # The partial mat only contains the state nodes for which an interaction has been recorded
+    partial_mat <- list_to_matrix(ell_tuples, bipartite = F, directed = directed)$mat
+    # Create the complete layer*nodes matrix
+    M <- matrix(0, nrow = nrow(state_nodes_map), ncol = nrow(state_nodes_map), dimnames = list(state_nodes_map$tuple, state_nodes_map$tuple))
+    # Embed the partial matrix inside the full one
+    M[rownames(partial_mat), colnames(partial_mat)] <- partial_mat
+   }
+
   if (bipartite){
-    # Create an empty supra-adjacency matrix
-    M <- matrix(0, nrow = 0, ncol = 0)
-    # initialize an empty dataframe to hold the SAM_nodes_map
-    SAM_nodes_map <- data.frame(layer_id = integer(),
-                                node_id = integer(),
-                                state_node_id = character(),
-                                node_name = character())
+    # Create the SAM with all the state nodes
+    nodes <- multilayer$nodes
+    layers <- multilayer$layers
+    state_nodes_map <- expand.grid(node_name=nodes$node_name, layer_name=layers$layer_name)
+    state_nodes_map$sn_id <- 1:nrow(state_nodes_map)
+    state_nodes_map$tuple <- paste(state_nodes_map$layer_name,state_nodes_map$node_name,sep='_')
+    M <- matrix(0, nrow = nrow(state_nodes_map), ncol = nrow(state_nodes_map), dimnames = list(state_nodes_map$tuple, state_nodes_map$tuple))
 
-    # create a named vector of node names
-    node_names <- nodes$node_name
-    names(node_names) <- nodes$node_id
+    # Split the ell to layers
+    intra <- multilayer$extended %>% filter(layer_from==layer_to)
+    layers <- split(intra, f=intra$layer_from)
+    for (l in layers){
+      layer_name <- l$layer_from[1]
+      rect_matrix <- list_to_matrix(l[,c(2,4,5)], directed = F, bipartite = T)$mat
+      # rect_matrix <- rect_matrix[sort(rownames(rect_matrix)),]
+      # Get the dimensions of the rectangular matrix
+      m <- nrow(rect_matrix)
+      n <- ncol(rect_matrix)
+      # Create a new square matrix with dimensions m+n
+      rcnames <- c(colnames(rect_matrix),rownames(rect_matrix))
+      rcnames <- paste(layer_name,rcnames,sep='_')
+      square_matrix <- matrix(0, nrow = m + n, ncol = m + n, dimnames = list(rcnames, rcnames))
+      # Copy the values from the rectangular matrix into the appropriate positions in the square matrix
+      square_matrix[(n+1):(n+m), 1:n] <- rect_matrix
+      square_matrix[1:n, (n+1):(n+m)] <- t(rect_matrix)
 
-    if (is_matrix == FALSE) {
-      # Convert a list of intralayer edges to a list of matrices
-      list_of_layers_T <-list()
-      for (i in list_of_layers) {
-        i <- (list_to_matrix(i, directed = directed, bipartite = TRUE))$mat
-        list_of_layers_T <- c(list_of_layers_T, list(i))
-      }
-      list_of_layers <-list_of_layers_T
-    }
-
-    layer<-1
-
-    for (i in list_of_layers)  {
-      # Assign column and row names
-      if (is.null(rownames(i))) {rownames(i) <- paste('R',1:nrow(i),sep='')}
-      if (is.null(colnames(i))) {colnames(i) <- paste('C',1:ncol(i),sep='')}
-      # Extract dimensions A and P from bipartite matrix
-      P <- nrow(i)
-      A <- ncol(i)
-      # Transform bipartite matrix to a square matrix with dimensions N = A + P
-      N <- A + P
-      i_squ <- matrix(0, nrow = N, ncol = N, dimnames = list(c(rownames(i), colnames(i)), c(rownames(i), colnames(i))))
-      i_squ[1:P, (P+1):N] <- i
-      i_squ[(P+1):N, 1:P] <- t(i)
-
-      # To populate SAM_nodes_map
-      node_name <- rownames(i_squ)
-      node_id <- match(node_name, node_names)
-
-      # replace row and column names in M with state_node_id values
-      rownames(i_squ) <- match(rownames(i_squ), node_names) + N*(layer-1)
-      colnames(i_squ) <- match(colnames(i_squ), node_names) + N*(layer-1)
-
-      # populate SAM_nodes_map
-      state_node_id <- rownames(i_squ)
-      new_SAM_nodes_map <- data.frame(layer_id = layer,
-                                      node_id = node_id,
-                                      state_node_id = state_node_id,
-                                      node_name = node_name)
-
-      SAM_nodes_map <- rbind(SAM_nodes_map, new_SAM_nodes_map)
-
-      # Append the current matrix to the supra-adjacency matrix
-      rownames_M <- c(rownames(M), rownames(i_squ))
-      colnames_M <- c(colnames(M), colnames(i_squ))
-      M <- rbind(cbind(M, matrix(0, nrow = ncol(M), ncol = nrow(i_squ))),
-                 cbind(matrix(0, nrow = nrow(i_squ), ncol = ncol(M)), i_squ))
-      rownames(M) <- rownames_M
-      colnames(M) <- colnames_M
-
-      layer <- layer+1
-
+      # Populate the SAM
+      M[rownames(square_matrix), colnames(square_matrix)] <- square_matrix
     }
 
     # Identify and populate interlayer interactions
-    interlayer_edges <- extended_edge_list[extended_edge_list$layer_from != extended_edge_list$layer_to, ]
-
-    for (i in seq_len(nrow(interlayer_edges))) {
-      from_node <- interlayer_edges$node_from[i]
-      from_layer <- interlayer_edges$layer_from[i]
-      to_node <- interlayer_edges$node_to[i]
-      to_layer <- interlayer_edges$layer_to[i]
-      weight <- interlayer_edges$weight[i]
-      from_state_node_id <- SAM_nodes_map[SAM_nodes_map$node_id == from_node & SAM_nodes_map$layer_id == from_layer, "state_node_id"]
-      to_state_node_id <- SAM_nodes_map[SAM_nodes_map$node_id == to_node & SAM_nodes_map$layer_id == to_layer, "state_node_id"]
-      M[to_state_node_id, from_state_node_id] <- weight
+    inter <- multilayer$extended %>% filter(layer_from!=layer_to)
+    # If there are interlayer links
+    if (nrow(inter)>0){
+      # Use state node names (the layer-node tuple) in the extended link list
+      inter_tuples <- inter %>%
+        mutate(from=paste(layer_from,node_from,sep='_')) %>%
+        mutate(to=paste(layer_to,node_to,sep='_')) %>%
+        select(from,to,weight)
+      # The interlayer matrix
+      inter_mat <- list_to_matrix(inter_tuples, bipartite = F, directed = directed)$mat
+      # Populate the SAM with interlayer links
+      M[rownames(inter_mat), colnames(inter_mat)] <- inter_mat
     }
   }
 
+  # Some operations that are the same for the unipartite and bipartite
 
-  return(list(SAM=M , SAM_nodes_map=SAM_nodes_map))}
+  # Change the row and column names to state node ids.
+  colnames(M) <- state_nodes_map$sn_id[match(colnames(M),state_nodes_map$tuple)]
+  rownames(M) <- state_nodes_map$sn_id[match(rownames(M),state_nodes_map$tuple)]
+  # Create the full map. When layer and node ids are NA that means that the node did not occur in the layer
+  state_nodes_map <- left_join(state_nodes_map, multilayer$state_nodes) %>%
+    select(sn_id, layer_name, node_name, layer_id, node_id, tuple)
+
+  if (directed==F & !isSymmetric(M)){warning('The SAM is not symmetric. Make sure this is what you expect because your network is not directed.')}
+
+  if (remove_zero_rows_cols==T){
+    # Remove rows and columns whose sum is zero
+    rows_to_keep <- rowSums(M) != 0
+    cols_to_keep <- colSums(M) != 0
+    M <- M[rows_to_keep, cols_to_keep]
+  }
+
+  # Make sparse?
+  if (sparse){M <- Matrix::Matrix(M, sparse = T)}
+
+  out <- list(M=M, nodes=nodes, state_nodes_map=state_nodes_map)
+
+  return(out)
+}
