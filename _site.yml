@@ -2,7 +2,11 @@ name: "EMLN"
 output_dir: "docs"
 navbar:
   title: "This is a test website"
-  left:
+    left:
+    - text: "Home"
+      href: index.html
+    - text: "Publications"
+      href: publications.html
     - text: "Code examples"
       href: code_for_paper.html
 output:
