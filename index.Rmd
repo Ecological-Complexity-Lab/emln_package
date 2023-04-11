@@ -1,8 +1,8 @@
 ---
-title: "EMLN package"
+title: "Welcome to the EMLN package"
 description: "Welcome"
 output: html_document
 ---
 
-This is a test website
+This website accompanies the paper...
 

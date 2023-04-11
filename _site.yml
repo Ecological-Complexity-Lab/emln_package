@@ -1,8 +1,8 @@
-name: "EMLN"
+name: "EMLN package"
 output_dir: "docs"
 navbar:
-  title: "This is a test website"
-    left:
+  title: "The EMLN package website"
+  left:
     - text: "Home"
       href: index.html
     - text: "Publications"
@@ -11,4 +11,4 @@ navbar:
       href: code_for_paper.html
 output:
   html_document:
-    theme: simplex
+    theme: cerulean
