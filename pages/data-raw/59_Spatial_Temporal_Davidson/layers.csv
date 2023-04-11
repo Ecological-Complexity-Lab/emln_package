@@ -1,0 +1,21 @@
+layer,attribute,value
+1,type,space
+1,type,time
+1,location,Estacion Biologica de Cocha Cashu
+1,latitude,-11.8666666667
+1,longitude,-71.3666666667
+1,num_of_species,24
+1,num_of_interactions,19
+1,connectance,0.133
+1,month,September-November
+1,year,1989
+2,type,space
+2,type,time
+2,location,"Madre de Dios, Peru"
+2,latitude,-12.9978673
+2,longitude,-69.6033293
+2,num_of_species,10
+2,num_of_interactions,13
+2,connectance,0.542
+2,month,May-August
+2,year,1990-1991

@@ -1,0 +1,10 @@
+name: "EMLN"
+output_dir: "pages"
+navbar:
+  title: "This is a test website"
+  left:
+    - text: "Code examples"
+      href: docs/code_for_paper.html
+output:
+  html_document:
+    theme: simplex
