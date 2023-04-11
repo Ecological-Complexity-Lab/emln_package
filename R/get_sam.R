@@ -11,8 +11,7 @@
 #' @param remove_zero_rows_cols Should rows and columns that sum to 0 be
 #'   removed? Defaults to false.
 #'
-#' @return A list:   out <- list(M=M, nodes=nodes,
-#'   state_nodes_map=state_nodes_map)
+#' @return A list:
 #' \itemize{
 #'   \item \code{M} The SAM. Can also be sparse.
 #'   \item \code{nodes} A table of physical nodes, as in the multlayer object.
@@ -37,8 +36,8 @@ get_sam <- function(multilayer, bipartite, directed, sparse=F, remove_zero_rows_
 
     # Create a map of state nodes
     nodes <- multilayer$nodes
-    layers <- multilayer$layers
-    state_nodes_map <- expand.grid(node_name=nodes$node_name, layer_name=layers$layer_name)
+    layer_attributes <- multilayer$layers
+    state_nodes_map <- expand.grid(node_name=nodes$node_name, layer_name=layer_attributes$layer_name)
     state_nodes_map$sn_id <- 1:nrow(state_nodes_map)
     state_nodes_map$tuple <- paste(state_nodes_map$layer_name,state_nodes_map$node_name,sep='_')
     # Use state node names (the layer-node tuple) in the extended link list
@@ -57,15 +56,17 @@ get_sam <- function(multilayer, bipartite, directed, sparse=F, remove_zero_rows_
   if (bipartite){
     # Create the SAM with all the state nodes
     nodes <- multilayer$nodes
-    layers <- multilayer$layers
-    state_nodes_map <- expand.grid(node_name=nodes$node_name, layer_name=layers$layer_name)
+    layer_attributes <- multilayer$layers
+    state_nodes_map <- expand.grid(node_name=nodes$node_name, layer_name=layer_attributes$layer_name)
     state_nodes_map$sn_id <- 1:nrow(state_nodes_map)
     state_nodes_map$tuple <- paste(state_nodes_map$layer_name,state_nodes_map$node_name,sep='_')
     M <- matrix(0, nrow = nrow(state_nodes_map), ncol = nrow(state_nodes_map), dimnames = list(state_nodes_map$tuple, state_nodes_map$tuple))
 
     # Split the ell to layers
     intra <- multilayer$extended %>% filter(layer_from==layer_to)
-    layers <- split(intra, f=intra$layer_from)
+    # Need to convert to a factor to maintain the order of layers
+    intra %<>% mutate(layer_from = factor(layer_from, levels = unique(layer_from)))
+    layers <- group_split(intra, intra$layer_from)
     for (l in layers){
       layer_name <- l$layer_from[1]
       rect_matrix <- list_to_matrix(l[,c(2,4,5)], directed = F, bipartite = T)$mat

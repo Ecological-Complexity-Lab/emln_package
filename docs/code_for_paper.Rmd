@@ -25,6 +25,7 @@ knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=FALSE)
 source('../R/create_multilayer_network.R')
 source('../R/create_monolayer_object.R')
 source('../R/get_sam.R')
+source('../R/get_igraph.R')
 source('../R/list_to_matrix.R')
 source('../R/matrix_to_list_bipartite.R')
 source('../R/matrix_to_list_unipartite.R')
@@ -42,6 +43,14 @@ library(bipartite)
 library(magrittr)
 library(Matrix)
 ```
+
+# About
+
+This file contains complete examples for working with multilayer network data with the package EMLN. It is rather self-explanatory but we recommend to read the paper **PROVIDE A TITLE/DOI** to really understand it. The general workflow is described in the figure below. We start with monolayer networks, which are the basis for handling multilayer networks.
+
+Our paper and this code focus on handling data (A-D in the figure) and not on analysis.
+
+![](workflow.png)
 
 # Monolayer
 
@@ -265,7 +274,7 @@ abundance_sn <- bind_rows(pond_1_sn, pond_2_sn, pond_3_sn) %>%
 physical_node_attrib <- data.frame(node_name=c('fish','pelican','crab','tadpole'), 
                                    order=c('Chondrichthyes','Pelecaniformes','Decapoda','Anura'))
 
-multilayer <- create_multilayer_network(list_of_layers = list(pond_1_ll, pond_2_ll, pond_3_ll),
+multilayer_unip_attributes <- create_multilayer_network(list_of_layers = list(pond_1_ll, pond_2_ll, pond_3_ll),
                           interlayer_links = interlayer,
                           layer_attributes = layer_attrib,
                           state_node_attributes=abundance_sn,
@@ -277,7 +286,7 @@ multilayer <- create_multilayer_network(list_of_layers = list(pond_1_ll, pond_2_
 Note that the node, state_nodes and link tables now include the attributes.
 
 ```{r}
-multilayer
+multilayer_unip_attributes
 ```
 
 
@@ -400,6 +409,7 @@ multilayer_bip_toy <- create_multilayer_network(list_of_layers = list(pollinatio
 
 # Now add information on state nodes for pollinators
 abundance_sn <- data.frame(layer_name=c('Pollination','Pollination','Pollination'), node_name=c('A1','A2','A3','A4','A5','A6'), abund=c(15,20,7,8,12,3))
+
 multilayer <- create_multilayer_network(list_of_layers = list(pollination_layer, herbivory_layer), bipartite = T, directed = F, interlayer_links = interlayer, layer_attributes = layer_attrib, state_node_attributes = abundance_sn)
 ```
 
@@ -484,11 +494,12 @@ multilayer_unip_toy$nodes <- multilayer_unip_toy$nodes[c(3,2,1,4),]
 sam_unipartite <- get_sam(multilayer = multilayer_unip_toy, bipartite = F, directed = T, sparse = F, remove_zero_rows_cols = F)
 ```
 
-The SAM contains 3 layers by 4 physical nodes = 12 state nodes
+The SAM contains 3 layers by 4 physical nodes = 12 state nodes.
 ```{r}
 sam_unipartite$M
 ```
-However, not all nodes always occur in all layers. This will be reflected in the `state_nodes_map`: When layer and node ids are NA that means that the node did not occur in the layer.
+
+**The row and column names correspond to the `sn_id` column in `sam_unipartite$state_nodes_map`.**  However, not all nodes always occur in all layers. This will be reflected in the `state_nodes_map`: When layer and node ids are NA that means that the node did not occur in the layer.
 
 ```{r}
 sam_unipartite$state_nodes_map
@@ -621,6 +632,48 @@ sierras_SAM_interlayer <- get_sam(multilayer = multilayer_sierras_interlayer, bi
 
 # Look at a subset of the data
 sierras_SAM_interlayer$M[1:20,1:20]
+```
+
+
+# Get igraph objects
+
+igraph is used frequently for analysis. Hence, it is convenient to obtain a list of igraph objects as layers. This can be done with the `get_igraph` function. The attributes of the links, state nodes and the physical nodes are all included in the igraph objects. We will show this using the ponds example with atteibutes we used before. The `sn_id` corresponds to that in the `state_nodes_map`.
+
+```{r}
+g_layers <- get_igraph(multilayer_unip_attributes, bipartite = F, directed = T)
+```
+
+Let's look at one layer as an example.
+
+```{r}
+g_layers$layers_igraph[[2]]
+```
+
+The state nodes are listed below. Note that they include the attributes of the physical nodes (order in this example), and that all attributes are included in the igraph objects.
+
+```{r}
+g_layers$state_nodes_map
+
+# Attributes in pond 1
+vertex.attributes(g_layers$layers_igraph[[1]])
+edge.attributes(g_layers$layers_igraph[[1]])
+
+#Attributes in pond 2
+vertex.attributes(g_layers$layers_igraph[[2]])
+edge.attributes(g_layers$layers_igraph[[2]])
+
+#Attributes in pond 3
+vertex.attributes(g_layers$layers_igraph[[3]])
+edge.attributes(g_layers$layers_igraph[[3]])
+```
+
+Here is an example with a bipartite network.
+
+```{r}
+g_layers_bip <- get_igraph(multilayer = multilayer_bip_toy, bipartite = T, directed = F)
+l2 <- g_layers_bip$layers_igraph[[2]]
+l2
+vertex.attributes(l2)
 ```
 
 
