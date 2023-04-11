@@ -132,7 +132,7 @@ descriptions <- tibble()
 for (i in list.files(parent_data.folder)) {
   if (i == 'descriptions.rda') {next} #we don't want it to loop on itself
   #theloadedobjects <- loadRData(paste0('data/',i)) #load the network
-  theloadedobjects <- loadRData(paste0(parent_data.folder,i)) #load the network
+  theloadedobjects <- loadRData(paste0(parent_data.folder,'/',i)) #load the network
   descriptions <- rbind(descriptions, tibble(network_id = as.numeric(gsub(i, pattern = '^emln|_.+$', replacement = '')),
                                                #network_name =  gsub(i,pattern = '.rda',replacement = ''),
                                                network_name =  sub("\\.rda$", "", i),

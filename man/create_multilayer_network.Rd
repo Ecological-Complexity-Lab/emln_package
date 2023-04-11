@@ -10,7 +10,6 @@ create_multilayer_network(
   directed,
   interlayer_links = NULL,
   layer_attributes = NULL,
-  state_nodes_user = NULL,
   get_sam = F
 )
 }
@@ -24,8 +23,6 @@ create_multilayer_network(
 \item{interlayer_links}{Interlayer extended edge list of the format \code{layer_from node_from layer_to node_to weight}. Specify layers by IDs,  and nodes by names. Default is NULL, assuming a lack of interlayer edges.}
 
 \item{layer_attributes}{A data frame with layer attributes. The data frame must have a layer_id column and the order of layers should be the same as in \code{list_of_layers}.}
-
-\item{state_nodes_user}{Optional. Additional information on physical nodes in layers. Must contain columns \code{layer_name} and \code{node_name}}
 
 \item{get_sam}{Should supra-adjacency matrix be returned?}
 }

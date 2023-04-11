@@ -4,7 +4,7 @@
 #'
 #' @description Search the database for networks depeding on search parameters specified below.
 #' @param ecological_network_type Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant
-#' @param multilayer_network_type Environment/Temporal/Multiplex/Pertubation/Spatial
+#' @param multilayer_network_type Environment/Temporal/Multiplex/Perturbation/Spatial
 #' @param state_node TRUE/FALSE
 #' @param weighted TRUE/FALSE
 #' @param directed TRUE/FALSE
