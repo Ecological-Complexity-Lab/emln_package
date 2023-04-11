@@ -1,5 +1,5 @@
 name: "EMLN"
-output_dir: "pages"
+output_dir: "docs"
 navbar:
   title: "This is a test website"
   left:
