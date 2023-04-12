@@ -11,7 +11,7 @@
 
 
 
-<title>Monolayer network examples</title>
+<title>Handling monolayer network data</title>
 
 <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -292,6 +292,12 @@ div.tocify {
   border-radius: 0px;
 }
 
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
 
 </style>
 
@@ -358,7 +364,7 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Monolayer network examples</h1>
+<h1 class="title toc-ignore">Handling monolayer network data</h1>
 
 </div>
 
@@ -414,28 +420,28 @@ matrix_to_list_unipartite(adjacency_matrix, directed = TRUE)</code></pre>
 ## 
 ## $mat
 ##    A1 A2 A3
-## A1  1  2  2
-## A2  2  2  2
-## A3  5  5  4
+## A1  3  2  4
+## A2  5  3  3
+## A3  2  4  3
 ## 
 ## $edge_list
 ## # A tibble: 9 × 3
 ##   from  to    weight
 ##   &lt;chr&gt; &lt;chr&gt;  &lt;dbl&gt;
-## 1 A1    A1         1
-## 2 A1    A2         2
-## 3 A1    A3         5
+## 1 A1    A1         3
+## 2 A1    A2         5
+## 3 A1    A3         2
 ## 4 A2    A1         2
-## 5 A2    A2         2
-## 6 A2    A3         5
-## 7 A3    A1         2
-## 8 A3    A2         2
-## 9 A3    A3         4
+## 5 A2    A2         3
+## 6 A2    A3         4
+## 7 A3    A1         4
+## 8 A3    A2         3
+## 9 A3    A3         3
 ## 
 ## $igraph_object
-## IGRAPH b6c3cda DNW- 3 9 -- 
+## IGRAPH 8e16d41 DNW- 3 9 -- 
 ## + attr: name (v/c), weight (e/n)
-## + edges from b6c3cda (vertex names):
+## + edges from 8e16d41 (vertex names):
 ## [1] A1-&gt;A1 A1-&gt;A2 A1-&gt;A3 A2-&gt;A1 A2-&gt;A2 A2-&gt;A3 A3-&gt;A1 A3-&gt;A2 A3-&gt;A3
 ## 
 ## attr(,&quot;class&quot;)
@@ -461,26 +467,26 @@ list_to_matrix(link_list_unipartite, directed = TRUE, bipartite = FALSE)</code><
 ## 
 ## $mat
 ##    A1 A2 A3
-## A1  2  4  3
-## A2  3  2  5
-## A3  4  3  3
+## A1  3  2  4
+## A2  3  2  3
+## A3  3  1  4
 ## 
 ## $edge_list
 ##   from to weight
-## 1   A1 A1      2
+## 1   A1 A1      3
 ## 2   A1 A2      3
-## 3   A1 A3      4
-## 4   A2 A1      4
+## 3   A1 A3      3
+## 4   A2 A1      2
 ## 5   A2 A2      2
-## 6   A2 A3      3
-## 7   A3 A1      3
-## 8   A3 A2      5
-## 9   A3 A3      3
+## 6   A2 A3      1
+## 7   A3 A1      4
+## 8   A3 A2      3
+## 9   A3 A3      4
 ## 
 ## $igraph_object
-## IGRAPH b52c85b DNW- 3 9 -- 
+## IGRAPH e02a05e DNW- 3 9 -- 
 ## + attr: name (v/c), weight (e/n)
-## + edges from b52c85b (vertex names):
+## + edges from e02a05e (vertex names):
 ## [1] A1-&gt;A1 A1-&gt;A2 A1-&gt;A3 A2-&gt;A1 A2-&gt;A2 A2-&gt;A3 A3-&gt;A1 A3-&gt;A2 A3-&gt;A3
 ## 
 ## attr(,&quot;class&quot;)
@@ -552,18 +558,18 @@ matrix_to_list_bipartite(incidence_matrix, group_names = c(&#39;A_set&#39;, &#39
 <pre><code>## # A tibble: 12 × 3
 ##    from  to    weight
 ##    &lt;chr&gt; &lt;chr&gt;  &lt;dbl&gt;
-##  1 A1    P1         3
+##  1 A1    P1         2
 ##  2 A1    P2         4
-##  3 A1    P3         4
-##  4 A1    P4         3
-##  5 A2    P1         2
-##  6 A2    P2         2
-##  7 A2    P3         1
+##  3 A1    P3         1
+##  4 A1    P4         1
+##  5 A2    P1         4
+##  6 A2    P2         3
+##  7 A2    P3         5
 ##  8 A2    P4         1
-##  9 A3    P1         2
-## 10 A3    P2         4
-## 11 A3    P3         5
-## 12 A3    P4         5</code></pre>
+##  9 A3    P1         4
+## 10 A3    P2         2
+## 11 A3    P3         3
+## 12 A3    P4         3</code></pre>
 <p>To demonstrate real data we use the incidence matrix olesen2002flores
 included in the bipartite package.</p>
 <pre class="r"><code># create a monolayer object from a bipartite matrix
@@ -607,9 +613,9 @@ monolayer_bipartite$edge_list</code></pre>
 ## # … with 20 more rows</code></pre>
 <pre class="r"><code># An igraph object is also created
 monolayer_bipartite$igraph_object</code></pre>
-<pre><code>## IGRAPH 97e982c UNWB 22 30 -- 
+<pre><code>## IGRAPH 801fbfb UNWB 22 30 -- 
 ## + attr: type (v/l), name (v/c), weight (e/n)
-## + edges from 97e982c (vertex names):
+## + edges from 801fbfb (vertex names):
 ##  [1] Halictus.sp.    --Azorina:vidalii      
 ##  [2] Halictus.sp.    --Solidago:sempervivens
 ##  [3] Halictus.sp.    --Daucus:carota        
@@ -701,7 +707,7 @@ $(document).ready(function ()  {
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
     };
-    options.showAndHide = true;
+    options.showAndHide = false;
     options.smoothScroll = true;
 
     // tocify

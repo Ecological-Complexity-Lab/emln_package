@@ -1,5 +1,5 @@
 ---
-title: "Monolayer network examples"
+title: "Handling monolayer network data"
 output:
   html_document: 
     fig_height: 4
@@ -8,7 +8,7 @@ output:
     code_folding: show
     toc: true
     toc_float:
-      collapsed: true
+      collapsed: false
       number_sections: true
 ---
 
