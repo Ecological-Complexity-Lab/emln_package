@@ -344,6 +344,12 @@ div.tocify {
 <li>
   <a href="multilayer.html">Multilayer</a>
 </li>
+<li>
+  <a href="data.html">Included data sets</a>
+</li>
+<li>
+  <a href="analysis_example.html">Analysis example</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -420,28 +426,28 @@ matrix_to_list_unipartite(adjacency_matrix, directed = TRUE)</code></pre>
 ## 
 ## $mat
 ##    A1 A2 A3
-## A1  3  2  4
-## A2  5  3  3
-## A3  2  4  3
+## A1  4  2  2
+## A2  3  2  4
+## A3  3  3  4
 ## 
 ## $edge_list
 ## # A tibble: 9 × 3
 ##   from  to    weight
 ##   &lt;chr&gt; &lt;chr&gt;  &lt;dbl&gt;
-## 1 A1    A1         3
-## 2 A1    A2         5
-## 3 A1    A3         2
+## 1 A1    A1         4
+## 2 A1    A2         3
+## 3 A1    A3         3
 ## 4 A2    A1         2
-## 5 A2    A2         3
-## 6 A2    A3         4
-## 7 A3    A1         4
-## 8 A3    A2         3
-## 9 A3    A3         3
+## 5 A2    A2         2
+## 6 A2    A3         3
+## 7 A3    A1         2
+## 8 A3    A2         4
+## 9 A3    A3         4
 ## 
 ## $igraph_object
-## IGRAPH 8e16d41 DNW- 3 9 -- 
+## IGRAPH 9330734 DNW- 3 9 -- 
 ## + attr: name (v/c), weight (e/n)
-## + edges from 8e16d41 (vertex names):
+## + edges from 9330734 (vertex names):
 ## [1] A1-&gt;A1 A1-&gt;A2 A1-&gt;A3 A2-&gt;A1 A2-&gt;A2 A2-&gt;A3 A3-&gt;A1 A3-&gt;A2 A3-&gt;A3
 ## 
 ## attr(,&quot;class&quot;)
@@ -467,26 +473,26 @@ list_to_matrix(link_list_unipartite, directed = TRUE, bipartite = FALSE)</code><
 ## 
 ## $mat
 ##    A1 A2 A3
-## A1  3  2  4
-## A2  3  2  3
-## A3  3  1  4
+## A1  5  5  3
+## A2  1  5  5
+## A3  3  4  2
 ## 
 ## $edge_list
 ##   from to weight
-## 1   A1 A1      3
-## 2   A1 A2      3
+## 1   A1 A1      5
+## 2   A1 A2      1
 ## 3   A1 A3      3
-## 4   A2 A1      2
-## 5   A2 A2      2
-## 6   A2 A3      1
-## 7   A3 A1      4
-## 8   A3 A2      3
-## 9   A3 A3      4
+## 4   A2 A1      5
+## 5   A2 A2      5
+## 6   A2 A3      4
+## 7   A3 A1      3
+## 8   A3 A2      5
+## 9   A3 A3      2
 ## 
 ## $igraph_object
-## IGRAPH e02a05e DNW- 3 9 -- 
+## IGRAPH 4672291 DNW- 3 9 -- 
 ## + attr: name (v/c), weight (e/n)
-## + edges from e02a05e (vertex names):
+## + edges from 4672291 (vertex names):
 ## [1] A1-&gt;A1 A1-&gt;A2 A1-&gt;A3 A2-&gt;A1 A2-&gt;A2 A2-&gt;A3 A3-&gt;A1 A3-&gt;A2 A3-&gt;A3
 ## 
 ## attr(,&quot;class&quot;)
@@ -558,17 +564,17 @@ matrix_to_list_bipartite(incidence_matrix, group_names = c(&#39;A_set&#39;, &#39
 <pre><code>## # A tibble: 12 × 3
 ##    from  to    weight
 ##    &lt;chr&gt; &lt;chr&gt;  &lt;dbl&gt;
-##  1 A1    P1         2
-##  2 A1    P2         4
-##  3 A1    P3         1
-##  4 A1    P4         1
-##  5 A2    P1         4
-##  6 A2    P2         3
-##  7 A2    P3         5
-##  8 A2    P4         1
-##  9 A3    P1         4
+##  1 A1    P1         4
+##  2 A1    P2         2
+##  3 A1    P3         4
+##  4 A1    P4         3
+##  5 A2    P1         2
+##  6 A2    P2         1
+##  7 A2    P3         4
+##  8 A2    P4         4
+##  9 A3    P1         2
 ## 10 A3    P2         2
-## 11 A3    P3         3
+## 11 A3    P3         4
 ## 12 A3    P4         3</code></pre>
 <p>To demonstrate real data we use the incidence matrix olesen2002flores
 included in the bipartite package.</p>
@@ -577,8 +583,7 @@ monolayer_bipartite &lt;- matrix_to_list_bipartite(x = olesen2002flores, group_n
 
 # What is included in the monolayer class object
 names(monolayer_bipartite)</code></pre>
-<pre><code>## [1] &quot;mode&quot;          &quot;directed&quot;      &quot;nodes&quot;         &quot;mat&quot;          
-## [5] &quot;edge_list&quot;     &quot;igraph_object&quot;</code></pre>
+<pre><code>## [1] &quot;mode&quot;          &quot;directed&quot;      &quot;nodes&quot;         &quot;mat&quot;           &quot;edge_list&quot;     &quot;igraph_object&quot;</code></pre>
 <pre class="r"><code># The nodes in the network
 monolayer_bipartite$nodes</code></pre>
 <pre><code>## # A tibble: 22 × 3
@@ -613,17 +618,17 @@ monolayer_bipartite$edge_list</code></pre>
 ## # … with 20 more rows</code></pre>
 <pre class="r"><code># An igraph object is also created
 monolayer_bipartite$igraph_object</code></pre>
-<pre><code>## IGRAPH 801fbfb UNWB 22 30 -- 
+<pre><code>## IGRAPH ff6b6b8 UNWB 22 30 -- 
 ## + attr: type (v/l), name (v/c), weight (e/n)
-## + edges from 801fbfb (vertex names):
-##  [1] Halictus.sp.    --Azorina:vidalii      
-##  [2] Halictus.sp.    --Solidago:sempervivens
-##  [3] Halictus.sp.    --Daucus:carota        
-##  [4] Halictus.sp.    --Silene:vulgaris      
-##  [5] Halictus.sp.    --Chamomilla:suaveolens
-##  [6] Halictus.sp.    --Reseda:luteola       
-##  [7] Sepsis.thoracica--Azorina:vidalii      
-##  [8] Sepsis.thoracica--Crithmum:maritimum   
+## + edges from ff6b6b8 (vertex names):
+##  [1] Halictus.sp.    --Azorina:vidalii       Halictus.sp.    --Solidago:sempervivens Halictus.sp.    --Daucus:carota        
+##  [4] Halictus.sp.    --Silene:vulgaris       Halictus.sp.    --Chamomilla:suaveolens Halictus.sp.    --Reseda:luteola       
+##  [7] Sepsis.thoracica--Azorina:vidalii       Sepsis.thoracica--Crithmum:maritimum    Sepsis.thoracica--Beta:vulgaris        
+## [10] Sepsis.thoracica--Silene:vulgaris       Agrotis.ipsilon --Solidago:sempervivens Bombus.ruderatus--Azorina:vidalii      
+## [13] Bombus.ruderatus--Lotus:corniculatus    Bombus.ruderatus--Freesia:refracta      Colias.crocea   --Azorina:vidalii      
+## [16] Colias.crocea   --Lotus:corniculatus    Colias.crocea   --Freesia:refracta      Musca.domestica --Azorina:vidalii      
+## [19] Musca.domestica --Crithmum:maritimum    Musca.domestica --Daucus:carota         Musca.domestica --Chamomilla:suaveolens
+## [22] Apis.mellifera  --Azorina:vidalii       Apis.mellifera  --Lotus:corniculatus    Apis.mellifera  --Reseda:luteola       
 ## + ... omitted several edges</code></pre>
 <p>We can also convert a link list to a monolayer object.</p>
 <pre class="r"><code>ll &lt;- monolayer_bipartite$edge_list

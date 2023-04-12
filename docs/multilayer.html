@@ -344,6 +344,12 @@ div.tocify {
 <li>
   <a href="multilayer.html">Multilayer</a>
 </li>
+<li>
+  <a href="data.html">Included data sets</a>
+</li>
+<li>
+  <a href="analysis_example.html">Analysis example</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -1008,12 +1014,10 @@ multilayer_sierras_interlayer &lt;- create_multilayer_network(list_of_layers = S
 <pre class="r"><code># See the interlayer links
 multilayer_sierras_interlayer$extended %&gt;% filter(node_from==node_to)</code></pre>
 <pre><code>## # A tibble: 0 × 5
-## # … with 5 variables: layer_from &lt;chr&gt;, node_from &lt;chr&gt;, layer_to &lt;chr&gt;,
-## #   node_to &lt;chr&gt;, weight &lt;dbl&gt;</code></pre>
+## # … with 5 variables: layer_from &lt;chr&gt;, node_from &lt;chr&gt;, layer_to &lt;chr&gt;, node_to &lt;chr&gt;, weight &lt;dbl&gt;</code></pre>
 <pre class="r"><code>multilayer_sierras_interlayer$extended_ids %&gt;% filter(node_from==node_to)</code></pre>
 <pre><code>## # A tibble: 0 × 5
-## # … with 5 variables: layer_from &lt;int&gt;, node_from &lt;int&gt;, layer_to &lt;int&gt;,
-## #   node_to &lt;int&gt;, weight &lt;dbl&gt;</code></pre>
+## # … with 5 variables: layer_from &lt;int&gt;, node_from &lt;int&gt;, layer_to &lt;int&gt;, node_to &lt;int&gt;, weight &lt;dbl&gt;</code></pre>
 <!-- ## Example of linking node/layer attributes with network topology -->
 </div>
 </div>
@@ -1355,10 +1359,9 @@ The <code>sn_id</code> corresponds to that in the
 <pre class="r"><code>g_layers &lt;- get_igraph(multilayer_unip_attributes, bipartite = F, directed = T)</code></pre>
 <p>Let’s look at one layer as an example.</p>
 <pre class="r"><code>g_layers$layers_igraph[[2]]</code></pre>
-<pre><code>## IGRAPH b0272a0 DNW- 3 2 -- 
-## + attr: name (v/c), sn_id (v/n), node_id (v/n), order (v/c), weight
-## | (e/n), method (e/c), intra$layer_from (e/c)
-## + edges from b0272a0 (vertex names):
+<pre><code>## IGRAPH dbe9114 DNW- 3 2 -- 
+## + attr: name (v/c), sn_id (v/n), node_id (v/n), order (v/c), weight (e/n), method (e/c), intra$layer_from (e/c)
+## + edges from dbe9114 (vertex names):
 ## [1] fish-&gt;pelican crab-&gt;fish</code></pre>
 <p>The state nodes are listed below. Note that they include the
 attributes of the physical nodes (order in this example), and that all
@@ -1447,12 +1450,10 @@ vertex.attributes(g_layers$layers_igraph[[3]])</code></pre>
 <pre class="r"><code>g_layers_bip &lt;- get_igraph(multilayer = multilayer_bip_toy, bipartite = T, directed = F)
 l2 &lt;- g_layers_bip$layers_igraph[[2]]
 l2</code></pre>
-<pre><code>## IGRAPH 9300661 UNWB 9 11 -- 
-## + attr: name (v/c), sn_id (v/n), node_id (v/n), type (v/l), weight
-## | (e/n), intra$layer_from (e/c)
-## + edges from 9300661 (vertex names):
-##  [1] H1--P1 H1--P3 H1--P4 H2--P1 H2--P2 H3--P1 H3--P3 H3--P4 H4--P1 H4--P2
-## [11] H5--P1</code></pre>
+<pre><code>## IGRAPH 1f92f6f UNWB 9 11 -- 
+## + attr: name (v/c), sn_id (v/n), node_id (v/n), type (v/l), weight (e/n), intra$layer_from (e/c)
+## + edges from 1f92f6f (vertex names):
+##  [1] H1--P1 H1--P3 H1--P4 H2--P1 H2--P2 H3--P1 H3--P3 H3--P4 H4--P1 H4--P2 H5--P1</code></pre>
 <pre class="r"><code>vertex.attributes(l2)</code></pre>
 <pre><code>## $name
 ## [1] &quot;H1&quot; &quot;H2&quot; &quot;H3&quot; &quot;H4&quot; &quot;H5&quot; &quot;P1&quot; &quot;P2&quot; &quot;P3&quot; &quot;P4&quot;

@@ -1,0 +1,62 @@
+---
+title: "Working with included data sets"
+subtitle: "work in progress"
+output:
+  html_document: 
+    fig_height: 4
+    fig_width: 6
+    theme: cerulean
+    code_folding: show
+    toc: true
+    toc_float:
+      collapsed: false
+      number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=FALSE)
+```
+
+```{r message=FALSE, warning=FALSE}
+
+# devtools::install_github(repo = 'Ecological-Complexity-Lab/emln_package', force = T, auth_token = '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')
+
+# Change the source for library(emln) later
+source('R/create_multilayer_network.R')
+source('R/create_monolayer_object.R')
+source('R/get_sam.R')
+source('R/get_igraph.R')
+source('R/list_to_matrix.R')
+source('R/matrix_to_list_bipartite.R')
+source('R/matrix_to_list_unipartite.R')
+source('R/view_emln.R')
+source('R/load_emln.R')
+source('R/search_emln.R')
+
+
+
+
+# library(emln)
+library(igraph)
+library(tidyverse)
+library(bipartite)
+library(magrittr)
+library(Matrix)
+```
+
+# About the data sets
+
+## Searching
+
+```{r}
+#view_emln()
+#search_emln()
+```
+
+## Loading
+We load the spatial multilayer network (network_id = 38) that comes with the package. The development of the network and other networks is described in the paper and in our Wiki page. This is a seed-Dispersal network (collected from Web of Life) with a spatial multilayer aspect. The network has five layers and 22 physical nodes, with a total of 84 interactions that are all intralayer, undirected, and weighted. There are no interlayer interactions recorded for this network.
+
+```{r}
+#d38 <- load_emln(38)
+#d38
+```

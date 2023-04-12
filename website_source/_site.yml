@@ -9,6 +9,10 @@ navbar:
       href: monolayer.html
     - text: "Multilayer"
       href: multilayer.html
+    - text: "Included data sets"
+      href: data.html
+    - text: "Analysis example"
+      href: analysis_example.html
 output:
   html_document:
     theme: cerulean
