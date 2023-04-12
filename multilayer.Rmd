@@ -349,12 +349,13 @@ multilayer_sierras_interlayer$extended_ids %>% filter(node_from==node_to)
 
 <!-- ## Example of linking node/layer attributes with network topology -->
 
+# Converting a multilayer class
 
-# Get supra-adjacency matrices
+## To supra-adjacency matrices
 
 A SAM is convenient for matrix operations. See a [visual guide](https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md#operatively-rank-4-tensors-can-be-mapped-into-rank-2-supra-adjacency-matrices-to-facilitate-operations-with-care) on the idea of tensor flattening and producing SAM. Use the function `get_sam` to obtain a SAM. See `?get_sam` for an explanation on what the function returns.
 
-## Unipartite example
+### Unipartite example
 
 Let's take take the toy unipartite network first. This is a directed network.
 
@@ -396,7 +397,7 @@ sam_unipartite$M
 ```
 
 
-## Bipartite example
+### Bipartite example
 
 Bipartite networks are rectangular matrices. Therefore, it is necessary first to transform the incidence matrix to a square adjacency matrix. A visual example is in the figure below, in panels A-->B. Each layer is independently transformed. Then the layers are put together to a SAM as for unipartite network (panel C).
 
@@ -404,7 +405,7 @@ Bipartite networks are rectangular matrices. Therefore, it is necessary first to
 
 Now that the network is effectively a unipartite network, we proceed as with the previous example (e.g., state nodes and rows/columns that sum to zero).
 
-### Toy example
+#### Toy example
 
 We will start with the example in this figure. We already created this network. Note the `bipartite` and `directed` arguments.
 
@@ -439,7 +440,7 @@ Matrix::isSymmetric(sam_bipartite$M) # Does not work on sparse matrices
 ```
 
 
-### Temporal bipartite
+#### Temporal bipartite
 
 The past example was a 
 Now let's try an example with a directed, temporal bipartite network. We will use the pollination layer from the previous example to start with, and we will work with the same pollinators and plants.
@@ -493,7 +494,7 @@ Matrix::isSymmetric(temporal_SAM$M) # Should be FALSE
 
 
 
-### Real data example
+#### Real data example
 
 This example shows that the function can handle large networks. This is the spatial network we used before.
 ```{r}
@@ -509,7 +510,7 @@ sierras_SAM_interlayer$M[1:20,1:20]
 ```
 
 
-# Get igraph objects
+## To igraph objects
 
 igraph is used frequently for analysis. Hence, it is convenient to obtain a list of igraph objects as layers. This can be done with the `get_igraph` function. The attributes of the links, state nodes and the physical nodes are all included in the igraph objects. We will show this using the ponds example with atteibutes we used before. The `sn_id` corresponds to that in the `state_nodes_map`.
 

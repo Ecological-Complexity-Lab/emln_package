@@ -1017,15 +1017,17 @@ multilayer_sierras_interlayer$extended %&gt;% filter(node_from==node_to)</code><
 <!-- ## Example of linking node/layer attributes with network topology -->
 </div>
 </div>
-<div id="get-supra-adjacency-matrices" class="section level1">
-<h1>Get supra-adjacency matrices</h1>
+<div id="converting-a-multilayer-class" class="section level1">
+<h1>Converting a multilayer class</h1>
+<div id="to-supra-adjacency-matrices" class="section level2">
+<h2>To supra-adjacency matrices</h2>
 <p>A SAM is convenient for matrix operations. See a <a
 href="https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md#operatively-rank-4-tensors-can-be-mapped-into-rank-2-supra-adjacency-matrices-to-facilitate-operations-with-care">visual
 guide</a> on the idea of tensor flattening and producing SAM. Use the
 function <code>get_sam</code> to obtain a SAM. See <code>?get_sam</code>
 for an explanation on what the function returns.</p>
-<div id="unipartite-example" class="section level2">
-<h2>Unipartite example</h2>
+<div id="unipartite-example" class="section level3">
+<h3>Unipartite example</h3>
 <p>Let’s take take the toy unipartite network first. This is a directed
 network.</p>
 <p><img src="unipartite_multilayer_For%20Rmd.png" /></p>
@@ -1102,8 +1104,8 @@ sam_unipartite$M</code></pre>
 ## 9  1 . . . . . .  1  1
 ## 10 . . . . . . .  .  1</code></pre>
 </div>
-<div id="bipartite-example" class="section level2">
-<h2>Bipartite example</h2>
+<div id="bipartite-example" class="section level3">
+<h3>Bipartite example</h3>
 <p>Bipartite networks are rectangular matrices. Therefore, it is
 necessary first to transform the incidence matrix to a square adjacency
 matrix. A visual example is in the figure below, in panels A–&gt;B. Each
@@ -1113,8 +1115,8 @@ a SAM as for unipartite network (panel C).</p>
 <p>Now that the network is effectively a unipartite network, we proceed
 as with the previous example (e.g., state nodes and rows/columns that
 sum to zero).</p>
-<div id="toy-example-2" class="section level3">
-<h3>Toy example</h3>
+<div id="toy-example-2" class="section level4">
+<h4>Toy example</h4>
 <p>We will start with the example in this figure. We already created
 this network. Note the <code>bipartite</code> and <code>directed</code>
 arguments.</p>
@@ -1210,8 +1212,8 @@ are symmetric.</p>
 <pre class="r"><code>Matrix::isSymmetric(sam_bipartite$M) # Does not work on sparse matrices</code></pre>
 <pre><code>## [1] TRUE</code></pre>
 </div>
-<div id="temporal-bipartite" class="section level3">
-<h3>Temporal bipartite</h3>
+<div id="temporal-bipartite" class="section level4">
+<h4>Temporal bipartite</h4>
 <p>The past example was a Now let’s try an example with a directed,
 temporal bipartite network. We will use the pollination layer from the
 previous example to start with, and we will work with the same
@@ -1303,8 +1305,8 @@ temporal_SAM$M</code></pre>
 <pre class="r"><code>Matrix::isSymmetric(temporal_SAM$M) # Should be FALSE</code></pre>
 <pre><code>## [1] FALSE</code></pre>
 </div>
-<div id="real-data-example-1" class="section level3">
-<h3>Real data example</h3>
+<div id="real-data-example-1" class="section level4">
+<h4>Real data example</h4>
 <p>This example shows that the function can handle large networks. This
 is the spatial network we used before.</p>
 <pre class="r"><code># Without interlayer links
@@ -1341,8 +1343,8 @@ sierras_SAM_interlayer$M[1:20,1:20]</code></pre>
 </div>
 </div>
 </div>
-<div id="get-igraph-objects" class="section level1">
-<h1>Get igraph objects</h1>
+<div id="to-igraph-objects" class="section level2">
+<h2>To igraph objects</h2>
 <p>igraph is used frequently for analysis. Hence, it is convenient to
 obtain a list of igraph objects as layers. This can be done with the
 <code>get_igraph</code> function. The attributes of the links, state
@@ -1353,10 +1355,10 @@ The <code>sn_id</code> corresponds to that in the
 <pre class="r"><code>g_layers &lt;- get_igraph(multilayer_unip_attributes, bipartite = F, directed = T)</code></pre>
 <p>Let’s look at one layer as an example.</p>
 <pre class="r"><code>g_layers$layers_igraph[[2]]</code></pre>
-<pre><code>## IGRAPH 3228398 DNW- 3 2 -- 
+<pre><code>## IGRAPH b0272a0 DNW- 3 2 -- 
 ## + attr: name (v/c), sn_id (v/n), node_id (v/n), order (v/c), weight
 ## | (e/n), method (e/c), intra$layer_from (e/c)
-## + edges from 3228398 (vertex names):
+## + edges from b0272a0 (vertex names):
 ## [1] fish-&gt;pelican crab-&gt;fish</code></pre>
 <p>The state nodes are listed below. Note that they include the
 attributes of the physical nodes (order in this example), and that all
@@ -1445,10 +1447,10 @@ vertex.attributes(g_layers$layers_igraph[[3]])</code></pre>
 <pre class="r"><code>g_layers_bip &lt;- get_igraph(multilayer = multilayer_bip_toy, bipartite = T, directed = F)
 l2 &lt;- g_layers_bip$layers_igraph[[2]]
 l2</code></pre>
-<pre><code>## IGRAPH 7037577 UNWB 9 11 -- 
+<pre><code>## IGRAPH 9300661 UNWB 9 11 -- 
 ## + attr: name (v/c), sn_id (v/n), node_id (v/n), type (v/l), weight
 ## | (e/n), intra$layer_from (e/c)
-## + edges from 7037577 (vertex names):
+## + edges from 9300661 (vertex names):
 ##  [1] H1--P1 H1--P3 H1--P4 H2--P1 H2--P2 H3--P1 H3--P3 H3--P4 H4--P1 H4--P2
 ## [11] H5--P1</code></pre>
 <pre class="r"><code>vertex.attributes(l2)</code></pre>
@@ -1514,6 +1516,7 @@ l2</code></pre>
 <!-- networkBLayers<-create_multilayer_network(list(EdgeListB, EdgeListB), isMatrix = FALSE, layersData = layersInput, bipartite = TRUE, Directed = FALSE, isSupraMatrix = TRUE, Interlayer = interlayer_edges_E) -->
 <!-- ``` -->
 <p>```</p>
+</div>
 </div>
 
 

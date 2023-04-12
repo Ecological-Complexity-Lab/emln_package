@@ -10,40 +10,92 @@ create_multilayer_network(
   directed,
   interlayer_links = NULL,
   layer_attributes = NULL,
-  get_sam = F
+  state_node_attributes = NULL,
+  physical_node_attributes = NULL
 )
 }
 \arguments{
-\item{list_of_layers}{List of matrices or list of interlayer edges.}
+\item{list_of_layers}{List of matrices or list of link lists (format
+\code{from to weight}; see description). These are the intralayer links.}
 
-\item{bipartite}{Is the network bipartite?}
+\item{bipartite}{Is the network bipartite? Must be provided (no default
+value).}
 
-\item{directed}{Is the network directed?}
+\item{directed}{Is the network directed? Must be provided (no default value).}
 
-\item{interlayer_links}{Interlayer extended edge list of the format \code{layer_from node_from layer_to node_to weight}. Specify layers by IDs,  and nodes by names. Default is NULL, assuming a lack of interlayer edges.}
+\item{interlayer_links}{Interlayer extended edge list of the format
+\code{layer_from node_from layer_to node_to weight}. Default is NULL,
+assuming no interlayer links.}
 
-\item{layer_attributes}{A data frame with layer attributes. The data frame must have a layer_id column and the order of layers should be the same as in \code{list_of_layers}.}
+\item{layer_attributes}{Optional. A data frame with layer attributes. The
+first column must be \code{layer_id} and the second \code{layer_name}.  The
+order of the rows and layer_id should be the same as in
+\code{list_of_layers}.}
 
-\item{get_sam}{Should supra-adjacency matrix be returned?}
+\item{state_node_attributes}{Optional. Additional information on physical nodes in
+layers. Must contain columns \code{layer_name} and \code{node_name}.
+@param physical_node_attributes Optional. Additional information on physical nodes. Must contain column \code{node_name}.}
 }
 \value{
-A multilayer object, which is an R list of dataframes:
+A multilayer object, which is an R list of tibbles:
 \itemize{
-  \item \code{nodes} Nodes' metadata
-  \item \code{layers} Layers's metadata
-  \item \code{extended} An extended edge list of the format \code{layer_from node_from layer_to node_to weight}. All nodes and layers are identified by unique IDs rather than names
-  \item \code{state_nodes} State node information
-  \item \code{description} Contain a description of the created network
-  \item \code{references} Contain reference details
+  \item \code{nodes} Physical nodes. First column is a unique node id. Node attributes are included if provided as input.
+  \item \code{layers} Information on layers.
+  \item \code{extended} An extended link list of the format \code{layer_from node_from layer_to node_to weight}. All nodes and layers are identified by names.
+  \item \code{extended_ids} An extended link list of the format \code{layer_from node_from layer_to node_to weight}. All nodes and layers are identified by unique IDs automoatically generated.
+  \item \code{state_nodes} List of state nodes of the format \code{layer_id node_id layer_name node_name}. Also includes state node attributes if provided as input.
+  \item \code{description} For compatibility with \code{load_emln}.
+  \item \code{references} For compatibility with \code{load_emln}.
 }
-
-The value of any missing data frames in the multilayer object will be set to NULL.
-
-The supra-adjacency matrix (SAM) and node mapping (SAM_nodes_map), if it was requested.
 }
 \description{
-This function creates a multilayer network out of a list of matrices / list of intralayer edges.
+This function creates a multilayer network from multiple matrices / link
+lists.
+}
+\details{
+Input of \code{list_of_layers} is handled by the function
+  \code{create_monolayer_object}; see it's description for details on input.
+  If using matrices as input, they should contain row and column names. If link lists are provided as input column names should be
+  \code{from to weight}.
+
+  When using link lists, it is possible to include link
+  attributes. In that case the headers of all the link lists and, if
+  included, the interlayer links, must be the same (after the weight), even if some attributes
+  are included in only some layers (see detailed example in the code accompanying the package). Missing link attributes can be set to \code{NA}.
+
+  If interlayer links are provided, then layer_attributes must also be
+  provided. Specify layer and nodes by UNIQUE names (not IDs). Layer names should
+  correspond to those provided in layer_attributes.
+
+  Attributes of state nodes can be provided with \code{state_node_attributes}. If
+  provided, then columns \code{layer_name} and \code{node_name} must be
+  included.
+
+  For compatibility with function \code{load_emln} the output contains
+  \code{description} and \code{references}. The value of any missing data
+  frames in the multilayer object will be set to NULL.
+
+  See multiple example in the code accompanying the package
 }
 \examples{
-create_multilayer_network(list(bipartite::olesen2002aigrettes,bipartite::olesen2002flores), bipartite = TRUE, Directed = FALSE, get_sam = FALSE)
+pond_1 <- matrix(c(0,1,1,0,0,1,0,0,0), byrow = T, nrow = 3, ncol = 3, dimnames = list(c('pelican','fish','crab'),c('pelican','fish','crab')))
+pond_2 <- matrix(c(0,1,0,0,0,1,0,0,0), byrow = T, nrow = 3, ncol = 3, dimnames = list(c('pelican','fish','crab'),c('pelican','fish','crab')))
+pond_3 <- matrix(c(0,1,1,0,0,1,0,0,0), byrow = T, nrow = 3, ncol = 3, dimnames = list(c('pelican','fish','tadpole'),c('pelican','fish','tadpole')))
+layer_attrib <- tibble(layer_id=1:3,
+                       layer_name=c('pond_1','pond_2','pond_3'),
+                       location=c('valley','mid-elevation','uphill'))
+
+# Create the ELL tibble with interlayer links.
+interlayer <- tibble(layer_from=c('pond_1','pond_1','pond_1'),
+                     node_from=c('pelican','crab','pelican'),
+                     layer_to=c('pond_2','pond_2','pond_3'),
+                    node_to=c('pelican','crab','pelican'),
+                     weight=1)
+
+# This is a directed network so the links should go both ways, even though they are symmetric.
+interlayer_2 <- interlayer[,c(3,4,1,2,5)]
+names(interlayer_2) <- names(interlayer)
+interlayer <- rbind(interlayer, interlayer_2)
+
+multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, pond_3), layer_attributes = layer_attrib, interlayer_links = interlayer, bipartite = F, directed = T)
 }
