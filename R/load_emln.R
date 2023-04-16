@@ -96,6 +96,16 @@ load_emln <- function(network_id, ids = TRUE) {
          tidyr::unnest(cols = everything())
      }
 
+     #Shirly  - issue #70
+     extended <- network$interactions
+     extended <- extended[, !(names(extended) %in% "interaction_id")]
+     #if (network$layers$name)
+     if ("name" %in% colnames(network$layers)) {
+       # Replace values in 'layer_from' column of 'extended' with matching values from 'name' column of 'layers'
+       extended$layer_from <- network$layers$name[match(extended$layer_from, network$layers$layer)]
+       extended$layer_to <- network$layers$name[match(extended$layer_to, network$layers$layer)]
+       }
+
 
     #turn the interactions node names to ids - if the user wants to (by default it does).
 
@@ -178,7 +188,8 @@ load_emln <- function(network_id, ids = TRUE) {
 
     out <- list(nodes=network$nodes,
                 layers=network$layers,
-                extended=network$interactions,
+                extended=extended,
+                extended_ids=network$interactions,
                 state_nodes=network$state_nodes,
                 description=network$description,
                 references=network$references)
