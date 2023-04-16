@@ -100,7 +100,7 @@ load_emln <- function(network_id, ids = TRUE) {
      extended <- network$interactions
      extended <- extended[, !(names(extended) %in% "interaction_id")]
      #if (network$layers$name)
-     if ("name" %in% colnames(network$layers)) {
+     if (("name" %in% colnames(network$layers)) && !(all(extended$layer_from %in% network$layers$name))) {
        # Replace values in 'layer_from' column of 'extended' with matching values from 'name' column of 'layers'
        extended$layer_from <- network$layers$name[match(extended$layer_from, network$layers$layer)]
        extended$layer_to <- network$layers$name[match(extended$layer_to, network$layers$layer)]
