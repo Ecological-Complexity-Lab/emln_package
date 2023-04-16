@@ -375,7 +375,6 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Working with included data sets</h1>
-<h3 class="subtitle">work in progress</h3>
 
 </div>
 
@@ -403,29 +402,259 @@ source(&#39;R/search_emln.R&#39;)
 
 # library(emln)
 library(igraph)
-library(tidyverse)
 library(bipartite)
+library(Matrix)
 library(magrittr)
-library(Matrix)</code></pre>
+library(ggplot2)
+library(readr)
+library(tibble)
+library(dplyr)
+library(readr)
+library(stringr)
+library(ggsci)
+library(ggbreak)
+library(ggpubr)</code></pre>
 <div id="about-the-data-sets" class="section level1">
 <h1>About the data sets</h1>
-<div id="searching" class="section level2">
-<h2>Searching</h2>
-<pre class="r"><code>#view_emln()
-#search_emln()</code></pre>
+<p>The package includes 81 data sets of multilayer networks, collected
+from different sources. This collection of data is highly useful for
+comparative analysis and for practicing workflows. How data were
+collected and organized is described in the paper.</p>
+<p>The data includes 5 types of multilayer networks:</p>
+<pre><code>##     multi_type count
+## 1      Spatial    45
+## 2     Temporal    23
+## 3  Environment    15
+## 4    Multiplex     6
+## 5 Perturbation     4</code></pre>
+<p>These are divided into 8 types of ecological interaction
+networks:.</p>
+<pre><code>##          eco_type count
+## 1        Food-Web    36
+## 2     Pollination    25
+## 3  Seed-Dispersal     7
+## 4   Host-Parasite     6
+## 5 Plant-Herbivore     3
+## 6       Multiples     2
+## 7       Plant-Ant     1
+## 8    Anemone-Fish     1</code></pre>
+<p>Here is a visual summary:</p>
+<p><img src="data_files/figure-html/unnamed-chunk-5-1.png" width="960" /></p>
+<p>The data is distributed globally:</p>
+<p><img src="data_files/figure-html/Map%20Visualization-1.png" width="960" /></p>
 </div>
-<div id="loading" class="section level2">
-<h2>Loading</h2>
+<div id="browsing-the-data" class="section level1">
+<h1>Browsing the data</h1>
+<p>You can browse through the data sets using <code>view_emln()</code>
+in RStudio. The function will open a user interface in the viewer panel.
+To search for a network with a certain set of parameters, you can use
+<code>search_emln()</code>. Here are a few examples.</p>
+<pre class="r"><code>search_1 &lt;- search_emln(ecological_network_type = &#39;Host-parasite&#39;)
+names(search_1)</code></pre>
+<pre><code>##  [1] &quot;network_id&quot;              &quot;network_name&quot;            &quot;ecological_network_type&quot; &quot;multilayer_network_type&quot; &quot;state_nodes&quot;            
+##  [6] &quot;weighted&quot;                &quot;directed&quot;                &quot;interlayer&quot;              &quot;layer_num&quot;               &quot;node_num&quot;</code></pre>
+<pre class="r"><code># Show some of the columns
+search_1 %&gt;% select(&quot;network_id&quot;,&quot;network_name&quot;,&quot;ecological_network_type&quot;,&quot;multilayer_network_type&quot;,&quot;layer_num&quot;)</code></pre>
+<pre><code>## # A tibble: 7 × 5
+## # Groups:   network_id, network_name [6]
+##   network_id network_name                          ecological_network_type multilayer_network_type layer_num
+##        &lt;dbl&gt; &lt;chr&gt;                                 &lt;chr&gt;                   &lt;chr&gt;                       &lt;dbl&gt;
+## 1          7 emln7_environment_rejmanek_stary_1979 Host-Parasite           Environment                     4
+## 2         24 emln24_spatial_canadian_fish_parasite Host-Parasite           Spatial                        12
+## 3         34 emln34_spatial_hadfield_2013          Host-Parasite           Spatial                        51
+## 4         39 emln39_spatial_krasnov_ectoparasites  Host-Parasite           Spatial                        54
+## 5         55 emln55_spatial_slovakia               Host-Parasite           Spatial                       120
+## 6         60 emln60_spatial_temporal_kolpelke_2017 Host-Parasite           Spatial                       777
+## 7         60 emln60_spatial_temporal_kolpelke_2017 Host-Parasite           Temporal                      777</code></pre>
+<pre class="r"><code>search_2 &lt;- search_emln(ecological_network_type = &#39;Pollination&#39;, layer_number_minimum = 15)
+search_2 %&gt;% select(&quot;network_id&quot;,&quot;network_name&quot;,&quot;ecological_network_type&quot;,&quot;multilayer_network_type&quot;,&quot;layer_num&quot;)</code></pre>
+<pre><code>## # A tibble: 6 × 5
+## # Groups:   network_id, network_name [5]
+##   network_id network_name                                     ecological_network_type multilayer_network_type layer_num
+##        &lt;dbl&gt; &lt;chr&gt;                                            &lt;chr&gt;                   &lt;chr&gt;                       &lt;dbl&gt;
+## 1          2 emln2_environment_benadi_jae_2013                Pollination             Environment                    69
+## 2         67 emln67_temporal_caradona_2020                    Pollination             Temporal                       86
+## 3         74 emln74_temporal_perturbation_kaiser_bunbury_2009 Pollination             Temporal                       24
+## 4         74 emln74_temporal_perturbation_kaiser_bunbury_2009 Pollination             Perturbation                   24
+## 5         75 emln75_temporal_ponisio_2017                     Pollination             Temporal                      141
+## 6         81 emln81_temporal_zackenberg_2013                  Pollination             Temporal                      163</code></pre>
+</div>
+<div id="loading-a-network" class="section level1">
+<h1>Loading a network</h1>
 <p>We load the spatial multilayer network (network_id = 38) that comes
-with the package. The development of the network and other networks is
-described in the paper and in our Wiki page. This is a seed-Dispersal
-network (collected from Web of Life) with a spatial multilayer aspect.
-The network has five layers and 22 physical nodes, with a total of 84
-interactions that are all intralayer, undirected, and weighted. There
-are no interlayer interactions recorded for this network.</p>
-<pre class="r"><code>#d38 &lt;- load_emln(38)
-#d38</code></pre>
-</div>
+with the package. This is a spatial seed-Dispersal network (collected
+from Web of Life). The network has five layers and 22 physical nodes,
+with a total of 84 interactions that are all intralayer, undirected, and
+weighted. There are no interlayer interactions recorded for this
+network.</p>
+<pre class="r"><code>d38 &lt;- load_emln(38)
+d38</code></pre>
+<pre><code>## $nodes
+## # A tibble: 22 × 5
+##    node_id node_name           type  taxa_verified verification_level
+##      &lt;int&gt; &lt;chr&gt;               &lt;chr&gt; &lt;chr&gt;         &lt;chr&gt;             
+##  1       1 Juniperus_communis  plant TRUE          species           
+##  2       2 Juniperus_sabina    plant TRUE          species           
+##  3       3 Berberis_vulgaris   plant TRUE          species           
+##  4       4 Crataegus_monogyna  plant TRUE          species           
+##  5       5 Rosa_canina         plant TRUE          species           
+##  6       6 Juniperus_phoenicea plant TRUE          species           
+##  7       7 Hedera_helix        plant TRUE          species           
+##  8       8 Lonicera_arborea    plant TRUE          species           
+##  9       9 Taxus_baccata       plant TRUE          species           
+## 10      10 Prunus_prostrata    plant TRUE          species           
+## # … with 12 more rows
+## 
+## $layers
+## # A tibble: 5 × 8
+##   layer type  location                                                          latitude longitude num_of_species num_of_interactions connectance
+##   &lt;int&gt; &lt;chr&gt; &lt;chr&gt;                                                                &lt;dbl&gt;     &lt;dbl&gt;          &lt;int&gt;               &lt;int&gt;       &lt;dbl&gt;
+## 1     1 space Campos de Otero, Sierra Nevada                                        37.1     -3.39              6                   6       0.667
+## 2     2 space Cañada de las Sabinas, Nava de las Correhuelas, Sierra de Cazorla     37.9     -2.87             16                  31       0.646
+## 3     3 space Cañada Travina, Sierra de Cazorla                                     38.1     -2.75             13                  26       0.65 
+## 4     4 space Sabinar del Marqués, Reserva de la Estación Biológica de Doñana       37.0     -6.55              9                  10       0.5  
+## 5     5 space Santa Bárbara, Sierra de Baza                                         37.4     -2.84              9                  11       0.55 
+## 
+## $extended
+## # A tibble: 84 × 5
+##    layer_from node_from          layer_to node_to           weight
+##         &lt;int&gt; &lt;chr&gt;                 &lt;int&gt; &lt;chr&gt;              &lt;int&gt;
+##  1          1 Juniperus_communis        1 Turdus.torquatus       1
+##  2          1 Juniperus_communis        1 Turdus.viscivorus      1
+##  3          1 Juniperus_communis        1 Turdus.iliacus         1
+##  4          1 Juniperus_sabina          1 Turdus.torquatus       1
+##  5          1 Juniperus_sabina          1 Turdus.viscivorus      1
+##  6          1 Berberis_vulgaris         1 Turdus.torquatus       1
+##  7          2 Crataegus_monogyna        2 Turdus.merula          1
+##  8          2 Crataegus_monogyna        2 Turdus.viscivorus      1
+##  9          2 Crataegus_monogyna        2 Turdus.iliacus         1
+## 10          2 Crataegus_monogyna        2 Turdus.torquatus       1
+## # … with 74 more rows
+## 
+## $extended_ids
+## # A tibble: 84 × 5
+##    layer_from node_from layer_to node_to weight
+##         &lt;int&gt;     &lt;int&gt;    &lt;int&gt;   &lt;int&gt;  &lt;int&gt;
+##  1          1         1        1      18      1
+##  2          1         1        1      19      1
+##  3          1         1        1      20      1
+##  4          1         2        1      18      1
+##  5          1         2        1      19      1
+##  6          1         3        1      18      1
+##  7          2         4        2      21      1
+##  8          2         4        2      19      1
+##  9          2         4        2      20      1
+## 10          2         4        2      18      1
+## # … with 74 more rows
+## 
+## $state_nodes
+## NULL
+## 
+## $description
+## # A tibble: 7 × 2
+##   attribute               value                            
+##   &lt;chr&gt;                   &lt;chr&gt;                            
+## 1 data_entry              ofir_segev                       
+## 2 multilayer_network_type Spatial                          
+## 3 description             &lt;NA&gt;                             
+## 4 source                  Web_of_Life                      
+## 5 data_url                http://www.web-of-life.es/map.php
+## 6 ecological_network_type Seed-Dispersal                   
+## 7 state_nodes             FALSE                            
+## 
+## $references
+## NULL
+## 
+## attr(,&quot;class&quot;)
+## [1] &quot;multilayer&quot;</code></pre>
+<p>Here is another example:</p>
+<pre class="r"><code>search_emln(ecological_network_type = &#39;Pollination&#39;, directed = TRUE)</code></pre>
+<pre><code>## # A tibble: 1 × 10
+## # Groups:   network_id, network_name [1]
+##   network_id network_name               ecological_network_type multilayer_network_ty… state_nodes weighted directed interlayer layer_num node_num
+##        &lt;dbl&gt; &lt;chr&gt;                      &lt;chr&gt;                   &lt;chr&gt;                  &lt;chr&gt;       &lt;lgl&gt;    &lt;lgl&gt;    &lt;lgl&gt;          &lt;dbl&gt;    &lt;dbl&gt;
+## 1         47 emln47_spatial_olesen_2002 Pollination             Spatial                FALSE       TRUE     TRUE     FALSE              2       47</code></pre>
+<pre class="r"><code>d47 &lt;- load_emln(47)
+d47</code></pre>
+<pre><code>## $nodes
+## # A tibble: 47 × 7
+##    node_id node_name          type       taxonomy_name        taxonomy_rank taxa_verified verification_level
+##      &lt;int&gt; &lt;chr&gt;              &lt;chr&gt;      &lt;chr&gt;                &lt;chr&gt;         &lt;chr&gt;         &lt;chr&gt;             
+##  1       1 Azorina_vidalii    plant      Azorina vidalii      species       TRUE          species           
+##  2       2 Crithmum_maritimum plant      Crithmum maritimum   species       TRUE          species           
+##  3       3 Beta_vulgaris      plant      Beta vulgaris        species       TRUE          species           
+##  4       4 Daucus_carota      plant      Daucus carota        species       TRUE          species           
+##  5       5 Silene_vulgaris    plant      Silene vulgaris      species       TRUE          species           
+##  6       6 Lotus_corniculatus plant      Lotus corniculatus   species       TRUE          species           
+##  7       7 Freesia_refracta   plant      Freesia refracta     species       TRUE          species           
+##  8       8 Reseda_luteola     plant      Reseda luteola       species       TRUE          species           
+##  9       9 Halictus_sp.       pollinator Halictus             genus         TRUE          subgenus          
+## 10      10 Sepsis_thoracica   pollinator Micropeza thoracicum species       FALSE         &lt;NA&gt;              
+## # … with 37 more rows
+## 
+## $layers
+## # A tibble: 2 × 7
+##   layer type  name                        latitude longitude date       directed
+##   &lt;int&gt; &lt;chr&gt; &lt;chr&gt;                          &lt;dbl&gt;     &lt;dbl&gt; &lt;date&gt;     &lt;chr&gt;   
+## 1     1 space Azorean Flores island           39.4     -31.2 2000-07-01 TRUE    
+## 2     2 space Mauritian Ile aux Aigrettes    -20.4      57.7 1999-06-01 TRUE    
+## 
+## $extended
+## # A tibble: 82 × 5
+##    layer_from            node_from            layer_to              node_to            weight
+##    &lt;chr&gt;                 &lt;chr&gt;                &lt;chr&gt;                 &lt;chr&gt;               &lt;int&gt;
+##  1 Azorean Flores island Halictus_sp.         Azorean Flores island Azorina_vidalii        98
+##  2 Azorean Flores island Sepsis_thoracica     Azorean Flores island Azorina_vidalii        51
+##  3 Azorean Flores island Bombus_ruderatus     Azorean Flores island Azorina_vidalii         9
+##  4 Azorean Flores island Colias_crocea        Azorean Flores island Azorina_vidalii         9
+##  5 Azorean Flores island Musca_domestica      Azorean Flores island Azorina_vidalii        23
+##  6 Azorean Flores island Apis_mellifera       Azorean Flores island Azorina_vidalii        89
+##  7 Azorean Flores island Lasius_niger         Azorean Flores island Azorina_vidalii        37
+##  8 Azorean Flores island Calliphora_vemitoria Azorean Flores island Azorina_vidalii        13
+##  9 Azorean Flores island Sepsis_thoracica     Azorean Flores island Crithmum_maritimum     87
+## 10 Azorean Flores island Musca_domestica      Azorean Flores island Crithmum_maritimum     83
+## # … with 72 more rows
+## 
+## $extended_ids
+## # A tibble: 82 × 5
+##    layer_from node_from layer_to node_to weight
+##         &lt;int&gt;     &lt;int&gt;    &lt;int&gt;   &lt;int&gt;  &lt;int&gt;
+##  1          1         9        1       1     98
+##  2          1        10        1       1     51
+##  3          1        11        1       1      9
+##  4          1        12        1       1      9
+##  5          1        13        1       1     23
+##  6          1        14        1       1     89
+##  7          1        15        1       1     37
+##  8          1        22        1       1     13
+##  9          1        10        1       2     87
+## 10          1        13        1       2     83
+## # … with 72 more rows
+## 
+## $state_nodes
+## NULL
+## 
+## $description
+## # A tibble: 8 × 2
+##   attribute               value                     
+##   &lt;chr&gt;                   &lt;chr&gt;                     
+## 1 data_entry              ofir_segev                
+## 2 multilayer_network_type Spatial                   
+## 3 description             &lt;NA&gt;                      
+## 4 source                  mangal                    
+## 5 data_url                https://mangal.io/doc/api/
+## 6 mangal_code             61                        
+## 7 ecological_network_type Pollination               
+## 8 state_nodes             FALSE                     
+## 
+## $references
+## # A tibble: 1 × 4
+##   doi                              author year       paper_url                                                               
+##   &lt;chr&gt;                            &lt;chr&gt;  &lt;date&gt;     &lt;chr&gt;                                                                   
+## 1 10.1046/j.1472-4642.2002.00148.x olesen 2002-01-01 https://onlinelibrary.wiley.com/doi/abs/10.1046/j.1472-4642.2002.00148.x
+## 
+## attr(,&quot;class&quot;)
+## [1] &quot;multilayer&quot;</code></pre>
 </div>
 
 

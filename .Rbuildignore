@@ -1,3 +1,8 @@
+^private/
+^code_examples/
+^docs/
+^data-raw/
+^website_source/
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^data-raw$
+make_site.R

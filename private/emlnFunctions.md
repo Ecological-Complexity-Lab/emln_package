@@ -365,6 +365,7 @@ multi_eco <- merge(multi,eco,by = 'network_id')
 
 multi_eco <- count(multi_eco, multi_type, eco_type)
 
+multi_eco$multi_type <- factor(multi_eco$multi_type , levels=c("Spatial","Temporal","Environment", "Multiplex","Perturbation"))
 
 p10 <- ggplot(multi_eco, aes(x=multi_type,y=n, fill=eco_type)) + 
   geom_bar(stat = 'identity', color='black') + xlab('Multilayer Network Type') + paper_figs_theme +
@@ -454,7 +455,14 @@ p7 <- ggplot() +
     ## region), : Ignoring unknown aesthetics: x and y
 
 ``` r
-grid <- ggarrange(plotlist = list(p0,p10,p_layers,p6), labels = list('(A)','(B)','(C)','(D)'))
+# grid <- ggpubr::ggarrange(plotlist = list(p0,p10,p_layers,p6), labels = list('(A)','(B)','(C)','(D)'))
+# grid
+
+grid <- ggpubr::ggarrange(
+          ggpubr::ggarrange(p0,p_layers, ncol = 2, labels = c("(A)", "(B)")), 
+          ggpubr::ggarrange(p10, labels = "(C)"), 
+          ggpubr::ggarrange(p6, labels = "(D)"), 
+          nrow = 3)
 ```
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
@@ -467,5 +475,5 @@ grid
 ![](emlnFunctions_files/figure-gfm/Map%20Visualization-2.png)<!-- -->
 
 ``` r
-ggsave('~/GitHub/ecomplab/emln_package/data-raw//emln_metadata_figure.pdf', width =  10, height = 6, plot=grid)
+ggsave('~/GitHub/ecomplab/emln_package/data-raw//emln_metadata_figure.pdf', width =  10, height = 15, plot=grid)
 ```
