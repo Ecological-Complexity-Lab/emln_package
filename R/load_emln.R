@@ -56,24 +56,16 @@ load_emln <- function(network_id, ids = TRUE) {
 
     for (i in colnames(network$nodes)) {network$nodes[[i]] <- hablar::retype(network$nodes[[i]])}
 
-    #pivot interactions wider
-
-    network$interactions <-  network$interactions %>%
-      tidyr::pivot_wider(names_from = 'attribute',
-                         values_from = 'value', values_fn = list) %>%
-      dplyr::select(interaction_id,layer_from,node_from,layer_to,node_to,weight) %>%
-      tidyr::unnest(cols = everything())
-
-    #fix the column types
-
-    for (i in colnames(network$interactions)) {network$interactions[[i]] <- hablar::retype(network$interactions[[i]])}
-
-    #pivot layers wider
+     #pivot layers wider
 
      network$layers <-  network$layers %>%
       tidyr::pivot_wider(names_from = 'attribute',
                          values_from = 'value', values_fn = list) %>%
-      tidyr::unnest(cols = everything()) #if there are multiple types to the same layer, write them as individual rows and not lists
+       #if there are multiple types to the same layer, write them as individual rows and not lists
+      tidyr::unnest(cols = everything()) %>%
+       # The layer_name is necessary because it is used by functions like get_sam
+       rename(layer_id=layer) %>%
+       mutate(layer_name=paste('layer_',layer_id,sep=''))
 
     #fix the column types
 
@@ -86,6 +78,19 @@ load_emln <- function(network_id, ids = TRUE) {
       }
       network$layers[[i]] <- hablar::retype(network$layers[[i]])
       }
+
+     #pivot interactions wider
+
+     network$interactions <-  network$interactions %>%
+       tidyr::pivot_wider(names_from = 'attribute',
+                          values_from = 'value', values_fn = list) %>%
+       dplyr::select(interaction_id,layer_from,node_from,layer_to,node_to,weight) %>%
+       tidyr::unnest(cols = everything()) %>%
+       select(-interaction_id)
+
+     #fix the column types
+
+     for (i in colnames(network$interactions)) {network$interactions[[i]] <- hablar::retype(network$interactions[[i]])}
 
 
     #if there are state_nodes - pivot them wider
