@@ -36,6 +36,10 @@
 <script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/clipboard-1.7.1/clipboard.min.js"></script>
+<link href="site_libs/primer-tooltips-1.4.0/build.css" rel="stylesheet" />
+<link href="site_libs/klippy-0.0.0.9500/css/klippy.min.css" rel="stylesheet" />
+<script src="site_libs/klippy-0.0.0.9500/js/klippy.min.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -368,8 +372,10 @@ div.tocify {
 </div>
 
 
-<div id="r-klippy-echofalse-includetrue-use-this-to-add-a-copy-code-buttong-klippyklippyposition-ctop-right-color-darkred" class="section level1">
-<h1><code>{r klippy, echo=FALSE, include=TRUE} # # Use this to add a copy-code buttong # klippy::klippy(position = c('top', 'right'), color = 'darkred') #</code></h1>
+<script>
+  addClassKlippyTo("pre.r, pre.markdown");
+  addKlippy('right', 'top', '#8B0000', '1', 'Copy code', 'Copied!');
+</script>
 <pre class="r"><code># devtools::install_github(repo = &#39;Ecological-Complexity-Lab/emln_package&#39;, force = T, auth_token = &#39;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&#39;)
 
 # Change the source for library(emln) later
@@ -393,7 +399,6 @@ library(tidyverse)
 library(bipartite)
 library(magrittr)
 library(Matrix)</code></pre>
-</div>
 <div id="unipartite-multilayer-network" class="section level1">
 <h1>Unipartite multilayer network</h1>
 <div id="toy-example" class="section level2">
@@ -1285,9 +1290,9 @@ sierras_SAM_interlayer$M[1:20,1:20]</code></pre>
 <pre class="r"><code>g_layers &lt;- get_igraph(multilayer_unip_attributes, bipartite = F, directed = T)</code></pre>
 <p>Let’s look at one layer as an example.</p>
 <pre class="r"><code>g_layers$layers_igraph[[2]]</code></pre>
-<pre><code>## IGRAPH 30a986d DNW- 3 2 -- 
+<pre><code>## IGRAPH 528a1d3 DNW- 3 2 -- 
 ## + attr: name (v/c), sn_id (v/n), node_id (v/n), order (v/c), weight (e/n), method (e/c), intra$layer_from (e/c)
-## + edges from 30a986d (vertex names):
+## + edges from 528a1d3 (vertex names):
 ## [1] fish-&gt;pelican crab-&gt;fish</code></pre>
 <p>The state nodes are listed below. Note that they include the attributes of the physical nodes (order in this example), and that all attributes are included in the igraph objects.</p>
 <pre class="r"><code>g_layers$state_nodes_map</code></pre>
@@ -1374,9 +1379,9 @@ vertex.attributes(g_layers$layers_igraph[[3]])</code></pre>
 <pre class="r"><code>g_layers_bip &lt;- get_igraph(multilayer = multilayer_bip_toy, bipartite = T, directed = F)
 l2 &lt;- g_layers_bip$layers_igraph[[2]]
 l2</code></pre>
-<pre><code>## IGRAPH 604641b UNWB 9 11 -- 
+<pre><code>## IGRAPH 8c19a97 UNWB 9 11 -- 
 ## + attr: name (v/c), sn_id (v/n), node_id (v/n), type (v/l), weight (e/n), intra$layer_from (e/c)
-## + edges from 604641b (vertex names):
+## + edges from 8c19a97 (vertex names):
 ##  [1] H1--P1 H1--P3 H1--P4 H2--P1 H2--P2 H3--P1 H3--P3 H3--P4 H4--P1 H4--P2 H5--P1</code></pre>
 <pre class="r"><code>vertex.attributes(l2)</code></pre>
 <pre><code>## $name
