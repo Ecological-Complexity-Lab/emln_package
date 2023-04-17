@@ -13,7 +13,7 @@
 
 <title>Welcome to the EMLN package</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -36,10 +36,6 @@
 <script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/clipboard-1.7.1/clipboard.min.js"></script>
-<link href="site_libs/primer-tooltips-1.4.0/build.css" rel="stylesheet" />
-<link href="site_libs/klippy-0.0.0.9500/css/klippy.min.css" rel="stylesheet" />
-<script src="site_libs/klippy-0.0.0.9500/js/klippy.min.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -186,8 +182,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -195,16 +191,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -379,36 +368,23 @@ div.tocify {
 </div>
 
 
-<script>
-  addClassKlippyTo("pre.r, pre.markdown");
-  addKlippy('right', 'top', '#8B0000', '1', 'Copy code', 'Copied!');
-</script>
+<div id="r-klippy-echofalse-includetrue-use-this-to-add-a-copy-code-buttong-klippyklippyposition-ctop-right-color-darkred" class="section level1">
+<h1><code>{r klippy, echo=FALSE, include=TRUE} # # Use this to add a copy-code buttong # klippy::klippy(position = c('top', 'right'), color = 'darkred') #</code></h1>
+</div>
 <div id="about" class="section level1">
 <h1>About</h1>
-<p>This website contains complete examples for working with monolayer
-and multilayer network data with the package EMLN. It is rather
-self-explanatory but we recommend to read the paper <strong>PROVIDE A
-TITLE/DOI</strong> to really understand it. The general workflow is
-described in the figure below. We start with monolayer networks, which
-are the basis for handling multilayer networks. Our paper and this
-website focus on handling data (A-D in the figure) and not on
-analysis.</p>
+<p>This website contains complete examples for working with monolayer and multilayer network data with the package EMLN. It is rather self-explanatory but we recommend to read the paper <strong>PROVIDE A TITLE/DOI</strong> to really understand it. The general workflow is described in the figure below. We start with monolayer networks, which are the basis for handling multilayer networks. Our paper and this website focus on handling data (A-D in the figure) and not on analysis.</p>
 <p><img src="workflow.png" /></p>
 </div>
 <div id="do-i-need-anything-to-get-started" class="section level1">
 <h1>Do I need anything to get started?</h1>
-<p>We assume at least some basic experience with monolayer network
-analysis and familiarity with the basic concepts of EMLNs. This is a
-technical reference. However, knowing the concept and theory is highly
-recommended when analyzing networks. Some recommended reading:</p>
+<p>We assume at least some basic experience with monolayer network analysis and familiarity with the basic concepts of EMLNs. This is a technical reference. However, knowing the concept and theory is highly recommended when analyzing networks. Some recommended reading:</p>
 <ul>
 <li>Pilosof2017-zh,</li>
 <li>Hutchinson2019-wr</li>
 <li>De-Domenico 2013</li>
 </ul>
-<p>We also recommend this <a
-href="https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md">visual
-guide by Manlio De Domenico</a></p>
+<p>We also recommend this <a href="https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md">visual guide by Manlio De Domenico</a></p>
 </div>
 <div id="citing-this-website" class="section level1">
 <h1>Citing this website</h1>
@@ -416,9 +392,7 @@ guide by Manlio De Domenico</a></p>
 </div>
 <div id="installation" class="section level1">
 <h1>Installation</h1>
-<p>The EMLN package was built under R 4.1.0 and requires
-<code>magrittr, dplyr, ggplot2, stringr, tibble, tidyr, rlang, igraph, vegan</code>.
-The package is installed directly from GitHub.</p>
+<p>The EMLN package was built under R 4.1.0 and requires <code>magrittr, dplyr, ggplot2, stringr, tibble, tidyr, rlang, igraph, vegan</code>. The package is installed directly from GitHub.</p>
 <pre class="r"><code>devtools::install_github(&#39;Ecological-Complexity-Lab/emln_package&#39;, force=T)
 library(emln)</code></pre>
 </div>

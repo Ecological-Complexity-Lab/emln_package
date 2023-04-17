@@ -1,4 +1,6 @@
 # get all the files from the source
+if (getwd()!="/Users/shai/GitHub/ecomplab/emln_package"){stop('wd must be the root of the package')}
+
 file_names <- list.files('website_source/', full.names = T)
 file.copy(from = file.path(file_names),
           to = file.path(getwd()))
@@ -24,7 +26,7 @@ file.remove(rm_files)
 rm_files <- files[grep("\\.xlsx$", files)]
 file.remove(rm_files)
 
-# Move all the website files to the source
+# Remove all the website files
 file_names <- list.files()
 file_names_filtered <- file_names[grep("\\.(Rmd|txt|png|csv|xlsx|yml)$", file_names)]
 print(file_names_filtered)

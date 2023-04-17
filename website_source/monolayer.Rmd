@@ -13,10 +13,10 @@ output:
 ---
 
 
-```{r klippy, echo=FALSE, include=TRUE}
-# Use this to add a copy-code buttong
-klippy::klippy(position = c('top', 'right'), color = 'darkred')
-```
+# ```{r klippy, echo=FALSE, include=TRUE}
+# # Use this to add a copy-code buttong
+# klippy::klippy(position = c('top', 'right'), color = 'darkred')
+# ```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=FALSE)

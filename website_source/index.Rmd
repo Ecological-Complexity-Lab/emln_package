@@ -12,10 +12,10 @@ output:
       number_sections: true
 ---
 
-```{r klippy, echo=FALSE, include=TRUE}
-# Use this to add a copy-code buttong
-klippy::klippy(position = c('top', 'right'), color = 'darkred')
-```
+# ```{r klippy, echo=FALSE, include=TRUE}
+# # Use this to add a copy-code buttong
+# klippy::klippy(position = c('top', 'right'), color = 'darkred')
+# ```
 
 # About
 This website contains complete examples for working with monolayer and multilayer network data with the package EMLN. It is rather self-explanatory but we recommend to read the paper **PROVIDE A TITLE/DOI** to really understand it. The general workflow is described in the figure below. We start with monolayer networks, which are the basis for handling multilayer networks. Our paper and this website focus on handling data (A-D in the figure) and not on analysis.

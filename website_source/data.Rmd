@@ -12,10 +12,10 @@ output:
       number_sections: true
 ---
 
-```{r klippy, echo=FALSE, include=TRUE}
-# Use this to add a copy-code buttong
-klippy::klippy(position = c('top', 'right'), color = 'darkred')
-```
+# ```{r klippy, echo=FALSE, include=TRUE}
+# # Use this to add a copy-code buttong
+# klippy::klippy(position = c('top', 'right'), color = 'darkred')
+# ```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=FALSE)
@@ -281,6 +281,7 @@ search_2 %>% select("network_id","network_name","ecological_network_type","multi
 We load the spatial multilayer network (network_id = 38) that comes with the package. This is a spatial seed-Dispersal network (collected from Web of Life). The network has five layers and 22 physical nodes, with a total of 84 interactions that are all intralayer, undirected, and weighted. There are no interlayer interactions recorded for this network.
 
 ```{r}
+data("emln38_spatial_jordano_unpubl")
 d38 <- load_emln(38)
 d38
 ```
@@ -289,6 +290,7 @@ Here is another example:
 
 ```{r}
 search_emln(ecological_network_type = 'Pollination', directed = TRUE)
+data("emln47_spatial_olesen_2002")
 d47 <- load_emln(47)
 d47
 ```

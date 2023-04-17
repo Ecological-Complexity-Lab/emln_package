@@ -13,7 +13,7 @@
 
 <title>Handling multilayer network data</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -36,10 +36,6 @@
 <script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/clipboard-1.7.1/clipboard.min.js"></script>
-<link href="site_libs/primer-tooltips-1.4.0/build.css" rel="stylesheet" />
-<link href="site_libs/klippy-0.0.0.9500/css/klippy.min.css" rel="stylesheet" />
-<script src="site_libs/klippy-0.0.0.9500/js/klippy.min.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -186,8 +182,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -195,16 +191,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -379,10 +368,8 @@ div.tocify {
 </div>
 
 
-<script>
-  addClassKlippyTo("pre.r, pre.markdown");
-  addKlippy('right', 'top', '#8B0000', '1', 'Copy code', 'Copied!');
-</script>
+<div id="r-klippy-echofalse-includetrue-use-this-to-add-a-copy-code-buttong-klippyklippyposition-ctop-right-color-darkred" class="section level1">
+<h1><code>{r klippy, echo=FALSE, include=TRUE} # # Use this to add a copy-code buttong # klippy::klippy(position = c('top', 'right'), color = 'darkred') #</code></h1>
 <pre class="r"><code># devtools::install_github(repo = &#39;Ecological-Complexity-Lab/emln_package&#39;, force = T, auth_token = &#39;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&#39;)
 
 # Change the source for library(emln) later
@@ -406,12 +393,12 @@ library(tidyverse)
 library(bipartite)
 library(magrittr)
 library(Matrix)</code></pre>
+</div>
 <div id="unipartite-multilayer-network" class="section level1">
 <h1>Unipartite multilayer network</h1>
 <div id="toy-example" class="section level2">
 <h2>Toy example</h2>
-<p>We start with a toy example using Fig. 1A from the paper shown
-below.</p>
+<p>We start with a toy example using Fig. 1A from the paper shown below.</p>
 <p><img src="unipartite_multilayer_For%20Rmd.png" /></p>
 <pre class="r"><code>pond_1 &lt;- matrix(c(0,1,1,0,0,1,0,0,0), byrow = T, nrow = 3, ncol = 3, dimnames = list(c(&#39;pelican&#39;,&#39;fish&#39;,&#39;crab&#39;),c(&#39;pelican&#39;,&#39;fish&#39;,&#39;crab&#39;)))
 
@@ -476,21 +463,13 @@ multilayer_unip_toy &lt;- create_multilayer_network(list_of_layers = list(pond_1
 </div>
 <div id="the-multilayer-class" class="section level1">
 <h1>The <code>multilayer</code> class</h1>
-<p>The resulting <code>multilayer</code> class includes the following
-tables:</p>
+<p>The resulting <code>multilayer</code> class includes the following tables:</p>
 <ul>
-<li><strong>nodes:</strong> Physical nodes. First column is a unique
-node id. Node attributes are included if provided as input.</li>
+<li><strong>nodes:</strong> Physical nodes. First column is a unique node id. Node attributes are included if provided as input.</li>
 <li><strong>layers:</strong> Information on layers.</li>
-<li><strong>extended:</strong> An extended link list of the format
-<code>layer_from node_from layer_to node_to weight</code>. All nodes and
-layers are identified by names.</li>
-<li><strong>extended_ids:</strong> An extended link list of the format
-<code>layer_from node_from layer_to node_to weight</code>. All nodes and
-layers are identified by unique IDs automatically generated.</li>
-<li><strong>state_nodes:</strong> List of state nodes of the format
-<code>layer_id node_id layer_name node_name</code>. Also includes state
-node attributes if provided as input.</li>
+<li><strong>extended:</strong> An extended link list of the format <code>layer_from node_from layer_to node_to weight</code>. All nodes and layers are identified by names.</li>
+<li><strong>extended_ids:</strong> An extended link list of the format <code>layer_from node_from layer_to node_to weight</code>. All nodes and layers are identified by unique IDs automatically generated.</li>
+<li><strong>state_nodes:</strong> List of state nodes of the format <code>layer_id node_id layer_name node_name</code>. Also includes state node attributes if provided as input.</li>
 </ul>
 <pre class="r"><code>multilayer_unip_toy</code></pre>
 <pre><code>## $nodes
@@ -573,17 +552,8 @@ node attributes if provided as input.</li>
 </div>
 <div id="working-with-node-and-link-attributes" class="section level1">
 <h1>Working with node and link attributes</h1>
-<p>Now let’s try to provide attributes for state nodes. That is, a
-specific attribute of a physical node in a layer. For instance, the
-abundance of species can change between layers. When providing state
-nodes the names of the nodes and the layers must be the same as in the
-list of layers and in the layer attribute table.</p>
-<p>We also include in this example attributes of intralayer links. This
-can be done when the input is a link list. <strong>When providing link
-attributes, the headers of all the layers’ link lists, and that of the
-interlayer links, must be the same, even if not all the attributes are
-provided in all layers.</strong> Here, we add a link attribute called
-method.</p>
+<p>Now let’s try to provide attributes for state nodes. That is, a specific attribute of a physical node in a layer. For instance, the abundance of species can change between layers. When providing state nodes the names of the nodes and the layers must be the same as in the list of layers and in the layer attribute table.</p>
+<p>We also include in this example attributes of intralayer links. This can be done when the input is a link list. <strong>When providing link attributes, the headers of all the layers’ link lists, and that of the interlayer links, must be the same, even if not all the attributes are provided in all layers.</strong> Here, we add a link attribute called method.</p>
 <pre class="r"><code># Input will be link lists
 pond_1_ll &lt;- matrix_to_list_unipartite(pond_1, directed = T)$edge_list
 pond_2_ll &lt;- matrix_to_list_unipartite(pond_2, directed = T)$edge_list
@@ -632,8 +602,7 @@ multilayer_unip_attributes &lt;- create_multilayer_network(list_of_layers = list
 ## [1] &quot;Creating extended link list with node IDs&quot;
 ## [1] &quot;Organizing state nodes&quot;
 ## [1] &quot;Joining with user-provided state nodes&quot;</code></pre>
-<p>Note that the node, state_nodes and link tables now include the
-attributes.</p>
+<p>Note that the node, state_nodes and link tables now include the attributes.</p>
 <pre class="r"><code>multilayer_unip_attributes</code></pre>
 <pre><code>## $nodes
 ## # A tibble: 4 × 3
@@ -715,12 +684,8 @@ attributes.</p>
 </div>
 <div id="example-with-real-data-from-kefi-2016" class="section level1">
 <h1>Example with real data from Kefi 2016</h1>
-<p>This is a node-aligned multiplex network with three layers: trophic
-interactions, non-trophic positive interactions and non-trophic negative
-interactions.</p>
-<p>First, we will see how we can use matrices as input. Along the way we
-perform sanity checks such as making sure the number and identity of of
-species is the same in the 3 layers.</p>
+<p>This is a node-aligned multiplex network with three layers: trophic interactions, non-trophic positive interactions and non-trophic negative interactions.</p>
+<p>First, we will see how we can use matrices as input. Along the way we perform sanity checks such as making sure the number and identity of of species is the same in the 3 layers.</p>
 <pre class="r"><code># Load and organize the trophic interactions matrix
 chilean_TI &lt;- read_delim(&#39;chilean_TI.txt&#39;, delim = &#39;\t&#39;)
 nodes &lt;- chilean_TI[,2]
@@ -784,8 +749,7 @@ multilayer_kefi &lt;- create_multilayer_network(list_of_layers = list(chilean_TI
 ## [1] &quot;Done.&quot;
 ## [1] &quot;Creating extended link list with node IDs&quot;
 ## [1] &quot;Organizing state nodes&quot;</code></pre>
-<p>Now, we can try and use link lists as input. We will convert the
-matrices to link lists first.</p>
+<p>Now, we can try and use link lists as input. We will convert the matrices to link lists first.</p>
 <pre class="r"><code># This is for the Kefi data set
 chilean_TI_ll &lt;- matrix_to_list_unipartite(x = chilean_TI, directed = TRUE)$edge_list
 chilean_NTIneg_ll &lt;- matrix_to_list_unipartite(x = chilean_NTIneg, directed = TRUE)$edge_list</code></pre>
@@ -871,12 +835,7 @@ multilayer &lt;- create_multilayer_network(list_of_layers = list(pollination_lay
 </div>
 <div id="real-data-example" class="section level2">
 <h2>Real data example</h2>
-<p>We will work with data from the paper <a
-href="http://dx.doi.org/10.1111/1365-2656.12304">Hot spots of
-mutualistic networks (Gilarranz et al 2014. J Anim Ecol)</a>. The data
-contains 12 layers (patches) of plant-pollinator interactions. We use
-the original data, provided in Excel to show how working with real data
-feels like. This illustrates the workflow discussed in the paper.</p>
+<p>We will work with data from the paper <a href="http://dx.doi.org/10.1111/1365-2656.12304">Hot spots of mutualistic networks (Gilarranz et al 2014. J Anim Ecol)</a>. The data contains 12 layers (patches) of plant-pollinator interactions. We use the original data, provided in Excel to show how working with real data feels like. This illustrates the workflow discussed in the paper.</p>
 <pre class="r"><code>library(readxl)
 # Import layers
 Sierras_matrices &lt;- NULL
@@ -936,12 +895,7 @@ multilayer_sierras &lt;- create_multilayer_network(list_of_layers = Sierras_matr
 ## [1] &quot;Done.&quot;
 ## [1] &quot;Creating extended link list with node IDs&quot;
 ## [1] &quot;Organizing state nodes&quot;</code></pre>
-<p>To illustrate working with interlayer links, we will connect a
-pollinator to itself between layers, and weigh these links by the
-distance between the layers. <strong>We emphasize that this is for
-illustration purposes only; there is no hypothesis behind this
-exercise.</strong> We already calculated the distances between the 12
-patches.</p>
+<p>To illustrate working with interlayer links, we will connect a pollinator to itself between layers, and weigh these links by the distance between the layers. <strong>We emphasize that this is for illustration purposes only; there is no hypothesis behind this exercise.</strong> We already calculated the distances between the 12 patches.</p>
 <pre class="r"><code>dist &lt;- data.matrix(read_csv(&#39;Gilarranz2014_distances.csv&#39;))
 dimnames(dist) &lt;- list(layer_attrib$layer_name, layer_attrib$layer_name)
 
@@ -1022,10 +976,10 @@ multilayer_sierras_interlayer &lt;- create_multilayer_network(list_of_layers = S
 <pre class="r"><code># See the interlayer links
 multilayer_sierras_interlayer$extended %&gt;% filter(node_from==node_to)</code></pre>
 <pre><code>## # A tibble: 0 × 5
-## # … with 5 variables: layer_from &lt;chr&gt;, node_from &lt;chr&gt;, layer_to &lt;chr&gt;, node_to &lt;chr&gt;, weight &lt;dbl&gt;</code></pre>
+## # ℹ 5 variables: layer_from &lt;chr&gt;, node_from &lt;chr&gt;, layer_to &lt;chr&gt;, node_to &lt;chr&gt;, weight &lt;dbl&gt;</code></pre>
 <pre class="r"><code>multilayer_sierras_interlayer$extended_ids %&gt;% filter(node_from==node_to)</code></pre>
 <pre><code>## # A tibble: 0 × 5
-## # … with 5 variables: layer_from &lt;int&gt;, node_from &lt;int&gt;, layer_to &lt;int&gt;, node_to &lt;int&gt;, weight &lt;dbl&gt;</code></pre>
+## # ℹ 5 variables: layer_from &lt;int&gt;, node_from &lt;int&gt;, layer_to &lt;int&gt;, node_to &lt;int&gt;, weight &lt;dbl&gt;</code></pre>
 <!-- ## Example of linking node/layer attributes with network topology -->
 </div>
 </div>
@@ -1033,15 +987,10 @@ multilayer_sierras_interlayer$extended %&gt;% filter(node_from==node_to)</code><
 <h1>Converting a multilayer class</h1>
 <div id="to-supra-adjacency-matrices" class="section level2">
 <h2>To supra-adjacency matrices</h2>
-<p>A SAM is convenient for matrix operations. See a <a
-href="https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md#operatively-rank-4-tensors-can-be-mapped-into-rank-2-supra-adjacency-matrices-to-facilitate-operations-with-care">visual
-guide</a> on the idea of tensor flattening and producing SAM. Use the
-function <code>get_sam</code> to obtain a SAM. See <code>?get_sam</code>
-for an explanation on what the function returns.</p>
+<p>A SAM is convenient for matrix operations. See a <a href="https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md#operatively-rank-4-tensors-can-be-mapped-into-rank-2-supra-adjacency-matrices-to-facilitate-operations-with-care">visual guide</a> on the idea of tensor flattening and producing SAM. Use the function <code>get_sam</code> to obtain a SAM. See <code>?get_sam</code> for an explanation on what the function returns.</p>
 <div id="unipartite-example" class="section level3">
 <h3>Unipartite example</h3>
-<p>Let’s take take the toy unipartite network first. This is a directed
-network.</p>
+<p>Let’s take take the toy unipartite network first. This is a directed network.</p>
 <p><img src="unipartite_multilayer_For%20Rmd.png" /></p>
 <pre class="r"><code># Order the physical nodes as in the image for convenience
 multilayer_unip_toy$nodes &lt;- multilayer_unip_toy$nodes[c(3,2,1,4),]
@@ -1063,11 +1012,7 @@ sam_unipartite &lt;- get_sam(multilayer = multilayer_unip_toy, bipartite = F, di
 ## 10 0 0 0 0 0 0 0 0 0  0  0  1
 ## 11 0 0 0 0 0 0 0 0 0  0  0  0
 ## 12 0 0 0 0 0 0 0 0 0  0  0  0</code></pre>
-<p><strong>The row and column names correspond to the <code>sn_id</code>
-column in <code>sam_unipartite$state_nodes_map</code>.</strong> However,
-not all nodes always occur in all layers. This will be reflected in the
-<code>state_nodes_map</code>: When layer and node ids are NA that means
-that the node did not occur in the layer.</p>
+<p><strong>The row and column names correspond to the <code>sn_id</code> column in <code>sam_unipartite$state_nodes_map</code>.</strong> However, not all nodes always occur in all layers. This will be reflected in the <code>state_nodes_map</code>: When layer and node ids are NA that means that the node did not occur in the layer.</p>
 <pre class="r"><code>sam_unipartite$state_nodes_map</code></pre>
 <pre><code>##    sn_id layer_name node_name layer_id node_id          tuple
 ## 1      1     pond_1   pelican        1       3 pond_1_pelican
@@ -1082,11 +1027,7 @@ that the node did not occur in the layer.</p>
 ## 10    10     pond_3      fish        3       2    pond_3_fish
 ## 11    11     pond_3      crab       NA      NA    pond_3_crab
 ## 12    12     pond_3   tadpole        3       4 pond_3_tadpole</code></pre>
-<p>A node may not have links across all the layers. In that case, its
-row or column sum will be zero. This can happen in a directed network
-like this one; for example, the tadpole does not have incoming links.
-The user can choose to remove rows and columns that sum to zero by
-setting `remove_zero_rows_cols to TRUE.</p>
+<p>A node may not have links across all the layers. In that case, its row or column sum will be zero. This can happen in a directed network like this one; for example, the tadpole does not have incoming links. The user can choose to remove rows and columns that sum to zero by setting `remove_zero_rows_cols to TRUE.</p>
 <pre class="r"><code>sam_unipartite &lt;- get_sam(multilayer = multilayer_unip_toy, bipartite = F, directed = T, sparse = F, remove_zero_rows_cols = T)
 # That matrix has less than 12 rows/columns
 dim(sam_unipartite$M)</code></pre>
@@ -1101,8 +1042,7 @@ dim(sam_unipartite$M)</code></pre>
 ## 7  0 0 1 0 0 0 0  0  0
 ## 9  1 0 0 0 0 0 0  1  1
 ## 10 0 0 0 0 0 0 0  0  1</code></pre>
-<p>When matrices are very large and sparse, excess of zeroes takes a lot
-of memory. It is possible to use a sparse matrix.</p>
+<p>When matrices are very large and sparse, excess of zeroes takes a lot of memory. It is possible to use a sparse matrix.</p>
 <pre class="r"><code>sam_unipartite &lt;- get_sam(multilayer = multilayer_unip_toy, bipartite = F, directed = T, sparse = T, remove_zero_rows_cols = T)
 sam_unipartite$M</code></pre>
 <pre><code>## 8 x 9 sparse Matrix of class &quot;dgCMatrix&quot;
@@ -1118,25 +1058,15 @@ sam_unipartite$M</code></pre>
 </div>
 <div id="bipartite-example" class="section level3">
 <h3>Bipartite example</h3>
-<p>Bipartite networks are rectangular matrices. Therefore, it is
-necessary first to transform the incidence matrix to a square adjacency
-matrix. A visual example is in the figure below, in panels A–&gt;B. Each
-layer is independently transformed. Then the layers are put together to
-a SAM as for unipartite network (panel C).</p>
+<p>Bipartite networks are rectangular matrices. Therefore, it is necessary first to transform the incidence matrix to a square adjacency matrix. A visual example is in the figure below, in panels A–&gt;B. Each layer is independently transformed. Then the layers are put together to a SAM as for unipartite network (panel C).</p>
 <p><img src="bipartite_sam.png" /></p>
-<p>Now that the network is effectively a unipartite network, we proceed
-as with the previous example (e.g., state nodes and rows/columns that
-sum to zero).</p>
+<p>Now that the network is effectively a unipartite network, we proceed as with the previous example (e.g., state nodes and rows/columns that sum to zero).</p>
 <div id="toy-example-2" class="section level4">
 <h4>Toy example</h4>
-<p>We will start with the example in this figure. We already created
-this network. Note the <code>bipartite</code> and <code>directed</code>
-arguments.</p>
+<p>We will start with the example in this figure. We already created this network. Note the <code>bipartite</code> and <code>directed</code> arguments.</p>
 <pre class="r"><code># get the SAM
 sam_bipartite &lt;- get_sam(multilayer = multilayer_bip_toy, bipartite = T, directed = F, sparse = F, remove_zero_rows_cols = F)</code></pre>
-<p>Because this is a diagnoally-copouled network and only plants are
-common between layers, there will be many NAs in the state node
-table.</p>
+<p>Because this is a diagnoally-copouled network and only plants are common between layers, there will be many NAs in the state node table.</p>
 <pre class="r"><code>sam_bipartite$state_nodes_map</code></pre>
 <pre><code>##    sn_id  layer_name node_name layer_id node_id          tuple
 ## 1      1 Pollination        A1        1       1 Pollination_A1
@@ -1219,17 +1149,13 @@ sam_bipartite$M</code></pre>
 ## 28 . . . . . . . 1 . . . 4 . 2 . . . . .
 ## 29 . . . . . . . . 1 . 6 . 4 . . . . . .
 ## 30 . . . . . . . . . 1 6 . 6 . . . . . .</code></pre>
-<p>Note that in this undirected network, each layer and the final SAM
-are symmetric.</p>
+<p>Note that in this undirected network, each layer and the final SAM are symmetric.</p>
 <pre class="r"><code>Matrix::isSymmetric(sam_bipartite$M) # Does not work on sparse matrices</code></pre>
 <pre><code>## [1] TRUE</code></pre>
 </div>
 <div id="temporal-bipartite" class="section level4">
 <h4>Temporal bipartite</h4>
-<p>The past example was a Now let’s try an example with a directed,
-temporal bipartite network. We will use the pollination layer from the
-previous example to start with, and we will work with the same
-pollinators and plants.</p>
+<p>The past example was a Now let’s try an example with a directed, temporal bipartite network. We will use the pollination layer from the previous example to start with, and we will work with the same pollinators and plants.</p>
 <pre class="r"><code>time_1 &lt;- matrix(c(5,3,5,3,1,1,
                    3,3,3,3,0,0,
                    3,0,0,0,1,0,
@@ -1278,8 +1204,7 @@ multilayer_bip_temporal &lt;- create_multilayer_network(list_of_layers = list(ti
 ## [1] &quot;Done.&quot;
 ## [1] &quot;Creating extended link list with node IDs&quot;
 ## [1] &quot;Organizing state nodes&quot;</code></pre>
-<p>Now get the SAM. Notice that interlayer links are only on one matrix
-diagonal off-blocks.</p>
+<p>Now get the SAM. Notice that interlayer links are only on one matrix diagonal off-blocks.</p>
 <pre class="r"><code>temporal_SAM &lt;- get_sam(multilayer_bip_temporal, bipartite = T, directed = T, sparse = T)
 temporal_SAM$M</code></pre>
 <pre><code>## 30 x 30 sparse Matrix of class &quot;dgCMatrix&quot;
@@ -1319,8 +1244,7 @@ temporal_SAM$M</code></pre>
 </div>
 <div id="real-data-example-1" class="section level4">
 <h4>Real data example</h4>
-<p>This example shows that the function can handle large networks. This
-is the spatial network we used before.</p>
+<p>This example shows that the function can handle large networks. This is the spatial network we used before.</p>
 <pre class="r"><code># Without interlayer links
 sierras_SAM &lt;- get_sam(multilayer = multilayer_sierras, bipartite = T, directed = F, sparse = T, remove_zero_rows_cols = F)
 sum(sierras_SAM$M)==2*nrow(multilayer_sierras$extended) # Number of interactions in the SAM should be links the number of links because we created the square matrices</code></pre>
@@ -1357,23 +1281,15 @@ sierras_SAM_interlayer$M[1:20,1:20]</code></pre>
 </div>
 <div id="to-igraph-objects" class="section level2">
 <h2>To igraph objects</h2>
-<p>igraph is used frequently for analysis. Hence, it is convenient to
-obtain a list of igraph objects as layers. This can be done with the
-<code>get_igraph</code> function. The attributes of the links, state
-nodes and the physical nodes are all included in the igraph objects. We
-will show this using the ponds example with atteibutes we used before.
-The <code>sn_id</code> corresponds to that in the
-<code>state_nodes_map</code>.</p>
+<p>igraph is used frequently for analysis. Hence, it is convenient to obtain a list of igraph objects as layers. This can be done with the <code>get_igraph</code> function. The attributes of the links, state nodes and the physical nodes are all included in the igraph objects. We will show this using the ponds example with atteibutes we used before. The <code>sn_id</code> corresponds to that in the <code>state_nodes_map</code>.</p>
 <pre class="r"><code>g_layers &lt;- get_igraph(multilayer_unip_attributes, bipartite = F, directed = T)</code></pre>
 <p>Let’s look at one layer as an example.</p>
 <pre class="r"><code>g_layers$layers_igraph[[2]]</code></pre>
-<pre><code>## IGRAPH 8f0fc2b DNW- 3 2 -- 
+<pre><code>## IGRAPH 30a986d DNW- 3 2 -- 
 ## + attr: name (v/c), sn_id (v/n), node_id (v/n), order (v/c), weight (e/n), method (e/c), intra$layer_from (e/c)
-## + edges from 8f0fc2b (vertex names):
+## + edges from 30a986d (vertex names):
 ## [1] fish-&gt;pelican crab-&gt;fish</code></pre>
-<p>The state nodes are listed below. Note that they include the
-attributes of the physical nodes (order in this example), and that all
-attributes are included in the igraph objects.</p>
+<p>The state nodes are listed below. Note that they include the attributes of the physical nodes (order in this example), and that all attributes are included in the igraph objects.</p>
 <pre class="r"><code>g_layers$state_nodes_map</code></pre>
 <pre><code>##    sn_id layer_name node_name layer_id node_id          tuple          order
 ## 1      1     pond_1      crab        1       1    pond_1_crab       Decapoda
@@ -1458,9 +1374,9 @@ vertex.attributes(g_layers$layers_igraph[[3]])</code></pre>
 <pre class="r"><code>g_layers_bip &lt;- get_igraph(multilayer = multilayer_bip_toy, bipartite = T, directed = F)
 l2 &lt;- g_layers_bip$layers_igraph[[2]]
 l2</code></pre>
-<pre><code>## IGRAPH 374ea73 UNWB 9 11 -- 
+<pre><code>## IGRAPH 604641b UNWB 9 11 -- 
 ## + attr: name (v/c), sn_id (v/n), node_id (v/n), type (v/l), weight (e/n), intra$layer_from (e/c)
-## + edges from 374ea73 (vertex names):
+## + edges from 604641b (vertex names):
 ##  [1] H1--P1 H1--P3 H1--P4 H2--P1 H2--P2 H3--P1 H3--P3 H3--P4 H4--P1 H4--P2 H5--P1</code></pre>
 <pre class="r"><code>vertex.attributes(l2)</code></pre>
 <pre><code>## $name
