@@ -56,21 +56,13 @@ We provide examples with simulated toy networks and with real data to create an 
 
 We start with a toy example. We generate a 3x3 matrix with random weighted interactions.
 
-```{r monolayer_uni_1, name='monolayer_uni_1'}
+```{r monolayer_uni_1}
 n <- 3
 adjacency_matrix <- matrix(round(runif(n*n,1,5),0), ncol = n, dimnames = list(paste0("A", 1:n), paste0("A", 1:n)))
 
 # Convert a matrix to a monolayer object
 matrix_to_list_unipartite(adjacency_matrix, directed = TRUE)
 ```
-<button onclick="copyCode('my_code_chunk')">Copy Code</button>
-
-<script>
-  function copyCode(chunkName) {
-    var code = $('pre[data-code-chunk="' + chunkName + '"]').text();
-    navigator.clipboard.writeText(code);
-  }
-</script>
 
 Now let's see a toy example for converting a link list.
 
