@@ -31,16 +31,17 @@
 #' @export
 
 get_sam <- function(multilayer, bipartite, directed, sparse=F, remove_zero_rows_cols=F) {
+  # Create a map of state nodes
+  nodes <- multilayer$nodes
+  layer_attributes <- multilayer$layers
+  state_nodes_map <- expand.grid(node_name=nodes$node_name, layer_name=layer_attributes$layer_name)
+  state_nodes_map$sn_id <- 1:nrow(state_nodes_map)
+  state_nodes_map$tuple <- paste(state_nodes_map$layer_name,state_nodes_map$node_name,sep='_')
+
   if (!bipartite) {
     # See https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md#operatively-rank-4-tensors-can-be-mapped-into-rank-2-supra-adjacency-matrices-to-facilitate-operations-with-care
 
-    # Create a map of state nodes
-    nodes <- multilayer$nodes
-    layer_attributes <- multilayer$layers
-    state_nodes_map <- expand.grid(node_name=nodes$node_name, layer_name=layer_attributes$layer_name)
-    state_nodes_map$sn_id <- 1:nrow(state_nodes_map)
-    state_nodes_map$tuple <- paste(state_nodes_map$layer_name,state_nodes_map$node_name,sep='_')
-    # Use state node names (the layer-node tuple) in the extended link list
+      # Use state node names (the layer-node tuple) in the extended link list
     ell_tuples <- multilayer$extended %>%
       mutate(from=paste(layer_from,node_from,sep='_')) %>%
       mutate(to=paste(layer_to,node_to,sep='_')) %>%
@@ -54,12 +55,6 @@ get_sam <- function(multilayer, bipartite, directed, sparse=F, remove_zero_rows_
    }
 
   if (bipartite){
-    # Create the SAM with all the state nodes
-    nodes <- multilayer$nodes
-    layer_attributes <- multilayer$layers
-    state_nodes_map <- expand.grid(node_name=nodes$node_name, layer_name=layer_attributes$layer_name)
-    state_nodes_map$sn_id <- 1:nrow(state_nodes_map)
-    state_nodes_map$tuple <- paste(state_nodes_map$layer_name,state_nodes_map$node_name,sep='_')
     M <- matrix(0, nrow = nrow(state_nodes_map), ncol = nrow(state_nodes_map), dimnames = list(state_nodes_map$tuple, state_nodes_map$tuple))
 
     # Split the ell to layers
