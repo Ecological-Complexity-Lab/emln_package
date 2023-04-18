@@ -19,16 +19,7 @@
 #'   layers. Must contain columns \code{layer_name} and \code{node_name}.
 #'   @param physical_node_attributes Optional. Additional information on physical nodes. Must contain column \code{node_name}.
 #'
-#' @return A multilayer object, which is an R list of tibbles:
-#' \itemize{
-#'   \item \code{nodes} Physical nodes. First column is a unique node id. Node attributes are included if provided as input.
-#'   \item \code{layers} Information on layers.
-#'   \item \code{extended} An extended link list of the format \code{layer_from node_from layer_to node_to weight}. All nodes and layers are identified by names.
-#'   \item \code{extended_ids} An extended link list of the format \code{layer_from node_from layer_to node_to weight}. All nodes and layers are identified by unique IDs automoatically generated.
-#'   \item \code{state_nodes} List of state nodes of the format \code{layer_id node_id layer_name node_name}. Also includes state node attributes if provided as input.
-#'   \item \code{description} For compatibility with \code{load_emln}.
-#'   \item \code{references} For compatibility with \code{load_emln}.
-#' }
+#' @return A multilayer object (see ?multilayer).
 #'
 #' @details Input of \code{list_of_layers} is handled by the function
 #'   \code{create_monolayer_object}; see it's description for details on input.
@@ -53,6 +44,8 @@
 #'   frames in the multilayer object will be set to NULL.
 #'
 #'   See multiple example in the code accompanying the package
+#'
+#' @seealso [multilayer()]
 #'
 #' @export
 #'

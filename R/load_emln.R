@@ -6,7 +6,7 @@
 #'
 #' @param network_id The network ID.
 #'
-#' @return A multilayer object.
+#' @return A multilayer object (see ?multilayer).
 #'
 #' @details
 #' Use the \code{search_emln} and \code{view_emln} functions to obtain network IDs.
@@ -14,6 +14,8 @@
 #' @examples
 #'
 #' load_emln(network_id = 38)
+#'
+#' @seealso [multilayer()]
 #'
 #' @export load_emln
 
