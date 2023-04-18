@@ -107,8 +107,8 @@ load_emln <- function(network_id, ids = TRUE) {
      #if (network$layers$name)
      if (("name" %in% colnames(network$layers)) && !(all(extended$layer_from %in% network$layers$name))) {
        # Replace values in 'layer_from' column of 'extended' with matching values from 'name' column of 'layers'
-       extended$layer_from <- network$layers$name[match(extended$layer_from, network$layers$layer)]
-       extended$layer_to <- network$layers$name[match(extended$layer_to, network$layers$layer)]
+       extended$layer_from <- network$layers$name[match(extended$layer_from, network$layers$layer_id)]
+       extended$layer_to <- network$layers$name[match(extended$layer_to, network$layers$layer_id)]
        }
 
 
@@ -120,13 +120,13 @@ load_emln <- function(network_id, ids = TRUE) {
 
        #if there is a "name" column in the layers.csv, and the layer_from is not numeric (not in ids)
 
-       if (!all(unique(network$layers$layer) %in% unique(network$interactions$layer_from)) && ("name" %in% colnames(network$layers))) {
+       if (!all(unique(network$layers$layer_id) %in% unique(network$interactions$layer_from)) && ("name" %in% colnames(network$layers))) {
          if (!is.numeric(network$interactions$layer_from)) {
            network$interactions <- network$interactions %>%
-             dplyr::left_join(y = network$layers[,c('layer','name')],
+             dplyr::left_join(y = network$layers[,c('layer_id','name')],
                               by = c('layer_from' = 'name')) %>%
              dplyr::select(-layer_from) %>%
-             dplyr::rename(layer_from = layer)
+             dplyr::rename(layer_from = layer_id)
          }
        }
 
@@ -146,13 +146,13 @@ load_emln <- function(network_id, ids = TRUE) {
 
        #if there is a "name" column in the layers.csv, and the layer_from is not numeric (not in ids)
 
-       if (!all(unique(network$layers$layer) %in% unique(network$interactions$layer_to)) && ("name" %in% colnames(network$layers))) {
+       if (!all(unique(network$layers$layer_id) %in% unique(network$interactions$layer_to)) && ("name" %in% colnames(network$layers))) {
          if (!is.numeric(network$interactions$layer_to)) {
            network$interactions <- network$interactions %>%
-             dplyr::left_join(y = network$layers[,c('layer','name')],
+             dplyr::left_join(y = network$layers[,c('layer_id','name')],
                               by = c('layer_to' = 'name')) %>%
              dplyr::select(-layer_to) %>%
-             dplyr::rename(layer_to = layer)
+             dplyr::rename(layer_to = layer_id)
          }
       }
 
@@ -169,7 +169,7 @@ load_emln <- function(network_id, ids = TRUE) {
       #order the interactions
 
        network$interactions <- network$interactions %>%
-        dplyr::select(layer_from, node_from, layer_to, node_to, weight, tidyselect::everything(), -interaction_id)
+        dplyr::select(layer_from, node_from, layer_to, node_to, weight, tidyselect::everything())
 
       #convert the weight column to numeric from list
       #network$interactions$weight <- as.numeric(network$interactions$weight)
@@ -187,7 +187,7 @@ load_emln <- function(network_id, ids = TRUE) {
          #order the interactions
 
          network$interactions <- network$interactions %>%
-           dplyr::select(layer_from, node_from, layer_to, node_to, weight, tidyselect::everything(), -interaction_id)
+           dplyr::select(layer_from, node_from, layer_to, node_to, weight, tidyselect::everything())
     }
 
 
