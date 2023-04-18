@@ -319,7 +319,7 @@ interaction_id,attribute,value
 53,type,pollination
 54,node_from,Zilla_spinosa
 54,layer_from,Western_Sahara_site_1
-54,node_to,Hym_Waitingü¾“ ¼
+54,node_to,Hym_Waiting_85
 54,layer_to,Western_Sahara_site_1
 54,weight,1
 54,type,pollination
@@ -409,7 +409,7 @@ interaction_id,attribute,value
 68,type,pollination
 69,node_from,Euphorbia_balsamifera_f
 69,layer_from,Western_Sahara_site_2
-69,node_to,Colletes2_Waitingü¾“ ¼
+69,node_to,Colletes2_Waiting_85
 69,layer_to,Western_Sahara_site_2
 69,weight,1
 69,type,pollination
@@ -595,7 +595,7 @@ interaction_id,attribute,value
 99,type,pollination
 100,node_from,Kickxia_heterophylla
 100,layer_from,Western_Sahara_site_2
-100,node_to,Colletes1_Waitingü¾“ ¼
+100,node_to,Colletes1_Waiting_85
 100,layer_to,Western_Sahara_site_2
 100,weight,1
 100,type,pollination
@@ -697,7 +697,7 @@ interaction_id,attribute,value
 116,type,pollination
 117,node_from,Lycium_intricatum
 117,layer_from,Western_Sahara_site_2
-117,node_to,Colletes1_Waitingü¾“ ¼
+117,node_to,Colletes1_Waiting_85
 117,layer_to,Western_Sahara_site_2
 117,weight,10
 117,type,pollination
