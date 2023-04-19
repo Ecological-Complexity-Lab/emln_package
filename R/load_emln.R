@@ -39,18 +39,26 @@ load_emln <- function(network_id) {
     #fix the column types (so not all columns are character type)
     for (i in colnames(network$nodes)) {network$nodes[[i]] <- hablar::retype(network$nodes[[i]])}
 
+  nodes_vector <- network$nodes$node_name
+  if(any(duplicated(nodes_vector))){
+    print('WARNING! Some node names appear more than once:')
+    print(nodes_vector[which(duplicated(nodes_vector))])
+  }
+
+
   #Pivot layers to a wide format
   network$layers %<>%
     tidyr::pivot_wider(names_from = 'attribute', values_from = 'value', values_fn = list) %>%
     #if there are multiple types to the same layer, write them as individual rows and not lists
     tidyr::unnest(cols = everything()) %>%
     # The layer_id and layer_name are necessary because they are used by functions like get_sam
-    rename(layer_id=layer)
-    if ('name' %in% names(network$layers)) {
-      network$layers %<>% rename(layer_name=name)
-    } else {
-      network$layers %<>% mutate(layer_name=paste('layer_',layer_id,sep=''))
-    }
+    rename(layer_id=layer) %>%
+    mutate(layer_name=paste('layer_',layer_id,sep=''))
+    # if ('name' %in% names(network$layers)) {
+    #   network$layers %<>% rename(layer_name=name)
+    # } else {
+    #   network$layers %<>% mutate(layer_name=paste('layer_',layer_id,sep=''))
+    # }
 
   #fix the column types
   for (i in colnames(network$layers)) {
@@ -61,6 +69,10 @@ load_emln <- function(network_id) {
       }
     }
     network$layers[[i]] <- hablar::retype(network$layers[[i]])
+  }
+
+  if(any(duplicated(network$layers$layer_id))){
+    print('WARNING! Some layer names appear more than once!')
   }
 
   #Pivot links to a wide format
@@ -119,3 +131,5 @@ load_emln <- function(network_id) {
   return(out)
 }
 
+for (network_id in 25:81){print(network_id);tryCatch(load_emln(network_id))}
+network$layers
