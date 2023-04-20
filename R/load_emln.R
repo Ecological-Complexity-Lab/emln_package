@@ -131,5 +131,6 @@ load_emln <- function(network_id) {
   return(out)
 }
 
-for (network_id in 25:81){print(network_id);tryCatch(load_emln(network_id))}
-network$layers
+# for (network_id in 35:81){print(network_id);tryCatch(load_emln(network_id))}
+# network$layers
+# sort(network$nodes$node_name)
