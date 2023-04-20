@@ -37,3 +37,6 @@ Depends:
 Suggests:
   bipartite
 RoxygenNote: 7.2.3
+Data:
+  data/descriptions.rda
+
