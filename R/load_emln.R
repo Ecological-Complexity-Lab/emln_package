@@ -54,6 +54,11 @@ load_emln <- function(network_id) {
     # The layer_id and layer_name are necessary because they are used by functions like get_sam
     rename(layer_id=layer) %>%
     mutate(layer_name=paste('layer_',layer_id,sep=''))
+
+  if('name' %in% colnames(network$layers)){
+    head(network$layers)
+    stop('there is a name col')
+  }
     # if ('name' %in% names(network$layers)) {
     #   network$layers %<>% rename(layer_name=name)
     # } else {
@@ -111,6 +116,7 @@ load_emln <- function(network_id) {
   ###  conversion of the node names to node ids in the edge list  ###
   print('Creating extended link list with node IDs')
   extended_edge_list <- extended_edge_list_ids <- as.data.frame(network$interactions)
+  i=1
   for (i in 1:nrow(extended_edge_list)) {
     extended_edge_list_ids[i,2] <- network$nodes[network$nodes$node_name == extended_edge_list[i,2],]$node_id
     extended_edge_list_ids[i,4] <- network$nodes[network$nodes$node_name == extended_edge_list[i,4],]$node_id
@@ -131,6 +137,34 @@ load_emln <- function(network_id) {
   return(out)
 }
 
-# for (network_id in 35:81){print(network_id);tryCatch(load_emln(network_id))}
-# network$layers
+
+# source('R/create_multilayer_network.R')
+# source('R/create_monolayer_object.R')
+# source('R/get_sam.R')
+# source('R/get_igraph.R')
+# source('R/list_to_matrix.R')
+# source('R/matrix_to_list_bipartite.R')
+# source('R/matrix_to_list_unipartite.R')
+# source('R/view_emln.R')
+# source('R/load_emln.R')
+# source('R/search_emln.R')
+#
+# library(emln)
+#
+# library(igraph)
+# library(bipartite)
+# library(Matrix)
+# library(magrittr)
+# library(ggplot2)
+# library(readr)
+# library(tibble)
+# library(dplyr)
+# library(readr)
+# library(stringr)
+#
+#
+# for (network_id in 1:81){print(network_id);tryCatch(load_emln(network_id))}
+# # network$layers
+# duplicated(network$nodes$node_name)
 # sort(network$nodes$node_name)
+
