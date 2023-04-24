@@ -138,30 +138,7 @@ load_emln <- function(network_id) {
 }
 
 
-# source('R/create_multilayer_network.R')
-# source('R/create_monolayer_object.R')
-# source('R/get_sam.R')
-# source('R/get_igraph.R')
-# source('R/list_to_matrix.R')
-# source('R/matrix_to_list_bipartite.R')
-# source('R/matrix_to_list_unipartite.R')
-# source('R/view_emln.R')
-# source('R/load_emln.R')
-# source('R/search_emln.R')
-#
 # library(emln)
-#
-# library(igraph)
-# library(bipartite)
-# library(Matrix)
-# library(magrittr)
-# library(ggplot2)
-# library(readr)
-# library(tibble)
-# library(dplyr)
-# library(readr)
-# library(stringr)
-#
 #
 # for (network_id in 1:81){print(network_id);tryCatch(load_emln(network_id))}
 # # network$layers
