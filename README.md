@@ -1,4 +1,4 @@
-# emln_package
+# PACKAGE IN DEVELOPMENT!
 About emln: An R package that contains 81 ecological multilayer networks for analysis 
 
 This repository accompanies the paper: TITLE/DOI. Please cite it when using the package.
