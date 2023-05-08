@@ -13,7 +13,7 @@
 
 <title>Welcome to the EMLN package</title>
 
-<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -186,8 +186,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -195,9 +195,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -378,28 +385,61 @@ div.tocify {
 </script>
 <div id="about" class="section level1">
 <h1>About</h1>
-<p>This website contains complete examples for working with monolayer and multilayer network data with the package EMLN. It is rather self-explanatory but we recommend to read the paper <strong>PROVIDE A TITLE/DOI</strong> to really understand it. The general workflow is described in the figure below. We start with monolayer networks, which are the basis for handling multilayer networks. Our paper and this website focus on handling data (A-D in the figure) and not on analysis.</p>
+<p>This website contains complete examples for working with monolayer
+and multilayer network data with the package EMLN. It is rather
+self-explanatory but we recommend to read the paper <strong>PROVIDE A
+TITLE/DOI</strong> to really understand it. The general workflow is
+described in the figure below. We start with monolayer networks, which
+are the basis for handling multilayer networks. Our paper and this
+website focus on handling data (A-D in the figure) and not on
+analysis.</p>
 <p><img src="workflow.png" /></p>
-</div>
-<div id="do-i-need-anything-to-get-started" class="section level1">
-<h1>Do I need anything to get started?</h1>
-<p>We assume at least some basic experience with monolayer network analysis and familiarity with the basic concepts of EMLNs. This is a technical reference. However, knowing the concept and theory is highly recommended when analyzing networks. Some recommended reading:</p>
-<ul>
-<li>Pilosof2017-zh,</li>
-<li>Hutchinson2019-wr</li>
-<li>De-Domenico 2013</li>
-</ul>
-<p>We also recommend this <a href="https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md">visual guide by Manlio De Domenico</a></p>
-</div>
-<div id="citing-this-website" class="section level1">
-<h1>Citing this website</h1>
-<p>Please cite…</p>
 </div>
 <div id="installation" class="section level1">
 <h1>Installation</h1>
-<p>The EMLN package was built under R 4.1.0 and requires <code>magrittr, dplyr, ggplot2, stringr, tibble, tidyr, rlang, igraph, vegan</code>. The package is installed directly from GitHub.</p>
+<p>The EMLN package was built under R 4.1.0 and requires
+<code>magrittr, dplyr, ggplot2, stringr, tibble, tidyr, rlang, igraph, vegan</code>.
+The package is installed directly from GitHub.</p>
 <pre class="r"><code>devtools::install_github(&#39;Ecological-Complexity-Lab/emln_package&#39;, force=T)
 library(emln)</code></pre>
+</div>
+<div id="do-i-need-anything-to-get-started" class="section level1">
+<h1>Do I need anything to get started?</h1>
+<p>This is a technical reference. Therefore, we assume at least some
+basic experience with monolayer network analysis. However, some
+familiarity with the basic concepts and theory of multilayer networks is
+highly recommended. Some recommended reading if you do not have that
+background:</p>
+<p><strong>Ecological multilayer networks</strong></p>
+<ul>
+<li>Pilosof S, Porter MA, Pascual M, Kéfi S. The multilayer nature of
+ecological networks. Nat Ecol Evol. 2017;1: 0101. <a
+href="doi:10.1038/s41559-017-0101"
+class="uri">doi:10.1038/s41559-017-0101</a></li>
+<li>Hutchinson MC, Bramon Mora B, Pilosof S, Barner AK, Kéfi S, Thébault
+E, et al. Seeing the forest for the trees: Putting multilayer networks
+to work for community ecology. Godoy O, editor. Funct Ecol. 2019;33:
+206–217. <a href="doi:10.1111/1365-2435.13237"
+class="uri">doi:10.1111/1365-2435.13237</a></li>
+</ul>
+<p><strong>Mathematics of multilayer networks</strong></p>
+<ul>
+<li>De Domenico M, Solé-Ribalta A, Cozzo E, Kivelä M, Moreno Y, Porter
+MA, et al. Mathematical formulation of multilayer networks. Phys Rev X.
+2013;3: 041022. <a href="doi:10.1103/PhysRevX.3.041022"
+class="uri">doi:10.1103/PhysRevX.3.041022</a></li>
+<li>Kivelä M, Arenas A, Barthelemy M, Gleeson JP, Moreno Y, Porter MA.
+Multilayer networks. J Complex Networks. 2014;2: 203–271. <a
+href="doi:10.1093/comnet/cnu016"
+class="uri">doi:10.1093/comnet/cnu016</a></li>
+</ul>
+<p><strong>Visual guide</strong> <a
+href="https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md">visual
+guide by Manlio De Domenico</a></p>
+</div>
+<div id="citing-this-package" class="section level1">
+<h1>Citing this package</h1>
+<p>Please cite… [COMPLETE ONCE PAPER IS OUT]</p>
 </div>
 
 

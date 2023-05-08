@@ -22,25 +22,18 @@ knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=FALSE)
 ```
 
 ```{r message=FALSE, warning=FALSE}
+# source('R/create_multilayer_network.R')
+# source('R/create_monolayer_object.R')
+# source('R/get_sam.R')
+# source('R/get_igraph.R')
+# source('R/list_to_matrix.R')
+# source('R/matrix_to_list_bipartite.R')
+# source('R/matrix_to_list_unipartite.R')
+# source('R/view_emln.R')
+# source('R/load_emln.R')
+# source('R/search_emln.R')
 
-# devtools::install_github(repo = 'Ecological-Complexity-Lab/emln_package', force = T, auth_token = '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')
-
-# Change the source for library(emln) later
-source('R/create_multilayer_network.R')
-source('R/create_monolayer_object.R')
-source('R/get_sam.R')
-source('R/get_igraph.R')
-source('R/list_to_matrix.R')
-source('R/matrix_to_list_bipartite.R')
-source('R/matrix_to_list_unipartite.R')
-source('R/view_emln.R')
-source('R/load_emln.R')
-source('R/search_emln.R')
-
-
-
-
-# library(emln)
+library(emln)
 library(igraph)
 library(bipartite)
 library(Matrix)
@@ -285,11 +278,11 @@ d38 <- load_emln(38)
 d38
 ```
 
-Here is another example:
+<!-- Here is another example: -->
 
-```{r}
-search_emln(ecological_network_type = 'Pollination', directed = TRUE)
-d47 <- load_emln(47)
-d47
-```
+<!-- ```{r} -->
+<!-- search_emln(ecological_network_type = 'Pollination', directed = TRUE) -->
+<!-- d47 <- load_emln(47) -->
+<!-- d47 -->
+<!-- ``` -->
 

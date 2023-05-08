@@ -1,9 +1,10 @@
+library(emln)
 # get all the files from the source
 if (getwd()!="/Users/shai/GitHub/ecomplab/emln_package"){stop('wd must be the root of the package')}
 
 file_names <- list.files('website_source/', full.names = T)
 file.copy(from = file.path(file_names),
-          to = file.path(getwd()))
+          to = file.path(getwd()), overwrite = T)
 
 # Make the website
 rmarkdown::render_site()

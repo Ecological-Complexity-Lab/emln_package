@@ -22,18 +22,6 @@ This website contains complete examples for working with monolayer and multilaye
 
 ![](workflow.png)
 
-# Do I need anything to get started?
-We assume at least some basic experience with monolayer network analysis and familiarity with the basic concepts of EMLNs. This is a technical reference. However, knowing the concept and theory is highly recommended when analyzing networks. Some recommended reading:
-
-* Pilosof2017-zh,
-* Hutchinson2019-wr
-* De-Domenico 2013
-
-We also recommend this [visual guide by Manlio De Domenico](https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md)
-
-# Citing this website
-Please cite...
-
 # Installation
 The EMLN package was built under R 4.1.0 and requires `magrittr, dplyr, ggplot2, stringr, tibble, tidyr, rlang, igraph, vegan`. The package is installed directly from GitHub.
 
@@ -41,4 +29,25 @@ The EMLN package was built under R 4.1.0 and requires `magrittr, dplyr, ggplot2,
 devtools::install_github('Ecological-Complexity-Lab/emln_package', force=T)
 library(emln)
 ```
+
+# Do I need anything to get started?
+This is a technical reference. Therefore, we assume at least some basic experience with monolayer network analysis. However, some familiarity with the basic concepts and theory of multilayer networks is highly recommended. Some recommended reading if you do not have that background:
+
+**Ecological multilayer networks**
+
+* Pilosof S, Porter MA, Pascual M, Kéfi S. The multilayer nature of ecological networks. Nat Ecol Evol. 2017;1: 0101. doi:10.1038/s41559-017-0101
+* Hutchinson MC, Bramon Mora B, Pilosof S, Barner AK, Kéfi S, Thébault E, et al. Seeing the forest for the trees: Putting multilayer networks to work for community ecology. Godoy O, editor. Funct Ecol. 2019;33: 206–217. doi:10.1111/1365-2435.13237
+
+**Mathematics of multilayer networks**
+
+* De Domenico M, Solé-Ribalta A, Cozzo E, Kivelä M, Moreno Y, Porter MA, et al. Mathematical formulation of multilayer networks. Phys Rev X. 2013;3: 041022. doi:10.1103/PhysRevX.3.041022
+* Kivelä M, Arenas A, Barthelemy M, Gleeson JP, Moreno Y, Porter MA. Multilayer networks. J Complex Networks. 2014;2: 203–271. doi:10.1093/comnet/cnu016
+
+**Visual guide**
+[visual guide by Manlio De Domenico](https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md)
+
+# Citing this package
+Please cite... [COMPLETE ONCE PAPER IS OUT]
+
+
 

@@ -13,7 +13,7 @@
 
 <title>Handling monolayer network data</title>
 
-<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -186,8 +186,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -195,9 +195,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -376,33 +383,30 @@ div.tocify {
   addClassKlippyTo("pre.r, pre.markdown");
   addKlippy('right', 'top', '#8B0000', '1', 'Copy code', 'Copied!');
 </script>
-<pre class="r"><code># devtools::install_github(repo = &#39;Ecological-Complexity-Lab/emln_package&#39;, force = T, auth_token = &#39;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&#39;)
+<pre class="r"><code># source(&#39;R/create_multilayer_network.R&#39;)
+# source(&#39;R/create_monolayer_object.R&#39;)
+# source(&#39;R/get_sam.R&#39;)
+# source(&#39;R/get_igraph.R&#39;)
+# source(&#39;R/list_to_matrix.R&#39;)
+# source(&#39;R/matrix_to_list_bipartite.R&#39;)
+# source(&#39;R/matrix_to_list_unipartite.R&#39;)
+# source(&#39;R/view_emln.R&#39;)
+# source(&#39;R/load_emln.R&#39;)
+# source(&#39;R/search_emln.R&#39;)
 
-# Change the source for library(emln) later
-source(&#39;R/create_multilayer_network.R&#39;)
-source(&#39;R/create_monolayer_object.R&#39;)
-source(&#39;R/get_sam.R&#39;)
-source(&#39;R/get_igraph.R&#39;)
-source(&#39;R/list_to_matrix.R&#39;)
-source(&#39;R/matrix_to_list_bipartite.R&#39;)
-source(&#39;R/matrix_to_list_unipartite.R&#39;)
-source(&#39;R/view_emln.R&#39;)
-source(&#39;R/load_emln.R&#39;)
-source(&#39;R/search_emln.R&#39;)
-
-
-
-
-# library(emln)
+library(emln)
 library(igraph)
 library(tidyverse)
 library(bipartite)
 library(magrittr)
 library(Matrix)</code></pre>
-<p>We provide examples with simulated toy networks and with real data to create an object of class <code>monolayer</code>. See help (<code>?monolayer</code>) to learn more about this class</p>
+<p>We provide examples with simulated toy networks and with real data to
+create an object of class <code>monolayer</code>. See help
+(<code>?monolayer</code>) to learn more about this class</p>
 <div id="unipartite" class="section level1">
 <h1>Unipartite</h1>
-<p>We start with a toy example. We generate a 3x3 matrix with random weighted interactions.</p>
+<p>We start with a toy example. We generate a 3x3 matrix with random
+weighted interactions.</p>
 <pre class="r"><code>n &lt;- 3
 adjacency_matrix &lt;- matrix(round(runif(n*n,1,5),0), ncol = n, dimnames = list(paste0(&quot;A&quot;, 1:n), paste0(&quot;A&quot;, 1:n)))
 
@@ -424,28 +428,28 @@ matrix_to_list_unipartite(adjacency_matrix, directed = TRUE)</code></pre>
 ## 
 ## $mat
 ##    A1 A2 A3
-## A1  2  2  4
-## A2  3  3  4
-## A3  1  4  4
+## A1  3  2  2
+## A2  4  3  5
+## A3  3  2  1
 ## 
 ## $edge_list
 ## # A tibble: 9 × 3
 ##   from  to    weight
 ##   &lt;chr&gt; &lt;chr&gt;  &lt;dbl&gt;
-## 1 A1    A1         2
-## 2 A1    A2         3
-## 3 A1    A3         1
+## 1 A1    A1         3
+## 2 A1    A2         4
+## 3 A1    A3         3
 ## 4 A2    A1         2
 ## 5 A2    A2         3
-## 6 A2    A3         4
-## 7 A3    A1         4
-## 8 A3    A2         4
-## 9 A3    A3         4
+## 6 A2    A3         2
+## 7 A3    A1         2
+## 8 A3    A2         5
+## 9 A3    A3         1
 ## 
 ## $igraph_object
-## IGRAPH 4c896ea DNW- 3 9 -- 
+## IGRAPH 89afda6 DNW- 3 9 -- 
 ## + attr: name (v/c), weight (e/n)
-## + edges from 4c896ea (vertex names):
+## + edges from 89afda6 (vertex names):
 ## [1] A1-&gt;A1 A1-&gt;A2 A1-&gt;A3 A2-&gt;A1 A2-&gt;A2 A2-&gt;A3 A3-&gt;A1 A3-&gt;A2 A3-&gt;A3
 ## 
 ## attr(,&quot;class&quot;)
@@ -471,32 +475,44 @@ list_to_matrix(link_list_unipartite, directed = TRUE, bipartite = FALSE)</code><
 ## 
 ## $mat
 ##    A1 A2 A3
-## A1  2  2  3
-## A2  4  3  3
-## A3  3  3  3
+## A1  4  4  2
+## A2  3  2  5
+## A3  3  1  5
 ## 
 ## $edge_list
 ##   from to weight
-## 1   A1 A1      2
-## 2   A1 A2      4
+## 1   A1 A1      4
+## 2   A1 A2      3
 ## 3   A1 A3      3
-## 4   A2 A1      2
-## 5   A2 A2      3
-## 6   A2 A3      3
-## 7   A3 A1      3
-## 8   A3 A2      3
-## 9   A3 A3      3
+## 4   A2 A1      4
+## 5   A2 A2      2
+## 6   A2 A3      1
+## 7   A3 A1      2
+## 8   A3 A2      5
+## 9   A3 A3      5
 ## 
 ## $igraph_object
-## IGRAPH 59113f1 DNW- 3 9 -- 
+## IGRAPH 035a13f DNW- 3 9 -- 
 ## + attr: name (v/c), weight (e/n)
-## + edges from 59113f1 (vertex names):
+## + edges from 035a13f (vertex names):
 ## [1] A1-&gt;A1 A1-&gt;A2 A1-&gt;A3 A2-&gt;A1 A2-&gt;A2 A2-&gt;A3 A3-&gt;A1 A3-&gt;A2 A3-&gt;A3
 ## 
 ## attr(,&quot;class&quot;)
 ## [1] &quot;monolayer&quot;</code></pre>
-<p>To illustrate working with real data we will use a binary directed marine food web from <a href="https://www.sciencedirect.com/science/article/pii/B9780123864758000058">Jacob, Ute, Aaron Thierry, Ulrich Brose, Wolf E. Arntz, Sofia Berg, Thomas Brey, Ingo Fetzer, et al. 2011. “The Role of Body Size in Complex Food Webs: A Cold Case.” In Advances in Ecological Research, edited by Andrea Belgrano, 45:181–223. Academic Press.</a> Kongsfjorden is a glacial fjord on the northwest corner of the Svalbard archipelago. It is a 30 km open fjord with no marked sill at the entrance, and with a maximum depth exceeding 300 m. The network consists of 262 species with 1,544 feeding interactions. <strong>Note the warning messages</strong>; these are OK for this data set.</p>
-<p><strong>These data are organized as a link list, so it is possible to include node attributes.</strong></p>
+<p>To illustrate working with real data we will use a binary directed
+marine food web from <a
+href="https://www.sciencedirect.com/science/article/pii/B9780123864758000058">Jacob,
+Ute, Aaron Thierry, Ulrich Brose, Wolf E. Arntz, Sofia Berg, Thomas
+Brey, Ingo Fetzer, et al. 2011. “The Role of Body Size in Complex Food
+Webs: A Cold Case.” In Advances in Ecological Research, edited by Andrea
+Belgrano, 45:181–223. Academic Press.</a> Kongsfjorden is a glacial
+fjord on the northwest corner of the Svalbard archipelago. It is a 30 km
+open fjord with no marked sill at the entrance, and with a maximum depth
+exceeding 300 m. The network consists of 262 species with 1,544 feeding
+interactions. <strong>Note the warning messages</strong>; these are OK
+for this data set.</p>
+<p><strong>These data are organized as a link list, so it is possible to
+include node attributes.</strong></p>
 <pre class="r"><code># The data is included in the infomapecology package
 data(&quot;kongsfjorden_links&quot;, package = &#39;infomapecology&#39;)
 data(&quot;kongsfjorden_nodes&quot;, package = &#39;infomapecology&#39;)
@@ -528,14 +544,17 @@ head(monolayer_unipartite$nodes)</code></pre>
 ## 4 Calanus finnmarchicus                Fragilariopsis      1
 ## 5 Calanus finnmarchicus               Protoperidinium      1
 ## 6 Calanus finnmarchicus                   Gymnodinium      1</code></pre>
-<p>Now let’s take the matrix we obtained as an example, and create a monolayer object from a matrix.</p>
+<p>Now let’s take the matrix we obtained as an example, and create a
+monolayer object from a matrix.</p>
 <pre class="r"><code>kongsfjorden_matrix &lt;- monolayer_unipartite$mat
 monolayer_unipartite &lt;- matrix_to_list_unipartite(x = kongsfjorden_matrix, directed = T)</code></pre>
 <pre><code>## [1] &quot;Some nodes have no interactions. They will appear in the node table but not in the edge list&quot;</code></pre>
 </div>
 <div id="bipartite" class="section level1">
 <h1>Bipartite</h1>
-<p>We start with a toy example. We generate a random incidence matrix with dimensions P X A. Bipartite networks have two sets of nodes with no overlap between the sets.</p>
+<p>We start with a toy example. We generate a random incidence matrix
+with dimensions P X A. Bipartite networks have two sets of nodes with no
+overlap between the sets.</p>
 <pre class="r"><code># Case &quot;Bipartite networks&quot;
 # 
 P &lt;- 4 # 4 rows
@@ -547,25 +566,27 @@ matrix_to_list_bipartite(incidence_matrix, group_names = c(&#39;A_set&#39;, &#39
 <pre><code>## # A tibble: 12 × 3
 ##    from  to    weight
 ##    &lt;chr&gt; &lt;chr&gt;  &lt;dbl&gt;
-##  1 A1    P1         4
-##  2 A1    P2         2
-##  3 A1    P3         2
-##  4 A1    P4         4
-##  5 A2    P1         3
+##  1 A1    P1         2
+##  2 A1    P2         5
+##  3 A1    P3         1
+##  4 A1    P4         2
+##  5 A2    P1         1
 ##  6 A2    P2         3
-##  7 A2    P3         4
+##  7 A2    P3         2
 ##  8 A2    P4         3
-##  9 A3    P1         2
-## 10 A3    P2         4
-## 11 A3    P3         4
-## 12 A3    P4         3</code></pre>
-<p>To demonstrate real data we use the incidence matrix olesen2002flores included in the bipartite package.</p>
+##  9 A3    P1         4
+## 10 A3    P2         3
+## 11 A3    P3         1
+## 12 A3    P4         1</code></pre>
+<p>To demonstrate real data we use the incidence matrix olesen2002flores
+included in the bipartite package.</p>
 <pre class="r"><code># create a monolayer object from a bipartite matrix
 monolayer_bipartite &lt;- matrix_to_list_bipartite(x = olesen2002flores, group_names = c(&#39;Pollinator&#39;, &#39;Plant&#39;))
 
 # What is included in the monolayer class object
 names(monolayer_bipartite)</code></pre>
-<pre><code>## [1] &quot;mode&quot;          &quot;directed&quot;      &quot;nodes&quot;         &quot;mat&quot;           &quot;edge_list&quot;     &quot;igraph_object&quot;</code></pre>
+<pre><code>## [1] &quot;mode&quot;          &quot;directed&quot;      &quot;nodes&quot;         &quot;mat&quot;          
+## [5] &quot;edge_list&quot;     &quot;igraph_object&quot;</code></pre>
 <pre class="r"><code># The nodes in the network
 monolayer_bipartite$nodes</code></pre>
 <pre><code>## # A tibble: 22 × 3
@@ -581,7 +602,7 @@ monolayer_bipartite$nodes</code></pre>
 ##  8       8 Pollinator Lucilia.sericata    
 ##  9       9 Pollinator Lasius.niger        
 ## 10      10 Pollinator Anothomyia.pluvialis
-## # ℹ 12 more rows</code></pre>
+## # … with 12 more rows</code></pre>
 <pre class="r"><code># The link (edge) list
 monolayer_bipartite$edge_list</code></pre>
 <pre><code>## # A tibble: 30 × 3
@@ -597,20 +618,20 @@ monolayer_bipartite$edge_list</code></pre>
 ##  8 Sepsis.thoracica Crithmum:maritimum        87
 ##  9 Sepsis.thoracica Beta:vulgaris              8
 ## 10 Sepsis.thoracica Silene:vulgaris           30
-## # ℹ 20 more rows</code></pre>
+## # … with 20 more rows</code></pre>
 <pre class="r"><code># An igraph object is also created
 monolayer_bipartite$igraph_object</code></pre>
-<pre><code>## IGRAPH e3362a6 UNWB 22 30 -- 
+<pre><code>## IGRAPH ac404f1 UNWB 22 30 -- 
 ## + attr: type (v/l), name (v/c), weight (e/n)
-## + edges from e3362a6 (vertex names):
-##  [1] Halictus.sp.    --Azorina:vidalii       Halictus.sp.    --Solidago:sempervivens Halictus.sp.    --Daucus:carota        
-##  [4] Halictus.sp.    --Silene:vulgaris       Halictus.sp.    --Chamomilla:suaveolens Halictus.sp.    --Reseda:luteola       
-##  [7] Sepsis.thoracica--Azorina:vidalii       Sepsis.thoracica--Crithmum:maritimum    Sepsis.thoracica--Beta:vulgaris        
-## [10] Sepsis.thoracica--Silene:vulgaris       Agrotis.ipsilon --Solidago:sempervivens Bombus.ruderatus--Azorina:vidalii      
-## [13] Bombus.ruderatus--Lotus:corniculatus    Bombus.ruderatus--Freesia:refracta      Colias.crocea   --Azorina:vidalii      
-## [16] Colias.crocea   --Lotus:corniculatus    Colias.crocea   --Freesia:refracta      Musca.domestica --Azorina:vidalii      
-## [19] Musca.domestica --Crithmum:maritimum    Musca.domestica --Daucus:carota         Musca.domestica --Chamomilla:suaveolens
-## [22] Apis.mellifera  --Azorina:vidalii       Apis.mellifera  --Lotus:corniculatus    Apis.mellifera  --Reseda:luteola       
+## + edges from ac404f1 (vertex names):
+##  [1] Halictus.sp.    --Azorina:vidalii      
+##  [2] Halictus.sp.    --Solidago:sempervivens
+##  [3] Halictus.sp.    --Daucus:carota        
+##  [4] Halictus.sp.    --Silene:vulgaris      
+##  [5] Halictus.sp.    --Chamomilla:suaveolens
+##  [6] Halictus.sp.    --Reseda:luteola       
+##  [7] Sepsis.thoracica--Azorina:vidalii      
+##  [8] Sepsis.thoracica--Crithmum:maritimum   
 ## + ... omitted several edges</code></pre>
 <p>We can also convert a link list to a monolayer object.</p>
 <pre class="r"><code>ll &lt;- monolayer_bipartite$edge_list
@@ -618,7 +639,11 @@ monolayer_bipartite_2 &lt;- list_to_matrix(ll, bipartite = T, group_names = c(&#
 </div>
 <div id="function-create_monolayer_object" class="section level1">
 <h1>Function <code>create_monolayer_object</code></h1>
-<p>This function is a wrapper for the <code>matrix_to_list_unipartite</code>, <code>matrix_to_list_bipartite</code>, and <code>list_to_matrix</code> functions. It is convenient because it automatically selects the input type.</p>
+<p>This function is a wrapper for the
+<code>matrix_to_list_unipartite</code>,
+<code>matrix_to_list_bipartite</code>, and <code>list_to_matrix</code>
+functions. It is convenient because it automatically selects the input
+type.</p>
 <pre class="r"><code>#Input is a link list
 monolayer_unipartite &lt;- create_monolayer_object(x=interactions, directed = T, bipartite = F, node_metadata = nodes)</code></pre>
 <pre><code>## [1] &quot;Input: an unipartite edge list&quot;</code></pre>
