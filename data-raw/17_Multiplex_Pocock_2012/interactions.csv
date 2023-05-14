@@ -67,7 +67,7 @@ interaction_id,attribute,value
 11,type,pollination
 12,node_from,Anthriscus_sylvestris
 12,layer_from,plant - flower visitor
-12,node_to,Dacnusa_(maculipes)
+12,node_to,Dacnusa__maculipes_
 12,layer_to,plant - flower visitor
 12,weight,18.99
 12,type,pollination
@@ -91,7 +91,7 @@ interaction_id,attribute,value
 15,type,pollination
 16,node_from,Anthriscus_sylvestris
 16,layer_from,plant - flower visitor
-16,node_to,Empis_(Xanthempis)_sp
+16,node_to,Empis__Xanthempis__sp
 16,layer_to,plant - flower visitor
 16,weight,19.69
 16,type,pollination
@@ -169,7 +169,7 @@ interaction_id,attribute,value
 28,type,pollination
 29,node_from,Anthriscus_sylvestris
 29,layer_from,plant - flower visitor
-29,node_to,Phaenocarpa_(ruficeps)
+29,node_to,Phaenocarpa__ruficeps_
 29,layer_to,plant - flower visitor
 29,weight,39.39
 29,type,pollination
@@ -287,19 +287,19 @@ interaction_id,attribute,value
 48,layer_to,plant - flower visitor
 48,weight,49.71
 48,type,pollination
-49,node_from,Capsella_bursa-pastoris
+49,node_from,Capsella_bursa_pastoris
 49,layer_from,plant - flower visitor
 49,node_to,Empis_livida
 49,layer_to,plant - flower visitor
 49,weight,747.6
 49,type,pollination
-50,node_from,Capsella_bursa-pastoris
+50,node_from,Capsella_bursa_pastoris
 50,layer_from,plant - flower visitor
 50,node_to,Platycheirus_albimanus
 50,layer_to,plant - flower visitor
 50,weight,747.6
 50,type,pollination
-51,node_from,Capsella_bursa-pastoris
+51,node_from,Capsella_bursa_pastoris
 51,layer_from,plant - flower visitor
 51,node_to,Syritta_pipiens
 51,layer_to,plant - flower visitor
@@ -635,49 +635,49 @@ interaction_id,attribute,value
 106,layer_to,plant - flower visitor
 106,weight,747.6
 106,type,pollination
-107,node_from,Conolvulus/Calystegia
+107,node_from,Conolvulus_Calystegia
 107,layer_from,plant - flower visitor
 107,node_to,Bombus_pascuorum
 107,layer_to,plant - flower visitor
 107,weight,18.99
 107,type,pollination
-108,node_from,Conolvulus/Calystegia
+108,node_from,Conolvulus_Calystegia
 108,layer_from,plant - flower visitor
 108,node_to,Delia_sp
 108,layer_to,plant - flower visitor
 108,weight,52.52
 108,type,pollination
-109,node_from,Conolvulus/Calystegia
+109,node_from,Conolvulus_Calystegia
 109,layer_from,plant - flower visitor
 109,node_to,Empis_livida
 109,layer_to,plant - flower visitor
 109,weight,99.41
 109,type,pollination
-110,node_from,Conolvulus/Calystegia
+110,node_from,Conolvulus_Calystegia
 110,layer_from,plant - flower visitor
 110,node_to,Eupeodes_luniger
 110,layer_to,plant - flower visitor
 110,weight,49.71
 110,type,pollination
-111,node_from,Conolvulus/Calystegia
+111,node_from,Conolvulus_Calystegia
 111,layer_from,plant - flower visitor
 111,node_to,Melanostoma_mellinum
 111,layer_to,plant - flower visitor
 111,weight,49.71
 111,type,pollination
-112,node_from,Conolvulus/Calystegia
+112,node_from,Conolvulus_Calystegia
 112,layer_from,plant - flower visitor
 112,node_to,Oedemera_nobilis
 112,layer_to,plant - flower visitor
 112,weight,49.71
 112,type,pollination
-113,node_from,Conolvulus/Calystegia
+113,node_from,Conolvulus_Calystegia
 113,layer_from,plant - flower visitor
 113,node_to,Platycheirus_albimanus
 113,layer_to,plant - flower visitor
 113,weight,18.99
 113,type,pollination
-114,node_from,Conolvulus/Calystegia
+114,node_from,Conolvulus_Calystegia
 114,layer_from,plant - flower visitor
 114,node_to,Sphaerophoria_sp
 114,layer_to,plant - flower visitor
@@ -1475,25 +1475,25 @@ interaction_id,attribute,value
 246,layer_to,plant - flower visitor
 246,weight,99.41
 246,type,pollination
-247,node_from,Medicago_sativa_ssp._sativa
+247,node_from,Medicago_sativa_ssp__sativa
 247,layer_from,plant - flower visitor
 247,node_to,Apis_mellifera
 247,layer_to,plant - flower visitor
 247,weight,17100
 247,type,pollination
-248,node_from,Medicago_sativa_ssp._sativa
+248,node_from,Medicago_sativa_ssp__sativa
 248,layer_from,plant - flower visitor
 248,node_to,Bombus_terrestris
 248,layer_to,plant - flower visitor
 248,weight,1140
 248,type,pollination
-249,node_from,Medicago_sativa_ssp._sativa
+249,node_from,Medicago_sativa_ssp__sativa
 249,layer_from,plant - flower visitor
 249,node_to,Gastrophysa_viridular
 249,layer_to,plant - flower visitor
 249,weight,1140
 249,type,pollination
-250,node_from,Medicago_sativa_ssp._sativa
+250,node_from,Medicago_sativa_ssp__sativa
 250,layer_from,plant - flower visitor
 250,node_to,Rhingia_campestris
 250,layer_to,plant - flower visitor
@@ -1529,37 +1529,37 @@ interaction_id,attribute,value
 255,layer_to,plant - flower visitor
 255,weight,747.6
 255,type,pollination
-256,node_from,Papaver_sp.
+256,node_from,Papaver_sp_
 256,layer_from,plant - flower visitor
 256,node_to,Bombus_lapidarius
 256,layer_to,plant - flower visitor
 256,weight,2290
 256,type,pollination
-257,node_from,Papaver_sp.
+257,node_from,Papaver_sp_
 257,layer_from,plant - flower visitor
 257,node_to,Bombus_terrestris
 257,layer_to,plant - flower visitor
 257,weight,2220
 257,type,pollination
-258,node_from,Papaver_sp.
+258,node_from,Papaver_sp_
 258,layer_from,plant - flower visitor
 258,node_to,Delia_sp
 258,layer_to,plant - flower visitor
 258,weight,771.1
 258,type,pollination
-259,node_from,Papaver_sp.
+259,node_from,Papaver_sp_
 259,layer_from,plant - flower visitor
 259,node_to,Empis_livida
 259,layer_to,plant - flower visitor
 259,weight,49.71
 259,type,pollination
-260,node_from,Papaver_sp.
+260,node_from,Papaver_sp_
 260,layer_from,plant - flower visitor
 260,node_to,Oedemera_nobilis
 260,layer_to,plant - flower visitor
 260,weight,99.41
 260,type,pollination
-261,node_from,Papaver_sp.
+261,node_from,Papaver_sp_
 261,layer_from,plant - flower visitor
 261,node_to,Platycheirus_nielseni
 261,layer_to,plant - flower visitor
@@ -1759,7 +1759,7 @@ interaction_id,attribute,value
 293,type,pollination
 294,node_from,Ranunculus_repens
 294,layer_from,plant - flower visitor
-294,node_to,Hylemya_urbica/variata
+294,node_to,Hylemya_urbica_variata
 294,layer_to,plant - flower visitor
 294,weight,476.2
 294,type,pollination
@@ -2045,31 +2045,31 @@ interaction_id,attribute,value
 341,layer_to,plant - flower visitor
 341,weight,18.99
 341,type,pollination
-342,node_from,Rosa_sp.
+342,node_from,Rosa_sp_
 342,layer_from,plant - flower visitor
 342,node_to,Anaspis_maculata
 342,layer_to,plant - flower visitor
 342,weight,39.39
 342,type,pollination
-343,node_from,Rosa_sp.
+343,node_from,Rosa_sp_
 343,layer_from,plant - flower visitor
 343,node_to,Anaspis_pulicaria
 343,layer_to,plant - flower visitor
 343,weight,236.3
 343,type,pollination
-344,node_from,Rosa_sp.
+344,node_from,Rosa_sp_
 344,layer_from,plant - flower visitor
 344,node_to,Byturus_tomentosus
 344,layer_to,plant - flower visitor
 344,weight,39.39
 344,type,pollination
-345,node_from,Rosa_sp.
+345,node_from,Rosa_sp_
 345,layer_from,plant - flower visitor
 345,node_to,Epuraea_melanocephala
 345,layer_to,plant - flower visitor
 345,weight,157.6
 345,type,pollination
-346,node_from,Rosa_sp.
+346,node_from,Rosa_sp_
 346,layer_from,plant - flower visitor
 346,node_to,Pegoplata_aestiva_or_Adia_cinerella
 346,layer_to,plant - flower visitor
@@ -2591,31 +2591,31 @@ interaction_id,attribute,value
 432,layer_to,plant - flower visitor
 432,weight,747.6
 432,type,pollination
-433,node_from,Sonchus_asper/oleraceus
+433,node_from,Sonchus_asper_oleraceus
 433,layer_from,plant - flower visitor
 433,node_to,Apis_mellifera
 433,layer_to,plant - flower visitor
 433,weight,6.532
 433,type,pollination
-434,node_from,Sonchus_asper/oleraceus
+434,node_from,Sonchus_asper_oleraceus
 434,layer_from,plant - flower visitor
 434,node_to,Helophilus_pendulus
 434,layer_to,plant - flower visitor
 434,weight,747.6
 434,type,pollination
-435,node_from,Sonchus_asper/oleraceus
+435,node_from,Sonchus_asper_oleraceus
 435,layer_from,plant - flower visitor
 435,node_to,Pegoplata_aestiva_or_Adia_cinerella
 435,layer_to,plant - flower visitor
 435,weight,1353
 435,type,pollination
-436,node_from,Sonchus_asper/oleraceus
+436,node_from,Sonchus_asper_oleraceus
 436,layer_from,plant - flower visitor
 436,node_to,Sphaerophoria_scripta
 436,layer_to,plant - flower visitor
 436,weight,747.6
 436,type,pollination
-437,node_from,Sonchus_asper/oleraceus
+437,node_from,Sonchus_asper_oleraceus
 437,layer_from,plant - flower visitor
 437,node_to,Sphaerophoria_sp
 437,layer_to,plant - flower visitor
@@ -2765,175 +2765,175 @@ interaction_id,attribute,value
 461,layer_to,plant - flower visitor
 461,weight,39.39
 461,type,pollination
-462,node_from,Trifolium_pratense/repens
+462,node_from,Trifolium_pratense_repens
 462,layer_from,plant - flower visitor
 462,node_to,Alysiinae_sp
 462,layer_to,plant - flower visitor
 462,weight,476.2
 462,type,pollination
-463,node_from,Trifolium_pratense/repens
+463,node_from,Trifolium_pratense_repens
 463,layer_from,plant - flower visitor
 463,node_to,Anthomyia_pluvialis
 463,layer_to,plant - flower visitor
 463,weight,604.9
 463,type,pollination
-464,node_from,Trifolium_pratense/repens
+464,node_from,Trifolium_pratense_repens
 464,layer_from,plant - flower visitor
 464,node_to,Apis_mellifera
 464,layer_to,plant - flower visitor
 464,weight,3654
 464,type,pollination
-465,node_from,Trifolium_pratense/repens
+465,node_from,Trifolium_pratense_repens
 465,layer_from,plant - flower visitor
 465,node_to,Aprostocetus_sp
 465,layer_to,plant - flower visitor
 465,weight,476.2
 465,type,pollination
-466,node_from,Trifolium_pratense/repens
+466,node_from,Trifolium_pratense_repens
 466,layer_from,plant - flower visitor
 466,node_to,Bombus_hortorum
 466,layer_to,plant - flower visitor
 466,weight,1210
 466,type,pollination
-467,node_from,Trifolium_pratense/repens
+467,node_from,Trifolium_pratense_repens
 467,layer_from,plant - flower visitor
 467,node_to,Bombus_lapidarius
 467,layer_to,plant - flower visitor
 467,weight,11910
 467,type,pollination
-468,node_from,Trifolium_pratense/repens
+468,node_from,Trifolium_pratense_repens
 468,layer_from,plant - flower visitor
 468,node_to,Bombus_pascuorum
 468,layer_to,plant - flower visitor
 468,weight,8656
 468,type,pollination
-469,node_from,Trifolium_pratense/repens
+469,node_from,Trifolium_pratense_repens
 469,layer_from,plant - flower visitor
 469,node_to,Bombus_pratorum
 469,layer_to,plant - flower visitor
 469,weight,789.3
 469,type,pollination
-470,node_from,Trifolium_pratense/repens
+470,node_from,Trifolium_pratense_repens
 470,layer_from,plant - flower visitor
 470,node_to,Bombus_terrestris
 470,layer_to,plant - flower visitor
 470,weight,5871
 470,type,pollination
-471,node_from,Trifolium_pratense/repens
+471,node_from,Trifolium_pratense_repens
 471,layer_from,plant - flower visitor
 471,node_to,Bombus_vestalis
 471,layer_to,plant - flower visitor
 471,weight,952.3
 471,type,pollination
-472,node_from,Trifolium_pratense/repens
+472,node_from,Trifolium_pratense_repens
 472,layer_from,plant - flower visitor
 472,node_to,Chrysotus_sp
 472,layer_to,plant - flower visitor
 472,weight,1109
 472,type,pollination
-473,node_from,Trifolium_pratense/repens
+473,node_from,Trifolium_pratense_repens
 473,layer_from,plant - flower visitor
 473,node_to,Empis_livida
 473,layer_to,plant - flower visitor
 473,weight,2409
 473,type,pollination
-474,node_from,Trifolium_pratense/repens
+474,node_from,Trifolium_pratense_repens
 474,layer_from,plant - flower visitor
 474,node_to,Eupeodes_corollae
 474,layer_to,plant - flower visitor
 474,weight,476.2
 474,type,pollination
-475,node_from,Trifolium_pratense/repens
+475,node_from,Trifolium_pratense_repens
 475,layer_from,plant - flower visitor
 475,node_to,Maniola_jurtina
 475,layer_to,plant - flower visitor
 475,weight,739.6
 475,type,pollination
-476,node_from,Trifolium_pratense/repens
+476,node_from,Trifolium_pratense_repens
 476,layer_from,plant - flower visitor
 476,node_to,Metasyrphus_luniger
 476,layer_to,plant - flower visitor
 476,weight,476.2
 476,type,pollination
-477,node_from,Trifolium_pratense/repens
+477,node_from,Trifolium_pratense_repens
 477,layer_from,plant - flower visitor
 477,node_to,Norellisoma_spinimanum
 477,layer_to,plant - flower visitor
 477,weight,18.99
 477,type,pollination
-478,node_from,Trifolium_pratense/repens
+478,node_from,Trifolium_pratense_repens
 478,layer_from,plant - flower visitor
 478,node_to,Oedemera_nobilis
 478,layer_to,plant - flower visitor
 478,weight,49.71
 478,type,pollination
-479,node_from,Trifolium_pratense/repens
+479,node_from,Trifolium_pratense_repens
 479,layer_from,plant - flower visitor
 479,node_to,Pegoplata_aestiva_or_Adia_cinerella
 479,layer_to,plant - flower visitor
 479,weight,49.71
 479,type,pollination
-480,node_from,Trifolium_pratense/repens
+480,node_from,Trifolium_pratense_repens
 480,layer_from,plant - flower visitor
 480,node_to,Phyllobius_virideaeris
 480,layer_to,plant - flower visitor
 480,weight,832.9
 480,type,pollination
-481,node_from,Trifolium_pratense/repens
+481,node_from,Trifolium_pratense_repens
 481,layer_from,plant - flower visitor
 481,node_to,Platycheirus_albimanus
 481,layer_to,plant - flower visitor
 481,weight,19.69
 481,type,pollination
-482,node_from,Trifolium_pratense/repens
+482,node_from,Trifolium_pratense_repens
 482,layer_from,plant - flower visitor
 482,node_to,Platypalpus_sp
 482,layer_to,plant - flower visitor
 482,weight,2219
 482,type,pollination
-483,node_from,Trifolium_pratense/repens
+483,node_from,Trifolium_pratense_repens
 483,layer_from,plant - flower visitor
 483,node_to,Pollenia_amentaria
 483,layer_to,plant - flower visitor
 483,weight,2409
 483,type,pollination
-484,node_from,Trifolium_pratense/repens
+484,node_from,Trifolium_pratense_repens
 484,layer_from,plant - flower visitor
 484,node_to,Pollenia_pediculata
 484,layer_to,plant - flower visitor
 484,weight,99.41
 484,type,pollination
-485,node_from,Trifolium_pratense/repens
+485,node_from,Trifolium_pratense_repens
 485,layer_from,plant - flower visitor
 485,node_to,Sarcophaga_carnaria
 485,layer_to,plant - flower visitor
 485,weight,604.9
 485,type,pollination
-486,node_from,Trifolium_pratense/repens
+486,node_from,Trifolium_pratense_repens
 486,layer_from,plant - flower visitor
 486,node_to,Scaptomyza_pallida
 486,layer_to,plant - flower visitor
 486,weight,2409
 486,type,pollination
-487,node_from,Trifolium_pratense/repens
+487,node_from,Trifolium_pratense_repens
 487,layer_from,plant - flower visitor
 487,node_to,Scathophaga_stercoraria
 487,layer_to,plant - flower visitor
 487,weight,4293
 487,type,pollination
-488,node_from,Trifolium_pratense/repens
+488,node_from,Trifolium_pratense_repens
 488,layer_from,plant - flower visitor
 488,node_to,Scatopsidae_sp
 488,layer_to,plant - flower visitor
 488,weight,1109
 488,type,pollination
-489,node_from,Trifolium_pratense/repens
+489,node_from,Trifolium_pratense_repens
 489,layer_from,plant - flower visitor
 489,node_to,Sitona_puncticollis
 489,layer_to,plant - flower visitor
 489,weight,2409
 489,type,pollination
-490,node_from,Trifolium_pratense/repens
+490,node_from,Trifolium_pratense_repens
 490,layer_from,plant - flower visitor
 490,node_to,Syrphus_ribesii
 490,layer_to,plant - flower visitor
@@ -3005,7 +3005,7 @@ interaction_id,attribute,value
 501,layer_to,plant - flower visitor
 501,weight,99.41
 501,type,pollination
-502,node_from,<d7>_Triticosecale
+502,node_from,Triticosecale
 502,layer_from,plant - aphid
 502,node_to,Sitobion_avenae
 502,layer_to,plant - aphid
@@ -3017,13 +3017,13 @@ interaction_id,attribute,value
 503,layer_to,plant - aphid
 503,weight,37380
 503,type,host-parasite
-504,node_from,Avena_sativa_winter-sown
+504,node_from,Avena_sativa_winter_sown
 504,layer_from,plant - aphid
 504,node_to,Metopolophium_dihrodum
 504,layer_to,plant - aphid
 504,weight,635400
 504,type,host-parasite
-505,node_from,Avena_sativa_winter-sown
+505,node_from,Avena_sativa_winter_sown
 505,layer_from,plant - aphid
 505,node_to,Sitobion_avenae
 505,layer_to,plant - aphid
@@ -3113,7 +3113,7 @@ interaction_id,attribute,value
 519,layer_to,plant - aphid
 519,weight,5374000
 519,type,host-parasite
-520,node_from,Plantago_sp.
+520,node_from,Plantago_sp_
 520,layer_from,plant - aphid
 520,node_to,Brachycaudus_helichrysii
 520,layer_to,plant - aphid
@@ -3155,7 +3155,7 @@ interaction_id,attribute,value
 526,layer_to,plant - aphid
 526,weight,1206000
 526,type,host-parasite
-527,node_from,Rosa_sp.
+527,node_from,Rosa_sp_
 527,layer_from,plant - aphid
 527,node_to,Sitobion_fragariae
 527,layer_to,plant - aphid
@@ -3167,7 +3167,7 @@ interaction_id,attribute,value
 528,layer_to,plant - aphid
 528,weight,104500
 528,type,host-parasite
-529,node_from,Rumex_sp.
+529,node_from,Rumex_sp_
 529,layer_from,plant - aphid
 529,node_to,Aphis_rumicis
 529,layer_to,plant - aphid
@@ -3185,13 +3185,13 @@ interaction_id,attribute,value
 531,layer_to,plant - aphid
 531,weight,2010000
 531,type,host-parasite
-532,node_from,Sonchus_asper/oleraceus
+532,node_from,Sonchus_asper_oleraceus
 532,layer_from,plant - aphid
 532,node_to,Hyperomyzus_lactucae
 532,layer_to,plant - aphid
 532,weight,1225000
 532,type,host-parasite
-533,node_from,Sonchus_asper/oleraceus
+533,node_from,Sonchus_asper_oleraceus
 533,layer_from,plant - aphid
 533,node_to,Uroleucon_sonchi
 533,layer_to,plant - aphid
@@ -3203,13 +3203,13 @@ interaction_id,attribute,value
 534,layer_to,plant - aphid
 534,weight,6629
 534,type,host-parasite
-535,node_from,Trifolium_pratense/repens
+535,node_from,Trifolium_pratense_repens
 535,layer_from,plant - aphid
 535,node_to,Acyrthosiphon_pisum
 535,layer_to,plant - aphid
 535,weight,297700
 535,type,host-parasite
-536,node_from,Trifolium_pratense/repens
+536,node_from,Trifolium_pratense_repens
 536,layer_from,plant - aphid
 536,node_to,Therioaphis_trifoli
 536,layer_to,plant - aphid
@@ -3239,43 +3239,43 @@ interaction_id,attribute,value
 540,layer_to,plant - aphid
 540,weight,194900
 540,type,host-parasite
-541,node_from,<d7>_Triticosecale
+541,node_from,Triticosecale
 541,layer_from,plant - primary aphid parasitoid
-541,node_to,Aphidius_picipes?
+541,node_to,Aphidius_picipes_
 541,layer_to,plant - primary aphid parasitoid
 541,weight,12850
 541,type,host-parasite
-542,node_from,<d7>_Triticosecale
+542,node_from,Triticosecale
 542,layer_from,plant - primary aphid parasitoid
 542,node_to,Ephedrus_plagiator
 542,layer_to,plant - primary aphid parasitoid
 542,weight,8568
 542,type,host-parasite
-543,node_from,<d7>_Triticosecale
+543,node_from,Triticosecale
 543,layer_from,plant - primary aphid parasitoid
 543,node_to,Praon_volucre
 543,layer_to,plant - primary aphid parasitoid
 543,weight,8568
 543,type,host-parasite
-544,node_from,Avena_sativa_winter-sown
+544,node_from,Avena_sativa_winter_sown
 544,layer_from,plant - primary aphid parasitoid
 544,node_to,Aphidius_matricariae
 544,layer_to,plant - primary aphid parasitoid
 544,weight,12460
 544,type,host-parasite
-545,node_from,Avena_sativa_winter-sown
+545,node_from,Avena_sativa_winter_sown
 545,layer_from,plant - primary aphid parasitoid
-545,node_to,Aphidius_picipes?
+545,node_to,Aphidius_picipes_
 545,layer_to,plant - primary aphid parasitoid
 545,weight,12460
 545,type,host-parasite
-546,node_from,Avena_sativa_winter-sown
+546,node_from,Avena_sativa_winter_sown
 546,layer_from,plant - primary aphid parasitoid
-546,node_to,Aphidius_rhopalosiphi?
+546,node_to,Aphidius_rhopalosiphi_
 546,layer_to,plant - primary aphid parasitoid
 546,weight,20770
 546,type,host-parasite
-547,node_from,Avena_sativa_winter-sown
+547,node_from,Avena_sativa_winter_sown
 547,layer_from,plant - primary aphid parasitoid
 547,node_to,Ephedrus_plagiator
 547,layer_to,plant - primary aphid parasitoid
@@ -3283,7 +3283,7 @@ interaction_id,attribute,value
 547,type,host-parasite
 548,node_from,Lamiastrum_galeobdolon
 548,layer_from,plant - primary aphid parasitoid
-548,node_to,Praon_exoletum?
+548,node_to,Praon_exoletum_
 548,layer_to,plant - primary aphid parasitoid
 548,weight,828.6
 548,type,host-parasite
@@ -3295,7 +3295,7 @@ interaction_id,attribute,value
 549,type,host-parasite
 550,node_from,Matricaria_discoidea
 550,layer_from,plant - primary aphid parasitoid
-550,node_to,Aphidius_rhopalosiphi?
+550,node_to,Aphidius_rhopalosiphi_
 550,layer_to,plant - primary aphid parasitoid
 550,weight,2209
 550,type,host-parasite
@@ -3319,13 +3319,13 @@ interaction_id,attribute,value
 553,type,host-parasite
 554,node_from,Poaceae
 554,layer_from,plant - primary aphid parasitoid
-554,node_to,Aphidius_picipes?
+554,node_to,Aphidius_picipes_
 554,layer_to,plant - primary aphid parasitoid
 554,weight,25100
 554,type,host-parasite
 555,node_from,Poaceae
 555,layer_from,plant - primary aphid parasitoid
-555,node_to,Aphidius_rhopalosiphi?
+555,node_to,Aphidius_rhopalosiphi_
 555,layer_to,plant - primary aphid parasitoid
 555,weight,2383
 555,type,host-parasite
@@ -3343,7 +3343,7 @@ interaction_id,attribute,value
 557,type,host-parasite
 558,node_from,Ranunculus_repens
 558,layer_from,plant - primary aphid parasitoid
-558,node_to,Praon_exoletum?
+558,node_to,Praon_exoletum_
 558,layer_to,plant - primary aphid parasitoid
 558,weight,8568
 558,type,host-parasite
@@ -3365,27 +3365,27 @@ interaction_id,attribute,value
 561,layer_to,plant - primary aphid parasitoid
 561,weight,328.2
 561,type,host-parasite
-562,node_from,Sonchus_asper/oleraceus
+562,node_from,Sonchus_asper_oleraceus
 562,layer_from,plant - primary aphid parasitoid
 562,node_to,Aphidius_ervi
 562,layer_to,plant - primary aphid parasitoid
 562,weight,10080
 562,type,host-parasite
-563,node_from,Trifolium_pratense/repens
+563,node_from,Trifolium_pratense_repens
 563,layer_from,plant - primary aphid parasitoid
 563,node_to,Aphidius_ervi
 563,layer_to,plant - primary aphid parasitoid
 563,weight,94600
 563,type,host-parasite
-564,node_from,Trifolium_pratense/repens
+564,node_from,Trifolium_pratense_repens
 564,layer_from,plant - primary aphid parasitoid
-564,node_to,Aphidius_rhopalosiphi?
+564,node_to,Aphidius_rhopalosiphi_
 564,layer_to,plant - primary aphid parasitoid
 564,weight,6722
 564,type,host-parasite
-565,node_from,Trifolium_pratense/repens
+565,node_from,Trifolium_pratense_repens
 565,layer_from,plant - primary aphid parasitoid
-565,node_to,Praon_dorsale?
+565,node_to,Praon_dorsale_
 565,layer_to,plant - primary aphid parasitoid
 565,weight,6722
 565,type,host-parasite
@@ -3397,13 +3397,13 @@ interaction_id,attribute,value
 566,type,host-parasite
 567,node_from,Triticum_aestivum
 567,layer_from,plant - primary aphid parasitoid
-567,node_to,Aphidius_picipes?
+567,node_to,Aphidius_picipes_
 567,layer_to,plant - primary aphid parasitoid
 567,weight,24550
 567,type,host-parasite
 568,node_from,Triticum_aestivum
 568,layer_from,plant - primary aphid parasitoid
-568,node_to,Aphidius_rhopalosiphi?
+568,node_to,Aphidius_rhopalosiphi_
 568,layer_to,plant - primary aphid parasitoid
 568,weight,73640
 568,type,host-parasite
@@ -3431,13 +3431,13 @@ interaction_id,attribute,value
 572,layer_to,plant - primary aphid parasitoid
 572,weight,1657
 572,type,host-parasite
-573,node_from,Avena_sativa_winter-sown
+573,node_from,Avena_sativa_winter_sown
 573,layer_from,plant - secondary aphid parasitoid
 573,node_to,Alloxysta_victrix
 573,layer_to,plant - secondary aphid parasitoid
 573,weight,8306
 573,type,host-parasite
-574,node_from,Avena_sativa_winter-sown
+574,node_from,Avena_sativa_winter_sown
 574,layer_from,plant - secondary aphid parasitoid
 574,node_to,Asaphes_suspensus
 574,layer_to,plant - secondary aphid parasitoid
@@ -3557,31 +3557,31 @@ interaction_id,attribute,value
 593,layer_to,plant - secondary aphid parasitoid
 593,weight,5291
 593,type,host-parasite
-594,node_from,Rumex_sp.
+594,node_from,Rumex_sp_
 594,layer_from,plant - secondary aphid parasitoid
 594,node_to,Dendrocerus_carpenteri
 594,layer_to,plant - secondary aphid parasitoid
 594,weight,108000
 594,type,host-parasite
-595,node_from,Trifolium_pratense/repens
+595,node_from,Trifolium_pratense_repens
 595,layer_from,plant - secondary aphid parasitoid
 595,node_to,Alloxysta_victrix
 595,layer_to,plant - secondary aphid parasitoid
 595,weight,67220
 595,type,host-parasite
-596,node_from,Trifolium_pratense/repens
+596,node_from,Trifolium_pratense_repens
 596,layer_from,plant - secondary aphid parasitoid
 596,node_to,Asaphes_suspensus
 596,layer_to,plant - secondary aphid parasitoid
 596,weight,82150
 596,type,host-parasite
-597,node_from,Trifolium_pratense/repens
+597,node_from,Trifolium_pratense_repens
 597,layer_from,plant - secondary aphid parasitoid
 597,node_to,Asaphes_vulgaris
 597,layer_to,plant - secondary aphid parasitoid
 597,weight,26890
 597,type,host-parasite
-598,node_from,Trifolium_pratense/repens
+598,node_from,Trifolium_pratense_repens
 598,layer_from,plant - secondary aphid parasitoid
 598,node_to,Dendrocerus_carpenteri
 598,layer_to,plant - secondary aphid parasitoid
@@ -3617,13 +3617,13 @@ interaction_id,attribute,value
 603,layer_to,plant - secondary aphid parasitoid
 603,weight,875.3
 603,type,host-parasite
-604,node_from,<d7>_Triticosecale
+604,node_from,Triticosecale
 604,layer_from,plant - leaf-miner parasitoid
 604,node_to,Diglyphus_isaea
 604,layer_to,plant - leaf-miner parasitoid
 604,weight,3868
 604,type,host-parasite
-605,node_from,<d7>_Triticosecale
+605,node_from,Triticosecale
 605,layer_from,plant - leaf-miner parasitoid
 605,node_to,Seladerma_diffine
 605,layer_to,plant - leaf-miner parasitoid
@@ -3643,7 +3643,7 @@ interaction_id,attribute,value
 607,type,host-parasite
 608,node_from,Anthriscus_sylvestris
 608,layer_from,plant - leaf-miner parasitoid
-608,node_to,Dacnusa_maculipes/confinis
+608,node_to,Dacnusa_maculipes_confinis
 608,layer_to,plant - leaf-miner parasitoid
 608,weight,656.5
 608,type,host-parasite
@@ -3671,13 +3671,13 @@ interaction_id,attribute,value
 612,layer_to,plant - leaf-miner parasitoid
 612,weight,2486
 612,type,host-parasite
-613,node_from,Avena_sativa_spring-sown
+613,node_from,Avena_sativa_spring_sown
 613,layer_from,plant - leaf-miner parasitoid
-613,node_to,Dacnusa_maculipes/confinis
+613,node_to,Dacnusa_maculipes_confinis
 613,layer_to,plant - leaf-miner parasitoid
 613,weight,16010
 613,type,host-parasite
-614,node_from,Avena_sativa_spring-sown
+614,node_from,Avena_sativa_spring_sown
 614,layer_from,plant - leaf-miner parasitoid
 614,node_to,Diglyphus_isaea
 614,layer_to,plant - leaf-miner parasitoid
@@ -3769,7 +3769,7 @@ interaction_id,attribute,value
 628,type,host-parasite
 629,node_from,Cirsium_arvense
 629,layer_from,plant - leaf-miner parasitoid
-629,node_to,Dacnusa_maculipes/confinis
+629,node_to,Dacnusa_maculipes_confinis
 629,layer_to,plant - leaf-miner parasitoid
 629,weight,18950
 629,type,host-parasite
@@ -3853,7 +3853,7 @@ interaction_id,attribute,value
 642,type,host-parasite
 643,node_from,Cirsium_vulgare
 643,layer_from,plant - leaf-miner parasitoid
-643,node_to,Dacnusa_maculipes/confinis
+643,node_to,Dacnusa_maculipes_confinis
 643,layer_to,plant - leaf-miner parasitoid
 643,weight,437.6
 643,type,host-parasite
@@ -3961,7 +3961,7 @@ interaction_id,attribute,value
 660,type,host-parasite
 661,node_from,Heracleum_sphondylium
 661,layer_from,plant - leaf-miner parasitoid
-661,node_to,Dacnusa_maculipes/confinis
+661,node_to,Dacnusa_maculipes_confinis
 661,layer_to,plant - leaf-miner parasitoid
 661,weight,1657
 661,type,host-parasite
@@ -3991,7 +3991,7 @@ interaction_id,attribute,value
 665,type,host-parasite
 666,node_from,Hordeum_vulgare
 666,layer_from,plant - leaf-miner parasitoid
-666,node_to,Dacnusa_maculipes/confinis
+666,node_to,Dacnusa_maculipes_confinis
 666,layer_to,plant - leaf-miner parasitoid
 666,weight,4002
 666,type,host-parasite
@@ -4013,25 +4013,25 @@ interaction_id,attribute,value
 669,layer_to,plant - leaf-miner parasitoid
 669,weight,218.8
 669,type,host-parasite
-670,node_from,Medicago_sativa_ssp._sativa
+670,node_from,Medicago_sativa_ssp__sativa
 670,layer_from,plant - leaf-miner parasitoid
 670,node_to,Chrysocharis_pentheus
 670,layer_to,plant - leaf-miner parasitoid
 670,weight,19000
 670,type,host-parasite
-671,node_from,Medicago_sativa_ssp._sativa
+671,node_from,Medicago_sativa_ssp__sativa
 671,layer_from,plant - leaf-miner parasitoid
-671,node_to,Dacnusa_maculipes/confinis
+671,node_to,Dacnusa_maculipes_confinis
 671,layer_to,plant - leaf-miner parasitoid
 671,weight,6333
 671,type,host-parasite
-672,node_from,Medicago_sativa_ssp._sativa
+672,node_from,Medicago_sativa_ssp__sativa
 672,layer_from,plant - leaf-miner parasitoid
 672,node_to,Diglyphus_isaea
 672,layer_to,plant - leaf-miner parasitoid
 672,weight,139300
 672,type,host-parasite
-673,node_from,Medicago_sativa_ssp._sativa
+673,node_from,Medicago_sativa_ssp__sativa
 673,layer_from,plant - leaf-miner parasitoid
 673,node_to,Pnigalio_soemius
 673,layer_to,plant - leaf-miner parasitoid
@@ -4123,7 +4123,7 @@ interaction_id,attribute,value
 687,type,host-parasite
 688,node_from,Poaceae
 688,layer_from,plant - leaf-miner parasitoid
-688,node_to,Coloneura_(ate)
+688,node_to,Coloneura__ate_
 688,layer_to,plant - leaf-miner parasitoid
 688,weight,72.57
 688,type,host-parasite
@@ -4147,7 +4147,7 @@ interaction_id,attribute,value
 691,type,host-parasite
 692,node_from,Poaceae
 692,layer_from,plant - leaf-miner parasitoid
-692,node_to,Dacnusa_maculipes/confinis
+692,node_to,Dacnusa_maculipes_confinis
 692,layer_to,plant - leaf-miner parasitoid
 692,weight,217300
 692,type,host-parasite
@@ -4417,7 +4417,7 @@ interaction_id,attribute,value
 736,type,host-parasite
 737,node_from,Quercus_robur
 737,layer_from,plant - leaf-miner parasitoid
-737,node_to,Dacnusa_maculipes/confinis
+737,node_to,Dacnusa_maculipes_confinis
 737,layer_to,plant - leaf-miner parasitoid
 737,weight,6580
 737,type,host-parasite
@@ -4573,7 +4573,7 @@ interaction_id,attribute,value
 762,type,host-parasite
 763,node_from,Ranunculus_repens
 763,layer_from,plant - leaf-miner parasitoid
-763,node_to,Dacnusa_maculipes/confinis
+763,node_to,Dacnusa_maculipes_confinis
 763,layer_to,plant - leaf-miner parasitoid
 763,weight,85540
 763,type,host-parasite
@@ -4679,19 +4679,19 @@ interaction_id,attribute,value
 780,layer_to,plant - leaf-miner parasitoid
 780,weight,828.6
 780,type,host-parasite
-781,node_from,Rumex_sp.
+781,node_from,Rumex_sp_
 781,layer_from,plant - leaf-miner parasitoid
 781,node_to,Adelurola_florimela
 781,layer_to,plant - leaf-miner parasitoid
 781,weight,729.4
 781,type,host-parasite
-782,node_from,Rumex_sp.
+782,node_from,Rumex_sp_
 782,layer_from,plant - leaf-miner parasitoid
 782,node_to,Apodesmia_rufipes
 782,layer_to,plant - leaf-miner parasitoid
 782,weight,96.76
 782,type,host-parasite
-783,node_from,Rumex_sp.
+783,node_from,Rumex_sp_
 783,layer_from,plant - leaf-miner parasitoid
 783,node_to,Bracon_sp
 783,layer_to,plant - leaf-miner parasitoid
@@ -4721,127 +4721,127 @@ interaction_id,attribute,value
 787,layer_to,plant - leaf-miner parasitoid
 787,weight,8004
 787,type,host-parasite
-788,node_from,Sonchus_asper/oleraceus
+788,node_from,Sonchus_asper_oleraceus
 788,layer_from,plant - leaf-miner parasitoid
 788,node_to,Chelonus_scabrosus
 788,layer_to,plant - leaf-miner parasitoid
 788,weight,96.76
 788,type,host-parasite
-789,node_from,Sonchus_asper/oleraceus
+789,node_from,Sonchus_asper_oleraceus
 789,layer_from,plant - leaf-miner parasitoid
 789,node_to,Chorebus_leptogaster
 789,layer_to,plant - leaf-miner parasitoid
 789,weight,18720
 789,type,host-parasite
-790,node_from,Sonchus_asper/oleraceus
+790,node_from,Sonchus_asper_oleraceus
 790,layer_from,plant - leaf-miner parasitoid
 790,node_to,Chrysocharis_pentheus
 790,layer_to,plant - leaf-miner parasitoid
 790,weight,3290
 790,type,host-parasite
-791,node_from,Sonchus_asper/oleraceus
+791,node_from,Sonchus_asper_oleraceus
 791,layer_from,plant - leaf-miner parasitoid
 791,node_to,Chrysocharis_pubicornis
 791,layer_to,plant - leaf-miner parasitoid
 791,weight,3290
 791,type,host-parasite
-792,node_from,Sonchus_asper/oleraceus
+792,node_from,Sonchus_asper_oleraceus
 792,layer_from,plant - leaf-miner parasitoid
 792,node_to,Dacnusa_areolaris
 792,layer_to,plant - leaf-miner parasitoid
 792,weight,6391
 792,type,host-parasite
-793,node_from,Sonchus_asper/oleraceus
+793,node_from,Sonchus_asper_oleraceus
 793,layer_from,plant - leaf-miner parasitoid
-793,node_to,Dacnusa_maculipes/confinis
+793,node_to,Dacnusa_maculipes_confinis
 793,layer_to,plant - leaf-miner parasitoid
 793,weight,6391
 793,type,host-parasite
-794,node_from,Sonchus_asper/oleraceus
+794,node_from,Sonchus_asper_oleraceus
 794,layer_from,plant - leaf-miner parasitoid
 794,node_to,Diglyphus_isaea
 794,layer_to,plant - leaf-miner parasitoid
 794,weight,34160
 794,type,host-parasite
-795,node_from,Sonchus_asper/oleraceus
+795,node_from,Sonchus_asper_oleraceus
 795,layer_from,plant - leaf-miner parasitoid
 795,node_to,Hemiptarsenus_dropion
 795,layer_to,plant - leaf-miner parasitoid
 795,weight,4002
 795,type,host-parasite
-796,node_from,Sonchus_asper/oleraceus
+796,node_from,Sonchus_asper_oleraceus
 796,layer_from,plant - leaf-miner parasitoid
 796,node_to,Ionympha_carne
 796,layer_to,plant - leaf-miner parasitoid
 796,weight,4002
 796,type,host-parasite
-797,node_from,Sonchus_asper/oleraceus
+797,node_from,Sonchus_asper_oleraceus
 797,layer_from,plant - leaf-miner parasitoid
 797,node_to,Phaedrotoma_exigua
 797,layer_to,plant - leaf-miner parasitoid
 797,weight,6580
 797,type,host-parasite
-798,node_from,Sonchus_asper/oleraceus
+798,node_from,Sonchus_asper_oleraceus
 798,layer_from,plant - leaf-miner parasitoid
 798,node_to,Seladerma_diffine
 798,layer_to,plant - leaf-miner parasitoid
 798,weight,15430
 798,type,host-parasite
-799,node_from,Sonchus_asper/oleraceus
+799,node_from,Sonchus_asper_oleraceus
 799,layer_from,plant - leaf-miner parasitoid
 799,node_to,Seladerma_tarsale
 799,layer_to,plant - leaf-miner parasitoid
 799,weight,15430
 799,type,host-parasite
-800,node_from,Trifolium_pratense/repens
+800,node_from,Trifolium_pratense_repens
 800,layer_from,plant - leaf-miner parasitoid
 800,node_to,Chrysocharis_orbicularis
 800,layer_to,plant - leaf-miner parasitoid
 800,weight,3290
 800,type,host-parasite
-801,node_from,Trifolium_pratense/repens
+801,node_from,Trifolium_pratense_repens
 801,layer_from,plant - leaf-miner parasitoid
 801,node_to,Chrysocharis_polyzo
 801,layer_to,plant - leaf-miner parasitoid
 801,weight,2057
 801,type,host-parasite
-802,node_from,Trifolium_pratense/repens
+802,node_from,Trifolium_pratense_repens
 802,layer_from,plant - leaf-miner parasitoid
 802,node_to,Chrysocharis_viridis
 802,layer_to,plant - leaf-miner parasitoid
 802,weight,1105
 802,type,host-parasite
-803,node_from,Trifolium_pratense/repens
+803,node_from,Trifolium_pratense_repens
 803,layer_from,plant - leaf-miner parasitoid
 803,node_to,Colastes_braconius
 803,layer_to,plant - leaf-miner parasitoid
 803,weight,3290
 803,type,host-parasite
-804,node_from,Trifolium_pratense/repens
+804,node_from,Trifolium_pratense_repens
 804,layer_from,plant - leaf-miner parasitoid
 804,node_to,Diglyphus_isaea
 804,layer_to,plant - leaf-miner parasitoid
 804,weight,55370
 804,type,host-parasite
-805,node_from,Trifolium_pratense/repens
+805,node_from,Trifolium_pratense_repens
 805,layer_from,plant - leaf-miner parasitoid
 805,node_to,Eulophinae_sp
 805,layer_to,plant - leaf-miner parasitoid
 805,weight,24560
 805,type,host-parasite
-806,node_from,Trifolium_pratense/repens
+806,node_from,Trifolium_pratense_repens
 806,layer_from,plant - leaf-miner parasitoid
 806,node_to,Hemiptarsenus_unguicellus
 806,layer_to,plant - leaf-miner parasitoid
 806,weight,10310
 806,type,host-parasite
-807,node_from,Trifolium_pratense/repens
+807,node_from,Trifolium_pratense_repens
 807,layer_from,plant - leaf-miner parasitoid
 807,node_to,Opius_sensu_stricto_lugens
 807,layer_to,plant - leaf-miner parasitoid
 807,weight,8218
 807,type,host-parasite
-808,node_from,Trifolium_pratense/repens
+808,node_from,Trifolium_pratense_repens
 808,layer_from,plant - leaf-miner parasitoid
 808,node_to,Pnigalio_soemius
 808,layer_to,plant - leaf-miner parasitoid
@@ -4853,13 +4853,13 @@ interaction_id,attribute,value
 809,layer_to,plant - leaf-miner parasitoid
 809,weight,15430
 809,type,host-parasite
-810,node_from,Ulmus_sp.
+810,node_from,Ulmus_sp_
 810,layer_from,plant - leaf-miner parasitoid
 810,node_to,Anagrus_sp_A
 810,layer_to,plant - leaf-miner parasitoid
 810,weight,4168
 810,type,host-parasite
-811,node_from,Ulmus_sp.
+811,node_from,Ulmus_sp_
 811,layer_from,plant - leaf-miner parasitoid
 811,node_to,Bracon_sp
 811,layer_to,plant - leaf-miner parasitoid
@@ -4991,55 +4991,55 @@ interaction_id,attribute,value
 832,layer_to,plant - seed-feeding insect
 832,weight,8218
 832,type,trophic
-833,node_from,Trifolium_pratense/repens
+833,node_from,Trifolium_pratense_repens
 833,layer_from,plant - seed-feeding insect
 833,node_to,Bruchidius_varius
 833,layer_to,plant - seed-feeding insect
 833,weight,1105
 833,type,trophic
-834,node_from,Trifolium_pratense/repens
+834,node_from,Trifolium_pratense_repens
 834,layer_from,plant - seed-feeding insect
 834,node_to,Bruchophagus_gibbus
 834,layer_to,plant - seed-feeding insect
 834,weight,65740
 834,type,trophic
-835,node_from,Trifolium_pratense/repens
+835,node_from,Trifolium_pratense_repens
 835,layer_from,plant - seed-feeding insect
 835,node_to,Protapion_apricans
 835,layer_to,plant - seed-feeding insect
 835,weight,92240
 835,type,trophic
-836,node_from,Trifolium_pratense/repens
+836,node_from,Trifolium_pratense_repens
 836,layer_from,plant - seed-feeding insect
 836,node_to,Protapion_assimile
 836,layer_to,plant - seed-feeding insect
 836,weight,131600
 836,type,trophic
-837,node_from,Trifolium_pratense/repens
+837,node_from,Trifolium_pratense_repens
 837,layer_from,plant - seed-feeding insect
 837,node_to,Protapion_fulvipes
 837,layer_to,plant - seed-feeding insect
 837,weight,748200
 837,type,trophic
-838,node_from,Trifolium_pratense/repens
+838,node_from,Trifolium_pratense_repens
 838,layer_from,plant - seed-feeding insect
 838,node_to,Protapion_trifolii
 838,layer_to,plant - seed-feeding insect
 838,weight,466100
 838,type,trophic
-839,node_from,Trifolium_pratense/repens
+839,node_from,Trifolium_pratense_repens
 839,layer_from,plant - seed-feeding insect
 839,node_to,Protapion_varipes
 839,layer_to,plant - seed-feeding insect
 839,weight,552.3
 839,type,trophic
-840,node_from,Trifolium_pratense/repens
+840,node_from,Trifolium_pratense_repens
 840,layer_from,plant - seed-feeding insect
 840,node_to,Sitona_lineatus
 840,layer_to,plant - seed-feeding insect
 840,weight,552.3
 840,type,trophic
-841,node_from,Trifolium_pratense/repens
+841,node_from,Trifolium_pratense_repens
 841,layer_from,plant - seed-feeding insect
 841,node_to,Sitona_sulcifrons
 841,layer_to,plant - seed-feeding insect
@@ -5177,37 +5177,37 @@ interaction_id,attribute,value
 863,layer_to,plant - seed-feeding bird
 863,weight,1.33e-05
 863,type,trophic
-864,node_from,Capsella_bursa-pastoris
+864,node_from,Capsella_bursa_pastoris
 864,layer_from,plant - seed-feeding bird
 864,node_to,Carduelis_cannabina
 864,layer_to,plant - seed-feeding bird
 864,weight,0.2661
 864,type,trophic
-865,node_from,Capsella_bursa-pastoris
+865,node_from,Capsella_bursa_pastoris
 865,layer_from,plant - seed-feeding bird
 865,node_to,Carduelis_chloris
 865,layer_to,plant - seed-feeding bird
 865,weight,0.3262
 865,type,trophic
-866,node_from,Capsella_bursa-pastoris
+866,node_from,Capsella_bursa_pastoris
 866,layer_from,plant - seed-feeding bird
 866,node_to,Columba_palumbus
 866,layer_to,plant - seed-feeding bird
 866,weight,0.7611
 866,type,trophic
-867,node_from,Capsella_bursa-pastoris
+867,node_from,Capsella_bursa_pastoris
 867,layer_from,plant - seed-feeding bird
 867,node_to,Fringilla_coelebs
 867,layer_to,plant - seed-feeding bird
 867,weight,0.335
 867,type,trophic
-868,node_from,Capsella_bursa-pastoris
+868,node_from,Capsella_bursa_pastoris
 868,layer_from,plant - seed-feeding bird
 868,node_to,Passer_domesticus
 868,layer_to,plant - seed-feeding bird
 868,weight,1.485
 868,type,trophic
-869,node_from,Capsella_bursa-pastoris
+869,node_from,Capsella_bursa_pastoris
 869,layer_from,plant - seed-feeding bird
 869,node_to,Streptopelia_decaocto
 869,layer_to,plant - seed-feeding bird
@@ -5363,73 +5363,73 @@ interaction_id,attribute,value
 894,layer_to,plant - seed-feeding bird
 894,weight,0.00683
 894,type,trophic
-895,node_from,Chenopodium_sp.
+895,node_from,Chenopodium_sp_
 895,layer_from,plant - seed-feeding bird
 895,node_to,Alauda_arvensis
 895,layer_to,plant - seed-feeding bird
 895,weight,1.564
 895,type,trophic
-896,node_from,Chenopodium_sp.
+896,node_from,Chenopodium_sp_
 896,layer_from,plant - seed-feeding bird
 896,node_to,Alectoris_rufa
 896,layer_to,plant - seed-feeding bird
 896,weight,6.108
 896,type,trophic
-897,node_from,Chenopodium_sp.
+897,node_from,Chenopodium_sp_
 897,layer_from,plant - seed-feeding bird
 897,node_to,Carduelis_cannabina
 897,layer_to,plant - seed-feeding bird
 897,weight,1.2
 897,type,trophic
-898,node_from,Chenopodium_sp.
+898,node_from,Chenopodium_sp_
 898,layer_from,plant - seed-feeding bird
 898,node_to,Carduelis_carduelis
 898,layer_to,plant - seed-feeding bird
 898,weight,75.75
 898,type,trophic
-899,node_from,Chenopodium_sp.
+899,node_from,Chenopodium_sp_
 899,layer_from,plant - seed-feeding bird
 899,node_to,Carduelis_chloris
 899,layer_to,plant - seed-feeding bird
 899,weight,0.2616
 899,type,trophic
-900,node_from,Chenopodium_sp.
+900,node_from,Chenopodium_sp_
 900,layer_from,plant - seed-feeding bird
 900,node_to,Columba_palumbus
 900,layer_to,plant - seed-feeding bird
 900,weight,0.2768
 900,type,trophic
-901,node_from,Chenopodium_sp.
+901,node_from,Chenopodium_sp_
 901,layer_from,plant - seed-feeding bird
 901,node_to,Corvus_frugilegus
 901,layer_to,plant - seed-feeding bird
 901,weight,0.7052
 901,type,trophic
-902,node_from,Chenopodium_sp.
+902,node_from,Chenopodium_sp_
 902,layer_from,plant - seed-feeding bird
 902,node_to,Corvus_monedula
 902,layer_to,plant - seed-feeding bird
 902,weight,0.1586
 902,type,trophic
-903,node_from,Chenopodium_sp.
+903,node_from,Chenopodium_sp_
 903,layer_from,plant - seed-feeding bird
 903,node_to,Emberiza_citrinella
 903,layer_to,plant - seed-feeding bird
 903,weight,0.0863
 903,type,trophic
-904,node_from,Chenopodium_sp.
+904,node_from,Chenopodium_sp_
 904,layer_from,plant - seed-feeding bird
 904,node_to,Fringilla_coelebs
 904,layer_to,plant - seed-feeding bird
 904,weight,5.668
 904,type,trophic
-905,node_from,Chenopodium_sp.
+905,node_from,Chenopodium_sp_
 905,layer_from,plant - seed-feeding bird
 905,node_to,Passer_domesticus
 905,layer_to,plant - seed-feeding bird
 905,weight,18.85
 905,type,trophic
-906,node_from,Chenopodium_sp.
+906,node_from,Chenopodium_sp_
 906,layer_from,plant - seed-feeding bird
 906,node_to,Streptopelia_decaocto
 906,layer_to,plant - seed-feeding bird
@@ -5609,55 +5609,55 @@ interaction_id,attribute,value
 935,layer_to,plant - seed-feeding bird
 935,weight,0.1155
 935,type,trophic
-936,node_from,Epilobium_sp.
+936,node_from,Epilobium_sp_
 936,layer_from,plant - seed-feeding bird
 936,node_to,Alectoris_rufa
 936,layer_to,plant - seed-feeding bird
 936,weight,0.2648
 936,type,trophic
-937,node_from,Epilobium_sp.
+937,node_from,Epilobium_sp_
 937,layer_from,plant - seed-feeding bird
 937,node_to,Carduelis_cannabina
 937,layer_to,plant - seed-feeding bird
 937,weight,0.02701
 937,type,trophic
-938,node_from,Epilobium_sp.
+938,node_from,Epilobium_sp_
 938,layer_from,plant - seed-feeding bird
 938,node_to,Carduelis_carduelis
 938,layer_to,plant - seed-feeding bird
 938,weight,0.6257
 938,type,trophic
-939,node_from,Epilobium_sp.
+939,node_from,Epilobium_sp_
 939,layer_from,plant - seed-feeding bird
 939,node_to,Carduelis_chloris
 939,layer_to,plant - seed-feeding bird
 939,weight,0.08026
 939,type,trophic
-940,node_from,Epilobium_sp.
+940,node_from,Epilobium_sp_
 940,layer_from,plant - seed-feeding bird
 940,node_to,Columba_palumbus
 940,layer_to,plant - seed-feeding bird
 940,weight,0.2743
 940,type,trophic
-941,node_from,Epilobium_sp.
+941,node_from,Epilobium_sp_
 941,layer_from,plant - seed-feeding bird
 941,node_to,Corvus_frugilegus
 941,layer_to,plant - seed-feeding bird
 941,weight,0.6477
 941,type,trophic
-942,node_from,Epilobium_sp.
+942,node_from,Epilobium_sp_
 942,layer_from,plant - seed-feeding bird
 942,node_to,Emberiza_citrinella
 942,layer_to,plant - seed-feeding bird
 942,weight,0.0863
 942,type,trophic
-943,node_from,Epilobium_sp.
+943,node_from,Epilobium_sp_
 943,layer_from,plant - seed-feeding bird
 943,node_to,Fringilla_coelebs
 943,layer_to,plant - seed-feeding bird
 943,weight,0.1038
 943,type,trophic
-944,node_from,Epilobium_sp.
+944,node_from,Epilobium_sp_
 944,layer_from,plant - seed-feeding bird
 944,node_to,Passer_domesticus
 944,layer_to,plant - seed-feeding bird
@@ -5927,37 +5927,37 @@ interaction_id,attribute,value
 988,layer_to,plant - seed-feeding bird
 988,weight,3.95e-05
 988,type,trophic
-989,node_from,Hypochaeris/_Crepis_sp.
+989,node_from,Hypochaeris__Crepis_sp_
 989,layer_from,plant - seed-feeding bird
 989,node_to,Alectoris_rufa
 989,layer_to,plant - seed-feeding bird
 989,weight,0.004795
 989,type,trophic
-990,node_from,Hypochaeris/_Crepis_sp.
+990,node_from,Hypochaeris__Crepis_sp_
 990,layer_from,plant - seed-feeding bird
 990,node_to,Carduelis_cannabina
 990,layer_to,plant - seed-feeding bird
 990,weight,3.02e-05
 990,type,trophic
-991,node_from,Hypochaeris/_Crepis_sp.
+991,node_from,Hypochaeris__Crepis_sp_
 991,layer_from,plant - seed-feeding bird
 991,node_to,Carduelis_carduelis
 991,layer_to,plant - seed-feeding bird
 991,weight,0.00648
 991,type,trophic
-992,node_from,Hypochaeris/_Crepis_sp.
+992,node_from,Hypochaeris__Crepis_sp_
 992,layer_from,plant - seed-feeding bird
 992,node_to,Carduelis_chloris
 992,layer_to,plant - seed-feeding bird
 992,weight,0.002516
 992,type,trophic
-993,node_from,Hypochaeris/_Crepis_sp.
+993,node_from,Hypochaeris__Crepis_sp_
 993,layer_from,plant - seed-feeding bird
 993,node_to,Fringilla_coelebs
 993,layer_to,plant - seed-feeding bird
 993,weight,0.0001667
 993,type,trophic
-994,node_from,Hypochaeris/_Crepis_sp.
+994,node_from,Hypochaeris__Crepis_sp_
 994,layer_from,plant - seed-feeding bird
 994,node_to,Passer_domesticus
 994,layer_to,plant - seed-feeding bird
@@ -6215,97 +6215,97 @@ interaction_id,attribute,value
 1036,layer_to,plant - seed-feeding bird
 1036,weight,0.1038
 1036,type,trophic
-1037,node_from,Papaver_sp.
+1037,node_from,Papaver_sp_
 1037,layer_from,plant - seed-feeding bird
 1037,node_to,Alauda_arvensis
 1037,layer_to,plant - seed-feeding bird
 1037,weight,0.03122
 1037,type,trophic
-1038,node_from,Papaver_sp.
+1038,node_from,Papaver_sp_
 1038,layer_from,plant - seed-feeding bird
 1038,node_to,Carduelis_cannabina
 1038,layer_to,plant - seed-feeding bird
 1038,weight,0.02701
 1038,type,trophic
-1039,node_from,Papaver_sp.
+1039,node_from,Papaver_sp_
 1039,layer_from,plant - seed-feeding bird
 1039,node_to,Carduelis_carduelis
 1039,layer_to,plant - seed-feeding bird
 1039,weight,0.6257
 1039,type,trophic
-1040,node_from,Papaver_sp.
+1040,node_from,Papaver_sp_
 1040,layer_from,plant - seed-feeding bird
 1040,node_to,Corvus_monedula
 1040,layer_to,plant - seed-feeding bird
 1040,weight,0.1261
 1040,type,trophic
-1041,node_from,Persicaria_sp.
+1041,node_from,Persicaria_sp_
 1041,layer_from,plant - seed-feeding bird
 1041,node_to,Alauda_arvensis
 1041,layer_to,plant - seed-feeding bird
 1041,weight,2.206
 1041,type,trophic
-1042,node_from,Persicaria_sp.
+1042,node_from,Persicaria_sp_
 1042,layer_from,plant - seed-feeding bird
 1042,node_to,Alectoris_rufa
 1042,layer_to,plant - seed-feeding bird
 1042,weight,2.963
 1042,type,trophic
-1043,node_from,Persicaria_sp.
+1043,node_from,Persicaria_sp_
 1043,layer_from,plant - seed-feeding bird
 1043,node_to,Carduelis_cannabina
 1043,layer_to,plant - seed-feeding bird
 1043,weight,0.8231
 1043,type,trophic
-1044,node_from,Persicaria_sp.
+1044,node_from,Persicaria_sp_
 1044,layer_from,plant - seed-feeding bird
 1044,node_to,Carduelis_carduelis
 1044,layer_to,plant - seed-feeding bird
 1044,weight,3.202
 1044,type,trophic
-1045,node_from,Persicaria_sp.
+1045,node_from,Persicaria_sp_
 1045,layer_from,plant - seed-feeding bird
 1045,node_to,Carduelis_chloris
 1045,layer_to,plant - seed-feeding bird
 1045,weight,1.807
 1045,type,trophic
-1046,node_from,Persicaria_sp.
+1046,node_from,Persicaria_sp_
 1046,layer_from,plant - seed-feeding bird
 1046,node_to,Columba_palumbus
 1046,layer_to,plant - seed-feeding bird
 1046,weight,0.2471
 1046,type,trophic
-1047,node_from,Persicaria_sp.
+1047,node_from,Persicaria_sp_
 1047,layer_from,plant - seed-feeding bird
 1047,node_to,Corvus_frugilegus
 1047,layer_to,plant - seed-feeding bird
 1047,weight,3.852
 1047,type,trophic
-1048,node_from,Persicaria_sp.
+1048,node_from,Persicaria_sp_
 1048,layer_from,plant - seed-feeding bird
 1048,node_to,Corvus_monedula
 1048,layer_to,plant - seed-feeding bird
 1048,weight,4.529
 1048,type,trophic
-1049,node_from,Persicaria_sp.
+1049,node_from,Persicaria_sp_
 1049,layer_from,plant - seed-feeding bird
 1049,node_to,Emberiza_citrinella
 1049,layer_to,plant - seed-feeding bird
 1049,weight,0.5859
 1049,type,trophic
-1050,node_from,Persicaria_sp.
+1050,node_from,Persicaria_sp_
 1050,layer_from,plant - seed-feeding bird
 1050,node_to,Fringilla_coelebs
 1050,layer_to,plant - seed-feeding bird
 1050,weight,0.9337
 1050,type,trophic
-1051,node_from,Persicaria_sp.
+1051,node_from,Persicaria_sp_
 1051,layer_from,plant - seed-feeding bird
 1051,node_to,Passer_domesticus
 1051,layer_to,plant - seed-feeding bird
 1051,weight,3.3
 1051,type,trophic
-1052,node_from,Persicaria_sp.
+1052,node_from,Persicaria_sp_
 1052,layer_from,plant - seed-feeding bird
 1052,node_to,Streptopelia_decaocto
 1052,layer_to,plant - seed-feeding bird
@@ -6425,73 +6425,73 @@ interaction_id,attribute,value
 1071,layer_to,plant - seed-feeding bird
 1071,weight,0.01
 1071,type,trophic
-1072,node_from,Polygonum_sp.
+1072,node_from,Polygonum_sp_
 1072,layer_from,plant - seed-feeding bird
 1072,node_to,Alauda_arvensis
 1072,layer_to,plant - seed-feeding bird
 1072,weight,0.0446
 1072,type,trophic
-1073,node_from,Polygonum_sp.
+1073,node_from,Polygonum_sp_
 1073,layer_from,plant - seed-feeding bird
 1073,node_to,Alectoris_rufa
 1073,layer_to,plant - seed-feeding bird
 1073,weight,0.05434
 1073,type,trophic
-1074,node_from,Polygonum_sp.
+1074,node_from,Polygonum_sp_
 1074,layer_from,plant - seed-feeding bird
 1074,node_to,Carduelis_cannabina
 1074,layer_to,plant - seed-feeding bird
 1074,weight,0.000384
 1074,type,trophic
-1075,node_from,Polygonum_sp.
+1075,node_from,Polygonum_sp_
 1075,layer_from,plant - seed-feeding bird
 1075,node_to,Carduelis_carduelis
 1075,layer_to,plant - seed-feeding bird
 1075,weight,0.01937
 1075,type,trophic
-1076,node_from,Polygonum_sp.
+1076,node_from,Polygonum_sp_
 1076,layer_from,plant - seed-feeding bird
 1076,node_to,Carduelis_chloris
 1076,layer_to,plant - seed-feeding bird
 1076,weight,0.01207
 1076,type,trophic
-1077,node_from,Polygonum_sp.
+1077,node_from,Polygonum_sp_
 1077,layer_from,plant - seed-feeding bird
 1077,node_to,Columba_palumbus
 1077,layer_to,plant - seed-feeding bird
 1077,weight,0.001206
 1077,type,trophic
-1078,node_from,Polygonum_sp.
+1078,node_from,Polygonum_sp_
 1078,layer_from,plant - seed-feeding bird
 1078,node_to,Corvus_frugilegus
 1078,layer_to,plant - seed-feeding bird
 1078,weight,0.6874
 1078,type,trophic
-1079,node_from,Polygonum_sp.
+1079,node_from,Polygonum_sp_
 1079,layer_from,plant - seed-feeding bird
 1079,node_to,Corvus_monedula
 1079,layer_to,plant - seed-feeding bird
 1079,weight,3.084
 1079,type,trophic
-1080,node_from,Polygonum_sp.
+1080,node_from,Polygonum_sp_
 1080,layer_from,plant - seed-feeding bird
 1080,node_to,Emberiza_citrinella
 1080,layer_to,plant - seed-feeding bird
 1080,weight,0.002784
 1080,type,trophic
-1081,node_from,Polygonum_sp.
+1081,node_from,Polygonum_sp_
 1081,layer_from,plant - seed-feeding bird
 1081,node_to,Fringilla_coelebs
 1081,layer_to,plant - seed-feeding bird
 1081,weight,0.07115
 1081,type,trophic
-1082,node_from,Polygonum_sp.
+1082,node_from,Polygonum_sp_
 1082,layer_from,plant - seed-feeding bird
 1082,node_to,Passer_domesticus
 1082,layer_to,plant - seed-feeding bird
 1082,weight,0.2219
 1082,type,trophic
-1083,node_from,Polygonum_sp.
+1083,node_from,Polygonum_sp_
 1083,layer_from,plant - seed-feeding bird
 1083,node_to,Streptopelia_decaocto
 1083,layer_to,plant - seed-feeding bird
@@ -6737,31 +6737,31 @@ interaction_id,attribute,value
 1123,layer_to,plant - seed-feeding bird
 1123,weight,0.00519
 1123,type,trophic
-1124,node_from,Rosa_sp.
+1124,node_from,Rosa_sp_
 1124,layer_from,plant - seed-feeding bird
 1124,node_to,Alectoris_rufa
 1124,layer_to,plant - seed-feeding bird
 1124,weight,0.1881
 1124,type,trophic
-1125,node_from,Rosa_sp.
+1125,node_from,Rosa_sp_
 1125,layer_from,plant - seed-feeding bird
 1125,node_to,Carduelis_cannabina
 1125,layer_to,plant - seed-feeding bird
 1125,weight,0.000612
 1125,type,trophic
-1126,node_from,Rosa_sp.
+1126,node_from,Rosa_sp_
 1126,layer_from,plant - seed-feeding bird
 1126,node_to,Carduelis_carduelis
 1126,layer_to,plant - seed-feeding bird
 1126,weight,0.0788
 1126,type,trophic
-1127,node_from,Rosa_sp.
+1127,node_from,Rosa_sp_
 1127,layer_from,plant - seed-feeding bird
 1127,node_to,Carduelis_chloris
 1127,layer_to,plant - seed-feeding bird
 1127,weight,0.02901
 1127,type,trophic
-1128,node_from,Rosa_sp.
+1128,node_from,Rosa_sp_
 1128,layer_from,plant - seed-feeding bird
 1128,node_to,Fringilla_coelebs
 1128,layer_to,plant - seed-feeding bird
@@ -6821,73 +6821,73 @@ interaction_id,attribute,value
 1137,layer_to,plant - seed-feeding bird
 1137,weight,0.03025
 1137,type,trophic
-1138,node_from,Rumex_sp.
+1138,node_from,Rumex_sp_
 1138,layer_from,plant - seed-feeding bird
 1138,node_to,Alauda_arvensis
 1138,layer_to,plant - seed-feeding bird
 1138,weight,0.6075
 1138,type,trophic
-1139,node_from,Rumex_sp.
+1139,node_from,Rumex_sp_
 1139,layer_from,plant - seed-feeding bird
 1139,node_to,Alectoris_rufa
 1139,layer_to,plant - seed-feeding bird
 1139,weight,0.8611
 1139,type,trophic
-1140,node_from,Rumex_sp.
+1140,node_from,Rumex_sp_
 1140,layer_from,plant - seed-feeding bird
 1140,node_to,Carduelis_cannabina
 1140,layer_to,plant - seed-feeding bird
 1140,weight,0.0762
 1140,type,trophic
-1141,node_from,Rumex_sp.
+1141,node_from,Rumex_sp_
 1141,layer_from,plant - seed-feeding bird
 1141,node_to,Carduelis_carduelis
 1141,layer_to,plant - seed-feeding bird
 1141,weight,0.7653
 1141,type,trophic
-1142,node_from,Rumex_sp.
+1142,node_from,Rumex_sp_
 1142,layer_from,plant - seed-feeding bird
 1142,node_to,Carduelis_chloris
 1142,layer_to,plant - seed-feeding bird
 1142,weight,0.2712
 1142,type,trophic
-1143,node_from,Rumex_sp.
+1143,node_from,Rumex_sp_
 1143,layer_from,plant - seed-feeding bird
 1143,node_to,Columba_palumbus
 1143,layer_to,plant - seed-feeding bird
 1143,weight,0.02808
 1143,type,trophic
-1144,node_from,Rumex_sp.
+1144,node_from,Rumex_sp_
 1144,layer_from,plant - seed-feeding bird
 1144,node_to,Corvus_frugilegus
 1144,layer_to,plant - seed-feeding bird
 1144,weight,15.24
 1144,type,trophic
-1145,node_from,Rumex_sp.
+1145,node_from,Rumex_sp_
 1145,layer_from,plant - seed-feeding bird
 1145,node_to,Corvus_monedula
 1145,layer_to,plant - seed-feeding bird
 1145,weight,13.19
 1145,type,trophic
-1146,node_from,Rumex_sp.
+1146,node_from,Rumex_sp_
 1146,layer_from,plant - seed-feeding bird
 1146,node_to,Emberiza_citrinella
 1146,layer_to,plant - seed-feeding bird
 1146,weight,0.0775
 1146,type,trophic
-1147,node_from,Rumex_sp.
+1147,node_from,Rumex_sp_
 1147,layer_from,plant - seed-feeding bird
 1147,node_to,Fringilla_coelebs
 1147,layer_to,plant - seed-feeding bird
 1147,weight,0.4448
 1147,type,trophic
-1148,node_from,Rumex_sp.
+1148,node_from,Rumex_sp_
 1148,layer_from,plant - seed-feeding bird
 1148,node_to,Passer_domesticus
 1148,layer_to,plant - seed-feeding bird
 1148,weight,9.942
 1148,type,trophic
-1149,node_from,Rumex_sp.
+1149,node_from,Rumex_sp_
 1149,layer_from,plant - seed-feeding bird
 1149,node_to,Streptopelia_decaocto
 1149,layer_to,plant - seed-feeding bird
@@ -7085,43 +7085,43 @@ interaction_id,attribute,value
 1181,layer_to,plant - seed-feeding bird
 1181,weight,0.0075
 1181,type,trophic
-1182,node_from,Sonchus_asper/oleraceus
+1182,node_from,Sonchus_asper_oleraceus
 1182,layer_from,plant - seed-feeding bird
 1182,node_to,Alectoris_rufa
 1182,layer_to,plant - seed-feeding bird
 1182,weight,1.678
 1182,type,trophic
-1183,node_from,Sonchus_asper/oleraceus
+1183,node_from,Sonchus_asper_oleraceus
 1183,layer_from,plant - seed-feeding bird
 1183,node_to,Carduelis_cannabina
 1183,layer_to,plant - seed-feeding bird
 1183,weight,0.081
 1183,type,trophic
-1184,node_from,Sonchus_asper/oleraceus
+1184,node_from,Sonchus_asper_oleraceus
 1184,layer_from,plant - seed-feeding bird
 1184,node_to,Carduelis_carduelis
 1184,layer_to,plant - seed-feeding bird
 1184,weight,20.33
 1184,type,trophic
-1185,node_from,Sonchus_asper/oleraceus
+1185,node_from,Sonchus_asper_oleraceus
 1185,layer_from,plant - seed-feeding bird
 1185,node_to,Carduelis_chloris
 1185,layer_to,plant - seed-feeding bird
 1185,weight,1.846
 1185,type,trophic
-1186,node_from,Sonchus_asper/oleraceus
+1186,node_from,Sonchus_asper_oleraceus
 1186,layer_from,plant - seed-feeding bird
 1186,node_to,Emberiza_citrinella
 1186,layer_to,plant - seed-feeding bird
 1186,weight,0.0856
 1186,type,trophic
-1187,node_from,Sonchus_asper/oleraceus
+1187,node_from,Sonchus_asper_oleraceus
 1187,layer_from,plant - seed-feeding bird
 1187,node_to,Fringilla_coelebs
 1187,layer_to,plant - seed-feeding bird
 1187,weight,0.1392
 1187,type,trophic
-1188,node_from,Sonchus_asper/oleraceus
+1188,node_from,Sonchus_asper_oleraceus
 1188,layer_from,plant - seed-feeding bird
 1188,node_to,Passer_domesticus
 1188,layer_to,plant - seed-feeding bird
@@ -7331,55 +7331,55 @@ interaction_id,attribute,value
 1222,layer_to,plant - seed-feeding bird
 1222,weight,0.00235
 1222,type,trophic
-1223,node_from,Trifolium_pratense/repens
+1223,node_from,Trifolium_pratense_repens
 1223,layer_from,plant - seed-feeding bird
 1223,node_to,Alectoris_rufa
 1223,layer_to,plant - seed-feeding bird
 1223,weight,1.707
 1223,type,trophic
-1224,node_from,Trifolium_pratense/repens
+1224,node_from,Trifolium_pratense_repens
 1224,layer_from,plant - seed-feeding bird
 1224,node_to,Carduelis_cannabina
 1224,layer_to,plant - seed-feeding bird
 1224,weight,0.02701
 1224,type,trophic
-1225,node_from,Trifolium_pratense/repens
+1225,node_from,Trifolium_pratense_repens
 1225,layer_from,plant - seed-feeding bird
 1225,node_to,Carduelis_carduelis
 1225,layer_to,plant - seed-feeding bird
 1225,weight,0.6507
 1225,type,trophic
-1226,node_from,Trifolium_pratense/repens
+1226,node_from,Trifolium_pratense_repens
 1226,layer_from,plant - seed-feeding bird
 1226,node_to,Carduelis_chloris
 1226,layer_to,plant - seed-feeding bird
 1226,weight,0.05791
 1226,type,trophic
-1227,node_from,Trifolium_pratense/repens
+1227,node_from,Trifolium_pratense_repens
 1227,layer_from,plant - seed-feeding bird
 1227,node_to,Columba_palumbus
 1227,layer_to,plant - seed-feeding bird
 1227,weight,4.524
 1227,type,trophic
-1228,node_from,Trifolium_pratense/repens
+1228,node_from,Trifolium_pratense_repens
 1228,layer_from,plant - seed-feeding bird
 1228,node_to,Corvus_monedula
 1228,layer_to,plant - seed-feeding bird
 1228,weight,0.1146
 1228,type,trophic
-1229,node_from,Trifolium_pratense/repens
+1229,node_from,Trifolium_pratense_repens
 1229,layer_from,plant - seed-feeding bird
 1229,node_to,Emberiza_citrinella
 1229,layer_to,plant - seed-feeding bird
 1229,weight,0.06378
 1229,type,trophic
-1230,node_from,Trifolium_pratense/repens
+1230,node_from,Trifolium_pratense_repens
 1230,layer_from,plant - seed-feeding bird
 1230,node_to,Fringilla_coelebs
 1230,layer_to,plant - seed-feeding bird
 1230,weight,0.1015
 1230,type,trophic
-1231,node_from,Trifolium_pratense/repens
+1231,node_from,Trifolium_pratense_repens
 1231,layer_from,plant - seed-feeding bird
 1231,node_to,Streptopelia_decaocto
 1231,layer_to,plant - seed-feeding bird
@@ -7679,43 +7679,43 @@ interaction_id,attribute,value
 1280,layer_to,plant - seed-feeding rodent
 1280,weight,13.06
 1280,type,trophic
-1281,node_from,"Acer_pseudoplatanus,"
+1281,node_from,Acer_pseudoplatanus_
 1281,layer_from,plant - seed-feeding rodent
 1281,node_to,Apodemus_flavicollis
 1281,layer_to,plant - seed-feeding rodent
 1281,weight,0.3603
 1281,type,trophic
-1282,node_from,"Acer_pseudoplatanus,"
+1282,node_from,Acer_pseudoplatanus_
 1282,layer_from,plant - seed-feeding rodent
 1282,node_to,Apodemus_sylvaticus
 1282,layer_to,plant - seed-feeding rodent
 1282,weight,3.764
 1282,type,trophic
-1283,node_from,"Acer_pseudoplatanus,"
+1283,node_from,Acer_pseudoplatanus_
 1283,layer_from,plant - seed-feeding rodent
 1283,node_to,Micromys_minutus
 1283,layer_to,plant - seed-feeding rodent
 1283,weight,0.0216
 1283,type,trophic
-1284,node_from,"Acer_pseudoplatanus,"
+1284,node_from,Acer_pseudoplatanus_
 1284,layer_from,plant - seed-feeding rodent
 1284,node_to,Myodes_glareolus
 1284,layer_to,plant - seed-feeding rodent
 1284,weight,6.789
 1284,type,trophic
-1285,node_from,Chenopodium_sp.
+1285,node_from,Chenopodium_sp_
 1285,layer_from,plant - seed-feeding rodent
 1285,node_to,Apodemus_sylvaticus
 1285,layer_to,plant - seed-feeding rodent
 1285,weight,61.86
 1285,type,trophic
-1286,node_from,Chenopodium_sp.
+1286,node_from,Chenopodium_sp_
 1286,layer_from,plant - seed-feeding rodent
 1286,node_to,Micromys_minutus
 1286,layer_to,plant - seed-feeding rodent
 1286,weight,0.006773
 1286,type,trophic
-1287,node_from,Chenopodium_sp.
+1287,node_from,Chenopodium_sp_
 1287,layer_from,plant - seed-feeding rodent
 1287,node_to,Myodes_glareolus
 1287,layer_to,plant - seed-feeding rodent
@@ -7823,13 +7823,13 @@ interaction_id,attribute,value
 1304,layer_to,plant - seed-feeding rodent
 1304,weight,0.0181
 1304,type,trophic
-1305,node_from,Hyacinthoides_non-scripta
+1305,node_from,Hyacinthoides_non_scripta
 1305,layer_from,plant - seed-feeding rodent
 1305,node_to,Apodemus_sylvaticus
 1305,layer_to,plant - seed-feeding rodent
 1305,weight,0.2147
 1305,type,trophic
-1306,node_from,Hyacinthoides_non-scripta
+1306,node_from,Hyacinthoides_non_scripta
 1306,layer_from,plant - seed-feeding rodent
 1306,node_to,Myodes_glareolus
 1306,layer_to,plant - seed-feeding rodent
@@ -7859,7 +7859,7 @@ interaction_id,attribute,value
 1310,layer_to,plant - seed-feeding rodent
 1310,weight,0.0169
 1310,type,trophic
-1311,node_from,Persicaria_sp.
+1311,node_from,Persicaria_sp_
 1311,layer_from,plant - seed-feeding rodent
 1311,node_to,Apodemus_sylvaticus
 1311,layer_to,plant - seed-feeding rodent
@@ -7889,7 +7889,7 @@ interaction_id,attribute,value
 1315,layer_to,plant - seed-feeding rodent
 1315,weight,359.8
 1315,type,trophic
-1316,node_from,Polygonum_sp.
+1316,node_from,Polygonum_sp_
 1316,layer_from,plant - seed-feeding rodent
 1316,node_to,Apodemus_sylvaticus
 1316,layer_to,plant - seed-feeding rodent
@@ -7931,25 +7931,25 @@ interaction_id,attribute,value
 1322,layer_to,plant - seed-feeding rodent
 1322,weight,69.42
 1322,type,trophic
-1323,node_from,Rosa_sp.
+1323,node_from,Rosa_sp_
 1323,layer_from,plant - seed-feeding rodent
 1323,node_to,Apodemus_flavicollis
 1323,layer_to,plant - seed-feeding rodent
 1323,weight,0.3408
 1323,type,trophic
-1324,node_from,Rosa_sp.
+1324,node_from,Rosa_sp_
 1324,layer_from,plant - seed-feeding rodent
 1324,node_to,Apodemus_sylvaticus
 1324,layer_to,plant - seed-feeding rodent
 1324,weight,1.156
 1324,type,trophic
-1325,node_from,Rosa_sp.
+1325,node_from,Rosa_sp_
 1325,layer_from,plant - seed-feeding rodent
 1325,node_to,Micromys_minutus
 1325,layer_to,plant - seed-feeding rodent
 1325,weight,0.1071
 1325,type,trophic
-1326,node_from,Rosa_sp.
+1326,node_from,Rosa_sp_
 1326,layer_from,plant - seed-feeding rodent
 1326,node_to,Myodes_glareolus
 1326,layer_to,plant - seed-feeding rodent
@@ -7979,25 +7979,25 @@ interaction_id,attribute,value
 1330,layer_to,plant - seed-feeding rodent
 1330,weight,9.656
 1330,type,trophic
-1331,node_from,Rumex_sp.
+1331,node_from,Rumex_sp_
 1331,layer_from,plant - seed-feeding rodent
 1331,node_to,Apodemus_flavicollis
 1331,layer_to,plant - seed-feeding rodent
 1331,weight,1.742
 1331,type,trophic
-1332,node_from,Rumex_sp.
+1332,node_from,Rumex_sp_
 1332,layer_from,plant - seed-feeding rodent
 1332,node_to,Apodemus_sylvaticus
 1332,layer_to,plant - seed-feeding rodent
 1332,weight,39.01
 1332,type,trophic
-1333,node_from,Rumex_sp.
+1333,node_from,Rumex_sp_
 1333,layer_from,plant - seed-feeding rodent
 1333,node_to,Micromys_minutus
 1333,layer_to,plant - seed-feeding rodent
 1333,weight,0.4219
 1333,type,trophic
-1334,node_from,Rumex_sp.
+1334,node_from,Rumex_sp_
 1334,layer_from,plant - seed-feeding rodent
 1334,node_to,Myodes_glareolus
 1334,layer_to,plant - seed-feeding rodent
@@ -8087,7 +8087,7 @@ interaction_id,attribute,value
 1348,layer_to,plant - seed-feeding rodent
 1348,weight,3.28e-06
 1348,type,trophic
-1349,node_from,Trifolium_pratense/repens
+1349,node_from,Trifolium_pratense_repens
 1349,layer_from,plant - seed-feeding rodent
 1349,node_to,Apodemus_sylvaticus
 1349,layer_to,plant - seed-feeding rodent
@@ -8191,7 +8191,7 @@ interaction_id,attribute,value
 1365,type,pollination
 1366,node_from,Cirsium_arvense
 1366,layer_from,plant - butterfly
-1366,node_to,Polygonia_c-album
+1366,node_to,Polygonia_c_album
 1366,layer_to,plant - butterfly
 1366,weight,0.2153
 1366,type,pollination
@@ -8263,7 +8263,7 @@ interaction_id,attribute,value
 1377,type,pollination
 1378,node_from,Cirsium_vulgare
 1378,layer_from,plant - butterfly
-1378,node_to,Polygonia_c-album
+1378,node_to,Polygonia_c_album
 1378,layer_to,plant - butterfly
 1378,weight,0.00414
 1378,type,pollination
@@ -8279,13 +8279,13 @@ interaction_id,attribute,value
 1380,layer_to,plant - butterfly
 1380,weight,0.7807
 1380,type,pollination
-1381,node_from,Conolvulus/Calystegia
+1381,node_from,Conolvulus_Calystegia
 1381,layer_from,plant - butterfly
 1381,node_to,Pieris_rapae
 1381,layer_to,plant - butterfly
 1381,weight,0.9988
 1381,type,pollination
-1382,node_from,Epilobium_sp.
+1382,node_from,Epilobium_sp_
 1382,layer_from,plant - butterfly
 1382,node_to,Pieris_brassicae
 1382,layer_to,plant - butterfly
@@ -8303,25 +8303,25 @@ interaction_id,attribute,value
 1384,layer_to,plant - butterfly
 1384,weight,0.2657
 1384,type,pollination
-1385,node_from,Hyacinthoides_non-scripta
+1385,node_from,Hyacinthoides_non_scripta
 1385,layer_from,plant - butterfly
 1385,node_to,Inachis_io
 1385,layer_to,plant - butterfly
 1385,weight,8.551
 1385,type,pollination
-1386,node_from,Hyacinthoides_non-scripta
+1386,node_from,Hyacinthoides_non_scripta
 1386,layer_from,plant - butterfly
 1386,node_to,Pieris_rapae
 1386,layer_to,plant - butterfly
 1386,weight,8.473
 1386,type,pollination
-1387,node_from,Hypochaeris/_Crepis_sp.
+1387,node_from,Hypochaeris__Crepis_sp_
 1387,layer_from,plant - butterfly
 1387,node_to,Aglais_urticae
 1387,layer_to,plant - butterfly
 1387,weight,10.83
 1387,type,pollination
-1388,node_from,Hypochaeris/_Crepis_sp.
+1388,node_from,Hypochaeris__Crepis_sp_
 1388,layer_from,plant - butterfly
 1388,node_to,Inachis_io
 1388,layer_to,plant - butterfly
@@ -8357,25 +8357,25 @@ interaction_id,attribute,value
 1393,layer_to,plant - butterfly
 1393,weight,56.81
 1393,type,pollination
-1394,node_from,Medicago_sativa_ssp._sativa
+1394,node_from,Medicago_sativa_ssp__sativa
 1394,layer_from,plant - butterfly
 1394,node_to,Pieris_brassicae
 1394,layer_to,plant - butterfly
 1394,weight,115.1
 1394,type,pollination
-1395,node_from,Medicago_sativa_ssp._sativa
+1395,node_from,Medicago_sativa_ssp__sativa
 1395,layer_from,plant - butterfly
 1395,node_to,Pieris_napi
 1395,layer_to,plant - butterfly
 1395,weight,31.93
 1395,type,pollination
-1396,node_from,Medicago_sativa_ssp._sativa
+1396,node_from,Medicago_sativa_ssp__sativa
 1396,layer_from,plant - butterfly
 1396,node_to,Polyommatus_icarus
 1396,layer_to,plant - butterfly
 1396,weight,2.767
 1396,type,pollination
-1397,node_from,Medicago_sativa_ssp._sativa
+1397,node_from,Medicago_sativa_ssp__sativa
 1397,layer_from,plant - butterfly
 1397,node_to,Thymelicus_sylvestris
 1397,layer_to,plant - butterfly
@@ -8455,7 +8455,7 @@ interaction_id,attribute,value
 1409,type,pollination
 1410,node_from,Rubus_fruticosus
 1410,layer_from,plant - butterfly
-1410,node_to,Polygonia_c-album
+1410,node_to,Polygonia_c_album
 1410,layer_to,plant - butterfly
 1410,weight,9.896
 1410,type,pollination
@@ -8525,43 +8525,43 @@ interaction_id,attribute,value
 1421,layer_to,plant - butterfly
 1421,weight,39.43
 1421,type,pollination
-1422,node_from,Trifolium_pratense/repens
+1422,node_from,Trifolium_pratense_repens
 1422,layer_from,plant - butterfly
 1422,node_to,Lycaena_phlaeas
 1422,layer_to,plant - butterfly
 1422,weight,41.18
 1422,type,pollination
-1423,node_from,Trifolium_pratense/repens
+1423,node_from,Trifolium_pratense_repens
 1423,layer_from,plant - butterfly
 1423,node_to,Ochlodes_sylvanus
 1423,layer_to,plant - butterfly
 1423,weight,60.77
 1423,type,pollination
-1424,node_from,Trifolium_pratense/repens
+1424,node_from,Trifolium_pratense_repens
 1424,layer_from,plant - butterfly
 1424,node_to,Pieris_rapae
 1424,layer_to,plant - butterfly
 1424,weight,139
 1424,type,pollination
-1425,node_from,Trifolium_pratense/repens
+1425,node_from,Trifolium_pratense_repens
 1425,layer_from,plant - butterfly
 1425,node_to,Polyommatus_icarus
 1425,layer_to,plant - butterfly
 1425,weight,58.97
 1425,type,pollination
-1426,node_from,Trifolium_pratense/repens
+1426,node_from,Trifolium_pratense_repens
 1426,layer_from,plant - butterfly
 1426,node_to,Pyronia_tithonus
 1426,layer_to,plant - butterfly
 1426,weight,342.7
 1426,type,pollination
-1427,node_from,Trifolium_pratense/repens
+1427,node_from,Trifolium_pratense_repens
 1427,layer_from,plant - butterfly
 1427,node_to,Thymelicus_sylvestris
 1427,layer_to,plant - butterfly
 1427,weight,24.74
 1427,type,pollination
-1428,node_from,Trifolium_pratense/repens
+1428,node_from,Trifolium_pratense_repens
 1428,layer_from,plant - butterfly
 1428,node_to,Vanessa_cardui
 1428,layer_to,plant - butterfly
@@ -8639,37 +8639,37 @@ interaction_id,attribute,value
 1440,layer_to,plant - seed-feeder parasitoid
 1440,weight,1105
 1440,type,host-parasite
-1441,node_from,Trifolium_pratense/repens
+1441,node_from,Trifolium_pratense_repens
 1441,layer_from,plant - seed-feeder parasitoid
 1441,node_to,Aprostocetus_sp
 1441,layer_to,plant - seed-feeder parasitoid
 1441,weight,1105
 1441,type,host-parasite
-1442,node_from,Trifolium_pratense/repens
+1442,node_from,Trifolium_pratense_repens
 1442,layer_from,plant - seed-feeder parasitoid
 1442,node_to,Mesopolobus_incultus
 1442,layer_to,plant - seed-feeder parasitoid
 1442,weight,399500
 1442,type,host-parasite
-1443,node_from,Trifolium_pratense/repens
+1443,node_from,Trifolium_pratense_repens
 1443,layer_from,plant - seed-feeder parasitoid
 1443,node_to,Spintherus_dubius
 1443,layer_to,plant - seed-feeder parasitoid
 1443,weight,41400
 1443,type,host-parasite
-1444,node_from,Trifolium_pratense/repens
+1444,node_from,Trifolium_pratense_repens
 1444,layer_from,plant - seed-feeder parasitoid
 1444,node_to,Triaspis_floricola
 1444,layer_to,plant - seed-feeder parasitoid
 1444,weight,2209
 1444,type,host-parasite
-1445,node_from,Trifolium_pratense/repens
+1445,node_from,Trifolium_pratense_repens
 1445,layer_from,plant - seed-feeder parasitoid
 1445,node_to,Trichomalus_campestris
 1445,layer_to,plant - seed-feeder parasitoid
 1445,weight,92460
 1445,type,host-parasite
-1446,node_from,Trifolium_pratense/repens
+1446,node_from,Trifolium_pratense_repens
 1446,layer_from,plant - seed-feeder parasitoid
 1446,node_to,Trichomalus_rufinus
 1446,layer_to,plant - seed-feeder parasitoid
@@ -8677,7 +8677,7 @@ interaction_id,attribute,value
 1446,type,host-parasite
 1447,node_from,Vicia_sativa
 1447,layer_from,plant - seed-feeder parasitoid
-1447,node_to,Pteromalus_sequester-group
+1447,node_to,Pteromalus_sequester_group
 1447,layer_to,plant - seed-feeder parasitoid
 1447,weight,1657
 1447,type,host-parasite
@@ -8723,73 +8723,73 @@ interaction_id,attribute,value
 1454,layer_to,plant - rodent ectoparasite
 1454,weight,0.4664
 1454,type,host-parasite
-1455,node_from,"Acer_pseudoplatanus,"
+1455,node_from,Acer_pseudoplatanus_
 1455,layer_from,plant - rodent ectoparasite
 1455,node_to,Amalaraeus_penicilliger_mustelae
 1455,layer_to,plant - rodent ectoparasite
 1455,weight,3.768
 1455,type,host-parasite
-1456,node_from,"Acer_pseudoplatanus,"
+1456,node_from,Acer_pseudoplatanus_
 1456,layer_from,plant - rodent ectoparasite
 1456,node_to,Ctenophthalmus_nobilis_vulgaris
 1456,layer_to,plant - rodent ectoparasite
 1456,weight,2.38
 1456,type,host-parasite
-1457,node_from,"Acer_pseudoplatanus,"
+1457,node_from,Acer_pseudoplatanus_
 1457,layer_from,plant - rodent ectoparasite
 1457,node_to,Hystrichopsylla_talpae_talpae
 1457,layer_to,plant - rodent ectoparasite
 1457,weight,0.2752
 1457,type,host-parasite
-1458,node_from,"Acer_pseudoplatanus,"
+1458,node_from,Acer_pseudoplatanus_
 1458,layer_from,plant - rodent ectoparasite
 1458,node_to,Ixodes_trianguliceps
 1458,layer_to,plant - rodent ectoparasite
 1458,weight,0.2458
 1458,type,host-parasite
-1459,node_from,"Acer_pseudoplatanus,"
+1459,node_from,Acer_pseudoplatanus_
 1459,layer_from,plant - rodent ectoparasite
 1459,node_to,Megabothris_turbidus
 1459,layer_to,plant - rodent ectoparasite
 1459,weight,0.3656
 1459,type,host-parasite
-1460,node_from,"Acer_pseudoplatanus,"
+1460,node_from,Acer_pseudoplatanus_
 1460,layer_from,plant - rodent ectoparasite
 1460,node_to,Palaeopsylla_soricis_soricis
 1460,layer_to,plant - rodent ectoparasite
 1460,weight,0.2458
 1460,type,host-parasite
-1461,node_from,Chenopodium_sp.
+1461,node_from,Chenopodium_sp_
 1461,layer_from,plant - rodent ectoparasite
 1461,node_to,Amalaraeus_penicilliger_mustelae
 1461,layer_to,plant - rodent ectoparasite
 1461,weight,0.00123
 1461,type,host-parasite
-1462,node_from,Chenopodium_sp.
+1462,node_from,Chenopodium_sp_
 1462,layer_from,plant - rodent ectoparasite
 1462,node_to,Ctenophthalmus_nobilis_vulgaris
 1462,layer_to,plant - rodent ectoparasite
 1462,weight,0.001802
 1462,type,host-parasite
-1463,node_from,Chenopodium_sp.
+1463,node_from,Chenopodium_sp_
 1463,layer_from,plant - rodent ectoparasite
 1463,node_to,Hystrichopsylla_talpae_talpae
 1463,layer_to,plant - rodent ectoparasite
 1463,weight,0.0003433
 1463,type,host-parasite
-1464,node_from,Chenopodium_sp.
+1464,node_from,Chenopodium_sp_
 1464,layer_from,plant - rodent ectoparasite
 1464,node_to,Ixodes_trianguliceps
 1464,layer_to,plant - rodent ectoparasite
 1464,weight,0.001828
 1464,type,host-parasite
-1465,node_from,Chenopodium_sp.
+1465,node_from,Chenopodium_sp_
 1465,layer_from,plant - rodent ectoparasite
 1465,node_to,Megabothris_turbidus
 1465,layer_to,plant - rodent ectoparasite
 1465,weight,0.006833
 1465,type,host-parasite
-1466,node_from,Chenopodium_sp.
+1466,node_from,Chenopodium_sp_
 1466,layer_from,plant - rodent ectoparasite
 1466,node_to,Palaeopsylla_minor
 1466,layer_to,plant - rodent ectoparasite
@@ -9011,19 +9011,19 @@ interaction_id,attribute,value
 1502,layer_to,plant - rodent ectoparasite
 1502,weight,0.00248
 1502,type,host-parasite
-1503,node_from,Hyacinthoides_non-scripta
+1503,node_from,Hyacinthoides_non_scripta
 1503,layer_from,plant - rodent ectoparasite
 1503,node_to,Amalaraeus_penicilliger_mustelae
 1503,layer_to,plant - rodent ectoparasite
 1503,weight,0.0443
 1503,type,host-parasite
-1504,node_from,Hyacinthoides_non-scripta
+1504,node_from,Hyacinthoides_non_scripta
 1504,layer_from,plant - rodent ectoparasite
 1504,node_to,Ctenophthalmus_nobilis_vulgaris
 1504,layer_to,plant - rodent ectoparasite
 1504,weight,0.0664
 1504,type,host-parasite
-1505,node_from,Hyacinthoides_non-scripta
+1505,node_from,Hyacinthoides_non_scripta
 1505,layer_from,plant - rodent ectoparasite
 1505,node_to,Megabothris_turbidus
 1505,layer_to,plant - rodent ectoparasite
@@ -9095,37 +9095,37 @@ interaction_id,attribute,value
 1516,layer_to,plant - rodent ectoparasite
 1516,weight,0.00231
 1516,type,host-parasite
-1517,node_from,Persicaria_sp.
+1517,node_from,Persicaria_sp_
 1517,layer_from,plant - rodent ectoparasite
 1517,node_to,Ctenophthalmus_nobilis_vulgaris
 1517,layer_to,plant - rodent ectoparasite
 1517,weight,0.004198
 1517,type,host-parasite
-1518,node_from,Persicaria_sp.
+1518,node_from,Persicaria_sp_
 1518,layer_from,plant - rodent ectoparasite
 1518,node_to,Hystrichopsylla_talpae_talpae
 1518,layer_to,plant - rodent ectoparasite
 1518,weight,0.008697
 1518,type,host-parasite
-1519,node_from,Persicaria_sp.
+1519,node_from,Persicaria_sp_
 1519,layer_from,plant - rodent ectoparasite
 1519,node_to,Ixodes_trianguliceps
 1519,layer_to,plant - rodent ectoparasite
 1519,weight,0.00215
 1519,type,host-parasite
-1520,node_from,Persicaria_sp.
+1520,node_from,Persicaria_sp_
 1520,layer_from,plant - rodent ectoparasite
 1520,node_to,Megabothris_turbidus
 1520,layer_to,plant - rodent ectoparasite
 1520,weight,0.00124
 1520,type,host-parasite
-1521,node_from,Persicaria_sp.
+1521,node_from,Persicaria_sp_
 1521,layer_from,plant - rodent ectoparasite
 1521,node_to,Nosopsyllus_fasciatus
 1521,layer_to,plant - rodent ectoparasite
 1521,weight,0.00124
 1521,type,host-parasite
-1522,node_from,Persicaria_sp.
+1522,node_from,Persicaria_sp_
 1522,layer_from,plant - rodent ectoparasite
 1522,node_to,Palaeopsylla_minor
 1522,layer_to,plant - rodent ectoparasite
@@ -9179,31 +9179,31 @@ interaction_id,attribute,value
 1530,layer_to,plant - rodent ectoparasite
 1530,weight,3.039
 1530,type,host-parasite
-1531,node_from,Polygonum_sp.
+1531,node_from,Polygonum_sp_
 1531,layer_from,plant - rodent ectoparasite
 1531,node_to,Amalaraeus_penicilliger_mustelae
 1531,layer_to,plant - rodent ectoparasite
 1531,weight,0.0014
 1531,type,host-parasite
-1532,node_from,Polygonum_sp.
+1532,node_from,Polygonum_sp_
 1532,layer_from,plant - rodent ectoparasite
 1532,node_to,Ctenophthalmus_nobilis_vulgaris
 1532,layer_to,plant - rodent ectoparasite
 1532,weight,0.000565
 1532,type,host-parasite
-1533,node_from,Polygonum_sp.
+1533,node_from,Polygonum_sp_
 1533,layer_from,plant - rodent ectoparasite
 1533,node_to,Hystrichopsylla_talpae_talpae
 1533,layer_to,plant - rodent ectoparasite
 1533,weight,0.0002973
 1533,type,host-parasite
-1534,node_from,Polygonum_sp.
+1534,node_from,Polygonum_sp_
 1534,layer_from,plant - rodent ectoparasite
 1534,node_to,Ixodes_trianguliceps
 1534,layer_to,plant - rodent ectoparasite
 1534,weight,0.000349
 1534,type,host-parasite
-1535,node_from,Polygonum_sp.
+1535,node_from,Polygonum_sp_
 1535,layer_from,plant - rodent ectoparasite
 1535,node_to,Palaeopsylla_minor
 1535,layer_to,plant - rodent ectoparasite
@@ -9287,25 +9287,25 @@ interaction_id,attribute,value
 1548,layer_to,plant - rodent ectoparasite
 1548,weight,0.5183
 1548,type,host-parasite
-1549,node_from,Rosa_sp.
+1549,node_from,Rosa_sp_
 1549,layer_from,plant - rodent ectoparasite
 1549,node_to,Amalaraeus_penicilliger_mustelae
 1549,layer_to,plant - rodent ectoparasite
 1549,weight,0.8039
 1549,type,host-parasite
-1550,node_from,Rosa_sp.
+1550,node_from,Rosa_sp_
 1550,layer_from,plant - rodent ectoparasite
 1550,node_to,Ctenophthalmus_nobilis_vulgaris
 1550,layer_to,plant - rodent ectoparasite
 1550,weight,0.3532
 1550,type,host-parasite
-1551,node_from,Rosa_sp.
+1551,node_from,Rosa_sp_
 1551,layer_from,plant - rodent ectoparasite
 1551,node_to,Hystrichopsylla_talpae_talpae
 1551,layer_to,plant - rodent ectoparasite
 1551,weight,0.146
 1551,type,host-parasite
-1552,node_from,Rosa_sp.
+1552,node_from,Rosa_sp_
 1552,layer_from,plant - rodent ectoparasite
 1552,node_to,Megabothris_turbidus
 1552,layer_to,plant - rodent ectoparasite
@@ -9353,49 +9353,49 @@ interaction_id,attribute,value
 1559,layer_to,plant - rodent ectoparasite
 1559,weight,0.0642
 1559,type,host-parasite
-1560,node_from,Rumex_sp.
+1560,node_from,Rumex_sp_
 1560,layer_from,plant - rodent ectoparasite
 1560,node_to,Amalaraeus_penicilliger_mustelae
 1560,layer_to,plant - rodent ectoparasite
 1560,weight,12.99
 1560,type,host-parasite
-1561,node_from,Rumex_sp.
+1561,node_from,Rumex_sp_
 1561,layer_from,plant - rodent ectoparasite
 1561,node_to,Ctenophthalmus_nobilis_vulgaris
 1561,layer_to,plant - rodent ectoparasite
 1561,weight,8.003
 1561,type,host-parasite
-1562,node_from,Rumex_sp.
+1562,node_from,Rumex_sp_
 1562,layer_from,plant - rodent ectoparasite
 1562,node_to,Hystrichopsylla_talpae_talpae
 1562,layer_to,plant - rodent ectoparasite
 1562,weight,1.421
 1562,type,host-parasite
-1563,node_from,Rumex_sp.
+1563,node_from,Rumex_sp_
 1563,layer_from,plant - rodent ectoparasite
 1563,node_to,Ixodes_trianguliceps
 1563,layer_to,plant - rodent ectoparasite
 1563,weight,1.591
 1563,type,host-parasite
-1564,node_from,Rumex_sp.
+1564,node_from,Rumex_sp_
 1564,layer_from,plant - rodent ectoparasite
 1564,node_to,Megabothris_turbidus
 1564,layer_to,plant - rodent ectoparasite
 1564,weight,1.287
 1564,type,host-parasite
-1565,node_from,Rumex_sp.
+1565,node_from,Rumex_sp_
 1565,layer_from,plant - rodent ectoparasite
 1565,node_to,Nosopsyllus_fasciatus
 1565,layer_to,plant - rodent ectoparasite
 1565,weight,0.0186
 1565,type,host-parasite
-1566,node_from,Rumex_sp.
+1566,node_from,Rumex_sp_
 1566,layer_from,plant - rodent ectoparasite
 1566,node_to,Palaeopsylla_minor
 1566,layer_to,plant - rodent ectoparasite
 1566,weight,0.4279
 1566,type,host-parasite
-1567,node_from,Rumex_sp.
+1567,node_from,Rumex_sp_
 1567,layer_from,plant - rodent ectoparasite
 1567,node_to,Palaeopsylla_soricis_soricis
 1567,layer_to,plant - rodent ectoparasite
@@ -9521,19 +9521,19 @@ interaction_id,attribute,value
 1587,layer_to,plant - rodent ectoparasite
 1587,weight,0.00161
 1587,type,host-parasite
-1588,node_from,Trifolium_pratense/repens
+1588,node_from,Trifolium_pratense_repens
 1588,layer_from,plant - rodent ectoparasite
 1588,node_to,Ctenophthalmus_nobilis_vulgaris
 1588,layer_to,plant - rodent ectoparasite
 1588,weight,0.000361
 1588,type,host-parasite
-1589,node_from,Trifolium_pratense/repens
+1589,node_from,Trifolium_pratense_repens
 1589,layer_from,plant - rodent ectoparasite
 1589,node_to,Megabothris_turbidus
 1589,layer_to,plant - rodent ectoparasite
 1589,weight,0.000361
 1589,type,host-parasite
-1590,node_from,Trifolium_pratense/repens
+1590,node_from,Trifolium_pratense_repens
 1590,layer_from,plant - rodent ectoparasite
 1590,node_to,Nosopsyllus_fasciatus
 1590,layer_to,plant - rodent ectoparasite
@@ -9607,19 +9607,19 @@ interaction_id,attribute,value
 1601,type,host-parasite
 1602,node_from,Acyrthosiphon_pisum
 1602,layer_from,aphid - primary aphid parasitoid
-1602,node_to,Aphidius_rhopalosiphi?
+1602,node_to,Aphidius_rhopalosiphi_
 1602,layer_to,aphid - primary aphid parasitoid
 1602,weight,6722
 1602,type,host-parasite
 1603,node_from,Acyrthosiphon_pisum
 1603,layer_from,aphid - primary aphid parasitoid
-1603,node_to,Praon_dorsale?
+1603,node_to,Praon_dorsale_
 1603,layer_to,aphid - primary aphid parasitoid
 1603,weight,6722
 1603,type,host-parasite
 1604,node_from,Aphid_species_1
 1604,layer_from,aphid - primary aphid parasitoid
-1604,node_to,Praon_exoletum?
+1604,node_to,Praon_exoletum_
 1604,layer_to,aphid - primary aphid parasitoid
 1604,weight,828.6
 1604,type,host-parasite
@@ -9631,7 +9631,7 @@ interaction_id,attribute,value
 1605,type,host-parasite
 1606,node_from,Brachycaudus_helichrysii
 1606,layer_from,aphid - primary aphid parasitoid
-1606,node_to,Aphidius_rhopalosiphi?
+1606,node_to,Aphidius_rhopalosiphi_
 1606,layer_to,aphid - primary aphid parasitoid
 1606,weight,2209
 1606,type,host-parasite
@@ -9673,13 +9673,13 @@ interaction_id,attribute,value
 1612,type,host-parasite
 1613,node_from,Sitobion_avenae
 1613,layer_from,aphid - primary aphid parasitoid
-1613,node_to,Aphidius_picipes?
+1613,node_to,Aphidius_picipes_
 1613,layer_to,aphid - primary aphid parasitoid
 1613,weight,74960
 1613,type,host-parasite
 1614,node_from,Sitobion_avenae
 1614,layer_from,aphid - primary aphid parasitoid
-1614,node_to,Aphidius_rhopalosiphi?
+1614,node_to,Aphidius_rhopalosiphi_
 1614,layer_to,aphid - primary aphid parasitoid
 1614,weight,96790
 1614,type,host-parasite
@@ -9703,7 +9703,7 @@ interaction_id,attribute,value
 1617,type,host-parasite
 1618,node_from,Tubaphis_ranunculina
 1618,layer_from,aphid - primary aphid parasitoid
-1618,node_to,Praon_exoletum?
+1618,node_to,Praon_exoletum_
 1618,layer_to,aphid - primary aphid parasitoid
 1618,weight,8568
 1618,type,host-parasite
@@ -9973,7 +9973,7 @@ interaction_id,attribute,value
 1662,type,host-parasite
 1663,node_from,Oxystoma_pomonae
 1663,layer_from,seed-feeding insect - seed-feeder parasitoid
-1663,node_to,Pteromalus_sequester-group
+1663,node_to,Pteromalus_sequester_group
 1663,layer_to,seed-feeding insect - seed-feeder parasitoid
 1663,weight,1657
 1663,type,host-parasite

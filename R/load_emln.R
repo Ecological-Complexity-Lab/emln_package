@@ -39,7 +39,10 @@ load_emln <- function(network_id) {
     #fix the column types (so not all columns are character type)
     for (i in colnames(network$nodes)) {network$nodes[[i]] <- hablar::retype(network$nodes[[i]])}
 
-  nodes_vector <- network$nodes$node_name
+  #if the same name id has different node id
+  nodes_vector <- network$nodes[,c(1,2)] %>% group_by(node_id, node_name) %>% summarise()
+  nodes_vector<- nodes_vector$node_name
+  # nodes_vector <- network$nodes$node_name
   if(any(duplicated(nodes_vector))){
     print('WARNING! Some node names appear more than once:')
     print(nodes_vector[which(duplicated(nodes_vector))])
@@ -51,14 +54,17 @@ load_emln <- function(network_id) {
     tidyr::pivot_wider(names_from = 'attribute', values_from = 'value', values_fn = list) %>%
     #if there are multiple types to the same layer, write them as individual rows and not lists
     tidyr::unnest(cols = everything()) %>%
+    #remove type column
+    select(-type) %>%
+    distinct() %>%
     # The layer_id and layer_name are necessary because they are used by functions like get_sam
     rename(layer_id=layer) %>%
     mutate(layer_name=paste('layer_',layer_id,sep=''))
 
-  if('name' %in% colnames(network$layers)){
-    head(network$layers)
-    stop('there is a name col')
-  }
+  # if('name' %in% colnames(network$layers)){
+  #   head(network$layers)
+  #   stop('there is a name col')
+  # }
     # if ('name' %in% names(network$layers)) {
     #   network$layers %<>% rename(layer_name=name)
     # } else {
@@ -87,6 +93,18 @@ load_emln <- function(network_id) {
      tidyr::unnest(cols = everything()) %>%
      select(-interaction_id) %>%
     select(layer_from, node_from, layer_to, node_to, everything())
+  #layer from and to are always ids
+  if (!is.numeric(network$interactions$layer_from)) {
+  for (i in 1:nrow(network$interactions)) {
+     network$interactions$layer_from[i] <- network$layers[network$layers$name == network$interactions$layer_from[i],]$layer_id
+     }
+}
+  if (!is.numeric(network$interactions$layer_to)) {
+    for (i in 1:nrow(network$interactions)) {
+      network$interactions$layer_to[i] <- network$layers[network$layers$name == network$interactions$layer_to[i],]$layer_id
+    }
+  }
+
   #fix the column types
   for (i in colnames(network$interactions)) {network$interactions[[i]] <- hablar::retype(network$interactions[[i]])}
 
@@ -118,11 +136,11 @@ load_emln <- function(network_id) {
   extended_edge_list <- extended_edge_list_ids <- as.data.frame(network$interactions)
   i=1
   for (i in 1:nrow(extended_edge_list)) {
-    extended_edge_list_ids[i,2] <- network$nodes[network$nodes$node_name == extended_edge_list[i,2],]$node_id
-    extended_edge_list_ids[i,4] <- network$nodes[network$nodes$node_name == extended_edge_list[i,4],]$node_id
+    extended_edge_list_ids[i,2] <- unique(network$nodes[network$nodes$node_name == extended_edge_list[i,2],]$node_id)
+    extended_edge_list_ids[i,4] <- unique(network$nodes[network$nodes$node_name == extended_edge_list[i,4],]$node_id)
     # Change layer names for ids
-    extended_edge_list_ids[i,1] <- network$layers[network$layers$layer_name == extended_edge_list[i,1],]$layer_id
-    extended_edge_list_ids[i,3] <- network$layers[network$layers$layer_name == extended_edge_list[i,3],]$layer_id
+    extended_edge_list_ids[i,1] <- network$layers[network$layers$name == extended_edge_list[i,1],]$layer_id
+    extended_edge_list_ids[i,3] <- network$layers[network$layers$name == extended_edge_list[i,3],]$layer_id
   }
 
   out <- list(nodes=network$nodes,
