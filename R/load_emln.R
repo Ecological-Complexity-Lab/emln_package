@@ -93,6 +93,10 @@ load_emln <- function(network_id) {
      tidyr::unnest(cols = everything()) %>%
      select(-interaction_id) %>%
     select(layer_from, node_from, layer_to, node_to, everything())
+
+  #fix the column types
+  for (i in colnames(network$interactions)) {network$interactions[[i]] <- hablar::retype(network$interactions[[i]])}
+
   #layer from and to are always ids
   if (!is.numeric(network$interactions$layer_from)) {
   for (i in 1:nrow(network$interactions)) {
@@ -104,9 +108,6 @@ load_emln <- function(network_id) {
       network$interactions$layer_to[i] <- network$layers[network$layers$name == network$interactions$layer_to[i],]$layer_id
     }
   }
-
-  #fix the column types
-  for (i in colnames(network$interactions)) {network$interactions[[i]] <- hablar::retype(network$interactions[[i]])}
 
   # If the layers are ids, change them to layer_name
   if (is.numeric(network$interactions$layer_from)) {network$interactions$layer_from <- paste('layer_',network$interactions$layer_from,sep='')}
@@ -139,8 +140,8 @@ load_emln <- function(network_id) {
     extended_edge_list_ids[i,2] <- unique(network$nodes[network$nodes$node_name == extended_edge_list[i,2],]$node_id)
     extended_edge_list_ids[i,4] <- unique(network$nodes[network$nodes$node_name == extended_edge_list[i,4],]$node_id)
     # Change layer names for ids
-    extended_edge_list_ids[i,1] <- network$layers[network$layers$name == extended_edge_list[i,1],]$layer_id
-    extended_edge_list_ids[i,3] <- network$layers[network$layers$name == extended_edge_list[i,3],]$layer_id
+    extended_edge_list_ids[i,1] <- network$layers[network$layers$layer_name == extended_edge_list[i,1],]$layer_id
+    extended_edge_list_ids[i,3] <- network$layers[network$layers$layer_name == extended_edge_list[i,3],]$layer_id
   }
 
   out <- list(nodes=network$nodes,
