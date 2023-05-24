@@ -1,5 +1,5 @@
 layer,attribute,value
-1,date,04/08/2002
+1,date,25/07/2002
 1,description,Food web structure of an arctic stream
 1,directed,TRUE
 1,habitat,Ivishak Spring Stream
@@ -8,7 +8,7 @@ layer,attribute,value
 1,longitude,-147.715944677178
 1,type,time
 1,type,environment
-2,date,04/08/2002
+2,date,25/07/2002
 2,description,Food web structure of an arctic stream
 2,directed,TRUE
 2,habitat,Ivishak Mountain Stream
@@ -17,7 +17,7 @@ layer,attribute,value
 2,longitude,-147.715944677178
 2,type,time
 2,type,environment
-3,date,25/07/2002
+3,date,04/08/2002
 3,description,Food web structure of an arctic stream
 3,directed,TRUE
 3,habitat,Ivishak Spring Stream
@@ -26,7 +26,7 @@ layer,attribute,value
 3,longitude,-147.715944677178
 3,type,time
 3,type,environment
-4,date,25/07/2002
+4,date,04/08/2002
 4,description,Food web structure of an arctic stream
 4,directed,TRUE
 4,habitat,Ivishak Mountain Stream
