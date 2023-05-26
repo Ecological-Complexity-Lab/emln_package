@@ -128,7 +128,7 @@ load_emln <- function(network_id) {
   network$state_nodes %<>%
       tidyr::pivot_wider(names_from = 'attribute',values_from = 'value', values_fn = list) %>%
       tidyr::unnest(cols = everything())
-  print('Joinign with state node information in the data set')
+  print('Joining with state node information in the data set')
   state_nodes_map %<>% left_join(network$state_nodes %>% select(-node_name), by=c('layer_id', 'node_id'))
   }
 
