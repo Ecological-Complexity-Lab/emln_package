@@ -94,9 +94,6 @@ load_emln <- function(network_id) {
      select(-interaction_id) %>%
     select(layer_from, node_from, layer_to, node_to, everything())
 
-  #fix the column types
-  for (i in colnames(network$interactions)) {network$interactions[[i]] <- hablar::retype(network$interactions[[i]])}
-
   #layer from and to are always ids
   if (!is.numeric(network$interactions$layer_from)) {
   for (i in 1:nrow(network$interactions)) {
@@ -108,6 +105,9 @@ load_emln <- function(network_id) {
       network$interactions$layer_to[i] <- network$layers[network$layers$name == network$interactions$layer_to[i],]$layer_id
     }
   }
+
+  #fix the column types
+  for (i in colnames(network$interactions)) {network$interactions[[i]] <- hablar::retype(network$interactions[[i]])}
 
   # If the layers are ids, change them to layer_name
   if (is.numeric(network$interactions$layer_from)) {network$interactions$layer_from <- paste('layer_',network$interactions$layer_from,sep='')}
@@ -135,6 +135,10 @@ load_emln <- function(network_id) {
   ###  conversion of the node names to node ids in the edge list  ###
   print('Creating extended link list with node IDs')
   extended_edge_list <- extended_edge_list_ids <- as.data.frame(network$interactions)
+
+  #fix the column types
+  for (i in colnames(extended_edge_list_ids)) {extended_edge_list_ids[[i]] <- hablar::retype(extended_edge_list_ids[[i]])}
+
   i=1
   for (i in 1:nrow(extended_edge_list)) {
     extended_edge_list_ids[i,2] <- unique(network$nodes[network$nodes$node_name == extended_edge_list[i,2],]$node_id)
