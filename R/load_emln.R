@@ -61,16 +61,6 @@ load_emln <- function(network_id) {
     rename(layer_id=layer) %>%
     mutate(layer_name=paste('layer_',layer_id,sep=''))
 
-  # if('name' %in% colnames(network$layers)){
-  #   head(network$layers)
-  #   stop('there is a name col')
-  # }
-    # if ('name' %in% names(network$layers)) {
-    #   network$layers %<>% rename(layer_name=name)
-    # } else {
-    #   network$layers %<>% mutate(layer_name=paste('layer_',layer_id,sep=''))
-    # }
-
   #fix the column types
   for (i in colnames(network$layers)) {
     if('date' %in% tolower(i)) {
@@ -95,12 +85,12 @@ load_emln <- function(network_id) {
     select(layer_from, node_from, layer_to, node_to, everything())
 
   #layer from and to are always ids
-  if (!is.numeric(network$interactions$layer_from)) {
+  if (!all(grepl(x = network$interactions$layer_from,pattern = '^[0-9]*$'))) {
   for (i in 1:nrow(network$interactions)) {
      network$interactions$layer_from[i] <- network$layers[network$layers$name == network$interactions$layer_from[i],]$layer_id
      }
 }
-  if (!is.numeric(network$interactions$layer_to)) {
+  if (!all(grepl(x = network$interactions$layer_to,pattern = '^[0-9]*$'))) {
     for (i in 1:nrow(network$interactions)) {
       network$interactions$layer_to[i] <- network$layers[network$layers$name == network$interactions$layer_to[i],]$layer_id
     }
@@ -136,9 +126,6 @@ load_emln <- function(network_id) {
   print('Creating extended link list with node IDs')
   extended_edge_list <- extended_edge_list_ids <- as.data.frame(network$interactions)
 
-  #fix the column types
-  for (i in colnames(extended_edge_list_ids)) {extended_edge_list_ids[[i]] <- hablar::retype(extended_edge_list_ids[[i]])}
-
   i=1
   for (i in 1:nrow(extended_edge_list)) {
     extended_edge_list_ids[i,2] <- unique(network$nodes[network$nodes$node_name == extended_edge_list[i,2],]$node_id)
@@ -147,6 +134,10 @@ load_emln <- function(network_id) {
     extended_edge_list_ids[i,1] <- network$layers[network$layers$layer_name == extended_edge_list[i,1],]$layer_id
     extended_edge_list_ids[i,3] <- network$layers[network$layers$layer_name == extended_edge_list[i,3],]$layer_id
   }
+
+  #fix the column type in extended_edge_list_ids
+  for (i in colnames(extended_edge_list_ids)) {extended_edge_list_ids[[i]] <- hablar::retype(extended_edge_list_ids[[i]])}
+
 
   out <- list(nodes=network$nodes,
               layers=network$layers,
