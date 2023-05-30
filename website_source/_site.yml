@@ -1,0 +1,18 @@
+name: "EMLN package"
+output_dir: "docs"
+navbar:
+  title: "The EMLN package website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Monolayer"
+      href: monolayer.html
+    - text: "Multilayer"
+      href: multilayer.html
+    - text: "Included data sets"
+      href: data.html
+    - text: "Analysis example"
+      href: analysis_example.html
+output:
+  html_document:
+    theme: cerulean
