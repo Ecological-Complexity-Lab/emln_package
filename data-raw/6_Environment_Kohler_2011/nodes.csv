@@ -59,7 +59,7 @@ node_id,attribute,value
 12,kingdom,Plants
 12,taxa_verified,TRUE
 12,verification_level,species
-13,node_name,Ipomea_sp1_M_PL_069_01
+13,node_name,Ipomea_sp1
 13,type,Plant
 13,kingdom,Plants
 13,taxa_verified,FALSE
@@ -92,7 +92,7 @@ node_id,attribute,value
 19,kingdom,Plants
 19,taxa_verified,TRUE
 19,verification_level,species
-20,node_name,Tillandsia_sp1_M_PL_069_01
+20,node_name,Tillandsia_sp1
 20,type,Plant
 20,kingdom,Plants
 20,taxa_verified,FALSE
@@ -120,7 +120,7 @@ node_id,attribute,value
 25,type,Plant
 25,kingdom,Plants
 25,taxa_verified,FALSE
-26,node_name,Inga_sp1_M_PL_069_02
+26,node_name,Inga_sp1
 26,type,Plant
 26,kingdom,Plants
 26,taxa_verified,FALSE

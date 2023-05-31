@@ -25,7 +25,6 @@ for (i in 1:81) {
   new_folder <- paste0("./GitHub/emln_package/data-raw/",sub.folders.short[i])
   list_of_files <- list.files(current_folder, pattern =  "state_nodes.csv|interactions.csv|nodes.csv|layers.csv|references.csv|description.csv")
   file.copy(file.path(current_folder,list_of_files), new_folder, overwrite = T)
-
 }
 
 

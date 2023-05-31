@@ -100,8 +100,8 @@ load_emln <- function(network_id) {
   for (i in colnames(network$interactions)) {network$interactions[[i]] <- hablar::retype(network$interactions[[i]])}
 
   # If the layers are ids, change them to layer_name
-  if (is.numeric(network$interactions$layer_from)) {network$interactions$layer_from <- paste('layer_',network$interactions$layer_from,sep='')}
-  if (is.numeric(network$interactions$layer_to)) {network$interactions$layer_to <- paste('layer_',network$interactions$layer_to,sep='')}
+  if (all(grepl(x = network$interactions$layer_from,pattern = '^[0-9]*$'))) {network$interactions$layer_from <- paste('layer_',network$interactions$layer_from,sep='')}
+  if (all(grepl(x = network$interactions$layer_to,pattern = '^[0-9]*$'))) {network$interactions$layer_to <- paste('layer_',network$interactions$layer_to,sep='')}
 
   # Create a map of state nodes
   print('Creating state node map')

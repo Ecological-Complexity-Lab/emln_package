@@ -1,113 +1,73 @@
-"layer","attribute","value"
-1,"name","BAT2CA"
-1,"type","space"
-1,"type","perturbation"
-1,"location","Cap de Creus, Catalonia, Spain"
-1,"perturbed","TRUE"
-1,"perturbation_type","presence of invasive species"
-1,"latitude","42.319166666667"
-1,"longitude","3.3169444444444"
-2,"name","SEL2OP"
-2,"type","space"
-2,"type","perturbation"
-2,"location","Cap de Creus, Catalonia, Spain"
-2,"perturbed","TRUE"
-2,"perturbation_type","presence of invasive species"
-2,"latitude","42.319166666667"
-2,"longitude","3.3169444444444"
-3,"name","BAT1CA"
-3,"type","space"
-3,"type","perturbation"
-3,"location","Cap de Creus, Catalonia, Spain"
-3,"perturbed","FALSE"
-3,"perturbation_type","presence of invasive species"
-3,"latitude","42.319166666667"
-3,"longitude","3.3169444444444"
-4,"name","MED1CA"
-4,"type","space"
-4,"type","perturbation"
-4,"location","Cap de Creus, Catalonia, Spain"
-4,"perturbed","FALSE"
-4,"perturbation_type","presence of invasive species"
-4,"latitude","42.319166666667"
-4,"longitude","3.3169444444444"
-5,"name","MED2CA"
-5,"type","space"
-5,"type","perturbation"
-5,"location","Cap de Creus, Catalonia, Spain"
-5,"perturbed","TRUE"
-5,"perturbation_type","presence of invasive species"
-5,"latitude","42.319166666667"
-5,"longitude","3.3169444444444"
-6,"name","MED3CA"
-6,"type","space"
-6,"type","perturbation"
-6,"location","Cap de Creus, Catalonia, Spain"
-6,"perturbed","FALSE"
-6,"perturbation_type","presence of invasive species"
-6,"latitude","42.319166666667"
-6,"longitude","3.3169444444444"
-7,"name","FRA2OP"
-7,"type","space"
-7,"type","perturbation"
-7,"location","Cap de Creus, Catalonia, Spain"
-7,"perturbed","TRUE"
-7,"perturbation_type","presence of invasive species"
-7,"latitude","42.319166666667"
-7,"longitude","3.3169444444444"
-8,"name","MED4CA"
-8,"type","space"
-8,"type","perturbation"
-8,"location","Cap de Creus, Catalonia, Spain"
-8,"perturbed","TRUE"
-8,"perturbation_type","presence of invasive species"
-8,"latitude","42.319166666667"
-8,"longitude","3.3169444444444"
-9,"name","FRA1OP"
-9,"type","space"
-9,"type","perturbation"
-9,"location","Cap de Creus, Catalonia, Spain"
-9,"perturbed","FALSE"
-9,"perturbation_type","presence of invasive species"
-9,"latitude","42.319166666667"
-9,"longitude","3.3169444444444"
-10,"name","MIQ1OP"
-10,"type","space"
-10,"type","perturbation"
-10,"location","Cap de Creus, Catalonia, Spain"
-10,"perturbed","FALSE"
-10,"perturbation_type","presence of invasive species"
-10,"latitude","42.319166666667"
-10,"longitude","3.3169444444444"
-11,"name","MIQ2OP"
-11,"type","space"
-11,"type","perturbation"
-11,"location","Cap de Creus, Catalonia, Spain"
-11,"perturbed","TRUE"
-11,"perturbation_type","presence of invasive species"
-11,"latitude","42.319166666667"
-11,"longitude","3.3169444444444"
-12,"name","SEL1OP"
-12,"type","space"
-12,"type","perturbation"
-12,"location","Cap de Creus, Catalonia, Spain"
-12,"perturbed","FALSE"
-12,"perturbation_type","presence of invasive species"
-12,"latitude","42.319166666667"
-12,"longitude","3.3169444444444"
-13,"name","SEL1OP"
-13,"type","space"
-13,"type","perturbation"
-13,"location","Cap de Creus, Catalonia, Spain"
-13,"perturbed","FALSE"
-13,"perturbation_type","presence of invasive species"
-13,"latitude","42.319166666667"
-13,"longitude","3.3169444444444"
-14,"name","SEL1OP"
-14,"type","space"
-14,"type","perturbation"
-14,"location","Cap de Creus, Catalonia, Spain"
-14,"perturbed","FALSE"
-14,"perturbation_type","presence of invasive species"
-14,"latitude","42.319166666667"
-14,"longitude","3.3169444444444"
+layer,attribute,value
+1,name,BAT1CA
+1,type,space
+1,type,perturbation
+1,location,"Cap de Creus, Catalonia, Spain"
+1,perturbed,FALSE
+1,perturbation_type,presence of invasive species
+2,name,BAT2CA
+2,type,space
+2,type,perturbation
+2,location,"Cap de Creus, Catalonia, Spain"
+2,perturbed,TRUE
+2,perturbation_type,presence of invasive species
+3,name,FRA1OP
+3,type,space
+3,type,perturbation
+3,location,"Cap de Creus, Catalonia, Spain"
+3,perturbed,FALSE
+3,perturbation_type,presence of invasive species
+4,name,FRA2OP
+4,type,space
+4,type,perturbation
+4,location,"Cap de Creus, Catalonia, Spain"
+4,perturbed,TRUE
+4,perturbation_type,presence of invasive species
+5,name,MED1CA
+5,type,space
+5,type,perturbation
+5,location,"Cap de Creus, Catalonia, Spain"
+5,perturbed,FALSE
+5,perturbation_type,presence of invasive species
+6,name,MED2CA
+6,type,space
+6,type,perturbation
+6,location,"Cap de Creus, Catalonia, Spain"
+6,perturbed,TRUE
+6,perturbation_type,presence of invasive species
+7,name,MED3CA
+7,type,space
+7,type,perturbation
+7,location,"Cap de Creus, Catalonia, Spain"
+7,perturbed,FALSE
+7,perturbation_type,presence of invasive species
+8,name,MED4CA
+8,type,space
+8,type,perturbation
+8,location,"Cap de Creus, Catalonia, Spain"
+8,perturbed,TRUE
+8,perturbation_type,presence of invasive species
+9,name,MIQ1OP
+9,type,space
+9,type,perturbation
+9,location,"Cap de Creus, Catalonia, Spain"
+9,perturbed,FALSE
+9,perturbation_type,presence of invasive species
+10,name,MIQ2OP
+10,type,space
+10,type,perturbation
+10,location,"Cap de Creus, Catalonia, Spain"
+10,perturbed,TRUE
+10,perturbation_type,presence of invasive species
+11,name,SEL1OP
+11,type,space
+11,type,perturbation
+11,location,"Cap de Creus, Catalonia, Spain"
+11,perturbed,FALSE
+11,perturbation_type,presence of invasive species
+12,name,SEL2OP
+12,type,space
+12,type,perturbation
+12,location,"Cap de Creus, Catalonia, Spain"
+12,perturbed,TRUE
+12,perturbation_type,presence of invasive species

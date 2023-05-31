@@ -3018,9 +3018,9 @@ interaction_id,attribute,value
 503,type,pollination
 503,weight,1
 504,node_from,28_pla
-504,layer_from,SEL10P
+504,layer_from,SEL1OP
 504,node_to,13_pol
-504,layer_to,SEL10P
+504,layer_to,SEL1OP
 504,type,pollination
 504,weight,1
 505,node_from,14_pla
@@ -3204,9 +3204,9 @@ interaction_id,attribute,value
 534,type,pollination
 534,weight,1
 535,node_from,28_pla
-535,layer_from,SEL1P
+535,layer_from,SEL1OP
 535,node_to,119_pol
-535,layer_to,SEL1P
+535,layer_to,SEL1OP
 535,type,pollination
 535,weight,1
 536,node_from,14_pla

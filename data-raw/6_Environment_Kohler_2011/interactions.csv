@@ -64,7 +64,7 @@ interaction_id,attribute,value
 9,method,observation
 10,node_from,Thalurania_glaucopis
 10,layer_from,1
-10,node_to,Ipomea_sp1_M_PL_069_01
+10,node_to,Ipomea_sp1
 10,layer_to,1
 10,weight,7
 10,type,pollination
@@ -92,7 +92,7 @@ interaction_id,attribute,value
 13,method,observation
 14,node_from,Thalurania_glaucopis
 14,layer_from,1
-14,node_to,Tillandsia_sp1_M_PL_069_01
+14,node_to,Tillandsia_sp1
 14,layer_to,1
 14,weight,5
 14,type,pollination
@@ -162,7 +162,7 @@ interaction_id,attribute,value
 23,method,observation
 24,node_from,Amazilia_fimbriata
 24,layer_from,1
-24,node_to,Ipomea_sp1_M_PL_069_01
+24,node_to,Ipomea_sp1
 24,layer_to,1
 24,weight,7
 24,type,pollination
@@ -176,7 +176,7 @@ interaction_id,attribute,value
 25,method,observation
 26,node_from,Amazilia_versicolor
 26,layer_from,1
-26,node_to,Ipomea_sp1_M_PL_069_01
+26,node_to,Ipomea_sp1
 26,layer_to,1
 26,weight,1
 26,type,pollination
@@ -218,7 +218,7 @@ interaction_id,attribute,value
 31,method,observation
 32,node_from,Clytolaema_rubricauda
 32,layer_from,2
-32,node_to,Inga_sp1_M_PL_069_02
+32,node_to,Inga_sp1
 32,layer_to,2
 32,weight,210
 32,type,pollination
@@ -253,7 +253,7 @@ interaction_id,attribute,value
 36,method,observation
 37,node_from,Thalurania_glaucopis
 37,layer_from,2
-37,node_to,Inga_sp1_M_PL_069_02
+37,node_to,Inga_sp1
 37,layer_to,2
 37,weight,24
 37,type,pollination
