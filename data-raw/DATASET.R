@@ -13,13 +13,13 @@ sub.folders.long <- sub.folders.long[str_order(sub.folders.short, numeric = T)]
 sub.folders.short <- sub.folders.short[str_order(sub.folders.short, numeric = T)]
 
 
-for (i in 1:81) {
+for (i in 1:length(sub.folders.short)) {
   dir.create(path = paste0("./GitHub/emln_package/data-raw/", sub.folders.short[i]))
 }
 
 
 #copy them to the new directory
-for (i in 1:81) {
+for (i in 1:length(sub.folders.long)) {
   list_of_files <- NULL
   current_folder <- paste0("./GitHub/emln_db/EMLN_Datasets/datasets/",sub.folders.short[i])
   new_folder <- paste0("./GitHub/emln_package/data-raw/",sub.folders.short[i])
