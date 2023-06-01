@@ -153,9 +153,9 @@ load_emln <- function(network_id) {
 
 
 # library(emln)
-#
-# for (network_id in 1:81){print(network_id);tryCatch(load_emln(network_id))}
-# # network$layers
-# duplicated(network$nodes$node_name)
-# sort(network$nodes$node_name)
+
+for (network_id in 1:80){print(network_id);tryCatch(load_emln(network_id))}
+# network$layers
+duplicated(network$nodes$node_name)
+sort(network$nodes$node_name)
 
