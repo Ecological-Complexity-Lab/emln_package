@@ -152,9 +152,10 @@ load_emln <- function(network_id) {
 }
 
 
-# library(emln)
 
-for (network_id in 1:80){print(network_id);tryCatch(load_emln(network_id))}
+errors_ids <- NULL
+for (network_id in 1:80){result <- tryCatch(expr = load_emln(network_id), error = function(e) {errors_ids<<-c(errors_ids,network_id)})}
+
 # network$layers
 duplicated(network$nodes$node_name)
 sort(network$nodes$node_name)
