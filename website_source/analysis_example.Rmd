@@ -139,32 +139,32 @@ multilayer_kefi <- create_multilayer_network(list_of_layers = list(chilean_TI,ch
                                              directed = T)
 ```
 
-## Eigenvalue Centrality
+## Eigenvector Centrality
 
-We will now calculate the eigenvalue centrality score of each state node using the two different methods:
+We will now calculate the Eigenvector centrality score of each state node using the two different methods:
 
 ### Method 1: Multilayer Context
 
-Calculating the eigenvalue centrality score of each state node using a SAM of the multilayer network.
-```{r eigenvalue of SAM, echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
+Calculating the Eigenvector centrality score of each state node using a SAM of the multilayer network.
+```{r Eigenvector of SAM, echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
 # get the SAM
 sam_multilayer <- get_sam(multilayer = multilayer_kefi, bipartite = F, directed = T, sparse = F, remove_zero_rows_cols = F)
 
 # converting SAM to igraph object
 graph_sam <- graph_from_adjacency_matrix(sam_multilayer$M,mode = "directed",weighted = NULL,diag = TRUE,add.colnames = NULL,add.rownames = NA)
 
-# get eigenvalue scores
+# get Eigenvector scores
 eigen_sam <- igraph::eigen_centrality(graph_sam, directed = T, scale = T)$vector
 ```
 
 ### Method 2: Monolayer Context
 
-Calculating the eigenvalue centrality score of each state node on a per-layer basis.
-```{r eigenvalue of igraph layers,echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
+Calculating the Eigenvector centrality score of each state node on a per-layer basis.
+```{r Eigenvector of igraph layers,echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
 # get a list of igraph objects as layers igraph 
 g_layer <- get_igraph(multilayer_kefi, bipartite = F, directed = T)
 
-# get eigenvalue scores of igraph layers
+# get Eigenvector scores of igraph layers
 eigen_igraph = c()
 for (layer in g_layer$layers_igraph){
   eigen_igraph <-append(eigen_igraph, igraph::eigen_centrality(layer, scale = T)$vector)
@@ -184,7 +184,7 @@ colnames(ec_comparison) <- c("multilayer","monolayer")
 # scatter plot using r ggplot2
 ggplot(data = ec_comparison, aes(monolayer, multilayer)) + 
            geom_point(color = "blue", size = 0.75) + 
-           labs(title = "Eigenvalue Centrality (EC) comparison", x = "EC (monolayer)", y = "EC (multilayer)")+
+           labs(title = "Eigenvector Centrality (EC) comparison", x = "EC (monolayer)", y = "EC (multilayer)")+
   geom_abline()+
   scale_x_continuous(limits = c(0,1))+
   scale_y_continuous(limits = c(0,1))+
