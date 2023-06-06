@@ -1,6 +1,6 @@
 library(emln)
 # get all the files from the source
-if (getwd()!="/Users/shai/GitHub/ecomplab/emln_package"){stop('wd must be the root of the package')}
+if (getwd()!="/Users/itamartalpaz/GitHub/emln_package"){stop('wd must be the root of the package')}
 
 file_names <- list.files('website_source/', full.names = T)
 file.copy(from = file.path(file_names),
