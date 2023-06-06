@@ -13,7 +13,7 @@
 
 <title>Example for EMLN analysis</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -186,8 +186,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -195,16 +195,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -375,49 +368,190 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Example for EMLN analysis</h1>
-<h3 class="subtitle">work in progress</h3>
 
 </div>
 
 
+<!-- last modified 1/06/23 16:10 - moving updated version to the right place, editing documentation -->
 <script>
   addClassKlippyTo("pre.r, pre.markdown");
   addKlippy('right', 'top', '#8B0000', '1', 'Copy code', 'Copied!');
 </script>
-<pre class="r"><code># devtools::install_github(repo = &#39;Ecological-Complexity-Lab/emln_package&#39;, force = T, auth_token = &#39;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&#39;)
-
-# Change the source for library(emln) later
-source(&#39;R/create_multilayer_network.R&#39;)
-source(&#39;R/create_monolayer_object.R&#39;)
-source(&#39;R/get_sam.R&#39;)
-source(&#39;R/get_igraph.R&#39;)
-source(&#39;R/list_to_matrix.R&#39;)
-source(&#39;R/matrix_to_list_bipartite.R&#39;)
-source(&#39;R/matrix_to_list_unipartite.R&#39;)
-source(&#39;R/view_emln.R&#39;)
-source(&#39;R/load_emln.R&#39;)
-source(&#39;R/search_emln.R&#39;)
-
-
-
-
-# library(emln)
-library(igraph)
+<!-- setup -->
+<pre class="r"><code>library(emln)
 library(tidyverse)
 library(bipartite)
+library(Matrix)
+library(ggraph)
+library(grid)
+library(infomapecology)
+library(readr)
+library(stringr)
+library(ggsci) 
+library(ggbreak)
+library(ggpubr)
+library(RColorBrewer)
+library(igraph)
 library(magrittr)
-library(Matrix)</code></pre>
-<div id="the-data-set" class="section level1">
-<h1>The data set</h1>
+library(ggplot2)
+library(tidyr)
+library(rlang)
+library(vegan)
+library(hablar)
+library(tibble)
+library(dplyr)</code></pre>
+<p>The <code>emln</code> package is a valuable tool for importing,
+storing, and converting EMLN (Ecological Multilayer Network) data. In
+this section, we will demonstrate its practical application through
+analysis examples, including node-level analysis using an imported
+dataset and mesoscale analysis using a package-included dataset.</p>
+<p>These examples will provide firsthand experience and insights into
+how the <code>emln</code> package can be effectively employed in
+real-world analyses.</p>
+<div id="node-level-analysis-with-imported-dataset"
+class="section level1">
+<h1>Node-level analysis with imported dataset</h1>
+<p>At this analysis level, we will compare the eigenvector centrality
+scores for each state node obtained using the <code>get_igraph</code>
+function to the centrality scores of the same nodes in a supra-adjacency
+matrix (SAM) using the <code>get_sam</code> function.</p>
+<p>This comparison aims to highlight the differences between monolayer
+and multilayer representations. Since eigenvector centrality takes into
+account the entire network’s influence, we anticipate no correlation.
+Examining the scores in different contexts offers valuable insights and
+alternative perspectives on node importance.</p>
+<p><!-- Eigenvector centrality is a measure of a node's importance in a network based on its connections to other important nodes. --></p>
+<div id="creating-a-multilayer-object" class="section level2">
+<h2>Creating a Multilayer Object</h2>
+<p>Before calculating the eigenvector centrality scores for each state
+node, it is recommended to transform the data into a multilayer object
+using the <code>create_multilayer_network</code> function. This
+facilitates the handling of the data and ensures a smoother analysis
+process.</p>
+<p>In our case, the data represents a node-aligned multiplex network
+consisting of three layers: trophic interactions, non-trophic positive
+interactions, and non-trophic negative interactions.</p>
+<p>for detailed instructions on creating a multilayer object, please
+refer to the “Example with real data from Kefi 2016” section.</p>
+<pre class="r"><code># Load and organize the trophic interactions matrix
+chilean_TI &lt;- read_delim(&#39;chilean_TI.txt&#39;, delim = &#39;\t&#39;)
+nodes &lt;- chilean_TI[,2]
+names(nodes) &lt;- &#39;Species&#39;
+chilean_TI &lt;- data.matrix(chilean_TI[,3:ncol(chilean_TI)])
+dimnames(chilean_TI) &lt;- list(nodes$Species,nodes$Species)
+
+# Load and organize the negative non-trophic interactions matrix
+chilean_NTIneg &lt;- read_delim(&#39;chilean_NTIneg.txt&#39;, delim = &#39;\t&#39;)
+nodes &lt;- chilean_NTIneg[,2]
+names(nodes) &lt;- &#39;Species&#39;
+chilean_NTIneg &lt;- data.matrix(chilean_NTIneg[,3:ncol(chilean_NTIneg)])
+dimnames(chilean_NTIneg) &lt;- list(nodes$Species,nodes$Species)
+
+# Load and organize the negative non-trophic positive matrix
+chilean_NTIpos &lt;- read_delim(&#39;chilean_NTIpos.txt&#39;, delim = &#39;\t&#39;)
+nodes &lt;- chilean_NTIpos[,2]
+names(nodes) &lt;- &#39;Species&#39;
+chilean_NTIpos &lt;- data.matrix(chilean_NTIpos[,3:ncol(chilean_NTIpos)])
+dimnames(chilean_NTIpos) &lt;- list(nodes$Species,nodes$Species)
+
+
+layer_attributes &lt;- tibble(layer_id=1:3, layer_name=c(&#39;TI&#39;,&#39;NTIneg&#39;,&#39;NTIpos&#39;))
+multilayer_kefi &lt;- create_multilayer_network(list_of_layers = list(chilean_TI,chilean_NTIneg,chilean_NTIpos),
+                                             interlayer_links = NULL,
+                                             layer_attributes = layer_attributes,
+                                             bipartite = F,
+                                             directed = T)</code></pre>
+<pre><code>## [1] &quot;Layer #1 processing.&quot;
+## [1] &quot;Done.&quot;
+## [1] &quot;Layer #2 processing.&quot;
+## [1] &quot;Some nodes have no interactions. They will appear in the node table but not in the edge list&quot;
+## [1] &quot;Done.&quot;
+## [1] &quot;Layer #3 processing.&quot;
+## [1] &quot;Some nodes have no interactions. They will appear in the node table but not in the edge list&quot;
+## [1] &quot;Done.&quot;
+## [1] &quot;Creating extended link list with node IDs&quot;
+## [1] &quot;Organizing state nodes&quot;</code></pre>
 </div>
-<div id="analysis" class="section level1">
-<h1>Analysis</h1>
-<div id="node-level" class="section level2">
-<h2>Node-level</h2>
+<div id="eigenvector-centrality" class="section level2">
+<h2>Eigenvector Centrality</h2>
+<p>We will now calculate the Eigenvector centrality score of each state
+node using the two different methods:</p>
+<div id="method-1-multilayer-context" class="section level3">
+<h3>Method 1: Multilayer Context</h3>
+<p>Calculating the Eigenvector centrality score of each state node using
+a SAM of the multilayer network.</p>
+<pre class="r"><code># get the SAM
+sam_multilayer &lt;- get_sam(multilayer = multilayer_kefi, bipartite = F, directed = T, sparse = F, remove_zero_rows_cols = F)
+
+# converting SAM to igraph object
+graph_sam &lt;- graph_from_adjacency_matrix(sam_multilayer$M,mode = &quot;directed&quot;,weighted = NULL,diag = TRUE,add.colnames = NULL,add.rownames = NA)
+
+# get Eigenvector scores
+eigen_sam &lt;- igraph::eigen_centrality(graph_sam, directed = T, scale = T)$vector</code></pre>
 </div>
-<div id="mesoscale-level" class="section level2">
-<h2>Mesoscale level</h2>
-<p>We will detect modules…</p>
+<div id="method-2-monolayer-context" class="section level3">
+<h3>Method 2: Monolayer Context</h3>
+<p>Calculating the Eigenvector centrality score of each state node on a
+per-layer basis.</p>
+<pre class="r"><code># get a list of igraph objects as layers igraph 
+g_layer &lt;- get_igraph(multilayer_kefi, bipartite = F, directed = T)
+
+# get Eigenvector scores of igraph layers
+eigen_igraph = c()
+for (layer in g_layer$layers_igraph){
+  eigen_igraph &lt;-append(eigen_igraph, igraph::eigen_centrality(layer, scale = T)$vector)
+}</code></pre>
+</div>
+</div>
+<div id="results" class="section level2">
+<h2>Results</h2>
+<p>Upon comparing the eigenvector centrality scores obtained using both
+methods, we visualized the correlation between the two sets of scores
+using a scatter plot. The scatter plot was created by merging the scores
+into a data frame called <code>ec_comparison</code> and using the
+<code>ggplot2</code> package. The x-axis represented the multilayer
+scores from method (1), while the y-axis represented the monolayer
+scores from method (2).</p>
+<p>The function <code>geom_abline()</code> adds a reference line to the
+scatter plot. This reference line represents a line of equality, where
+the x-axis values are equal to the y-axis values.</p>
+<pre class="r"><code># merge to data frame eigenvector comparison
+ec_comparison &lt;- data.frame(eigen_sam, eigen_igraph)
+colnames(ec_comparison) &lt;- c(&quot;multilayer&quot;,&quot;monolayer&quot;)
+
+# scatter plot using r ggplot2
+ggplot(data = ec_comparison, aes(monolayer, multilayer)) + 
+           geom_point(color = &quot;blue&quot;, size = 0.75) + 
+           labs(title = &quot;Eigenvector Centrality (EC) comparison&quot;, x = &quot;EC (monolayer)&quot;, y = &quot;EC (multilayer)&quot;)+
+  geom_abline()+
+  scale_x_continuous(limits = c(0,1))+
+  scale_y_continuous(limits = c(0,1))+
+  coord_fixed()</code></pre>
+<p><img src="analysis_example_files/figure-html/plotting%20eigenvector%20comparison-1.png" width="576" /></p>
+<p>The deviation of the points from the reference line indicates a lack
+of correlation between the two sets of scores. This observation suggests
+that the methods used to calculate eigenvector centrality are influenced
+by the entire network, supporting our hypothesis.</p>
+<p>Our results revealed that the majority of nodes demonstrated
+significance within a monolayer context but lacked importance within a
+multilayer context. This phenomenon can be attributed to the distinct
+types of interactions represented by each layer in the network.</p>
+<p>Nodes may exhibit high centrality within individual layers due to
+their specific roles in facilitating certain types of interactions.
+However, when considering the multilayer context, the importance of
+nodes may diminish, suggesting that their significance is specific to
+the types of interactions captured by each layer. This highlights the
+importance of considering the unique ecological processes and
+interactions represented by different layers when analyzing multilayer
+networks and interpreting node importance.</p>
+<!-- # Mesoscale level analysis with included data sets -->
+<!-- At the mesoscale level of network analysis, we examine network properties on an intermediate scale that typically includes hundreds to thousands of nodes. This example demonstrates the use of `emln` to load a multilayer ecological network dataset from the emln package included data, and to detect module persistence using the popular community detection algorithm `infomap` with the `infomapecology` package. Through this analysis, we will gain insights into the temporal behavior of species communities and how they interact across multiple layers. -->
+<!-- ## loading the data set using `load_emln`. -->
+<!-- To begin, we need to load the data set we will be using for our analysis. the `load_emln` function loads the multilayer network data set and returns a `multilayer` object. -->
+<!-- ## using `infomap` with `infomapecology` to detect module persistence. -->
+<!-- Once we have loaded our data set, we can start our analysis by using `infomap` with `infomapEcology` to detect module persistence. `infomapecology` is a package  designed especially for ecologist to detect modules in ecological multilayer networks. -->
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream</p>
+<p>======= &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes</p>
 </div>
 </div>
 

@@ -6,12 +6,11 @@ output:
     fig_width: 6
     theme: cerulean
     code_folding: show
-    toc: yes
+    toc: true
     toc_float:
-      collapsed: no
-      number_sections: yes
-  pdf_document:
-    toc: yes
+      collapsed: false
+      number_sections: true
+ 
 ---
 
 <!-- last modified 1/06/23 16:10 - moving updated version to the right place, editing documentation -->
@@ -267,4 +266,7 @@ plot_multilayer_alluvial(emln_68_modularity, module_labels = F)+
         axis.text = element_text(color='black', size = 20),
         axis.title = element_text(size=20))
 ```
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
