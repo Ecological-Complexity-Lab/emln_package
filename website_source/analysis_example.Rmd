@@ -239,7 +239,11 @@ plot_multilayer_modules(emln_68_modularity, type = 'rectangle', color_modules = 
   scale_fill_viridis_c()
 
 # 1. Module persistence
-emln_68_modules_persistence <- emln_68_modularity$modules %>% group_by(module) %>% summarise(b=min(layer_id), d=max(layer_id), persistence=d-b+1) %>% count(persistence) %>% mutate(percent=(n/max(emln_68_modularity$module$module))*100)
+emln_68_modules_persistence <- emln_68_modularity$modules %>%
+  group_by(module) %>% 
+  summarise(b=min(layer_id), d=max(layer_id), persistence=d-b+1) %>% 
+  count(persistence) %>%
+  mutate(percent=(n/max(emln_68_modularity$module$module))*100)
 
 # 1.
 plot_multilayer_modules(emln_68_modularity, type = 'rectangle', color_modules = T)+
@@ -266,7 +270,4 @@ plot_multilayer_alluvial(emln_68_modularity, module_labels = F)+
         axis.text = element_text(color='black', size = 20),
         axis.title = element_text(size=20))
 ```
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
