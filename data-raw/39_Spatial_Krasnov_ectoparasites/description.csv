@@ -1,8 +1,6 @@
-"attribute","value"
-"data_entry","noa_frydman"
-"multilayer_network_type","Spatial"
-"description","unpublished"
-"source","owner_of_data"
-"data_url",NA
-"ecological_network_type","Host-Parasite"
-"state_nodes","FALSE"
+attribute,value
+data_entry,datasets
+type,Spatial
+description,unpublished
+source,owner_of_data
+data_url,NA

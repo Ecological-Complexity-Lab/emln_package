@@ -85,12 +85,15 @@ load_emln <- function(network_id) {
     select(layer_from, node_from, layer_to, node_to, everything())
 
   #layer from and to are always ids
-  if (!all(grepl(x = network$interactions$layer_from,pattern = '^[0-9]*$'))) {
+  #if the layer from and to are not in the layer ids, then convert to ids in edge list
+  if (all(!(unique(network$interactions$layer_from) %in%  unique(network$layers$layer_id)))) {
+  #if (!all(grepl(x = network$interactions$layer_from,pattern = '^[0-9]*$'))) {
   for (i in 1:nrow(network$interactions)) {
      network$interactions$layer_from[i] <- network$layers[network$layers$name == network$interactions$layer_from[i],]$layer_id
      }
 }
-  if (!all(grepl(x = network$interactions$layer_to,pattern = '^[0-9]*$'))) {
+  if (all(!(unique(network$interactions$layer_to) %in%  unique(network$layers$layer_id)))) {
+  #if (!all(grepl(x = network$interactions$layer_to,pattern = '^[0-9]*$'))) {
     for (i in 1:nrow(network$interactions)) {
       network$interactions$layer_to[i] <- network$layers[network$layers$name == network$interactions$layer_to[i],]$layer_id
     }
@@ -153,5 +156,5 @@ load_emln <- function(network_id) {
 
 
 #check if there are networks that return an error when loading the emln
-# errors_ids <- NULL
-# for (network_id in 1:80){result <- tryCatch(expr = load_emln(network_id), error = function(e) {errors_ids<<-c(errors_ids,network_id)})}
+errors_ids <- NULL
+for (network_id in 1:80){result <- tryCatch(expr = load_emln(network_id), error = function(e) {errors_ids<<-c(errors_ids,network_id)})}

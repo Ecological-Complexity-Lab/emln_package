@@ -13,9 +13,9 @@ sub.folders.long <- sub.folders.long[str_order(sub.folders.short, numeric = T)]
 sub.folders.short <- sub.folders.short[str_order(sub.folders.short, numeric = T)]
 
 
-for (i in 1:length(sub.folders.short)) {
-  dir.create(path = paste0("./GitHub/emln_package/data-raw/", sub.folders.short[i]))
-}
+# for (i in 1:length(sub.folders.short)) {
+#   dir.create(path = paste0("./GitHub/emln_package/data-raw/", sub.folders.short[i]))
+# }
 
 
 #copy them to the new directory
