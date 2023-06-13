@@ -66,7 +66,8 @@ paper_figs_theme_no_legend <-
 
 ## creation of the lists
 #read the file path
-parent.folder <- "~/GitHub/ecomplab/emln_package/data-raw/"
+#parent.folder <- "~/GitHub/ecomplab/emln_package/data-raw/"
+parent.folder <- "/Users/itamartalpaz/GitHub/emln_package/data-raw/"
 
 #setwd("~/GitHub/emln_db/EMLN_Datasets/datasets") ##in this chunk, we want the working directory to be the one with all the networks in order to read them
 
@@ -78,8 +79,8 @@ sub.folders.long <- sub.folders.long[str_order(sub.folders.short, numeric = T)]
 
 ## the number of multilayer networks in the database
 number_of_networks <- length(sub.folders.long)
-
-id_readout <- data.frame(id = 1:81, network_name = sub.folders.short[str_order(sub.folders.short, numeric = T)], network_path = sub.folders.long)
+#81 was replaced with 80
+id_readout <- data.frame(id = 1:80, network_name = sub.folders.short[str_order(sub.folders.short, numeric = T)], network_path = sub.folders.long)
 
 #create big lists that each contain the nodes/layers/description/references csv
 #NOTE! not all networks have a references csv
@@ -216,7 +217,7 @@ The data is distributed globally:
 latitudes<-NULL
 longitudes<-NULL
 coord <- NULL
-for(i in 1:81){
+for(i in 1:80){
   if ('latitude' %in% all_layers[[i]]$attribute) {
     coord <- rbind(coord, data.frame(network_id = i,
                                      latitude = as.numeric(unlist(strsplit(filter(all_layers[[i]],

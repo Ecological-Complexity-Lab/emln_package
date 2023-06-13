@@ -13,7 +13,7 @@
 
 <title>Handling multilayer network data</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -186,8 +186,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -195,16 +195,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -1016,12 +1009,10 @@ multilayer_sierras_interlayer &lt;- create_multilayer_network(list_of_layers = S
 <pre class="r"><code># See the interlayer links
 multilayer_sierras_interlayer$extended %&gt;% filter(node_from==node_to)</code></pre>
 <pre><code>## # A tibble: 0 × 5
-## # … with 5 variables: layer_from &lt;chr&gt;, node_from &lt;chr&gt;,
-## #   layer_to &lt;chr&gt;, node_to &lt;chr&gt;, weight &lt;dbl&gt;</code></pre>
+## # ℹ 5 variables: layer_from &lt;chr&gt;, node_from &lt;chr&gt;, layer_to &lt;chr&gt;, node_to &lt;chr&gt;, weight &lt;dbl&gt;</code></pre>
 <pre class="r"><code>multilayer_sierras_interlayer$extended_ids %&gt;% filter(node_from==node_to)</code></pre>
 <pre><code>## # A tibble: 0 × 5
-## # … with 5 variables: layer_from &lt;int&gt;, node_from &lt;int&gt;,
-## #   layer_to &lt;int&gt;, node_to &lt;int&gt;, weight &lt;dbl&gt;</code></pre>
+## # ℹ 5 variables: layer_from &lt;int&gt;, node_from &lt;int&gt;, layer_to &lt;int&gt;, node_to &lt;int&gt;, weight &lt;dbl&gt;</code></pre>
 <!-- ## Example of linking node/layer attributes with network topology -->
 </div>
 </div>
@@ -1363,41 +1354,27 @@ The <code>sn_id</code> corresponds to that in the
 <pre class="r"><code>g_layers &lt;- get_igraph(multilayer_unip_attributes, bipartite = F, directed = T)</code></pre>
 <p>Let’s look at one layer as an example.</p>
 <pre class="r"><code>g_layers$layers_igraph[[2]]</code></pre>
-<pre><code>## IGRAPH 0456dd1 DNW- 4 2 -- 
-## + attr: name (v/c), sn_id (v/n), node_id (v/n), order (v/c),
-## | weight (e/n), method (e/c)
-## + edges from 0456dd1 (vertex names):
+<pre><code>## IGRAPH 9add669 DNW- 4 2 -- 
+## + attr: name (v/c), sn_id (v/n), node_id (v/n), order (v/c), weight (e/n), method (e/c)
+## + edges from 9add669 (vertex names):
 ## [1] fish-&gt;pelican crab-&gt;fish</code></pre>
 <p>The state nodes are listed below. Note that they include the
 attributes of the physical nodes (order in this example), and that all
 attributes are included in the igraph objects.</p>
 <pre class="r"><code>g_layers$state_nodes_map</code></pre>
-<pre><code>##    sn_id layer_name node_name layer_id node_id          tuple
-## 1      1     pond_1      crab        1       1    pond_1_crab
-## 2      2     pond_1      fish        1       2    pond_1_fish
-## 3      3     pond_1   pelican        1       3 pond_1_pelican
-## 4      4     pond_1   tadpole       NA      NA pond_1_tadpole
-## 5      5     pond_2      crab        2       1    pond_2_crab
-## 6      6     pond_2      fish        2       2    pond_2_fish
-## 7      7     pond_2   pelican        2       3 pond_2_pelican
-## 8      8     pond_2   tadpole       NA      NA pond_2_tadpole
-## 9      9     pond_3      crab       NA      NA    pond_3_crab
-## 10    10     pond_3      fish        3       2    pond_3_fish
-## 11    11     pond_3   pelican        3       3 pond_3_pelican
-## 12    12     pond_3   tadpole        3       4 pond_3_tadpole
-##             order
-## 1        Decapoda
-## 2  Chondrichthyes
-## 3  Pelecaniformes
-## 4            &lt;NA&gt;
-## 5        Decapoda
-## 6  Chondrichthyes
-## 7  Pelecaniformes
-## 8            &lt;NA&gt;
-## 9            &lt;NA&gt;
-## 10 Chondrichthyes
-## 11 Pelecaniformes
-## 12          Anura</code></pre>
+<pre><code>##    sn_id layer_name node_name layer_id node_id          tuple          order
+## 1      1     pond_1      crab        1       1    pond_1_crab       Decapoda
+## 2      2     pond_1      fish        1       2    pond_1_fish Chondrichthyes
+## 3      3     pond_1   pelican        1       3 pond_1_pelican Pelecaniformes
+## 4      4     pond_1   tadpole       NA      NA pond_1_tadpole           &lt;NA&gt;
+## 5      5     pond_2      crab        2       1    pond_2_crab       Decapoda
+## 6      6     pond_2      fish        2       2    pond_2_fish Chondrichthyes
+## 7      7     pond_2   pelican        2       3 pond_2_pelican Pelecaniformes
+## 8      8     pond_2   tadpole       NA      NA pond_2_tadpole           &lt;NA&gt;
+## 9      9     pond_3      crab       NA      NA    pond_3_crab           &lt;NA&gt;
+## 10    10     pond_3      fish        3       2    pond_3_fish Chondrichthyes
+## 11    11     pond_3   pelican        3       3 pond_3_pelican Pelecaniformes
+## 12    12     pond_3   tadpole        3       4 pond_3_tadpole          Anura</code></pre>
 <pre class="r"><code># Attributes in pond 1
 vertex.attributes(g_layers$layers_igraph[[1]])</code></pre>
 <pre><code>## $name
@@ -1459,16 +1436,13 @@ vertex.attributes(g_layers$layers_igraph[[3]])</code></pre>
 <pre class="r"><code>g_layers_bip &lt;- get_igraph(multilayer = multilayer_bip_toy, bipartite = T, directed = F)
 l2 &lt;- g_layers_bip$layers_igraph[[2]]
 l2</code></pre>
-<pre><code>## IGRAPH 2d9b436 UNWB 15 11 -- 
-## + attr: name (v/c), sn_id (v/n), node_id (v/n), type (v/l),
-## | weight (e/n)
-## + edges from 2d9b436 (vertex names):
-##  [1] H1--P1 H1--P3 H1--P4 H2--P1 H2--P2 H3--P1 H3--P3 H3--P4 H4--P1
-## [10] H4--P2 H5--P1</code></pre>
+<pre><code>## IGRAPH 0bfca57 UNWB 15 11 -- 
+## + attr: name (v/c), sn_id (v/n), node_id (v/n), type (v/l), weight (e/n)
+## + edges from 0bfca57 (vertex names):
+##  [1] H1--P1 H1--P3 H1--P4 H2--P1 H2--P2 H3--P1 H3--P3 H3--P4 H4--P1 H4--P2 H5--P1</code></pre>
 <pre class="r"><code>vertex.attributes(l2)</code></pre>
 <pre><code>## $name
-##  [1] &quot;A1&quot; &quot;A2&quot; &quot;A3&quot; &quot;A4&quot; &quot;A5&quot; &quot;A6&quot; &quot;H1&quot; &quot;H2&quot; &quot;H3&quot; &quot;H4&quot; &quot;H5&quot; &quot;P1&quot; &quot;P2&quot;
-## [14] &quot;P3&quot; &quot;P4&quot;
+##  [1] &quot;A1&quot; &quot;A2&quot; &quot;A3&quot; &quot;A4&quot; &quot;A5&quot; &quot;A6&quot; &quot;H1&quot; &quot;H2&quot; &quot;H3&quot; &quot;H4&quot; &quot;H5&quot; &quot;P1&quot; &quot;P2&quot; &quot;P3&quot; &quot;P4&quot;
 ## 
 ## $sn_id
 ##  [1] 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
@@ -1477,8 +1451,7 @@ l2</code></pre>
 ##  [1] NA NA NA NA NA NA  7  8  9 10 11 12 13 14 15
 ## 
 ## $type
-##  [1] FALSE FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE
-## [12] FALSE FALSE FALSE FALSE</code></pre>
+##  [1] FALSE FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE</code></pre>
 <!-- # Working with included data sets -->
 <!-- ## Searching -->
 <!-- ```{r} -->
