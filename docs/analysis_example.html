@@ -526,7 +526,14 @@ ggplot(data = ec_comparison, aes(monolayer, multilayer)) +
   geom_abline()+
   scale_x_continuous(limits = c(0,1))+
   scale_y_continuous(limits = c(0,1))+
-  coord_fixed()</code></pre>
+  coord_fixed() +
+  theme_bw()+
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title = element_text(size=15),
+        axis.text = element_text(color=&#39;black&#39;,size = 10),
+        legend.text =  element_text(size=15),
+        legend.title = element_text(size=20))</code></pre>
 <p><img src="analysis_example_files/figure-html/plotting%20eigenvector%20comparison-1.png" width="576" /></p>
 <p>The deviation of the points from the reference line indicates a lack
 of correlation between the two sets of scores. This observation suggests
@@ -544,14 +551,97 @@ the types of interactions captured by each layer. This highlights the
 importance of considering the unique ecological processes and
 interactions represented by different layers when analyzing multilayer
 networks and interpreting node importance.</p>
-<!-- # Mesoscale level analysis with included data sets -->
-<!-- At the mesoscale level of network analysis, we examine network properties on an intermediate scale that typically includes hundreds to thousands of nodes. This example demonstrates the use of `emln` to load a multilayer ecological network dataset from the emln package included data, and to detect module persistence using the popular community detection algorithm `infomap` with the `infomapecology` package. Through this analysis, we will gain insights into the temporal behavior of species communities and how they interact across multiple layers. -->
-<!-- ## loading the data set using `load_emln`. -->
-<!-- To begin, we need to load the data set we will be using for our analysis. the `load_emln` function loads the multilayer network data set and returns a `multilayer` object. -->
-<!-- ## using `infomap` with `infomapecology` to detect module persistence. -->
-<!-- Once we have loaded our data set, we can start our analysis by using `infomap` with `infomapEcology` to detect module persistence. `infomapecology` is a package  designed especially for ecologist to detect modules in ecological multilayer networks. -->
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream</p>
-<p>======= &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes</p>
+</div>
+</div>
+<div id="mesoscale-level-analysis-with-included-data-sets"
+class="section level1">
+<h1>Mesoscale level analysis with included data sets</h1>
+<p>In this example, we showcase the simplicity of loading a package
+included dataset and demonstrate how other methods can be applied to the
+loaded data.</p>
+<p>At the mesoscale level of network analysis, examining network
+properties such as modularity can provide insights into the temporal
+behavior of species communities. In this analysis, we employ the popular
+community detection algorithm <code>infomap</code> with the
+<code>infomapecology</code> package to detect module persistence.</p>
+<div id="loading-the-data" class="section level2">
+<h2>loading the data</h2>
+<p>To begin, we load the dataset using the <code>load_emln</code>
+function, which returns a <code>multilayer</code> object.</p>
+<p>Specifically, we load a temporal multilayer network (network_id = 65)
+that represents a food-web network with four layers and 39 physical
+nodes. The network comprises 383 intralayer edges that are directed and
+weighted, with no interlayer interactions.</p>
+<pre class="r"><code>emln_65 &lt;- load_emln(65)</code></pre>
+<pre><code>## [1] &quot;Creating state node map&quot;
+## [1] &quot;Creating extended link list with node IDs&quot;</code></pre>
+</div>
+<div id="module-persistence" class="section level2">
+<h2>Module persistence</h2>
+<p>Next, we utilize <code>infomap</code> with
+<code>infomapecology</code> to detect module persistence. We prepare the
+data for analysis by selecting the relevant columns and modifying their
+names. Then, we run <code>infomap</code> on the modified dataset,
+considering factors such as relaxation rate and limits.</p>
+<pre class="r"><code>emln_65_to_info &lt;- emln_65[c(&#39;extended_ids&#39;, &#39;nodes&#39;, &#39;layers&#39;)]
+
+# rename extended_ids to intra
+
+names(emln_65_to_info)[which(names(emln_65_to_info) == &#39;extended_ids&#39;)] &lt;- &#39;intra&#39;
+
+# Set the class of d68_to_info to be the same as d68 
+class(emln_65_to_info) &lt;- class(emln_65) 
+
+# Delete the ”layer_to&quot; column from the &quot;intra&quot; dataframe 
+emln_65_to_info[[&quot;intra&quot;]] &lt;- emln_65_to_info[[&quot;intra&quot;]][ , -which(names(emln_65_to_info[[&quot;intra&quot;]]) == &quot;layer_to&quot;)]
+
+
+emln_65_modularity &lt;- run_infomap_multilayer(emln_65_to_info, relax = T, silent = TRUE, 
+                                               trials = 50, seed = 497294,
+                                               multilayer_relax_rate = 0.15,
+                                               multilayer_relax_limit_up = 1,
+                                               multilayer_relax_limit_down = 0, 
+                                               temporal_network = T)</code></pre>
+<pre><code>## [1] &quot;Using global relax to determine flow between layers.&quot;
+## [1] &quot;./Infomap infomap_multilayer.txt . --tree -2 -N 50 --seed 497294 --silent --multilayer-relax-rate 0.15 --multilayer-relax-limit-up 1 --multilayer-relax-limit-down 0&quot;
+## [1] &quot;Reorganizing modules...&quot;
+## [1] &quot;Removing auxilary files...&quot;
+## [1] &quot;Partitioned into 11 modules.&quot;</code></pre>
+<p>To understand module persistence and its temporal dynamics, we plot
+the changes in each module’s size over time periods.</p>
+<pre class="r"><code># Module&#39; persistence
+plot_multilayer_modules(emln_65_modularity, type = &#39;rectangle&#39;, color_modules = T)+
+  scale_x_continuous(breaks=seq(0,6,1))+
+  scale_y_continuous(breaks=seq(0,40,5))+
+  scale_fill_viridis_c()+
+  theme_bw()+
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title = element_text(size=20),
+        axis.text = element_text(size = 20),
+        legend.text =  element_text(size=15),
+        legend.title = element_text(size=20))</code></pre>
+<p><img src="analysis_example_files/figure-html/plotting%20Module%20persistence-1.png" width="576" /></p>
+<p>Furthermore, we can visualize the modular structure over time by
+plotting the species flow through modules. In this visualization,
+modules are represented by colors, the size of rectangles indicates the
+number of species in each module, and curved lines depict species moving
+between layers (time periods).</p>
+<pre class="r"><code># Species flow through modules in time
+plot_multilayer_alluvial(emln_65_modularity, module_labels = F)+
+  scale_x_continuous(breaks=seq(0,6,1))+
+  scale_y_continuous(breaks=seq(0,150,20))+
+  labs(y=&#39;Number of species&#39;)+
+  theme_bw()+
+  theme(legend.position = &quot;none&quot;,
+        panel.grid = element_blank(),
+        axis.text = element_text(color=&#39;black&#39;, size = 20),
+        axis.title = element_text(size=20))</code></pre>
+<p><img src="analysis_example_files/figure-html/plotting%20Species%20flow-1.png" width="576" /></p>
+<p>By examining this visualization, we can gain insights into how
+species transition between modules over time, providing a visual
+representation of the dynamics of species communities within the
+multilayer network.</p>
 </div>
 </div>
 

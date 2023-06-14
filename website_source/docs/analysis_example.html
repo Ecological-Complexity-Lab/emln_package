@@ -607,20 +607,9 @@ emln_65_modularity &lt;- run_infomap_multilayer(emln_65_to_info, relax = T, sile
 ## [1] &quot;Reorganizing modules...&quot;
 ## [1] &quot;Removing auxilary files...&quot;
 ## [1] &quot;Partitioned into 11 modules.&quot;</code></pre>
-<p>To understand module persistence, we plot the changes in each
-module’s size over time periods. The resulting visualization allows us
-to analyze module persistence and its temporal dynamics.</p>
-</div>
-</div>
-<div id="module-persistence-1" class="section level1">
-<h1>1. Module persistence</h1>
-<p>emln_68_modules_persistence &lt;- emln_68_modularity<span
-class="math inline">\(modules %&gt;%  group_by(module)
-%&gt;%  summarise(b=min(layer_id), d=max(layer_id), persistence=d-b+1)
-%&gt;%  count(persistence)
-%&gt;%  mutate(percent=(n/max(emln_68_modularity\)</span>module$module))*100)</p>
+<p>To understand module persistence and its temporal dynamics, we plot
+the changes in each module’s size over time periods.</p>
 <pre class="r"><code># Module&#39; persistence
-
 plot_multilayer_modules(emln_65_modularity, type = &#39;rectangle&#39;, color_modules = T)+
   scale_x_continuous(breaks=seq(0,6,1))+
   scale_y_continuous(breaks=seq(0,40,5))+
@@ -653,6 +642,7 @@ plot_multilayer_alluvial(emln_65_modularity, module_labels = F)+
 species transition between modules over time, providing a visual
 representation of the dynamics of species communities within the
 multilayer network.</p>
+</div>
 </div>
 
 

@@ -248,18 +248,10 @@ emln_65_modularity <- run_infomap_multilayer(emln_65_to_info, relax = T, silent 
                                                temporal_network = T)
 ```
 
-To understand module persistence, we plot the changes in each module's size over time periods. The resulting visualization  allows us to analyze module persistence and its temporal dynamics.
-
-# 1. Module persistence
-emln_68_modules_persistence <- emln_68_modularity$modules %>%
-  group_by(module) %>% 
-  summarise(b=min(layer_id), d=max(layer_id), persistence=d-b+1) %>% 
-  count(persistence) %>%
-  mutate(percent=(n/max(emln_68_modularity$module$module))*100)
+To understand module persistence and its temporal dynamics, we plot the changes in each module's size over time periods.
 
 ```{r plotting Module persistence,echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
 # Module' persistence
-
 plot_multilayer_modules(emln_65_modularity, type = 'rectangle', color_modules = T)+
   scale_x_continuous(breaks=seq(0,6,1))+
   scale_y_continuous(breaks=seq(0,40,5))+
