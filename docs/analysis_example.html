@@ -372,7 +372,7 @@ div.tocify {
 </div>
 
 
-<!-- last modified 1/06/23 16:10 - moving updated version to the right place, editing documentation -->
+<!-- last modified 14/06/23 18:40 - moving updated version to the right place, editing documentation -->
 <script>
   addClassKlippyTo("pre.r, pre.markdown");
   addKlippy('right', 'top', '#8B0000', '1', 'Copy code', 'Copied!');
@@ -380,26 +380,8 @@ div.tocify {
 <!-- setup -->
 <pre class="r"><code>library(emln)
 library(tidyverse)
-library(bipartite)
-library(Matrix)
-library(ggraph)
-library(grid)
 library(infomapecology)
-library(readr)
-library(stringr)
-library(ggsci) 
-library(ggbreak)
-library(ggpubr)
-library(RColorBrewer)
-library(igraph)
-library(magrittr)
-library(ggplot2)
-library(tidyr)
-library(rlang)
-library(vegan)
-library(hablar)
-library(tibble)
-library(dplyr)</code></pre>
+library(magrittr)</code></pre>
 <p>The <code>emln</code> package is a valuable tool for importing,
 storing, and converting EMLN (Ecological Multilayer Network) data. In
 this section, we will demonstrate its practical application through
@@ -562,8 +544,9 @@ loaded data.</p>
 <p>At the mesoscale level of network analysis, examining network
 properties such as modularity can provide insights into the temporal
 behavior of species communities. In this analysis, we employ the popular
-community detection algorithm <code>infomap</code> with the
-<code>infomapecology</code> package to detect module persistence.</p>
+community detection algorithm <code>infomap</code> with the <a
+href="https://ecological-complexity-lab.github.io/infomap_ecology_package/">infomapecology
+package</a> to detect module persistence.</p>
 <div id="loading-the-data" class="section level2">
 <h2>loading the data</h2>
 <p>To begin, we load the dataset using the <code>load_emln</code>
@@ -642,6 +625,12 @@ plot_multilayer_alluvial(emln_65_modularity, module_labels = F)+
 species transition between modules over time, providing a visual
 representation of the dynamics of species communities within the
 multilayer network.</p>
+<p>for more details on temporal multilayer network analysis using
+<code>infomapecology</code> visit <a
+href="https://ecological-complexity-lab.github.io/infomap_ecology_package/multilayer_relax">Temporal
+multilayer network with global relax rates</a> and <a
+href="https://ecological-complexity-lab.github.io/infomap_ecology_package/multilayer_interlayer.html">Temporal
+multilayer network with interlayer edges</a>.</p>
 </div>
 </div>
 
