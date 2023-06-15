@@ -13,7 +13,7 @@ output:
  
 ---
 
-<!-- last modified 1/06/23 16:10 - moving updated version to the right place, editing documentation -->
+<!-- last modified 14/06/23 18:40 - moving updated version to the right place, editing documentation -->
 
 ```{r klippy, echo=FALSE, include=TRUE}
 # Use this to add a copy-code button
@@ -67,26 +67,8 @@ install_infomap()
 ```{r load libraries, echo=TRUE, message=FALSE, warning=FALSE}
 library(emln)
 library(tidyverse)
-library(bipartite)
-library(Matrix)
-library(ggraph)
-library(grid)
 library(infomapecology)
-library(readr)
-library(stringr)
-library(ggsci) 
-library(ggbreak)
-library(ggpubr)
-library(RColorBrewer)
-library(igraph)
 library(magrittr)
-library(ggplot2)
-library(tidyr)
-library(rlang)
-library(vegan)
-library(hablar)
-library(tibble)
-library(dplyr)
 ```
 The `emln` package is a valuable tool for importing, storing, and converting EMLN (Ecological Multilayer Network) data. In this section, we will demonstrate its practical application through analysis examples, including node-level analysis using an imported dataset and mesoscale analysis using a package-included dataset.
 
@@ -208,7 +190,7 @@ Nodes may exhibit high centrality within individual layers due to their specific
 
 In this example, we showcase the simplicity of loading a package included dataset and demonstrate how other methods can be applied to the loaded data.
 
-At the mesoscale level of network analysis, examining network properties such as modularity can provide insights into the temporal behavior of species communities. In this analysis, we employ the popular community detection algorithm `infomap` with the `infomapecology` package to detect module persistence.
+At the mesoscale level of network analysis, examining network properties such as modularity can provide insights into the temporal behavior of species communities. In this analysis, we employ the popular community detection algorithm `infomap` with the [infomapecology package](https://ecological-complexity-lab.github.io/infomap_ecology_package/) to detect module persistence.
 
 
 ## loading the data
@@ -282,3 +264,4 @@ plot_multilayer_alluvial(emln_65_modularity, module_labels = F)+
 
 By examining this visualization, we can gain insights into how species transition between modules over time, providing a visual representation of the dynamics of species communities within the multilayer network.
 
+for more details on temporal multilayer network analysis using `infomapecology` visit [Temporal multilayer network with global relax rates](https://ecological-complexity-lab.github.io/infomap_ecology_package/multilayer_relax) and [Temporal multilayer network with interlayer edges](https://ecological-complexity-lab.github.io/infomap_ecology_package/multilayer_interlayer.html).
