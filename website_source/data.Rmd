@@ -146,8 +146,18 @@ for(i in 1:number_of_networks){
 ###multilayer network types###
 multi <- data.frame()
 for (i in 1:length(all_descriptions)) {
-  multi <- rbind(multi, data.frame(network_id = i,
-                 multi_type = all_descriptions[[i]][all_descriptions[[i]]$attribute == 'multilayer_network_type',]$value))
+  # Issue 85 - Network 39 does not have an appropriate $description format #
+  #multi <- rbind(multi, data.frame(network_id = i,
+  #               multi_type = all_descriptions[[i]][all_descriptions[[i]]$attribute == 'multilayer_network_type',]$value))
+  subset_df <- all_descriptions[[i]][all_descriptions[[i]]$attribute == 'multilayer_network_type', ]
+  
+  if (nrow(subset_df) == 0) {
+    row <- data.frame(network_id = i, multi_type = "Missed")
+  } else {
+    row <- data.frame(network_id = i, multi_type = subset_df$value)
+  }
+  
+  multi <- rbind(multi, row)
 }
 
 
@@ -165,9 +175,20 @@ counted_multi_types <- counted_multi_types %>%
 ###ecological layer types###
 eco <- data.frame()
 for (i in 1:length(all_descriptions)) {
-  eco <- rbind(eco, data.frame(network_id = i,
-                 eco_type = all_descriptions[[i]][all_descriptions[[i]]$attribute == 'ecological_network_type',]$value))
+  # Issue 85 - Network 39 does not have an appropriate $description format
+  #eco <- rbind(eco, data.frame(network_id = i,
+  #               eco_type = all_descriptions[[i]][all_descriptions[[i]]$attribute == 'ecological_network_type',]$value))
+   subset_df <- all_descriptions[[i]][all_descriptions[[i]]$attribute == 'ecological_network_type', ]
+  
+  if (nrow(subset_df) == 0) {
+    row <- data.frame(network_id = i, eco_type = "Missed")
+  } else {
+    row <- data.frame(network_id = i, eco_type = subset_df$value)
+  }
+  
+  eco <- rbind(eco, row)
 }
+
 
 #count the number of types present in all the networks
 counted_eco_types<-count(x = eco,eco_type)
