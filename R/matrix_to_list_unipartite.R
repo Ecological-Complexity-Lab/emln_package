@@ -5,7 +5,7 @@
 #' @details Assigns column and row names if those do not exist. Cannot handle node attributes/metadata.
 #'
 #' @param x An adjacency or incidence matrix.
-#' @param directed Is the network directed?
+#' @param directed Is the network directed? TRUE/FALSE
 #'
 #' @return A \code{monolayer} object
 #'

@@ -4,8 +4,7 @@
 #'
 #' @description View the database interactively.
 #'
-#'
-#' @return An interactive GUI for selecting networks.
+#' @return An interactive GUI for browinsg through networks.
 #'
 #' @export view_emln
 
