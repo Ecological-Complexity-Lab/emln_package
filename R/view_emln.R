@@ -1,6 +1,6 @@
 #' View networks
 #'
-#'@name view_emln
+#' @name view_emln
 #'
 #' @description View the database interactively.
 #'

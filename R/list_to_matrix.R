@@ -25,6 +25,9 @@
 #'
 #' list_to_matrix(links, directed = TRUE, bipartite = FALSE, node_metadata = nodes)
 #'
+#' @examples
+#'
+#' # See examples in: https://ecological-complexity-lab.github.io/emln_package/monolayer.html#Unipartite
 #'
 #' @export
 ## @import dplyr
