@@ -10,10 +10,12 @@ Web_of_Life
 http://www.web-of-life.es
 }
 \description{
-Network Description:
-
-| network_id | multilayer_network_type | ecological_network_type | state_nodes |
-|:----------:|:-----------------------:|:-----------------------:|:-----------:|
-|     14     |        Multiplex        |     Seed-Dispersal      |    FALSE    |
+emln14_multiplex_mello_2019
+}
+\details{
+Network Description:\tabular{cccc}{
+   network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
+   14 \tab Multiplex \tab Seed-Dispersal \tab FALSE \cr
+}
 }
 \keyword{internal}

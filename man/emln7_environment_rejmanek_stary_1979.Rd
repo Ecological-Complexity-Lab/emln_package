@@ -10,10 +10,12 @@ mangal
 https://mangal.io/doc/api/
 }
 \description{
-Network Description:
-
-| network_id | multilayer_network_type | mangal_code | ecological_network_type | state_nodes |
-|:----------:|:-----------------------:|:-----------:|:-----------------------:|:-----------:|
-|     7      |       Environment       |     112     |      Host-Parasite      |    FALSE    |
+emln7_environment_rejmanek_stary_1979
+}
+\details{
+Network Description:\tabular{ccccc}{
+   network_id \tab multilayer_network_type \tab mangal_code \tab ecological_network_type \tab state_nodes \cr
+   7 \tab Environment \tab 112 \tab Host-Parasite \tab FALSE \cr
+}
 }
 \keyword{internal}

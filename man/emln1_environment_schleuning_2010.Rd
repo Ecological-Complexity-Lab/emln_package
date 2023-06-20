@@ -10,10 +10,12 @@ Interaction_Web_DataBase
 http://www.ecologia.ib.usp.br/iwdb/html/schleuning-et-al-2010.html
 }
 \description{
-Network Description:
-
-| network_id | multilayer_network_type | ecological_network_type | state_nodes |
-|:----------:|:-----------------------:|:-----------------------:|:-----------:|
-|     1      |       Environment       |     Seed-Dispersal      |    FALSE    |
+emln1_environment_schleuning_2010
+}
+\details{
+Network Description:\tabular{cccc}{
+   network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
+   1 \tab Environment \tab Seed-Dispersal \tab FALSE \cr
+}
 }
 \keyword{internal}

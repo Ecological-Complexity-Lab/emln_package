@@ -1,8 +1,8 @@
 #'
-#' @title emln5_environment_jones_1949
 #' @docType data
+#' @title emln5_environment_jones_1949
 #' 
-#' @description Network Description:
+#' @details Network Description:
 #' 
 #' | network_id | multilayer_network_type | mangal_code | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------:|:-----------------------:|:-----------:|
@@ -12,5 +12,6 @@
 #' @usage NULL
 #' @source mangal
 #' @source https://mangal.io/doc/api/
+#' @md
 #' @keywords internal
 'emln5_environment_jones_1949'

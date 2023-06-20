@@ -22,6 +22,7 @@ Useful links:
 Authors:
 \itemize{
   \item Noa Frydman \email{noafrydman97@gmail.com}
+  \item Shirly Freilikhman \email{shirlyf@bgu.ac.il}
 }
 
 }

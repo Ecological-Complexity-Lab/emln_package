@@ -10,10 +10,12 @@ mangal
 https://mangal.io/doc/api/
 }
 \description{
-Network Description:
-
-| network_id | multilayer_network_type | mangal_code | ecological_network_type | state_nodes |
-|:----------:|:-----------------------:|:-----------:|:-----------------------:|:-----------:|
-|     3      |       Environment       |     87      |        Food-Web         |    FALSE    |
+emln3_environment_bird_1930
+}
+\details{
+Network Description:\tabular{ccccc}{
+   network_id \tab multilayer_network_type \tab mangal_code \tab ecological_network_type \tab state_nodes \cr
+   3 \tab Environment \tab 87 \tab Food-Web \tab FALSE \cr
+}
 }
 \keyword{internal}

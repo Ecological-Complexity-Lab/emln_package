@@ -10,10 +10,12 @@ Dryad
 https://datadryad.org/stash/dataset/doi:10.5061/dryad.b4vg0
 }
 \description{
-Network Description:
-
-| network_id | multilayer_network_type | ecological_network_type | state_nodes |
-|:----------:|:-----------------------:|:-----------------------:|:-----------:|
-|     13     |        Multiplex        |        Food-Web         |    FALSE    |
+emln13_multiplex_kefi_2016
+}
+\details{
+Network Description:\tabular{cccc}{
+   network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
+   13 \tab Multiplex \tab Food-Web \tab FALSE \cr
+}
 }
 \keyword{internal}

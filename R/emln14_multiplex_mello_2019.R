@@ -1,8 +1,8 @@
 #'
-#' @title emln14_multiplex_mello_2019
 #' @docType data
+#' @title emln14_multiplex_mello_2019
 #' 
-#' @description Network Description:
+#' @details Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|
@@ -12,5 +12,6 @@
 #' @usage NULL
 #' @source Web_of_Life
 #' @source http://www.web-of-life.es
+#' @md
 #' @keywords internal
 'emln14_multiplex_mello_2019'
