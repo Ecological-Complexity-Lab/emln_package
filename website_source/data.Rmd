@@ -79,8 +79,9 @@ sub.folders.long <- sub.folders.long[str_order(sub.folders.short, numeric = T)]
 
 ## the number of multilayer networks in the database
 number_of_networks <- length(sub.folders.long)
-#81 was replaced with 80
-id_readout <- data.frame(id = 1:80, network_name = sub.folders.short[str_order(sub.folders.short, numeric = T)], network_path = sub.folders.long)
+# 81 was replaced with 80
+# 80 was replaced with number_of_networks
+id_readout <- data.frame(id = 1:number_of_networks, network_name = sub.folders.short[str_order(sub.folders.short, numeric = T)], network_path = sub.folders.long)
 
 #create big lists that each contain the nodes/layers/description/references csv
 #NOTE! not all networks have a references csv
@@ -127,6 +128,8 @@ attributes_interactions<-NULL
 attributes_nodes<-NULL
 
 ##create the lists using the files that contain the types, number, ettributes etc...##
+# Issue 85 - Network 39 does not have an appropriate $description format #
+# Issue 50 - Network 39 does not have an appropriate $description format #
 for(i in 1:number_of_networks){ 
     layer_type<-rbind(layer_type,tibble(network_id=i,filter(all_layers[[i]],attribute=="type")))
     node_type<-rbind(node_type,tibble(network_id=i,filter(all_nodes[[i]],attribute =="type")))
@@ -238,7 +241,9 @@ The data is distributed globally:
 latitudes<-NULL
 longitudes<-NULL
 coord <- NULL
-for(i in 1:80){
+# 80 was replaced with number_of_networks
+
+for(i in 1:number_of_networks){
   if ('latitude' %in% all_layers[[i]]$attribute) {
     coord <- rbind(coord, data.frame(network_id = i,
                                      latitude = as.numeric(unlist(strsplit(filter(all_layers[[i]],

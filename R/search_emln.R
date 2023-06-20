@@ -21,6 +21,9 @@
 #'
 #'
 #' @examples
+#'
+#' See examples in: https://ecological-complexity-lab.github.io/emln_package/data.html#Browsing_the_data
+#'
 #' # Generates a tibble of all the networks in the package that are pollination networks
 #' search_emln(ecological_network_type = 'Plant-Ant')
 #'

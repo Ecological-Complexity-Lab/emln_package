@@ -13,14 +13,11 @@ output:
  
 ---
 
-<!-- last modified 14/06/23 18:40 - moving updated version to the right place, editing documentation -->
+
+<!-- Use this to add a copy-code button install.packages("remotes") remotes::install_github("rlesur/klippy") -->
+
 
 ```{r klippy, echo=FALSE, include=TRUE}
-# Use this to add a copy-code button
-
-# install.packages("remotes")
-# remotes::install_github("rlesur/klippy")
-
 klippy::klippy(position = c('top', 'right'), color = 'darkred')
 ```
 
@@ -29,21 +26,6 @@ knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=FALSE)
 ```
 
 <!-- setup -->
-
-```{r source emln functions,include=FALSE}
-#devtools::install_github(repo = 'Ecological-Complexity-Lab/emln_package', force = T, auth_token = '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')
-
-#source('R/create_multilayer_network.R')
-#source('R/create_monolayer_object.R')
-#source('R/get_sam.R')
-#source('R/get_igraph.R')
-#source('R/list_to_matrix.R')
-#source('R/matrix_to_list_bipartite.R')
-#source('R/matrix_to_list_unipartite.R')
-#source('R/view_emln.R')
-#source('R/load_emln.R')
-#source('R/search_emln.R')
-```
 
 
 ```{r load libraries, echo=TRUE, message=FALSE, warning=FALSE}
@@ -168,7 +150,6 @@ The deviation of the points from the reference line indicates a lack of correlat
 
 In this example, we showcase how to load and analyze a data set included in the `emln` package. At the mesoscale level of network analysis, examining network properties such as modularity can provide insights into the temporal behavior of species communities. In this analysis, we use the community detection algorithm `infomap` with the [infomapecology package](https://ecological-complexity-lab.github.io/infomap_ecology_package/) to detect modules in a temporal multilayer network.
 
-
 ## loading the data
 
 To begin, we load the dataset using the `load_emln` function, which returns a `multilayer` object. This is a temporal multilayer network (network_id = 65) that represents a food-web with four layers and 39 physical nodes. The network comprises 383 intralayer edges that are directed and weighted, with no interlayer interactions.
@@ -182,15 +163,20 @@ emln_65 <- load_emln(65)
 
 Next, we use `infomap` with `infomapecology` to detect modules. We first the prepare the data for analysis by selecting the relevant columns and modifying their names. Then, we run `infomap` on the modified dataset, considering factors such as relaxation rate and limits.
 
+
+_Note that the function `create_multilayer_object` prepares a multilayer object for `infomapecology`. Future versions of `infomapecology` will directly use the multilayer object created by the EMLN package._
+
 ```{r infomap with infomapecology,,echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
 emln_65_for_infomap <- infomapecology::create_multilayer_object(extended = emln_65$extended_ids[,1:5], nodes = emln_65$nodes, intra_output_extended = F)
 
-emln_65_modularity <- run_infomap_multilayer(M = emln_65_to_info, flow_model = 'directed',
-                                              infomap_executable = 'Infomap_noomp', relax = T, silent = TRUE, 
+
+
+emln_65_modularity <- run_infomap_multilayer(M = emln_65_for_infomap,
+                                               relax = T, silent = TRUE,
                                                trials = 50, seed = 497294,
                                                multilayer_relax_rate = 0.15,
                                                multilayer_relax_limit_up = 1,
-                                               multilayer_relax_limit_down = 0, 
+                                               multilayer_relax_limit_down = 0,
                                                temporal_network = T)
 ```
 

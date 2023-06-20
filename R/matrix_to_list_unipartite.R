@@ -5,13 +5,15 @@
 #' @details Assigns column and row names if those do not exist. Cannot handle node attributes/metadata.
 #'
 #' @param x An adjacency or incidence matrix.
-#' @param directed Is the network directed?
+#' @param directed Is the network directed? TRUE/FALSE
 #'
 #' @return A \code{monolayer} object
 #'
 #' @seealso \code{create_monolayer_object, monolayer}
 #'
 #' @examples
+#'
+#' # See examples in: https://ecological-complexity-lab.github.io/emln_package/monolayer.html#Unipartite
 #'
 #' # Generate a matrix with radnom weighted interactions
 #' x <- matrix(rbinom(100,1,0.6),10,10)

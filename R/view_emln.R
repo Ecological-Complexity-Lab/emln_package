@@ -1,11 +1,10 @@
 #' View networks
 #'
-#'@name view_emln
+#' @name view_emln
 #'
 #' @description View the database interactively.
 #'
-#'
-#' @return An interactive GUI for selecting networks.
+#' @return An interactive GUI for browinsg through networks.
 #'
 #' @export view_emln
 

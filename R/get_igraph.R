@@ -16,6 +16,10 @@
 #'
 #' @details If link, physical node or state node attributes are included in the multilayer network they are passed to the igraph objects.
 #'
+#' @examples
+#'
+#' # See examples in: https://ecological-complexity-lab.github.io/emln_package/multilayer.html#To_igraph_objects
+#'
 #' @export
 
 get_igraph <- function(multilayer, bipartite, directed) {
