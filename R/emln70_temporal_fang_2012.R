@@ -2,7 +2,7 @@
 #' @docType data
 #' @title emln70_temporal_fang_2012
 #' 
-#' @details Network Description:
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

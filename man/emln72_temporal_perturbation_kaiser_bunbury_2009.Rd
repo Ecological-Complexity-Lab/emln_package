@@ -15,9 +15,6 @@ http://www.ecologia.ib.usp.br/iwdb/html/kaiser-bunbury_2009.html
 http://www.web-of-life.es/map.php
 }
 \description{
-emln72_temporal_perturbation_kaiser_bunbury_2009
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    72 \tab Temporal    , Perturbation \tab Pollination \tab FALSE \cr

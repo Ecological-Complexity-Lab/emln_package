@@ -42,3 +42,8 @@ By default, a SAM contains all the nodes in all the layers. However,
   directed matrix (see toy example for unipartite network), or in
   diagonally-coupled networks (see toy bipartite example). The user can choose to remove rows and columns that sum to zero by setting \code{remove_zero_rows_cols} to \code{TRUE}.
 }
+\examples{
+
+# See examples in: https://ecological-complexity-lab.github.io/emln_package/multilayer.html#To_supra-adjacency_matrices
+
+}

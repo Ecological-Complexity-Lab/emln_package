@@ -14,9 +14,6 @@ http://www.web-of-life.es/map.php?type=6
 http://www.ecologia.ib.usp.br/iwdb/html/schleuning-et-al-2010.html
 }
 \description{
-emln6_environment_kohler_2011
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    6 \tab Environment \tab Pollination \tab TRUE \cr

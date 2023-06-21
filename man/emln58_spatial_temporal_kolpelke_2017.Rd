@@ -10,9 +10,6 @@ mangal
 https://mangal.io/doc/api/
 }
 \description{
-emln58_spatial_temporal_kolpelke_2017
-}
-\details{
 Network Description:\tabular{ccccc}{
    network_id \tab multilayer_network_type \tab mangal_code \tab ecological_network_type \tab state_nodes \cr
    58 \tab Spatial , Temporal \tab 6 \tab Host-Parasite \tab FALSE \cr

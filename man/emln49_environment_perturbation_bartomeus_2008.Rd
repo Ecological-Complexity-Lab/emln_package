@@ -15,9 +15,6 @@ http://www.ecologia.ib.usp.br/iwdb/html/bartomeus_2008.html
 http://www.web-of-life.es/map.php
 }
 \description{
-emln49_environment_perturbation_bartomeus_2008
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    49 \tab Environment , Perturbation \tab Pollination \tab FALSE \cr

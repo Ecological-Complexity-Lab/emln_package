@@ -10,9 +10,6 @@ mangal
 https://mangal.io/doc/api/
 }
 \description{
-emln46_spatial_olesen_2002
-}
-\details{
 Network Description:\tabular{ccccc}{
    network_id \tab multilayer_network_type \tab mangal_code \tab ecological_network_type \tab state_nodes \cr
    46 \tab Spatial \tab 61 \tab Pollination \tab FALSE \cr

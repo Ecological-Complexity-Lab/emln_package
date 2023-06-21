@@ -10,9 +10,6 @@ owner_of_data
 NA
 }
 \description{
-emln38_spatial_krasnov_ectoparasites
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    38 \tab Spatial \tab Host-Parasite \tab FALSE \cr

@@ -10,9 +10,6 @@ Web_of_Life
 http://www.web-of-life.es/map.php
 }
 \description{
-emln37_spatial_jordano_unpubl
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    37 \tab Spatial \tab Seed-Dispersal \tab FALSE \cr

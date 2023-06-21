@@ -10,9 +10,6 @@ Dryad
 https://doi.org/10.5061/dryad.vmcvdncq0
 }
 \description{
-emln59_spatial_temporal_martins_2020
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    59 \tab Spatial , Temporal \tab Plant-Herbivore \tab TRUE \cr

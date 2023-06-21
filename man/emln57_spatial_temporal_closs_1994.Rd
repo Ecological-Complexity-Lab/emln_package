@@ -10,9 +10,6 @@ mangal
 https://mangal.io/doc/api/
 }
 \description{
-emln57_spatial_temporal_closs_1994
-}
-\details{
 Network Description:\tabular{ccccc}{
    network_id \tab multilayer_network_type \tab mangal_code \tab ecological_network_type \tab state_nodes \cr
    57 \tab Spatial , Temporal \tab 49 \tab Food-Web \tab FALSE \cr

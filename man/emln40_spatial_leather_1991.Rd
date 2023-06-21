@@ -14,9 +14,6 @@ http://www.web-of-life.es/map.php
 http://www.ecologia.ib.usp.br/iwdb/html/leather_1991.htm
 }
 \description{
-emln40_spatial_leather_1991
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    40 \tab Spatial \tab Plant-Herbivore \tab TRUE \cr

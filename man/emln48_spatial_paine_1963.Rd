@@ -10,9 +10,6 @@ mangal
 https://mangal.io/doc/api/
 }
 \description{
-emln48_spatial_paine_1963
-}
-\details{
 Network Description:\tabular{ccccc}{
    network_id \tab multilayer_network_type \tab mangal_code \tab ecological_network_type \tab state_nodes \cr
    48 \tab Spatial \tab 110 \tab Food-Web \tab FALSE \cr

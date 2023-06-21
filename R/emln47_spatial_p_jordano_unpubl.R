@@ -2,7 +2,7 @@
 #' @docType data
 #' @title emln47_spatial_p_jordano_unpubl
 #' 
-#' @details Network Description:
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

@@ -9,7 +9,7 @@ matrix_to_list_unipartite(x, directed)
 \arguments{
 \item{x}{An adjacency or incidence matrix.}
 
-\item{directed}{Is the network directed?}
+\item{directed}{Is the network directed? TRUE/FALSE}
 }
 \value{
 A \code{monolayer} object
@@ -21,6 +21,8 @@ Convert an adjacency matrix to an edge list.
 Assigns column and row names if those do not exist. Cannot handle node attributes/metadata.
 }
 \examples{
+
+# See examples in: https://ecological-complexity-lab.github.io/emln_package/monolayer.html#Unipartite
 
 # Generate a matrix with radnom weighted interactions
 x <- matrix(rbinom(100,1,0.6),10,10)

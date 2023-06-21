@@ -10,9 +10,6 @@ Dryad
 https://datadryad.org/stash/dataset/doi:10.5061/dryad.8cz8w9gm1
 }
 \description{
-emln26_spatial_chacoff_2020
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    26 \tab Spatial \tab Pollination \tab FALSE \cr

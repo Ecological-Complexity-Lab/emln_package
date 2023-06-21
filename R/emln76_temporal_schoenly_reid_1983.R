@@ -2,7 +2,7 @@
 #' @docType data
 #' @title emln76_temporal_schoenly_reid_1983
 #' 
-#' @details Network Description:
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | mangal_code | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------:|:-----------------------:|:-----------:|

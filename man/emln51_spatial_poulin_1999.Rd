@@ -14,9 +14,6 @@ http://www.web-of-life.es/map.php
 http://www.ecologia.ib.usp.br/iwdb/resources.html
 }
 \description{
-emln51_spatial_poulin_1999
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    51 \tab Spatial \tab Seed-Dispersal \tab FALSE \cr

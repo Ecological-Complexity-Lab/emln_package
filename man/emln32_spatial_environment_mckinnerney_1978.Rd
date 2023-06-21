@@ -10,9 +10,6 @@ mangal
 https://mangal.io/doc/api/
 }
 \description{
-emln32_spatial_environment_mckinnerney_1978
-}
-\details{
 Network Description:\tabular{ccccc}{
    network_id \tab multilayer_network_type \tab mangal_code \tab ecological_network_type \tab state_nodes \cr
    32 \tab Spatial    , Environment \tab 148 \tab Food-Web \tab FALSE \cr

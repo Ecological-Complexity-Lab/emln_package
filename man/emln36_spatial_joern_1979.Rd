@@ -14,9 +14,6 @@ http://www.web-of-life.es/map.php?type=6
 http://www.ecologia.ib.usp.br/iwdb/html/joern_1979.htm
 }
 \description{
-emln36_spatial_joern_1979
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    36 \tab Spatial \tab Plant-Herbivore \tab TRUE \cr

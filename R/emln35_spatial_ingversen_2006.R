@@ -2,7 +2,7 @@
 #' @docType data
 #' @title emln35_spatial_ingversen_2006
 #' 
-#' @details Network Description:
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

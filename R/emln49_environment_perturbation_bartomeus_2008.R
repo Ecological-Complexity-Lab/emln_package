@@ -2,7 +2,7 @@
 #' @docType data
 #' @title emln49_environment_perturbation_bartomeus_2008
 #' 
-#' @details Network Description:
+#' @description Network Description:
 #' 
 #' | network_id |  multilayer_network_type   | ecological_network_type | state_nodes |
 #' |:----------:|:--------------------------:|:-----------------------:|:-----------:|

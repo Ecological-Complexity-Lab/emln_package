@@ -2,7 +2,7 @@
 #' @docType data
 #' @title emln30_spatial_elberling_1999
 #' 
-#' @details Network Description:
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

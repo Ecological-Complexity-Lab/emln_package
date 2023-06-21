@@ -10,9 +10,6 @@ mangal
 https://mangal.io/doc/api/
 }
 \description{
-emln10_environment_temporal_parker_huryn_2006
-}
-\details{
 Network Description:\tabular{ccccc}{
    network_id \tab multilayer_network_type \tab mangal_code \tab ecological_network_type \tab state_nodes \cr
    10 \tab Environment, Temporal \tab 141 \tab Food-Web \tab FALSE \cr

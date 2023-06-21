@@ -14,9 +14,6 @@ http://www.ecologia.ib.usp.br/iwdb/html/medan_et_al_2002.html
 http://www.web-of-life.es/map.php
 }
 \description{
-emln41_spatial_medan_2002
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    41 \tab Spatial \tab Pollination \tab FALSE \cr

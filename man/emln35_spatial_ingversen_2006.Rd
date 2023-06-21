@@ -10,9 +10,6 @@ Web_of_Life
 http://www.web-of-life.es/map.php
 }
 \description{
-emln35_spatial_ingversen_2006
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    35 \tab Spatial \tab Pollination \tab FALSE \cr

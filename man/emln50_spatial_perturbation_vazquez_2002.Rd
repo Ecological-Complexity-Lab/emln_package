@@ -10,9 +10,6 @@ Interaction_Web_DataBase
 http://www.ecologia.ib.usp.br/iwdb/html/vazquez_2002.html
 }
 \description{
-emln50_spatial_perturbation_vazquez_2002
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    50 \tab Spatial     , Perturbation \tab Pollination \tab FALSE \cr

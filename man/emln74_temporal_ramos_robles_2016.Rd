@@ -10,9 +10,6 @@ PeerJ
 https://peerj.com/articles/2048/#supplemental-information
 }
 \description{
-emln74_temporal_ramos_robles_2016
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    74 \tab Temporal \tab Seed-Dispersal \tab FALSE \cr

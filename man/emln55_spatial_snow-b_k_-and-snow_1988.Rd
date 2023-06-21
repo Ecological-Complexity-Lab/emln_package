@@ -14,9 +14,6 @@ http://www.ecologia.ib.usp.br/iwdb/html/snow_snow_1971.htm
 http://www.web-of-life.es/map.php?type=6
 }
 \description{
-emln55_spatial_snow b_k_&snow_1988
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    55 \tab Spatial \tab Pollination \tab TRUE \cr

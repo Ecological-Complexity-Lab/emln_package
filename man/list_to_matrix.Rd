@@ -45,6 +45,8 @@ links<-subset(network$extended \%>\% filter(layer_from==1), select=c(node_from, 
 list_to_matrix(links, directed = TRUE, bipartite = FALSE, node_metadata = nodes)
 
 
+# See examples in: https://ecological-complexity-lab.github.io/emln_package/monolayer.html#Unipartite
+
 }
 \seealso{
 Functions \code{create_monolayer_object, monolayer}, also,\code{graph.data.frame} from igraph.

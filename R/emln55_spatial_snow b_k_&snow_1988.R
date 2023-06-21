@@ -2,7 +2,7 @@
 #' @docType data
 #' @title emln55_spatial_snow b_k_&snow_1988
 #' 
-#' @details Network Description:
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

@@ -2,7 +2,7 @@
 #' @docType data
 #' @title emln29_spatial_dupont_olesen_2009
 #' 
-#' @details Network Description:
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

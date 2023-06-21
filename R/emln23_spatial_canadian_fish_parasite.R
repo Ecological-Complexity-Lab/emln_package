@@ -2,7 +2,7 @@
 #' @docType data
 #' @title emln23_spatial_canadian_fish_parasite
 #' 
-#' @details Network Description:
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

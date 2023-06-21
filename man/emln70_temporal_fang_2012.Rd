@@ -10,9 +10,6 @@ web
 https://figshare.com/articles/dataset/Relative_Stability_of_Core_Groups_in_Pollination_Networks_in_a_Biodiversity_Hotspot_over_Four_Years/127797
 }
 \description{
-emln70_temporal_fang_2012
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    70 \tab Temporal \tab Pollination \tab FALSE \cr

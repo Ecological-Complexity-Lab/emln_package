@@ -10,9 +10,6 @@ EDI_data_portal
 https://portal.edirepository.org/nis/mapbrowse?packageid=edi.512.1
 }
 \description{
-emln65_temporal_caradona_2020
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    65 \tab Temporal \tab Pollination \tab FALSE \cr

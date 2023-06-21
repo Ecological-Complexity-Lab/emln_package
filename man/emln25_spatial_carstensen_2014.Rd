@@ -10,9 +10,6 @@ figshare
 https://figshare.com/articles/dataset/\emph{Beta_Diversity_of_Plant_Pollinator_Networks_and_the_Spatial_Turnover_of_Pairwise_Interactions}/1234708
 }
 \description{
-emln25_spatial_carstensen_2014
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    25 \tab Spatial \tab Pollination \tab FALSE \cr

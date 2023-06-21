@@ -14,9 +14,6 @@ http://www.web-of-life.es/map.php
 http://www.ecologia.ib.usp.br/iwdb/resources.html
 }
 \description{
-emln39_spatial_kyoto
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    39 \tab Spatial \tab Pollination \tab FALSE \cr

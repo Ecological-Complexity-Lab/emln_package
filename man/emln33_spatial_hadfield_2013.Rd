@@ -14,9 +14,6 @@ http://www.web-of-life.es/map.php
 https://datadryad.org/stash/dataset/doi:10.5061/dryad.jf3tj
 }
 \description{
-emln33_spatial_hadfield_2013
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    33 \tab Spatial \tab Host-Parasite \tab TRUE \cr

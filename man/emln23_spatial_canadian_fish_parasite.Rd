@@ -10,9 +10,6 @@ Interaction_Web_DataBase
 http://www.ecologia.ib.usp.br/iwdb/html/canadian_fish.html
 }
 \description{
-emln23_spatial_canadian_fish_parasite
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    23 \tab Spatial \tab Host-Parasite \tab TRUE \cr

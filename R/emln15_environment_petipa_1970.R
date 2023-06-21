@@ -2,7 +2,7 @@
 #' @docType data
 #' @title emln15_environment_petipa_1970
 #' 
-#' @details Network Description:
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | mangal_code | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------:|:-----------------------:|:-----------:|

@@ -10,9 +10,6 @@ Dryad
 https://datadryad.org/stash/dataset/doi:10.5061/dryad.76173
 }
 \description{
-emln61_spatial_trojelsgaard_2015
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    61 \tab Spatial \tab Pollination \tab FALSE \cr

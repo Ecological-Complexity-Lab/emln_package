@@ -2,7 +2,7 @@
 #' @docType data
 #' @title emln2_environment_benadi_jae_2013
 #' 
-#' @details Network Description:
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|

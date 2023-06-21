@@ -7,7 +7,7 @@
 view_emln()
 }
 \value{
-An interactive GUI for selecting networks.
+An interactive GUI for browinsg through networks.
 }
 \description{
 View the database interactively.

@@ -2,7 +2,7 @@
 #' @docType data
 #' @title emln72_temporal_perturbation_kaiser_bunbury_2009
 #' 
-#' @details Network Description:
+#' @description Network Description:
 #' 
 #' | network_id |  multilayer_network_type   | ecological_network_type | state_nodes |
 #' |:----------:|:--------------------------:|:-----------------------:|:-----------:|

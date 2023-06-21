@@ -10,9 +10,6 @@ Web_of_Life
 http://www.web-of-life.es/map.php
 }
 \description{
-emln29_spatial_dupont_olesen_2009
-}
-\details{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
    29 \tab Spatial \tab Pollination \tab FALSE \cr

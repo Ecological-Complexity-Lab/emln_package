@@ -2,7 +2,7 @@
 #' @docType data
 #' @title emln3_environment_bird_1930
 #' 
-#' @details Network Description:
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | mangal_code | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------:|:-----------------------:|:-----------:|

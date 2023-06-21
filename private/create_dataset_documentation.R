@@ -40,7 +40,7 @@ generate_data_description <- function(folders){
   write_lines(paste0("#' @docType ",'data'), f, append = T)
   write_lines(paste0("#' @title ",tolower(dataset_name)), f, append = T)
   write_lines(paste0("#' "), f, append = T)
-  write_lines(paste0("#' @details ", 'Network Description:'), f, append = T)
+  write_lines(paste0("#' @description ", 'Network Description:'), f, append = T)
   write_lines(paste0("#' "), f, append = T)
   write_lines(paste0("#' ",table), f, append = T)
   write_lines(paste0("#' "), f, append = T)

@@ -2,7 +2,7 @@
 #' @docType data
 #' @title emln8_environment_savely_1939
 #' 
-#' @details Network Description:
+#' @description Network Description:
 #' 
 #' | network_id | multilayer_network_type | mangal_code | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------:|:-----------------------:|:-----------:|
