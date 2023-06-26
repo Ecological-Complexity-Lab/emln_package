@@ -69,6 +69,7 @@ Input of \code{list_of_layers} is handled by the function
   See multiple example in the code accompanying the package
 }
 \examples{
+\dontrun{
 pond_1 <- matrix(c(0,1,1,0,0,1,0,0,0), byrow = T, nrow = 3, ncol = 3, dimnames = list(c('pelican','fish','crab'),c('pelican','fish','crab')))
 pond_2 <- matrix(c(0,1,0,0,0,1,0,0,0), byrow = T, nrow = 3, ncol = 3, dimnames = list(c('pelican','fish','crab'),c('pelican','fish','crab')))
 pond_3 <- matrix(c(0,1,1,0,0,1,0,0,0), byrow = T, nrow = 3, ncol = 3, dimnames = list(c('pelican','fish','tadpole'),c('pelican','fish','tadpole')))
@@ -89,6 +90,7 @@ names(interlayer_2) <- names(interlayer)
 interlayer <- rbind(interlayer, interlayer_2)
 
 multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, pond_3), layer_attributes = layer_attrib, interlayer_links = interlayer, bipartite = F, directed = T)
+}
 }
 \seealso{
 [multilayer()]
