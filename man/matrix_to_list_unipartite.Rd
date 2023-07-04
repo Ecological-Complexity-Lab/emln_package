@@ -21,7 +21,7 @@ Convert an adjacency matrix to an edge list.
 Assigns column and row names if those do not exist. Cannot handle node attributes/metadata.
 }
 \examples{
-
+\dontrun{
 # See examples in: https://ecological-complexity-lab.github.io/emln_package/monolayer.html#Unipartite
 
 # Generate a matrix with radnom weighted interactions
@@ -29,7 +29,7 @@ x <- matrix(rbinom(100,1,0.6),10,10)
 x <- x*round(runif(100,1,5),0)
 # run
 matrix_to_list_unipartite(x, directed = TRUE)
-
+}
 }
 \seealso{
 \code{create_monolayer_object, monolayer}

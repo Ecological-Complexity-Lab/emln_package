@@ -22,6 +22,7 @@
 #'   \code{list_to_matrix, matrix_to_list_unipartite, matrix_to_list_bipartite}. Node metadata can only be included with an edge list input.
 #'
 #' @examples
+#' \dontrun{
 #' # A bipartite network from package bipartte
 #' x <- create_monolayer_object(bipartite::memmott1999, bipartite = TRUE,
 #' directed = FALSE, group_names = c('Animals','Plants'))
@@ -35,7 +36,7 @@
 #' E(g)$weight=runif(ecount(g)) # Add edge weights
 #' plot(g, layout=layout.bipartite)
 #' create_monolayer_object(g, group_names = c('Parasites','Hosts'))
-#'
+#'}
 #'
 #'
 #'
