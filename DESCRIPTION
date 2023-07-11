@@ -29,16 +29,13 @@ LazyData: true
 Depends:
     R (>= 4.1.0),
     magrittr,
-    dplyr,
-    ggplot2,
     stringr,
-    tibble,
-    tidyr,
+    tidyverse,
     rlang,
     igraph,
-    vegan,
     hablar,
-    DT
+    DT,
+    tibble
 Suggests:
   bipartite
 RoxygenNote: 7.2.3

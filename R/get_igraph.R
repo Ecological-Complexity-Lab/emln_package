@@ -1,4 +1,4 @@
-#' Convert a multilayer class to a a list of igraph obkects
+#' Convert a multilayer class to a a list of igraph objects
 #'
 #' This function creates a list of igraph objects for the network layers. Interlayer links are not included.
 #'
