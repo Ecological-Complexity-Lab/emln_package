@@ -20,7 +20,6 @@
 #' @export
 ## @import dplyr
 ## @importFrom igraph graph.incidence degree
-## @import magrittr
 
 matrix_to_list_bipartite <- function(x, group_names=c('set_cols','set_rows')){
   # Assign column and row names

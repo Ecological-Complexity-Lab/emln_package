@@ -20,6 +20,8 @@ search_emln(
 
 \item{multilayer_network_type}{Environment/Temporal/Multiplex/Perturbation/Spatial}
 
+\item{state_nodes}{TRUE/FALSE}
+
 \item{node_number_minimum}{The minimum number of layers wanted in the network}
 
 \item{layer_number_minimum}{The minimum number of layers wanted in the network}
@@ -29,14 +31,12 @@ search_emln(
 \item{interlayer}{TRUE/FALSE}
 
 \item{directed}{TRUE/FALSE}
-
-\item{state_node}{TRUE/FALSE}
 }
 \value{
 A tibble containing the network id, and all the search arguments for each of the networks that are compatible with the search.
 }
 \description{
-Search the database for networks depeding on search parameters specified below.
+Search the database for networks depending on search parameters specified below.
 }
 \examples{
 \dontrun{

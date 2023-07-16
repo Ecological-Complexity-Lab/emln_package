@@ -24,7 +24,6 @@
 #' @export
 ## @import dplyr
 ## @importFrom igraph is.directed graph.adjacency degree
-## @import magrittr
 
 matrix_to_list_unipartite <- function(x, directed){
   # Assign column and row names if missing

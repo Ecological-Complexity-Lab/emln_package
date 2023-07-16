@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_igraph.R
 \name{get_igraph}
 \alias{get_igraph}
-\title{Convert a multilayer class to a a list of igraph obkects}
+\title{Convert a multilayer class to a a list of igraph objects}
 \usage{
 get_igraph(multilayer, bipartite, directed)
 }

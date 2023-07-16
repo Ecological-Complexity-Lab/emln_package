@@ -43,7 +43,7 @@
 #' @export
 ## @import dplyr
 ## @importFrom igraph graph.incidence V
-## @import magrittr
+
 create_monolayer_object <- function(x, directed=NULL, bipartite=NULL, group_names=c('set_cols','set_rows'), node_metadata=NULL){
 
   # Input is a matrix

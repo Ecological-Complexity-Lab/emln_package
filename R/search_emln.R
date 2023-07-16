@@ -2,10 +2,10 @@
 #'
 #'@name search_emln
 #'
-#' @description Search the database for networks depeding on search parameters specified below.
+#' @description Search the database for networks depending on search parameters specified below.
 #' @param ecological_network_type Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant
 #' @param multilayer_network_type Environment/Temporal/Multiplex/Perturbation/Spatial
-#' @param state_node TRUE/FALSE
+#' @param state_nodes TRUE/FALSE
 #' @param weighted TRUE/FALSE
 #' @param directed TRUE/FALSE
 #' @param interlayer TRUE/FALSE
@@ -32,14 +32,15 @@
 #'
 #' }
 #' @export search_emln
-#'
-#'
+## @import dplyr
+## @import stringr
+
+
 
 search_emln <- function(ecological_network_type=NULL,multilayer_network_type=NULL,
                         state_nodes=NULL,node_number_minimum=NULL,layer_number_minimum=NULL,
                         weighted = NULL, interlayer = NULL, directed =NULL){
 
-  require(magrittr)
 
   #load the large tibble that contains all the descriptions for it to be filtered
 
