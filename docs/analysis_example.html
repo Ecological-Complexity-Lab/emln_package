@@ -13,7 +13,7 @@
 
 <title>Example for EMLN analysis</title>
 
-<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -29,7 +29,7 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
@@ -372,7 +372,7 @@ div.tocify {
 </div>
 
 
-<!-- last modified 14/06/23 18:40 - moving updated version to the right place, editing documentation -->
+<!-- Use this to add a copy-code button install.packages("remotes") remotes::install_github("rlesur/klippy") -->
 <script>
   addClassKlippyTo("pre.r, pre.markdown");
   addKlippy('right', 'top', '#8B0000', '1', 'Copy code', 'Copied!');
@@ -383,26 +383,28 @@ library(tidyverse)
 library(infomapecology)
 library(magrittr)</code></pre>
 <p>The <code>emln</code> package is a valuable tool for importing,
-storing, and converting EMLN (Ecological Multilayer Network) data. In
-this section, we will demonstrate its practical application through
-analysis examples, including node-level analysis using an imported
-dataset and mesoscale analysis using a package-included dataset.</p>
-<p>These examples will provide firsthand experience and insights into
-how the <code>emln</code> package can be effectively employed in
-real-world analyses.</p>
-<div id="node-level-analysis-with-imported-dataset"
+storing, and converting multilayer network data. In this section, we
+will demonstrate its practical application for downstream analysis using
+examples: (1) node-level analysis using an imported data set, and (2) a
+mesoscale analysis using a package-included data set.</p>
+<p><em>We emphasize that the goal of the following analyses is purely
+technical. We do not assume to study or interpret results in the data
+sets we use in the example.</em></p>
+<div id="node-level-analysis-with-an-imported-dataset"
 class="section level1">
-<h1>Node-level analysis with imported dataset</h1>
+<h1>Node-level analysis with an imported dataset</h1>
 <p>At this analysis level, we will compare the eigenvector centrality
-scores for each state node obtained using the <code>get_igraph</code>
-function to the centrality scores of the same nodes in a supra-adjacency
-matrix (SAM) using the <code>get_sam</code> function.</p>
+scores for each state node when calculated separately per layer (as in a
+monolayer network), to those calculated in the multilayer. We use the
+<code>get_igraph</code> function to get the individual layers and the
+<code>get_sam</code> function of EMLN to get the supra-adjacency matrix
+(SAM) to get the multilayer.</p>
 <p>This comparison aims to highlight the differences between monolayer
 and multilayer representations. Since eigenvector centrality takes into
-account the entire network’s influence, we anticipate no correlation.
-Examining the scores in different contexts offers valuable insights and
+account the entire network’s structure when calculating the centrality
+of each node, we anticipate no correlation. Examining the scores in
+different contexts (mono vs multilayer) offers valuable insights and
 alternative perspectives on node importance.</p>
-<p><!-- Eigenvector centrality is a measure of a node's importance in a network based on its connections to other important nodes. --></p>
 <div id="creating-a-multilayer-object" class="section level2">
 <h2>Creating a Multilayer Object</h2>
 <p>Before calculating the eigenvector centrality scores for each state
@@ -410,11 +412,14 @@ node, it is recommended to transform the data into a multilayer object
 using the <code>create_multilayer_network</code> function. This
 facilitates the handling of the data and ensures a smoother analysis
 process.</p>
-<p>In our case, the data represents a node-aligned multiplex network
+<p>We use the data from <a
+href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002527">Kefi
+et al 2016</a>. The data represents a node-aligned multiplex network
 consisting of three layers: trophic interactions, non-trophic positive
-interactions, and non-trophic negative interactions.</p>
-<p>for detailed instructions on creating a multilayer object, please
-refer to the “Example with real data from Kefi 2016” section.</p>
+interactions, and non-trophic negative interactions. For detailed
+instructions on creating a multilayer object, please refer to the <a
+href="https://ecological-complexity-lab.github.io/emln_package/multilayer.html#Example_with_real_data_from_Kefi_2016">Example
+with real data from Kefi 2016 section</a>.</p>
 <pre class="r"><code># Load and organize the trophic interactions matrix
 chilean_TI &lt;- read_delim(&#39;chilean_TI.txt&#39;, delim = &#39;\t&#39;)
 nodes &lt;- chilean_TI[,2]
@@ -456,11 +461,24 @@ multilayer_kefi &lt;- create_multilayer_network(list_of_layers = list(chilean_TI
 </div>
 <div id="eigenvector-centrality" class="section level2">
 <h2>Eigenvector Centrality</h2>
-<p>We will now calculate the Eigenvector centrality score of each state
+<p>We will now calculate the eigenvector centrality score of each state
 node using the two different methods:</p>
-<div id="method-1-multilayer-context" class="section level3">
-<h3>Method 1: Multilayer Context</h3>
-<p>Calculating the Eigenvector centrality score of each state node using
+<div id="method-1-monolayer-context" class="section level3">
+<h3>Method 1: Monolayer Context</h3>
+<p>Calculating the Eigenvector centrality score of each state node on a
+per-layer basis.</p>
+<pre class="r"><code># get a list of igraph objects as layers igraph 
+g_layer &lt;- get_igraph(multilayer_kefi, bipartite = F, directed = T)
+
+# get Eigenvector scores of igraph layers
+eigen_igraph = c()
+for (layer in g_layer$layers_igraph){
+  eigen_igraph &lt;- append(eigen_igraph, igraph::eigen_centrality(layer, scale = T)$vector)
+}</code></pre>
+</div>
+<div id="method-2-multilayer-context" class="section level3">
+<h3>Method 2: Multilayer Context</h3>
+<p>Calculating the eigenvector centrality score of each state node using
 a SAM of the multilayer network.</p>
 <pre class="r"><code># get the SAM
 sam_multilayer &lt;- get_sam(multilayer = multilayer_kefi, bipartite = F, directed = T, sparse = F, remove_zero_rows_cols = F)
@@ -471,32 +489,17 @@ graph_sam &lt;- graph_from_adjacency_matrix(sam_multilayer$M,mode = &quot;direct
 # get Eigenvector scores
 eigen_sam &lt;- igraph::eigen_centrality(graph_sam, directed = T, scale = T)$vector</code></pre>
 </div>
-<div id="method-2-monolayer-context" class="section level3">
-<h3>Method 2: Monolayer Context</h3>
-<p>Calculating the Eigenvector centrality score of each state node on a
-per-layer basis.</p>
-<pre class="r"><code># get a list of igraph objects as layers igraph 
-g_layer &lt;- get_igraph(multilayer_kefi, bipartite = F, directed = T)
-
-# get Eigenvector scores of igraph layers
-eigen_igraph = c()
-for (layer in g_layer$layers_igraph){
-  eigen_igraph &lt;-append(eigen_igraph, igraph::eigen_centrality(layer, scale = T)$vector)
-}</code></pre>
-</div>
 </div>
 <div id="results" class="section level2">
 <h2>Results</h2>
-<p>Upon comparing the eigenvector centrality scores obtained using both
-methods, we visualized the correlation between the two sets of scores
-using a scatter plot. The scatter plot was created by merging the scores
-into a data frame called <code>ec_comparison</code> and using the
-<code>ggplot2</code> package. The x-axis represented the multilayer
-scores from method (1), while the y-axis represented the monolayer
-scores from method (2).</p>
-<p>The function <code>geom_abline()</code> adds a reference line to the
-scatter plot. This reference line represents a line of equality, where
-the x-axis values are equal to the y-axis values.</p>
+<p>We visualize the correlation between the two sets of scores using a
+scatter plot. The scatter plot was created by merging the scores into a
+data frame called <code>ec_comparison</code> and using the
+<code>ggplot2</code> package. The x-axis and y-axis represent the
+multilayer and monolayer scores, respectively. The function
+<code>geom_abline()</code> adds a reference line to the scatter plot.
+Nodes that fall on this line have the same score in a monolayer and a
+multilayer context.</p>
 <pre class="r"><code># merge to data frame eigenvector comparison
 ec_comparison &lt;- data.frame(eigen_sam, eigen_igraph)
 colnames(ec_comparison) &lt;- c(&quot;multilayer&quot;,&quot;monolayer&quot;)
@@ -518,19 +521,11 @@ ggplot(data = ec_comparison, aes(monolayer, multilayer)) +
         legend.title = element_text(size=20))</code></pre>
 <p><img src="analysis_example_files/figure-html/plotting%20eigenvector%20comparison-1.png" width="576" /></p>
 <p>The deviation of the points from the reference line indicates a lack
-of correlation between the two sets of scores. This observation suggests
-that the methods used to calculate eigenvector centrality are influenced
-by the entire network, supporting our hypothesis.</p>
-<p>Our results revealed that the majority of nodes demonstrated
-significance within a monolayer context but lacked importance within a
-multilayer context. This phenomenon can be attributed to the distinct
-types of interactions represented by each layer in the network.</p>
-<p>Nodes may exhibit high centrality within individual layers due to
-their specific roles in facilitating certain types of interactions.
-However, when considering the multilayer context, the importance of
-nodes may diminish, suggesting that their significance is specific to
-the types of interactions captured by each layer. This highlights the
-importance of considering the unique ecological processes and
+of correlation between the two centrality scores. We see that the
+majority of the nodes that are important in a monolayer, lose this
+importance in the multilayer network. There is also a group of species
+that are important in both network types (upper right corner). This
+highlights the value of considering the unique ecological processes and
 interactions represented by different layers when analyzing multilayer
 networks and interpreting node importance.</p>
 </div>
@@ -538,60 +533,116 @@ networks and interpreting node importance.</p>
 <div id="mesoscale-level-analysis-with-included-data-sets"
 class="section level1">
 <h1>Mesoscale level analysis with included data sets</h1>
-<p>In this example, we showcase the simplicity of loading a package
-included dataset and demonstrate how other methods can be applied to the
-loaded data.</p>
-<p>At the mesoscale level of network analysis, examining network
-properties such as modularity can provide insights into the temporal
-behavior of species communities. In this analysis, we employ the popular
-community detection algorithm <code>infomap</code> with the <a
+<p>In this example, we showcase how to load and analyze a data set
+included in the <code>emln</code> package. At the mesoscale level of
+network analysis, examining network properties such as modularity can
+provide insights into the temporal behavior of species communities. In
+this analysis, we use the community detection algorithm
+<code>infomap</code> with the <a
 href="https://ecological-complexity-lab.github.io/infomap_ecology_package/">infomapecology
-package</a> to detect module persistence.</p>
+package</a> to detect modules in a temporal multilayer network.</p>
 <div id="loading-the-data" class="section level2">
 <h2>loading the data</h2>
-<p>To begin, we load the dataset using the <code>load_emln</code>
+<p>To begin, we load network number 65 using the <code>load_emln</code>
 function, which returns a <code>multilayer</code> object.</p>
-<p>Specifically, we load a temporal multilayer network (network_id = 65)
-that represents a food-web network with four layers and 39 physical
-nodes. The network comprises 383 intralayer edges that are directed and
-weighted, with no interlayer interactions.</p>
 <pre class="r"><code>emln_65 &lt;- load_emln(65)</code></pre>
 <pre><code>## [1] &quot;Creating state node map&quot;
 ## [1] &quot;Creating extended link list with node IDs&quot;</code></pre>
+<pre class="r"><code>emln_65$layers</code></pre>
+<pre><code>## # A tibble: 6 × 7
+##   layer_id latitude location                                         longitude name            year layer_name
+##      &lt;int&gt;    &lt;dbl&gt; &lt;chr&gt;                                                &lt;dbl&gt; &lt;chr&gt;          &lt;int&gt; &lt;chr&gt;     
+## 1        1    -32.4 Villavicencio Nature Reserve, Mendoza, Argentina     -69.1 all_sites_2006  2006 layer_1   
+## 2        2    -32.4 Villavicencio Nature Reserve, Mendoza, Argentina     -69.1 all_sites_2007  2007 layer_2   
+## 3        3    -32.4 Villavicencio Nature Reserve, Mendoza, Argentina     -69.1 all_sites_2008  2008 layer_3   
+## 4        4    -32.4 Villavicencio Nature Reserve, Mendoza, Argentina     -69.1 all_sites_209   2009 layer_4   
+## 5        5    -32.4 Villavicencio Nature Reserve, Mendoza, Argentina     -69.1 all_sites_2010  2010 layer_5   
+## 6        6    -32.4 Villavicencio Nature Reserve, Mendoza, Argentina     -69.1 all_sites_2011  2011 layer_6</code></pre>
+<pre class="r"><code>emln_65$nodes</code></pre>
+<pre><code>## # A tibble: 180 × 15
+##    node_id node_name type  corolla_length corolla_aperture height_mean flower_abundance body_thickness body_length
+##      &lt;int&gt; &lt;chr&gt;     &lt;chr&gt;          &lt;dbl&gt;            &lt;dbl&gt;       &lt;dbl&gt;            &lt;int&gt;          &lt;dbl&gt;       &lt;dbl&gt;
+##  1       1 aca.ser   plant           3.15            0.912       0.154            42118             NA          NA
+##  2       2 alo.gra   plant           5.01            1.02        0.525             5944             NA          NA
+##  3       3 arg.sub   plant          35.0            28.8         0.514                0             NA          NA
+##  4       4 arj.lon   plant          14.5             1.67        0.222             3252             NA          NA
+##  5       5 bou.spi   plant          10.2             1.48        1.77              1610             NA          NA
+##  6       6 bre.mic   plant           4.17            2           0.32                 0             NA          NA
+##  7       7 bud.men   plant           5.46            1.19        0.49               301             NA          NA
+##  8       8 cap.ata   plant           0.25            1.69        1.61                59             NA          NA
+##  9       9 cen.sol   plant          17.5             1.5         0.122                3             NA          NA
+## 10      10 cer.arv   plant           5.27           13.3         0.277              480             NA          NA
+## # ℹ 170 more rows
+## # ℹ 6 more variables: proboscis_length &lt;dbl&gt;, proboscis_width &lt;dbl&gt;, body_width &lt;dbl&gt;, taxa_verified &lt;chr&gt;,
+## #   verification_level &lt;chr&gt;, species_name &lt;chr&gt;</code></pre>
+<pre class="r"><code>head(emln_65$extended)</code></pre>
+<pre><code>##   layer_from node_from layer_to node_to weight        type
+## 1    layer_1   cop.sp2  layer_1 aca.ser     19 pollination
+## 2    layer_1   exo.sp1  layer_1 aca.ser      2 pollination
+## 3    layer_1   str.eur  layer_1 aca.ser      1 pollination
+## 4    layer_1   api.mel  layer_1 alo.gra    368 pollination
+## 5    layer_1    aug.sp  layer_1 alo.gra      3 pollination
+## 6    layer_1   bom.opi  layer_1 alo.gra      5 pollination</code></pre>
+<p>This is a temporal plan-pollinator multilayer network with
+<code>nrow(emln_65$layers)</code> layers and
+<code>max(emln_65$nodes$node_id)</code> physical nodes. The network
+comprises <code>nrow(emln_65$extended)</code> intralayer edges that are
+directed and weighted, with no interlayer interactions.</p>
 </div>
-<div id="module-persistence" class="section level2">
-<h2>Module persistence</h2>
-<p>Next, we utilize <code>infomap</code> with
-<code>infomapecology</code> to detect module persistence. We prepare the
-data for analysis by selecting the relevant columns and modifying their
-names. Then, we run <code>infomap</code> on the modified dataset,
-considering factors such as relaxation rate and limits.</p>
-<pre class="r"><code>emln_65_to_info &lt;- emln_65[c(&#39;extended_ids&#39;, &#39;nodes&#39;, &#39;layers&#39;)]
-
-# rename extended_ids to intra
-
-names(emln_65_to_info)[which(names(emln_65_to_info) == &#39;extended_ids&#39;)] &lt;- &#39;intra&#39;
-
-# Set the class of d68_to_info to be the same as d68 
-class(emln_65_to_info) &lt;- class(emln_65) 
-
-# Delete the ”layer_to&quot; column from the &quot;intra&quot; dataframe 
-emln_65_to_info[[&quot;intra&quot;]] &lt;- emln_65_to_info[[&quot;intra&quot;]][ , -which(names(emln_65_to_info[[&quot;intra&quot;]]) == &quot;layer_to&quot;)]
+<div id="community-detection-modularity-analysis"
+class="section level2">
+<h2>Community detection (modularity) analysis</h2>
+<p>Next, we use <code>infomap</code> with <code>infomapecology</code> to
+detect modules. We first prepare the data for analysis by selecting the
+relevant columns and modifying their names. Then, we run
+<code>infomap</code> on the modified data set, considering factors such
+as relaxation rate and limits.</p>
+<p><em>Note that the function <code>create_multilayer_object</code>
+prepares a multilayer object for <code>infomapecology</code>. Future
+versions of <code>infomapecology</code> will directly use the multilayer
+object created by the EMLN package.</em></p>
+<pre class="r"><code>emln_65_for_infomap &lt;- infomapecology::create_multilayer_object(extended = emln_65$extended_ids[,1:5], nodes = emln_65$nodes, intra_output_extended = F)
 
 
-emln_65_modularity &lt;- run_infomap_multilayer(emln_65_to_info, relax = T, silent = TRUE, 
+
+emln_65_modularity &lt;- run_infomap_multilayer(M = emln_65_for_infomap,
+                                               relax = T, silent = TRUE,
                                                trials = 50, seed = 497294,
                                                multilayer_relax_rate = 0.15,
                                                multilayer_relax_limit_up = 1,
-                                               multilayer_relax_limit_down = 0, 
+                                               multilayer_relax_limit_down = 0,
                                                temporal_network = T)</code></pre>
 <pre><code>## [1] &quot;Using global relax to determine flow between layers.&quot;
 ## [1] &quot;./Infomap infomap_multilayer.txt . --tree -2 -N 50 --seed 497294 --silent --multilayer-relax-rate 0.15 --multilayer-relax-limit-up 1 --multilayer-relax-limit-down 0&quot;
 ## [1] &quot;Reorganizing modules...&quot;
 ## [1] &quot;Removing auxilary files...&quot;
-## [1] &quot;Partitioned into 11 modules.&quot;</code></pre>
-<p>To understand module persistence and its temporal dynamics, we plot
-the changes in each module’s size over time periods.</p>
+## [1] &quot;Partitioned into 38 modules.&quot;</code></pre>
+<p>Let’s take a look at the modules.</p>
+<pre class="r"><code># Number of modules:
+emln_65_modularity$m</code></pre>
+<pre><code>## [1] 38</code></pre>
+<pre class="r"><code>emln_65_modularity$modules %&gt;% 
+  select(node_id, layer_id, node_name, type, module)</code></pre>
+<pre><code>## # A tibble: 642 × 5
+##    node_id layer_id node_name type  module
+##      &lt;int&gt;    &lt;int&gt; &lt;chr&gt;     &lt;chr&gt;  &lt;int&gt;
+##  1       1        1 aca.ser   plant      1
+##  2       1        2 aca.ser   plant     13
+##  3       1        3 aca.ser   plant     16
+##  4       1        4 aca.ser   plant      4
+##  5       1        5 aca.ser   plant      4
+##  6       1        6 aca.ser   plant     36
+##  7       2        1 alo.gra   plant      1
+##  8       2        3 alo.gra   plant      7
+##  9       2        4 alo.gra   plant      4
+## 10       2        5 alo.gra   plant     34
+## # ℹ 632 more rows</code></pre>
+</div>
+<div id="module-persistence" class="section level2">
+<h2>Module persistence</h2>
+<p>As this is a temporal network, we can observe module persistence and
+its temporal dynamics. we plot the changes in each module’s size over
+time.</p>
 <pre class="r"><code># Module&#39; persistence
 plot_multilayer_modules(emln_65_modularity, type = &#39;rectangle&#39;, color_modules = T)+
   scale_x_continuous(breaks=seq(0,6,1))+
@@ -605,11 +656,14 @@ plot_multilayer_modules(emln_65_modularity, type = &#39;rectangle&#39;, color_mo
         legend.text =  element_text(size=15),
         legend.title = element_text(size=20))</code></pre>
 <p><img src="analysis_example_files/figure-html/plotting%20Module%20persistence-1.png" width="576" /></p>
-<p>Furthermore, we can visualize the modular structure over time by
-plotting the species flow through modules. In this visualization,
-modules are represented by colors, the size of rectangles indicates the
-number of species in each module, and curved lines depict species moving
-between layers (time periods).</p>
+<p>Note that in the first layers there are 4 modules that do not
+persist. Than, in the second layer modules emerge that persist, some
+until the 6th layer.</p>
+<p>We can also visualize the modular structure over time by plotting the
+species flow through modules. In this visualization, modules are
+represented by colors, the size of rectangles indicates the number of
+species in each module, and curved lines depict species moving between
+layers (time periods).</p>
 <pre class="r"><code># Species flow through modules in time
 plot_multilayer_alluvial(emln_65_modularity, module_labels = F)+
   scale_x_continuous(breaks=seq(0,6,1))+
@@ -621,11 +675,10 @@ plot_multilayer_alluvial(emln_65_modularity, module_labels = F)+
         axis.text = element_text(color=&#39;black&#39;, size = 20),
         axis.title = element_text(size=20))</code></pre>
 <p><img src="analysis_example_files/figure-html/plotting%20Species%20flow-1.png" width="576" /></p>
-<p>By examining this visualization, we can gain insights into how
-species transition between modules over time, providing a visual
-representation of the dynamics of species communities within the
-multilayer network.</p>
-<p>for more details on temporal multilayer network analysis using
+<p>This visual representation of how species transition between modules
+over time helps us gain insights into the dynamics of species
+communities.</p>
+<p>For more details on temporal multilayer network analysis using
 <code>infomapecology</code> visit <a
 href="https://ecological-complexity-lab.github.io/infomap_ecology_package/multilayer_relax">Temporal
 multilayer network with global relax rates</a> and <a

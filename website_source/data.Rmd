@@ -22,17 +22,6 @@ knitr::opts_chunk$set(echo = T, message=FALSE, warning=FALSE, cache=FALSE)
 ```
 
 ```{r message=FALSE, warning=FALSE}
-# source('R/create_multilayer_network.R')
-# source('R/create_monolayer_object.R')
-# source('R/get_sam.R')
-# source('R/get_igraph.R')
-# source('R/list_to_matrix.R')
-# source('R/matrix_to_list_bipartite.R')
-# source('R/matrix_to_list_unipartite.R')
-# source('R/view_emln.R')
-# source('R/load_emln.R')
-# source('R/search_emln.R')
-
 library(emln)
 library(igraph)
 library(bipartite)
@@ -67,7 +56,7 @@ paper_figs_theme_no_legend <-
 ## creation of the lists
 #read the file path
 #parent.folder <- "~/GitHub/ecomplab/emln_package/data-raw/"
-parent.folder <- "/Users/itamartalpaz/GitHub/emln_package/data-raw/"
+parent.folder <- "/Users/shai/GitHub/ecomplab/emln_package/data-raw/"
 
 #setwd("~/GitHub/emln_db/EMLN_Datasets/datasets") ##in this chunk, we want the working directory to be the one with all the networks in order to read them
 
@@ -79,8 +68,7 @@ sub.folders.long <- sub.folders.long[str_order(sub.folders.short, numeric = T)]
 
 ## the number of multilayer networks in the database
 number_of_networks <- length(sub.folders.long)
-# 81 was replaced with 80
-# 80 was replaced with number_of_networks
+
 id_readout <- data.frame(id = 1:number_of_networks, network_name = sub.folders.short[str_order(sub.folders.short, numeric = T)], network_path = sub.folders.long)
 
 #create big lists that each contain the nodes/layers/description/references csv
@@ -178,7 +166,6 @@ counted_multi_types <- counted_multi_types %>%
 ###ecological layer types###
 eco <- data.frame()
 for (i in 1:length(all_descriptions)) {
-  # Issue 85 - Network 39 does not have an appropriate $description format
   #eco <- rbind(eco, data.frame(network_id = i,
   #               eco_type = all_descriptions[[i]][all_descriptions[[i]]$attribute == 'ecological_network_type',]$value))
    subset_df <- all_descriptions[[i]][all_descriptions[[i]]$attribute == 'ecological_network_type', ]
@@ -241,7 +228,6 @@ The data is distributed globally:
 latitudes<-NULL
 longitudes<-NULL
 coord <- NULL
-# 80 was replaced with number_of_networks
 
 for(i in 1:number_of_networks){
   if ('latitude' %in% all_layers[[i]]$attribute) {
@@ -302,7 +288,9 @@ We load the spatial multilayer network (network_id = 38) that comes with the pac
 
 ```{r}
 d38 <- load_emln(38)
-d38
+names(d38)
+d38$layers
+head(d38$extended)
 ```
 
 <!-- Here is another example: -->
