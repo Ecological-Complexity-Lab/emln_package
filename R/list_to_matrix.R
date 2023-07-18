@@ -30,8 +30,8 @@
 #' # See examples in: https://ecological-complexity-lab.github.io/emln_package/monolayer.html#Unipartite
 #' }
 #' @export
-## @import dplyr
-## @importFrom igraph graph.data.frame V as_incidence_matrix as_adjacency_matrix
+#' @import dplyr
+#' @importFrom igraph graph.data.frame V as_incidence_matrix as_adjacency_matrix
 
 list_to_matrix <- function(x, directed=F, bipartite=T, group_names=c('set_cols','set_rows'), node_metadata=NULL){
   names(x)[3] <- 'weight'

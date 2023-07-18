@@ -7,7 +7,7 @@
 #' @return An interactive GUI for browinsg through networks.
 #'
 #' @export view_emln
-## @import DT
+#' @importFrom DT datatable
 
 
 

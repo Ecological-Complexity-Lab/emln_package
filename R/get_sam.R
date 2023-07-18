@@ -33,6 +33,8 @@
 #' # See examples in: https://ecological-complexity-lab.github.io/emln_package/multilayer.html#To_supra-adjacency_matrices
 #'
 #' @export
+#' @import dplyr
+#' @importFrom Matrix Matrix
 
 get_sam <- function(multilayer, bipartite, directed, sparse=F, remove_zero_rows_cols=F) {
   # Create a map of state nodes
@@ -120,7 +122,7 @@ get_sam <- function(multilayer, bipartite, directed, sparse=F, remove_zero_rows_
   }
 
   # Make sparse?
-  if (sparse){M <- Matrix::Matrix(M, sparse = T)}
+  if (sparse){M <- Matrix(M, sparse = T)}
 
   out <- list(M=M, nodes=nodes, state_nodes_map=state_nodes_map)
 

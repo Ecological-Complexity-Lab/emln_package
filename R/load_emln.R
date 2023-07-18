@@ -20,6 +20,8 @@
 #' @export load_emln
 #' @import dplyr
 #' @import tidyr
+#' @importFrom hablar retype
+#' @importFrom stringr str_detect
 
 
 
@@ -27,7 +29,7 @@ load_emln <- function(network_id) {
   #get the network name in order to load it -- depending on the network id entered
   #FOR DEBUG: network_name <- list.files('./data/',pattern = paste0('emln',as.character(network_id),'_'))
   pattern <- paste0("emln", network_id, "_")
-  network_name <- descriptions %>% filter(str_detect(network_name, pattern)) %>% slice(1) %>% pull(network_name)
+  network_name <- descriptions %>% filter(stringr::str_detect(network_name, pattern)) %>% slice(1) %>% pull(network_name)
   if (length(network_name) == 0) {
     return(paste0('Error: Network id',network_name, ' does not exist'))
   } else {
@@ -39,10 +41,8 @@ load_emln <- function(network_id) {
   network$nodes %<>%
     tidyr::pivot_wider(names_from = 'attribute',values_from = 'value', values_fn = list) %>%
     tidyr::unnest(cols = everything())
-    #fix the column types (so not all columns are character type) ##OPTIONAL
-    # if (requireNamespace("hablar", quietly = TRUE)) {
-    #   for (i in colnames(network$nodes)) {network$nodes[[i]] <- hablar::retype(network$nodes[[i]])}
-    # }
+    #fix the column types (so not all columns are character type)
+    for (i in colnames(network$nodes)) {network$nodes[[i]] <- hablar::retype(network$nodes[[i]])}
 
   #if the same name id has different node id
   nodes_vector <- network$nodes[,c(1,2)] %>% group_by(node_id, node_name) %>% summarise()
@@ -74,7 +74,7 @@ load_emln <- function(network_id) {
         format(network$layers$date, "%Y-%m-%d")
       }
     }
-    #network$layers[[i]] <- hablar::retype(network$layers[[i]])
+    network$layers[[i]] <- hablar::retype(network$layers[[i]])
   }
 
   if(any(duplicated(network$layers$layer_id))){
@@ -105,7 +105,7 @@ load_emln <- function(network_id) {
   }
 
   #fix the column types
-  #for (i in colnames(network$interactions)) {network$interactions[[i]] <- hablar::retype(network$interactions[[i]])}
+  for (i in colnames(network$interactions)) {network$interactions[[i]] <- hablar::retype(network$interactions[[i]])}
 
   # If the layers are ids, change them to layer_name
   if (all(grepl(x = network$interactions$layer_from,pattern = '^[0-9]*$'))) {network$interactions$layer_from <- paste('layer_',network$interactions$layer_from,sep='')}
@@ -144,7 +144,7 @@ load_emln <- function(network_id) {
   }
 
   #fix the column type in extended_edge_list_ids
-  #for (i in colnames(extended_edge_list_ids)) {extended_edge_list_ids[[i]] <- hablar::retype(extended_edge_list_ids[[i]])}
+  for (i in colnames(extended_edge_list_ids)) {extended_edge_list_ids[[i]] <- hablar::retype(extended_edge_list_ids[[i]])}
 
 
   out <- list(nodes=network$nodes,
@@ -161,5 +161,5 @@ load_emln <- function(network_id) {
 
 
 #check if there are networks that return an error when loading the emln
-# errors_ids <- NULL
-# for (network_id in 1:80){result <- tryCatch(expr = load_emln(network_id), error = function(e) {errors_ids<<-c(errors_ids,network_id)})}
+errors_ids <- NULL
+for (network_id in 1:80){result <- tryCatch(expr = load_emln(network_id), error = function(e) {errors_ids<<-c(errors_ids,network_id)})}

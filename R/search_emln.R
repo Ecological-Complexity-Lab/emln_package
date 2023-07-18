@@ -32,8 +32,10 @@
 #'
 #' }
 #' @export search_emln
-## @import dplyr
-## @import stringr
+#' @import dplyr
+#' @importFrom stringr str_to_title
+#' @importFrom purrr compact
+#' @importFrom magrittr %>% %<>%
 
 
 

@@ -18,8 +18,8 @@
 #' matrix_to_list_bipartite(bipartite::memmott1999, group_names = c('Animals', 'Plants'))
 #'
 #' @export
-## @import dplyr
-## @importFrom igraph graph.incidence degree
+#' @import dplyr
+#' @importFrom igraph graph.incidence degree
 
 matrix_to_list_bipartite <- function(x, group_names=c('set_cols','set_rows')){
   # Assign column and row names

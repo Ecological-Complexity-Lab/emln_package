@@ -22,9 +22,9 @@ Depends:
   purrr,
   tidyr,
   Matrix,
-  DT
+  DT,
+  hablar
 Suggests:
-  hablar,
   bipartite
 RoxygenNote: 7.2.3
 Data: data/descriptions.rda
