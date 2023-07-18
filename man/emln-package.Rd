@@ -4,25 +4,15 @@
 \name{emln-package}
 \alias{emln}
 \alias{emln-package}
-\title{emln: A package to organize, handle and explore ecological multilayer networks}
+\title{emln: A package to organize, handle, and explore ecological multilayer networks}
 \description{
-An R package for data and analysis of ecological multilayer networks. Including standardisation of data structures and functions to convert between them. This work was supported by research grant ISF (Israel Science Foundation) 1281/20 to Shai Pilosof
+An R package for data and analysis of ecological multilayer networks, including standardization of data structures and functions to convert between them. This work was supported by research grant ISF (Israel Science Foundation) 1281/20 to Shai Pilosof.
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://ecological-complexity-lab.github.io/emln_package/index.html}
   \item Report bugs at \url{https://github.com/Ecological-Complexity-Lab/emln_package/issues}
-}
-
-}
-\author{
-\strong{Maintainer}: Shai Pilosof \email{pilos@bgu.ac.il}
-
-Authors:
-\itemize{
-  \item Noa Frydman \email{noafrydman97@gmail.com}
-  \item Shirly Freilikhman \email{shirlyf@bgu.ac.il}
 }
 
 }

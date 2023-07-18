@@ -68,7 +68,7 @@ create_monolayer_object <- function(x, directed=NULL, bipartite=NULL, group_name
     print('Input: an igraph object:')
     print(x)
     g <- x
-    mode <- ifelse(is.bipartite(g),'B','U')
+    mode <- ifelse(igraph::is.bipartite(g),'B','U')
 
     node_list <- igraph::as_data_frame(g, what = 'vertices') %>%
       mutate(node_id=1:vcount(g)) %>%

@@ -17,7 +17,7 @@
 #'   \code{list_of_layers}.
 #' @param state_node_attributes Optional. Additional information on physical nodes in
 #'   layers. Must contain columns \code{layer_name} and \code{node_name}.
-#'   @param physical_node_attributes Optional. Additional information on physical nodes. Must contain column \code{node_name}.
+#' @param physical_node_attributes Optional. Additional information on physical nodes. Must contain column \code{node_name}.
 #'
 #' @return A multilayer object (see ?multilayer).
 #'
@@ -51,9 +51,16 @@
 #'
 #' @examples
 #' \dontrun{
-#' pond_1 <- matrix(c(0,1,1,0,0,1,0,0,0), byrow = T, nrow = 3, ncol = 3, dimnames = list(c('pelican','fish','crab'),c('pelican','fish','crab')))
-#' pond_2 <- matrix(c(0,1,0,0,0,1,0,0,0), byrow = T, nrow = 3, ncol = 3, dimnames = list(c('pelican','fish','crab'),c('pelican','fish','crab')))
-#' pond_3 <- matrix(c(0,1,1,0,0,1,0,0,0), byrow = T, nrow = 3, ncol = 3, dimnames = list(c('pelican','fish','tadpole'),c('pelican','fish','tadpole')))
+#' pond_1 <- matrix(c(0,1,1,0,0,1,0,0,0), byrow = T,
+#' nrow = 3, ncol = 3, dimnames = list(c('pelican','fish','crab'),
+#' c('pelican','fish','crab')))
+#' pond_2 <- matrix(c(0,1,0,0,0,1,0,0,0), byrow = T,
+#' nrow = 3, ncol = 3, dimnames = list(c('pelican','fish','crab'),
+#' c('pelican','fish','crab')))
+#' pond_3 <- matrix(c(0,1,1,0,0,1,0,0,0), byrow = T,
+#' nrow = 3, ncol = 3, dimnames = list(c('pelican','fish','tadpole'),
+#' c('pelican','fish','tadpole')))
+#'
 #' layer_attrib <- tibble(layer_id=1:3,
 #'                        layer_name=c('pond_1','pond_2','pond_3'),
 #'                        location=c('valley','mid-elevation','uphill'))
@@ -65,12 +72,15 @@
 #'                     node_to=c('pelican','crab','pelican'),
 #'                      weight=1)
 #'
-#' # This is a directed network so the links should go both ways, even though they are symmetric.
+#' # This is a directed network so the links should go both ways,
+#' # even though they are symmetric.
 #' interlayer_2 <- interlayer[,c(3,4,1,2,5)]
 #' names(interlayer_2) <- names(interlayer)
 #' interlayer <- rbind(interlayer, interlayer_2)
 #'
-#' multilayer <- create_multilayer_network(list_of_layers = list(pond_1, pond_2, pond_3), layer_attributes = layer_attrib, interlayer_links = interlayer, bipartite = F, directed = T)
+#' multilayer <- create_multilayer_network(list_of_layers =
+#' list(pond_1, pond_2, pond_3), layer_attributes = layer_attrib,
+#' interlayer_links = interlayer, bipartite = F, directed = T)
 #' }
 
 create_multilayer_network <- function(list_of_layers, bipartite, directed, interlayer_links = NULL, layer_attributes = NULL, state_node_attributes = NULL, physical_node_attributes = NULL) {
