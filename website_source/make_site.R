@@ -32,3 +32,4 @@ file_names <- list.files()
 file_names_filtered <- file_names[grep("\\.(Rmd|txt|png|csv|xlsx|yml)$", file_names)]
 print(file_names_filtered)
 file.remove(file_names_filtered)
+

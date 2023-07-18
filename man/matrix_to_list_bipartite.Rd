@@ -29,5 +29,5 @@ matrix_to_list_bipartite(bipartite::memmott1999, group_names = c('Animals', 'Pla
 
 }
 \seealso{
-\code{create_monolayer_object, monolayer}
+\code{create_monolayer_network, monolayer}
 }

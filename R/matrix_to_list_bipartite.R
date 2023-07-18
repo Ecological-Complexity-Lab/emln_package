@@ -9,7 +9,7 @@
 #' @param group_names Name of the groups in the columns and rows, respectively (e.g., parasites and hosts).
 #'
 #' @return A \code{monolayer} object.
-#' @seealso \code{create_monolayer_object, monolayer}
+#' @seealso \code{create_monolayer_network, monolayer}
 #'
 #' @examples
 #'

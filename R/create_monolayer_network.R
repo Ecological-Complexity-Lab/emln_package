@@ -24,7 +24,7 @@
 #' @examples
 #' \dontrun{
 #' # A bipartite network from package bipartte
-#' x <- create_monolayer_object(bipartite::memmott1999, bipartite = TRUE,
+#' x <- create_monolayer_network(bipartite::memmott1999, bipartite = TRUE,
 #' directed = FALSE, group_names = c('Animals','Plants'))
 #'
 #' # A bipartite network as an igraph object
@@ -35,7 +35,7 @@
 #' V(g)$gender <- sample(c('F','M'), size = 26, replace = TRUE) # Add a node attribute
 #' E(g)$weight=runif(ecount(g)) # Add edge weights
 #' plot(g, layout=layout.bipartite)
-#' create_monolayer_object(g, group_names = c('Parasites','Hosts'))
+#' create_monolayer_network(g, group_names = c('Parasites','Hosts'))
 #'}
 #'
 #'
@@ -44,7 +44,7 @@
 #' @import dplyr
 #' @importFrom igraph graph.incidence V
 
-create_monolayer_object <- function(x, directed=NULL, bipartite=NULL, group_names=c('set_cols','set_rows'), node_metadata=NULL){
+create_monolayer_network <- function(x, directed=NULL, bipartite=NULL, group_names=c('set_cols','set_rows'), node_metadata=NULL){
 
   # Input is a matrix
   if ('matrix'%in%class(x)){
