@@ -23,7 +23,7 @@ A list:
 }
 }
 \description{
-This function creates a list of igraph objects for the network layers. Interlayer links are not included.
+This function creates a list of igraph objects from the network layers. Interlayer links are not included.
 }
 \details{
 If link, physical node or state node attributes are included in the multilayer network they are passed to the igraph objects.

@@ -104,5 +104,5 @@ interlayer_links = interlayer, bipartite = F, directed = T)
 }
 }
 \seealso{
-class \code{multilayer}, function \code{create_monolayer_network}
+\code{multilayer, create_monolayer_network}
 }

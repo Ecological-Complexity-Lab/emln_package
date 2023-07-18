@@ -58,7 +58,5 @@ create_monolayer_network(g, group_names = c('Parasites','Hosts'))
 
 }
 \seealso{
-\code{list_to_matrix, matrix_to_list_unipartite,
-  , monolayer}. Also functions \code{graph.incidence,
-  graph.adjacency, graph.data.frame} in the \code{igraph} package.
+\code{list_to_matrix, matrix_to_list_unipartite, monolayer}.
 }

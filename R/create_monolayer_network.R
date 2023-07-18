@@ -13,9 +13,7 @@
 #'
 #' @return A \code{monolayer} object.
 #'
-#' @seealso \code{list_to_matrix, matrix_to_list_unipartite,
-#'   , monolayer}. Also functions \code{graph.incidence,
-#'   graph.adjacency, graph.data.frame} in the \code{igraph} package.
+#' @seealso \code{list_to_matrix, matrix_to_list_unipartite, monolayer}.
 #'
 #' @details Converts between edge list and matrix formats and creates a
 #'   monolayer object. It a wrapper function for

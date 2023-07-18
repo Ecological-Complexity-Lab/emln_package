@@ -45,7 +45,7 @@
 #'
 #'   See multiple example in the code accompanying the package
 #'
-#' @seealso class \code{multilayer}, function \code{create_monolayer_network}
+#' @seealso \code{multilayer, create_monolayer_network}
 #'
 #' @export
 #'
