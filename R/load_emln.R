@@ -18,7 +18,8 @@
 #' @seealso [multilayer()]
 #'
 #' @export load_emln
-## @import dplyr
+#' @import dplyr
+#' @import tidyr
 
 
 
