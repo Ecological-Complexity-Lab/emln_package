@@ -379,7 +379,6 @@ div.tocify {
 <pre class="r"><code>library(emln)
 library(igraph)
 library(bipartite)
-library(Matrix)
 library(magrittr)
 library(ggplot2)
 library(readr)
@@ -411,7 +410,7 @@ networks:.</p>
 ## 3  Seed-Dispersal     7
 ## 4   Host-Parasite     5
 ## 5 Plant-Herbivore     3
-## 6       Multiples     2
+## 6        Multiple     2
 ## 7    Anemone-Fish     1</code></pre>
 <p>Here is a visual summary:</p>
 <p><img src="data_files/figure-html/unnamed-chunk-5-1.png" width="960" /></p>
@@ -426,33 +425,36 @@ To search for a network with a certain set of parameters, you can use
 <code>search_emln()</code>. Here are a few examples.</p>
 <pre class="r"><code>search_1 &lt;- search_emln(ecological_network_type = &#39;Host-parasite&#39;)
 names(search_1)</code></pre>
-<pre><code>##  [1] &quot;network_id&quot;              &quot;network_name&quot;            &quot;ecological_network_type&quot; &quot;multilayer_network_type&quot;
-##  [5] &quot;state_nodes&quot;             &quot;weighted&quot;                &quot;directed&quot;                &quot;interlayer&quot;             
-##  [9] &quot;layer_num&quot;               &quot;node_num&quot;</code></pre>
+<pre><code>##  [1] &quot;network_id&quot;              &quot;network_name&quot;            &quot;ecological_network_type&quot;
+##  [4] &quot;multilayer_network_type&quot; &quot;state_nodes&quot;             &quot;weighted&quot;               
+##  [7] &quot;directed&quot;                &quot;interlayer&quot;              &quot;layer_num&quot;              
+## [10] &quot;node_num&quot;</code></pre>
 <pre class="r"><code># Show some of the columns
 search_1 %&gt;% select(&quot;network_id&quot;,&quot;network_name&quot;,&quot;ecological_network_type&quot;,&quot;multilayer_network_type&quot;,&quot;layer_num&quot;)</code></pre>
 <pre><code>## # A tibble: 6 × 5
 ## # Groups:   network_id, network_name [5]
-##   network_id network_name                          ecological_network_type multilayer_network_type layer_num
-##        &lt;dbl&gt; &lt;chr&gt;                                 &lt;chr&gt;                   &lt;chr&gt;                       &lt;dbl&gt;
-## 1          7 emln7_environment_rejmanek_stary_1979 Host-Parasite           Environment                     4
-## 2         23 emln23_spatial_canadian_fish_parasite Host-Parasite           Spatial                        12
-## 3         33 emln33_spatial_hadfield_2013          Host-Parasite           Spatial                        51
-## 4         53 emln53_spatial_slovakia               Host-Parasite           Spatial                       120
-## 5         57 emln57_spatial_temporal_kolpelke_2017 Host-Parasite           Spatial                      1532
-## 6         57 emln57_spatial_temporal_kolpelke_2017 Host-Parasite           Temporal                     1532</code></pre>
+##   network_id network_name       ecological_network_t…¹ multilayer_network_t…² layer_num
+##        &lt;dbl&gt; &lt;chr&gt;              &lt;chr&gt;                  &lt;chr&gt;                      &lt;dbl&gt;
+## 1          7 emln7_environment… Host-Parasite          Environment                    4
+## 2         23 emln23_spatial_ca… Host-Parasite          Spatial                       12
+## 3         33 emln33_spatial_ha… Host-Parasite          Spatial                       51
+## 4         53 emln53_spatial_sl… Host-Parasite          Spatial                      120
+## 5         57 emln57_spatial_te… Host-Parasite          Spatial                     1532
+## 6         57 emln57_spatial_te… Host-Parasite          Temporal                    1532
+## # ℹ abbreviated names: ¹​ecological_network_type, ²​multilayer_network_type</code></pre>
 <pre class="r"><code>search_2 &lt;- search_emln(ecological_network_type = &#39;Pollination&#39;, layer_number_minimum = 15)
 search_2 %&gt;% select(&quot;network_id&quot;,&quot;network_name&quot;,&quot;ecological_network_type&quot;,&quot;multilayer_network_type&quot;,&quot;layer_num&quot;)</code></pre>
 <pre><code>## # A tibble: 6 × 5
 ## # Groups:   network_id, network_name [5]
-##   network_id network_name                                     ecological_network_type multilayer_network_type layer_num
-##        &lt;dbl&gt; &lt;chr&gt;                                            &lt;chr&gt;                   &lt;chr&gt;                       &lt;dbl&gt;
-## 1          2 emln2_environment_benadi_jae_2013                Pollination             Environment                    69
-## 2         64 emln64_temporal_caradona_2020                    Pollination             Temporal                       86
-## 3         71 emln71_temporal_perturbation_kaiser_bunbury_2009 Pollination             Temporal                       24
-## 4         71 emln71_temporal_perturbation_kaiser_bunbury_2009 Pollination             Perturbation                   24
-## 5         72 emln72_temporal_ponisio_2017                     Pollination             Temporal                      141
-## 6         78 emln78_temporal_zackenberg_2013                  Pollination             Temporal                      163</code></pre>
+##   network_id network_name       ecological_network_t…¹ multilayer_network_t…² layer_num
+##        &lt;dbl&gt; &lt;chr&gt;              &lt;chr&gt;                  &lt;chr&gt;                      &lt;dbl&gt;
+## 1          2 emln2_environment… Pollination            Environment                   69
+## 2         64 emln64_temporal_c… Pollination            Temporal                      86
+## 3         71 emln71_temporal_p… Pollination            Temporal                      24
+## 4         71 emln71_temporal_p… Pollination            Perturbation                  24
+## 5         72 emln72_temporal_p… Pollination            Temporal                     141
+## 6         78 emln78_temporal_z… Pollination            Temporal                     163
+## # ℹ abbreviated names: ¹​ecological_network_type, ²​multilayer_network_type</code></pre>
 </div>
 <div id="loading-a-network" class="section level1">
 <h1>Loading a network</h1>
@@ -466,18 +468,20 @@ network.</p>
 <pre><code>## [1] &quot;Creating state node map&quot;
 ## [1] &quot;Creating extended link list with node IDs&quot;</code></pre>
 <pre class="r"><code>names(d38)</code></pre>
-<pre><code>## [1] &quot;nodes&quot;        &quot;layers&quot;       &quot;extended&quot;     &quot;extended_ids&quot; &quot;state_nodes&quot;  &quot;description&quot;  &quot;references&quot;</code></pre>
+<pre><code>## [1] &quot;nodes&quot;        &quot;layers&quot;       &quot;extended&quot;     &quot;extended_ids&quot; &quot;state_nodes&quot; 
+## [6] &quot;description&quot;  &quot;references&quot;</code></pre>
 <pre class="r"><code>d38$layers</code></pre>
 <pre><code>## # A tibble: 7 × 10
-##   layer_id name                location        latitude longitude years num_of_species num_of_interactions connectance layer_name
-##      &lt;int&gt; &lt;chr&gt;               &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;          &lt;int&gt;               &lt;int&gt;       &lt;dbl&gt; &lt;chr&gt;     
-## 1        1 Amami-Ohsima_Island Amami-Ohsima I…     28.4      129. 1996…            719                1125       0.017 layer_1   
-## 2        2 Ashu                Ashu, Kyoto, J…     35.3      136. 1984…            768                1193       0.019 layer_2   
-## 3        3 Kibune              Kibune, Kyoto,…     35.2      136. 1984…            997                1920       0.019 layer_3   
-## 4        4 Kyoto_City          Kyoto City, Ja…     35.0      136. 1985…            431                 773       0.022 layer_4   
-## 5        5 Mt.Kushigata        Mt. Kushigata,…     35.6      138. 1990…            456                 871       0.026 layer_5   
-## 6        6 Mt.Yufu             Mt. Yufu, Japan     33.4      132. 2001             393                 589       0.02  layer_6   
-## 7        7 Nakaikemi_marsh     Nakaikemi mars…     35.6      136. 1994…            259                 431       0.035 layer_7</code></pre>
+##   layer_id name    location latitude longitude years num_of_species num_of_interactions
+##      &lt;int&gt; &lt;chr&gt;   &lt;chr&gt;       &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;          &lt;int&gt;               &lt;int&gt;
+## 1        1 Amami-… Amami-O…     28.4      129. 1996…            719                1125
+## 2        2 Ashu    Ashu, K…     35.3      136. 1984…            768                1193
+## 3        3 Kibune  Kibune,…     35.2      136. 1984…            997                1920
+## 4        4 Kyoto_… Kyoto C…     35.0      136. 1985…            431                 773
+## 5        5 Mt.Kus… Mt. Kus…     35.6      138. 1990…            456                 871
+## 6        6 Mt.Yufu Mt. Yuf…     33.4      132. 2001             393                 589
+## 7        7 Nakaik… Nakaike…     35.6      136. 1994…            259                 431
+## # ℹ 2 more variables: connectance &lt;dbl&gt;, layer_name &lt;chr&gt;</code></pre>
 <pre class="r"><code>head(d38$extended)</code></pre>
 <pre><code>##   layer_from             node_from layer_to                 node_to weight        type
 ## 1    layer_1 Castanopsis_sieboldii  layer_1    Stomorhina.obsoleta.      3 pollination

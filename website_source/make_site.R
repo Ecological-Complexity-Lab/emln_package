@@ -1,4 +1,6 @@
 library(emln)
+remotes::install_github("rlesur/klippy")
+
 # get all the files from the source
 if (getwd()!="/Users/itamartalpaz/GitHub/emln_package"){stop('wd must be the root of the package')}
 
@@ -19,6 +21,8 @@ unlink('docs/private', recursive = TRUE, force = FALSE)
 unlink('docs/website_source/', recursive = TRUE, force = FALSE)
 unlink('docs/DESCRIPTION', recursive = TRUE, force = FALSE)
 unlink('docs/NAMESPACE', recursive = TRUE, force = FALSE)
+unlink('docs/Infomap', recursive = TRUE, force = FALSE)
+unlink('docs/Infomap.exe', recursive = TRUE, force = FALSE)
 files <- list.files('docs/', full.names = T)
 rm_files <- files[grep("\\.txt$", files)]
 file.remove(rm_files)
@@ -29,7 +33,8 @@ file.remove(rm_files)
 
 # Remove all the website files
 file_names <- list.files()
-file_names_filtered <- file_names[grep("\\.(Rmd|txt|png|csv|xlsx|yml)$", file_names)]
+file_names_filtered <- file_names[grep("\\.(Rmd|txt|png|csv|xlsx|yml|html|R)$", file_names)]
 print(file_names_filtered)
 file.remove(file_names_filtered)
-
+unlink('Infomap')
+unlink('Infomap.exe')

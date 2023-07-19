@@ -390,10 +390,16 @@ analysis.</p>
 </div>
 <div id="installation" class="section level1">
 <h1>Installation</h1>
-<p>The EMLN package was built under R 4.1.0 and requires
-<code>magrittr, dplyr, ggplot2, stringr, tibble, tidyr, rlang, igraph, vegan</code>.
-The package is installed directly from GitHub.</p>
-<pre class="r"><code>devtools::install_github(&#39;Ecological-Complexity-Lab/emln_package&#39;, force=T)
+<p>The EMLN package was built under R 4.1.0 and depends on several
+packages. The package is installed directly from GitHub. Run this code
+to install depndencies and the package.</p>
+<pre class="r"><code>package.list=c(&quot;tidyverse&quot;, &quot;magrittr&quot;,&quot;igraph&quot;,&quot;Matrix&quot;,&quot;DT&quot;,&quot;hablar&quot;,&quot;devtools&quot;)
+loaded &lt;-  package.list %in% .packages()
+package.list &lt;-  package.list[!loaded]
+installed &lt;-  package.list %in% .packages(TRUE)
+if (!all(installed)) install.packages(package.list[!installed],repos=&quot;http://cran.rstudio.com/&quot;)
+
+devtools::install_github(&#39;Ecological-Complexity-Lab/emln_package&#39;, force=T)
 library(emln)</code></pre>
 </div>
 <div id="do-i-need-anything-to-get-started" class="section level1">

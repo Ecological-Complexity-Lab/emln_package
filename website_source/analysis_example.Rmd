@@ -148,7 +148,7 @@ The deviation of the points from the reference line indicates a lack of correlat
 
 In this example, we showcase how to load and analyze a data set included in the `emln` package. At the mesoscale level of network analysis, examining network properties such as modularity can provide insights into the temporal behavior of species communities. In this analysis, we use the community detection algorithm `infomap` with the [infomapecology package](https://ecological-complexity-lab.github.io/infomap_ecology_package/) to detect modules in a temporal multilayer network.
 
-## loading the data
+## Loading the data
 
 To begin, we load network number 65 using the `load_emln` function, which returns a `multilayer` object. 
 
