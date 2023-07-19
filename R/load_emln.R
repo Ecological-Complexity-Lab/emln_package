@@ -160,6 +160,6 @@ load_emln <- function(network_id) {
 }
 
 
-#check if there are networks that return an error when loading the emln
-errors_ids <- NULL
-for (network_id in 1:80){result <- tryCatch(expr = load_emln(network_id), error = function(e) {errors_ids<<-c(errors_ids,network_id)})}
+# #check if there are networks that return an error when loading the emln
+# errors_ids <- NULL
+# for (network_id in 1:78){result <- tryCatch(expr = load_emln(network_id), error = function(e) {errors_ids<<-c(errors_ids,network_id)})}

@@ -7,7 +7,7 @@
 #' @return An interactive GUI for browinsg through networks.
 #'
 #' @export view_emln
-#' @importFrom DT datatable
+#' @import DT
 
 
 
@@ -19,7 +19,6 @@ view_emln <- function() {
       call. = FALSE
     )
   }
-
   datatable(descriptions,rownames = F)
 }
 
