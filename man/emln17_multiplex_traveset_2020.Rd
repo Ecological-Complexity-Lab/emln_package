@@ -12,7 +12,7 @@ https://doi.org/10.6084/m9.figshare.c.5208546.v1
 \description{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
-   17 \tab Multiplex \tab Multiples \tab FALSE \cr
+   17 \tab Multiplex \tab Multiple \tab FALSE \cr
 }
 }
 \keyword{internal}

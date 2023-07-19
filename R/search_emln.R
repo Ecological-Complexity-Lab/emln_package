@@ -4,7 +4,7 @@
 #'
 #' @description Search the database for networks depending on search parameters specified below.
 #'
-#' @param ecological_network_type One of Seed-Dispersal, Pollination, Food-Web, Host-Parasite, Multiples, Plant-Herbivore, Anemone-Fish, Plant-Ant
+#' @param ecological_network_type One of: Seed-Dispersal, Pollination, Food-Web, Host-Parasite, Multiple, Plant-Herbivore, Anemone-Fish, Plant-Ant
 #' @param multilayer_network_type Environment, Temporal, Multiplex, Perturbation, Spatial
 #' @param state_nodes TRUE/FALSE
 #' @param weighted TRUE/FALSE
