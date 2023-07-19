@@ -103,6 +103,7 @@ for (layer in g_layer$layers_igraph){
 ### Method 2: Multilayer Context
 
 Calculating the eigenvector centrality score of each state node using a SAM of the multilayer network.
+
 ```{r Eigenvector of SAM, echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
 # get the SAM
 sam_multilayer <- get_sam(multilayer = multilayer_kefi, bipartite = F, directed = T, sparse = F, remove_zero_rows_cols = F)
