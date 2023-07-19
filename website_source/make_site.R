@@ -9,3 +9,4 @@ rmarkdown::render_site(input = 'website_source')
 # Remove unnecesary files
 unlink('docs/', recursive = TRUE, force = FALSE)
 file.copy('website_source/docs/', '.', recursive = T)
+unlink('website_source/docs/', recursive = TRUE, force = FALSE)
