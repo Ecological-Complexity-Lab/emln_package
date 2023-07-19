@@ -3,3 +3,5 @@ This repository is the development repository of the emln package, which has its
 This repository also contains the website that accompanies the emln repository, and this website will be actively updated as necessary and remain here.
 
 # Folders
+
+- **`website_source`**: All files for the emln package website.
