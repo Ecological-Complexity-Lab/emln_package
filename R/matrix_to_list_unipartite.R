@@ -9,7 +9,7 @@
 #'
 #' @return A \code{monolayer} object
 #'
-#' @seealso \code{create_monolayer_object, monolayer}
+#' @seealso \code{create_monolayer_network, monolayer}
 #'
 #' @examples
 #' \dontrun{

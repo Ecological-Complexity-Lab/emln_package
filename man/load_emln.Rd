@@ -24,5 +24,5 @@ load_emln(network_id = 38)
 }
 }
 \seealso{
-[multilayer()]
+\code{multilayer}
 }

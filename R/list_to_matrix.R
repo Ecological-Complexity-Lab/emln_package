@@ -16,7 +16,7 @@
 #'   Must have a column called node_name with names matching those in x.
 #'
 #' @return A \code{monolayer} object.
-#' @seealso Functions \code{create_monolayer_object, monolayer}, also,\code{graph.data.frame} from igraph.
+#' @seealso Functions \code{create_monolayer_network, monolayer} and \code{graph.data.frame} from igraph.
 #'
 #' @examples
 #' \dontrun{

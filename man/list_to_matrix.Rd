@@ -50,5 +50,5 @@ list_to_matrix(links, directed = TRUE, bipartite = FALSE, node_metadata = nodes)
 }
 }
 \seealso{
-Functions \code{create_monolayer_object, monolayer}, also,\code{graph.data.frame} from igraph.
+Functions \code{create_monolayer_network, monolayer} and \code{graph.data.frame} from igraph.
 }

@@ -15,7 +15,7 @@
 #' \dontrun{
 #' load_emln(network_id = 38)
 #' }
-#' @seealso [multilayer()]
+#' @seealso \code{multilayer}
 #'
 #' @export load_emln
 #' @import dplyr

@@ -1,6 +1,6 @@
 #' Convert a multilayer class to a a list of igraph objects
 #'
-#' This function creates a list of igraph objects for the network layers. Interlayer links are not included.
+#' This function creates a list of igraph objects from the network layers. Interlayer links are not included.
 #'
 #' @param multilayer The multilayer object.
 #' @param bipartite Is the network bipartite? Must be provided (no default

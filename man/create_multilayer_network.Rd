@@ -46,7 +46,7 @@ lists.
 }
 \details{
 Input of \code{list_of_layers} is handled by the function
-  \code{create_monolayer_object}; see it's description for details on input.
+  \code{create_monolayer_network}; see it's description for details on input.
   If using matrices as input, they should contain row and column names. If link lists are provided as input column names should be
   \code{from to weight}.
 
@@ -104,5 +104,5 @@ interlayer_links = interlayer, bipartite = F, directed = T)
 }
 }
 \seealso{
-[multilayer()]
+\code{multilayer, create_monolayer_network}
 }

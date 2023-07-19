@@ -12,7 +12,7 @@ https://datadryad.org/stash/dataset/doi:10.5061/dryad.3s36r118
 \description{
 Network Description:\tabular{cccc}{
    network_id \tab multilayer_network_type \tab ecological_network_type \tab state_nodes \cr
-   16 \tab Multiplex \tab Multiples \tab FALSE \cr
+   16 \tab Multiplex \tab Multiple \tab FALSE \cr
 }
 }
 \keyword{internal}

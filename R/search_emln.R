@@ -3,8 +3,9 @@
 #'@name search_emln
 #'
 #' @description Search the database for networks depending on search parameters specified below.
-#' @param ecological_network_type Seed-Dispersal/Pollination/Food-Web/Host-Parasite/Multiples/Plant-Herbivore/Anemone-Fish/Plant-Ant
-#' @param multilayer_network_type Environment/Temporal/Multiplex/Perturbation/Spatial
+#'
+#' @param ecological_network_type One of: Seed-Dispersal, Pollination, Food-Web, Host-Parasite, Multiple, Plant-Herbivore, Anemone-Fish, Plant-Ant
+#' @param multilayer_network_type Environment, Temporal, Multiplex, Perturbation, Spatial
 #' @param state_nodes TRUE/FALSE
 #' @param weighted TRUE/FALSE
 #' @param directed TRUE/FALSE
@@ -13,16 +14,12 @@
 #' @param node_number_minimum The minimum number of layers wanted in the network
 #'
 #'
-#'
-#'
-#'
-#'
 #' @return A tibble containing the network id, and all the search arguments for each of the networks that are compatible with the search.
 #'
 #'
 #' @examples
 #' \dontrun{
-#' See examples in: https://ecological-complexity-lab.github.io/emln_package/data.html#Browsing_the_data
+#' # See examples in: https://ecological-complexity-lab.github.io/emln_package/data.html#Browsing_the_data
 #'
 #' # Generates a tibble of all the networks in the package that are pollination networks
 #' search_emln(ecological_network_type = 'Plant-Ant')

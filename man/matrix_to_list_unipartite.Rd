@@ -32,5 +32,5 @@ matrix_to_list_unipartite(x, directed = TRUE)
 }
 }
 \seealso{
-\code{create_monolayer_object, monolayer}
+\code{create_monolayer_network, monolayer}
 }

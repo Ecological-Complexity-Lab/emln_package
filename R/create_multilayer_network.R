@@ -22,7 +22,7 @@
 #' @return A multilayer object (see ?multilayer).
 #'
 #' @details Input of \code{list_of_layers} is handled by the function
-#'   \code{create_monolayer_object}; see it's description for details on input.
+#'   \code{create_monolayer_network}; see it's description for details on input.
 #'   If using matrices as input, they should contain row and column names. If link lists are provided as input column names should be
 #'   \code{from to weight}.
 #'
@@ -45,7 +45,7 @@
 #'
 #'   See multiple example in the code accompanying the package
 #'
-#' @seealso [multilayer()]
+#' @seealso \code{multilayer, create_monolayer_network}
 #'
 #' @export
 #'
@@ -121,7 +121,7 @@ create_multilayer_network <- function(list_of_layers, bipartite, directed, inter
 
     print(sprintf('Layer #%s processing.', layer_id))
     ###  edge list  ###
-    if (bipartite) {igraph_network <- create_monolayer_object(x = the_layer, directed = directed, bipartite = T, group_names = c('set_cols','set_rows'))
+    if (bipartite) {igraph_network <- create_monolayer_network(x = the_layer, directed = directed, bipartite = T, group_names = c('set_cols','set_rows'))
                     edge_list <- igraph_network$edge_list
                     print('Done.')}
     if (!bipartite) {
@@ -129,7 +129,7 @@ create_multilayer_network <- function(list_of_layers, bipartite, directed, inter
                      if ((directed == FALSE) && (isSymmetric(the_layer) ==FALSE)){
                        warning('WARNING: In an undirected network a symmetric matrix is expected. Proceed with caution!')
                      }
-                     igraph_network <- create_monolayer_object(x = the_layer, directed = directed, bipartite = F)
+                     igraph_network <- create_monolayer_network(x = the_layer, directed = directed, bipartite = F)
                      edge_list <- igraph_network$edge_list
                      print('Done.')
                      }

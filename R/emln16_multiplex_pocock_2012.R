@@ -1,13 +1,13 @@
 #'
 #' @docType data
 #' @title emln16_multiplex_pocock_2012
-#' 
+#'
 #' @description Network Description:
-#' 
+#'
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|
-#' |     16     |        Multiplex        |        Multiples        |    FALSE    |
-#' 
+#' |     16     |        Multiplex        |        Multiple         |    FALSE    |
+#'
 #' @format NULL
 #' @usage NULL
 #' @source Dryad

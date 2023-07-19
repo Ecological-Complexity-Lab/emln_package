@@ -13,7 +13,7 @@
 
 <title>Working with included data sets</title>
 
-<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -29,7 +29,7 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
@@ -376,21 +376,9 @@ div.tocify {
   addClassKlippyTo("pre.r, pre.markdown");
   addKlippy('right', 'top', '#8B0000', '1', 'Copy code', 'Copied!');
 </script>
-<pre class="r"><code># source(&#39;R/create_multilayer_network.R&#39;)
-# source(&#39;R/create_monolayer_object.R&#39;)
-# source(&#39;R/get_sam.R&#39;)
-# source(&#39;R/get_igraph.R&#39;)
-# source(&#39;R/list_to_matrix.R&#39;)
-# source(&#39;R/matrix_to_list_bipartite.R&#39;)
-# source(&#39;R/matrix_to_list_unipartite.R&#39;)
-# source(&#39;R/view_emln.R&#39;)
-# source(&#39;R/load_emln.R&#39;)
-# source(&#39;R/search_emln.R&#39;)
-
-library(emln)
+<pre class="r"><code>library(emln)
 library(igraph)
 library(bipartite)
-library(Matrix)
 library(magrittr)
 library(ggplot2)
 library(readr)
@@ -403,29 +391,27 @@ library(ggbreak)
 library(ggpubr)</code></pre>
 <div id="about-the-data-sets" class="section level1">
 <h1>About the data sets</h1>
-<p>The package includes 80 data sets of multilayer networks, collected
+<p>The package includes 78 data sets of multilayer networks, collected
 from different sources. This collection of data is highly useful for
 comparative analysis and for practicing workflows. How data were
 collected and organized is described in the paper.</p>
-<p>The data includes 6 types of multilayer networks:</p>
+<p>The data includes 5 types of multilayer networks:</p>
 <pre><code>##     multi_type count
-## 1      Spatial    43
+## 1      Spatial    42
 ## 2     Temporal    22
-## 3  Environment    15
-## 4    Multiplex     6
-## 5 Perturbation     4
-## 6       Missed     1</code></pre>
-<p>These are divided into 8 types of ecological interaction
+## 3  Environment    17
+## 4 Perturbation     4
+## 5    Multiplex     4</code></pre>
+<p>These are divided into 7 types of ecological interaction
 networks:.</p>
 <pre><code>##          eco_type count
-## 1        Food-Web    36
+## 1        Food-Web    35
 ## 2     Pollination    25
 ## 3  Seed-Dispersal     7
 ## 4   Host-Parasite     5
 ## 5 Plant-Herbivore     3
-## 6       Multiples     2
-## 7          Missed     1
-## 8    Anemone-Fish     1</code></pre>
+## 6        Multiple     2
+## 7    Anemone-Fish     1</code></pre>
 <p>Here is a visual summary:</p>
 <p><img src="data_files/figure-html/unnamed-chunk-5-1.png" width="960" /></p>
 <p>The data is distributed globally:</p>
@@ -439,34 +425,35 @@ To search for a network with a certain set of parameters, you can use
 <code>search_emln()</code>. Here are a few examples.</p>
 <pre class="r"><code>search_1 &lt;- search_emln(ecological_network_type = &#39;Host-parasite&#39;)
 names(search_1)</code></pre>
-<pre><code>##  [1] &quot;network_id&quot;              &quot;network_name&quot;            &quot;ecological_network_type&quot; &quot;multilayer_network_type&quot;
-##  [5] &quot;state_nodes&quot;             &quot;weighted&quot;                &quot;directed&quot;                &quot;interlayer&quot;             
-##  [9] &quot;layer_num&quot;               &quot;node_num&quot;</code></pre>
+<pre><code>##  [1] &quot;network_id&quot;              &quot;network_name&quot;            &quot;ecological_network_type&quot;
+##  [4] &quot;multilayer_network_type&quot; &quot;state_nodes&quot;             &quot;weighted&quot;               
+##  [7] &quot;directed&quot;                &quot;interlayer&quot;              &quot;layer_num&quot;              
+## [10] &quot;node_num&quot;</code></pre>
 <pre class="r"><code># Show some of the columns
 search_1 %&gt;% select(&quot;network_id&quot;,&quot;network_name&quot;,&quot;ecological_network_type&quot;,&quot;multilayer_network_type&quot;,&quot;layer_num&quot;)</code></pre>
-<pre><code>## # A tibble: 7 × 5
-## # Groups:   network_id, network_name [6]
-##   network_id network_name                          ecological_network_type multilayer_network_type layer_num
-##        &lt;dbl&gt; &lt;chr&gt;                                 &lt;chr&gt;                   &lt;chr&gt;                       &lt;dbl&gt;
-## 1          7 emln7_environment_rejmanek_stary_1979 Host-Parasite           Environment                     4
-## 2         24 emln24_spatial_canadian_fish_parasite Host-Parasite           Spatial                        12
-## 3         34 emln34_spatial_hadfield_2013          Host-Parasite           Spatial                        51
-## 4         39 emln39_spatial_krasnov_ectoparasites  Host-Parasite           Spatial                        54
-## 5         55 emln55_spatial_slovakia               Host-Parasite           Spatial                       120
-## 6         59 emln59_spatial_temporal_kolpelke_2017 Host-Parasite           Spatial                      1532
-## 7         59 emln59_spatial_temporal_kolpelke_2017 Host-Parasite           Temporal                     1532</code></pre>
+<pre><code>## # A tibble: 6 × 5
+## # Groups:   network_id, network_name [5]
+##   network_id network_name       ecological_network_t…¹ multilayer_network_t…² layer_num
+##        &lt;dbl&gt; &lt;chr&gt;              &lt;chr&gt;                  &lt;chr&gt;                      &lt;dbl&gt;
+## 1          7 emln7_environment… Host-Parasite          Environment                    4
+## 2         23 emln23_spatial_ca… Host-Parasite          Spatial                       12
+## 3         33 emln33_spatial_ha… Host-Parasite          Spatial                       51
+## 4         53 emln53_spatial_sl… Host-Parasite          Spatial                      120
+## 5         57 emln57_spatial_te… Host-Parasite          Spatial                     1532
+## 6         57 emln57_spatial_te… Host-Parasite          Temporal                    1532
+## # ℹ abbreviated names: ¹​ecological_network_type, ²​multilayer_network_type</code></pre>
 <pre class="r"><code>search_2 &lt;- search_emln(ecological_network_type = &#39;Pollination&#39;, layer_number_minimum = 15)
 search_2 %&gt;% select(&quot;network_id&quot;,&quot;network_name&quot;,&quot;ecological_network_type&quot;,&quot;multilayer_network_type&quot;,&quot;layer_num&quot;)</code></pre>
 <pre><code>## # A tibble: 6 × 5
 ## # Groups:   network_id, network_name [5]
-##   network_id network_name                              ecological_network_t…¹ multilayer_network_t…² layer_num
-##        &lt;dbl&gt; &lt;chr&gt;                                     &lt;chr&gt;                  &lt;chr&gt;                      &lt;dbl&gt;
-## 1          2 emln2_environment_benadi_jae_2013         Pollination            Environment                   69
-## 2         66 emln66_temporal_caradona_2020             Pollination            Temporal                      86
-## 3         73 emln73_temporal_perturbation_kaiser_bunb… Pollination            Temporal                      24
-## 4         73 emln73_temporal_perturbation_kaiser_bunb… Pollination            Perturbation                  24
-## 5         74 emln74_temporal_ponisio_2017              Pollination            Temporal                     141
-## 6         80 emln80_temporal_zackenberg_2013           Pollination            Temporal                     163
+##   network_id network_name       ecological_network_t…¹ multilayer_network_t…² layer_num
+##        &lt;dbl&gt; &lt;chr&gt;              &lt;chr&gt;                  &lt;chr&gt;                      &lt;dbl&gt;
+## 1          2 emln2_environment… Pollination            Environment                   69
+## 2         64 emln64_temporal_c… Pollination            Temporal                      86
+## 3         71 emln71_temporal_p… Pollination            Temporal                      24
+## 4         71 emln71_temporal_p… Pollination            Perturbation                  24
+## 5         72 emln72_temporal_p… Pollination            Temporal                     141
+## 6         78 emln78_temporal_z… Pollination            Temporal                     163
 ## # ℹ abbreviated names: ¹​ecological_network_type, ²​multilayer_network_type</code></pre>
 </div>
 <div id="loading-a-network" class="section level1">
@@ -480,240 +467,29 @@ network.</p>
 <pre class="r"><code>d38 &lt;- load_emln(38)</code></pre>
 <pre><code>## [1] &quot;Creating state node map&quot;
 ## [1] &quot;Creating extended link list with node IDs&quot;</code></pre>
-<pre class="r"><code>d38</code></pre>
-<pre><code>## $nodes
-## # A tibble: 22 × 5
-##    node_id node_name           type  taxa_verified verification_level
-##      &lt;int&gt; &lt;chr&gt;               &lt;chr&gt; &lt;chr&gt;         &lt;chr&gt;             
-##  1       1 Juniperus_communis  plant TRUE          species           
-##  2       2 Juniperus_sabina    plant TRUE          species           
-##  3       3 Berberis_vulgaris   plant TRUE          species           
-##  4       4 Crataegus_monogyna  plant TRUE          species           
-##  5       5 Rosa_canina         plant TRUE          species           
-##  6       6 Juniperus_phoenicea plant TRUE          species           
-##  7       7 Hedera_helix        plant TRUE          species           
-##  8       8 Lonicera_arborea    plant TRUE          species           
-##  9       9 Taxus_baccata       plant TRUE          species           
-## 10      10 Prunus_prostrata    plant TRUE          species           
-## # ℹ 12 more rows
-## 
-## $layers
-## # A tibble: 5 × 8
-##   layer_id location               latitude longitude num_of_species num_of_interactions connectance layer_name
-##      &lt;int&gt; &lt;chr&gt;                     &lt;dbl&gt;     &lt;dbl&gt;          &lt;int&gt;               &lt;int&gt;       &lt;dbl&gt; &lt;chr&gt;     
-## 1        1 Campos de Otero, Sier…     37.1     -3.39              6                   6       0.667 layer_1   
-## 2        2 Cañada de las Sabinas…     37.9     -2.87             16                  31       0.646 layer_2   
-## 3        3 Cañada Travina, Sierr…     38.1     -2.75             13                  26       0.65  layer_3   
-## 4        4 Sabinar del Marqués, …     37.0     -6.55              9                  10       0.5   layer_4   
-## 5        5 Santa Bárbara, Sierra…     37.4     -2.84              9                  11       0.55  layer_5   
-## 
-## $extended
-##    layer_from              node_from layer_to           node_to weight           type
-## 1     layer_1     Juniperus_communis  layer_1  Turdus.torquatus      1 seed-dispersal
-## 2     layer_1     Juniperus_communis  layer_1 Turdus.viscivorus      1 seed-dispersal
-## 3     layer_1     Juniperus_communis  layer_1    Turdus.iliacus      1 seed-dispersal
-## 4     layer_1       Juniperus_sabina  layer_1  Turdus.torquatus      1 seed-dispersal
-## 5     layer_1       Juniperus_sabina  layer_1 Turdus.viscivorus      1 seed-dispersal
-## 6     layer_1      Berberis_vulgaris  layer_1  Turdus.torquatus      1 seed-dispersal
-## 7     layer_2     Crataegus_monogyna  layer_2     Turdus.merula      1 seed-dispersal
-## 8     layer_2     Crataegus_monogyna  layer_2 Turdus.viscivorus      1 seed-dispersal
-## 9     layer_2     Crataegus_monogyna  layer_2    Turdus.iliacus      1 seed-dispersal
-## 10    layer_2     Crataegus_monogyna  layer_2  Turdus.torquatus      1 seed-dispersal
-## 11    layer_2     Juniperus_communis  layer_2     Turdus.merula      1 seed-dispersal
-## 12    layer_2     Juniperus_communis  layer_2 Turdus.viscivorus      1 seed-dispersal
-## 13    layer_2     Juniperus_communis  layer_2    Turdus.iliacus      1 seed-dispersal
-## 14    layer_2     Juniperus_communis  layer_2  Turdus.torquatus      1 seed-dispersal
-## 15    layer_2       Juniperus_sabina  layer_2     Turdus.merula      1 seed-dispersal
-## 16    layer_2       Juniperus_sabina  layer_2 Turdus.viscivorus      1 seed-dispersal
-## 17    layer_2       Juniperus_sabina  layer_2    Turdus.iliacus      1 seed-dispersal
-## 18    layer_2       Juniperus_sabina  layer_2  Turdus.torquatus      1 seed-dispersal
-## 19    layer_2            Rosa_canina  layer_2     Turdus.merula      1 seed-dispersal
-## 20    layer_2            Rosa_canina  layer_2 Turdus.viscivorus      1 seed-dispersal
-## 21    layer_2            Rosa_canina  layer_2    Turdus.iliacus      1 seed-dispersal
-## 22    layer_2            Rosa_canina  layer_2  Turdus.torquatus      1 seed-dispersal
-## 23    layer_2      Berberis_vulgaris  layer_2     Turdus.merula      1 seed-dispersal
-## 24    layer_2      Berberis_vulgaris  layer_2 Turdus.viscivorus      1 seed-dispersal
-## 25    layer_2      Berberis_vulgaris  layer_2    Turdus.iliacus      1 seed-dispersal
-## 26    layer_2    Juniperus_phoenicea  layer_2     Turdus.merula      1 seed-dispersal
-## 27    layer_2    Juniperus_phoenicea  layer_2 Turdus.viscivorus      1 seed-dispersal
-## 28    layer_2    Juniperus_phoenicea  layer_2  Turdus.torquatus      1 seed-dispersal
-## 29    layer_2           Hedera_helix  layer_2     Turdus.merula      1 seed-dispersal
-## 30    layer_2           Hedera_helix  layer_2 Turdus.viscivorus      1 seed-dispersal
-## 31    layer_2       Lonicera_arborea  layer_2     Turdus.merula      1 seed-dispersal
-## 32    layer_2       Lonicera_arborea  layer_2  Turdus.torquatus      1 seed-dispersal
-## 33    layer_2          Taxus_baccata  layer_2     Turdus.merula      1 seed-dispersal
-## 34    layer_2          Taxus_baccata  layer_2 Turdus.viscivorus      1 seed-dispersal
-## 35    layer_2       Prunus_prostrata  layer_2     Turdus.merula      1 seed-dispersal
-## 36    layer_2    Rhamnus_myrtifolius  layer_2     Turdus.merula      1 seed-dispersal
-## 37    layer_2      Rhamnus_saxatilis  layer_2    Turdus.iliacus      1 seed-dispersal
-## 38    layer_3      Berberis_vulgaris  layer_3  Turdus.torquatus      1 seed-dispersal
-## 39    layer_3      Berberis_vulgaris  layer_3     Turdus.merula      1 seed-dispersal
-## 40    layer_3      Berberis_vulgaris  layer_3 Turdus.viscivorus      1 seed-dispersal
-## 41    layer_3      Berberis_vulgaris  layer_3    Turdus.iliacus      1 seed-dispersal
-## 42    layer_3      Berberis_vulgaris  layer_3 Turdus.philomelos      1 seed-dispersal
-## 43    layer_3     Crataegus_monogyna  layer_3  Turdus.torquatus      1 seed-dispersal
-## 44    layer_3     Crataegus_monogyna  layer_3     Turdus.merula      1 seed-dispersal
-## 45    layer_3     Crataegus_monogyna  layer_3 Turdus.viscivorus      1 seed-dispersal
-## 46    layer_3     Crataegus_monogyna  layer_3    Turdus.iliacus      1 seed-dispersal
-## 47    layer_3     Crataegus_monogyna  layer_3 Turdus.philomelos      1 seed-dispersal
-## 48    layer_3           Hedera_helix  layer_3  Turdus.torquatus      1 seed-dispersal
-## 49    layer_3           Hedera_helix  layer_3     Turdus.merula      1 seed-dispersal
-## 50    layer_3           Hedera_helix  layer_3 Turdus.viscivorus      1 seed-dispersal
-## 51    layer_3           Hedera_helix  layer_3    Turdus.iliacus      1 seed-dispersal
-## 52    layer_3          Taxus_baccata  layer_3  Turdus.torquatus      1 seed-dispersal
-## 53    layer_3          Taxus_baccata  layer_3     Turdus.merula      1 seed-dispersal
-## 54    layer_3          Taxus_baccata  layer_3 Turdus.viscivorus      1 seed-dispersal
-## 55    layer_3          Taxus_baccata  layer_3    Turdus.iliacus      1 seed-dispersal
-## 56    layer_3            Rosa_canina  layer_3  Turdus.torquatus      1 seed-dispersal
-## 57    layer_3            Rosa_canina  layer_3     Turdus.merula      1 seed-dispersal
-## 58    layer_3            Rosa_canina  layer_3 Turdus.viscivorus      1 seed-dispersal
-## 59    layer_3       Lonicera_arborea  layer_3  Turdus.torquatus      1 seed-dispersal
-## 60    layer_3       Lonicera_arborea  layer_3     Turdus.merula      1 seed-dispersal
-## 61    layer_3           Viscum_album  layer_3  Turdus.torquatus      1 seed-dispersal
-## 62    layer_3           Viscum_album  layer_3 Turdus.viscivorus      1 seed-dispersal
-## 63    layer_3     Juniperus_communis  layer_3  Turdus.torquatus      1 seed-dispersal
-## 64    layer_4    Juniperus_phoenicea  layer_4     Turdus.merula      1 seed-dispersal
-## 65    layer_4    Juniperus_phoenicea  layer_4    Turdus.iliacus      1 seed-dispersal
-## 66    layer_4    Juniperus_phoenicea  layer_4 Turdus.philomelos      1 seed-dispersal
-## 67    layer_4    Juniperus_phoenicea  layer_4  Turdus.torquatus      1 seed-dispersal
-## 68    layer_4    Juniperus_phoenicea  layer_4 Turdus.viscivorus      1 seed-dispersal
-## 69    layer_4   Osyris_quadripartita  layer_4     Turdus.merula      1 seed-dispersal
-## 70    layer_4   Osyris_quadripartita  layer_4    Turdus.iliacus      1 seed-dispersal
-## 71    layer_4   Osyris_quadripartita  layer_4 Turdus.philomelos      1 seed-dispersal
-## 72    layer_4           Corema_album  layer_4     Turdus.merula      1 seed-dispersal
-## 73    layer_4 Phillyrea_angustifolia  layer_4     Turdus.merula      1 seed-dispersal
-## 74    layer_5      Berberis_vulgaris  layer_5  Turdus.torquatus      1 seed-dispersal
-## 75    layer_5      Berberis_vulgaris  layer_5 Turdus.viscivorus      1 seed-dispersal
-## 76    layer_5      Berberis_vulgaris  layer_5    Turdus.iliacus      1 seed-dispersal
-## 77    layer_5      Berberis_vulgaris  layer_5     Turdus.merula      1 seed-dispersal
-## 78    layer_5       Juniperus_sabina  layer_5  Turdus.torquatus      1 seed-dispersal
-## 79    layer_5       Juniperus_sabina  layer_5 Turdus.viscivorus      1 seed-dispersal
-## 80    layer_5       Juniperus_sabina  layer_5    Turdus.iliacus      1 seed-dispersal
-## 81    layer_5       Juniperus_sabina  layer_5     Turdus.merula      1 seed-dispersal
-## 82    layer_5        Daphne_oleoides  layer_5 Turdus.viscivorus      1 seed-dispersal
-## 83    layer_5     Juniperus_communis  layer_5  Turdus.torquatus      1 seed-dispersal
-## 84    layer_5            Rosa_canina  layer_5  Turdus.torquatus      1 seed-dispersal
-## 
-## $extended_ids
-##    layer_from node_from layer_to node_to weight           type
-## 1           1         1        1      18      1 seed-dispersal
-## 2           1         1        1      19      1 seed-dispersal
-## 3           1         1        1      20      1 seed-dispersal
-## 4           1         2        1      18      1 seed-dispersal
-## 5           1         2        1      19      1 seed-dispersal
-## 6           1         3        1      18      1 seed-dispersal
-## 7           2         4        2      21      1 seed-dispersal
-## 8           2         4        2      19      1 seed-dispersal
-## 9           2         4        2      20      1 seed-dispersal
-## 10          2         4        2      18      1 seed-dispersal
-## 11          2         1        2      21      1 seed-dispersal
-## 12          2         1        2      19      1 seed-dispersal
-## 13          2         1        2      20      1 seed-dispersal
-## 14          2         1        2      18      1 seed-dispersal
-## 15          2         2        2      21      1 seed-dispersal
-## 16          2         2        2      19      1 seed-dispersal
-## 17          2         2        2      20      1 seed-dispersal
-## 18          2         2        2      18      1 seed-dispersal
-## 19          2         5        2      21      1 seed-dispersal
-## 20          2         5        2      19      1 seed-dispersal
-## 21          2         5        2      20      1 seed-dispersal
-## 22          2         5        2      18      1 seed-dispersal
-## 23          2         3        2      21      1 seed-dispersal
-## 24          2         3        2      19      1 seed-dispersal
-## 25          2         3        2      20      1 seed-dispersal
-## 26          2         6        2      21      1 seed-dispersal
-## 27          2         6        2      19      1 seed-dispersal
-## 28          2         6        2      18      1 seed-dispersal
-## 29          2         7        2      21      1 seed-dispersal
-## 30          2         7        2      19      1 seed-dispersal
-## 31          2         8        2      21      1 seed-dispersal
-## 32          2         8        2      18      1 seed-dispersal
-## 33          2         9        2      21      1 seed-dispersal
-## 34          2         9        2      19      1 seed-dispersal
-## 35          2        10        2      21      1 seed-dispersal
-## 36          2        11        2      21      1 seed-dispersal
-## 37          2        12        2      20      1 seed-dispersal
-## 38          3         3        3      18      1 seed-dispersal
-## 39          3         3        3      21      1 seed-dispersal
-## 40          3         3        3      19      1 seed-dispersal
-## 41          3         3        3      20      1 seed-dispersal
-## 42          3         3        3      22      1 seed-dispersal
-## 43          3         4        3      18      1 seed-dispersal
-## 44          3         4        3      21      1 seed-dispersal
-## 45          3         4        3      19      1 seed-dispersal
-## 46          3         4        3      20      1 seed-dispersal
-## 47          3         4        3      22      1 seed-dispersal
-## 48          3         7        3      18      1 seed-dispersal
-## 49          3         7        3      21      1 seed-dispersal
-## 50          3         7        3      19      1 seed-dispersal
-## 51          3         7        3      20      1 seed-dispersal
-## 52          3         9        3      18      1 seed-dispersal
-## 53          3         9        3      21      1 seed-dispersal
-## 54          3         9        3      19      1 seed-dispersal
-## 55          3         9        3      20      1 seed-dispersal
-## 56          3         5        3      18      1 seed-dispersal
-## 57          3         5        3      21      1 seed-dispersal
-## 58          3         5        3      19      1 seed-dispersal
-## 59          3         8        3      18      1 seed-dispersal
-## 60          3         8        3      21      1 seed-dispersal
-## 61          3        13        3      18      1 seed-dispersal
-## 62          3        13        3      19      1 seed-dispersal
-## 63          3         1        3      18      1 seed-dispersal
-## 64          4         6        4      21      1 seed-dispersal
-## 65          4         6        4      20      1 seed-dispersal
-## 66          4         6        4      22      1 seed-dispersal
-## 67          4         6        4      18      1 seed-dispersal
-## 68          4         6        4      19      1 seed-dispersal
-## 69          4        14        4      21      1 seed-dispersal
-## 70          4        14        4      20      1 seed-dispersal
-## 71          4        14        4      22      1 seed-dispersal
-## 72          4        15        4      21      1 seed-dispersal
-## 73          4        16        4      21      1 seed-dispersal
-## 74          5         3        5      18      1 seed-dispersal
-## 75          5         3        5      19      1 seed-dispersal
-## 76          5         3        5      20      1 seed-dispersal
-## 77          5         3        5      21      1 seed-dispersal
-## 78          5         2        5      18      1 seed-dispersal
-## 79          5         2        5      19      1 seed-dispersal
-## 80          5         2        5      20      1 seed-dispersal
-## 81          5         2        5      21      1 seed-dispersal
-## 82          5        17        5      19      1 seed-dispersal
-## 83          5         1        5      18      1 seed-dispersal
-## 84          5         5        5      18      1 seed-dispersal
-## 
-## $state_nodes
-## # A tibble: 53 × 7
-##    layer_id node_id layer_name node_name           type  taxa_verified verification_level
-##       &lt;int&gt;   &lt;int&gt; &lt;chr&gt;      &lt;chr&gt;               &lt;chr&gt; &lt;chr&gt;         &lt;chr&gt;             
-##  1        1       1 layer_1    Juniperus_communis  plant TRUE          species           
-##  2        1       2 layer_1    Juniperus_sabina    plant TRUE          species           
-##  3        1       3 layer_1    Berberis_vulgaris   plant TRUE          species           
-##  4        2       4 layer_2    Crataegus_monogyna  plant TRUE          species           
-##  5        2       1 layer_2    Juniperus_communis  plant TRUE          species           
-##  6        2       2 layer_2    Juniperus_sabina    plant TRUE          species           
-##  7        2       5 layer_2    Rosa_canina         plant TRUE          species           
-##  8        2       3 layer_2    Berberis_vulgaris   plant TRUE          species           
-##  9        2       6 layer_2    Juniperus_phoenicea plant TRUE          species           
-## 10        2       7 layer_2    Hedera_helix        plant TRUE          species           
-## # ℹ 43 more rows
-## 
-## $description
-## # A tibble: 7 × 2
-##   attribute               value                            
-##   &lt;chr&gt;                   &lt;chr&gt;                            
-## 1 data_entry              ofir_segev                       
-## 2 multilayer_network_type Spatial                          
-## 3 description             &lt;NA&gt;                             
-## 4 source                  Web_of_Life                      
-## 5 data_url                http://www.web-of-life.es/map.php
-## 6 ecological_network_type Seed-Dispersal                   
-## 7 state_nodes             FALSE                            
-## 
-## $references
-## NULL
-## 
-## attr(,&quot;class&quot;)
-## [1] &quot;multilayer&quot;</code></pre>
+<pre class="r"><code>names(d38)</code></pre>
+<pre><code>## [1] &quot;nodes&quot;        &quot;layers&quot;       &quot;extended&quot;     &quot;extended_ids&quot; &quot;state_nodes&quot; 
+## [6] &quot;description&quot;  &quot;references&quot;</code></pre>
+<pre class="r"><code>d38$layers</code></pre>
+<pre><code>## # A tibble: 7 × 10
+##   layer_id name    location latitude longitude years num_of_species num_of_interactions
+##      &lt;int&gt; &lt;chr&gt;   &lt;chr&gt;       &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;          &lt;int&gt;               &lt;int&gt;
+## 1        1 Amami-… Amami-O…     28.4      129. 1996…            719                1125
+## 2        2 Ashu    Ashu, K…     35.3      136. 1984…            768                1193
+## 3        3 Kibune  Kibune,…     35.2      136. 1984…            997                1920
+## 4        4 Kyoto_… Kyoto C…     35.0      136. 1985…            431                 773
+## 5        5 Mt.Kus… Mt. Kus…     35.6      138. 1990…            456                 871
+## 6        6 Mt.Yufu Mt. Yuf…     33.4      132. 2001             393                 589
+## 7        7 Nakaik… Nakaike…     35.6      136. 1994…            259                 431
+## # ℹ 2 more variables: connectance &lt;dbl&gt;, layer_name &lt;chr&gt;</code></pre>
+<pre class="r"><code>head(d38$extended)</code></pre>
+<pre><code>##   layer_from             node_from layer_to                 node_to weight        type
+## 1    layer_1 Castanopsis_sieboldii  layer_1    Stomorhina.obsoleta.      3 pollination
+## 2    layer_1 Castanopsis_sieboldii  layer_1      Hylaeus.insularum.      1 pollination
+## 3    layer_1 Castanopsis_sieboldii  layer_1  Lygocoris.sp1.M_PL_044      1 pollination
+## 4    layer_1 Castanopsis_sieboldii  layer_1    Mordellina.tsutsuii.      1 pollination
+## 5    layer_1 Castanopsis_sieboldii  layer_1 Lasioglossum.subopacum.     19 pollination
+## 6    layer_1 Castanopsis_sieboldii  layer_1       Anaspis.shibatai.     15 pollination</code></pre>
 <!-- Here is another example: -->
 <!-- ```{r} -->
 <!-- search_emln(ecological_network_type = 'Pollination', directed = TRUE) -->

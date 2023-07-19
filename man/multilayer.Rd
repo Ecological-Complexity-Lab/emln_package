@@ -15,7 +15,7 @@ A list with:
 }
 }
 \description{
-A network object of class multilayer contains all the necessary information and R objects to ru Infomap on a multilayer network and to parse the results in a meaningful way using node and layer metadata.
+A network object of class multilayer contains all the necessary information and R objects that define a multilayer network.
 }
 \seealso{
 \code{create_multilayer_network}

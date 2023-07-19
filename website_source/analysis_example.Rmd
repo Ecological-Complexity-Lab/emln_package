@@ -34,17 +34,15 @@ library(tidyverse)
 library(infomapecology)
 library(magrittr)
 ```
-The `emln` package is a valuable tool for importing, storing, and converting multilayer network data. In this section, we will demonstrate its practical application through analysis examples, including node-level analysis using an imported dataset and mesoscale analysis using a package-included dataset. These examples will provide firsthand experience and insights into how the `emln` package can be effectively employed in real-world analyses.
+The `emln` package is a valuable tool for importing, storing, and converting multilayer network data. In this section, we will demonstrate its practical application for downstream analysis using examples: (1) node-level analysis using an imported data set, and (2) a mesoscale analysis using a package-included data set.
 
 *We emphasize that the goal of the following analyses is purely technical. We do not assume to study or interpret results in the data sets we use in the example.*
 
-# Node-level analysis with imported dataset
+# Node-level analysis with an imported dataset
 
-At this analysis level, we will compare the eigenvector centrality scores for each state node when calculated separately per layer (as in a monolayer network), to those calculated in the multilayer. We use the `get_igraph` function to get the individual layers and the `get_sam` function to get the supra-adjacency matrix (SAM) to get the multilayer.
+At this analysis level, we will compare the eigenvector centrality scores for each state node when calculated separately per layer (as in a monolayer network), to those calculated in the multilayer. We use the `get_igraph` function  to get the individual layers and the `get_sam` function of EMLN to get the supra-adjacency matrix (SAM) to get the multilayer.
 
-This comparison aims to highlight the differences between monolayer and multilayer representations. Since eigenvector centrality takes into account the entire network's structure when calculating the centrality of each node, we anticipate no correlation. Examining the scores in different contexts offers valuable insights and alternative perspectives on node importance.
-
- <!-- Eigenvector centrality is a measure of a node's importance in a network based on its connections to other important nodes. -->
+This comparison aims to highlight the differences between monolayer and multilayer representations. Since eigenvector centrality takes into account the entire network's structure when calculating the centrality of each node, we anticipate no correlation. Examining the scores in different contexts (mono vs multilayer) offers valuable insights and alternative perspectives on node importance.
 
 ## Creating a Multilayer Object
 
@@ -97,7 +95,7 @@ g_layer <- get_igraph(multilayer_kefi, bipartite = F, directed = T)
 # get Eigenvector scores of igraph layers
 eigen_igraph = c()
 for (layer in g_layer$layers_igraph){
-  eigen_igraph <-append(eigen_igraph, igraph::eigen_centrality(layer, scale = T)$vector)
+  eigen_igraph <- append(eigen_igraph, igraph::eigen_centrality(layer, scale = T)$vector)
 }
 ```
 
@@ -119,7 +117,7 @@ eigen_sam <- igraph::eigen_centrality(graph_sam, directed = T, scale = T)$vector
 
 ## Results
 
-We visualize the correlation between the two sets of scores using a scatter plot. The scatter plot was created by merging the scores into a data frame called `ec_comparison` and using the `ggplot2` package. The x-axis and y-acis represent the multilayer and monolayer scores, respectively. The function `geom_abline()` adds a reference line to the scatter plot. Nodes that fall on this line have the same score in a monolayer and a multilayer context.
+We visualize the correlation between the two sets of scores using a scatter plot. The scatter plot was created by merging the scores into a data frame called `ec_comparison` and using the `ggplot2` package. The x-axis and y-axis represent the multilayer and monolayer scores, respectively. The function `geom_abline()` adds a reference line to the scatter plot. Nodes that fall on this line have the same score in a monolayer and a multilayer context.
 
 ```{r plotting eigenvector comparison,echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
 # merge to data frame eigenvector comparison
@@ -143,30 +141,35 @@ ggplot(data = ec_comparison, aes(monolayer, multilayer)) +
         legend.title = element_text(size=20))
 ```
 
-The deviation of the points from the reference line indicates a lack of correlation between the two centrality scores. Our results revealed that the majority of nodes were important in a monolayer, but in a multilayer context. This highlights the importance of considering the unique ecological processes and interactions represented by different layers when analyzing multilayer networks and interpreting node importance.
+The deviation of the points from the reference line indicates a lack of correlation between the two centrality scores. We see that the majority of the nodes that are important in a monolayer, lose this importance in the multilayer network. There is also a group of species that are important in both network types (upper right corner). This highlights the value of considering the unique ecological processes and interactions represented by different layers when analyzing multilayer networks and interpreting node importance.
 
 
 # Mesoscale level analysis with included data sets
 
 In this example, we showcase how to load and analyze a data set included in the `emln` package. At the mesoscale level of network analysis, examining network properties such as modularity can provide insights into the temporal behavior of species communities. In this analysis, we use the community detection algorithm `infomap` with the [infomapecology package](https://ecological-complexity-lab.github.io/infomap_ecology_package/) to detect modules in a temporal multilayer network.
 
-## loading the data
+## Loading the data
 
-To begin, we load the dataset using the `load_emln` function, which returns a `multilayer` object. This is a temporal multilayer network (network_id = 65) that represents a food-web with four layers and 39 physical nodes. The network comprises 383 intralayer edges that are directed and weighted, with no interlayer interactions.
+To begin, we load network number 65 using the `load_emln` function, which returns a `multilayer` object. 
 
 
 ```{r loading network from datasets, echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
 emln_65 <- load_emln(65)
+emln_65$layers
+emln_65$nodes
+head(emln_65$extended)
 ```
 
-## Module persistence
+This is a temporal plan-pollinator multilayer network with `nrow(emln_65$layers)` layers and `max(emln_65$nodes$node_id)` physical nodes. The network comprises `nrow(emln_65$extended)` intralayer edges that are directed and weighted, with no interlayer interactions.
 
-Next, we use `infomap` with `infomapecology` to detect modules. We first the prepare the data for analysis by selecting the relevant columns and modifying their names. Then, we run `infomap` on the modified dataset, considering factors such as relaxation rate and limits.
+## Community detection (modularity) analysis
+
+Next, we use `infomap` with `infomapecology` to detect modules. We first prepare the data for analysis by selecting the relevant columns and modifying their names. Then, we run `infomap` on the modified data set, considering factors such as relaxation rate and limits.
 
 
 _Note that the function `create_multilayer_object` prepares a multilayer object for `infomapecology`. Future versions of `infomapecology` will directly use the multilayer object created by the EMLN package._
 
-```{r infomap with infomapecology,,echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
+```{r infomap with infomapecology,echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
 emln_65_for_infomap <- infomapecology::create_multilayer_object(extended = emln_65$extended_ids[,1:5], nodes = emln_65$nodes, intra_output_extended = F)
 
 
@@ -180,7 +183,18 @@ emln_65_modularity <- run_infomap_multilayer(M = emln_65_for_infomap,
                                                temporal_network = T)
 ```
 
-To understand module persistence and its temporal dynamics, we plot the changes in each module's size over time.
+Let's take a look at the modules.
+
+```{r modules,echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
+# Number of modules:
+emln_65_modularity$m
+
+emln_65_modularity$modules %>% 
+  select(node_id, layer_id, node_name, type, module)
+```
+## Module persistence
+
+As this is a temporal network, we can observe module persistence and its temporal dynamics. we plot the changes in each module's size over time.
 
 ```{r plotting Module persistence,echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
 # Module' persistence
@@ -197,7 +211,9 @@ plot_multilayer_modules(emln_65_modularity, type = 'rectangle', color_modules = 
         legend.title = element_text(size=20))
 ```
 
-Furthermore, we can visualize the modular structure over time by plotting the species flow through modules. In this visualization, modules are represented by colors, the size of rectangles indicates the number of species in each module, and curved lines depict species moving between layers (time periods).
+Note that in the first layers there are 4 modules that do not persist. Than, in the second layer modules emerge that persist, some until the 6th layer.
+
+We can also visualize the modular structure over time by plotting the species flow through modules. In this visualization, modules are represented by colors, the size of rectangles indicates the number of species in each module, and curved lines depict species moving between layers (time periods).
 
 ```{r plotting Species flow,echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
 # Species flow through modules in time

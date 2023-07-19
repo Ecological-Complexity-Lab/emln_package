@@ -1,13 +1,13 @@
 #'
 #' @docType data
 #' @title emln17_multiplex_traveset_2020
-#' 
+#'
 #' @description Network Description:
-#' 
+#'
 #' | network_id | multilayer_network_type | ecological_network_type | state_nodes |
 #' |:----------:|:-----------------------:|:-----------------------:|:-----------:|
-#' |     17     |        Multiplex        |        Multiples        |    FALSE    |
-#' 
+#' |     17     |        Multiplex        |        Multiple         |    FALSE    |
+#'
 #' @format NULL
 #' @usage NULL
 #' @source Figshare

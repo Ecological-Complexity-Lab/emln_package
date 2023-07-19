@@ -9,13 +9,15 @@
 #' @param group_names Name of the groups in the columns and rows, respectively (e.g., parasites and hosts).
 #'
 #' @return A \code{monolayer} object.
-#' @seealso \code{create_monolayer_object, monolayer}
+#' @seealso \code{create_monolayer_network, monolayer}
 #'
 #' @examples
 #'
 #' # See examples in: https://ecological-complexity-lab.github.io/emln_package/monolayer.html#Bipartite
 #'
+#'\dontrun{
 #' matrix_to_list_bipartite(bipartite::memmott1999, group_names = c('Animals', 'Plants'))
+#'}
 #'
 #' @export
 #' @import dplyr
