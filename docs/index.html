@@ -399,7 +399,7 @@ package.list &lt;-  package.list[!loaded]
 installed &lt;-  package.list %in% .packages(TRUE)
 if (!all(installed)) install.packages(package.list[!installed],repos=&quot;http://cran.rstudio.com/&quot;)
 
-devtools::install_github(&#39;Ecological-Complexity-Lab/emln_package&#39;, force=T)
+devtools::install_github(&#39;Ecological-Complexity-Lab/emln&#39;, force=T)
 library(emln)</code></pre>
 </div>
 <div id="do-i-need-anything-to-get-started" class="section level1">
