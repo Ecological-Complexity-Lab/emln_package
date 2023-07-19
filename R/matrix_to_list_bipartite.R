@@ -15,7 +15,9 @@
 #'
 #' # See examples in: https://ecological-complexity-lab.github.io/emln_package/monolayer.html#Bipartite
 #'
+#'\dontrun{
 #' matrix_to_list_bipartite(bipartite::memmott1999, group_names = c('Animals', 'Plants'))
+#'}
 #'
 #' @export
 #' @import dplyr

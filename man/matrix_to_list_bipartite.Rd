@@ -25,7 +25,9 @@ Cannot handle node attributes/metadata. Always assumes an undirected network.
 
 # See examples in: https://ecological-complexity-lab.github.io/emln_package/monolayer.html#Bipartite
 
+\dontrun{
 matrix_to_list_bipartite(bipartite::memmott1999, group_names = c('Animals', 'Plants'))
+}
 
 }
 \seealso{
