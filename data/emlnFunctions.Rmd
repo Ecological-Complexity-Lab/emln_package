@@ -40,7 +40,7 @@ paper_figs_theme_no_legend <-
 
 ## creation of the lists
 #read the file path
-parent.folder <- "~/GitHub/ecomplab/emln_package/data-raw/"
+parent.folder <- "~/GitHub/emln_package/development/data-raw/"
 
 #setwd("~/GitHub/emln_db/EMLN_Datasets/datasets") ##in this chunk, we want the working directory to be the one with all the networks in order to read them
 
@@ -54,7 +54,7 @@ sub.folders.long <- sub.folders.long[str_order(sub.folders.short, numeric = T)]
 number_of_networks <- length(sub.folders.long)
 
 ##a dataframe that connects the id to the network folder
-id_readout <- data.frame(id = 1:81, network_name = sub.folders.short[str_order(sub.folders.short, numeric = T)], network_path = sub.folders.long)
+id_readout <- data.frame(id = 1:78, network_name = sub.folders.short[str_order(sub.folders.short, numeric = T)], network_path = sub.folders.long)
 
 #create big lists that each contain the nodes/layers/description/references csv
 #NOTE! not all networks have a references csv
@@ -283,17 +283,17 @@ p3
 
 
 #save multilayer types
-ggsave("~/GitHub/ecomplab/emln_package/data-raw//pie_multi_types.pdf",plot = p2,width =  10, height = 6)
+ggsave("~/GitHub/emln_package/development/data-raw/pie_multi_types.pdf",plot = p2,width =  10, height = 6)
 
 #save ecological types
-ggsave("~/GitHub/ecomplab/emln_package/data-raw//pie_eco_types.pdf",plot = p3,width =  10, height = 6)
+ggsave("~/GitHub/emln_package/development/data-raw/pie_eco_types.pdf",plot = p3,width =  10, height = 6)
 
 
 #array of the types
 library(ggpubr)
 p5 <- ggarrange(plotlist = list(p2,p3), labels = list('(A)','(B)'), vjust = 7)
 
-ggsave("~/GitHub/ecomplab/emln_package/data-raw//net_types_array.pdf",plot = p5,width =  10, height = 6)
+ggsave("~/GitHub/emln_package/development/data-raw/net_types_array.pdf",plot = p5,width =  10, height = 6)
 
 ```
 
@@ -302,12 +302,12 @@ ggsave("~/GitHub/ecomplab/emln_package/data-raw//net_types_array.pdf",plot = p5,
 p4 <- ggplot(counted_eco_types, aes(x=eco_type,y=count)) + 
   geom_bar(stat = 'identity', color='black',fill="gray") + xlab('Layer Type') + paper_figs_theme +
   theme(axis.text.x = element_text(angle = 75, vjust = 0.5, size = 12))
-
-ggsave("~/GitHub/ecomplab/emln_package/data-raw//layer_types.pdf",plot = p4,width =  10, height = 6)
+p4
+ggsave("~/GitHub/emln_package/development/data-raw/layer_types.pdf",plot = p4,width =  10, height = 6)
 
 
 #combination of layer type and network type
-multi_eco <- merge(multi,eco,by = 'network_id')
+multi_eco <- left_join(multi,eco)
 
 multi_eco <- count(multi_eco, multi_type, eco_type)
 
@@ -315,21 +315,18 @@ multi_eco$multi_type <- factor(multi_eco$multi_type , levels=c("Spatial","Tempor
 
 p10 <- ggplot(multi_eco, aes(x=multi_type,y=n, fill=eco_type)) + 
   geom_bar(stat = 'identity', color='black') + xlab('Multilayer Network Type') + paper_figs_theme +
-  theme(axis.text.x = element_text(angle = 75, vjust = 0.5, size = 12)) + ylab('Count')  + scale_fill_nejm(name = 'Ecological Network Type')
+  theme(axis.text.x = element_text(angle = 75, vjust = 0.5, size = 12),legend.title = element_text(size=13)) + ylab('Count')  + scale_fill_nejm(name = 'Interaction Type')
 p10 
 
-ggsave("~/GitHub/ecomplab/emln_package/data-raw//multi_layer_types.pdf",plot = p10,width =  10, height = 6)
-
+ggsave("~/GitHub/emln_package/development/data-raw//multi_layer_types.pdf",plot = p10,width =  10, height = 6)
 
 ```
 
-
-
-```{r Map Visualization}
+```{r}
 latitudes<-NULL
 longitudes<-NULL
 coord <- NULL
-for(i in 1:81){
+for(i in 1:78){
   if ('latitude' %in% all_layers[[i]]$attribute) {
     coord <- rbind(coord, data.frame(network_id = i,
                                      latitude = as.numeric(unlist(strsplit(filter(all_layers[[i]],
@@ -348,11 +345,9 @@ coord <- coord %>%
   na.omit()
 
 
-#there is a problem with the coordinates of network 39
-coord <- coord[!coord$network_id==39,]
 
 #add attributes to the map
-coord <- merge(coord,multi[,c('network_id','multi_type')], by = 'network_id')
+coord <- left_join(coord,multi[,c('network_id','multi_type')])
 
 worldmap <- map_data("world")
 p6 <- ggplot(worldmap) +
@@ -364,36 +359,28 @@ p6 <- ggplot(worldmap) +
   geom_point(
     data = coord,
     aes(longitude, latitude, color = multi_type),
-    alpha = 0.6) + expand_limits(x = worldmap$long, y = worldmap$lat) +
-  theme_void() + theme(title = NULL)  + scale_color_nejm()
+    alpha = 0.8) + expand_limits(x = worldmap$long, y = worldmap$lat) +
+  theme_void() + theme(title = NULL)  + scale_color_nejm() + labs(colour="Multilayer Type") +
+  theme(legend.position="bottom",legend.title = element_text(size=13))
+
 p6
 
-ggsave("~/GitHub/ecomplab/emln_package/data-raw//worldmap_plot_new.pdf",width = 25,height =15) 
-
-p7 <- ggplot() +
-  geom_map(
-    data = worldmap, map = worldmap,
-    aes(long, lat, map_id = region),
-    color = "white", fill = "lightgray", size = 0.1
-  ) +
-  geom_point(
-    data = coord,
-    aes(longitude, latitude, color = network_id),
-    alpha = 0.6
-  ) + theme_void() +
-  theme(legend.position = "none") 
+ggsave("~/GitHub/emln_package/development/data-raw/worldmap_plot_new.pdf",width = 25,height =15) 
 
 
-# grid <- ggpubr::ggarrange(plotlist = list(p0,p10,p_layers,p6), labels = list('(A)','(B)','(C)','(D)'))
+
+```
+
+```{r}
+#  grid <- ggpubr::ggarrange(plotlist = list(p0,p10,p_layers,p6), labels = list('(A)','(B)','(C)','(D)'))
 # grid
 
 grid <- ggpubr::ggarrange(
           ggpubr::ggarrange(p0,p_layers, ncol = 2, labels = c("(A)", "(B)")), 
-          ggpubr::ggarrange(p10, labels = "(C)"), 
+          ggpubr::ggarrange(p10, labels = "(C)", hjust=-0.1), 
           ggpubr::ggarrange(p6, labels = "(D)"), 
-          nrow = 3)
+          nrow = 3,legend = "right")
 grid
 
-ggsave('~/GitHub/ecomplab/emln_package/data-raw//emln_metadata_figure.pdf', width =  10, height = 15, plot=grid)
- ```
-
+ggsave('~/GitHub/emln_package/development/data-raw/emln_metadata_figure.pdf',grid,width = 10, height = 12)
+```
