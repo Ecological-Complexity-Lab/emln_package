@@ -13,8 +13,10 @@ navbar:
       href: data.html
     - text: "Analysis example"
       href: analysis_example.html
+    - text: "About and feedback"
+      href: about.html
 logo:
-  image: lab_logo.png
+  image: ecompab.png
   href: https://ecological-complexity-lab.github.io/emln_package/
 output:
   html_document:

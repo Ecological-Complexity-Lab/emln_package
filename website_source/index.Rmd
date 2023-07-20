@@ -55,6 +55,3 @@ This is a technical reference. Therefore, we assume at least some basic experien
 **Visual guide**
 [visual guide by Manlio De Domenico](https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md)
 
-# Feedback
-We welcome any feedback on the paper and this website! The best way to provide feedback is to open an issue on the GitHub repository of the package: [https://github.com/Ecological-Complexity-Lab/emln/issues](https://github.com/Ecological-Complexity-Lab/emln/issues).
-
