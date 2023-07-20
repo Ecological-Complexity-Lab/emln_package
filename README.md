@@ -8,4 +8,4 @@ This repository also contains the website that accompanies the emln repository, 
 - **`website_source`**: All files for the emln package website.
 - **`package`**: All files for the emln package.
 - **`docs`**: The active website files.
-- **`development`**: All files needed for the development of the package.
+- **`data`**: All files needed for the development of the data in the package.
