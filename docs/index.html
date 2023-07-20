@@ -347,6 +347,9 @@ div.tocify {
 <li>
   <a href="analysis_example.html">Analysis example</a>
 </li>
+<li>
+  <a href="about.html">About and feedback</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -380,19 +383,27 @@ div.tocify {
 <h1>About</h1>
 <p>This website contains complete examples for working with monolayer
 and multilayer network data with the package EMLN. It is rather
-self-explanatory but we recommend to read the paper <strong>PROVIDE A
-TITLE/DOI</strong> to really understand it. The general workflow is
+self-explanatory but we recommend to read the paper <strong>Practical
+guidelines and the EMLN R package for handling ecological multilayer
+networks</strong> to really understand it. The general workflow is
 described in the figure below. We start with monolayer networks, which
 are the basis for handling multilayer networks. Our paper and this
-website focus on handling data (A-D in the figure) and not on
-analysis.</p>
+website focus on handling data (blue rectangles in the figure), and not
+on analysis.</p>
 <p><img src="workflow.png" /></p>
+</div>
+<div id="citing-this-work" class="section level1">
+<h1>Citing this work</h1>
+<p>Please cite our work when you rely on, or get inspired by, the
+workflows and examples here, and when you use the package. [COMPLETE
+ONCE PAPER IS SUBMITTED] When using this package or the guidelines for
+network analysis.</p>
 </div>
 <div id="installation" class="section level1">
 <h1>Installation</h1>
 <p>The EMLN package was built under R 4.1.0 and depends on several
 packages. The package is installed directly from GitHub. Run this code
-to install depndencies and the package.</p>
+to install dependencies and the package.</p>
 <pre class="r"><code>package.list=c(&quot;tidyverse&quot;, &quot;magrittr&quot;,&quot;igraph&quot;,&quot;Matrix&quot;,&quot;DT&quot;,&quot;hablar&quot;,&quot;devtools&quot;)
 loaded &lt;-  package.list %in% .packages()
 package.list &lt;-  package.list[!loaded]
@@ -405,9 +416,9 @@ library(emln)</code></pre>
 <div id="do-i-need-anything-to-get-started" class="section level1">
 <h1>Do I need anything to get started?</h1>
 <p>This is a technical reference. Therefore, we assume at least some
-basic experience with monolayer network analysis. However, some
-familiarity with the basic concepts and theory of multilayer networks is
-highly recommended. Some recommended reading if you do not have that
+basic experience with monolayer network analysis. Also, some familiarity
+with the basic concepts and theory of multilayer networks is highly
+recommended. Some recommended reading if you do not have that
 background:</p>
 <p><strong>Ecological multilayer networks</strong></p>
 <ul>
@@ -435,10 +446,8 @@ class="uri">doi:10.1093/comnet/cnu016</a></li>
 <p><strong>Visual guide</strong> <a
 href="https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md">visual
 guide by Manlio De Domenico</a></p>
-</div>
-<div id="citing-this-package" class="section level1">
-<h1>Citing this package</h1>
-<p>Please cite… [COMPLETE ONCE PAPER IS OUT]</p>
+<hr />
+<p><img src="logos.png" height="80px" style="float:left, padding:10px" /></p>
 </div>
 
 

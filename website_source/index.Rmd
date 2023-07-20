@@ -18,12 +18,15 @@ klippy::klippy(position = c('top', 'right'), color = 'darkred')
 ```
 
 # About
-This website contains complete examples for working with monolayer and multilayer network data with the package EMLN. It is rather self-explanatory but we recommend to read the paper **PROVIDE A TITLE/DOI** to really understand it. The general workflow is described in the figure below. We start with monolayer networks, which are the basis for handling multilayer networks. Our paper and this website focus on handling data (A-D in the figure) and not on analysis.
+This website contains complete examples for working with monolayer and multilayer network data with the package EMLN. It is rather self-explanatory but we recommend to read the paper **Practical guidelines and the EMLN R package for handling ecological multilayer networks** to really understand it. The general workflow is described in the figure below. We start with monolayer networks, which are the basis for handling multilayer networks. Our paper and this website focus on handling data (blue rectangles in the figure), and not on analysis.
 
 ![](workflow.png)
 
+# Citing this work
+Please cite our work when you rely on, or get inspired by, the workflows and examples here, and when you use the package. [COMPLETE ONCE PAPER IS SUBMITTED] When using this package or the guidelines for network analysis.
+
 # Installation
-The EMLN package was built under R 4.1.0 and depends on several packages. The package is installed directly from GitHub. Run this code to install depndencies and the package.
+The EMLN package was built under R 4.1.0 and depends on several packages. The package is installed directly from GitHub. Run this code to install dependencies and the package.
 
 ```{r eval=FALSE, include=TRUE}
 package.list=c("tidyverse", "magrittr","igraph","Matrix","DT","hablar","devtools")
@@ -37,7 +40,7 @@ library(emln)
 ```
 
 # Do I need anything to get started?
-This is a technical reference. Therefore, we assume at least some basic experience with monolayer network analysis. However, some familiarity with the basic concepts and theory of multilayer networks is highly recommended. Some recommended reading if you do not have that background:
+This is a technical reference. Therefore, we assume at least some basic experience with monolayer network analysis. Also, some familiarity with the basic concepts and theory of multilayer networks is highly recommended. Some recommended reading if you do not have that background:
 
 **Ecological multilayer networks**
 
@@ -52,8 +55,10 @@ This is a technical reference. Therefore, we assume at least some basic experien
 **Visual guide**
 [visual guide by Manlio De Domenico](https://github.com/manlius/muxViz/blob/master/gui-old/theory/README.md)
 
-# Citing this package
-Please cite... [COMPLETE ONCE PAPER IS OUT]
+___
 
+```{r out.height="80px", out.extra='style="float:left, padding:10px"', echo=FALSE}
+knitr::include_graphics("logos.png")
+```
 
 

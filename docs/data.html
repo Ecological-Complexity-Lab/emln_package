@@ -347,6 +347,9 @@ div.tocify {
 <li>
   <a href="analysis_example.html">Analysis example</a>
 </li>
+<li>
+  <a href="about.html">About and feedback</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -444,15 +447,43 @@ search_1 %&gt;% select(&quot;network_id&quot;,&quot;network_name&quot;,&quot;eco
 search_2 %&gt;% select(&quot;network_id&quot;,&quot;network_name&quot;,&quot;ecological_network_type&quot;,&quot;multilayer_network_type&quot;,&quot;layer_num&quot;)</code></pre>
 <pre><code>## # A tibble: 6 × 5
 ## # Groups:   network_id, network_name [5]
-##   network_id network_name                                     ecological_network_type multilayer_network_t…¹ layer_num
-##        &lt;dbl&gt; &lt;chr&gt;                                            &lt;chr&gt;                   &lt;chr&gt;                      &lt;dbl&gt;
-## 1          2 emln2_environment_benadi_jae_2013                Pollination             Environment                   69
-## 2         64 emln64_temporal_caradona_2020                    Pollination             Temporal                      86
-## 3         71 emln71_temporal_perturbation_kaiser_bunbury_2009 Pollination             Temporal                      24
-## 4         71 emln71_temporal_perturbation_kaiser_bunbury_2009 Pollination             Perturbation                  24
-## 5         72 emln72_temporal_ponisio_2017                     Pollination             Temporal                     141
-## 6         78 emln78_temporal_zackenberg_2013                  Pollination             Temporal                     163
-## # ℹ abbreviated name: ¹​multilayer_network_type</code></pre>
+##   network_id network_name                                     ecological_network_type multilayer_network_type layer_num
+##        &lt;dbl&gt; &lt;chr&gt;                                            &lt;chr&gt;                   &lt;chr&gt;                       &lt;dbl&gt;
+## 1          2 emln2_environment_benadi_jae_2013                Pollination             Environment                    69
+## 2         64 emln64_temporal_caradona_2020                    Pollination             Temporal                       86
+## 3         71 emln71_temporal_perturbation_kaiser_bunbury_2009 Pollination             Temporal                       24
+## 4         71 emln71_temporal_perturbation_kaiser_bunbury_2009 Pollination             Perturbation                   24
+## 5         72 emln72_temporal_ponisio_2017                     Pollination             Temporal                      141
+## 6         78 emln78_temporal_zackenberg_2013                  Pollination             Temporal                      163</code></pre>
+<pre class="r"><code># Networks with state node attributes
+search_emln(state_nodes = TRUE)</code></pre>
+<pre><code>## # A tibble: 12 × 10
+## # Groups:   network_id, network_name [11]
+##    network_id network_name         ecological_network_t…¹ multilayer_network_t…² state_nodes weighted directed interlayer
+##         &lt;dbl&gt; &lt;chr&gt;                &lt;chr&gt;                  &lt;chr&gt;                  &lt;chr&gt;       &lt;lgl&gt;    &lt;lgl&gt;    &lt;lgl&gt;     
+##  1          6 emln6_environment_k… Pollination            Environment            TRUE        TRUE     FALSE    FALSE     
+##  2         23 emln23_spatial_cana… Host-Parasite          Spatial                TRUE        TRUE     FALSE    FALSE     
+##  3         28 emln28_spatial_dick… Pollination            Spatial                TRUE        TRUE     FALSE    FALSE     
+##  4         30 emln30_spatial_elbe… Pollination            Spatial                TRUE        FALSE    FALSE    FALSE     
+##  5         33 emln33_spatial_hadf… Host-Parasite          Spatial                TRUE        TRUE     FALSE    FALSE     
+##  6         36 emln36_spatial_joer… Plant-Herbivore        Spatial                TRUE        FALSE    FALSE    FALSE     
+##  7         39 emln39_spatial_leat… Plant-Herbivore        Spatial                TRUE        FALSE    FALSE    FALSE     
+##  8         43 emln43_spatial_mont… Pollination            Spatial                TRUE        FALSE    FALSE    FALSE     
+##  9         51 emln51_spatial_prim… Pollination            Spatial                TRUE        FALSE    FALSE    FALSE     
+## 10         54 emln54_spatial_snow… Pollination            Spatial                TRUE        TRUE     FALSE    FALSE     
+## 11         58 emln58_spatial_temp… Plant-Herbivore        Spatial                TRUE        TRUE     FALSE    FALSE     
+## 12         58 emln58_spatial_temp… Plant-Herbivore        Temporal               TRUE        TRUE     FALSE    FALSE     
+## # ℹ abbreviated names: ¹​ecological_network_type, ²​multilayer_network_type
+## # ℹ 2 more variables: layer_num &lt;dbl&gt;, node_num &lt;dbl&gt;</code></pre>
+<pre class="r"><code># Networks with interlayer links
+search_emln(interlayer = TRUE)</code></pre>
+<pre><code>## # A tibble: 1 × 10
+## # Groups:   network_id, network_name [1]
+##   network_id network_name          ecological_network_t…¹ multilayer_network_t…² state_nodes weighted directed interlayer
+##        &lt;dbl&gt; &lt;chr&gt;                 &lt;chr&gt;                  &lt;chr&gt;                  &lt;chr&gt;       &lt;lgl&gt;    &lt;lgl&gt;    &lt;lgl&gt;     
+## 1         17 emln17_multiplex_tra… Multiples              Multiplex              FALSE       TRUE     FALSE    TRUE      
+## # ℹ abbreviated names: ¹​ecological_network_type, ²​multilayer_network_type
+## # ℹ 2 more variables: layer_num &lt;dbl&gt;, node_num &lt;dbl&gt;</code></pre>
 </div>
 <div id="loading-a-network" class="section level1">
 <h1>Loading a network</h1>
@@ -469,15 +500,15 @@ network.</p>
 <pre><code>## [1] &quot;nodes&quot;        &quot;layers&quot;       &quot;extended&quot;     &quot;extended_ids&quot; &quot;state_nodes&quot;  &quot;description&quot;  &quot;references&quot;</code></pre>
 <pre class="r"><code>d38$layers</code></pre>
 <pre><code>## # A tibble: 7 × 10
-##   layer_id name            location latitude longitude years num_of_species num_of_interactions connectance layer_name
-##      &lt;int&gt; &lt;chr&gt;           &lt;chr&gt;       &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;          &lt;int&gt;               &lt;int&gt;       &lt;dbl&gt; &lt;chr&gt;     
-## 1        1 Amami-Ohsima_I… Amami-O…     28.4      129. 1996…            719                1125       0.017 layer_1   
-## 2        2 Ashu            Ashu, K…     35.3      136. 1984…            768                1193       0.019 layer_2   
-## 3        3 Kibune          Kibune,…     35.2      136. 1984…            997                1920       0.019 layer_3   
-## 4        4 Kyoto_City      Kyoto C…     35.0      136. 1985…            431                 773       0.022 layer_4   
-## 5        5 Mt.Kushigata    Mt. Kus…     35.6      138. 1990…            456                 871       0.026 layer_5   
-## 6        6 Mt.Yufu         Mt. Yuf…     33.4      132. 2001             393                 589       0.02  layer_6   
-## 7        7 Nakaikemi_marsh Nakaike…     35.6      136. 1994…            259                 431       0.035 layer_7</code></pre>
+##   layer_id name               location latitude longitude years num_of_species num_of_interactions connectance layer_name
+##      &lt;int&gt; &lt;chr&gt;              &lt;chr&gt;       &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;          &lt;int&gt;               &lt;int&gt;       &lt;dbl&gt; &lt;chr&gt;     
+## 1        1 Amami-Ohsima_Isla… Amami-O…     28.4      129. 1996…            719                1125       0.017 layer_1   
+## 2        2 Ashu               Ashu, K…     35.3      136. 1984…            768                1193       0.019 layer_2   
+## 3        3 Kibune             Kibune,…     35.2      136. 1984…            997                1920       0.019 layer_3   
+## 4        4 Kyoto_City         Kyoto C…     35.0      136. 1985…            431                 773       0.022 layer_4   
+## 5        5 Mt.Kushigata       Mt. Kus…     35.6      138. 1990…            456                 871       0.026 layer_5   
+## 6        6 Mt.Yufu            Mt. Yuf…     33.4      132. 2001             393                 589       0.02  layer_6   
+## 7        7 Nakaikemi_marsh    Nakaike…     35.6      136. 1994…            259                 431       0.035 layer_7</code></pre>
 <pre class="r"><code>head(d38$extended)</code></pre>
 <pre><code>##   layer_from             node_from layer_to                 node_to weight        type
 ## 1    layer_1 Castanopsis_sieboldii  layer_1    Stomorhina.obsoleta.      3 pollination
