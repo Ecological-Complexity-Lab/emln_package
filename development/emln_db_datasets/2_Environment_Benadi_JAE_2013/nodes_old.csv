@@ -1,0 +1,607 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2,attribute3,value3,attribute4,value4
+1,Achillea clavennae,plant,family,Asteraceae,color,white,kugler_type,7,order,NA
+2,Achillea millefolium,plant,family,Asteraceae,color,white,kugler_type,7,order,NA
+3,Acinos alpinus,plant,family,Lamiaceae,color,violet,kugler_type,5,order,NA
+4,Aconitum lycoctonum,plant,family,Ranunculaceae,color,yellow,kugler_type,5,order,NA
+5,Aconitum napellus,plant,family,Ranunculaceae,color,blue,kugler_type,5,order,NA
+6,Adenostyles alliariae,plant,family,Asteraceae,color,red,kugler_type,7,order,NA
+7,Ajuga reptans,plant,family,Lamiaceae,color,blue,kugler_type,5,order,NA
+8,Allium lusitanicum,plant,family,Alliaceae,color,violet,kugler_type,1,order,NA
+9,Androsace chamaejasme,plant,family,Primulaceae,color,white,kugler_type,4,order,NA
+10,Anemone narcissiflora,plant,family,Ranunculaceae,color,white,kugler_type,1,order,NA
+11,Antennaria carpatica,plant,family,Asteraceae,color,white,kugler_type,7,order,NA
+12,Anthericum ramosum,plant,family,Liliaceae,color,white,kugler_type,1,order,NA
+13,Anthriscus nitidus,plant,family,Apiaceae,color,white,kugler_type,1,order,NA
+14,Anthyllis vulneraria,plant,family,Fabaceae,color,yellow,kugler_type,6,order,NA
+15,Aquilegia vulgaris,plant,family,Ranunculaceae,color,violet,kugler_type,3,order,NA
+16,Arabis ciliata,plant,family,Brassicaceae,color,white,kugler_type,1,order,NA
+17,Asteraceae sp. 1,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+18,Asteraceae sp. 2,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+19,Asteraceae sp. 3,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+20,Asteraceae sp. 4,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+21,Asteraceae sp. 5,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+22,Aster bellidiastrum,plant,family,Asteraceae,color,white,kugler_type,7,order,NA
+23,Bartsia alpina,plant,family,Lamiaceae,color,violet,kugler_type,5,order,NA
+24,Betonica alopecuros,plant,family,Lamiaceae,color,yellow,kugler_type,5,order,NA
+25,Biscutella laevigata,plant,family,Brassicaceae,color,yellow,kugler_type,1,order,NA
+26,Buphthalmum salicifolium,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+27,Campanula cochleariifolia,plant,family,Campanulaceae,color,blue,kugler_type,3,order,NA
+28,Campanula scheuchzeri,plant,family,Campanulaceae,color,violet,kugler_type,3,order,NA
+29,Cardamine enneaphyllos,plant,family,Brassicaceae,color,white,kugler_type,1,order,NA
+30,Cardamine pratensis,plant,family,Brassicaceae,color,violet,kugler_type,1,order,NA
+31,Carduus defloratus,plant,family,Asteraceae,color,purple,kugler_type,7,order,NA
+32,Carlina acaulis,plant,family,Asteraceae,color,white,kugler_type,7,order,NA
+33,Carum carvi,plant,family,Apiaceae,color,white,kugler_type,1,order,NA
+34,Centaurea jacea,plant,family,Asteraceae,color,purple,kugler_type,7,order,NA
+35,Cerastium fontanum,plant,family,Caryophyllaceae,color,white,kugler_type,1,order,NA
+36,Chaerophyllum hirsutum,plant,family,Apiaceae,color,white,kugler_type,1,order,NA
+37,Chaerophyllum hirsutum ssp. Villarsii,plant,family,Apiaceae,color,white,kugler_type,1,order,NA
+38,Cicerbita alpina,plant,family,Asteraceae,color,violet,kugler_type,7,order,NA
+39,Cirsium arvense,plant,family,Asteraceae,color,pink,kugler_type,7,order,NA
+40,Clematis alpina,plant,family,Ranunculaceae,color,blue,kugler_type,1,order,NA
+41,Clinopodium vulgare,plant,family,Lamiaceae,color,purple,kugler_type,5,order,NA
+42,Coeloglossum viride,plant,family,Orchidaceae,color,brown,kugler_type,5,order,NA
+43,Crepis aurea,plant,family,Asteraceae,color,orange,kugler_type,7,order,NA
+44,Crepis paludosa,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+45,Crepis sp.,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+46,Cuscuta epithymum,plant,family,Cuscutaceae,color,pink,kugler_type,3,order,NA
+47,Dactylorhiza maculata,plant,family,Orchidaceae,color,pink,kugler_type,5,order,NA
+48,Daphne mezereum,plant,family,Thymelaeceae,color,pink,kugler_type,4,order,NA
+49,Dryas octopetala,plant,family,Rosaceae,color,white,kugler_type,1,order,NA
+50,Epilobium montanum,plant,family,Onagraceae,color,pink,kugler_type,1,order,NA
+51,Epipactis atrorubens,plant,family,Orchidaceae,color,brown,kugler_type,5,order,NA
+52,Erica carnea,plant,family,Ericaceae,color,red,kugler_type,3,order,NA
+53,Erigeron glabratus,plant,family,Asteraceae,color,violet,kugler_type,7,order,NA
+54,Eupatorium cannabinum,plant,family,Asteraceae,color,pink,kugler_type,7,order,NA
+55,Euphorbia cyparissias,plant,family,Euphorbiaceae,color,green,kugler_type,1,order,NA
+56,Euphrasia minima,plant,family,Scrophulariaceae,color,yellow,kugler_type,5,order,NA
+57,Euphrasia officinalis,plant,family,Scrophulariaceae,color,white,kugler_type,5,order,NA
+58,Fragaria vesca,plant,family,Rosaceae,color,white,kugler_type,1,order,NA
+59,Galeobdolon luteum,plant,family,Lamiaceae,color,yellow,kugler_type,5,order,NA
+60,Galium album,plant,family,Rubiaceae,color,white,kugler_type,1,order,NA
+61,Galium uliginosum,plant,family,Rubiaceae,color,white,kugler_type,1,order,NA
+62,Gentiana clusii,plant,family,Gentianaceae,color,blue,kugler_type,2,order,NA
+63,Gentiana pannonica,plant,family,Gentianaceae,color,purple,kugler_type,2,order,NA
+64,Gentiana utriculosa,plant,family,Gentianaceae,color,blue,kugler_type,4,order,NA
+65,Gentiana verna,plant,family,Gentianaceae,color,blue,kugler_type,4,order,NA
+66,Gentianella aspera,plant,family,Gentianaceae,color,violet,kugler_type,2,order,NA
+67,Gentianella ciliata,plant,family,Gentianaceae,color,blue,kugler_type,2,order,NA
+68,Geranium sylvaticum,plant,family,Geraniaceae,color,violet,kugler_type,1,order,NA
+69,Geum rivale,plant,family,Rosaceae,color,red,kugler_type,3,order,NA
+70,Globularia cordifolia,plant,family,Globulariaceae,color,blue,kugler_type,7,order,NA
+71,Gymnadenia conopsea,plant,family,Orchidaceae,color,purple,kugler_type,5,order,NA
+72,Gymnadenia odoratissima,plant,family,Orchidaceae,color,purple,kugler_type,5,order,NA
+73,Gypsophila repens,plant,family,Caryophyllaceae,color,white,kugler_type,2,order,NA
+74,Hedysarum hedysaroides,plant,family,Fabaceae,color,purple,kugler_type,6,order,NA
+75,Helianthemum alpestre,plant,family,Cistaceae,color,yellow,kugler_type,1,order,NA
+76,Helianthemum nummularium,plant,family,Cistaceae,color,yellow,kugler_type,1,order,NA
+77,Heracleum austriacum,plant,family,Apiaceae,color,white,kugler_type,1,order,NA
+78,Heracleum sphondylium,plant,family,Apiaceae,color,white,kugler_type,1,order,NA
+79,Hieracium aurantiacum,plant,family,Asteraceae,color,orange,kugler_type,7,order,NA
+80,Hieracium bifidum,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+81,Hieracium glanduliferum,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+82,Hieracium glaucum,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+83,Hieracium pilosella,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+84,Hieracium pilosum,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+85,Hieracium sp. 1,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+86,Hieracium sp. 2,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+87,Hieracium sp. 3,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+88,Hieracium sp. 4,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+89,Hippocrepis comosa,plant,family,Fabaceae,color,yellow,kugler_type,6,order,NA
+90,Homogyne alpina,plant,family,Asteraceae,color,violet,kugler_type,7,order,NA
+91,Hypericum maculatum,plant,family,Hypericaceae,color,yellow,kugler_type,1,order,NA
+92,Knautia dipsacifolia,plant,family,Dipsacaceae,color,violet,kugler_type,1,order,NA
+93,Laserpitium siler,plant,family,Apiaceae,color,white,kugler_type,1,order,NA
+94,Leontodon hispidus,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+95,Leontodon sp.,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+96,Leontopodium alpinum,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+97,Leucanthemum adustum,plant,family,Asteraceae,color,white,kugler_type,7,order,NA
+98,Ligusticum mutellina,plant,family,Apiaceae,color,white,kugler_type,1,order,NA
+99,Listera ovata,plant,family,Orchidaceae,color,green,kugler_type,5,order,NA
+100,Lotus corniculatus,plant,family,Fabaceae,color,yellow,kugler_type,6,order,NA
+101,Lysimachia nemorum,plant,family,Primulaceae,color,yellow,kugler_type,1,order,NA
+102,Maianthemum bifolium,plant,family,Liliaceae,color,white,kugler_type,1,order,NA
+103,Melampyrum pratense,plant,family,Scrophulariaceae,color,yellow,kugler_type,5,order,NA
+104,Melampyrum sylvaticum,plant,family,Scrophulariaceae,color,yellow,kugler_type,5,order,NA
+105,Myosotis alpestris,plant,family,Boraginaceae,color,blue,kugler_type,4,order,NA
+106,Nigritella nigra,plant,family,Orchidaceae,color,purple,kugler_type,7,order,NA
+107,Orchis ustulata,plant,family,Orchidaceae,color,purple,kugler_type,5,order,NA
+108,Oxalis acetosella,plant,family,Oxalidaceae,color,white,kugler_type,1,order,NA
+109,Parnassia palustris,plant,family,Parnassiaceae,color,white,kugler_type,1,order,NA
+110,Pedicularis rostratocapitata,plant,family,Scrophulariaceae,color,purple,kugler_type,5,order,NA
+111,Phyteuma orbiculare,plant,family,Campanulaceae,color,blue,kugler_type,7,order,NA
+112,Pimpinella major,plant,family,Apiaceae,color,white,kugler_type,1,order,NA
+113,Pinguicula alpina,plant,family,Lentibulariaceae,color,white,kugler_type,1,order,NA
+114,Plantago lanceolata,plant,family,Plantaginaceae,color,brown,kugler_type,0,order,NA
+115,Plantago media,plant,family,Plantaginaceae,color,white,kugler_type,0,order,NA
+116,Platanthera bifolia,plant,family,Orchidaceae,color,white,kugler_type,5,order,NA
+117,Polygala alpestris,plant,family,Polygalaceae,color,blue,kugler_type,6,order,NA
+118,Polygala amarella,plant,family,Polygalaceae,color,blue,kugler_type,6,order,NA
+119,Polygala chamaebuxus,plant,family,Polygalaceae,color,yellow,kugler_type,6,order,NA
+120,Polygonum viviparum,plant,family,Polygonaceae,color,white,kugler_type,3,order,NA
+121,Potentilla aurea,plant,family,Rosaceae,color,yellow,kugler_type,1,order,NA
+122,Potentilla erecta,plant,family,Rosaceae,color,yellow,kugler_type,1,order,NA
+123,Prenanthes purpurea,plant,family,Asteraceae,color,purple,kugler_type,7,order,NA
+124,Primula auricula,plant,family,Primulaceae,color,yellow,kugler_type,4,order,NA
+125,Primula farinosa,plant,family,Primulaceae,color,purple,kugler_type,4,order,NA
+126,Primula minima,plant,family,Primulaceae,color,pink,kugler_type,4,order,NA
+127,Pritzelago alpina,plant,family,Brassicaceae,color,white,kugler_type,1,order,NA
+128,Prunella vulgaris,plant,family,Lamiaceae,color,violet,kugler_type,5,order,NA
+129,Ranunculus acris,plant,family,Ranunculaceae,color,yellow,kugler_type,1,order,NA
+130,Ranunculus alpestris,plant,family,Ranunculaceae,color,white,kugler_type,1,order,NA
+131,Ranunculus montanus,plant,family,Ranunculaceae,color,yellow,kugler_type,1,order,NA
+132,Rhinanthus glacialis,plant,family,Scrophulariaceae,color,yellow,kugler_type,5,order,NA
+133,Rhodothamnus chamaecistus,plant,family,Ericaceae,color,pink,kugler_type,5,order,NA
+134,Saxifraga caesia,plant,family,Saxifragaceae,color,white,kugler_type,1,order,NA
+135,Saxifraga rotundifolia,plant,family,Saxifragaceae,color,white,kugler_type,1,order,NA
+136,Scabiosa lucida,plant,family,Dipsacaceae,color,blue,kugler_type,7,order,NA
+137,Senecio abrotanifolius,plant,family,Asteraceae,color,orange,kugler_type,7,order,NA
+138,Silene acaulis,plant,family,Caryophyllaceae,color,red,kugler_type,4,order,NA
+139,Silene dioica,plant,family,Caryophyllaceae,color,red,kugler_type,4,order,NA
+140,Silene pusilla,plant,family,Caryophyllaceae,color,white,kugler_type,4,order,NA
+141,Silene viscosa,plant,family,Caryophyllaceae,color,white,kugler_type,4,order,NA
+142,Silene vulgaris,plant,family,Caryophyllaceae,color,white,kugler_type,4,order,NA
+143,Soldanella alpina,plant,family,Primulaceae,color,violet,kugler_type,3,order,NA
+144,Solidago virgaurea,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+145,Stellaria graminea,plant,family,Caryophyllaceae,color,white,kugler_type,1,order,NA
+146,Stellaria nemorum,plant,family,Caryophyllaceae,color,white,kugler_type,1,order,NA
+147,Taraxacum alpinum,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+148,Taraxacum officinale,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+149,Teucrium montanum,plant,family,Lamiaceae,color,yellow,kugler_type,5,order,NA
+150,Thalictrum aquilegiifolium,plant,family,Ranunculaceae,color,violet,kugler_type,9,order,NA
+151,Thesium alpinum,plant,family,Santalaceae,color,white,kugler_type,1,order,NA
+152,Thymus praecox,plant,family,Lamiaceae,color,purple,kugler_type,5,order,NA
+153,Tofieldia calyculata,plant,family,Liliaceae,color,white,kugler_type,1,order,NA
+154,Tolpis staticifolia,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+155,Trifolium pratense,plant,family,Fabaceae,color,red,kugler_type,6,order,NA
+156,Trifolium repens,plant,family,Fabaceae,color,white,kugler_type,6,order,NA
+157,Trollius europaeus,plant,family,Ranunculaceae,color,yellow,kugler_type,1,order,NA
+158,Tussilago farfara,plant,family,Asteraceae,color,yellow,kugler_type,7,order,NA
+159,Valeriana montana,plant,family,Valerianaceae,color,violet,kugler_type,2,order,NA
+160,Valeriana saxatilis,plant,family,Valerianaceae,color,white,kugler_type,2,order,NA
+161,Valeriana tripteris,plant,family,Valerianaceae,color,white,kugler_type,2,order,NA
+162,Veronica aphylla,plant,family,Plantaginaceae,color,blue,kugler_type,5,order,NA
+163,Veronica chamaedrys,plant,family,Scrophulariaceae,color,blue,kugler_type,5,order,NA
+164,Veronica officinalis,plant,family,Scrophulariaceae,color,violet,kugler_type,5,order,NA
+165,Vincetoxicum hirundinaria,plant,family,Asclepiadaceae,color,white,kugler_type,10,order,NA
+166,Viola biflora,plant,family,Violaceae,color,yellow,kugler_type,5,order,NA
+167,Alliopsis silvestris,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+168,Botanophila aff. rubrifrons,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+169,Botanophila aff. varicolor,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+170,Botanophila brunneilinea,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+171,Botanophila discreta,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+172,Botanophila estonica,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+173,Botanophila fugax,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+174,Botanophila sericea,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+175,Botanophila striolata,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+176,Botanophila trapezina,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+177,Botanophila tuxeni,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+178,Botanophila varicolor,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+179,Chiastocheta rotundiventris,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+180,Delia aff. angustiventris,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+181,Delia longicauda,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+182,Delia lophota (syn. D. nuda),pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+183,Delia platura,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+184,Delia pseudofugax,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+185,Heterostylodes obscura,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+186,Heterostylodes pilifera,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+187,Heterostylodes pratensis,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+188,Hydrophoria diabata,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+189,Hydrophoria lancifer,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+190,Hydrophoria lancifer,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+191,Hylemya nigrimana,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+192,Hylemya vagans,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+193,Hylemya variata,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+194,Paregle atrisquama,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+195,Pegoplata aestiva,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+196,Phorbia curvicauda,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+197,Phorbia fascicularis,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+198,Phorbia fumigata,pollinator,family,Anthomyiidae,color,NA,kugler_type,NA,order,Diptera
+199,Bombylius cinerascens,pollinator,family,Bombyliidae,color,NA,kugler_type,NA,order,Diptera
+200,Bellardia pandia,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+201,Bellardia stricta,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+202,Bellardia viarum,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+203,Bellardia vulgaris,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+204,Calliphora loewi,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+205,Calliphora subalpina,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+206,Calliphora vicina,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+207,Calliphora vomitoria,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+208,Cynomya mortuorum,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+209,Eggisops pecchiolii,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+210,Lucilia caesar,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+211,Lucilia richardsi,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+212,Lucilia richardsih,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+213,Melinda gentilis,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+214,Melinda viridicyaena,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+215,Pollenia amentaria,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+216,Pollenia labialis,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+217,Pollenia pediculata,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+218,Pollenia rudis,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+219,Protophormia terraenovae,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+220,Stomorhina lunata,pollinator,family,Calliphoridae,color,NA,kugler_type,NA,order,Diptera
+221,Sicus ferrugineus,pollinator,family,Conopidae,color,NA,kugler_type,NA,order,Diptera
+222,Thecophora atra,pollinator,family,Conopidae,color,NA,kugler_type,NA,order,Diptera
+223,Dolichopus trivialis,pollinator,family,Dolichopodidae,color,NA,kugler_type,NA,order,Diptera
+224,Hercostomus fugax,pollinator,family,Dolichopodidae,color,NA,kugler_type,NA,order,Diptera
+225,Hercostomus germanus,pollinator,family,Dolichopodidae,color,NA,kugler_type,NA,order,Diptera
+226,Sympycnus aeneicoxa,pollinator,family,Dolichopodidae,color,NA,kugler_type,NA,order,Diptera
+227,Scaptomyza pallida,pollinator,family,Drosophilidae,color,NA,kugler_type,NA,order,Diptera
+228,Bicellaria vana,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+229,Empis bistortae,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+230,Empis florisomna,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+231,Empis fumosa,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+232,Empis maerens,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+233,Empis melanotricha,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+234,Empis planetica,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+235,Empis scotica,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+236,Empis simulium,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+237,Empis spec nov.,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+238,Empis spec. 2,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+239,Empis tesselata,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+240,Hilara scrobriculata,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+241,Hilara sulcitarsis,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+242,Hybos grossipes,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+243,Rhamphomyia anthracina,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+244,Rhamphomyia heterochroma,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+245,Rhamphomyia spec. nov. 1,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+246,Rhamphomyia spec. nov. 2,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+247,Rhamphomyia stroblii,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+248,Rhamphomyia umbripes,pollinator,family,Empididae,color,NA,kugler_type,NA,order,Diptera
+249,Fannia carbonella,pollinator,family,Fanniidae,color,NA,kugler_type,NA,order,Diptera
+250,Fannia mollissima,pollinator,family,Fanniidae,color,NA,kugler_type,NA,order,Diptera
+251,Fannia postica,pollinator,family,Fanniidae,color,NA,kugler_type,NA,order,Diptera
+252,Fannia ringdahlana,pollinator,family,Fanniidae,color,NA,kugler_type,NA,order,Diptera
+253,Fannia serena,pollinator,family,Fanniidae,color,NA,kugler_type,NA,order,Diptera
+254,Bicellaria austriaca,pollinator,family,Hybotidae,color,NA,kugler_type,NA,order,Diptera
+255,Hybos culiciformis,pollinator,family,Hybotidae,color,NA,kugler_type,NA,order,Diptera
+256,Platypalpus pseudorapidus,pollinator,family,Hybotidae,color,NA,kugler_type,NA,order,Diptera
+257,Lonchoptera lutea,pollinator,family,Lonchopteridae,color,NA,kugler_type,NA,order,Diptera
+258,Azelia cilipes,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+259,Azelia triquetra,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+260,Coenosia ambigua,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+261,Coenosia means,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+262,Coenosia mollicula,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+263,Coenosia obscuricola,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+264,Coenosia obscuricula,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+265,Drymeia alpicola,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+266,Drymeia brumalis,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+267,Drymeia hamata,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+268,Helina annosa,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+269,Helina atricolor,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+270,Helina cinerella,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+271,Helina evecta,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+272,Helina latitarsis,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+273,Helina maculipennis,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+274,Helina obscurata,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+275,Helina reversio,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+276,Hydrotaea irritans,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+277,Hydrotaea pandellei,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+278,Macrorchis meditata,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+279,Morellia podagrica,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+280,Musca autumnalis,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+281,Mydaea corni,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+282,Neomyia viridescens,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+283,Phaonia angelicae,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+284,Phaonia chalinata,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+285,Phaonia consobrina,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+286,Phaonia hybrida,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+287,Phaonia jugorum,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+288,Phaonia lugubris,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+289,Phaonia meigeni,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+290,Phaonia serva,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+291,Phaonia zugmayeriae,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+292,Polietes lardarius,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+293,Thricops aculeipes,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+294,Thricops beckeri,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+295,Thricops cunctans,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+296,Thricops genarum,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+297,Thricops innocuus,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+298,Thricops longipes,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+299,Thricops nigrifrons,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+300,Thricops nigritellus,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+301,Thricops rostratus,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+302,Thricops semicinereus,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+303,Thricops sudeticus,pollinator,family,Muscidae,color,NA,kugler_type,NA,order,Diptera
+304,Opomyza florum,pollinator,family,Opomyzidaae,color,NA,kugler_type,NA,order,Diptera
+305,Megaselia latifemorata,pollinator,family,Phoridae,color,NA,kugler_type,NA,order,Diptera
+306,Megaselia sordida,pollinator,family,Phoridae,color,NA,kugler_type,NA,order,Diptera
+307,Megaselia spec.,pollinator,family,Phoridae,color,NA,kugler_type,NA,order,Diptera
+308,Phora holosericea,pollinator,family,Phoridae,color,NA,kugler_type,NA,order,Diptera
+309,Phora sp.,pollinator,family,Phoridae,color,NA,kugler_type,NA,order,Diptera
+310,Spiniphora strobli cf.,pollinator,family,Phoridae,color,NA,kugler_type,NA,order,Diptera
+311,Triphleba citreiformis,pollinator,family,Phoridae,color,NA,kugler_type,NA,order,Diptera
+312,Chrysopilus aureus,pollinator,family,Rhagionidae,color,NA,kugler_type,NA,order,Diptera
+313,Rhagio notatus,pollinator,family,Rhagionidae,color,NA,kugler_type,NA,order,Diptera
+314,Stevenia atramentaria,pollinator,family,Rhinophoridae,color,NA,kugler_type,NA,order,Diptera
+315,Paramacronychia flavipalpis,pollinator,family,Sarcophagidae,color,NA,kugler_type,NA,order,Diptera
+316,Sarcophaga dissimilis,pollinator,family,Sarcophagidae,color,NA,kugler_type,NA,order,Diptera
+317,Sarcophaga emdeni,pollinator,family,Sarcophagidae,color,NA,kugler_type,NA,order,Diptera
+318,Sarcophaga haemorrhoa,pollinator,family,Sarcophagidae,color,NA,kugler_type,NA,order,Diptera
+319,Sarcophaga incisilobata,pollinator,family,Sarcophagidae,color,NA,kugler_type,NA,order,Diptera
+320,Sarcophaga pumila,pollinator,family,Sarcophagidae,color,NA,kugler_type,NA,order,Diptera
+321,Sarcophaga rosellei,pollinator,family,Sarcophagidae,color,NA,kugler_type,NA,order,Diptera
+322,Sarcophaga sp.,pollinator,family,Sarcophagidae,color,NA,kugler_type,NA,order,Diptera
+323,Sarcophaga variegatag,pollinator,family,Sarcophagidae,color,NA,kugler_type,NA,order,Diptera
+324,Sarcophaga variegatar,pollinator,family,Sarcophagidae,color,NA,kugler_type,NA,order,Diptera
+325,Sarcophaga vicina,pollinator,family,Sarcophagidae,color,NA,kugler_type,NA,order,Diptera
+326,Delina nigrita,pollinator,family,Scathophagidae,color,NA,kugler_type,NA,order,Diptera
+327,Norellisoma lituratum,pollinator,family,Scathophagidae,color,NA,kugler_type,NA,order,Diptera
+328,Scathophaga furcata,pollinator,family,Scathophagidae,color,NA,kugler_type,NA,order,Diptera
+329,Scathophaga lutaria,pollinator,family,Scathophagidae,color,NA,kugler_type,NA,order,Diptera
+330,Scathophaga stercoraria,pollinator,family,Scathophagidae,color,NA,kugler_type,NA,order,Diptera
+331,Euthycera fumigata,pollinator,family,Sciomyzidae,color,NA,kugler_type,NA,order,Diptera
+332,Trypetoptera punctulata,pollinator,family,Sciomyzidae,color,NA,kugler_type,NA,order,Diptera
+333,Sepsis fulgens,pollinator,family,Sepsidae,color,NA,kugler_type,NA,order,Diptera
+334,Sepsis neocynipsea,pollinator,family,Sepsidae,color,NA,kugler_type,NA,order,Diptera
+335,Sepsis orthocnemis,pollinator,family,Sepsidae,color,NA,kugler_type,NA,order,Diptera
+336,Sepsis violacea,pollinator,family,Sepsidae,color,NA,kugler_type,NA,order,Diptera
+337,Crumomyia nitida,pollinator,family,Sphaeroceridae,color,NA,kugler_type,NA,order,Diptera
+338,Leptocera fontinalis,pollinator,family,Sphaeroceridae,color,NA,kugler_type,NA,order,Diptera
+339,Sphaerocera curvipes,pollinator,family,Sphaeroceridae,color,NA,kugler_type,NA,order,Diptera
+340,Beris clavipes,pollinator,family,Stratiomyidae,color,NA,kugler_type,NA,order,Diptera
+341,Blera fallax,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+342,Brachymyia berberina,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+343,Chamaesyrphus scaevoides,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+344,Cheilosia ahenea,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+345,Cheilosia albipila,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+346,Cheilosia albitarsis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+347,Cheilosia antiqua,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+348,Cheilosia bergenstammi,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+349,Cheilosia canicularis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+350,Cheilosia carbonaria,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+351,Cheilosia chlorus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+352,Cheilosia chrysocoma,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+353,Cheilosia fasciata,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+354,Cheilosia himantopus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+355,Cheilosia illustrata,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+356,Cheilosia impressa,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+357,Cheilosia laticornis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+358,Cheilosia lenis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+359,Cheilosia lenis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+360,Cheilosia longula,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+361,Cheilosia melanopa,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+362,Cheilosia melanura,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+363,Cheilosia melanura,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+364,Cheilosia morio,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+365,Cheilosia mutabilis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+366,Cheilosia mutabilis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+367,Cheilosia nigripes,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+368,Cheilosia nivalis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+369,Cheilosia pagana,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+370,Cheilosia personata,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+371,Cheilosia pubera,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+372,Cheilosia semifasciata,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+373,Cheilosia urbana,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+374,Cheilosia vicina,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+375,Chrysotoxum arcuatum,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+376,Dasysyrphus friuliensis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+377,Dasysyrphus lenensis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+378,Dasysyrphus pinastri,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+379,Dasysyrphus tricinctus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+380,Dasysyrphus venustus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+381,Didea alneti,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+382,Didea intermedia,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+383,Episyrphus balteatus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+384,Eristalis arbustorum,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+385,Eristalis interrupta,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+386,Eristalis intricaria,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+387,Eristalis lineata,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+388,Eristalis pertinax,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+389,Eristalis picea,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+390,Eristalis rupium,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+391,Eristalis similis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+392,Eristalis tenax,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+393,Eupeodes corollae,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+394,Eupeodes lapponicus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+395,Eupeodes latifasciatus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+396,Eupeodes luniger,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+397,Eupeodes nielseni,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+398,Eupeodes nitens,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+399,Eupeodes sp.,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+400,Helophilus pendulus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+401,Helophilus trivittatus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+402,Heringia pubescens,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+403,Leucozona lucorum,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+404,Melangyna compositarum,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+405,Melangyna lasiophthalma,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+406,Melanogaster hirtella,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+407,Melanogaster nuda,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+408,Melanostoma dubium,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+409,Melanostoma mellinum,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+410,Melanostoma scalare,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+411,Meliscaeva auricollis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+412,Meliscaeva cinctella,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+413,Merodon rufus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+414,Myathropa florea,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+415,Paragus haemorrhous,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+416,Parasyrphus annulatus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+417,Parasyrphus lineola,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+418,Parasyrphus macularis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+419,Parasyrphus punctulatus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+420,Parasyrphus vittiger,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+421,Pipiza bimaculata,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+422,Pipiza fenestrata,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+423,Pipiza lugubris,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+424,Pipiza quadrimaculata,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+425,Pipizella annulata,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+426,Pipizella divicoi,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+427,Pipizella sp.,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+428,Platycheirus albimanus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+429,Platycheirus clypeatus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+430,Platycheirus europaeus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+431,Platycheirus manicatus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+432,Platycheirus parmatus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+433,Platycheirus peltatus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+434,Platycheirus scutatus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+435,Platycheirus tarsalis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+436,Rhingia campestris,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+437,Scaeva pyrastri,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+438,Scaeva selenitica,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+439,Sericomyia silentis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+440,Sphaerophoria,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+441,Sphaerophoria batava,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+442,Sphaerophoria fatarum,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+443,Sphaerophoria interrupta,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+444,Sphaerophoria scripta,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+445,Sphaerophoria sp.,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+446,Sphaerophoria taeniata,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+447,Sphaerophoria virgata,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+448,Sphegina sibirica,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+449,Syrphus ribesii,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+450,Syrphus torvus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+451,Syrphus vitripennis,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+452,Volucella bombylans,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+453,Xanthandrus comtus,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+454,Xylota florum,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+455,Xylota jakutorum,pollinator,family,Syrphidae,color,NA,kugler_type,NA,order,Diptera
+456,Billaea triangulifera,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+457,Cyrtophleba ruricola,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+458,Cyzenis jucunda,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+459,Dinera carinifrons,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+460,Epicampocera succincta,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+461,Eriothrix rufomaculatus,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+462,Eurithia connivens,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+463,Exorista rustica,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+464,Gastrolepta anthracina,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+465,Huebneria affinis,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+466,Linnaemya vulpina,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+467,Loewia nudigena,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+468,Loewia phaeoptera,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+469,Macquartia grisea,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+470,Macquartia tenebricosa,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+471,Masistylum arcuatum,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+472,Nemorilla maculosa,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+473,Onychogonia flaviceps,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+474,Onychogonia suggesta,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+475,Peribaea tibialis,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+476,Ramonda spathulata,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+477,Siphona boreata,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+478,Siphona flavifrons,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+479,Siphona sp.,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+480,Solieria inanis,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+481,Synactia parvula,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+482,Tachina fera,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+483,Tachina magnicornis,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+484,Tachina nigrohirta,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+485,Trixa conspersa,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+486,Tryphera lugubris,pollinator,family,Tachinidae,color,NA,kugler_type,NA,order,Diptera
+487,Chaetostomella cylindrica,pollinator,family,Tephritidae,color,NA,kugler_type,NA,order,Diptera
+488,Cryptaciura rotundiventris,pollinator,family,Tephritidae,color,NA,kugler_type,NA,order,Diptera
+489,Tephritis sp.,pollinator,family,Tephritidae,color,NA,kugler_type,NA,order,Diptera
+490,Andrena lapponica,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+491,Andrena nitida,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+492,Andrena ruficrus,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+493,Andrena subopaca,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+494,Anthidium punctatum,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+495,Anthophora furcata,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+496,Apis mellifera,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+497,Bombus bohemicus,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+498,Bombus cryptarum,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+499,Bombus gerstaeckeri,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+500,Bombus hortorum,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+501,Bombus hypnorum,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+502,Bombus jonellus,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+503,Bombus lucorum-Komplex,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+504,Bombus lucorum-Komplex cf. cryptarum,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+505,Bombus lucorum-Komplex cf. lucorum,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+506,Bombus mendax,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+507,Bombus monticola,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+508,Bombus mucidus,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+509,Bombus pascuorum,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+510,Bombus pratorum,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+511,Bombus pyrenaeus,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+512,Bombus soroeensis,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+513,Bombus sylvestris,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+514,Bombus wurflenii,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+515,Chelostoma florisomne,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+516,Dufourea alpina,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+517,Halictus rubicundus,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+518,Hylaeus confusus,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+519,Hylaeus hyalinatus,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+520,Lasioglossum albipes,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+521,Lasioglossum calceatum,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+522,Lasioglossum cf. bavaricum,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+523,Lasioglossum cupromicans,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+524,Lasioglossum fratellum,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+525,Lasioglossum fulvicorne,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+526,Lasioglossum laevigatum,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+527,Megachile ligniseca,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+528,Megachile willughbiella,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+529,Osmia inermis,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+530,Osmia labialis,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+531,Osmia leaiana,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+532,Panurginus montanus,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+533,Sphecodes geoffrellus,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+534,Sphecodes hyalinatus,pollinator,family,Apidae s. l.,color,NA,kugler_type,NA,order,Hymenoptera
+535,Pyrausta aerealis,pollinator,family,Crambidae,color,NA,kugler_type,NA,order,Lepidoptera
+536,Pyrausta aurata,pollinator,family,Crambidae,color,NA,kugler_type,NA,order,Lepidoptera
+537,Udea alpinalis,pollinator,family,Crambidae,color,NA,kugler_type,NA,order,Lepidoptera
+538,Udea uliginosalis,pollinator,family,Crambidae,color,NA,kugler_type,NA,order,Lepidoptera
+539,Hylaea fasciaria,pollinator,family,Geometridae,color,NA,kugler_type,NA,order,Lepidoptera
+540,Mesotype verberata,pollinator,family,Geometridae,color,NA,kugler_type,NA,order,Lepidoptera
+541,Perizoma blandiata,pollinator,family,Geometridae,color,NA,kugler_type,NA,order,Lepidoptera
+542,Pseudopanthera macularia,pollinator,family,Geometridae,color,NA,kugler_type,NA,order,Lepidoptera
+543,Psodos quadrifarius,pollinator,family,Geometridae,color,NA,kugler_type,NA,order,Lepidoptera
+544,Xanthorhoe decoloraria,pollinator,family,Geometridae,color,NA,kugler_type,NA,order,Lepidoptera
+545,Carterocephalus palaemon,pollinator,family,Hesperiidae,color,NA,kugler_type,NA,order,Lepidoptera
+546,Erynnis tages,pollinator,family,Hesperiidae,color,NA,kugler_type,NA,order,Lepidoptera
+547,Ochlodes sylvanus,pollinator,family,Hesperiidae,color,NA,kugler_type,NA,order,Lepidoptera
+548,Pyrgus malvae,pollinator,family,Hesperiidae,color,NA,kugler_type,NA,order,Lepidoptera
+549,Pyrgus warrenensis,pollinator,family,Hesperiidae,color,NA,kugler_type,NA,order,Lepidoptera
+550,Aricia agestis,pollinator,family,Lycaenidae,color,NA,kugler_type,NA,order,Lepidoptera
+551,Aricia artaxerxes,pollinator,family,Lycaenidae,color,NA,kugler_type,NA,order,Lepidoptera
+552,Cupido minimus,pollinator,family,Lycaenidae,color,NA,kugler_type,NA,order,Lepidoptera
+553,Lycaena hippothoe,pollinator,family,Lycaenidae,color,NA,kugler_type,NA,order,Lepidoptera
+554,Polyomnmatus bellargus,pollinator,family,Lycaenidae,color,NA,kugler_type,NA,order,Lepidoptera
+555,Polyomnmatus icarus,pollinator,family,Lycaenidae,color,NA,kugler_type,NA,order,Lepidoptera
+556,Polyomnmatus semiargus,pollinator,family,Lycaenidae,color,NA,kugler_type,NA,order,Lepidoptera
+557,Anarta myrtilli,pollinator,family,Noctuidae,color,NA,kugler_type,NA,order,Lepidoptera
+558,Autographa bractea,pollinator,family,Noctuidae,color,NA,kugler_type,NA,order,Lepidoptera
+559,Autographa gamma,pollinator,family,Noctuidae,color,NA,kugler_type,NA,order,Lepidoptera
+560,Chersotis cuprea,pollinator,family,Noctuidae,color,NA,kugler_type,NA,order,Lepidoptera
+561,Chersotis ocellina,pollinator,family,Noctuidae,color,NA,kugler_type,NA,order,Lepidoptera
+562,Euclidia glyphica,pollinator,family,Noctuidae,color,NA,kugler_type,NA,order,Lepidoptera
+563,Aglais urticae,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+564,Agynnis aglaia,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+565,Araschnia levana,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+566,Argynnis paphia,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+567,Boloria pales,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+568,Coenonympha arcania,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+569,Coenonympha gardetta,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+570,Erebia aethiops,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+571,Erebia epiphron,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+572,Erebia euryale,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+573,Erebia ligea,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+574,Erebia manto,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+575,Erebia medusa,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+576,Erebia meolans,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+577,Erebia oeme,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+578,Erebia pandrose,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+579,Erebia pharte,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+580,Erebia pronoe,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+581,Erebia sp.,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+582,Euphydryas aurorina,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+583,Euphydryas cynthia,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+584,Inachis io,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+585,Lasiommata petropolitana,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+586,Melitaea athalia,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+587,Melitaea diamina,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+588,Nymphalis urticae,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+589,Vanessa atalanta,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+590,Vanessa cardui,pollinator,family,Nymphalidae,color,NA,kugler_type,NA,order,Lepidoptera
+591,Papilio machaon,pollinator,family,Papilionidae,color,NA,kugler_type,NA,order,Lepidoptera
+592,Parnassius apollo,pollinator,family,Papilionidae,color,NA,kugler_type,NA,order,Lepidoptera
+593,Anthocharis cardamines,pollinator,family,Pieridae,color,NA,kugler_type,NA,order,Lepidoptera
+594,Colias crocea,pollinator,family,Pieridae,color,NA,kugler_type,NA,order,Lepidoptera
+595,Colias phicomone,pollinator,family,Pieridae,color,NA,kugler_type,NA,order,Lepidoptera
+596,Leptidea sinapis,pollinator,family,Pieridae,color,NA,kugler_type,NA,order,Lepidoptera
+597,Leptidea sinapis/reali,pollinator,family,Pieridae,color,NA,kugler_type,NA,order,Lepidoptera
+598,Pieris bryoniae,pollinator,family,Pieridae,color,NA,kugler_type,NA,order,Lepidoptera
+599,Pieris napi,pollinator,family,Pieridae,color,NA,kugler_type,NA,order,Lepidoptera
+600,Pieris rapae,pollinator,family,Pieridae,color,NA,kugler_type,NA,order,Lepidoptera
+601,Adscita gerygon,pollinator,family,Zygaenidae,color,NA,kugler_type,NA,order,Lepidoptera
+602,Callophrys rubi,pollinator,family,Zygaenidae,color,NA,kugler_type,NA,order,Lepidoptera
+603,Zygaena filipendulae,pollinator,family,Zygaenidae,color,NA,kugler_type,NA,order,Lepidoptera
+604,Zygaena loti,pollinator,family,Zygaenidae,color,NA,kugler_type,NA,order,Lepidoptera
+605,Zygaena minos/purpuralis,pollinator,family,Zygaenidae,color,NA,kugler_type,NA,order,Lepidoptera
+606,Zygaena transalpina,pollinator,family,Zygaenidae,color,NA,kugler_type,NA,order,Lepidoptera

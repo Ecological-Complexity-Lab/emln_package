@@ -1,0 +1,6 @@
+"0","##first, I will address the layers type, I need to remove the duplicates from the list so I can create a pie chart that shows the proprtion of the types layers in all the networks"
+"0",""
+"0","#checking for typos, if there is a duplicate that shows up more then once, its a typo"
+"0","unique(layer_type$value)"
+"2","Error in unique(layer_type$value) : object 'layer_type' not found
+"

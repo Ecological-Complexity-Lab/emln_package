@@ -1,0 +1,54 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Achnanthes spp.,taxon,taxonomy_name,Achnanthes,taxonomy_rank,genus
+2,Amphora ovalis,taxon,taxonomy_name,Amphora ovalis,taxonomy_rank,species
+3,bryophyte,taxon,taxonomy_name,Bryophyta,taxonomy_rank,phylum
+4,Cocconeis sp.,taxon,taxonomy_name,Cocconeis,taxonomy_rank,genus
+5,Cymbella spp.,taxon,taxonomy_name,Cymbella,taxonomy_rank,genus
+6,Diatoma spp.,taxon,taxonomy_name,Diatoma,taxonomy_rank,genus
+7,Fragilaria vaucheriae,taxon,taxonomy_name,Fragilaria vaucheriae,taxonomy_rank,species
+8,Gomphonema angustatum,taxon,taxonomy_name,Gomphonema angustatum,taxonomy_rank,species
+9,Meridion circulare,taxon,taxonomy_name,Meridion circulare,taxonomy_rank,species
+10,Navicula radiosa v. tenella,taxon,taxonomy_name,Navicula radiosa,taxonomy_rank,species
+11,Staurosirella leptostauron,taxon,taxonomy_name,Staurosirella leptostauron,taxonomy_rank,species
+12,Synedra ulna,taxon,taxonomy_name,Synedra ulna,taxonomy_rank,species
+13,Didymosphenia geminata,taxon,taxonomy_name,Didymosphenia geminata,taxonomy_rank,species
+14,Hannaea arcus,taxon,taxonomy_name,Hannaea arcus,taxonomy_rank,species
+15,Zapada,taxon,taxonomy_name,Zapada,taxonomy_rank,genus
+16,Baetis,taxon,taxonomy_name,Baetis,taxonomy_rank,genus
+17,Ecclisiomyia,taxon,taxonomy_name,Ecclisomyia,taxonomy_rank,genus
+18,Isoperla,taxon,taxonomy_name,Isoperla,taxonomy_rank,genus
+19,Prosimulium,taxon,taxonomy_name,Prosimulium,taxonomy_rank,genus
+20,Salvelinus malma,taxon,taxonomy_name,Salvelinus malma,taxonomy_rank,species
+21,Chlorophyta filament,taxon,taxonomy_name,Chlorophyta,taxonomy_rank,phylum
+22,Eukiefferiella,taxon,taxonomy_name,Eukiefferiella,taxonomy_rank,genus
+23,Hydrurus foetidus,taxon,taxonomy_name,Hydrurus foetidus,taxonomy_rank,NA
+24,Orthocladiinae,taxon,taxonomy_name,Orthocladiinae,taxonomy_rank,NA
+25,Rheocricotopus,taxon,taxonomy_name,Rheocricotopus,taxonomy_rank,genus
+26,amorphous detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+27,Tanytarsini,taxon,taxonomy_name,Tanytarsini,taxonomy_rank,NA
+28,Thienemanniella,taxon,taxonomy_name,Thienemanniella,taxonomy_rank,genus
+29,Eunotia sp.,taxon,taxonomy_name,Eunotia,taxonomy_rank,genus
+30,Ceratopogonidae,taxon,taxonomy_name,Ceratopogonidae,taxonomy_rank,family
+31,Chelifera,taxon,taxonomy_name,Chelifera,taxonomy_rank,genus
+32,Diamesa,taxon,taxonomy_name,Diamesa,taxonomy_rank,genus
+33,Dixa,taxon,taxonomy_name,Dixa,taxonomy_rank,genus
+34,Micropsectra,taxon,taxonomy_name,Micropsectra,taxonomy_rank,genus
+35,Oreogeton,taxon,taxonomy_name,Oreogeton,taxonomy_rank,genus
+36,Pagastia,taxon,taxonomy_name,Pagastia,taxonomy_rank,genus
+37,Pericoma,taxon,taxonomy_name,Pericoma,taxonomy_rank,genus
+38,Tipula,taxon,taxonomy_name,Tipula,taxonomy_rank,genus
+39,Cinclus mexicanus,taxon,taxonomy_name,Cinclus mexicanus,taxonomy_rank,species
+40,Corynoneura,taxon,taxonomy_name,Corynoneura,taxonomy_rank,genus
+41,Oligochaeta,taxon,taxonomy_name,Oligochaeta,taxonomy_rank,genus
+42,terrestrial insects,taxon,taxonomy_name,NA,taxonomy_rank,NA
+43,winged aquatic adult,taxon,taxonomy_name,NA,taxonomy_rank,NA
+44,vascular plant,taxon,taxonomy_name,NA,taxonomy_rank,NA
+45,Acarina,taxon,taxonomy_name,Acarina,taxonomy_rank,NA
+46,Chironomidae,taxon,taxonomy_name,Chironomidae,taxonomy_rank,family
+47,Cinygmula,taxon,taxonomy_name,Cinygmula,taxonomy_rank,genus
+48,Chloroperlidae,taxon,taxonomy_name,Chloroperlidae,taxonomy_rank,family
+49,Chironomidae pupa,taxon,taxonomy_name,Chironomidae,taxonomy_rank,family
+50,Nitschia sp.,taxon,taxonomy_name,Nitzschia,taxonomy_rank,genus
+51,Ostrocoda,taxon,taxonomy_name,Ostracoda,taxonomy_rank,class
+52,Gymnopais,taxon,taxonomy_name,Gymnopais,taxonomy_rank,genus
+53,Diatoma heimale,taxon,taxonomy_name,NA,taxonomy_rank,NA

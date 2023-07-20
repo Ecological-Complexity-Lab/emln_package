@@ -1,0 +1,28 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Dissolved organic carbon,taxon,taxonomy_name,NA,taxonomy_rank,NA
+2,Particulate organic carbon,taxon,taxonomy_name,NA,taxonomy_rank,NA
+3,Heterotrophic bacteria,taxon,taxonomy_name,Bacteria,taxonomy_rank,genus
+4,Nanoflagellates,taxon,taxonomy_name,Ciliophora,taxonomy_rank,phylum
+5,Ciliates,taxon,taxonomy_name,Polydora ciliata,taxonomy_rank,species
+6,Rotifers,taxon,taxonomy_name,Rotifera,taxonomy_rank,phylum
+7,Veligers,taxon,taxonomy_name,Dreissena,taxonomy_rank,genus
+8,Small cladocerans,taxon,taxonomy_name,Dilar nevadensis,taxonomy_rank,species
+9,Copepods,taxon,taxonomy_name,Copepoda,taxonomy_rank,NA
+10,Sediment,taxon,taxonomy_name,Sediment,taxonomy_rank,NA
+11,Large cladocerans,taxon,taxonomy_name,Dilar nevadensis,taxonomy_rank,species
+12,Diporeia,taxon,taxonomy_name,Diporeia,taxonomy_rank,genus
+13,Other benthos,taxon,taxonomy_name,Benthos,taxonomy_rank,NA
+14,Mysis,taxon,taxonomy_name,Mysis,taxonomy_rank,genus
+15,Smelt YOY,taxon,taxonomy_name,Osmeridae,taxonomy_rank,family
+16,Juvenile sculpin,taxon,taxonomy_name,Cottoidea,taxonomy_rank,NA
+17,Early YOY alewife,taxon,taxonomy_name,Alosa pseudoharengus,taxonomy_rank,species
+18,Smelt algae 1 and older,taxon,taxonomy_name,Osmeridae,taxonomy_rank,family
+19,Late YOY and older alewife,taxon,taxonomy_name,Alosa pseudoharengus,taxonomy_rank,species
+20,Adult sculpin,taxon,taxonomy_name,Cottoidea,taxonomy_rank,NA
+21,Dreissenid mussels,taxon,taxonomy_name,Dreissena,taxonomy_rank,genus
+22,Chinook salmon,taxon,taxonomy_name,Oncorhynchus tshawytscha,taxonomy_rank,species
+23,Oncorhynchus mykiss,taxon,taxonomy_name,Oncorhynchus mykiss,taxonomy_rank,species
+24,Salvelinus namaycush,taxon,taxonomy_name,Salvelinus namaycush,taxonomy_rank,species
+25,Oncorhynchus kisutch,taxon,taxonomy_name,Oncorhynchus kisutch,taxonomy_rank,species
+26,Salmo trutta,taxon,taxonomy_name,Salmo trutta,taxonomy_rank,species
+27,Phytoplankton,taxon,taxonomy_name,NA,taxonomy_rank,NA

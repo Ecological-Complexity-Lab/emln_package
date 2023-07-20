@@ -1,0 +1,26 @@
+Specie,Kingdom,Role,Degree,Sum(connections strength),Networks presence
+"Aegithalos caudatus","Animals","Seed disperser",1,1.0000,1
+"Columba palumbus","Animals","Seed disperser",4,4.0000,3
+"Erithacus rubecula","Animals","Seed disperser",3,3.0000,7
+"Fringilla coelebs","Animals","Seed disperser",2,2.0000,4
+"Parus caeruleus","Animals","Seed disperser",4,4.0000,3
+"Parus major","Animals","Seed disperser",2,2.0000,3
+"Parus palustris","Animals","Seed disperser",7,7.0000,1
+"Pyrrhula pyrrhula","Animals","Seed disperser",3,3.0000,1
+"Sitta europaea","Animals","Seed disperser",2,2.0000,3
+"Sylvia atricapilla","Animals","Seed disperser",3,3.0000,8
+"Turdus iliacus","Animals","Seed disperser",3,3.0000,10
+"Turdus merula","Animals","Seed disperser",7,7.0000,11
+"Turdus philomelos","Animals","Seed disperser",4,4.0000,8
+"Turdus pilaris","Animals","Seed disperser",2,2.0000,4
+"Bryonia dioica","Plants","Plant",5,5.0000,1
+"Crataegus monogyna","Plants","Plant",5,5.0000,7
+"Euonymus europaeus","Plants","Plant",4,4.0000,2
+"Hedera helix","Plants","Plant",5,5.0000,7
+"Lonicera periclymenum","Plants","Plant",2,2.0000,3
+"Prunus spinosa","Plants","Plant",3,3.0000,5
+"Rosa sp1 M_SD_011","Plants","Plant",2,2.0000,1
+"Rubus sp1 M_SD_011","Plants","Plant",5,5.0000,1
+"Sambucus nigra","Plants","Plant",12,12.0000,1
+"Solanum dulcamara","Plants","Plant",3,3.0000,1
+"Tamus communis","Plants","Plant",1,1.0000,2

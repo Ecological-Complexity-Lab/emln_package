@@ -1,0 +1,490 @@
+node_from,layer_from,node_to,layer_to,weight,type
+Zooplankton,1,Phytoplankton,1,0.4,trophic
+Chaetobranchopsis.australis,1,Phytoplankton,1,0.04,trophic
+Hemiodus.orthonops,1,Phytoplankton,1,0.26,trophic
+Moenkhausia.spp.,1,Phytoplankton,1,0.003,trophic
+Leporinus.spp.,1,Phytoplankton,1,0.002,trophic
+Trachydoras.paraguayensis,1,Phytoplankton,1,0.065,trophic
+Gymnogeophagus.balzanii,1,Phytoplankton,1,0.014,trophic
+Steindachnerina.spp.,1,Phytoplankton,1,0.092,trophic
+Triportheus.spp.,1,Phytoplankton,1,0.039,trophic
+Pimelodella.spp.,1,Phytoplankton,1,0.06,trophic
+Astyanax.sp,1,Phytoplankton,1,0.1,trophic
+Tetragonopterus.argenteus,1,Zooplankton,1,0.08,trophic
+Chaetobranchopsis.australis,1,Zooplankton,1,0.5,trophic
+Moenkhausia.spp.,1,Zooplankton,1,0.564,trophic
+Auchenipterus.nuchalis,1,Zooplankton,1,0.026,trophic
+Hypophthalmus.edentatus,1,Zooplankton,1,0.241,trophic
+Trachydoras.paraguayensis,1,Zooplankton,1,0.532,trophic
+Gymnogeophagus.balzanii,1,Zooplankton,1,0.243,trophic
+Pimelodus.spp.,1,Zooplankton,1,0.054,trophic
+Roeboides.spp.,1,Zooplankton,1,0.08,trophic
+Triportheus.spp.,1,Zooplankton,1,0.135,trophic
+Pimelodella.spp.,1,Zooplankton,1,0.01,trophic
+Schizodon.borellii,1,Aquatic insects,1,0.1,trophic
+Tetragonopterus.argenteus,1,Aquatic insects,1,0.795,trophic
+Chaetobranchopsis.australis,1,Aquatic insects,1,0.02,trophic
+Hemiodus.orthonops,1,Aquatic insects,1,0.01,trophic
+Moenkhausia.spp.,1,Aquatic insects,1,0.026,trophic
+Auchenipterus.nuchalis,1,Aquatic insects,1,0.932,trophic
+Leporinus.spp.,1,Aquatic insects,1,0.035,trophic
+Cynopotamus.kincaidi,1,Aquatic insects,1,0.22,trophic
+Trachydoras.paraguayensis,1,Aquatic insects,1,0.049,trophic
+Serrasalmus.spp.,1,Aquatic insects,1,0.013,trophic
+Gymnogeophagus.balzanii,1,Aquatic insects,1,0.012,trophic
+Pimelodus.spp.,1,Aquatic insects,1,0.119,trophic
+Roeboides.spp.,1,Aquatic insects,1,0.3,trophic
+Triportheus.spp.,1,Aquatic insects,1,0.009,trophic
+Pimelodella.spp.,1,Aquatic insects,1,0.6,trophic
+Astyanax.sp,1,Aquatic insects,1,0.32,trophic
+Tetragonopterus.argenteus,1,Terrestrial insects,1,0.032,trophic
+Hemiodus.orthonops,1,Terrestrial insects,1,0.02,trophic
+Moenkhausia.spp.,1,Terrestrial insects,1,0.163,trophic
+Auchenipterus.nuchalis,1,Terrestrial insects,1,0.018,trophic
+Acestrorhynchus.pantaneiro,1,Terrestrial insects,1,0.005,trophic
+Cynopotamus.kincaidi,1,Terrestrial insects,1,0.066,trophic
+Trachydoras.paraguayensis,1,Terrestrial insects,1,0.054,trophic
+Hoplias.malabaricus,1,Terrestrial insects,1,0.03,trophic
+Serrasalmus.spp.,1,Terrestrial insects,1,0.034,trophic
+Gymnogeophagus.balzanii,1,Terrestrial insects,1,0.257,trophic
+Pimelodus.spp.,1,Terrestrial insects,1,0.4,trophic
+Triportheus.spp.,1,Terrestrial insects,1,0.364,trophic
+Pimelodella.spp.,1,Terrestrial insects,1,0.047,trophic
+Astyanax.sp,1,Terrestrial insects,1,0.107,trophic
+Mammals,1,Schizodon borellii,1,0.001,trophic
+Pseudoplatystoma.reticulatum,1,Schizodon borellii,1,0.06,trophic
+Pseudoplatystoma.corruscans,1,Schizodon borellii,1,0.09,trophic
+Acestrorhynchus.pantaneiro,1,Schizodon borellii,1,0.04,trophic
+Hoplias.malabaricus,1,Schizodon borellii,1,0.002,trophic
+Birds,1,Sturisoma robustum,1,0.09,trophic
+Pseudoplatystoma.corruscans,1,Sturisoma robustum,1,0.01,trophic
+Plagioscion.ternetzi,1,Sturisoma robustum,1,0.01,trophic
+Cynopotamus.kincaidi,1,Tetragonopterus argenteus,1,0.05,trophic
+Pimelodella.spp.,1,Tetragonopterus argenteus,1,0.03,trophic
+Birds,1,Chaetobranchopsis australis,1,0.04,trophic
+Acestrorhynchus.pantaneiro,1,Chaetobranchopsis australis,1,0.01,trophic
+Cynopotamus.kincaidi,1,Chaetobranchopsis australis,1,0.02,trophic
+Serrasalmus.spp.,1,Chaetobranchopsis australis,1,0.001,trophic
+Pimelodella.spp.,1,Chaetobranchopsis australis,1,0.03,trophic
+Mammals,1,Pseudoplatystoma reticulatum,1,0.3,trophic
+Caymans,1,Pseudoplatystoma reticulatum,1,0.25,trophic
+Hoplias.malabaricus,1,Hemiodus orthonops,1,0.03,trophic
+Caymans,1,Hypostomus spp.,1,0.05,trophic
+Pseudoplatystoma.reticulatum,1,Hypostomus spp.,1,0.2,trophic
+Plagioscion.ternetzi,1,Hypostomus spp.,1,0.2,trophic
+Mammals,1,Psectrogaster curviventris,1,0.1,trophic
+Birds,1,Psectrogaster curviventris,1,0.05,trophic
+Pseudoplatystoma.reticulatum,1,Psectrogaster curviventris,1,0.07,trophic
+Pseudoplatystoma.corruscans,1,Psectrogaster curviventris,1,0.1,trophic
+Plagioscion.ternetzi,1,Psectrogaster curviventris,1,0.2,trophic
+Acestrorhynchus.pantaneiro,1,Psectrogaster curviventris,1,0.124,trophic
+Hemisorubim.platyrhynchos,1,Psectrogaster curviventris,1,0.19,trophic
+Cynopotamus.kincaidi,1,Psectrogaster curviventris,1,0.14,trophic
+Hoplias.malabaricus,1,Psectrogaster curviventris,1,0.113,trophic
+Serrasalmus.spp.,1,Psectrogaster curviventris,1,0.125,trophic
+Mammals,1,Pseudoplatystoma corruscans,1,0.01,trophic
+Caymans,1,Pseudoplatystoma corruscans,1,0.02,trophic
+Caymans,1,Moenkhausia spp.,1,0.08,trophic
+Birds,1,Moenkhausia spp.,1,0.2,trophic
+Pseudoplatystoma.reticulatum,1,Moenkhausia spp.,1,0.05,trophic
+Pseudoplatystoma.corruscans,1,Moenkhausia spp.,1,0.1,trophic
+Plagioscion.ternetzi,1,Moenkhausia spp.,1,0.2,trophic
+Acestrorhynchus.pantaneiro,1,Moenkhausia spp.,1,0.2,trophic
+Hemisorubim.platyrhynchos,1,Moenkhausia spp.,1,0.2,trophic
+Hoplias.malabaricus,1,Moenkhausia spp.,1,0.128,trophic
+Serrasalmus.spp.,1,Moenkhausia spp.,1,0.104,trophic
+Roeboides.spp.,1,Moenkhausia spp.,1,0.27,trophic
+Pimelodella.spp.,1,Moenkhausia spp.,1,0.03,trophic
+Plagioscion.ternetzi,1,Loricaria spp.,1,0.01,trophic
+Hemisorubim.platyrhynchos,1,Loricaria spp.,1,0.1,trophic
+Pseudoplatystoma.reticulatum,1,Potamorhina squamoralevis,1,0.04,trophic
+Pseudoplatystoma.corruscans,1,Potamorhina squamoralevis,1,0.04,trophic
+Acestrorhynchus.pantaneiro,1,Potamorhina squamoralevis,1,0.07,trophic
+Hemisorubim.platyrhynchos,1,Potamorhina squamoralevis,1,0.06,trophic
+Hoplias.malabaricus,1,Potamorhina squamoralevis,1,0.045,trophic
+Serrasalmus.spp.,1,Potamorhina squamoralevis,1,0.021,trophic
+Pseudoplatystoma.corruscans,1,Auchenipterus nuchalis,1,0.03,trophic
+Hoplias.malabaricus,1,Auchenipterus nuchalis,1,0.03,trophic
+Birds,1,Leporinus spp.,1,0.03,trophic
+Mammals,1,Plagioscion ternetzi,1,0.05,trophic
+Pseudoplatystoma.reticulatum,1,Plagioscion ternetzi,1,0.05,trophic
+Pseudoplatystoma.corruscans,1,Plagioscion ternetzi,1,0.03,trophic
+Acestrorhynchus.pantaneiro,1,Plagioscion ternetzi,1,0.01,trophic
+Hemisorubim.platyrhynchos,1,Plagioscion ternetzi,1,0.01,trophic
+Mammals,1,Acestrorhynchus pantaneiro,1,0.029,trophic
+Caymans,1,Acestrorhynchus pantaneiro,1,0.03,trophic
+Pseudoplatystoma.reticulatum,1,Acestrorhynchus pantaneiro,1,0.01,trophic
+Hoplias.malabaricus,1,Acestrorhynchus pantaneiro,1,0.001,trophic
+Plagioscion.ternetzi,1,Hemisorubim platyrhynchos,1,0.01,trophic
+Acestrorhynchus.pantaneiro,1,Hemisorubim platyrhynchos,1,0.01,trophic
+Mammals,1,Hypophthalmus edentatus,1,0.16,trophic
+Pseudoplatystoma.reticulatum,1,Hypophthalmus edentatus,1,0.01,trophic
+Pseudoplatystoma.corruscans,1,Hypophthalmus edentatus,1,0.03,trophic
+Plagioscion.ternetzi,1,Hypophthalmus edentatus,1,0.01,trophic
+Hemisorubim.platyrhynchos,1,Hypophthalmus edentatus,1,0.02,trophic
+Birds,1,Cynopotamus kincaidi,1,0.09,trophic
+Birds,1,Trachydoras paraguayensis,1,0.03,trophic
+Hemisorubim.platyrhynchos,1,Trachydoras paraguayensis,1,0.01,trophic
+Cynopotamus.kincaidi,1,Trachydoras paraguayensis,1,0.01,trophic
+Mammals,1,Hoplias malabaricus,1,0.2,trophic
+Caymans,1,Hoplias malabaricus,1,0.3,trophic
+Pseudoplatystoma.reticulatum,1,Hoplias malabaricus,1,0.12,trophic
+Pseudoplatystoma.corruscans,1,Hoplias malabaricus,1,0.1,trophic
+Mammals,1,Serrasalmus spp.,1,0.06,trophic
+Caymans,1,Serrasalmus spp.,1,0.04,trophic
+Pseudoplatystoma.reticulatum,1,Serrasalmus spp.,1,0.04,trophic
+Plagioscion.ternetzi,1,Serrasalmus spp.,1,0.047,trophic
+Hoplias.malabaricus,1,Serrasalmus spp.,1,0.048,trophic
+Birds,1,Gymnogeophagus balzanii,1,0.01,trophic
+Acestrorhynchus.pantaneiro,1,Gymnogeophagus balzanii,1,0.02,trophic
+Pimelodella.spp.,1,Gymnogeophagus balzanii,1,0.02,trophic
+Caymans,1,Pimelodus spp.,1,0.04,trophic
+Birds,1,Pimelodus spp.,1,0.1,trophic
+Acestrorhynchus.pantaneiro,1,Pimelodus spp.,1,0.04,trophic
+Hemisorubim.platyrhynchos,1,Pimelodus spp.,1,0.15,trophic
+Cynopotamus.kincaidi,1,Pimelodus spp.,1,0.13,trophic
+Hoplias.malabaricus,1,Pimelodus spp.,1,0.01,trophic
+Pseudoplatystoma.reticulatum,1,Loricariichthys spp.,1,0.04,trophic
+Pseudoplatystoma.corruscans,1,Loricariichthys spp.,1,0.02,trophic
+Acestrorhynchus.pantaneiro,1,Loricariichthys spp.,1,0.08,trophic
+Hemisorubim.platyrhynchos,1,Loricariichthys spp.,1,0.13,trophic
+Serrasalmus.spp.,1,Loricariichthys spp.,1,0.02,trophic
+Mammals,1,Roeboides spp.,1,0.09,trophic
+Caymans,1,Roeboides spp.,1,0.05,trophic
+Birds,1,Roeboides spp.,1,0.1,trophic
+Hoplias.malabaricus,1,Roeboides spp.,1,0.101,trophic
+Serrasalmus.spp.,1,Roeboides spp.,1,0.052,trophic
+Birds,1,Steindachnerina spp.,1,0.1,trophic
+Pseudoplatystoma.corruscans,1,Steindachnerina spp.,1,0.05,trophic
+Hemisorubim.platyrhynchos,1,Steindachnerina spp.,1,0.1,trophic
+Cynopotamus.kincaidi,1,Steindachnerina spp.,1,0.001,trophic
+Serrasalmus.spp.,1,Steindachnerina spp.,1,0.198,trophic
+Caymans,1,Curimatella dorsalis,1,0.08,trophic
+Pseudoplatystoma.reticulatum,1,Curimatella dorsalis,1,0.2,trophic
+Pseudoplatystoma.corruscans,1,Curimatella dorsalis,1,0.2,trophic
+Plagioscion.ternetzi,1,Curimatella dorsalis,1,0.2,trophic
+Acestrorhynchus.pantaneiro,1,Curimatella dorsalis,1,0.16,trophic
+Cynopotamus.kincaidi,1,Curimatella dorsalis,1,0.103,trophic
+Hoplias.malabaricus,1,Curimatella dorsalis,1,0.2,trophic
+Serrasalmus.spp.,1,Curimatella dorsalis,1,0.104,trophic
+Roeboides.spp.,1,Curimatella dorsalis,1,0.1,trophic
+Caymans,1,Triportheus spp.,1,0.01,trophic
+Birds,1,Triportheus spp.,1,0.03,trophic
+Cynopotamus.kincaidi,1,Triportheus spp.,1,0.04,trophic
+Hoplias.malabaricus,1,Triportheus spp.,1,0.081,trophic
+Serrasalmus.spp.,1,Triportheus spp.,1,0.052,trophic
+Caymans,1,Pimelodella spp.,1,0.05,trophic
+Birds,1,Pimelodella spp.,1,0.07,trophic
+Cynopotamus.kincaidi,1,Pimelodella spp.,1,0.01,trophic
+Serrasalmus.spp.,1,Pimelodella spp.,1,0.02,trophic
+Birds,1,Astyanax sp,1,0.03,trophic
+Acestrorhynchus.pantaneiro,1,Astyanax sp,1,0.015,trophic
+Pimelodella.spp.,1,Astyanax sp,1,0.009,trophic
+Birds,1,Detritus,1,0.03,trophic
+Zooplankton,1,Detritus,1,0.6,trophic
+Aquatic.insects,1,Detritus,1,0.6,trophic
+Terrestrial.insects,1,Detritus,1,0.2,trophic
+Sturisoma.robustum,1,Detritus,1,0.91,trophic
+Tetragonopterus.argenteus,1,Detritus,1,0.063,trophic
+Chaetobranchopsis.australis,1,Detritus,1,0.35,trophic
+Pseudoplatystoma.reticulatum,1,Detritus,1,0.03,trophic
+Hemiodus.orthonops,1,Detritus,1,0.01,trophic
+Hypostomus.spp.,1,Detritus,1,0.98,trophic
+Psectrogaster.curviventris,1,Detritus,1,0.9,trophic
+Pseudoplatystoma.corruscans,1,Detritus,1,0.01,trophic
+Moenkhausia.spp.,1,Detritus,1,0.003,trophic
+Loricaria.spp.,1,Detritus,1,0.88,trophic
+Potamorhina.squamoralevis,1,Detritus,1,0.97,trophic
+Auchenipterus.nuchalis,1,Detritus,1,0.024,trophic
+Leporinus.spp.,1,Detritus,1,0.867,trophic
+Hypophthalmus.edentatus,1,Detritus,1,0.709,trophic
+Cynopotamus.kincaidi,1,Detritus,1,0.08,trophic
+Trachydoras.paraguayensis,1,Detritus,1,0.271,trophic
+Gymnogeophagus.balzanii,1,Detritus,1,0.389,trophic
+Pimelodus.spp.,1,Detritus,1,0.2,trophic
+Loricariichthys.spp.,1,Detritus,1,0.919,trophic
+Roeboides.spp.,1,Detritus,1,0.1,trophic
+Steindachnerina.spp.,1,Detritus,1,0.908,trophic
+Curimatella.dorsalis,1,Detritus,1,0.975,trophic
+Triportheus.spp.,1,Detritus,1,0.156,trophic
+Pimelodella.spp.,1,Detritus,1,0.092,trophic
+Astyanax.sp,1,Detritus,1,0.2,trophic
+Aquatic.insects,1,Import,1,0.4,trophic
+Terrestrial.insects,1,Import,1,0.8,trophic
+Schizodon.borellii,1,Import,1,0.9,trophic
+Sturisoma.robustum,1,Import,1,0.09,trophic
+Tetragonopterus.argenteus,1,Import,1,0.03,trophic
+Chaetobranchopsis.australis,1,Import,1,0.08,trophic
+Pseudoplatystoma.reticulatum,1,Import,1,0.08,trophic
+Hemiodus.orthonops,1,Import,1,0.7,trophic
+Hypostomus.spp.,1,Import,1,0.02,trophic
+Psectrogaster.curviventris,1,Import,1,0.1,trophic
+Pseudoplatystoma.corruscans,1,Import,1,0.19,trophic
+Moenkhausia.spp.,1,Import,1,0.24,trophic
+Loricaria.spp.,1,Import,1,0.12,trophic
+Potamorhina.squamoralevis,1,Import,1,0.03,trophic
+Leporinus.spp.,1,Import,1,0.096,trophic
+Plagioscion.ternetzi,1,Import,1,0.113,trophic
+Acestrorhynchus.pantaneiro,1,Import,1,0.216,trophic
+Hemisorubim.platyrhynchos,1,Import,1,0.03,trophic
+Hypophthalmus.edentatus,1,Import,1,0.05,trophic
+Cynopotamus.kincaidi,1,Import,1,0.13,trophic
+Trachydoras.paraguayensis,1,Import,1,0.029,trophic
+Hoplias.malabaricus,1,Import,1,0.18,trophic
+Serrasalmus.spp.,1,Import,1,0.255,trophic
+Gymnogeophagus.balzanii,1,Import,1,0.085,trophic
+Pimelodus.spp.,1,Import,1,0.227,trophic
+Loricariichthys.spp.,1,Import,1,0.081,trophic
+Roeboides.spp.,1,Import,1,0.15,trophic
+Curimatella.dorsalis,1,Import,1,0.025,trophic
+Triportheus.spp.,1,Import,1,0.297,trophic
+Pimelodella.spp.,1,Import,1,0.072,trophic
+Astyanax.sp,1,Import,1,0.273,trophic
+Zooplankton,2,Phytoplankton,2,0.4,trophic
+Chaetobranchopsis.australis,2,Phytoplankton,2,0.04,trophic
+Hemiodus.orthonops,2,Phytoplankton,2,0.26,trophic
+Moenkhausia.spp.,2,Phytoplankton,2,0.003,trophic
+Leporinus.spp.,2,Phytoplankton,2,0.001,trophic
+Trachydoras.paraguayensis,2,Phytoplankton,2,0.065,trophic
+Gymnogeophagus.balzanii,2,Phytoplankton,2,0.014,trophic
+Steindachnerina.spp.,2,Phytoplankton,2,0.092,trophic
+Triportheus.spp.,2,Phytoplankton,2,0.039,trophic
+Pimelodella.spp.,2,Phytoplankton,2,0.067,trophic
+Astyanax.sp,2,Phytoplankton,2,0.052,trophic
+Aquatic.insects,2,Macrophytes,2,0.2,trophic
+Terrestrial.insects,2,Macrophytes,2,0.4,trophic
+Schizodon.borellii,2,Macrophytes,2,0.5,trophic
+Tetragonopterus.argenteus,2,Macrophytes,2,0.03,trophic
+Hemiodus.orthonops,2,Macrophytes,2,0.7,trophic
+Moenkhausia.spp.,2,Macrophytes,2,5.8e-4,trophic
+Leporinus.spp.,2,Macrophytes,2,0.065,trophic
+Serrasalmus.spp.,2,Macrophytes,2,0.038,trophic
+Roeboides.spp.,2,Macrophytes,2,0.093,trophic
+Curimatella.spp.,2,Macrophytes,2,0.025,trophic
+Pimelodella.spp.,2,Macrophytes,2,0.022,trophic
+Astyanax.sp,2,Macrophytes,2,0.057,trophic
+Tetragonopterus.argenteus,2,Zooplankton,2,0.08,trophic
+Chaetobranchopsis.australis,2,Zooplankton,2,0.5,trophic
+Moenkhausia.spp.,2,Zooplankton,2,0.564,trophic
+Auchenipterus.nuchalis,2,Zooplankton,2,0.026,trophic
+Trachydoras.paraguayensis,2,Zooplankton,2,0.532,trophic
+Gymnogeophagus.balzanii,2,Zooplankton,2,0.243,trophic
+Pimelodus.spp.,2,Zooplankton,2,0.06,trophic
+Roeboides.spp.,2,Zooplankton,2,0.217,trophic
+Triportheus.spp.,2,Zooplankton,2,0.135,trophic
+Pimelodella.spp.,2,Zooplankton,2,0.011,trophic
+Schizodon.borellii,2,Aquatic insects,2,0.1,trophic
+Tetragonopterus.argenteus,2,Aquatic insects,2,0.795,trophic
+Chaetobranchopsis.australis,2,Aquatic insects,2,0.02,trophic
+Pseudoplatystoma.reticulatus,2,Aquatic insects,2,0.026,trophic
+Hemiodus.orthonops,2,Aquatic insects,2,0.01,trophic
+Pseudoplatystoma.corruscans,2,Aquatic insects,2,0.026,trophic
+Moenkhausia.spp.,2,Aquatic insects,2,0.026,trophic
+Auchenipterus.nuchalis,2,Aquatic insects,2,0.932,trophic
+Leporinus.spp.,2,Aquatic insects,2,0.03,trophic
+Trachydoras.paraguayensis,2,Aquatic insects,2,0.049,trophic
+Serrasalmus.spp.,2,Aquatic insects,2,0.057,trophic
+Gymnogeophagus.balzanii,2,Aquatic insects,2,0.012,trophic
+Pimelodus.spp.,2,Aquatic insects,2,0.093,trophic
+Roeboides.spp.,2,Aquatic insects,2,0.362,trophic
+Triportheus.spp.,2,Aquatic insects,2,0.02,trophic
+Pimelodella.spp.,2,Aquatic insects,2,0.655,trophic
+Astyanax.sp,2,Aquatic insects,2,0.45,trophic
+Tetragonopterus.argenteus,2,Terrestrial insects,2,0.032,trophic
+Pseudoplatystoma.reticulatus,2,Terrestrial insects,2,0.013,trophic
+Hemiodus.orthonops,2,Terrestrial insects,2,0.02,trophic
+Moenkhausia.spp.,2,Terrestrial insects,2,0.163,trophic
+Auchenipterus.nuchalis,2,Terrestrial insects,2,0.018,trophic
+Trachydoras.paraguayensis,2,Terrestrial insects,2,0.054,trophic
+Hoplias.malabaricus,2,Terrestrial insects,2,0.068,trophic
+Serrasalmus.spp.,2,Terrestrial insects,2,0.048,trophic
+Gymnogeophagus.balzanii,2,Terrestrial insects,2,0.257,trophic
+Pimelodus.spp.,2,Terrestrial insects,2,0.3,trophic
+Triportheus.spp.,2,Terrestrial insects,2,0.41,trophic
+Pimelodella.spp.,2,Terrestrial insects,2,0.053,trophic
+Astyanax.sp,2,Terrestrial insects,2,0.055,trophic
+Pseudoplatystoma.reticulatus,2,Schizodon borellii,2,0.013,trophic
+Pseudoplatystoma.corruscans,2,Schizodon borellii,2,0.013,trophic
+Acestrorhynchus.pantaneiro,2,Schizodon borellii,2,0.016,trophic
+Hoplias.malabaricus,2,Schizodon borellii,2,0.03,trophic
+Serrasalmus.spp.,2,Schizodon borellii,2,0.005,trophic
+Birds,2,Sturisoma robustum,2,0.146,trophic
+Pseudoplatystoma.corruscans,2,Sturisoma robustum,2,0.078,trophic
+Plagioscion.ternetzi,2,Sturisoma robustum,2,0.014,trophic
+Acestrorhynchus.pantaneiro,2,Sturisoma robustum,2,0.02,trophic
+Birds,2,Tetragonopterus argenteus,2,0.006,trophic
+Pseudoplatystoma.reticulatus,2,Tetragonopterus argenteus,2,0.01,trophic
+Hemisorubim.platyrhynchos,2,Tetragonopterus argenteus,2,0.029,trophic
+Hoplias.malabaricus,2,Tetragonopterus argenteus,2,0.01,trophic
+Serrasalmus.spp.,2,Tetragonopterus argenteus,2,0.02,trophic
+Pimelodella.spp.,2,Tetragonopterus argenteus,2,0.006,trophic
+Birds,2,Chaetobranchopsis australis,2,0.015,trophic
+Plagioscion.ternetzi,2,Chaetobranchopsis australis,2,0.014,trophic
+Acestrorhynchus.pantaneiro,2,Chaetobranchopsis australis,2,0.032,trophic
+Serrasalmus.spp.,2,Chaetobranchopsis australis,2,0.001,trophic
+Pimelodella.spp.,2,Chaetobranchopsis australis,2,0.012,trophic
+Mammals,2,Pseudoplatystoma reticulatus,2,0.5,trophic
+Caymans,2,Pseudoplatystoma reticulatus,2,0.448,trophic
+Hoplias.malabaricus,2,Hemiodus orthonops,2,0.05,trophic
+Caymans,2,Hypostomus plecostomus,2,0.358,trophic
+Birds,2,Psectrogaster curviventris,2,0.073,trophic
+Pseudoplatystoma.reticulatus,2,Psectrogaster curviventris,2,0.089,trophic
+Pseudoplatystoma.corruscans,2,Psectrogaster curviventris,2,0.068,trophic
+Plagioscion.ternetzi,2,Psectrogaster curviventris,2,0.276,trophic
+Acestrorhynchus.pantaneiro,2,Psectrogaster curviventris,2,0.223,trophic
+Hemisorubim.platyrhynchos,2,Psectrogaster curviventris,2,0.31,trophic
+Hoplias.malabaricus,2,Psectrogaster curviventris,2,0.054,trophic
+Serrasalmus.spp.,2,Psectrogaster curviventris,2,0.058,trophic
+Mammals,2,Pseudoplatystoma corruscans,2,0.031,trophic
+Birds,2,Moenkhausia spp.,2,0.292,trophic
+Pseudoplatystoma.reticulatus,2,Moenkhausia spp.,2,0.064,trophic
+Pseudoplatystoma.corruscans,2,Moenkhausia spp.,2,0.065,trophic
+Hoplias.malabaricus,2,Moenkhausia spp.,2,0.027,trophic
+Serrasalmus.spp.,2,Moenkhausia spp.,2,0.071,trophic
+Roeboides.spp.,2,Moenkhausia spp.,2,0.021,trophic
+Pimelodella.spp.,2,Moenkhausia spp.,2,0.034,trophic
+Plagioscion.ternetzi,2,Loricaria spp.,2,0.052,trophic
+Hemisorubim.platyrhynchos,2,Loricaria spp.,2,0.069,trophic
+Serrasalmus.spp.,2,Loricaria spp.,2,0.007,trophic
+Pseudoplatystoma.reticulatus,2,Potamorhina squamoralevis,2,0.041,trophic
+Pseudoplatystoma.corruscans,2,Potamorhina squamoralevis,2,0.041,trophic
+Acestrorhynchus.pantaneiro,2,Potamorhina squamoralevis,2,0.095,trophic
+Hemisorubim.platyrhynchos,2,Potamorhina squamoralevis,2,0.114,trophic
+Serrasalmus.spp.,2,Potamorhina squamoralevis,2,0.037,trophic
+Hoplias.malabaricus,2,Auchenipterus nuchalis,2,0.041,trophic
+Serrasalmus.spp.,2,Auchenipterus nuchalis,2,0.05,trophic
+Birds,2,Leporinus spp.,2,0.023,trophic
+Pseudoplatystoma.reticulatus,2,Leporinus spp.,2,0.002,trophic
+Pseudoplatystoma.corruscans,2,Leporinus spp.,2,0.015,trophic
+Plagioscion.ternetzi,2,Leporinus spp.,2,0.022,trophic
+Acestrorhynchus.pantaneiro,2,Leporinus spp.,2,0.042,trophic
+Hemisorubim.platyrhynchos,2,Leporinus spp.,2,0.06,trophic
+Hoplias.malabaricus,2,Leporinus spp.,2,0.012,trophic
+Serrasalmus.spp.,2,Leporinus spp.,2,0.007,trophic
+Pseudoplatystoma.reticulatus,2,Plagioscion ternetzi,2,0.022,trophic
+Acestrorhynchus.pantaneiro,2,Plagioscion ternetzi,2,0.037,trophic
+Hemisorubim.platyrhynchos,2,Plagioscion ternetzi,2,0.008,trophic
+Hoplias.malabaricus,2,Plagioscion ternetzi,2,0.015,trophic
+Serrasalmus.spp.,2,Plagioscion ternetzi,2,0.004,trophic
+Hoplias.malabaricus,2,Acestrorhynchus pantaneiro,2,0.01,trophic
+Plagioscion.ternetzi,2,Hemisorubim platyrhynchos,2,0.01,trophic
+Serrasalmus.spp.,2,Hemisorubim platyrhynchos,2,0.007,trophic
+Birds,2,Trachydoras paraguayensis,2,0.088,trophic
+Pseudoplatystoma.reticulatus,2,Trachydoras paraguayensis,2,0.153,trophic
+Pseudoplatystoma.corruscans,2,Trachydoras paraguayensis,2,0.039,trophic
+Plagioscion.ternetzi,2,Trachydoras paraguayensis,2,0.028,trophic
+Hemisorubim.platyrhynchos,2,Trachydoras paraguayensis,2,0.15,trophic
+Hoplias.malabaricus,2,Trachydoras paraguayensis,2,0.162,trophic
+Serrasalmus.spp.,2,Trachydoras paraguayensis,2,0.07,trophic
+Roeboides.spp.,2,Trachydoras paraguayensis,2,0.03,trophic
+Mammals,2,Hoplias malabaricus,2,0.459,trophic
+Caymans,2,Hoplias malabaricus,2,0.184,trophic
+Serrasalmus.spp.,2,Hoplias malabaricus,2,0.024,trophic
+Mammals,2,Serrasalmus spp.,2,0.01,trophic
+Caymans,2,Serrasalmus spp.,2,0.01,trophic
+Plagioscion.ternetzi,2,Serrasalmus spp.,2,0.207,trophic
+Acestrorhynchus.pantaneiro,2,Serrasalmus spp.,2,0.055,trophic
+Hoplias.malabaricus,2,Serrasalmus spp.,2,0.207,trophic
+Birds,2,Gymnogeophagus balzanii,2,0.048,trophic
+Pseudoplatystoma.reticulatus,2,Gymnogeophagus balzanii,2,0.021,trophic
+Pseudoplatystoma.corruscans,2,Gymnogeophagus balzanii,2,0.073,trophic
+Acestrorhynchus.pantaneiro,2,Gymnogeophagus balzanii,2,0.033,trophic
+Roeboides.spp.,2,Gymnogeophagus balzanii,2,0.008,trophic
+Pimelodella.spp.,2,Gymnogeophagus balzanii,2,0.004,trophic
+Birds,2,Pimelodus spp.,2,0.024,trophic
+Acestrorhynchus.pantaneiro,2,Pimelodus spp.,2,0.088,trophic
+Hemisorubim.platyrhynchos,2,Pimelodus spp.,2,0.074,trophic
+Hoplias.malabaricus,2,Pimelodus spp.,2,0.005,trophic
+Serrasalmus.spp.,2,Pimelodus spp.,2,0.027,trophic
+Pseudoplatystoma.reticulatus,2,Loricariichthys spp.,2,0.035,trophic
+Pseudoplatystoma.corruscans,2,Loricariichthys spp.,2,0.082,trophic
+Plagioscion.ternetzi,2,Loricariichthys spp.,2,0.076,trophic
+Acestrorhynchus.pantaneiro,2,Loricariichthys spp.,2,0.143,trophic
+Hemisorubim.platyrhynchos,2,Loricariichthys spp.,2,0.082,trophic
+Serrasalmus.spp.,2,Loricariichthys spp.,2,0.041,trophic
+Birds,2,Roeboides spp.,2,0.119,trophic
+Pseudoplatystoma.reticulatus,2,Roeboides spp.,2,0.008,trophic
+Pseudoplatystoma.corruscans,2,Roeboides spp.,2,0.006,trophic
+Plagioscion.ternetzi,2,Roeboides spp.,2,0.099,trophic
+Hoplias.malabaricus,2,Roeboides spp.,2,0.006,trophic
+Serrasalmus.spp.,2,Roeboides spp.,2,0.047,trophic
+Birds,2,Steindachnerina spp.,2,0.014,trophic
+Pseudoplatystoma.reticulatus,2,Steindachnerina spp.,2,0.008,trophic
+Pseudoplatystoma.corruscans,2,Steindachnerina spp.,2,0.014,trophic
+Plagioscion.ternetzi,2,Steindachnerina spp.,2,0.042,trophic
+Acestrorhynchus.pantaneiro,2,Steindachnerina spp.,2,0.035,trophic
+Hemisorubim.platyrhynchos,2,Steindachnerina spp.,2,0.047,trophic
+Hoplias.malabaricus,2,Steindachnerina spp.,2,0.007,trophic
+Serrasalmus.spp.,2,Steindachnerina spp.,2,0.017,trophic
+Roeboides.spp.,2,Steindachnerina spp.,2,0.004,trophic
+Plagioscion.ternetzi,2,Curimatella spp.,2,0.097,trophic
+Serrasalmus.spp.,2,Curimatella spp.,2,0.071,trophic
+Roeboides.spp.,2,Curimatella spp.,2,0.021,trophic
+Birds,2,Triportheus spp.,2,0.046,trophic
+Hoplias.malabaricus,2,Triportheus spp.,2,0.12,trophic
+Serrasalmus.spp.,2,Triportheus spp.,2,0.081,trophic
+Birds,2,Pimelodella spp.,2,0.102,trophic
+Pseudoplatystoma.reticulatus,2,Pimelodella spp.,2,0.255,trophic
+Pseudoplatystoma.corruscans,2,Pimelodella spp.,2,0.26,trophic
+Acestrorhynchus.pantaneiro,2,Pimelodella spp.,2,0.111,trophic
+Serrasalmus.spp.,2,Pimelodella spp.,2,0.074,trophic
+Birds,2,Astyanax sp,2,0.004,trophic
+Pseudoplatystoma.reticulatus,2,Astyanax sp,2,0.003,trophic
+Pseudoplatystoma.corruscans,2,Astyanax sp,2,0.014,trophic
+Plagioscion.ternetzi,2,Astyanax sp,2,0.025,trophic
+Acestrorhynchus.pantaneiro,2,Astyanax sp,2,0.039,trophic
+Hemisorubim.platyrhynchos,2,Astyanax sp,2,0.057,trophic
+Hoplias.malabaricus,2,Astyanax sp,2,0.019,trophic
+Serrasalmus.spp.,2,Astyanax sp,2,0.07,trophic
+Pimelodella.spp.,2,Astyanax sp,2,0.007,trophic
+Zooplankton,2,Detritos,2,0.6,trophic
+Aquatic.insects,2,Detritos,2,0.4,trophic
+Sturisoma.robustum,2,Detritos,2,0.96,trophic
+Tetragonopterus.argenteus,2,Detritos,2,0.035,trophic
+Chaetobranchopsis.australis,2,Detritos,2,0.4,trophic
+Pseudoplatystoma.reticulatus,2,Detritos,2,0.228,trophic
+Hemiodus.orthonops,2,Detritos,2,0.01,trophic
+Hypostomus.plecostomus,2,Detritos,2,0.98,trophic
+Psectrogaster.curviventris,2,Detritos,2,0.97,trophic
+Pseudoplatystoma.corruscans,2,Detritos,2,0.206,trophic
+Moenkhausia.spp.,2,Detritos,2,0.24,trophic
+Loricaria.spp.,2,Detritos,2,0.95,trophic
+Potamorhina.squamoralevis,2,Detritos,2,0.97,trophic
+Auchenipterus.nuchalis,2,Detritos,2,0.024,trophic
+Leporinus.spp.,2,Detritos,2,0.874,trophic
+Trachydoras.paraguayensis,2,Detritos,2,0.271,trophic
+Hoplias.malabaricus,2,Detritos,2,0.122,trophic
+Serrasalmus.spp.,2,Detritos,2,0.071,trophic
+Gymnogeophagus.balzanii,2,Detritos,2,0.389,trophic
+Pimelodus.spp.,2,Detritos,2,0.5,trophic
+Loricariichthys.spp.,2,Detritos,2,0.919,trophic
+Roeboides.spp.,2,Detritos,2,0.186,trophic
+Steindachnerina.spp.,2,Detritos,2,0.908,trophic
+Curimatella.spp.,2,Detritos,2,0.975,trophic
+Triportheus.spp.,2,Detritos,2,0.346,trophic
+Pimelodella.spp.,2,Detritos,2,0.106,trophic
+Astyanax.sp,2,Detritos,2,0.36,trophic
+Aquatic.insects,2,Import,2,0.4,trophic
+Terrestrial.insects,2,Import,2,0.6,trophic
+Schizodon.borellii,2,Import,2,0.4,trophic
+Sturisoma.robustum,2,Import,2,0.04,trophic
+Tetragonopterus.argenteus,2,Import,2,0.028,trophic
+Chaetobranchopsis.australis,2,Import,2,0.04,trophic
+Pseudoplatystoma.reticulatus,2,Import,2,0.01,trophic
+Hypostomus.plecostomus,2,Import,2,0.02,trophic
+Psectrogaster.curviventris,2,Import,2,0.03,trophic
+Moenkhausia.spp.,2,Import,2,0.003,trophic
+Loricaria.spp.,2,Import,2,0.05,trophic
+Potamorhina.squamoralevis,2,Import,2,0.03,trophic
+Leporinus.spp.,2,Import,2,0.03,trophic
+Plagioscion.ternetzi,2,Import,2,0.04,trophic
+Acestrorhynchus.pantaneiro,2,Import,2,0.03,trophic
+Trachydoras.paraguayensis,2,Import,2,0.029,trophic
+Hoplias.malabaricus,2,Import,2,0.037,trophic
+Gymnogeophagus.balzanii,2,Import,2,0.085,trophic
+Pimelodus.spp.,2,Import,2,0.047,trophic
+Loricariichthys.spp.,2,Import,2,0.081,trophic
+Roeboides.spp.,2,Import,2,0.057,trophic
+Triportheus.spp.,2,Import,2,0.05,trophic
+Pimelodella.spp.,2,Import,2,0.023,trophic
+Astyanax.sp,2,Import,2,0.026,trophic

@@ -1,0 +1,38 @@
+node_id,node_name,type
+1,Miconia argentea,plant
+2,Miconia lacera,plant
+3,Miconia minutiflora,plant
+4,Miconia impetiolaris,plant
+5,Psychotria hoffmannseggiana,plant
+6,Psychotria marginata,plant
+7,Psychotria acuminata,plant
+8,Psychotria deflexa,plant
+9,Psychotria horizontalis,plant
+10,Psychotria limonensis,plant
+11,Psychotria poeppigiana,plant
+12,Psychotria emetica,plant
+13,Psychotria psychotrifolia,plant
+14,Psychotria brachybotrya,plant
+15,Psychotria pittieri,plant
+16,Psychotria racemosa,plant
+17,Psychotria grandis,plant
+18,Pipra.mentalis,bird
+19,Pipra.coronata,bird
+20,Catharus.ustulatus,bird
+21,Tachyphonus.luctuosus,bird
+22,Eucometis.penicillata,bird
+23,Manacus.vitellinus,bird
+24,Mionectes.oleagineus,bird
+25,Dendroica.pensylvanica,bird
+26,Dendroica.striata,bird
+27,Habia.fuscicauda,bird
+28,Leptotila.cassinii,bird
+29,Oryzoborus.angolensis,bird
+30,Ramphocelus.dimidiatus,bird
+31,Euphonia.fulvicrissa,bird
+32,Catharus.minimus,bird
+33,Catharus.fuscescens,bird
+34,Empidonax.virescens,bird
+35,Seiurus.aurocapillus,bird
+36,Schiffornis.turdinus,bird
+37,Trogon.rufus,bird

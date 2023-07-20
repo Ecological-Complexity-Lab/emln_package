@@ -1,0 +1,252 @@
+node_from,layer_from,node_to,layer_to,weight,type
+Anastoechus latifrons,1,Echium wildpretii,1,1,pollination
+Anthophora alluaudi,1,Echium wildpretii,1,1,pollination
+Apis mellifera,1,Echium wildpretii,1,1,pollination
+Eristalis tenax,1,Echium wildpretii,1,1,pollination
+Megachile canariensis,1,Echium wildpretii,1,1,pollination
+Anthrax anthrax,1,Echium wildpretii,1,1,pollination
+Eucera gracilipes,1,Echium wildpretii,1,1,pollination
+Hyleaus canariensis,1,Echium wildpretii,1,1,pollination
+Lasioglossum viride,1,Echium wildpretii,1,1,pollination
+Linnaemyia soror,1,Echium wildpretii,1,1,pollination
+Estheria simonyi,1,Echium wildpretii,1,1,pollination
+Melecta curvispina,1,Echium wildpretii,1,1,pollination
+Macroglossum stellatarum,1,Echium wildpretii,1,1,pollination
+Stomorhina lunata,1,Echium wildpretii,1,1,pollination
+Unidentified sp1 M_PL_008,1,Echium wildpretii,1,1,pollination
+Lasioglossum chalcodes,1,Echium wildpretii,1,1,pollination
+Phylloscopus collybita,1,Echium wildpretii,1,1,pollination
+Serinus canarius,1,Echium wildpretii,1,1,pollination
+Apis mellifera,1,Pimpinella cumbrae,1,1,pollination
+Euodynerus reflexus,1,Pimpinella cumbrae,1,1,pollination
+Geron hesperidon,1,Pimpinella cumbrae,1,1,pollination
+Eristalis tenax,1,Pimpinella cumbrae,1,1,pollination
+Anthrax anthrax,1,Pimpinella cumbrae,1,1,pollination
+Hyleaus canariensis,1,Pimpinella cumbrae,1,1,pollination
+Lasioglossum viride,1,Pimpinella cumbrae,1,1,pollination
+Linnaemyia soror,1,Pimpinella cumbrae,1,1,pollination
+Cephalodromia sp1 M_PL_008,1,Pimpinella cumbrae,1,1,pollination
+Lasioglossum actifrons,1,Pimpinella cumbrae,1,1,pollination
+Gasteruption sp1 M_PL_008,1,Pimpinella cumbrae,1,1,pollination
+Dermasothes gracile,1,Pimpinella cumbrae,1,1,pollination
+Leptochilus eatoni,1,Pimpinella cumbrae,1,1,pollination
+Nyctia lugubris,1,Pimpinella cumbrae,1,1,pollination
+Anastoechus latifrons,1,Pterocephalus lasiospermus,1,1,pollination
+Apis mellifera,1,Pterocephalus lasiospermus,1,1,pollination
+Geron hesperidon,1,Pterocephalus lasiospermus,1,1,pollination
+Eristalis tenax,1,Pterocephalus lasiospermus,1,1,pollination
+Megachile canariensis,1,Pterocephalus lasiospermus,1,1,pollination
+Anthrax anthrax,1,Pterocephalus lasiospermus,1,1,pollination
+Lasioglossum viride,1,Pterocephalus lasiospermus,1,1,pollination
+Cyclyrius webbianus,1,Pterocephalus lasiospermus,1,1,pollination
+Estheria simonyi,1,Pterocephalus lasiospermus,1,1,pollination
+Melecta curvispina,1,Pterocephalus lasiospermus,1,1,pollination
+Osmia canariensis,1,Pterocephalus lasiospermus,1,1,pollination
+Gasteruption sp1 M_PL_008,1,Pterocephalus lasiospermus,1,1,pollination
+Lucilia sericata,1,Pterocephalus lasiospermus,1,1,pollination
+Scaeva albomaculata,1,Pterocephalus lasiospermus,1,1,pollination
+Anthophora alluaudi,1,Mentha longifolia,1,1,pollination
+Euodynerus reflexus,1,Mentha longifolia,1,1,pollination
+Eristalis tenax,1,Mentha longifolia,1,1,pollination
+Linnaemyia soror,1,Mentha longifolia,1,1,pollination
+Cyclyrius webbianus,1,Mentha longifolia,1,1,pollination
+Estheria simonyi,1,Mentha longifolia,1,1,pollination
+Lasioglossum actifrons,1,Mentha longifolia,1,1,pollination
+Colletes dimidiatus,1,Mentha longifolia,1,1,pollination
+Stomorhina lunata,1,Mentha longifolia,1,1,pollination
+Bibio elmoi,1,Mentha longifolia,1,1,pollination
+Peleteria ruficornis,1,Mentha longifolia,1,1,pollination
+Tachina canariensis,1,Mentha longifolia,1,1,pollination
+Anastoechus latifrons,1,Erysimum scoparium,1,1,pollination
+Anthophora alluaudi,1,Erysimum scoparium,1,1,pollination
+Apis mellifera,1,Erysimum scoparium,1,1,pollination
+Geron hesperidon,1,Erysimum scoparium,1,1,pollination
+Megachile canariensis,1,Erysimum scoparium,1,1,pollination
+Eucera gracilipes,1,Erysimum scoparium,1,1,pollination
+Cyclyrius webbianus,1,Erysimum scoparium,1,1,pollination
+Melecta curvispina,1,Erysimum scoparium,1,1,pollination
+Osmia canariensis,1,Erysimum scoparium,1,1,pollination
+Macroglossum stellatarum,1,Erysimum scoparium,1,1,pollination
+Anastoechus latifrons,1,Spartocytisus supranubius,1,1,pollination
+Anthophora alluaudi,1,Spartocytisus supranubius,1,1,pollination
+Apis mellifera,1,Spartocytisus supranubius,1,1,pollination
+Euodynerus reflexus,1,Spartocytisus supranubius,1,1,pollination
+Megachile canariensis,1,Spartocytisus supranubius,1,1,pollination
+Eucera gracilipes,1,Spartocytisus supranubius,1,1,pollination
+Hyleaus canariensis,1,Spartocytisus supranubius,1,1,pollination
+Andrena wollestoni,1,Spartocytisus supranubius,1,1,pollination
+Colletes dimidiatus,1,Spartocytisus supranubius,1,1,pollination
+Anastoechus latifrons,1,Tolpis webbii,1,1,pollination
+Euodynerus reflexus,1,Tolpis webbii,1,1,pollination
+Geron hesperidon,1,Tolpis webbii,1,1,pollination
+Eristalis tenax,1,Tolpis webbii,1,1,pollination
+Megachile canariensis,1,Tolpis webbii,1,1,pollination
+Hyleaus canariensis,1,Tolpis webbii,1,1,pollination
+Cephalodromia sp1 M_PL_008,1,Tolpis webbii,1,1,pollination
+Andrena wollestoni,1,Tolpis webbii,1,1,pollination
+Apis mellifera,1,Argyranthemum teneriffae,1,1,pollination
+Geron hesperidon,1,Argyranthemum teneriffae,1,1,pollination
+Linnaemyia soror,1,Argyranthemum teneriffae,1,1,pollination
+Cephalodromia sp1 M_PL_008,1,Argyranthemum teneriffae,1,1,pollination
+Lucilia sericata,1,Argyranthemum teneriffae,1,1,pollination
+Unidentified sp1 M_PL_008,1,Argyranthemum teneriffae,1,1,pollination
+Drosophila sp1 M_PL_008,1,Argyranthemum teneriffae,1,1,pollination
+Anthophora alluaudi,1,Scrophularia glabrata,1,1,pollination
+Euodynerus reflexus,1,Scrophularia glabrata,1,1,pollination
+Anthrax anthrax,1,Scrophularia glabrata,1,1,pollination
+Lasioglossum viride,1,Scrophularia glabrata,1,1,pollination
+Lasioglossum actifrons,1,Scrophularia glabrata,1,1,pollination
+Scaeva albomaculata,1,Scrophularia glabrata,1,1,pollination
+Tachysphex unicolor,1,Scrophularia glabrata,1,1,pollination
+Anastoechus latifrons,1,Nepeta teydea,1,1,pollination
+Anthophora alluaudi,1,Nepeta teydea,1,1,pollination
+Euodynerus reflexus,1,Nepeta teydea,1,1,pollination
+Eucera gracilipes,1,Nepeta teydea,1,1,pollination
+Anthidium manicatum,1,Nepeta teydea,1,1,pollination
+Geron hesperidon,1,Adenocarpus viscosus,1,1,pollination
+Osmia canariensis,1,Adenocarpus viscosus,1,1,pollination
+Unidentified sp1 M_PL_012,2,Cedronella canariensis,2,1,pollination
+Bombus canariensis,2,Cedronella canariensis,2,1,pollination
+Anthophora alluaudi,2,Cedronella canariensis,2,1,pollination
+Vanessa indica,2,Cedronella canariensis,2,1,pollination
+Apis mellifera,2,Cedronella canariensis,2,1,pollination
+Macroglossum stellatarum,2,Cedronella canariensis,2,1,pollination
+Artogeia rapae,2,Cedronella canariensis,2,1,pollination
+Cyclyrius webbianus,2,Cedronella canariensis,2,1,pollination
+Gonepteryx cleopatra,2,Cedronella canariensis,2,1,pollination
+Lasioglossum loetum,2,Cedronella canariensis,2,1,pollination
+Maniola jurtina,2,Cedronella canariensis,2,1,pollination
+Pararge xiphioides,2,Cedronella canariensis,2,1,pollination
+Thyreus histrionicus,2,Cedronella canariensis,2,1,pollination
+Attalus sp1 M_PL_012,2,Cedronella canariensis,2,1,pollination
+Empis sp1 M_PL_012,2,Cedronella canariensis,2,1,pollination
+Meliscaeva auricollis,2,Cedronella canariensis,2,1,pollination
+Pandoriana pandora,2,Cedronella canariensis,2,1,pollination
+Andrena sp1 M_PL_012,2,Cedronella canariensis,2,1,pollination
+Cleora fortunata,2,Cedronella canariensis,2,1,pollination
+Cornutiplusia circumflexa,2,Cedronella canariensis,2,1,pollination
+Heringia adpropinquans,2,Cedronella canariensis,2,1,pollination
+Lampides boeticus,2,Cedronella canariensis,2,1,pollination
+Myotropa florea,2,Cedronella canariensis,2,1,pollination
+Unidentified sp2 M_PL_012,2,Cedronella canariensis,2,1,pollination
+Unidentified sp1 M_PL_012,2,Galactites tomentosa,2,1,pollination
+Bombus canariensis,2,Galactites tomentosa,2,1,pollination
+Vanessa indica,2,Galactites tomentosa,2,1,pollination
+Apis mellifera,2,Galactites tomentosa,2,1,pollination
+Eristalis tenax,2,Galactites tomentosa,2,1,pollination
+Macroglossum stellatarum,2,Galactites tomentosa,2,1,pollination
+Artogeia rapae,2,Galactites tomentosa,2,1,pollination
+Cyclyrius webbianus,2,Galactites tomentosa,2,1,pollination
+Gonepteryx cleopatra,2,Galactites tomentosa,2,1,pollination
+Lasioglossum chalcodes,2,Galactites tomentosa,2,1,pollination
+Lycaena phlaeas,2,Galactites tomentosa,2,1,pollination
+Maniola jurtina,2,Galactites tomentosa,2,1,pollination
+Pontia daplidice,2,Galactites tomentosa,2,1,pollination
+Thyreus histrionicus,2,Galactites tomentosa,2,1,pollination
+Halictus sp1 M_PL_012,2,Galactites tomentosa,2,1,pollination
+Pandoriana pandora,2,Galactites tomentosa,2,1,pollination
+Aricia cramera,2,Galactites tomentosa,2,1,pollination
+Vanessa atalanta,2,Galactites tomentosa,2,1,pollination
+Vanessa cardui,2,Galactites tomentosa,2,1,pollination
+Unidentified sp1 M_PL_012,2,Anacyclus radiatus,2,1,pollination
+Vanessa indica,2,Anacyclus radiatus,2,1,pollination
+Eristalis tenax,2,Anacyclus radiatus,2,1,pollination
+Artogeia rapae,2,Anacyclus radiatus,2,1,pollination
+Cyclyrius webbianus,2,Anacyclus radiatus,2,1,pollination
+Tachina canariensis,2,Anacyclus radiatus,2,1,pollination
+Lycaena phlaeas,2,Anacyclus radiatus,2,1,pollination
+Maniola jurtina,2,Anacyclus radiatus,2,1,pollination
+Pararge xiphioides,2,Anacyclus radiatus,2,1,pollination
+Pontia daplidice,2,Anacyclus radiatus,2,1,pollination
+Thyreus histrionicus,2,Anacyclus radiatus,2,1,pollination
+Delia platura,2,Anacyclus radiatus,2,1,pollination
+Mordella israelsoni,2,Anacyclus radiatus,2,1,pollination
+Pseudogonia fasciata,2,Anacyclus radiatus,2,1,pollination
+Siphona sp1 M_PL_012,2,Anacyclus radiatus,2,1,pollination
+Unidentified sp1 M_PL_012,2,Andryala pinnatifida,2,1,pollination
+Bombus canariensis,2,Andryala pinnatifida,2,1,pollination
+Vanessa indica,2,Andryala pinnatifida,2,1,pollination
+Apis mellifera,2,Andryala pinnatifida,2,1,pollination
+Eristalis tenax,2,Andryala pinnatifida,2,1,pollination
+Artogeia rapae,2,Andryala pinnatifida,2,1,pollination
+Cyclyrius webbianus,2,Andryala pinnatifida,2,1,pollination
+Lasioglossum chalcodes,2,Andryala pinnatifida,2,1,pollination
+Lasioglossum loetum,2,Andryala pinnatifida,2,1,pollination
+Lycaena phlaeas,2,Andryala pinnatifida,2,1,pollination
+Pontia daplidice,2,Andryala pinnatifida,2,1,pollination
+Colias crocea,2,Andryala pinnatifida,2,1,pollination
+Podalonia tydei,2,Andryala pinnatifida,2,1,pollination
+Unidentified sp1 M_PL_012,2,Geranium canariense,2,1,pollination
+Bombus canariensis,2,Geranium canariense,2,1,pollination
+Anthophora alluaudi,2,Geranium canariense,2,1,pollination
+Apis mellifera,2,Geranium canariense,2,1,pollination
+Macroglossum stellatarum,2,Geranium canariense,2,1,pollination
+Lasioglossum chalcodes,2,Geranium canariense,2,1,pollination
+Pararge xiphioides,2,Geranium canariense,2,1,pollination
+Anaspis proteus,2,Geranium canariense,2,1,pollination
+Bruchidius wollastoni,2,Geranium canariense,2,1,pollination
+Delia platura,2,Geranium canariense,2,1,pollination
+Sapromyza sp1 M_PL_012,2,Geranium canariense,2,1,pollination
+Unidentified sp1 M_PL_012,2,Laurus azorica,2,1,pollination
+Bombus canariensis,2,Laurus azorica,2,1,pollination
+Vanessa indica,2,Laurus azorica,2,1,pollination
+Eristalis tenax,2,Laurus azorica,2,1,pollination
+Tachina canariensis,2,Laurus azorica,2,1,pollination
+Bibio elmoi,2,Laurus azorica,2,1,pollination
+Brachypterus sp1 M_PL_012,2,Laurus azorica,2,1,pollination
+Dasyphora albofasciata,2,Laurus azorica,2,1,pollination
+Piezodorus punctipes,2,Laurus azorica,2,1,pollination
+Unidentified sp3 M_PL_012,2,Laurus azorica,2,1,pollination
+Unidentified sp1 M_PL_012,2,Senecio steetzii,2,1,pollination
+Bombus canariensis,2,Senecio steetzii,2,1,pollination
+Vanessa indica,2,Senecio steetzii,2,1,pollination
+Eristalis tenax,2,Senecio steetzii,2,1,pollination
+Macroglossum stellatarum,2,Senecio steetzii,2,1,pollination
+Tachina canariensis,2,Senecio steetzii,2,1,pollination
+Empis sp1 M_PL_012,2,Senecio steetzii,2,1,pollination
+Sphecodes marginatus,2,Senecio steetzii,2,1,pollination
+Sphecodes ruficrus,2,Senecio steetzii,2,1,pollination
+Unidentified sp1 M_PL_012,2,Sonchus cf. ortunoi,2,1,pollination
+Bruchidius wollastoni,2,Sonchus cf. ortunoi,2,1,pollination
+Acmaeodera cisti,2,Sonchus cf. ortunoi,2,1,pollination
+Drosophila sp1 M_PL_012,2,Sonchus cf. ortunoi,2,1,pollination
+Thaumatomyia notata,2,Sonchus cf. ortunoi,2,1,pollination
+Tricimba humeralis,2,Sonchus cf. ortunoi,2,1,pollination
+Unidentified sp4 M_PL_012,2,Sonchus cf. ortunoi,2,1,pollination
+Unidentified sp1 M_PL_012,2,Echium plantagineum,2,1,pollination
+Bombus canariensis,2,Echium plantagineum,2,1,pollination
+Anthophora alluaudi,2,Echium plantagineum,2,1,pollination
+Apis mellifera,2,Echium plantagineum,2,1,pollination
+Macroglossum stellatarum,2,Echium plantagineum,2,1,pollination
+Lasioglossum loetum,2,Echium plantagineum,2,1,pollination
+Unidentified sp1 M_PL_012,2,Cistus monspeliensis,2,1,pollination
+Anaspis proteus,2,Cistus monspeliensis,2,1,pollination
+Attalus sp1 M_PL_012,2,Cistus monspeliensis,2,1,pollination
+Anthophora alluaudi,2,Raphanus raphanistrum,2,1,pollination
+Macroglossum stellatarum,2,Raphanus raphanistrum,2,1,pollination
+Chrysotoxum triarcuatum,2,Raphanus raphanistrum,2,1,pollination
+Bombus canariensis,2,Adenocarpus foliosus,2,1,pollination
+Vanessa indica,2,Adenocarpus foliosus,2,1,pollination
+Unidentified sp1 M_PL_012,2,Ilex canarienis,2,1,pollination
+Bombus canariensis,2,Ilex canarienis,2,1,pollination
+Unidentified sp1 M_PL_012,2,Leontodon taraxacoides,2,1,pollination
+Anthophora alluaudi,2,Leontodon taraxacoides,2,1,pollination
+Unidentified sp1 M_PL_012,2,Picconia excelsa,2,1,pollination
+Meliscaeva auricollis,2,Picconia excelsa,2,1,pollination
+Unidentified sp1 M_PL_012,2,Ranunculus cortusaefolius,2,1,pollination
+Halictus sp1 M_PL_012,2,Ranunculus cortusaefolius,2,1,pollination
+Bombus canariensis,2,Sonchus tenerrimus,2,1,pollination
+Artogeia rapae,2,Sonchus tenerrimus,2,1,pollination
+Unidentified sp1 M_PL_012,2,Viola riviniana,2,1,pollination
+Anthophora alluaudi,2,Viola riviniana,2,1,pollination
+Eristalis tenax,2,Ageretina adenophora,2,1,pollination
+Bombus canariensis,2,Aichryson laxum,2,1,pollination
+Bombus canariensis,2,Appolonias barbujana,2,1,pollination
+Tachina canariensis,2,Argyranthemum broussonetti,2,1,pollination
+Bombus canariensis,2,Carduus tenuiflorus,2,1,pollination
+Apis mellifera,2,Erica arborea,2,1,pollination
+Anthophora alluaudi,2,Geranium robertianum,2,1,pollination
+Bombus canariensis,2,Hypericum grandifolium,2,1,pollination
+Gonepteryx cleopatra,2,Psoralia bituminosa,2,1,pollination
+Unidentified sp1 M_PL_012,2,Rhamnus glandulosa,2,1,pollination
+Anthophora alluaudi,2,Silene gallica,2,1,pollination

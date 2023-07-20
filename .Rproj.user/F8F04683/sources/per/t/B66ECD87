@@ -1,0 +1,26 @@
+{
+    "id": "B66ECD87",
+    "path": "~/GitHub/emln_package/R/get_sam.R",
+    "project_path": "R/get_sam.R",
+    "type": "r_source",
+    "hash": "2461749617",
+    "contents": "",
+    "dirty": false,
+    "created": 1689773479864.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "5,51",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1689773898,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1689773898465,
+    "read_only": false,
+    "read_only_alternatives": []
+}

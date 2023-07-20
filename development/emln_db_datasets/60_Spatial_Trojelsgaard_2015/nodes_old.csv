@@ -1,0 +1,289 @@
+node_id,node_name,type
+1,Attagenus sp. 1,pollinator
+2,Axinotarsus sp. 1,pollinator
+3,Chloropidae sp.,pollinator
+4,Lucilia sericata,pollinator
+5,Nomioides deceptor,pollinator
+6,Sciaridae sp.,pollinator
+7,Andrena vachali,pollinator
+8,Coleoptera sp. 5,pollinator
+9,Musca sorbens,pollinator
+10,Plagiolepis schmitzii,pollinator
+11,Sciaridae sp. 4,pollinator
+12,Tapinoma nigerrimum,pollinator
+13,Anaspis cf. saharensis,pollinator
+14,Arachnospila sp.,pollinator
+15,Crematogaster scutellaris,pollinator
+16,Hylaeus sp.,pollinator
+17,Lucilia sp. 1,pollinator
+18,Musca domestica,pollinator
+19,Sarcophaga sp. 1,pollinator
+20,Sarcophagidae sp. 2,pollinator
+21,Thysanoptera sp.,pollinator
+22,Vanessa Cardui,pollinator
+23,Anthaxia sp. 1,pollinator
+24,Ormyrus sp. 1,pollinator
+25,Pteromalus sp. 2,pollinator
+26,Thyreus sp. aff. ramosus,pollinator
+27,Urelliosoma guimari,pollinator
+28,Vestitohalictus sp.,pollinator
+29,Chalicodoma sicula,pollinator
+30,Chalicodoma sp.,pollinator
+31,Tethinidae sp. 1,pollinator
+32,Tethinidae sp. 2,pollinator
+33,Amegilla sp.,pollinator
+34,Anthophora sp. aff. orotavae,pollinator
+35,Bombylius sp. 1,pollinator
+36,Hym. Waiting<85>.,pollinator
+37,Melecta sp.,pollinator
+38,Aplocnemus sp. 2,pollinator
+39,Podalonia sp.,pollinator
+40,Proconura sp. 1,pollinator
+41,Sarcophagidae sp.,pollinator
+42,Colletes2? Waiting<85>,pollinator
+43,Chetogena acuminata,pollinator
+44,Eurytoma sp. 3,pollinator
+45,Lasioglossum phoenicurum,pollinator
+46,Musca osiris,pollinator
+47,Physiphora alceae,pollinator
+48,Sarcophagidae sp. 7,pollinator
+49,Tachinidae sp. 1,pollinator
+50,Themnothorax productus,pollinator
+51,Troglops sp.,pollinator
+52,Colletes1? Waiting<85>,pollinator
+53,Aprostocetus sp. 1,pollinator
+54,Paragus tibialis,pollinator
+55,Sphecidae sp.,pollinator
+56,Tephritidae sp. 1,pollinator
+57,Urellliosoma sp.,pollinator
+58,Anthophora sp. 1,pollinator
+59,Nomioides sp.,pollinator
+60,Macrocoma cf. henoni,pollinator
+61,Araneae sp. 1,pollinator
+62,Aulacoderus canariensis,pollinator
+63,Chrysomya albiceps,pollinator
+64,Aphthona wachnitzae,pollinator
+65,Attalus olivensis,pollinator
+66,Cecidomyiidae sp.,pollinator
+67,Chloropidae sp. 2,pollinator
+68,Milichiidae sp.,pollinator
+69,Nyctia lugubris,pollinator
+70,Phyto nigrobarbata,pollinator
+71,Sarcophagidae sp. 5,pollinator
+72,Scaptomyza sp. 2,pollinator
+73,Tachyagetes aemulans,pollinator
+74,Thysanoptera sp. 1,pollinator
+75,Dischistus atlanticus,pollinator
+76,Sarcophagidae sp. 4,pollinator
+77,Thysanoptera sp. 2,pollinator
+78,Anaspis proteus,pollinator
+79,Anthophora alluaudi,pollinator
+80,Attagenus abbreviatus,pollinator
+81,Campiglossa martii,pollinator
+82,Camponotus cfr. feae,pollinator
+83,Cephalodromia sp.,pollinator
+84,Dasytes lanzarotensis,pollinator
+85,Eurytoma sp. 2,pollinator
+86,Lasioglossum loetum,pollinator
+87,Proconura sp. 2,pollinator
+88,Sarcophagidae sp. 6,pollinator
+89,Camponotus feae,pollinator
+90,Thysanoptera sp. 4,pollinator
+91,Tetramesa sp.,pollinator
+92,Blaesoxipha sp. 1,pollinator
+93,Asteia caesia,pollinator
+94,Cryptocephalus nubigena,pollinator
+95,Phalacrus coruscus,pollinator
+96,Platypalpus sp. 1,pollinator
+97,Sapromyza sp.,pollinator
+98,Tethinidae sp. 3,pollinator
+99,Eurytoma sp. 1,pollinator
+100,Goniozus sp.,pollinator
+101,Oscinimorpha sp.,pollinator
+102,Anaspis cf. eversi,pollinator
+103,Attalus chrysanthemi,pollinator
+104,Diglyphus chabrias,pollinator
+105,Geometridae sp. 2,pollinator
+106,Leptochilus fortunatus,pollinator
+107,Chloropidae sp. 1,pollinator
+108,Apis mellifera,pollinator
+109,Colletes dimidiatus,pollinator
+110,Curculionidae sp.,pollinator
+111,Lasioglossum viride,pollinator
+112,Oscinella sp. 1,pollinator
+113,Sepsis sp.,pollinator
+114,Attagenus wollastoni,pollinator
+115,Attalus obscurus,pollinator
+116,Andrena vulcana,pollinator
+117,Bombylius pintuarius,pollinator
+118,Eristalinus taeniops,pollinator
+119,Eucera gracilipes,pollinator
+120,Exhyalanthrax canarionae,pollinator
+121,Gasteruption sp.,pollinator
+122,Hylaeus hohmanni,pollinator
+123,Melecta curvispina,pollinator
+124,Scaeva albomaculata,pollinator
+125,Themnothorax risii,pollinator
+126,Plagiolepis sp. 2,pollinator
+127,Amegilla quadrifasciata,pollinator
+128,Anthophora orotavae,pollinator
+129,Macroglossum stellatarum,pollinator
+130,Thysanoptera sp. 3,pollinator
+131,Atherigona varia,pollinator
+132,Andrena wollastoni,pollinator
+133,Stenoselma sp.,pollinator
+134,Agromyzidae sp. 1,pollinator
+135,Alliophleps elliptica,pollinator
+136,Dinarmoides spilopterus,pollinator
+137,Osmia latreillei,pollinator
+138,Pieris rapae,pollinator
+139,Tropinota squalida,pollinator
+140,Osmia canaria,pollinator
+141,Phthiria simonyi,pollinator
+142,Thomisus cf. onustus,pollinator
+143,Coccinella miranda,pollinator
+144,Pteromalus sp. 3,pollinator
+145,Scenopinus sp.,pollinator
+146,Platypalpus sp.,pollinator
+147,Bracon sp.,pollinator
+148,Chalicodoma canescens,pollinator
+149,Themnothorax hesperius,pollinator
+150,Macrocoma splendens,pollinator
+151,Megachile canariensis,pollinator
+152,Phyto discrepans,pollinator
+153,Synthesomyia nudiseta,pollinator
+154,Eupelmus sp.,pollinator
+155,Sphaeniscus filiolus,pollinator
+156,Stomorhina lunata,pollinator
+157,Aprostocetus occidentalis,pollinator
+158,Sarcophagidae sp. 8,pollinator
+159,Myopites nigrescens,pollinator
+160,Eristalinus aeneus,pollinator
+161,Holepyris sp.,pollinator
+162,Oxyopes cf. kraepelinorum,pollinator
+163,Pteromalus sp. 4,pollinator
+164,Syritta pipiens,pollinator
+165,Trixoscelis sp.,pollinator
+166,Attalus ruficollis,pollinator
+167,Leptochilus eatoni,pollinator
+168,Oscinella sp. 2,pollinator
+169,Sibinia sericea,pollinator
+170,Aprostocetus sp. 2,pollinator
+171,Eristalis tenax,pollinator
+172,Mordellistena cf. canariensis,pollinator
+173,Platypalpus sp. 2,pollinator
+174,Sciaridae sp. 1,pollinator
+175,Ammophila terminata,pollinator
+176,Monomorium subopacum,pollinator
+177,Euderus sp.,pollinator
+178,Torymoides lindbergi,pollinator
+179,Meligethes cf. canariensis,pollinator
+180,Nomioides fortunatus,pollinator
+181,Chloropidae sp. 5,pollinator
+182,Chloropidae sp. 6,pollinator
+183,Fannia sp.,pollinator
+184,Gnaphosidae sp. 1,pollinator
+185,Dasytes subaenescens,pollinator
+186,Elasmus platyedrae,pollinator
+187,Leptochilus cruentatus,pollinator
+188,Meligethes canariensis,pollinator
+189,Pteromalus sp. 1,pollinator
+190,Thysanoptera sp. 7,pollinator
+191,Eumerus latitarsis,pollinator
+192,Tethina marmorata,pollinator
+193,Attalus pallipes,pollinator
+194,Cryptocephalus gounellei,pollinator
+195,Estheria simonyi,pollinator
+196,Amegilla canifrons,pollinator
+197,Geometridae sp.,pollinator
+198,Malthinus mutabilis,pollinator
+199,Myathropa florea,pollinator
+200,Ceratogoponidae sp.,pollinator
+201,Chironomidae sp.,pollinator
+202,Megaselia sp. 2,pollinator
+203,Bassus sp.,pollinator
+204,Crematogaster alluaudi,pollinator
+205,Dasytes cf. subaenescens,pollinator
+206,Eumerus nivariae,pollinator
+207,Minotetrastichus sp.,pollinator
+208,Hylaeus ater,pollinator
+209,Agromyzidae? sp. 2,pollinator
+210,Neodryophilus cryptophagoides,pollinator
+211,Attalus rugifrons,pollinator
+212,Bruchidius wollastoni,pollinator
+213,Campiglossa reticulata,pollinator
+214,Tachina canariensis,pollinator
+215,Thomisus cf. globosum,pollinator
+216,Thyridanthrax indigenus,pollinator
+217,Araneidae sp. 1,pollinator
+218,Oxyopes kraepelinorum,pollinator
+219,Paratrechina longicornis,pollinator
+220,Halictus fulvipes,pollinator
+221,Megaselia sp. 1,pollinator
+222,Scymnus canariensis,pollinator
+223,Araneidae sp. 2,pollinator
+224,Eupelmus testaceiventris,pollinator
+225,Anaspis cf. canariensis,pollinator
+226,Chloropidae sp. 4,pollinator
+227,Empididae sp. 1,pollinator
+228,Exetastes segmentarius,pollinator
+229,Trupanea augur,pollinator
+230,Colias croceus,pollinator
+231,Dilophus hiemalis,pollinator
+232,Chironomidae sp. 1,pollinator
+233,Chloropidae sp. 3,pollinator
+234,Ceratogoponidae sp. 2,pollinator
+235,Linnaemyia soror,pollinator
+236,Mycetophilidae sp. 1,pollinator
+237,Perilampus sp. 2,pollinator
+238,Lasioglossum arctifrons,pollinator
+239,Delia flavibasis,pollinator
+240,Thaumatomyia notata,pollinator
+241,Villa nigriceps,pollinator
+242,Perilampus sp. 1,pollinator
+243,Cecydomyiidae sp.,pollinator
+244,Cryptocephalus nitidicollis,pollinator
+245,Rondania insularis,pollinator
+246,Sarcophagidae sp. 3,pollinator
+247,Attalus crispus,pollinator
+248,Empis sp. 1,pollinator
+249,Spathulina sicula,pollinator
+250,Asparagus.pastorianus,plant
+251,Euphorbia.balsamifera..f.,plant
+252,Euphorbia.balsamifera..m.,plant
+253,Helianthemum.canariensis,plant
+254,Kickxia.heterophylla,plant
+255,Launaea.arborescens,plant
+256,Lotus.sp.,plant
+257,Lycium.intricatum,plant
+258,Nauplius.sp.,plant
+259,Zilla.spinosa,plant
+260,Argyranthemum.sp.,plant
+261,Fagonia.albiflora,plant
+262,Phagnalon.purpurascens,plant
+263,Salvia.aegyptiaca,plant
+264,Lotus.lancerottensis,plant
+265,Euphorbia.regis.jubae,plant
+266,Kickxia.scoparia,plant
+267,Plocama.pendula,plant
+268,Rubia.fruticosa,plant
+269,Schizogyne.sericea,plant
+270,Lavendula.minutolii,plant
+271,Lotus.spartioides,plant
+272,Argyranthemum.frutescens,plant
+273,Ceropegia.fusca,plant
+274,Euphorbia.lamarckii,plant
+275,Frankenia.laevis,plant
+276,Lavendula.multifida,plant
+277,Lotus.sessilifolius,plant
+278,Periploca.laevigata,plant
+279,Satureja.kuegleri,plant
+280,Ceballosia.fruticosa,plant
+281,Nauplius.aquaticus,plant
+282,Neochamaelea.pulverulenta,plant
+283,Asphaltklee.bituminosa,plant
+284,Ceropegia.dichotoma,plant
+285,Lavendula.buchii,plant
+286,Parolinia.intermedia,plant
+287,Phagnalon.saxatile,plant
+288,Lotus.glaucus,plant

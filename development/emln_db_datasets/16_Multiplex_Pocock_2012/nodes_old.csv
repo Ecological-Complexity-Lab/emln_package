@@ -1,0 +1,561 @@
+node_id,node_name,type
+1,Ajuga reptans,plant
+2,Alliaria petiolata,plant
+3,Anthriscus sylvestris,plant
+4,Bellis perennis,plant
+5,Brassica napus,plant
+6,Capsella bursa-pastoris,plant
+7,Cerastium fontanum,plant
+8,Chaerophyllum temulum,plant
+9,Cirsium arvense,plant
+10,Cirsium vulgare,plant
+11,Conolvulus/Calystegia,plant
+12,Cornus sanguinea,plant
+13,Crataegus monogyna,plant
+14,Galium aparine,plant
+15,Galium odoratum,plant
+16,Geranium robertianum,plant
+17,Heracleum sphondylium,plant
+18,Lamiastrum galeobdolon,plant
+19,Lamium album,plant
+20,Lapsana communis,plant
+21,Leontodon autumnalis,plant
+22,Ligustrum vulgare,plant
+23,Matricaria recutita,plant
+24,Medicago sativa ssp. sativa,plant
+25,Mentha arvensis,plant
+26,Myosotis arvensis,plant
+27,Papaver sp.,plant
+28,Prunus spinosa,plant
+29,Ranunculus acris,plant
+30,Ranunculus repens,plant
+31,Rosa sp.,plant
+32,Rubus fruticosus,plant
+33,Senacio jacobaea,plant
+34,Silene dioica,plant
+35,Sinapis arvensis,plant
+36,Sonchus asper/oleraceus,plant
+37,Spergula arvensis,plant
+38,Stachys sylvatica,plant
+39,Stellaria graminea,plant
+40,Torilis japonica,plant
+41,Trifolium pratense/repens,plant
+42,Veronica chamaedrys,plant
+43,Veronica persica,plant
+44,Viburnum lanatum,plant
+45,Vicia hirsute,plant
+46,Vicia sativa,plant
+47,Vicia sepium,plant
+48,<d7> Triticosecale,plant
+49,Aphanes arvensis,plant
+50,Avena sativa winter-sown,plant
+51,Corylus avellana,plant
+52,Euonymus europaeus,plant
+53,Matricaria discoidea,plant
+54,Plantago sp.,plant
+55,Poaceae,plant
+56,Rumex sp.,plant
+57,Scrophularia auriculata,plant
+58,Triticum aestivum,plant
+59,Urtica dioica,plant
+60,Veronica arvensis,plant
+61,Acer campestre,plant
+62,Arctium minus,plant
+63,Avena sativa spring-sown,plant
+64,Dipsacus fullonum,plant
+65,Glechoma hederacea,plant
+66,Hordeum vulgare,plant
+67,Lonicera periclymenum,plant
+68,Potentilla reptans,plant
+69,Pulicaria dysenterica,plant
+70,Quercus robur,plant
+71,Ulmus sp.,plant
+72,Trifolium dubium,plant
+73,Allium ursinum,plant
+74,Cardamine flexuosa,plant
+75,Cardamine pratensis,plant
+76,Chenopodium sp.,plant
+77,Clematis vitalba,plant
+78,Epilobium sp.,plant
+79,Euphorbia helioscopia,plant
+80,Fallopia convolvulus,plant
+81,Geranium dissectum,plant
+82,Geum urbanum,plant
+83,Hypochaeris/ Crepis sp.,plant
+84,Lamium purpureum,plant
+85,Mercurialis perennis,plant
+86,Persicaria sp.,plant
+87,Picris echioides,plant
+88,Polygonum sp.,plant
+89,Prunella vulgaris,plant
+90,Sambucus nigra,plant
+91,Senacio vulgaris,plant
+92,Sonchus arvensis,plant
+93,Stellaria media,plant
+94,Taraxacum officinale,plant
+95,Veronica hederifolia,plant
+96,Viola arvensis,plant
+97,"Acer pseudoplatanus,",plant
+98,Fraxinus excelsior,plant
+99,Hyacinthoides non-scripta,plant
+100,Sherardia arvensis,plant
+101,Lotus corniculatus,plant
+102,Acyrthosiphon pisum,aphid
+103,Aphid species 1,aphid
+104,Brachycaudus helichrysii,aphid
+105,Macrosiphum funestum,aphid
+106,Microlophium carnosum,aphid
+107,Sitobion avenae,aphid
+108,Therioaphis trifoli,aphid
+109,Tubaphis ranunculina,aphid
+110,Uroleucon sonchi,aphid
+111,Aphis rumicis,aphid
+112,Dysaphis species 1,aphid
+113,Phorodon humuli,aphid
+114,Uroleucon cirsii,aphid
+115,Bruchidius varius,seed-feeding insect
+116,Bruchophagus gibbus,seed-feeding insect
+117,Curtonotus aulicus,seed-feeding insect
+118,Olibrus aeneus,seed-feeding insect
+119,Oxystoma pomonae,seed-feeding insect
+120,Protapion apricans,seed-feeding insect
+121,Protapion assimile,seed-feeding insect
+122,Protapion fulvipes,seed-feeding insect
+123,Protapion trifolii,seed-feeding insect
+124,Protapion varipes,seed-feeding insect
+125,Rhinocyllus conicus,seed-feeding insect
+126,Sitona lineatus,seed-feeding insect
+127,Sitona sulcifrons,seed-feeding insect
+128,Terellia longicauda,seed-feeding insect
+129,Terellia ruficauda,seed-feeding insect
+130,Terellia serratulae,seed-feeding insect
+131,Urophora stylata,seed-feeding insect
+132,Apodemus flavicollis,seed-feeding rodent
+133,Apodemus sylvaticus,seed-feeding rodent
+134,Micromys minutus,seed-feeding rodent
+135,Myodes glareolus,seed-feeding rodent
+136,Rhingia campestris,flower visitor
+137,Simulium sp,flower visitor
+138,Agriotes pallidulus,flower visitor
+139,Anaspis maculata,flower visitor
+140,Anthocomus fasciatus,flower visitor
+141,Bicellaria vana,flower visitor
+142,Botanophila striolata,flower visitor
+143,Bracon sp,flower visitor
+144,Cantharis lateralis,flower visitor
+145,Chlorops hypostigma,flower visitor
+146,Chlorops pumilionis,flower visitor
+147,Dacnusa (maculipes),flower visitor
+148,Delia sp,flower visitor
+149,Dicraeus tibialis,flower visitor
+150,Dolichopus ungulatus,flower visitor
+151,Empis (Xanthempis) sp,flower visitor
+152,Empis caudatula,flower visitor
+153,Empis livida,flower visitor
+154,Empis nigripes,flower visitor
+155,Endasys sp,flower visitor
+156,Episyrphus balteatus,flower visitor
+157,Fannia serena,flower visitor
+158,Fannia sp,flower visitor
+159,Helina sp,flower visitor
+160,Hylemya vagans,flower visitor
+161,Microphor anomalus,flower visitor
+162,Miscogaster maculata,flower visitor
+163,Oscinella cariciphila,flower visitor
+164,Phaenocarpa (ruficeps),flower visitor
+165,Phaonia lasiophthalma,flower visitor
+166,Phasia pusilla,flower visitor
+167,Pimpla contemplator,flower visitor
+168,Platycheirus albimanus,flower visitor
+169,Platycheirus nielseni,flower visitor
+170,Platypalpus sp,flower visitor
+171,Psychodidae sp,flower visitor
+172,Psyllidae sp,flower visitor
+173,Pteromalidae,flower visitor
+174,Scathophaga stercoraria,flower visitor
+175,Scatopsidae sp,flower visitor
+176,Tenthredopsis nassata,flower visitor
+177,Oscinella nitidissima,flower visitor
+178,Pegoplata aestiva or Adia cinerella,flower visitor
+179,Neoascia podagrica,flower visitor
+180,Syritta pipiens,flower visitor
+181,Neomyia cornicina,flower visitor
+182,Tetrastichinae sp,flower visitor
+183,Torymus sp,flower visitor
+184,Anaspis pulicaria,flower visitor
+185,Anapausis soluta,flower visitor
+186,Anthomyza gracilis,flower visitor
+187,Apis mellifera,flower visitor
+188,Bombus lapidarius,flower visitor
+189,Bombus pascuorum,flower visitor
+190,Bombus terrestris,flower visitor
+191,Cheilosia honesta,flower visitor
+192,Chrysopilus asiliformis,flower visitor
+193,Dilophus febrilis,flower visitor
+194,Eriothrix rufomaculata,flower visitor
+195,Eristalis arbustorum,flower visitor
+196,Helophilus pendulus,flower visitor
+197,Heteronychia vagans,flower visitor
+198,Kuzinia sp,flower visitor
+199,Lasioglossum sp,flower visitor
+200,Lucilia caesar,flower visitor
+201,Lucilia sericata,flower visitor
+202,Melanostoma mellinum,flower visitor
+203,Melinda viridicyanea,flower visitor
+204,Neomyia viridescens,flower visitor
+205,Pegoplata depilis,flower visitor
+206,Pierretia sp,flower visitor
+207,Polyommatus icarus,flower visitor
+208,Pyronia tithonus,flower visitor
+209,Rhagonycha fulva,flower visitor
+210,Rhinophora lepida,flower visitor
+211,Siphona geniculata,flower visitor
+212,Sphaerophoria sp,flower visitor
+213,Tetramesa sp,flower visitor
+214,Theroscopus sp,flower visitor
+215,Tricimba cincta,flower visitor
+216,Oscinella frit,flower visitor
+217,Pieris brassicae,flower visitor
+218,Sepsis fulgens,flower visitor
+219,Eupeodes luniger,flower visitor
+220,Oedemera nobilis,flower visitor
+221,Rhagio tringarius,flower visitor
+222,Andrena dorsata,flower visitor
+223,Cantharis decipiens,flower visitor
+224,Glyphipterix simpliciella,flower visitor
+225,Malachius bipustulatus,flower visitor
+226,Phyllonorycter sp,flower visitor
+227,Sciaridae sp,flower visitor
+228,Hercostomus parvilamellatus,flower visitor
+229,Alysiinae sp,flower visitor
+230,Anthophila fabriciana,flower visitor
+231,Azelia zetterstedtii,flower visitor
+232,Calliphora vicina,flower visitor
+233,Cantharis nigra,flower visitor
+234,Cheilosia illustrata,flower visitor
+235,Chloromyia formosa,flower visitor
+236,Chorebus sp,flower visitor
+237,Dicraeus vagans,flower visitor
+238,Diplonevra sp,flower visitor
+239,Empis chioptera,flower visitor
+240,Eristalis pertinax,flower visitor
+241,Eudasyphora cyanella,flower visitor
+242,Formicidae A,flower visitor
+243,Grammoptera ruficornis,flower visitor
+244,Hemicrepidius hirtus,flower visitor
+245,Limnophora triangula,flower visitor
+246,Microchrysa polita,flower visitor
+247,Pegoplata infirma,flower visitor
+248,Pionini sp,flower visitor
+249,Platycheirus scutatus,flower visitor
+250,Scaptomyza pallida,flower visitor
+251,Sepsis orthocnemis,flower visitor
+252,Sepsis violacea,flower visitor
+253,Tersilochus sp,flower visitor
+254,Tiphia minuta,flower visitor
+255,Volucella bombylans,flower visitor
+256,Asecodes coronis,flower visitor
+257,Halticoptera sp,flower visitor
+258,Hexacola hexatoma,flower visitor
+259,Kleidotoma tetratoma,flower visitor
+260,Metopina sp,flower visitor
+261,Rhoptromeris heptoma,flower visitor
+262,Rhoptromeris rufiventris,flower visitor
+263,Dolerus haematodes,flower visitor
+264,Epuraea melanocephala,flower visitor
+265,Andrena minutula,flower visitor
+266,Anthomyia liturata,flower visitor
+267,Authonomus rubi,flower visitor
+268,Azelia cilipes,flower visitor
+269,Bellardia pandia,flower visitor
+270,Botanophila fugax,flower visitor
+271,Bruchus rufimanus,flower visitor
+272,Chrysotoxum bicinctum,flower visitor
+273,Dolichopus festivus,flower visitor
+274,Eristalis tenax,flower visitor
+275,Eupeodes corollae,flower visitor
+276,Gastrophysa viridular,flower visitor
+277,Helophilus trivittatus,flower visitor
+278,Hydrellia griseola,flower visitor
+279,Hylaeus communis,flower visitor
+280,Oedemera lurida,flower visitor
+281,Olibrus aeneus,flower visitor
+282,Omphalapion hookerorum,flower visitor
+283,Opomyza germinationis,flower visitor
+284,Phasia obesa,flower visitor
+285,Platycheirus manicatus,flower visitor
+286,Platycheirus sp,flower visitor
+287,Pollenia amentaria,flower visitor
+288,Pollenia pediculata,flower visitor
+289,Pollenia rudis,flower visitor
+290,Scaptomyza flava,flower visitor
+291,Sphaerophoria menthastri,flower visitor
+292,Sphaerophoria scripta,flower visitor
+293,Stenodiplosis sp,flower visitor
+294,Thaumatomyia glabra,flower visitor
+295,Cecidomyiidae sp,flower visitor
+296,Cephus pygmaeus,flower visitor
+297,Ceraphron trissacantha,flower visitor
+298,Cheilosia albitarsis,flower visitor
+299,Chorebus sp nov,flower visitor
+300,Chromatomyia nigra,flower visitor
+301,Chrysotus sp,flower visitor
+302,Demetrias atricapillus,flower visitor
+303,Desmometopa sp,flower visitor
+304,Formicidae B,flower visitor
+305,Geomyza tripunctata,flower visitor
+306,Hydrellia maura,flower visitor
+307,Hylaeus hyalinatus,flower visitor
+308,Hylemya urbica/variata,flower visitor
+309,Hylemya variata,flower visitor
+310,Limnia unguicornis,flower visitor
+311,Lonchoptera lutea,flower visitor
+312,Lotophila atra,flower visitor
+313,Megaselia sp,flower visitor
+314,Melangyna sp,flower visitor
+315,Melanostoma sp,flower visitor
+316,Micropterix calthella,flower visitor
+317,Opomyza petrei,flower visitor
+318,Oscinella hortensis,flower visitor
+319,Oscinella nigerrima,flower visitor
+320,Phytomyza cineracea,flower visitor
+321,Phytomyza notata,flower visitor
+322,Platycheirus clypeatus,flower visitor
+323,Psallinae sp,flower visitor
+324,Rhagio notatus,flower visitor
+325,Saltella sphondylii,flower visitor
+326,Sepsis cynipsea or neocynipsea,flower visitor
+327,Stenomalina sp,flower visitor
+328,Triphleba sp,flower visitor
+329,Tytthaspis sedecimpunctata,flower visitor
+330,Byturus tomentosus,flower visitor
+331,Baccha elongate,flower visitor
+332,Bombus hortorum,flower visitor
+333,Brachypterus urticae,flower visitor
+334,Coccinella septempunctata,flower visitor
+335,Crossopalpus sp,flower visitor
+336,Ichneumonidae,flower visitor
+337,Malthodes minimus,flower visitor
+338,Melanostoma scalare,flower visitor
+339,Platycheirus peltatus,flower visitor
+340,Sepsis flavimana,flower visitor
+341,Trybliographa erythrocera,flower visitor
+342,Calliphora vomitoria,flower visitor
+343,Herina longistylata,flower visitor
+344,Lucilia richardsi,flower visitor
+345,Psocoptera sp,flower visitor
+346,Sicus ferrugineus,flower visitor
+347,Sphaerophoria rueppellii,flower visitor
+348,Bicellaria varia,flower visitor
+349,Ophiomyia sp,flower visitor
+350,Pipiza noctiluca,flower visitor
+351,Centrorhynchus obstrictus,flower visitor
+352,Cetema elongata,flower visitor
+353,Diospilus capito,flower visitor
+354,Phradis morionellus,flower visitor
+355,Empis nuntia,flower visitor
+356,Cheilosia pagana,flower visitor
+357,Cheilosia proxima,flower visitor
+358,Cheilosia proxima D,flower visitor
+359,Coenosia tigrina,flower visitor
+360,Copromyza similes,flower visitor
+361,Ectemnius cephalotes,flower visitor
+362,Musca autumnalis,flower visitor
+363,Plagiatrochus sp,flower visitor
+364,Sussaba cognata,flower visitor
+365,Anthomyia pluvialis,flower visitor
+366,Aprostocetus sp,flower visitor
+367,Bombus pratorum,flower visitor
+368,Bombus vestalis,flower visitor
+369,Maniola jurtina,flower visitor
+370,Metasyrphus luniger,flower visitor
+371,Norellisoma spinimanum,flower visitor
+372,Phyllobius virideaeris,flower visitor
+373,Sarcophaga carnaria,flower visitor
+374,Sitona puncticollis,flower visitor
+375,Syrphus ribesii,flower visitor
+376,Longitarsus sp,flower visitor
+377,Myzus persicae,aphid
+378,Metopolophium dihrodum,aphid
+379,Capitophorus elaeagnii,aphid
+380,Uroleucon aeneum,aphid
+381,Hyperomyzus lactucae,aphid
+382,Myzocallis coryli,aphid
+383,Aphis fabae,aphid
+384,Aphis galiiscabri,aphid
+385,Cavariella aegopodii,aphid
+386,Sipha maydis,aphid
+387,Sitobion fragariae,aphid
+388,Lipaphys erysimi,aphid
+389,Cryptomyzus korschelti,aphid
+390,Aphis urticae,aphid
+391,Nasonvoia ribisnigri,aphid
+392,Aphidius picipes?,primary aphid parasitoid
+393,Ephedrus plagiator,primary aphid parasitoid
+394,Praon volucre,primary aphid parasitoid
+395,Aphidius matricariae,primary aphid parasitoid
+396,Aphidius rhopalosiphi?,primary aphid parasitoid
+397,Praon exoletum?,primary aphid parasitoid
+398,Aphidius ervi,primary aphid parasitoid
+399,Aphidius funebris,primary aphid parasitoid
+400,Praon sp nr flavinode,primary aphid parasitoid
+401,Praon dorsale?,primary aphid parasitoid
+402,Trioxys B,primary aphid parasitoid
+403,Alloxysta victrix,secondary aphid parasitoid
+404,Asaphes suspensus,secondary aphid parasitoid
+405,Dendrocerus aphidum,secondary aphid parasitoid
+406,Dendrocerus carpenteri,secondary aphid parasitoid
+407,Asaphes vulgaris,secondary aphid parasitoid
+408,Coruna clavata,secondary aphid parasitoid
+409,Pachyneuron sp,secondary aphid parasitoid
+410,Diglyphus isaea,leaf-miner parasitoid
+411,Seladerma diffine,leaf-miner parasitoid
+412,Achrysocharoides acerianus,leaf-miner parasitoid
+413,Microgastrinae sp,leaf-miner parasitoid
+414,Dacnusa maculipes/confinis,leaf-miner parasitoid
+415,Exotela cyclogaster,leaf-miner parasitoid
+416,Miscogaster maculata,leaf-miner parasitoid
+417,Anagrus sp A,leaf-miner parasitoid
+418,Chrysocharis viridis,leaf-miner parasitoid
+419,Desmiostoma parvulum,leaf-miner parasitoid
+420,Pnigalio soemius,leaf-miner parasitoid
+421,Alysiinae sp,leaf-miner parasitoid
+422,Anagrus sp B,leaf-miner parasitoid
+423,Asaphes suspensus,leaf-miner parasitoid
+424,Campoplex sp,leaf-miner parasitoid
+425,Chelonus sp,leaf-miner parasitoid
+426,Chelonus sp aff rimatus,leaf-miner parasitoid
+427,Chrysocharis orbicularis,leaf-miner parasitoid
+428,Chrysocharis pubicornis,leaf-miner parasitoid
+429,Cyrtogaster vulgaris,leaf-miner parasitoid
+430,Dacnusa areolaris,leaf-miner parasitoid
+431,Dacnusa tarsalis,leaf-miner parasitoid
+432,Exotela spinifer,leaf-miner parasitoid
+433,Forsterella sp,leaf-miner parasitoid
+434,Gelis bicolor,leaf-miner parasitoid
+435,Hemiptarsenus dropion,leaf-miner parasitoid
+436,Hemiptarsenus unguicellus,leaf-miner parasitoid
+437,Opius sensu stricto lugens,leaf-miner parasitoid
+438,Phaedrotoma exigua,leaf-miner parasitoid
+439,Seladerma tarsale,leaf-miner parasitoid
+440,Opiinae sp,leaf-miner parasitoid
+441,Colastes braconius,leaf-miner parasitoid
+442,Achrysocharoides atys,leaf-miner parasitoid
+443,Chrysocharis pentheus,leaf-miner parasitoid
+444,Sympiesis sericeicornis,leaf-miner parasitoid
+445,Anagrus sp C,leaf-miner parasitoid
+446,Chorebus tanis,leaf-miner parasitoid
+447,Aphanogmus sp,leaf-miner parasitoid
+448,Apodesmia ocellata,leaf-miner parasitoid
+449,Dacnusa laevipectus,leaf-miner parasitoid
+450,Synopeas rhanis,leaf-miner parasitoid
+451,Cirrospilus vittatus,leaf-miner parasitoid
+452,Apodesmia irregularis,leaf-miner parasitoid
+453,Apodesmia similis,leaf-miner parasitoid
+454,Bracon sp,leaf-miner parasitoid
+455,Chorebus A,leaf-miner parasitoid
+456,Chorebus aphantus,leaf-miner parasitoid
+457,Chorebus B,leaf-miner parasitoid
+458,Chorebus C,leaf-miner parasitoid
+459,Chorebus E,leaf-miner parasitoid
+460,Chrysocharis polyzo,leaf-miner parasitoid
+461,Coloneura (ate),leaf-miner parasitoid
+462,Dacnusa adducta,leaf-miner parasitoid
+463,Dapsilarthra rufiventris,leaf-miner parasitoid
+464,Diglyphus chabrias,leaf-miner parasitoid
+465,Epiclerus temenus,leaf-miner parasitoid
+466,Eulophinae sp,leaf-miner parasitoid
+467,Exotela flavicoxa,leaf-miner parasitoid
+468,Gelis anthracinus,leaf-miner parasitoid
+469,Hemiptarsenus fulvicollis,leaf-miner parasitoid
+470,Pediobius acantha,leaf-miner parasitoid
+471,Phaedrotoma variegata,leaf-miner parasitoid
+472,Torymus sp,leaf-miner parasitoid
+473,Colastes sp aff braconius,leaf-miner parasitoid
+474,Adelius sp,leaf-miner parasitoid
+475,Apanteles circumscriptus,leaf-miner parasitoid
+476,Chrysocharis prodice,leaf-miner parasitoid
+477,Diadegma crataegi,leaf-miner parasitoid
+478,Achrysocharoides butus,leaf-miner parasitoid
+479,Achrysocharoides latreillei,leaf-miner parasitoid
+480,Chrysocharis laomedon,leaf-miner parasitoid
+481,Cirrospilus diallus,leaf-miner parasitoid
+482,Cirrospilus lyncus,leaf-miner parasitoid
+483,Opius sensu stricto,leaf-miner parasitoid
+484,Pediobius saulius,leaf-miner parasitoid
+485,Pnigalio agraules,leaf-miner parasitoid
+486,Sympiesis gordius,leaf-miner parasitoid
+487,Trioxys A,leaf-miner parasitoid
+488,Aphanogmus microneurus,leaf-miner parasitoid
+489,Apodesmia A,leaf-miner parasitoid
+490,Apodesmia curvata,leaf-miner parasitoid
+491,Ascogaster varipes,leaf-miner parasitoid
+492,Chorebus fallaciosae,leaf-miner parasitoid
+493,Dacnusa macrospila,leaf-miner parasitoid
+494,Exotela gilvipes,leaf-miner parasitoid
+495,Opius sp,leaf-miner parasitoid
+496,Adelurola florimela,leaf-miner parasitoid
+497,Apodesmia rufipes,leaf-miner parasitoid
+498,Chrysocharis chilo,leaf-miner parasitoid
+499,Dacnusa temula,leaf-miner parasitoid
+500,Chelonus scabrosus,leaf-miner parasitoid
+501,Chorebus leptogaster,leaf-miner parasitoid
+502,Ionympha carne,leaf-miner parasitoid
+503,Chorebus lateralis,leaf-miner parasitoid
+504,Miscogaster hortensis,leaf-miner parasitoid
+505,Chorebus amasis,leaf-miner parasitoid
+506,Blastodacna hellerella,seed-feeding insect
+507,Protapion nigritarse,seed-feeding insect
+508,Corvus frugilegus,seed-feeding bird
+509,Alauda arvensis,seed-feeding bird
+510,Alectoris rufa,seed-feeding bird
+511,Carduelis chloris,seed-feeding bird
+512,Columba palumbus,seed-feeding bird
+513,Emberiza citrinella,seed-feeding bird
+514,Passer domesticus,seed-feeding bird
+515,Carduelis cannabina,seed-feeding bird
+516,Carduelis carduelis,seed-feeding bird
+517,Fringilla coelebs,seed-feeding bird
+518,Streptopelia decaocto,seed-feeding bird
+519,Corvus monedula,seed-feeding bird
+520,Pieris rapae,butterfly
+521,Inachis io,butterfly
+522,Aglais urticae,butterfly
+523,Aphantopus hyperantus,butterfly
+524,Maniola jurtina,butterfly
+525,Ochlodes sylvanus,butterfly
+526,Pieris brassicae,butterfly
+527,Pieris napi,butterfly
+528,Polygonia c-album,butterfly
+529,Polyommatus icarus,butterfly
+530,Pyronia tithonus,butterfly
+531,Thymelicus sylvestris,butterfly
+532,Vanessa atalanta,butterfly
+533,Lycaena phlaeas,butterfly
+534,Pararge aegeria,butterfly
+535,Vanessa cardui,butterfly
+536,Bracon praecox,seed-feeder parasitoid
+537,Pteromalus albipennis,seed-feeder parasitoid
+538,Bracon immutator,seed-feeder parasitoid
+539,Bracon osculator,seed-feeder parasitoid
+540,Crataepus marbis,seed-feeder parasitoid
+541,Eurytoma sp A,seed-feeder parasitoid
+542,Eurytoma sp B,seed-feeder parasitoid
+543,Pterandrophysalis levantina,seed-feeder parasitoid
+544,Pteromalus beryllii,seed-feeder parasitoid
+545,Pteromalus elevatus,seed-feeder parasitoid
+546,Aprostocetus sp,seed-feeder parasitoid
+547,Mesopolobus incultus,seed-feeder parasitoid
+548,Spintherus dubius,seed-feeder parasitoid
+549,Triaspis floricola,seed-feeder parasitoid
+550,Trichomalus campestris,seed-feeder parasitoid
+551,Trichomalus rufinus,seed-feeder parasitoid
+552,Pteromalus sequester-group,seed-feeder parasitoid
+553,Amalaraeus penicilliger mustelae,rodent ectoparasite
+554,Ctenophthalmus nobilis vulgaris,rodent ectoparasite
+555,Hystrichopsylla talpae talpae,rodent ectoparasite
+556,Ixodes trianguliceps,rodent ectoparasite
+557,Megabothris turbidus,rodent ectoparasite
+558,Palaeopsylla minor,rodent ectoparasite
+559,Palaeopsylla soricis soricis,rodent ectoparasite
+560,Nosopsyllus fasciatus,rodent ectoparasite

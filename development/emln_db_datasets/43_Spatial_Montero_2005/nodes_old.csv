@@ -1,0 +1,92 @@
+node_id,node_name,type
+1,Cirsium arvense,plant
+2,Eupatorium cannabinum,plant
+3,Stachys palustris,plant
+4,Sonchus palustris,plant
+5,Juncus effusus,plant
+6,Lychnis flos-cuculi,plant
+7,Sonchus arvensis,plant
+8,Allium scorodoprasum,plant
+9,Calystegia sepium,plant
+10,Silene dioica,plant
+11,Angelica sylvestris,plant
+12,Chaerophyllum temulentum,plant
+13,Stachys sylvatica,plant
+14,Lapsana communis,plant
+15,Geranium robertianum,plant
+16,Vicia sepium,plant
+17,Veronica agrestis,plant
+18,Meligethes.sp1.M_PL_037,pollinator
+19,Bombus.lapidarius,pollinator
+20,Bombus.pascuorum,pollinator
+21,Unidentified.sp1.M_PL_037,pollinator
+22,Unidentified.sp2.M_PL_037,pollinator
+23,Apocrita.sp1.M_PL_037,pollinator
+24,Unidentified.sp3.M_PL_037,pollinator
+25,Bombus.terrestris,pollinator
+26,Olibrus.aeneus.,pollinator
+27,Thymelicus.sylvestris,pollinator
+28,Unidentified.sp5.M_PL_037,pollinator
+29,Unidentified.sp6.M_PL_037,pollinator
+30,Epuraea.depressa.Illiger,pollinator
+31,Pieris.napi,pollinator
+32,Strangalia.maculata,pollinator
+33,Unidentified.sp12.M_PL_037,pollinator
+34,Unidentified.sp13.M_PL_037,pollinator
+35,Bombus.lucorum,pollinator
+36,Ceuthorrhynchus.assimilis.,pollinator
+37,Eoseristalis.horticola,pollinator
+38,Psithyrus.bohemicus,pollinator
+39,Episyrphus.balteatus,pollinator
+40,Eumerus.tuberculatus.,pollinator
+41,Chrysomela.fastuosa,pollinator
+42,Mesapamea.secalis,pollinator
+43,Unidentified.sp11.M_PL_037,pollinator
+44,Unidentified.sp15.M_PL_037,pollinator
+45,Scaeva.pyrastri,pollinator
+46,Syrphus.ribesii,pollinator
+47,Syrphus.vitripennis.,pollinator
+48,Unidentified.sp9.M_PL_037,pollinator
+49,Unidentified.sp4.M_PL_037,pollinator
+50,Unidentified.sp8.M_PL_037,pollinator
+51,Nemophora.degeerella,pollinator
+52,Unidentified.sp10.M_PL_037,pollinator
+53,Unidentified.sp14.M_PL_037,pollinator
+54,Zygaena.filipendulae.,pollinator
+55,Unidentified.sp7.M_PL_037,pollinator
+56,Leptura.rubra,pollinator
+57,Melanostoma.scalare,pollinator
+58,Unidentified.sp1.M_PL_038,pollinator
+59,Meligethes.sp1.M_PL_038,pollinator
+60,Unidentified.sp2.M_PL_038,pollinator
+61,Byturus.aestivus,pollinator
+62,Crambus.pratella,pollinator
+63,Dasytes.plumbeus.,pollinator
+64,Unidentified.sp3.M_PL_038,pollinator
+65,Anaspis.rufilabris.,pollinator
+66,Chrysogaster.solstitialis,pollinator
+67,Unidentified.sp5.M_PL_038,pollinator
+68,Aphantopus.hyperantus,pollinator
+69,Grammoptera.ruficornis.,pollinator
+70,Unidentified.sp10.M_PL_038,pollinator
+71,Unidentified.sp8.M_PL_038,pollinator
+72,Volucella.pellucens,pollinator
+73,Anaspis.flava,pollinator
+74,Apocrita.sp1.M_PL_038,pollinator
+75,Unidentified.sp6.M_PL_038,pollinator
+76,Unidentified.sp14.M_PL_038,pollinator
+77,Adscita.statices,pollinator
+78,Maniola.jurtina,pollinator
+79,Polyommatus.icarus.,pollinator
+80,Rhynchites.germanicus.,pollinator
+81,Strophosomus.capitatus.de.Geer,pollinator
+82,Unidentified.sp12.M_PL_038,pollinator
+83,Unidentified.sp13.M_PL_038,pollinator
+84,Unidentified.sp4.M_PL_038,pollinator
+85,Bombus.hortorum,pollinator
+86,Anaspis.frontalis,pollinator
+87,Rhingia.campestris,pollinator
+88,Ceuthorrhynchus.pollinarius.Forster,pollinator
+89,Unidentified.sp11.M_PL_038,pollinator
+90,Unidentified.sp7.M_PL_038,pollinator
+91,Unidentified.sp9.M_PL_038,pollinator

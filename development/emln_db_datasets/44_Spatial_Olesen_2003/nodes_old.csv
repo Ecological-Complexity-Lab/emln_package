@@ -1,0 +1,126 @@
+node_id,node_name,type
+1,Echium wildpretii,plant
+2,Pimpinella cumbrae,plant
+3,Pterocephalus lasiospermus,plant
+4,Mentha longifolia,plant
+5,Erysimum scoparium,plant
+6,Spartocytisus supranubius,plant
+7,Tolpis webbii,plant
+8,Argyranthemum teneriffae,plant
+9,Scrophularia glabrata,plant
+10,Nepeta teydea,plant
+11,Adenocarpus viscosus,plant
+12,Cedronella canariensis,plant
+13,Galactites tomentosa,plant
+14,Anacyclus radiatus,plant
+15,Andryala pinnatifida,plant
+16,Geranium canariense,plant
+17,Laurus azorica,plant
+18,Senecio steetzii,plant
+19,Sonchus cf. ortunoi,plant
+20,Echium plantagineum,plant
+21,Cistus monspeliensis,plant
+22,Raphanus raphanistrum,plant
+23,Adenocarpus foliosus,plant
+24,Ilex canarienis,plant
+25,Leontodon taraxacoides,plant
+26,Picconia excelsa,plant
+27,Ranunculus cortusaefolius,plant
+28,Sonchus tenerrimus,plant
+29,Viola riviniana,plant
+30,Ageretina adenophora,plant
+31,Aichryson laxum,plant
+32,Appolonias barbujana,plant
+33,Argyranthemum broussonetti,plant
+34,Carduus tenuiflorus,plant
+35,Erica arborea,plant
+36,Geranium robertianum,plant
+37,Hypericum grandifolium,plant
+38,Psoralia bituminosa,plant
+39,Rhamnus glandulosa,plant
+40,Silene gallica,plant
+41,Anastoechus latifrons,pollinator
+42,Anthophora alluaudi,pollinator
+43,Apis mellifera,pollinator
+44,Eristalis tenax,pollinator
+45,Megachile canariensis,pollinator
+46,Anthrax anthrax,pollinator
+47,Eucera gracilipes,pollinator
+48,Hyleaus canariensis,pollinator
+49,Lasioglossum viride,pollinator
+50,Linnaemyia soror,pollinator
+51,Estheria simonyi,pollinator
+52,Melecta curvispina,pollinator
+53,Macroglossum stellatarum,pollinator
+54,Stomorhina lunata,pollinator
+55,Unidentified sp1 M_PL_008,pollinator
+56,Lasioglossum chalcodes,pollinator
+57,Phylloscopus collybita,pollinator
+58,Serinus canarius,pollinator
+59,Euodynerus reflexus,pollinator
+60,Geron hesperidon,pollinator
+61,Cephalodromia sp1 M_PL_008,pollinator
+62,Lasioglossum actifrons,pollinator
+63,Gasteruption sp1 M_PL_008,pollinator
+64,Dermasothes gracile,pollinator
+65,Leptochilus eatoni,pollinator
+66,Nyctia lugubris,pollinator
+67,Cyclyrius webbianus,pollinator
+68,Osmia canariensis,pollinator
+69,Lucilia sericata,pollinator
+70,Scaeva albomaculata,pollinator
+71,Colletes dimidiatus,pollinator
+72,Bibio elmoi,pollinator
+73,Peleteria ruficornis,pollinator
+74,Tachina canariensis,pollinator
+75,Andrena wollestoni,pollinator
+76,Drosophila sp1 M_PL_008,pollinator
+77,Tachysphex unicolor,pollinator
+78,Anthidium manicatum,pollinator
+79,Unidentified sp1 M_PL_012,pollinator
+80,Bombus canariensis,pollinator
+81,Vanessa indica,pollinator
+82,Artogeia rapae,pollinator
+83,Gonepteryx cleopatra,pollinator
+84,Lasioglossum loetum,pollinator
+85,Maniola jurtina,pollinator
+86,Pararge xiphioides,pollinator
+87,Thyreus histrionicus,pollinator
+88,Attalus sp1 M_PL_012,pollinator
+89,Empis sp1 M_PL_012,pollinator
+90,Meliscaeva auricollis,pollinator
+91,Pandoriana pandora,pollinator
+92,Andrena sp1 M_PL_012,pollinator
+93,Cleora fortunata,pollinator
+94,Cornutiplusia circumflexa,pollinator
+95,Heringia adpropinquans,pollinator
+96,Lampides boeticus,pollinator
+97,Myotropa florea,pollinator
+98,Unidentified sp2 M_PL_012,pollinator
+99,Lycaena phlaeas,pollinator
+100,Pontia daplidice,pollinator
+101,Halictus sp1 M_PL_012,pollinator
+102,Aricia cramera,pollinator
+103,Vanessa atalanta,pollinator
+104,Vanessa cardui,pollinator
+105,Delia platura,pollinator
+106,Mordella israelsoni,pollinator
+107,Pseudogonia fasciata,pollinator
+108,Siphona sp1 M_PL_012,pollinator
+109,Colias crocea,pollinator
+110,Podalonia tydei,pollinator
+111,Anaspis proteus,pollinator
+112,Bruchidius wollastoni,pollinator
+113,Sapromyza sp1 M_PL_012,pollinator
+114,Brachypterus sp1 M_PL_012,pollinator
+115,Dasyphora albofasciata,pollinator
+116,Piezodorus punctipes,pollinator
+117,Unidentified sp3 M_PL_012,pollinator
+118,Sphecodes marginatus,pollinator
+119,Sphecodes ruficrus,pollinator
+120,Acmaeodera cisti,pollinator
+121,Drosophila sp1 M_PL_012,pollinator
+122,Thaumatomyia notata,pollinator
+123,Tricimba humeralis,pollinator
+124,Unidentified sp4 M_PL_012,pollinator
+125,Chrysotoxum triarcuatum,pollinator

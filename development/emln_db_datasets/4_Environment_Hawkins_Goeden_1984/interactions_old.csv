@@ -1,0 +1,364 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+Eupelmid gen. n.,1,Torymus c. capillaceus,1,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,1,Pseudocatolaccus guizoti,1,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,1,Rileya tegularis,1,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,1,Tenuipetiolus medicaginus,1,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,1,Torymus atriplicis,1,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,1,Tetrastichus sp. A,1,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,1,Torymus umbilicatus,1,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,1,Eurytoma sp.,1,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,1,Tetrastichus sp. C,1,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,1,Platygaster sp. B,1,1,trophic,method,field and laboratory observations
+Goniozus sp. A,1,Gelechiid sp. B,1,1,trophic,method,field and laboratory observations
+Goniozus sp. B,1,Gelechiid sp. B,1,1,trophic,method,field and laboratory observations
+Chelonus sp.,1,Gelechiid sp. B,1,1,trophic,method,field and laboratory observations
+Arthrocnodax sp.,1,Acarid sp.,1,1,trophic,method,field and laboratory observations
+Anystid sp.,1,Acarid sp.,1,1,trophic,method,field and laboratory observations
+Phyllobaenus atriplexus,1,Eupelmid gen. n.,1,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,1,Torymus c. capillaceus,1,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,1,Pseudocatolaccus guizoti,1,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,1,Rileya tegularis,1,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,1,Tenuipetiolus medicaginus,1,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,1,Torymus atriplicis,1,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,1,Tetrastichus sp. A,1,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,1,Torymus umbilicatus,1,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,1,Tetrastichus sp. B,1,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,1,Galeopsomyia sp. B,1,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,1,Asphondylia sp. E (tumor stem maker),1,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,1,Asphondylia sp. F (oval twig maker),1,1,predation,method,field and laboratory observations
+Torymus c. capillaceus,1,Rileya tegularis,1,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,1,Tetrastichus sp. A,1,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,1,Asphondylia sp. E (tumor stem maker),1,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,1,Asphondylia sp. F (oval twig maker),1,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,1,Asphondylia sp. G (oval bud/flower gall maker),1,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,1,Asphondylia sp. H (fuzzy bud/flower gall maker),1,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,1,gall tissue (Atriplex canescens),1,1,herbivory,method,field and laboratory observations
+Pseudocatolaccus guizoti,1,Asphondylia sp. D (blister leaf and nipple bud gall maker),1,1,host-parasite,method,field and laboratory observations
+Rileya tegularis,1,Asphondylia sp. E (tumor stem maker),1,1,host-parasite,method,field and laboratory observations
+Rileya tegularis,1,Asphondylia sp. F (oval twig maker),1,1,host-parasite,method,field and laboratory observations
+Rileya tegularis,1,Asphondylia sp. H (fuzzy bud/flower gall maker),1,1,host-parasite,method,field and laboratory observations
+Rileya tegularis,1,gall tissue (Atriplex canescens),1,1,herbivory,method,field and laboratory observations
+Tenuipetiolus medicaginus,1,Asphondylia sp. D (blister leaf and nipple bud gall maker),1,1,host-parasite,method,field and laboratory observations
+Tenuipetiolus medicaginus,1,Asphondylia sp. E (tumor stem maker),1,1,host-parasite,method,field and laboratory observations
+Tenuipetiolus medicaginus,1,Asphondylia sp. F (oval twig maker),1,1,host-parasite,method,field and laboratory observations
+Tenuipetiolus medicaginus,1,Asphondylia sp. G (oval bud/flower gall maker),1,1,host-parasite,method,field and laboratory observations
+Tenuipetiolus medicaginus,1,Asphondylia sp. H (fuzzy bud/flower gall maker),1,1,host-parasite,method,field and laboratory observations
+Torymus atriplicis,1,Asphondylia sp. E (tumor stem maker),1,1,host-parasite,method,field and laboratory observations
+Torymus atriplicis,1,Asphondylia sp. F (oval twig maker),1,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. A,1,Asphondylia sp. D (blister leaf and nipple bud gall maker),1,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. A,1,Asphondylia sp. F (oval twig maker),1,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. A,1,Asphondylia sp. G (oval bud/flower gall maker),1,1,host-parasite,method,field and laboratory observations
+Torymus umbilicatus,1,Asphondylia sp. F (oval twig maker),1,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. B,1,Asphondylia sp. D (blister leaf and nipple bud gall maker),1,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. B,1,Asphondylia sp. E (tumor stem maker),1,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. B,1,Asphondylia sp. F (oval twig maker),1,1,host-parasite,method,field and laboratory observations
+Rileya piercei,1,Asphondylia sp. D (blister leaf and nipple bud gall maker),1,1,host-parasite,method,field and laboratory observations
+Rileya piercei,1,Asphondylia sp. G (oval bud/flower gall maker),1,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. B,1,Asphondylia sp. D (blister leaf and nipple bud gall maker),1,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. B,1,Asphondylia sp. F (oval twig maker),1,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. B,1,Asphondylia sp. G (oval bud/flower gall maker),1,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. D,1,Asphondylia sp. G (oval bud/flower gall maker),1,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. E,1,Asphondylia sp. G (oval bud/flower gall maker),1,1,host-parasite,method,field and laboratory observations
+Torymus n. sp.,1,Asphondylia sp. H (fuzzy bud/flower gall maker),1,1,host-parasite,method,field and laboratory observations
+Eurytoma sp.,1,Nesolasioptera willistoni (woody/smooth stem maker),1,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. C,1,Nesolasioptera willistoni (woody/smooth stem maker),1,1,host-parasite,method,field and laboratory observations
+Platygaster sp. B,1,Nesolasioptera willistoni (woody/smooth stem maker),1,1,host-parasite,method,field and laboratory observations
+Lestodiplosis sp.,1,Nesolasioptera willistoni (woody/smooth stem maker),1,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. A,1,gall tissue (Atriplex canescens),1,1,herbivory,method,field and laboratory observations
+Tetrastichus cecidobroter,1,gall tissue (Atriplex canescens),1,1,herbivory,method,field and laboratory observations
+Acarid sp.,1,gall tissue (Atriplex canescens),1,1,herbivory,method,field and laboratory observations
+Gelechiid sp. B,1,gall tissue (Atriplex canescens),1,1,herbivory,method,field and laboratory observations
+Gracilariid sp.,1,gall tissue (Atriplex canescens),1,1,herbivory,method,field and laboratory observations
+Asphondylia sp. D (blister leaf and nipple bud gall maker),1,gall tissue (Atriplex canescens),1,1,host-parasite,method,field and laboratory observations
+Asphondylia sp. E (tumor stem maker),1,gall tissue (Atriplex canescens),1,1,host-parasite,method,field and laboratory observations
+Asphondylia sp. F (oval twig maker),1,gall tissue (Atriplex canescens),1,1,host-parasite,method,field and laboratory observations
+Asphondylia sp. G (oval bud/flower gall maker),1,gall tissue (Atriplex canescens),1,1,host-parasite,method,field and laboratory observations
+Asphondylia sp. H (fuzzy bud/flower gall maker),1,gall tissue (Atriplex canescens),1,1,host-parasite,method,field and laboratory observations
+Nesolasioptera willistoni (woody/smooth stem maker),1,gall tissue (Atriplex canescens),1,1,host-parasite,method,field and laboratory observations
+Torymus umbilicatus,1,Asphondylia sp. E (tumor stem maker),1,1,host-parasite,method,field and laboratory observations
+Eupelmid gen. n.,2,Torymus c. capillaceus,2,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,2,Spilochalcis sp.,2,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,2,Galeopsomyia sp. C,2,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,2,Pseudocatolaccus guizoti,2,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,2,Platygaster sp. A,2,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,2,Rileya tegularis,2,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,2,Tenuipetiolus medicaginus,2,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,2,Torymus atriplicis,2,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,2,Tetrastichus sp. A,2,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,2,Torymus umbilicatus,2,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,2,Eurytoma sp.,2,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,2,Tetrastichus sp. C,2,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,2,Platygaster sp. B,2,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,2,Asphondylia sp. B (nodular stem gallmaker),2,1,trophic,method,field and laboratory observations
+Eupelmid gen. n.,2,Nesolasioptera willistoni (woody/smooth stem maker),2,1,trophic,method,field and laboratory observations
+Agathis sp.,2,Gelechiid sp. A,2,1,trophic,method,field and laboratory observations
+Plastanoxus incompletus,2,Tricorynus sp.,2,1,trophic,method,field and laboratory observations
+Goniozus sp. A,2,Gelechiid sp. B,2,1,trophic,method,field and laboratory observations
+Goniozus sp. B,2,Gelechiid sp. B,2,1,trophic,method,field and laboratory observations
+Chelonus sp.,2,Gelechiid sp. B,2,1,trophic,method,field and laboratory observations
+Arthrocnodax sp.,2,Acarid sp.,2,1,trophic,method,field and laboratory observations
+Anystid sp.,2,Acarid sp.,2,1,trophic,method,field and laboratory observations
+Phyllobaenus atriplexus,2,Eupelmid gen. n.,2,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,2,Torymus c. capillaceus,2,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,2,Spilochalcis sp.,2,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,2,Galeopsomyia sp. C,2,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,2,Pseudocatolaccus guizoti,2,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,2,Platygaster sp. A,2,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,2,Rileya tegularis,2,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,2,Tenuipetiolus medicaginus,2,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,2,Torymus atriplicis,2,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,2,Tetrastichus sp. A,2,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,2,Torymus umbilicatus,2,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,2,Asphondylia sp. B (nodular stem gallmaker),2,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,2,Asphondylia sp. C (woody stem maker),2,1,predation,method,field and laboratory observations
+Torymus c. capillaceus,2,Spilochalcis sp.,2,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,2,Rileya tegularis,2,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,2,Tetrastichus sp. A,2,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,2,Asphondylia sp. A (club stem maker),2,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,2,Asphondylia sp. B (nodular stem gallmaker),2,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,2,Asphondylia sp. C (woody stem maker),2,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,2,gall tissue (Atriplex polycarpa),2,1,herbivory,method,field and laboratory observations
+Opius sp.,2,Ophiomyia atriplicis (leaf cluster bud gall maker),2,1,host-parasite,method,field and laboratory observations
+Spilochalcis sp.,2,Asphondylia sp. C (woody stem maker),2,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. C,2,Asphondylia sp. C (woody stem maker),2,1,host-parasite,method,field and laboratory observations
+Pseudocatolaccus guizoti,2,Asphondylia sp. B (nodular stem gallmaker),2,1,host-parasite,method,field and laboratory observations
+Pseudocatolaccus guizoti,2,Asphondylia sp. C (woody stem maker),2,1,host-parasite,method,field and laboratory observations
+Platygaster sp. A,2,Asphondylia sp. C (woody stem maker),2,1,host-parasite,method,field and laboratory observations
+Rileya tegularis,2,Asphondylia sp. A (club stem maker),2,1,host-parasite,method,field and laboratory observations
+Rileya tegularis,2,Asphondylia sp. B (nodular stem gallmaker),2,1,host-parasite,method,field and laboratory observations
+Rileya tegularis,2,Asphondylia sp. C (woody stem maker),2,1,host-parasite,method,field and laboratory observations
+Tenuipetiolus medicaginus,2,Asphondylia sp. A (club stem maker),2,1,host-parasite,method,field and laboratory observations
+Tenuipetiolus medicaginus,2,Asphondylia sp. B (nodular stem gallmaker),2,1,host-parasite,method,field and laboratory observations
+Torymus atriplicis,2,Asphondylia sp. B (nodular stem gallmaker),2,1,host-parasite,method,field and laboratory observations
+Torymus atriplicis,2,Asphondylia sp. C (woody stem maker),2,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. A,2,Asphondylia sp. B (nodular stem gallmaker),2,1,host-parasite,method,field and laboratory observations
+Torymus umbilicatus,2,Asphondylia sp. C (woody stem maker),2,1,host-parasite,method,field and laboratory observations
+Eurytoma sp.,2,Nesolasioptera willistoni (woody/smooth stem maker),2,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. C,2,Nesolasioptera willistoni (woody/smooth stem maker),2,1,host-parasite,method,field and laboratory observations
+Platygaster sp. B,2,Nesolasioptera willistoni (woody/smooth stem maker),2,1,host-parasite,method,field and laboratory observations
+Lestodiplosis sp.,2,Nesolasioptera willistoni (woody/smooth stem maker),2,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. A,2,gall tissue (Atriplex polycarpa),2,1,herbivory,method,field and laboratory observations
+Tetrastichus cecidobroter,2,gall tissue (Atriplex polycarpa),2,1,herbivory,method,field and laboratory observations
+Gelechiid sp. A,2,gall tissue (Atriplex polycarpa),2,1,herbivory,method,field and laboratory observations
+Tricorynus sp.,2,gall tissue (Atriplex polycarpa),2,1,herbivory,method,field and laboratory observations
+Acarid sp.,2,gall tissue (Atriplex polycarpa),2,1,herbivory,method,field and laboratory observations
+Gelechiid sp. B,2,gall tissue (Atriplex polycarpa),2,1,herbivory,method,field and laboratory observations
+Gracilariid sp.,2,gall tissue (Atriplex polycarpa),2,1,herbivory,method,field and laboratory observations
+Ophiomyia atriplicis (leaf cluster bud gall maker),2,gall tissue (Atriplex polycarpa),2,1,herbivory,method,field and laboratory observations
+Asphondylia sp. A (club stem maker),2,gall tissue (Atriplex polycarpa),2,1,herbivory,method,field and laboratory observations
+Asphondylia sp. B (nodular stem gallmaker),2,gall tissue (Atriplex polycarpa),2,1,herbivory,method,field and laboratory observations
+Asphondylia sp. C (woody stem maker),2,gall tissue (Atriplex polycarpa),2,1,herbivory,method,field and laboratory observations
+Nesolasioptera willistoni (woody/smooth stem maker),2,gall tissue (Atriplex polycarpa),2,1,herbivory,method,field and laboratory observations
+Rileya tegularis,2,gall tissue (Atriplex polycarpa),2,1,herbivory,method,field and laboratory observations
+Eupelmid n. genus,3,Torymus c. capillaceus,3,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,3,Pseudocatolaccus guizoti,3,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,3,Tenuipetiolus medicaginus,3,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,3,Tetrastichus sp. A,3,1,trophic,method,field and laboratory observations
+Phyllobaenus atriplexus,3,Eupelmid n. genus,3,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,3,Torymus c. capillaceus,3,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,3,Pseudocatolaccus guizoti,3,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,3,Tenuipetiolus medicaginus,3,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,3,Tetrastichus sp. A,3,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,3,Tetrastichus sp. B,3,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,3,Galeopsomyia sp. B,3,1,predation,method,field and laboratory observations
+Torymus c. capillaceus,3,Tetrastichus sp. A,3,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,3,gall tissue (Atriplex canescens),3,1,herbivory,method,field and laboratory observations
+Pseudocatolaccus guizoti,3,Asphondylia sp. D,3,1,host-parasite,method,field and laboratory observations
+Tenuipetiolus medicaginus,3,Asphondylia sp. D,3,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. A,3,Asphondylia sp. D,3,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. B,3,Asphondylia sp. D,3,1,host-parasite,method,field and laboratory observations
+Rileya piercei,3,Asphondylia sp. D,3,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. B,3,Asphondylia sp. D,3,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. A,3,gall tissue (Atriplex canescens),3,1,herbivory,method,field and laboratory observations
+Tetrastichus cecidobroter,3,gall tissue (Atriplex canescens),3,1,herbivory,method,field and laboratory observations
+Asphondylia sp. D,3,gall tissue (Atriplex canescens),3,1,herbivory,method,field and laboratory observations
+Eupelmid n. genus,4,Torymus c. capillaceus,4,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,4,Rileya tegularis,4,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,4,Tenuipetiolus medicaginus,4,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,4,Tetrastichus sp. A,4,1,trophic,method,field and laboratory observations
+Phyllobaenus atriplexus,4,Eupelmid n. genus,4,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,4,Torymus c. capillaceus,4,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,4,Rileya tegularis,4,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,4,Tenuipetiolus medicaginus,4,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,4,Tetrastichus sp. A,4,1,predation,method,field and laboratory observations
+Torymus c. capillaceus,4,Rileya tegularis,4,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,4,Tetrastichus sp. A,4,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,4,gall tissue (Atriplex polycarpa),4,1,herbivory,method,field and laboratory observations
+Rileya tegularis,4,Asphondylia sp. A,4,1,host-parasite,method,field and laboratory observations
+Tenuipetiolus medicaginus,4,Asphondylia sp. A,4,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. A,4,Asphondylia sp. A,4,1,host-parasite,method,field and laboratory observations
+Tetrastichus cecidobroter,4,gall tissue (Atriplex polycarpa),4,1,herbivory,method,field and laboratory observations
+Asphondylia sp. A,4,gall tissue (Atriplex polycarpa),4,1,herbivory,method,field and laboratory observations
+Eupelmid n. genus,5,Torymus c. capillaceus,5,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,5,Rileya tegularis,5,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,5,Tenuipetiolus medicaginus,5,1,trophic,method,field and laboratory observations
+Goniozus sp. A,5,Gelechiid sp. B,5,1,trophic,method,field and laboratory observations
+Goniozus sp. B,5,Gelechiid sp. B,5,1,trophic,method,field and laboratory observations
+Chelonus sp.,5,Gelechiid sp. B,5,1,trophic,method,field and laboratory observations
+Phyllobaenus atriplexus,5,Eupelmid n. genus,5,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,5,Torymus c. capillaceus,5,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,5,Rileya tegularis,5,1,predation,method,field and laboratory observations
+Torymus c. capillaceus,5,Rileya tegularis,5,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,5,Asphondylia sp. H,5,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,5,gall tissue (Atriplex canescens),5,1,herbivory,method,field and laboratory observations
+Rileya tegularis,5,Asphondylia sp. H,5,1,host-parasite,method,field and laboratory observations
+Rileya tegularis,5,gall tissue (Atriplex canescens),5,1,herbivory,method,field and laboratory observations
+Tenuipetiolus medicaginus,5,Asphondylia sp. H,5,1,host-parasite,method,field and laboratory observations
+Torymus n. sp.,5,Asphondylia sp. H,5,1,host-parasite,method,field and laboratory observations
+Gelechiid sp. B,5,gall tissue (Atriplex canescens),5,1,herbivory,method,field and laboratory observations
+Asphondylia sp. H,5,gall tissue (Atriplex canescens),5,1,herbivory,method,field and laboratory observations
+Phyllobaenus atriplexus,5,Tenuipetiolus medicaginus,5,1,predation,method,field and laboratory observations
+Eupelmid n. genus,6,Torymus c. capillaceus,6,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,6,Pseudocatolaccus guizoti,6,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,6,Rileya tegularis,6,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,6,Tenuipetiolus medicaginus,6,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,6,Torymus atriplicis,6,1,trophic,method,field and laboratory observations
+Phyllobaenus atriplexus,6,Eupelmid n. genus,6,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,6,Torymus c. capillaceus,6,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,6,Pseudocatolaccus guizoti,6,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,6,Rileya tegularis,6,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,6,Tenuipetiolus medicaginus,6,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,6,Torymus atriplicis,6,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,6,Asphondylia sp. B,6,1,predation,method,field and laboratory observations
+Eupelmid n. genus,6,Asphondylia sp. B,6,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,6,Rileya tegularis,6,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,6,Asphondylia sp. B,6,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,6,gall tissue (Atriplex polycarpa),6,1,herbivory,method,field and laboratory observations
+Pseudocatolaccus guizoti,6,Asphondylia sp. B,6,1,host-parasite,method,field and laboratory observations
+Rileya tegularis,6,Asphondylia sp. B,6,1,host-parasite,method,field and laboratory observations
+Tenuipetiolus medicaginus,6,Asphondylia sp. B,6,1,host-parasite,method,field and laboratory observations
+Torymus atriplicis,6,Asphondylia sp. B,6,1,host-parasite,method,field and laboratory observations
+Asphondylia sp. B,6,gall tissue (Atriplex polycarpa),6,1,herbivory,method,field and laboratory observations
+Eupelmid n. genus,7,Torymus c. capillaceus,7,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,7,Tenuipetiolus medicaginus,7,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,7,Tetrastichus sp. A,7,1,trophic,method,field and laboratory observations
+Phyllobaenus atriplexus,7,Eupelmid n. genus,7,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,7,Torymus c. capillaceus,7,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,7,Tenuipetiolus medicaginus,7,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,7,Tetrastichus sp. A,7,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,7,Galeopsomyia sp. B,7,1,predation,method,field and laboratory observations
+Torymus c. capillaceus,7,Tetrastichus sp. A,7,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,7,Asphondylia sp. G,7,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,7,gall tissue (Atriplex canescens),7,1,herbivory,method,field and laboratory observations
+Tenuipetiolus medicaginus,7,Asphondylia sp. G,7,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. A,7,Asphondylia sp. G,7,1,host-parasite,method,field and laboratory observations
+Rileyi piercei,7,Asphondylia sp. G,7,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. B,7,Asphondylia sp. G,7,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. D,7,Asphondylia sp. G,7,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. E,7,Asphondylia sp. G,7,1,host-parasite,method,field and laboratory observations
+Tetrastichus cecidobroter,7,gall tissue (Atriplex canescens),7,1,herbivory,method,field and laboratory observations
+Asphondylia sp. G,7,gall tissue (Atriplex canescens),7,1,herbivory,method,field and laboratory observations
+Eupelmid n. genus,8,Torymus c. capillaceus,8,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,8,Rileya tegularis,8,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,8,Tenuipetiolus medicaginus,8,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,8,Tetrastichus sp. A,8,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,8,Torymus atriplicis,8,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,8,torymus umbilicatus,8,1,trophic,method,field and laboratory observations
+Phyllobaenus atriplexus,8,Eupelmid n. genus,8,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,8,Torymus c. capillaceus,8,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,8,Rileya tegularis,8,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,8,Tenuipetiolus medicaginus,8,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,8,Tetrastichus sp. A,8,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,8,Torymus atriplicis,8,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,8,torymus umbilicatus,8,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,8,Tetrastichus sp. B,8,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,8,Galeopsomyia sp. B,8,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,8,Asphondylia sp. F,8,1,predation,method,field and laboratory observations
+Torymus c. capillaceus,8,Rileya tegularis,8,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,8,Torymus atriplicis,8,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,8,Asphondylia sp. F,8,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,8,gall tissue (Atriplex canescens),8,1,herbivory,method,field and laboratory observations
+Rileya tegularis,8,Asphondylia sp. F,8,1,host-parasite,method,field and laboratory observations
+Tenuipetiolus medicaginus,8,Asphondylia sp. F,8,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. A,8,Asphondylia sp. F,8,1,host-parasite,method,field and laboratory observations
+Torymus atriplicis,8,Asphondylia sp. F,8,1,host-parasite,method,field and laboratory observations
+torymus umbilicatus,8,Asphondylia sp. F,8,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. B,8,Asphondylia sp. F,8,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. B,8,Asphondylia sp. F,8,1,host-parasite,method,field and laboratory observations
+Asphondylia sp. F,8,gall tissue (Atriplex canescens),8,1,herbivory,method,field and laboratory observations
+Rileya tegularis,8,gall tissue (Atriplex canescens),8,1,herbivory,method,field and laboratory observations
+Eupelmid n. genus,9,Torymus c. capillaceus,9,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,9,Rileya tegularis,9,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,9,Tenuipetiolus medicaginus,9,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,9,Torymus atriplicis,9,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,9,Torymus umbilicatus,9,1,trophic,method,field and laboratory observations
+Arthrocnodax sp.,9,Acarid sp.,9,1,trophic,method,field and laboratory observations
+Anystid sp.,9,Acarid sp.,9,1,trophic,method,field and laboratory observations
+Goniozus sp. A,9,Gelechiid sp. B,9,1,trophic,method,field and laboratory observations
+Goniozus sp. B,9,Gelechiid sp. B,9,1,trophic,method,field and laboratory observations
+Chelonus sp.,9,Gelechiid sp. B,9,1,trophic,method,field and laboratory observations
+Phyllobaenus atriplexus,9,Eupelmid n. genus,9,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,9,Torymus c. capillaceus,9,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,9,Rileya tegularis,9,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,9,Tenuipetiolus medicaginus,9,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,9,Torymus atriplicis,9,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,9,Torymus umbilicatus,9,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,9,Tetrastichus sp. B,9,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,9,Asphondylia sp. E,9,1,predation,method,field and laboratory observations
+Torymus c. capillaceus,9,Rileya tegularis,9,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,9,Asphondylia sp. E,9,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,9,gall tissue (Atriplex canescens),9,1,herbivory,method,field and laboratory observations
+Rileya tegularis,9,Asphondylia sp. E,9,1,host-parasite,method,field and laboratory observations
+Rileya tegularis,9,gall tissue (Atriplex canescens),9,1,herbivory,method,field and laboratory observations
+Tenuipetiolus medicaginus,9,Asphondylia sp. E,9,1,host-parasite,method,field and laboratory observations
+Torymus atriplicis,9,Asphondylia sp. E,9,1,host-parasite,method,field and laboratory observations
+Torymus umbilicatus,9,Asphondylia sp. E,9,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. B,9,Asphondylia sp. E,9,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. A,9,gall tissue (Atriplex canescens),9,1,herbivory,method,field and laboratory observations
+Tetrastichus cecidobroter,9,gall tissue (Atriplex canescens),9,1,herbivory,method,field and laboratory observations
+Acarid sp.,9,gall tissue (Atriplex canescens),9,1,herbivory,method,field and laboratory observations
+Gelechiid sp. B,9,gall tissue (Atriplex canescens),9,1,herbivory,method,field and laboratory observations
+Asphondylia sp. E,9,gall tissue (Atriplex canescens),9,1,herbivory,method,field and laboratory observations
+Eupelmid n. genus,10,Torymus c. capillaceus,10,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,10,Spilochalcis sp.,10,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,10,Galeopsomyia sp. C,10,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,10,Pseudocatolaccus guizoti,10,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,10,Platygaster sp. A,10,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,10,Rileya tegularis,10,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,10,Torymus atriplicis,10,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,10,Torymus umbilicatus,10,1,trophic,method,field and laboratory observations
+Agathis sp.,10,Gelechiid sp. A,10,1,trophic,method,field and laboratory observations
+Plastonoxus incompletus,10,Tricorynus sp.,10,1,trophic,method,field and laboratory observations
+Goniozus sp. A,10,Gelechiid sp. B,10,1,trophic,method,field and laboratory observations
+Goniozus sp. B,10,Gelechiid sp. B,10,1,trophic,method,field and laboratory observations
+Chelonus sp.,10,Gelechiid sp. B,10,1,trophic,method,field and laboratory observations
+Arthrocnodax sp.,10,Acarid sp.,10,1,trophic,method,field and laboratory observations
+Anystid sp.,10,Acarid sp.,10,1,trophic,method,field and laboratory observations
+Phyllobaenus atriplexus,10,Eupelmid n. genus,10,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,10,Torymus c. capillaceus,10,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,10,Spilochalcis sp.,10,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,10,Galeopsomyia sp. C,10,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,10,Pseudocatolaccus guizoti,10,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,10,Platygaster sp. A,10,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,10,Rileya tegularis,10,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,10,Torymus atriplicis,10,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,10,Torymus umbilicatus,10,1,predation,method,field and laboratory observations
+Phyllobaenus atriplexus,10,Asphondylia sp. C,10,1,predation,method,field and laboratory observations
+Torymus c. capillaceus,10,Galeopsomyia sp. C,10,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,10,Rileya tegularis,10,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,10,Asphondylia sp. C,10,1,host-parasite,method,field and laboratory observations
+Torymus c. capillaceus,10,gall tissue (Atriplex polycarpa),10,1,herbivory,method,field and laboratory observations
+Spilochalcis sp.,10,Asphondylia sp. C,10,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. C,10,Asphondylia sp. C,10,1,host-parasite,method,field and laboratory observations
+Pseudocatolaccus guizoti,10,Asphondylia sp. C,10,1,host-parasite,method,field and laboratory observations
+Platygaster sp. A,10,Asphondylia sp. C,10,1,host-parasite,method,field and laboratory observations
+Rileya tegularis,10,Asphondylia sp. C,10,1,host-parasite,method,field and laboratory observations
+Torymus atriplicis,10,Asphondylia sp. C,10,1,host-parasite,method,field and laboratory observations
+Torymus umbilicatus,10,Asphondylia sp. C,10,1,host-parasite,method,field and laboratory observations
+Galeopsomyia sp. A,10,gall tissue (Atriplex polycarpa),10,1,herbivory,method,field and laboratory observations
+Gelechiid sp. A,10,gall tissue (Atriplex polycarpa),10,1,herbivory,method,field and laboratory observations
+Tricorynus sp.,10,gall tissue (Atriplex polycarpa),10,1,herbivory,method,field and laboratory observations
+Acarid sp.,10,gall tissue (Atriplex polycarpa),10,1,herbivory,method,field and laboratory observations
+Gelechiid sp. B,10,gall tissue (Atriplex polycarpa),10,1,herbivory,method,field and laboratory observations
+Asphondylia sp. C,10,gall tissue (Atriplex polycarpa),10,1,herbivory,method,field and laboratory observations
+Eurytoma sp.,11,Neolasioptera willistoni,11,1,host-parasite,method,field and laboratory observations
+Tetrastichus sp. C,11,Neolasioptera willistoni,11,1,host-parasite,method,field and laboratory observations
+Platygaster sp. B,11,Neolasioptera willistoni,11,1,host-parasite,method,field and laboratory observations
+Lestodiplosis sp.,11,Neolasioptera willistoni,11,1,host-parasite,method,field and laboratory observations
+Gracilariid sp.,11,gall tissue (Atriplex canescens),11,1,herbivory,method,field and laboratory observations
+Neolasioptera willistoni,11,gall tissue (Atriplex canescens),11,1,host-parasite,method,field and laboratory observations
+Eupelmid n. genus,11,Eurytoma sp.,11,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,11,Tetrastichus sp. C,11,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,11,Platygaster sp. B,11,1,trophic,method,field and laboratory observations
+Eupelmid n. genus,11,Neolasioptera willistoni,11,1,trophic,method,field and laboratory observations
+Phyllobaenus atriplexus,11,Eupelmid n. genus,11,1,predation,method,field and laboratory observations

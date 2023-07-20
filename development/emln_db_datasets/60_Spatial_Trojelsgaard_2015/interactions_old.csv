@@ -1,0 +1,970 @@
+node_from,layer_from,node_to,layer_to,weight,type
+Asparagus.pastorianus,Western Sahara site 1,Attagenus sp. 1,Western Sahara site 1,2,pollination
+Asparagus.pastorianus,Western Sahara site 1,Axinotarsus sp. 1,Western Sahara site 1,1,pollination
+Asparagus.pastorianus,Western Sahara site 1,Chloropidae sp.,Western Sahara site 1,4,pollination
+Asparagus.pastorianus,Western Sahara site 1,Lucilia sericata,Western Sahara site 1,11,pollination
+Asparagus.pastorianus,Western Sahara site 1,Nomioides deceptor,Western Sahara site 1,4,pollination
+Asparagus.pastorianus,Western Sahara site 1,Sciaridae sp.,Western Sahara site 1,2,pollination
+Euphorbia.balsamifera..f.,Western Sahara site 1,Andrena vachali,Western Sahara site 1,1,pollination
+Euphorbia.balsamifera..f.,Western Sahara site 1,Coleoptera sp. 5,Western Sahara site 1,1,pollination
+Euphorbia.balsamifera..f.,Western Sahara site 1,Lucilia sericata,Western Sahara site 1,1,pollination
+Euphorbia.balsamifera..f.,Western Sahara site 1,Musca sorbens,Western Sahara site 1,1,pollination
+Euphorbia.balsamifera..f.,Western Sahara site 1,Plagiolepis schmitzii,Western Sahara site 1,6,pollination
+Euphorbia.balsamifera..f.,Western Sahara site 1,Sciaridae sp. 4,Western Sahara site 1,30,pollination
+Euphorbia.balsamifera..f.,Western Sahara site 1,Tapinoma nigerrimum,Western Sahara site 1,24,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Anaspis cf. saharensis,Western Sahara site 1,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Arachnospila sp.,Western Sahara site 1,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Coleoptera sp. 5,Western Sahara site 1,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Crematogaster scutellaris,Western Sahara site 1,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Hylaeus sp.,Western Sahara site 1,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Lucilia sericata,Western Sahara site 1,18,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Lucilia sp. 1,Western Sahara site 1,15,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Musca domestica,Western Sahara site 1,2,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Musca sorbens,Western Sahara site 1,2,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Plagiolepis schmitzii,Western Sahara site 1,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Sarcophaga sp. 1,Western Sahara site 1,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Sarcophagidae sp. 2,Western Sahara site 1,4,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Sciaridae sp.,Western Sahara site 1,29,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Tapinoma nigerrimum,Western Sahara site 1,15,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Thysanoptera sp.,Western Sahara site 1,25,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 1,Vanessa Cardui,Western Sahara site 1,1,pollination
+Helianthemum.canariensis,Western Sahara site 1,Tapinoma nigerrimum,Western Sahara site 1,1,pollination
+Kickxia.heterophylla,Western Sahara site 1,Plagiolepis schmitzii,Western Sahara site 1,1,pollination
+Launaea.arborescens,Western Sahara site 1,Anthaxia sp. 1,Western Sahara site 1,3,pollination
+Launaea.arborescens,Western Sahara site 1,Coleoptera sp. 5,Western Sahara site 1,7,pollination
+Launaea.arborescens,Western Sahara site 1,Ormyrus sp. 1,Western Sahara site 1,1,pollination
+Launaea.arborescens,Western Sahara site 1,Pteromalus sp. 2,Western Sahara site 1,1,pollination
+Launaea.arborescens,Western Sahara site 1,Thyreus sp. aff. ramosus,Western Sahara site 1,3,pollination
+Launaea.arborescens,Western Sahara site 1,Urelliosoma guimari,Western Sahara site 1,4,pollination
+Launaea.arborescens,Western Sahara site 1,Vestitohalictus sp.,Western Sahara site 1,4,pollination
+Lotus.sp.,Western Sahara site 1,Chalicodoma sicula,Western Sahara site 1,1,pollination
+Lotus.sp.,Western Sahara site 1,Chalicodoma sp.,Western Sahara site 1,1,pollination
+Lotus.sp.,Western Sahara site 1,Lucilia sericata,Western Sahara site 1,1,pollination
+Lotus.sp.,Western Sahara site 1,Tethinidae sp. 1,Western Sahara site 1,5,pollination
+Lotus.sp.,Western Sahara site 1,Tethinidae sp. 2,Western Sahara site 1,6,pollination
+Lycium.intricatum,Western Sahara site 1,Amegilla sp.,Western Sahara site 1,2,pollination
+Lycium.intricatum,Western Sahara site 1,Andrena vachali,Western Sahara site 1,1,pollination
+Lycium.intricatum,Western Sahara site 1,Anthophora sp. aff. orotavae,Western Sahara site 1,1,pollination
+Nauplius.sp.,Western Sahara site 1,Andrena vachali,Western Sahara site 1,1,pollination
+Nauplius.sp.,Western Sahara site 1,Nomioides deceptor,Western Sahara site 1,4,pollination
+Nauplius.sp.,Western Sahara site 1,Plagiolepis schmitzii,Western Sahara site 1,1,pollination
+Nauplius.sp.,Western Sahara site 1,Sciaridae sp.,Western Sahara site 1,4,pollination
+Zilla.spinosa,Western Sahara site 1,Amegilla sp.,Western Sahara site 1,1,pollination
+Zilla.spinosa,Western Sahara site 1,Bombylius sp. 1,Western Sahara site 1,1,pollination
+Zilla.spinosa,Western Sahara site 1,Chalicodoma sp.,Western Sahara site 1,1,pollination
+Zilla.spinosa,Western Sahara site 1,Hym. Waiting<85>.,Western Sahara site 1,1,pollination
+Zilla.spinosa,Western Sahara site 1,Melecta sp.,Western Sahara site 1,1,pollination
+Zilla.spinosa,Western Sahara site 1,Plagiolepis schmitzii,Western Sahara site 1,1,pollination
+Zilla.spinosa,Western Sahara site 1,Thyreus sp. aff. ramosus,Western Sahara site 1,1,pollination
+Argyranthemum.sp.,Western Sahara site 2,Tapinoma nigerrimum,Western Sahara site 2,1,pollination
+Asparagus.pastorianus,Western Sahara site 2,Aplocnemus sp. 2,Western Sahara site 2,1,pollination
+Asparagus.pastorianus,Western Sahara site 2,Coleoptera sp. 5,Western Sahara site 2,1,pollination
+Asparagus.pastorianus,Western Sahara site 2,Lucilia sericata,Western Sahara site 2,1,pollination
+Asparagus.pastorianus,Western Sahara site 2,Nomioides deceptor,Western Sahara site 2,40,pollination
+Asparagus.pastorianus,Western Sahara site 2,Podalonia sp.,Western Sahara site 2,1,pollination
+Asparagus.pastorianus,Western Sahara site 2,Proconura sp. 1,Western Sahara site 2,3,pollination
+Asparagus.pastorianus,Western Sahara site 2,Sarcophaga sp. 1,Western Sahara site 2,1,pollination
+Asparagus.pastorianus,Western Sahara site 2,Sarcophagidae sp.,Western Sahara site 2,1,pollination
+Asparagus.pastorianus,Western Sahara site 2,Tethinidae sp. 2,Western Sahara site 2,1,pollination
+Euphorbia.balsamifera..f.,Western Sahara site 2,Axinotarsus sp. 1,Western Sahara site 2,2,pollination
+Euphorbia.balsamifera..f.,Western Sahara site 2,Colletes2? Waiting<85>,Western Sahara site 2,1,pollination
+Euphorbia.balsamifera..f.,Western Sahara site 2,Lucilia sericata,Western Sahara site 2,3,pollination
+Euphorbia.balsamifera..f.,Western Sahara site 2,Plagiolepis schmitzii,Western Sahara site 2,10,pollination
+Euphorbia.balsamifera..f.,Western Sahara site 2,Sciaridae sp. 4,Western Sahara site 2,13,pollination
+Euphorbia.balsamifera..f.,Western Sahara site 2,Tapinoma nigerrimum,Western Sahara site 2,21,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Anaspis cf. saharensis,Western Sahara site 2,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Bombylius sp. 1,Western Sahara site 2,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Chetogena acuminata,Western Sahara site 2,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Coleoptera sp. 5,Western Sahara site 2,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Eurytoma sp. 3,Western Sahara site 2,2,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Hylaeus sp.,Western Sahara site 2,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Lasioglossum phoenicurum,Western Sahara site 2,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Lucilia sericata,Western Sahara site 2,5,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Musca domestica,Western Sahara site 2,2,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Musca osiris,Western Sahara site 2,2,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Musca sorbens,Western Sahara site 2,6,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Physiphora alceae,Western Sahara site 2,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Plagiolepis schmitzii,Western Sahara site 2,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Podalonia sp.,Western Sahara site 2,2,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Sarcophagidae sp. 2,Western Sahara site 2,2,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Sarcophagidae sp. 7,Western Sahara site 2,7,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Sciaridae sp.,Western Sahara site 2,35,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Tachinidae sp. 1,Western Sahara site 2,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Tapinoma nigerrimum,Western Sahara site 2,1,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Themnothorax productus,Western Sahara site 2,4,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Thysanoptera sp.,Western Sahara site 2,12,pollination
+Euphorbia.balsamifera..m.,Western Sahara site 2,Urelliosoma guimari,Western Sahara site 2,3,pollination
+Fagonia.albiflora,Western Sahara site 2,Amegilla sp.,Western Sahara site 2,3,pollination
+Fagonia.albiflora,Western Sahara site 2,Troglops sp.,Western Sahara site 2,1,pollination
+Kickxia.heterophylla,Western Sahara site 2,Amegilla sp.,Western Sahara site 2,1,pollination
+Kickxia.heterophylla,Western Sahara site 2,Attagenus sp. 1,Western Sahara site 2,1,pollination
+Kickxia.heterophylla,Western Sahara site 2,Colletes1? Waiting<85>,Western Sahara site 2,1,pollination
+Kickxia.heterophylla,Western Sahara site 2,Lasioglossum phoenicurum,Western Sahara site 2,1,pollination
+Kickxia.heterophylla,Western Sahara site 2,Tapinoma nigerrimum,Western Sahara site 2,1,pollination
+Launaea.arborescens,Western Sahara site 2,Anthaxia sp. 1,Western Sahara site 2,7,pollination
+Launaea.arborescens,Western Sahara site 2,Aprostocetus sp. 1,Western Sahara site 2,2,pollination
+Launaea.arborescens,Western Sahara site 2,Attagenus sp. 1,Western Sahara site 2,1,pollination
+Launaea.arborescens,Western Sahara site 2,Hylaeus sp.,Western Sahara site 2,5,pollination
+Launaea.arborescens,Western Sahara site 2,Lasioglossum phoenicurum,Western Sahara site 2,6,pollination
+Launaea.arborescens,Western Sahara site 2,Nomioides deceptor,Western Sahara site 2,1,pollination
+Launaea.arborescens,Western Sahara site 2,Paragus tibialis,Western Sahara site 2,3,pollination
+Launaea.arborescens,Western Sahara site 2,Sciaridae sp.,Western Sahara site 2,1,pollination
+Launaea.arborescens,Western Sahara site 2,Sphecidae sp.,Western Sahara site 2,3,pollination
+Launaea.arborescens,Western Sahara site 2,Tephritidae sp. 1,Western Sahara site 2,6,pollination
+Launaea.arborescens,Western Sahara site 2,Urelliosoma guimari,Western Sahara site 2,1,pollination
+Launaea.arborescens,Western Sahara site 2,Urellliosoma sp.,Western Sahara site 2,3,pollination
+Lycium.intricatum,Western Sahara site 2,Amegilla sp.,Western Sahara site 2,3,pollination
+Lycium.intricatum,Western Sahara site 2,Anthophora sp. 1,Western Sahara site 2,1,pollination
+Lycium.intricatum,Western Sahara site 2,Colletes1? Waiting<85>,Western Sahara site 2,10,pollination
+Lycium.intricatum,Western Sahara site 2,Lasioglossum phoenicurum,Western Sahara site 2,1,pollination
+Lycium.intricatum,Western Sahara site 2,Nomioides deceptor,Western Sahara site 2,3,pollination
+Lycium.intricatum,Western Sahara site 2,Nomioides sp.,Western Sahara site 2,9,pollination
+Lycium.intricatum,Western Sahara site 2,Sciaridae sp. 4,Western Sahara site 2,1,pollination
+Lycium.intricatum,Western Sahara site 2,Tapinoma nigerrimum,Western Sahara site 2,3,pollination
+Nauplius.sp.,Western Sahara site 2,Bombylius sp. 1,Western Sahara site 2,1,pollination
+Nauplius.sp.,Western Sahara site 2,Macrocoma cf. henoni,Western Sahara site 2,1,pollination
+Zilla.spinosa,Western Sahara site 2,Tapinoma nigerrimum,Western Sahara site 2,1,pollination
+Euphorbia.balsamifera..f.,Fuerteventura site 1,Araneae sp. 1,Fuerteventura site 1,1,pollination
+Euphorbia.balsamifera..f.,Fuerteventura site 1,Aulacoderus canariensis,Fuerteventura site 1,4,pollination
+Euphorbia.balsamifera..f.,Fuerteventura site 1,Chrysomya albiceps,Fuerteventura site 1,1,pollination
+Euphorbia.balsamifera..f.,Fuerteventura site 1,Musca osiris,Fuerteventura site 1,1,pollination
+Euphorbia.balsamifera..f.,Fuerteventura site 1,Plagiolepis schmitzii,Fuerteventura site 1,45,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Aphthona wachnitzae,Fuerteventura site 1,10,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Attalus olivensis,Fuerteventura site 1,5,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Aulacoderus canariensis,Fuerteventura site 1,10,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Cecidomyiidae sp.,Fuerteventura site 1,1,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Chloropidae sp. 2,Fuerteventura site 1,1,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Lucilia sericata,Fuerteventura site 1,4,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Milichiidae sp.,Fuerteventura site 1,1,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Nyctia lugubris,Fuerteventura site 1,1,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Phyto nigrobarbata,Fuerteventura site 1,1,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Plagiolepis schmitzii,Fuerteventura site 1,53,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Sarcophagidae sp. 5,Fuerteventura site 1,18,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Scaptomyza sp. 2,Fuerteventura site 1,1,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Sciaridae sp.,Fuerteventura site 1,6,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Tachyagetes aemulans,Fuerteventura site 1,1,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 1,Thysanoptera sp. 1,Fuerteventura site 1,21,pollination
+Helianthemum.canariensis,Fuerteventura site 1,Dischistus atlanticus,Fuerteventura site 1,1,pollination
+Helianthemum.canariensis,Fuerteventura site 1,Sarcophagidae sp. 4,Fuerteventura site 1,2,pollination
+Helianthemum.canariensis,Fuerteventura site 1,Thysanoptera sp. 2,Fuerteventura site 1,6,pollination
+Launaea.arborescens,Fuerteventura site 1,Anaspis proteus,Fuerteventura site 1,2,pollination
+Launaea.arborescens,Fuerteventura site 1,Anthophora alluaudi,Fuerteventura site 1,1,pollination
+Launaea.arborescens,Fuerteventura site 1,Aphthona wachnitzae,Fuerteventura site 1,1,pollination
+Launaea.arborescens,Fuerteventura site 1,Attagenus abbreviatus,Fuerteventura site 1,1,pollination
+Launaea.arborescens,Fuerteventura site 1,Attalus olivensis,Fuerteventura site 1,3,pollination
+Launaea.arborescens,Fuerteventura site 1,Aulacoderus canariensis,Fuerteventura site 1,4,pollination
+Launaea.arborescens,Fuerteventura site 1,Campiglossa martii,Fuerteventura site 1,2,pollination
+Launaea.arborescens,Fuerteventura site 1,Camponotus cfr. feae,Fuerteventura site 1,2,pollination
+Launaea.arborescens,Fuerteventura site 1,Cephalodromia sp.,Fuerteventura site 1,1,pollination
+Launaea.arborescens,Fuerteventura site 1,Dasytes lanzarotensis,Fuerteventura site 1,6,pollination
+Launaea.arborescens,Fuerteventura site 1,Dischistus atlanticus,Fuerteventura site 1,1,pollination
+Launaea.arborescens,Fuerteventura site 1,Eurytoma sp. 2,Fuerteventura site 1,1,pollination
+Launaea.arborescens,Fuerteventura site 1,Lasioglossum loetum,Fuerteventura site 1,1,pollination
+Launaea.arborescens,Fuerteventura site 1,Lucilia sericata,Fuerteventura site 1,6,pollination
+Launaea.arborescens,Fuerteventura site 1,Paragus tibialis,Fuerteventura site 1,1,pollination
+Launaea.arborescens,Fuerteventura site 1,Plagiolepis schmitzii,Fuerteventura site 1,12,pollination
+Launaea.arborescens,Fuerteventura site 1,Proconura sp. 2,Fuerteventura site 1,1,pollination
+Launaea.arborescens,Fuerteventura site 1,Pteromalus sp. 2,Fuerteventura site 1,7,pollination
+Launaea.arborescens,Fuerteventura site 1,Sarcophagidae sp. 6,Fuerteventura site 1,1,pollination
+Launaea.arborescens,Fuerteventura site 1,Sciaridae sp.,Fuerteventura site 1,3,pollination
+Launaea.arborescens,Fuerteventura site 1,Thysanoptera sp. 2,Fuerteventura site 1,2,pollination
+Launaea.arborescens,Fuerteventura site 1,Urelliosoma guimari,Fuerteventura site 1,2,pollination
+Lycium.intricatum,Fuerteventura site 1,Anthophora alluaudi,Fuerteventura site 1,5,pollination
+Lycium.intricatum,Fuerteventura site 1,Camponotus cfr. feae,Fuerteventura site 1,1,pollination
+Lycium.intricatum,Fuerteventura site 1,Camponotus feae,Fuerteventura site 1,1,pollination
+Lycium.intricatum,Fuerteventura site 1,Thysanoptera sp. 1,Fuerteventura site 1,1,pollination
+Lycium.intricatum,Fuerteventura site 1,Thysanoptera sp. 2,Fuerteventura site 1,1,pollination
+Lycium.intricatum,Fuerteventura site 1,Thysanoptera sp. 4,Fuerteventura site 1,1,pollination
+Phagnalon.purpurascens,Fuerteventura site 1,Tetramesa sp.,Fuerteventura site 1,1,pollination
+Salvia.aegyptiaca,Fuerteventura site 1,Anthophora alluaudi,Fuerteventura site 1,1,pollination
+Salvia.aegyptiaca,Fuerteventura site 1,Chetogena acuminata,Fuerteventura site 1,1,pollination
+Salvia.aegyptiaca,Fuerteventura site 1,Sarcophagidae sp. 4,Fuerteventura site 1,2,pollination
+Euphorbia.balsamifera..f.,Fuerteventura site 2,Aphthona wachnitzae,Fuerteventura site 2,1,pollination
+Euphorbia.balsamifera..f.,Fuerteventura site 2,Aulacoderus canariensis,Fuerteventura site 2,2,pollination
+Euphorbia.balsamifera..f.,Fuerteventura site 2,Blaesoxipha sp. 1,Fuerteventura site 2,4,pollination
+Euphorbia.balsamifera..f.,Fuerteventura site 2,Chrysomya albiceps,Fuerteventura site 2,2,pollination
+Euphorbia.balsamifera..f.,Fuerteventura site 2,Dischistus atlanticus,Fuerteventura site 2,1,pollination
+Euphorbia.balsamifera..f.,Fuerteventura site 2,Plagiolepis schmitzii,Fuerteventura site 2,62,pollination
+Euphorbia.balsamifera..f.,Fuerteventura site 2,Sarcophagidae sp. 4,Fuerteventura site 2,1,pollination
+Euphorbia.balsamifera..f.,Fuerteventura site 2,Sarcophagidae sp. 5,Fuerteventura site 2,1,pollination
+Euphorbia.balsamifera..f.,Fuerteventura site 2,Sciaridae sp.,Fuerteventura site 2,8,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Anaspis proteus,Fuerteventura site 2,2,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Aphthona wachnitzae,Fuerteventura site 2,1,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Asteia caesia,Fuerteventura site 2,3,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Attalus olivensis,Fuerteventura site 2,9,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Aulacoderus canariensis,Fuerteventura site 2,8,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Cryptocephalus nubigena,Fuerteventura site 2,3,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Lucilia sericata,Fuerteventura site 2,3,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Phalacrus coruscus,Fuerteventura site 2,1,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Plagiolepis schmitzii,Fuerteventura site 2,90,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Platypalpus sp. 1,Fuerteventura site 2,1,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Sapromyza sp.,Fuerteventura site 2,2,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Sarcophagidae sp. 4,Fuerteventura site 2,3,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Sciaridae sp.,Fuerteventura site 2,2,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Tethinidae sp. 3,Fuerteventura site 2,1,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Tetramesa sp.,Fuerteventura site 2,1,pollination
+Euphorbia.balsamifera..m.,Fuerteventura site 2,Thysanoptera sp. 1,Fuerteventura site 2,53,pollination
+Helianthemum.canariensis,Fuerteventura site 2,Eurytoma sp. 1,Fuerteventura site 2,1,pollination
+Helianthemum.canariensis,Fuerteventura site 2,Thysanoptera sp. 2,Fuerteventura site 2,3,pollination
+Kickxia.heterophylla,Fuerteventura site 2,Goniozus sp.,Fuerteventura site 2,1,pollination
+Kickxia.heterophylla,Fuerteventura site 2,Oscinimorpha sp.,Fuerteventura site 2,1,pollination
+Kickxia.heterophylla,Fuerteventura site 2,Thysanoptera sp. 2,Fuerteventura site 2,2,pollination
+Launaea.arborescens,Fuerteventura site 2,Anaspis cf. eversi,Fuerteventura site 2,2,pollination
+Launaea.arborescens,Fuerteventura site 2,Anthophora alluaudi,Fuerteventura site 2,2,pollination
+Launaea.arborescens,Fuerteventura site 2,Attalus chrysanthemi,Fuerteventura site 2,1,pollination
+Launaea.arborescens,Fuerteventura site 2,Campiglossa martii,Fuerteventura site 2,2,pollination
+Launaea.arborescens,Fuerteventura site 2,Chalicodoma sicula,Fuerteventura site 2,3,pollination
+Launaea.arborescens,Fuerteventura site 2,Chrysomya albiceps,Fuerteventura site 2,3,pollination
+Launaea.arborescens,Fuerteventura site 2,Diglyphus chabrias,Fuerteventura site 2,3,pollination
+Launaea.arborescens,Fuerteventura site 2,Geometridae sp. 2,Fuerteventura site 2,1,pollination
+Launaea.arborescens,Fuerteventura site 2,Leptochilus fortunatus,Fuerteventura site 2,1,pollination
+Launaea.arborescens,Fuerteventura site 2,Lucilia sericata,Fuerteventura site 2,3,pollination
+Launaea.arborescens,Fuerteventura site 2,Pteromalus sp. 2,Fuerteventura site 2,1,pollination
+Launaea.arborescens,Fuerteventura site 2,Sarcophagidae sp. 4,Fuerteventura site 2,1,pollination
+Launaea.arborescens,Fuerteventura site 2,Sarcophagidae sp. 6,Fuerteventura site 2,1,pollination
+Launaea.arborescens,Fuerteventura site 2,Sciaridae sp.,Fuerteventura site 2,4,pollination
+Launaea.arborescens,Fuerteventura site 2,Urelliosoma guimari,Fuerteventura site 2,2,pollination
+Lotus.lancerottensis,Fuerteventura site 2,Attalus olivensis,Fuerteventura site 2,1,pollination
+Lotus.lancerottensis,Fuerteventura site 2,Camponotus cfr. feae,Fuerteventura site 2,1,pollination
+Lotus.lancerottensis,Fuerteventura site 2,Chloropidae sp. 1,Fuerteventura site 2,1,pollination
+Lycium.intricatum,Fuerteventura site 2,Anthophora alluaudi,Fuerteventura site 2,6,pollination
+Lycium.intricatum,Fuerteventura site 2,Attalus olivensis,Fuerteventura site 2,1,pollination
+Lycium.intricatum,Fuerteventura site 2,Aulacoderus canariensis,Fuerteventura site 2,1,pollination
+Lycium.intricatum,Fuerteventura site 2,Dischistus atlanticus,Fuerteventura site 2,2,pollination
+Lycium.intricatum,Fuerteventura site 2,Leptochilus fortunatus,Fuerteventura site 2,4,pollination
+Lycium.intricatum,Fuerteventura site 2,Sciaridae sp.,Fuerteventura site 2,1,pollination
+Lycium.intricatum,Fuerteventura site 2,Thysanoptera sp. 1,Fuerteventura site 2,1,pollination
+Phagnalon.purpurascens,Fuerteventura site 2,Camponotus cfr. feae,Fuerteventura site 2,4,pollination
+Phagnalon.purpurascens,Fuerteventura site 2,Chetogena acuminata,Fuerteventura site 2,1,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 1,Apis mellifera,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 1,Camponotus feae,Gran Canaria site 1,34,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 1,Chetogena acuminata,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 1,Chrysomya albiceps,Gran Canaria site 1,8,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 1,Colletes dimidiatus,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 1,Curculionidae sp.,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 1,Lasioglossum viride,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 1,Lucilia sericata,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 1,Musca domestica,Gran Canaria site 1,3,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 1,Oscinella sp. 1,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 1,Sarcophagidae sp. 5,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 1,Sepsis sp.,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 1,Thysanoptera sp. 1,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 1,Anaspis proteus,Gran Canaria site 1,8,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 1,Apis mellifera,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 1,Attagenus wollastoni,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 1,Attalus obscurus,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 1,Camponotus feae,Gran Canaria site 1,36,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 1,Chrysomya albiceps,Gran Canaria site 1,7,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 1,Lasioglossum loetum,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 1,Lasioglossum viride,Gran Canaria site 1,2,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 1,Musca domestica,Gran Canaria site 1,5,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 1,Oscinella sp. 1,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 1,Sarcophagidae sp. 5,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 1,Sepsis sp.,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 1,Thysanoptera sp. 1,Gran Canaria site 1,79,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Anaspis proteus,Gran Canaria site 1,4,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Andrena vulcana,Gran Canaria site 1,7,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Anthophora alluaudi,Gran Canaria site 1,1,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Attalus obscurus,Gran Canaria site 1,4,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Bombylius pintuarius,Gran Canaria site 1,1,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Camponotus feae,Gran Canaria site 1,14,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Chrysomya albiceps,Gran Canaria site 1,1,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Colletes dimidiatus,Gran Canaria site 1,2,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Eristalinus taeniops,Gran Canaria site 1,1,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Eucera gracilipes,Gran Canaria site 1,3,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Exhyalanthrax canarionae,Gran Canaria site 1,1,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Gasteruption sp.,Gran Canaria site 1,1,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Hylaeus hohmanni,Gran Canaria site 1,4,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Lasioglossum viride,Gran Canaria site 1,2,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Lucilia sericata,Gran Canaria site 1,3,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Melecta curvispina,Gran Canaria site 1,1,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Musca domestica,Gran Canaria site 1,3,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Oscinella sp. 1,Gran Canaria site 1,5,pollination
+Euphorbia.regis.jubae,Gran Canaria site 1,Scaeva albomaculata,Gran Canaria site 1,1,pollination
+Fagonia.albiflora,Gran Canaria site 1,Attalus obscurus,Gran Canaria site 1,1,pollination
+Fagonia.albiflora,Gran Canaria site 1,Lasioglossum loetum,Gran Canaria site 1,6,pollination
+Fagonia.albiflora,Gran Canaria site 1,Thysanoptera sp. 2,Gran Canaria site 1,16,pollination
+Kickxia.scoparia,Gran Canaria site 1,Camponotus feae,Gran Canaria site 1,1,pollination
+Kickxia.scoparia,Gran Canaria site 1,Themnothorax risii,Gran Canaria site 1,2,pollination
+Kickxia.scoparia,Gran Canaria site 1,Thysanoptera sp. 2,Gran Canaria site 1,2,pollination
+Launaea.arborescens,Gran Canaria site 1,Attagenus wollastoni,Gran Canaria site 1,3,pollination
+Launaea.arborescens,Gran Canaria site 1,Attalus obscurus,Gran Canaria site 1,5,pollination
+Launaea.arborescens,Gran Canaria site 1,Plagiolepis sp. 2,Gran Canaria site 1,1,pollination
+Launaea.arborescens,Gran Canaria site 1,Themnothorax risii,Gran Canaria site 1,2,pollination
+Launaea.arborescens,Gran Canaria site 1,Thysanoptera sp. 2,Gran Canaria site 1,1,pollination
+Lycium.intricatum,Gran Canaria site 1,Amegilla quadrifasciata,Gran Canaria site 1,3,pollination
+Lycium.intricatum,Gran Canaria site 1,Anthophora alluaudi,Gran Canaria site 1,4,pollination
+Lycium.intricatum,Gran Canaria site 1,Anthophora orotavae,Gran Canaria site 1,1,pollination
+Lycium.intricatum,Gran Canaria site 1,Apis mellifera,Gran Canaria site 1,1,pollination
+Lycium.intricatum,Gran Canaria site 1,Camponotus feae,Gran Canaria site 1,1,pollination
+Lycium.intricatum,Gran Canaria site 1,Eucera gracilipes,Gran Canaria site 1,1,pollination
+Lycium.intricatum,Gran Canaria site 1,Lasioglossum loetum,Gran Canaria site 1,1,pollination
+Lycium.intricatum,Gran Canaria site 1,Lasioglossum viride,Gran Canaria site 1,3,pollination
+Plocama.pendula,Gran Canaria site 1,Attalus obscurus,Gran Canaria site 1,3,pollination
+Plocama.pendula,Gran Canaria site 1,Camponotus feae,Gran Canaria site 1,3,pollination
+Plocama.pendula,Gran Canaria site 1,Colletes dimidiatus,Gran Canaria site 1,3,pollination
+Plocama.pendula,Gran Canaria site 1,Lasioglossum loetum,Gran Canaria site 1,3,pollination
+Plocama.pendula,Gran Canaria site 1,Oscinella sp. 1,Gran Canaria site 1,1,pollination
+Rubia.fruticosa,Gran Canaria site 1,Anaspis proteus,Gran Canaria site 1,1,pollination
+Rubia.fruticosa,Gran Canaria site 1,Camponotus feae,Gran Canaria site 1,12,pollination
+Rubia.fruticosa,Gran Canaria site 1,Macroglossum stellatarum,Gran Canaria site 1,1,pollination
+Rubia.fruticosa,Gran Canaria site 1,Musca domestica,Gran Canaria site 1,2,pollination
+Rubia.fruticosa,Gran Canaria site 1,Oscinella sp. 1,Gran Canaria site 1,1,pollination
+Schizogyne.sericea,Gran Canaria site 1,Attalus obscurus,Gran Canaria site 1,2,pollination
+Schizogyne.sericea,Gran Canaria site 1,Cephalodromia sp.,Gran Canaria site 1,1,pollination
+Schizogyne.sericea,Gran Canaria site 1,Thysanoptera sp. 1,Gran Canaria site 1,9,pollination
+Schizogyne.sericea,Gran Canaria site 1,Thysanoptera sp. 2,Gran Canaria site 1,1,pollination
+Schizogyne.sericea,Gran Canaria site 1,Thysanoptera sp. 3,Gran Canaria site 1,1,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 2,Atherigona varia,Gran Canaria site 2,1,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 2,Camponotus feae,Gran Canaria site 2,62,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 2,Musca domestica,Gran Canaria site 2,2,pollination
+Euphorbia.balsamifera..f.,Gran Canaria site 2,Oscinella sp. 1,Gran Canaria site 2,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 2,Anaspis proteus,Gran Canaria site 2,3,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 2,Andrena wollastoni,Gran Canaria site 2,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 2,Apis mellifera,Gran Canaria site 2,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 2,Attalus obscurus,Gran Canaria site 2,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 2,Camponotus feae,Gran Canaria site 2,43,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 2,Chloropidae sp. 2,Gran Canaria site 2,3,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 2,Chrysomya albiceps,Gran Canaria site 2,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 2,Lasioglossum loetum,Gran Canaria site 2,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 2,Oscinella sp. 1,Gran Canaria site 2,5,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 2,Stenoselma sp.,Gran Canaria site 2,1,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 2,Thysanoptera sp. 1,Gran Canaria site 2,70,pollination
+Euphorbia.balsamifera..m.,Gran Canaria site 2,Thysanoptera sp. 3,Gran Canaria site 2,1,pollination
+Euphorbia.regis.jubae,Gran Canaria site 2,Agromyzidae sp. 1,Gran Canaria site 2,1,pollination
+Euphorbia.regis.jubae,Gran Canaria site 2,Anaspis proteus,Gran Canaria site 2,4,pollination
+Euphorbia.regis.jubae,Gran Canaria site 2,Camponotus feae,Gran Canaria site 2,28,pollination
+Euphorbia.regis.jubae,Gran Canaria site 2,Hylaeus hohmanni,Gran Canaria site 2,4,pollination
+Euphorbia.regis.jubae,Gran Canaria site 2,Lasioglossum viride,Gran Canaria site 2,1,pollination
+Euphorbia.regis.jubae,Gran Canaria site 2,Sarcophagidae sp. 5,Gran Canaria site 2,1,pollination
+Euphorbia.regis.jubae,Gran Canaria site 2,Scaeva albomaculata,Gran Canaria site 2,1,pollination
+Fagonia.albiflora,Gran Canaria site 2,Andrena vulcana,Gran Canaria site 2,1,pollination
+Fagonia.albiflora,Gran Canaria site 2,Attalus obscurus,Gran Canaria site 2,2,pollination
+Fagonia.albiflora,Gran Canaria site 2,Camponotus feae,Gran Canaria site 2,1,pollination
+Fagonia.albiflora,Gran Canaria site 2,Lasioglossum loetum,Gran Canaria site 2,1,pollination
+Fagonia.albiflora,Gran Canaria site 2,Thysanoptera sp. 2,Gran Canaria site 2,9,pollination
+Launaea.arborescens,Gran Canaria site 2,Alliophleps elliptica,Gran Canaria site 2,1,pollination
+Launaea.arborescens,Gran Canaria site 2,Anaspis proteus,Gran Canaria site 2,10,pollination
+Launaea.arborescens,Gran Canaria site 2,Apis mellifera,Gran Canaria site 2,1,pollination
+Launaea.arborescens,Gran Canaria site 2,Attalus obscurus,Gran Canaria site 2,4,pollination
+Launaea.arborescens,Gran Canaria site 2,Dinarmoides spilopterus,Gran Canaria site 2,1,pollination
+Launaea.arborescens,Gran Canaria site 2,Lasioglossum viride,Gran Canaria site 2,4,pollination
+Launaea.arborescens,Gran Canaria site 2,Osmia latreillei,Gran Canaria site 2,2,pollination
+Launaea.arborescens,Gran Canaria site 2,Pieris rapae,Gran Canaria site 2,3,pollination
+Launaea.arborescens,Gran Canaria site 2,Tropinota squalida,Gran Canaria site 2,1,pollination
+Launaea.arborescens,Gran Canaria site 2,Urelliosoma guimari,Gran Canaria site 2,2,pollination
+Lavendula.minutolii,Gran Canaria site 2,Anthophora alluaudi,Gran Canaria site 2,6,pollination
+Lotus.spartioides,Gran Canaria site 2,Osmia canaria,Gran Canaria site 2,2,pollination
+Lycium.intricatum,Gran Canaria site 2,Amegilla quadrifasciata,Gran Canaria site 2,1,pollination
+Lycium.intricatum,Gran Canaria site 2,Anthophora alluaudi,Gran Canaria site 2,9,pollination
+Lycium.intricatum,Gran Canaria site 2,Camponotus feae,Gran Canaria site 2,1,pollination
+Lycium.intricatum,Gran Canaria site 2,Lasioglossum viride,Gran Canaria site 2,5,pollination
+Lycium.intricatum,Gran Canaria site 2,Pieris rapae,Gran Canaria site 2,1,pollination
+Lycium.intricatum,Gran Canaria site 2,Plagiolepis sp. 2,Gran Canaria site 2,1,pollination
+Plocama.pendula,Gran Canaria site 2,Apis mellifera,Gran Canaria site 2,3,pollination
+Plocama.pendula,Gran Canaria site 2,Camponotus feae,Gran Canaria site 2,10,pollination
+Plocama.pendula,Gran Canaria site 2,Dinarmoides spilopterus,Gran Canaria site 2,1,pollination
+Plocama.pendula,Gran Canaria site 2,Lasioglossum loetum,Gran Canaria site 2,4,pollination
+Plocama.pendula,Gran Canaria site 2,Lasioglossum viride,Gran Canaria site 2,3,pollination
+Plocama.pendula,Gran Canaria site 2,Phthiria simonyi,Gran Canaria site 2,1,pollination
+Plocama.pendula,Gran Canaria site 2,Thomisus cf. onustus,Gran Canaria site 2,1,pollination
+Rubia.fruticosa,Gran Canaria site 2,Attalus obscurus,Gran Canaria site 2,2,pollination
+Rubia.fruticosa,Gran Canaria site 2,Camponotus feae,Gran Canaria site 2,32,pollination
+Rubia.fruticosa,Gran Canaria site 2,Coccinella miranda,Gran Canaria site 2,1,pollination
+Rubia.fruticosa,Gran Canaria site 2,Lucilia sericata,Gran Canaria site 2,3,pollination
+Rubia.fruticosa,Gran Canaria site 2,Musca domestica,Gran Canaria site 2,3,pollination
+Argyranthemum.frutescens,Tenerife South 1,Oscinella sp. 1,Tenerife South 1,1,pollination
+Argyranthemum.frutescens,Tenerife South 1,Pteromalus sp. 3,Tenerife South 1,1,pollination
+Argyranthemum.frutescens,Tenerife South 1,Scenopinus sp.,Tenerife South 1,1,pollination
+Argyranthemum.frutescens,Tenerife South 1,Thysanoptera sp. 1,Tenerife South 1,12,pollination
+Ceropegia.fusca,Tenerife South 1,Camponotus feae,Tenerife South 1,2,pollination
+Euphorbia.balsamifera..f.,Tenerife South 1,Agromyzidae sp. 1,Tenerife South 1,3,pollination
+Euphorbia.balsamifera..f.,Tenerife South 1,Camponotus feae,Tenerife South 1,42,pollination
+Euphorbia.balsamifera..f.,Tenerife South 1,Platypalpus sp.,Tenerife South 1,1,pollination
+Euphorbia.balsamifera..m.,Tenerife South 1,Anaspis proteus,Tenerife South 1,1,pollination
+Euphorbia.balsamifera..m.,Tenerife South 1,Bracon sp.,Tenerife South 1,1,pollination
+Euphorbia.balsamifera..m.,Tenerife South 1,Camponotus feae,Tenerife South 1,37,pollination
+Euphorbia.balsamifera..m.,Tenerife South 1,Chalicodoma canescens,Tenerife South 1,1,pollination
+Euphorbia.balsamifera..m.,Tenerife South 1,Dinarmoides spilopterus,Tenerife South 1,1,pollination
+Euphorbia.balsamifera..m.,Tenerife South 1,Lasioglossum viride,Tenerife South 1,1,pollination
+Euphorbia.balsamifera..m.,Tenerife South 1,Themnothorax hesperius,Tenerife South 1,10,pollination
+Euphorbia.balsamifera..m.,Tenerife South 1,Thysanoptera sp. 1,Tenerife South 1,1,pollination
+Euphorbia.lamarckii,Tenerife South 1,Anaspis proteus,Tenerife South 1,1,pollination
+Euphorbia.lamarckii,Tenerife South 1,Apis mellifera,Tenerife South 1,1,pollination
+Euphorbia.lamarckii,Tenerife South 1,Camponotus feae,Tenerife South 1,22,pollination
+Euphorbia.lamarckii,Tenerife South 1,Eristalinus taeniops,Tenerife South 1,2,pollination
+Euphorbia.lamarckii,Tenerife South 1,Macrocoma splendens,Tenerife South 1,1,pollination
+Euphorbia.lamarckii,Tenerife South 1,Megachile canariensis,Tenerife South 1,1,pollination
+Euphorbia.lamarckii,Tenerife South 1,Phyto discrepans,Tenerife South 1,1,pollination
+Euphorbia.lamarckii,Tenerife South 1,Synthesomyia nudiseta,Tenerife South 1,1,pollination
+Euphorbia.lamarckii,Tenerife South 1,Thysanoptera sp. 1,Tenerife South 1,1,pollination
+Frankenia.laevis,Tenerife South 1,Camponotus feae,Tenerife South 1,11,pollination
+Frankenia.laevis,Tenerife South 1,Plagiolepis sp. 2,Tenerife South 1,2,pollination
+Frankenia.laevis,Tenerife South 1,Themnothorax hesperius,Tenerife South 1,8,pollination
+Helianthemum.canariensis,Tenerife South 1,Themnothorax hesperius,Tenerife South 1,1,pollination
+Helianthemum.canariensis,Tenerife South 1,Thysanoptera sp. 1,Tenerife South 1,1,pollination
+Helianthemum.canariensis,Tenerife South 1,Thysanoptera sp. 2,Tenerife South 1,4,pollination
+Launaea.arborescens,Tenerife South 1,Attagenus wollastoni,Tenerife South 1,1,pollination
+Launaea.arborescens,Tenerife South 1,Camponotus feae,Tenerife South 1,1,pollination
+Launaea.arborescens,Tenerife South 1,Chalicodoma canescens,Tenerife South 1,1,pollination
+Launaea.arborescens,Tenerife South 1,Eupelmus sp.,Tenerife South 1,1,pollination
+Launaea.arborescens,Tenerife South 1,Eurytoma sp. 1,Tenerife South 1,2,pollination
+Launaea.arborescens,Tenerife South 1,Lasioglossum viride,Tenerife South 1,1,pollination
+Launaea.arborescens,Tenerife South 1,Themnothorax hesperius,Tenerife South 1,4,pollination
+Launaea.arborescens,Tenerife South 1,Urelliosoma guimari,Tenerife South 1,3,pollination
+Lavendula.multifida,Tenerife South 1,Amegilla quadrifasciata,Tenerife South 1,8,pollination
+Lavendula.multifida,Tenerife South 1,Anthophora orotavae,Tenerife South 1,2,pollination
+Lavendula.multifida,Tenerife South 1,Apis mellifera,Tenerife South 1,1,pollination
+Lavendula.multifida,Tenerife South 1,Camponotus feae,Tenerife South 1,1,pollination
+Lavendula.multifida,Tenerife South 1,Lasioglossum viride,Tenerife South 1,1,pollination
+Lavendula.multifida,Tenerife South 1,Sphaeniscus filiolus,Tenerife South 1,1,pollination
+Lavendula.multifida,Tenerife South 1,Stomorhina lunata,Tenerife South 1,1,pollination
+Lavendula.multifida,Tenerife South 1,Themnothorax hesperius,Tenerife South 1,1,pollination
+Lotus.sessilifolius,Tenerife South 1,Camponotus feae,Tenerife South 1,2,pollination
+Lycium.intricatum,Tenerife South 1,Anthophora alluaudi,Tenerife South 1,1,pollination
+Lycium.intricatum,Tenerife South 1,Camponotus feae,Tenerife South 1,3,pollination
+Lycium.intricatum,Tenerife South 1,Themnothorax hesperius,Tenerife South 1,1,pollination
+Periploca.laevigata,Tenerife South 1,Aprostocetus occidentalis,Tenerife South 1,2,pollination
+Periploca.laevigata,Tenerife South 1,Camponotus feae,Tenerife South 1,59,pollination
+Periploca.laevigata,Tenerife South 1,Chrysomya albiceps,Tenerife South 1,1,pollination
+Periploca.laevigata,Tenerife South 1,Lasioglossum viride,Tenerife South 1,1,pollination
+Periploca.laevigata,Tenerife South 1,Lucilia sericata,Tenerife South 1,3,pollination
+Periploca.laevigata,Tenerife South 1,Musca domestica,Tenerife South 1,1,pollination
+Periploca.laevigata,Tenerife South 1,Physiphora alceae,Tenerife South 1,2,pollination
+Periploca.laevigata,Tenerife South 1,Sarcophagidae sp. 5,Tenerife South 1,3,pollination
+Periploca.laevigata,Tenerife South 1,Sarcophagidae sp. 8,Tenerife South 1,9,pollination
+Periploca.laevigata,Tenerife South 1,Synthesomyia nudiseta,Tenerife South 1,1,pollination
+Plocama.pendula,Tenerife South 1,Apis mellifera,Tenerife South 1,1,pollination
+Plocama.pendula,Tenerife South 1,Camponotus feae,Tenerife South 1,4,pollination
+Plocama.pendula,Tenerife South 1,Themnothorax hesperius,Tenerife South 1,1,pollination
+Satureja.kuegleri,Tenerife South 1,Lasioglossum viride,Tenerife South 1,1,pollination
+Satureja.kuegleri,Tenerife South 1,Themnothorax hesperius,Tenerife South 1,1,pollination
+Satureja.kuegleri,Tenerife South 1,Thysanoptera sp. 1,Tenerife South 1,3,pollination
+Schizogyne.sericea,Tenerife South 1,Camponotus feae,Tenerife South 1,3,pollination
+Schizogyne.sericea,Tenerife South 1,Lasioglossum viride,Tenerife South 1,1,pollination
+Schizogyne.sericea,Tenerife South 1,Myopites nigrescens,Tenerife South 1,11,pollination
+Schizogyne.sericea,Tenerife South 1,Plagiolepis sp. 2,Tenerife South 1,2,pollination
+Schizogyne.sericea,Tenerife South 1,Pteromalus sp. 3,Tenerife South 1,1,pollination
+Schizogyne.sericea,Tenerife South 1,Themnothorax hesperius,Tenerife South 1,3,pollination
+Argyranthemum.frutescens,Tenerife South 2,Anaspis proteus,Tenerife South 2,1,pollination
+Argyranthemum.frutescens,Tenerife South 2,Attagenus wollastoni,Tenerife South 2,2,pollination
+Argyranthemum.frutescens,Tenerife South 2,Eristalinus aeneus,Tenerife South 2,1,pollination
+Argyranthemum.frutescens,Tenerife South 2,Holepyris sp.,Tenerife South 2,1,pollination
+Argyranthemum.frutescens,Tenerife South 2,Lasioglossum loetum,Tenerife South 2,1,pollination
+Argyranthemum.frutescens,Tenerife South 2,Myopites nigrescens,Tenerife South 2,3,pollination
+Argyranthemum.frutescens,Tenerife South 2,Oscinella sp. 1,Tenerife South 2,1,pollination
+Argyranthemum.frutescens,Tenerife South 2,Oxyopes cf. kraepelinorum,Tenerife South 2,2,pollination
+Argyranthemum.frutescens,Tenerife South 2,Plagiolepis sp. 2,Tenerife South 2,3,pollination
+Argyranthemum.frutescens,Tenerife South 2,Pteromalus sp. 4,Tenerife South 2,4,pollination
+Argyranthemum.frutescens,Tenerife South 2,Syritta pipiens,Tenerife South 2,1,pollination
+Argyranthemum.frutescens,Tenerife South 2,Themnothorax hesperius,Tenerife South 2,1,pollination
+Argyranthemum.frutescens,Tenerife South 2,Thysanoptera sp. 1,Tenerife South 2,28,pollination
+Argyranthemum.frutescens,Tenerife South 2,Thysanoptera sp. 2,Tenerife South 2,45,pollination
+Argyranthemum.frutescens,Tenerife South 2,Thysanoptera sp. 3,Tenerife South 2,2,pollination
+Argyranthemum.frutescens,Tenerife South 2,Trixoscelis sp.,Tenerife South 2,1,pollination
+Euphorbia.balsamifera..f.,Tenerife South 2,Apis mellifera,Tenerife South 2,1,pollination
+Euphorbia.balsamifera..f.,Tenerife South 2,Camponotus feae,Tenerife South 2,18,pollination
+Euphorbia.balsamifera..f.,Tenerife South 2,Chrysomya albiceps,Tenerife South 2,2,pollination
+Euphorbia.balsamifera..f.,Tenerife South 2,Thysanoptera sp. 1,Tenerife South 2,1,pollination
+Euphorbia.balsamifera..m.,Tenerife South 2,Agromyzidae sp. 1,Tenerife South 2,2,pollination
+Euphorbia.balsamifera..m.,Tenerife South 2,Anaspis proteus,Tenerife South 2,15,pollination
+Euphorbia.balsamifera..m.,Tenerife South 2,Attalus ruficollis,Tenerife South 2,1,pollination
+Euphorbia.balsamifera..m.,Tenerife South 2,Camponotus feae,Tenerife South 2,11,pollination
+Euphorbia.balsamifera..m.,Tenerife South 2,Leptochilus eatoni,Tenerife South 2,1,pollination
+Euphorbia.balsamifera..m.,Tenerife South 2,Oscinella sp. 2,Tenerife South 2,2,pollination
+Euphorbia.balsamifera..m.,Tenerife South 2,Plagiolepis sp. 2,Tenerife South 2,2,pollination
+Euphorbia.balsamifera..m.,Tenerife South 2,Sibinia sericea,Tenerife South 2,1,pollination
+Euphorbia.balsamifera..m.,Tenerife South 2,Thysanoptera sp. 1,Tenerife South 2,13,pollination
+Euphorbia.lamarckii,Tenerife South 2,Anaspis proteus,Tenerife South 2,2,pollination
+Euphorbia.lamarckii,Tenerife South 2,Apis mellifera,Tenerife South 2,4,pollination
+Euphorbia.lamarckii,Tenerife South 2,Aprostocetus sp. 2,Tenerife South 2,1,pollination
+Euphorbia.lamarckii,Tenerife South 2,Blaesoxipha sp. 1,Tenerife South 2,1,pollination
+Euphorbia.lamarckii,Tenerife South 2,Camponotus feae,Tenerife South 2,4,pollination
+Euphorbia.lamarckii,Tenerife South 2,Chetogena acuminata,Tenerife South 2,1,pollination
+Euphorbia.lamarckii,Tenerife South 2,Eristalinus taeniops,Tenerife South 2,1,pollination
+Euphorbia.lamarckii,Tenerife South 2,Eristalis tenax,Tenerife South 2,1,pollination
+Euphorbia.lamarckii,Tenerife South 2,Lucilia sericata,Tenerife South 2,2,pollination
+Euphorbia.lamarckii,Tenerife South 2,Mordellistena cf. canariensis,Tenerife South 2,1,pollination
+Euphorbia.lamarckii,Tenerife South 2,Musca domestica,Tenerife South 2,1,pollination
+Euphorbia.lamarckii,Tenerife South 2,Phyto discrepans,Tenerife South 2,2,pollination
+Euphorbia.lamarckii,Tenerife South 2,Plagiolepis sp. 2,Tenerife South 2,3,pollination
+Euphorbia.lamarckii,Tenerife South 2,Platypalpus sp. 2,Tenerife South 2,1,pollination
+Euphorbia.lamarckii,Tenerife South 2,Sciaridae sp. 1,Tenerife South 2,1,pollination
+Euphorbia.lamarckii,Tenerife South 2,Synthesomyia nudiseta,Tenerife South 2,2,pollination
+Fagonia.albiflora,Tenerife South 2,Thysanoptera sp. 2,Tenerife South 2,3,pollination
+Frankenia.laevis,Tenerife South 2,Ammophila terminata,Tenerife South 2,1,pollination
+Frankenia.laevis,Tenerife South 2,Camponotus feae,Tenerife South 2,3,pollination
+Frankenia.laevis,Tenerife South 2,Monomorium subopacum,Tenerife South 2,1,pollination
+Frankenia.laevis,Tenerife South 2,Themnothorax hesperius,Tenerife South 2,6,pollination
+Helianthemum.canariensis,Tenerife South 2,Apis mellifera,Tenerife South 2,1,pollination
+Helianthemum.canariensis,Tenerife South 2,Camponotus feae,Tenerife South 2,1,pollination
+Helianthemum.canariensis,Tenerife South 2,Plagiolepis sp. 2,Tenerife South 2,3,pollination
+Helianthemum.canariensis,Tenerife South 2,Thysanoptera sp. 1,Tenerife South 2,2,pollination
+Helianthemum.canariensis,Tenerife South 2,Thysanoptera sp. 2,Tenerife South 2,4,pollination
+Launaea.arborescens,Tenerife South 2,Anaspis proteus,Tenerife South 2,1,pollination
+Launaea.arborescens,Tenerife South 2,Camponotus feae,Tenerife South 2,1,pollination
+Launaea.arborescens,Tenerife South 2,Dinarmoides spilopterus,Tenerife South 2,1,pollination
+Launaea.arborescens,Tenerife South 2,Eristalinus taeniops,Tenerife South 2,1,pollination
+Launaea.arborescens,Tenerife South 2,Euderus sp.,Tenerife South 2,1,pollination
+Launaea.arborescens,Tenerife South 2,Lasioglossum viride,Tenerife South 2,3,pollination
+Launaea.arborescens,Tenerife South 2,Myopites nigrescens,Tenerife South 2,1,pollination
+Launaea.arborescens,Tenerife South 2,Plagiolepis sp. 2,Tenerife South 2,7,pollination
+Launaea.arborescens,Tenerife South 2,Thysanoptera sp. 2,Tenerife South 2,5,pollination
+Launaea.arborescens,Tenerife South 2,Torymoides lindbergi,Tenerife South 2,3,pollination
+Launaea.arborescens,Tenerife South 2,Urelliosoma guimari,Tenerife South 2,3,pollination
+Lotus.sessilifolius,Tenerife South 2,Anthophora alluaudi,Tenerife South 2,1,pollination
+Lotus.sessilifolius,Tenerife South 2,Meligethes cf. canariensis,Tenerife South 2,1,pollination
+Lotus.sessilifolius,Tenerife South 2,Nomioides fortunatus,Tenerife South 2,1,pollination
+Lotus.sessilifolius,Tenerife South 2,Themnothorax hesperius,Tenerife South 2,1,pollination
+Lycium.intricatum,Tenerife South 2,Camponotus feae,Tenerife South 2,1,pollination
+Periploca.laevigata,Tenerife South 2,Camponotus feae,Tenerife South 2,12,pollination
+Periploca.laevigata,Tenerife South 2,Chloropidae sp. 5,Tenerife South 2,1,pollination
+Periploca.laevigata,Tenerife South 2,Chloropidae sp. 6,Tenerife South 2,1,pollination
+Periploca.laevigata,Tenerife South 2,Chrysomya albiceps,Tenerife South 2,35,pollination
+Periploca.laevigata,Tenerife South 2,Fannia sp.,Tenerife South 2,3,pollination
+Periploca.laevigata,Tenerife South 2,Lucilia sericata,Tenerife South 2,14,pollination
+Periploca.laevigata,Tenerife South 2,Monomorium subopacum,Tenerife South 2,1,pollination
+Periploca.laevigata,Tenerife South 2,Musca domestica,Tenerife South 2,3,pollination
+Periploca.laevigata,Tenerife South 2,Plagiolepis sp. 2,Tenerife South 2,1,pollination
+Periploca.laevigata,Tenerife South 2,Sarcophagidae sp. 5,Tenerife South 2,4,pollination
+Periploca.laevigata,Tenerife South 2,Sarcophagidae sp. 8,Tenerife South 2,2,pollination
+Periploca.laevigata,Tenerife South 2,Scenopinus sp.,Tenerife South 2,1,pollination
+Periploca.laevigata,Tenerife South 2,Sciaridae sp. 1,Tenerife South 2,5,pollination
+Satureja.kuegleri,Tenerife South 2,Gnaphosidae sp. 1,Tenerife South 2,1,pollination
+Satureja.kuegleri,Tenerife South 2,Musca domestica,Tenerife South 2,1,pollination
+Satureja.kuegleri,Tenerife South 2,Thysanoptera sp. 1,Tenerife South 2,1,pollination
+Schizogyne.sericea,Tenerife South 2,Apis mellifera,Tenerife South 2,1,pollination
+Schizogyne.sericea,Tenerife South 2,Attagenus wollastoni,Tenerife South 2,1,pollination
+Schizogyne.sericea,Tenerife South 2,Camponotus feae,Tenerife South 2,2,pollination
+Schizogyne.sericea,Tenerife South 2,Euderus sp.,Tenerife South 2,1,pollination
+Schizogyne.sericea,Tenerife South 2,Myopites nigrescens,Tenerife South 2,19,pollination
+Schizogyne.sericea,Tenerife South 2,Plagiolepis schmitzii,Tenerife South 2,2,pollination
+Schizogyne.sericea,Tenerife South 2,Themnothorax hesperius,Tenerife South 2,1,pollination
+Schizogyne.sericea,Tenerife South 2,Thysanoptera sp. 1,Tenerife South 2,1,pollination
+Schizogyne.sericea,Tenerife South 2,Thysanoptera sp. 2,Tenerife South 2,8,pollination
+Argyranthemum.frutescens,Tenerife Teno site 1,Aulacoderus canariensis,Tenerife Teno site 1,1,pollination
+Argyranthemum.frutescens,Tenerife Teno site 1,Camponotus feae,Tenerife Teno site 1,7,pollination
+Argyranthemum.frutescens,Tenerife Teno site 1,Dasytes subaenescens,Tenerife Teno site 1,5,pollination
+Argyranthemum.frutescens,Tenerife Teno site 1,Elasmus platyedrae,Tenerife Teno site 1,1,pollination
+Argyranthemum.frutescens,Tenerife Teno site 1,Eristalinus aeneus,Tenerife Teno site 1,1,pollination
+Argyranthemum.frutescens,Tenerife Teno site 1,Lasioglossum viride,Tenerife Teno site 1,11,pollination
+Argyranthemum.frutescens,Tenerife Teno site 1,Leptochilus cruentatus,Tenerife Teno site 1,1,pollination
+Argyranthemum.frutescens,Tenerife Teno site 1,Meligethes canariensis,Tenerife Teno site 1,4,pollination
+Argyranthemum.frutescens,Tenerife Teno site 1,Pteromalus sp. 1,Tenerife Teno site 1,2,pollination
+Argyranthemum.frutescens,Tenerife Teno site 1,Pteromalus sp. 4,Tenerife Teno site 1,2,pollination
+Argyranthemum.frutescens,Tenerife Teno site 1,Syritta pipiens,Tenerife Teno site 1,1,pollination
+Argyranthemum.frutescens,Tenerife Teno site 1,Thysanoptera sp. 1,Tenerife Teno site 1,9,pollination
+Argyranthemum.frutescens,Tenerife Teno site 1,Thysanoptera sp. 2,Tenerife Teno site 1,13,pollination
+Argyranthemum.frutescens,Tenerife Teno site 1,Thysanoptera sp. 7,Tenerife Teno site 1,11,pollination
+Ceballosia.fruticosa,Tenerife Teno site 1,Camponotus feae,Tenerife Teno site 1,13,pollination
+Ceballosia.fruticosa,Tenerife Teno site 1,Meligethes canariensis,Tenerife Teno site 1,9,pollination
+Ceballosia.fruticosa,Tenerife Teno site 1,Phthiria simonyi,Tenerife Teno site 1,8,pollination
+Ceballosia.fruticosa,Tenerife Teno site 1,Plagiolepis sp. 2,Tenerife Teno site 1,1,pollination
+Euphorbia.balsamifera..f.,Tenerife Teno site 1,Camponotus feae,Tenerife Teno site 1,29,pollination
+Euphorbia.balsamifera..f.,Tenerife Teno site 1,Eumerus latitarsis,Tenerife Teno site 1,2,pollination
+Euphorbia.balsamifera..f.,Tenerife Teno site 1,Plagiolepis sp. 2,Tenerife Teno site 1,2,pollination
+Euphorbia.balsamifera..f.,Tenerife Teno site 1,Tethina marmorata,Tenerife Teno site 1,1,pollination
+Euphorbia.balsamifera..f.,Tenerife Teno site 1,Themnothorax hesperius,Tenerife Teno site 1,1,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Anaspis proteus,Tenerife Teno site 1,21,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Attalus pallipes,Tenerife Teno site 1,1,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Bracon sp.,Tenerife Teno site 1,1,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Camponotus feae,Tenerife Teno site 1,20,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Chloropidae sp.,Tenerife Teno site 1,1,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Cryptocephalus gounellei,Tenerife Teno site 1,1,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Dasytes subaenescens,Tenerife Teno site 1,2,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Estheria simonyi,Tenerife Teno site 1,1,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Eumerus latitarsis,Tenerife Teno site 1,8,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Lasioglossum viride,Tenerife Teno site 1,2,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Plagiolepis sp. 2,Tenerife Teno site 1,2,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Sciaridae sp.,Tenerife Teno site 1,1,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Thomisus cf. onustus,Tenerife Teno site 1,1,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Thysanoptera sp. 1,Tenerife Teno site 1,26,pollination
+Euphorbia.balsamifera..m.,Tenerife Teno site 1,Thysanoptera sp. 7,Tenerife Teno site 1,17,pollination
+Euphorbia.lamarckii,Tenerife Teno site 1,Camponotus feae,Tenerife Teno site 1,11,pollination
+Euphorbia.lamarckii,Tenerife Teno site 1,Dasytes subaenescens,Tenerife Teno site 1,1,pollination
+Fagonia.albiflora,Tenerife Teno site 1,Anaspis proteus,Tenerife Teno site 1,22,pollination
+Fagonia.albiflora,Tenerife Teno site 1,Anthophora alluaudi,Tenerife Teno site 1,1,pollination
+Fagonia.albiflora,Tenerife Teno site 1,Camponotus feae,Tenerife Teno site 1,1,pollination
+Fagonia.albiflora,Tenerife Teno site 1,Lasioglossum loetum,Tenerife Teno site 1,2,pollination
+Fagonia.albiflora,Tenerife Teno site 1,Lasioglossum viride,Tenerife Teno site 1,1,pollination
+Fagonia.albiflora,Tenerife Teno site 1,Thysanoptera sp. 2,Tenerife Teno site 1,40,pollination
+Launaea.arborescens,Tenerife Teno site 1,Dasytes subaenescens,Tenerife Teno site 1,1,pollination
+Lycium.intricatum,Tenerife Teno site 1,Amegilla canifrons,Tenerife Teno site 1,1,pollination
+Lycium.intricatum,Tenerife Teno site 1,Anaspis proteus,Tenerife Teno site 1,1,pollination
+Lycium.intricatum,Tenerife Teno site 1,Anthophora alluaudi,Tenerife Teno site 1,10,pollination
+Lycium.intricatum,Tenerife Teno site 1,Camponotus feae,Tenerife Teno site 1,1,pollination
+Lycium.intricatum,Tenerife Teno site 1,Lasioglossum viride,Tenerife Teno site 1,3,pollination
+Nauplius.aquaticus,Tenerife Teno site 1,Camponotus feae,Tenerife Teno site 1,3,pollination
+Nauplius.aquaticus,Tenerife Teno site 1,Thysanoptera sp. 2,Tenerife Teno site 1,6,pollination
+Neochamaelea.pulverulenta,Tenerife Teno site 1,Camponotus feae,Tenerife Teno site 1,10,pollination
+Periploca.laevigata,Tenerife Teno site 1,Anaspis proteus,Tenerife Teno site 1,1,pollination
+Periploca.laevigata,Tenerife Teno site 1,Apis mellifera,Tenerife Teno site 1,1,pollination
+Periploca.laevigata,Tenerife Teno site 1,Camponotus feae,Tenerife Teno site 1,49,pollination
+Periploca.laevigata,Tenerife Teno site 1,Estheria simonyi,Tenerife Teno site 1,3,pollination
+Periploca.laevigata,Tenerife Teno site 1,Geometridae sp.,Tenerife Teno site 1,1,pollination
+Periploca.laevigata,Tenerife Teno site 1,Musca domestica,Tenerife Teno site 1,1,pollination
+Periploca.laevigata,Tenerife Teno site 1,Sciaridae sp.,Tenerife Teno site 1,1,pollination
+Rubia.fruticosa,Tenerife Teno site 1,Anaspis proteus,Tenerife Teno site 1,1,pollination
+Rubia.fruticosa,Tenerife Teno site 1,Attalus pallipes,Tenerife Teno site 1,1,pollination
+Rubia.fruticosa,Tenerife Teno site 1,Camponotus feae,Tenerife Teno site 1,7,pollination
+Rubia.fruticosa,Tenerife Teno site 1,Malthinus mutabilis,Tenerife Teno site 1,1,pollination
+Rubia.fruticosa,Tenerife Teno site 1,Sciaridae sp.,Tenerife Teno site 1,1,pollination
+Schizogyne.sericea,Tenerife Teno site 1,Anaspis proteus,Tenerife Teno site 1,3,pollination
+Schizogyne.sericea,Tenerife Teno site 1,Camponotus feae,Tenerife Teno site 1,6,pollination
+Schizogyne.sericea,Tenerife Teno site 1,Lasioglossum viride,Tenerife Teno site 1,2,pollination
+Schizogyne.sericea,Tenerife Teno site 1,Leptochilus cruentatus,Tenerife Teno site 1,1,pollination
+Schizogyne.sericea,Tenerife Teno site 1,Leptochilus eatoni,Tenerife Teno site 1,1,pollination
+Argyranthemum.frutescens,TenerifeTeno1 site 2,Apis mellifera,TenerifeTeno1 site 2,1,pollination
+Argyranthemum.frutescens,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,8,pollination
+Argyranthemum.frutescens,TenerifeTeno1 site 2,Dasytes subaenescens,TenerifeTeno1 site 2,3,pollination
+Argyranthemum.frutescens,TenerifeTeno1 site 2,Eristalis tenax,TenerifeTeno1 site 2,1,pollination
+Argyranthemum.frutescens,TenerifeTeno1 site 2,Lasioglossum viride,TenerifeTeno1 site 2,4,pollination
+Argyranthemum.frutescens,TenerifeTeno1 site 2,Myathropa florea,TenerifeTeno1 site 2,1,pollination
+Argyranthemum.frutescens,TenerifeTeno1 site 2,Scenopinus sp.,TenerifeTeno1 site 2,1,pollination
+Argyranthemum.frutescens,TenerifeTeno1 site 2,Syritta pipiens,TenerifeTeno1 site 2,3,pollination
+Argyranthemum.frutescens,TenerifeTeno1 site 2,Thysanoptera sp. 1,TenerifeTeno1 site 2,3,pollination
+Argyranthemum.frutescens,TenerifeTeno1 site 2,Thysanoptera sp. 2,TenerifeTeno1 site 2,2,pollination
+Argyranthemum.frutescens,TenerifeTeno1 site 2,Thysanoptera sp. 7,TenerifeTeno1 site 2,37,pollination
+Asphaltklee.bituminosa,TenerifeTeno1 site 2,Eucera gracilipes,TenerifeTeno1 site 2,1,pollination
+Ceballosia.fruticosa,TenerifeTeno1 site 2,Anaspis proteus,TenerifeTeno1 site 2,4,pollination
+Ceballosia.fruticosa,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,6,pollination
+Ceballosia.fruticosa,TenerifeTeno1 site 2,Estheria simonyi,TenerifeTeno1 site 2,1,pollination
+Ceballosia.fruticosa,TenerifeTeno1 site 2,Meligethes canariensis,TenerifeTeno1 site 2,5,pollination
+Ceballosia.fruticosa,TenerifeTeno1 site 2,Phthiria simonyi,TenerifeTeno1 site 2,4,pollination
+Ceballosia.fruticosa,TenerifeTeno1 site 2,Syritta pipiens,TenerifeTeno1 site 2,1,pollination
+Ceropegia.dichotoma,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,1,pollination
+Ceropegia.dichotoma,TenerifeTeno1 site 2,Thysanoptera sp. 3,TenerifeTeno1 site 2,1,pollination
+Ceropegia.dichotoma,TenerifeTeno1 site 2,Thysanoptera sp. 7,TenerifeTeno1 site 2,2,pollination
+Euphorbia.balsamifera..f.,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,24,pollination
+Euphorbia.balsamifera..f.,TenerifeTeno1 site 2,Ceratogoponidae sp.,TenerifeTeno1 site 2,1,pollination
+Euphorbia.balsamifera..f.,TenerifeTeno1 site 2,Chironomidae sp.,TenerifeTeno1 site 2,1,pollination
+Euphorbia.balsamifera..f.,TenerifeTeno1 site 2,Estheria simonyi,TenerifeTeno1 site 2,1,pollination
+Euphorbia.balsamifera..f.,TenerifeTeno1 site 2,Megaselia sp. 2,TenerifeTeno1 site 2,3,pollination
+Euphorbia.balsamifera..f.,TenerifeTeno1 site 2,Plagiolepis sp. 2,TenerifeTeno1 site 2,35,pollination
+Euphorbia.balsamifera..f.,TenerifeTeno1 site 2,Platypalpus sp.,TenerifeTeno1 site 2,2,pollination
+Euphorbia.balsamifera..f.,TenerifeTeno1 site 2,Themnothorax hesperius,TenerifeTeno1 site 2,7,pollination
+Euphorbia.balsamifera..m.,TenerifeTeno1 site 2,Anaspis proteus,TenerifeTeno1 site 2,19,pollination
+Euphorbia.balsamifera..m.,TenerifeTeno1 site 2,Bassus sp.,TenerifeTeno1 site 2,4,pollination
+Euphorbia.balsamifera..m.,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,51,pollination
+Euphorbia.balsamifera..m.,TenerifeTeno1 site 2,Crematogaster alluaudi,TenerifeTeno1 site 2,1,pollination
+Euphorbia.balsamifera..m.,TenerifeTeno1 site 2,Dasytes cf. subaenescens,TenerifeTeno1 site 2,1,pollination
+Euphorbia.balsamifera..m.,TenerifeTeno1 site 2,Estheria simonyi,TenerifeTeno1 site 2,3,pollination
+Euphorbia.balsamifera..m.,TenerifeTeno1 site 2,Eumerus latitarsis,TenerifeTeno1 site 2,11,pollination
+Euphorbia.balsamifera..m.,TenerifeTeno1 site 2,Eumerus nivariae,TenerifeTeno1 site 2,8,pollination
+Euphorbia.balsamifera..m.,TenerifeTeno1 site 2,Malthinus mutabilis,TenerifeTeno1 site 2,2,pollination
+Euphorbia.balsamifera..m.,TenerifeTeno1 site 2,Minotetrastichus sp.,TenerifeTeno1 site 2,1,pollination
+Euphorbia.balsamifera..m.,TenerifeTeno1 site 2,Sciaridae sp.,TenerifeTeno1 site 2,2,pollination
+Euphorbia.balsamifera..m.,TenerifeTeno1 site 2,Themnothorax hesperius,TenerifeTeno1 site 2,3,pollination
+Euphorbia.balsamifera..m.,TenerifeTeno1 site 2,Thysanoptera sp. 1,TenerifeTeno1 site 2,42,pollination
+Euphorbia.lamarckii,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,20,pollination
+Euphorbia.lamarckii,TenerifeTeno1 site 2,Estheria simonyi,TenerifeTeno1 site 2,1,pollination
+Euphorbia.lamarckii,TenerifeTeno1 site 2,Eucera gracilipes,TenerifeTeno1 site 2,1,pollination
+Euphorbia.lamarckii,TenerifeTeno1 site 2,Eumerus nivariae,TenerifeTeno1 site 2,2,pollination
+Fagonia.albiflora,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,2,pollination
+Fagonia.albiflora,TenerifeTeno1 site 2,Lasioglossum loetum,TenerifeTeno1 site 2,3,pollination
+Fagonia.albiflora,TenerifeTeno1 site 2,Thysanoptera sp. 2,TenerifeTeno1 site 2,5,pollination
+Frankenia.laevis,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,8,pollination
+Frankenia.laevis,TenerifeTeno1 site 2,Chetogena acuminata,TenerifeTeno1 site 2,1,pollination
+Frankenia.laevis,TenerifeTeno1 site 2,Hylaeus ater,TenerifeTeno1 site 2,2,pollination
+Kickxia.scoparia,TenerifeTeno1 site 2,Lasioglossum viride,TenerifeTeno1 site 2,1,pollination
+Launaea.arborescens,TenerifeTeno1 site 2,Megaselia sp. 2,TenerifeTeno1 site 2,1,pollination
+Launaea.arborescens,TenerifeTeno1 site 2,Syritta pipiens,TenerifeTeno1 site 2,1,pollination
+Launaea.arborescens,TenerifeTeno1 site 2,Urelliosoma guimari,TenerifeTeno1 site 2,1,pollination
+Lavendula.buchii,TenerifeTeno1 site 2,Amegilla quadrifasciata,TenerifeTeno1 site 2,2,pollination
+Lavendula.buchii,TenerifeTeno1 site 2,Anthophora alluaudi,TenerifeTeno1 site 2,2,pollination
+Lavendula.buchii,TenerifeTeno1 site 2,Anthophora orotavae,TenerifeTeno1 site 2,2,pollination
+Lavendula.buchii,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,7,pollination
+Lavendula.buchii,TenerifeTeno1 site 2,Leptochilus cruentatus,TenerifeTeno1 site 2,1,pollination
+Lycium.intricatum,TenerifeTeno1 site 2,Amegilla quadrifasciata,TenerifeTeno1 site 2,1,pollination
+Lycium.intricatum,TenerifeTeno1 site 2,Anthophora alluaudi,TenerifeTeno1 site 2,1,pollination
+Lycium.intricatum,TenerifeTeno1 site 2,Anthophora orotavae,TenerifeTeno1 site 2,1,pollination
+Lycium.intricatum,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,1,pollination
+Lycium.intricatum,TenerifeTeno1 site 2,Themnothorax hesperius,TenerifeTeno1 site 2,1,pollination
+Nauplius.aquaticus,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,16,pollination
+Nauplius.aquaticus,TenerifeTeno1 site 2,Chloropidae sp. 5,TenerifeTeno1 site 2,4,pollination
+Nauplius.aquaticus,TenerifeTeno1 site 2,Thysanoptera sp. 2,TenerifeTeno1 site 2,15,pollination
+Parolinia.intermedia,TenerifeTeno1 site 2,Anaspis proteus,TenerifeTeno1 site 2,19,pollination
+Parolinia.intermedia,TenerifeTeno1 site 2,Anthophora alluaudi,TenerifeTeno1 site 2,7,pollination
+Parolinia.intermedia,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,3,pollination
+Parolinia.intermedia,TenerifeTeno1 site 2,Dasytes cf. subaenescens,TenerifeTeno1 site 2,1,pollination
+Parolinia.intermedia,TenerifeTeno1 site 2,Dasytes subaenescens,TenerifeTeno1 site 2,7,pollination
+Parolinia.intermedia,TenerifeTeno1 site 2,Estheria simonyi,TenerifeTeno1 site 2,9,pollination
+Parolinia.intermedia,TenerifeTeno1 site 2,Eucera gracilipes,TenerifeTeno1 site 2,5,pollination
+Parolinia.intermedia,TenerifeTeno1 site 2,Lasioglossum viride,TenerifeTeno1 site 2,16,pollination
+Parolinia.intermedia,TenerifeTeno1 site 2,Leptochilus cruentatus,TenerifeTeno1 site 2,10,pollination
+Parolinia.intermedia,TenerifeTeno1 site 2,Meligethes canariensis,TenerifeTeno1 site 2,11,pollination
+Parolinia.intermedia,TenerifeTeno1 site 2,Phthiria simonyi,TenerifeTeno1 site 2,1,pollination
+Parolinia.intermedia,TenerifeTeno1 site 2,Syritta pipiens,TenerifeTeno1 site 2,9,pollination
+Parolinia.intermedia,TenerifeTeno1 site 2,Thysanoptera sp. 7,TenerifeTeno1 site 2,1,pollination
+Periploca.laevigata,TenerifeTeno1 site 2,Agromyzidae? sp. 2,TenerifeTeno1 site 2,1,pollination
+Periploca.laevigata,TenerifeTeno1 site 2,Anaspis proteus,TenerifeTeno1 site 2,3,pollination
+Periploca.laevigata,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,36,pollination
+Periploca.laevigata,TenerifeTeno1 site 2,Coccinella miranda,TenerifeTeno1 site 2,1,pollination
+Periploca.laevigata,TenerifeTeno1 site 2,Estheria simonyi,TenerifeTeno1 site 2,1,pollination
+Periploca.laevigata,TenerifeTeno1 site 2,Eumerus latitarsis,TenerifeTeno1 site 2,2,pollination
+Periploca.laevigata,TenerifeTeno1 site 2,Musca domestica,TenerifeTeno1 site 2,8,pollination
+Periploca.laevigata,TenerifeTeno1 site 2,Neodryophilus cryptophagoides,TenerifeTeno1 site 2,1,pollination
+Rubia.fruticosa,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,11,pollination
+Rubia.fruticosa,TenerifeTeno1 site 2,Sciaridae sp.,TenerifeTeno1 site 2,1,pollination
+Schizogyne.sericea,TenerifeTeno1 site 2,Camponotus feae,TenerifeTeno1 site 2,1,pollination
+Schizogyne.sericea,TenerifeTeno1 site 2,Dasytes cf. subaenescens,TenerifeTeno1 site 2,1,pollination
+Schizogyne.sericea,TenerifeTeno1 site 2,Euderus sp.,TenerifeTeno1 site 2,1,pollination
+Schizogyne.sericea,TenerifeTeno1 site 2,Megaselia sp. 2,TenerifeTeno1 site 2,1,pollination
+Argyranthemum.frutescens,La Gomera site 1,Attalus rugifrons,La Gomera site 1,1,pollination
+Argyranthemum.frutescens,La Gomera site 1,Bruchidius wollastoni,La Gomera site 1,2,pollination
+Argyranthemum.frutescens,La Gomera site 1,Campiglossa reticulata,La Gomera site 1,1,pollination
+Argyranthemum.frutescens,La Gomera site 1,Camponotus feae,La Gomera site 1,2,pollination
+Argyranthemum.frutescens,La Gomera site 1,Chrysomya albiceps,La Gomera site 1,2,pollination
+Argyranthemum.frutescens,La Gomera site 1,Lasioglossum viride,La Gomera site 1,5,pollination
+Argyranthemum.frutescens,La Gomera site 1,Myopites nigrescens,La Gomera site 1,1,pollination
+Argyranthemum.frutescens,La Gomera site 1,Pieris rapae,La Gomera site 1,1,pollination
+Argyranthemum.frutescens,La Gomera site 1,Tachina canariensis,La Gomera site 1,4,pollination
+Argyranthemum.frutescens,La Gomera site 1,Thomisus cf. globosum,La Gomera site 1,2,pollination
+Argyranthemum.frutescens,La Gomera site 1,Thomisus cf. onustus,La Gomera site 1,1,pollination
+Argyranthemum.frutescens,La Gomera site 1,Thyridanthrax indigenus,La Gomera site 1,3,pollination
+Argyranthemum.frutescens,La Gomera site 1,Thysanoptera sp. 1,La Gomera site 1,3,pollination
+Argyranthemum.frutescens,La Gomera site 1,Thysanoptera sp. 2,La Gomera site 1,6,pollination
+Euphorbia.balsamifera..f.,La Gomera site 1,Araneidae sp. 1,La Gomera site 1,1,pollination
+Euphorbia.balsamifera..f.,La Gomera site 1,Camponotus feae,La Gomera site 1,30,pollination
+Euphorbia.balsamifera..f.,La Gomera site 1,Eumerus latitarsis,La Gomera site 1,6,pollination
+Euphorbia.balsamifera..f.,La Gomera site 1,Plagiolepis schmitzii,La Gomera site 1,3,pollination
+Euphorbia.balsamifera..f.,La Gomera site 1,Platypalpus sp. 1,La Gomera site 1,1,pollination
+Euphorbia.balsamifera..f.,La Gomera site 1,Sarcophagidae sp. 8,La Gomera site 1,1,pollination
+Euphorbia.balsamifera..f.,La Gomera site 1,Tachina canariensis,La Gomera site 1,2,pollination
+Euphorbia.balsamifera..f.,La Gomera site 1,Thyridanthrax indigenus,La Gomera site 1,1,pollination
+Euphorbia.balsamifera..m.,La Gomera site 1,Camponotus feae,La Gomera site 1,12,pollination
+Euphorbia.balsamifera..m.,La Gomera site 1,Dasytes subaenescens,La Gomera site 1,1,pollination
+Euphorbia.balsamifera..m.,La Gomera site 1,Eumerus latitarsis,La Gomera site 1,17,pollination
+Euphorbia.balsamifera..m.,La Gomera site 1,Oxyopes kraepelinorum,La Gomera site 1,1,pollination
+Euphorbia.balsamifera..m.,La Gomera site 1,Paratrechina longicornis,La Gomera site 1,2,pollination
+Euphorbia.balsamifera..m.,La Gomera site 1,Plagiolepis schmitzii,La Gomera site 1,10,pollination
+Euphorbia.balsamifera..m.,La Gomera site 1,Tachina canariensis,La Gomera site 1,1,pollination
+Euphorbia.balsamifera..m.,La Gomera site 1,Thyridanthrax indigenus,La Gomera site 1,1,pollination
+Euphorbia.balsamifera..m.,La Gomera site 1,Thysanoptera sp. 1,La Gomera site 1,15,pollination
+Euphorbia.lamarckii,La Gomera site 1,Aprostocetus occidentalis,La Gomera site 1,2,pollination
+Euphorbia.lamarckii,La Gomera site 1,Camponotus feae,La Gomera site 1,27,pollination
+Euphorbia.lamarckii,La Gomera site 1,Estheria simonyi,La Gomera site 1,1,pollination
+Euphorbia.lamarckii,La Gomera site 1,Musca domestica,La Gomera site 1,1,pollination
+Euphorbia.lamarckii,La Gomera site 1,Nyctia lugubris,La Gomera site 1,1,pollination
+Euphorbia.lamarckii,La Gomera site 1,Tachina canariensis,La Gomera site 1,2,pollination
+Kickxia.scoparia,La Gomera site 1,Thysanoptera sp. 2,La Gomera site 1,1,pollination
+Launaea.arborescens,La Gomera site 1,Apis mellifera,La Gomera site 1,1,pollination
+Launaea.arborescens,La Gomera site 1,Bruchidius wollastoni,La Gomera site 1,2,pollination
+Launaea.arborescens,La Gomera site 1,Dasytes subaenescens,La Gomera site 1,1,pollination
+Launaea.arborescens,La Gomera site 1,Halictus fulvipes,La Gomera site 1,1,pollination
+Launaea.arborescens,La Gomera site 1,Lasioglossum loetum,La Gomera site 1,1,pollination
+Launaea.arborescens,La Gomera site 1,Lasioglossum viride,La Gomera site 1,1,pollination
+Launaea.arborescens,La Gomera site 1,Thysanoptera sp. 2,La Gomera site 1,2,pollination
+Lavendula.multifida,La Gomera site 1,Camponotus feae,La Gomera site 1,2,pollination
+Periploca.laevigata,La Gomera site 1,Camponotus feae,La Gomera site 1,14,pollination
+Periploca.laevigata,La Gomera site 1,Lasioglossum viride,La Gomera site 1,1,pollination
+Periploca.laevigata,La Gomera site 1,Megaselia sp. 1,La Gomera site 1,2,pollination
+Periploca.laevigata,La Gomera site 1,Paratrechina longicornis,La Gomera site 1,3,pollination
+Periploca.laevigata,La Gomera site 1,Plagiolepis schmitzii,La Gomera site 1,3,pollination
+Periploca.laevigata,La Gomera site 1,Scymnus canariensis,La Gomera site 1,1,pollination
+Phagnalon.saxatile,La Gomera site 1,Bruchidius wollastoni,La Gomera site 1,1,pollination
+Phagnalon.saxatile,La Gomera site 1,Lasioglossum viride,La Gomera site 1,6,pollination
+Phagnalon.saxatile,La Gomera site 1,Myopites nigrescens,La Gomera site 1,1,pollination
+Phagnalon.saxatile,La Gomera site 1,Plagiolepis schmitzii,La Gomera site 1,2,pollination
+Phagnalon.saxatile,La Gomera site 1,Thyridanthrax indigenus,La Gomera site 1,3,pollination
+Phagnalon.saxatile,La Gomera site 1,Thysanoptera sp. 2,La Gomera site 1,6,pollination
+Plocama.pendula,La Gomera site 1,Apis mellifera,La Gomera site 1,1,pollination
+Plocama.pendula,La Gomera site 1,Lasioglossum viride,La Gomera site 1,3,pollination
+Plocama.pendula,La Gomera site 1,Tachina canariensis,La Gomera site 1,1,pollination
+Rubia.fruticosa,La Gomera site 1,Aprostocetus occidentalis,La Gomera site 1,1,pollination
+Rubia.fruticosa,La Gomera site 1,Araneidae sp. 2,La Gomera site 1,1,pollination
+Rubia.fruticosa,La Gomera site 1,Estheria simonyi,La Gomera site 1,1,pollination
+Rubia.fruticosa,La Gomera site 1,Lasioglossum loetum,La Gomera site 1,2,pollination
+Rubia.fruticosa,La Gomera site 1,Sarcophagidae sp. 8,La Gomera site 1,2,pollination
+Rubia.fruticosa,La Gomera site 1,Sciaridae sp. 1,La Gomera site 1,1,pollination
+Argyranthemum.frutescens,La Gomera site 2,Attalus rugifrons,La Gomera site 2,1,pollination
+Argyranthemum.frutescens,La Gomera site 2,Bruchidius wollastoni,La Gomera site 2,5,pollination
+Argyranthemum.frutescens,La Gomera site 2,Lasioglossum viride,La Gomera site 2,2,pollination
+Argyranthemum.frutescens,La Gomera site 2,Lucilia sericata,La Gomera site 2,5,pollination
+Argyranthemum.frutescens,La Gomera site 2,Tachina canariensis,La Gomera site 2,4,pollination
+Argyranthemum.frutescens,La Gomera site 2,Thyridanthrax indigenus,La Gomera site 2,1,pollination
+Argyranthemum.frutescens,La Gomera site 2,Thysanoptera sp. 1,La Gomera site 2,33,pollination
+Asphaltklee.bituminosa,La Gomera site 2,Anthophora alluaudi,La Gomera site 2,2,pollination
+Asphaltklee.bituminosa,La Gomera site 2,Chalicodoma canescens,La Gomera site 2,2,pollination
+Euphorbia.balsamifera..f.,La Gomera site 2,Bruchidius wollastoni,La Gomera site 2,1,pollination
+Euphorbia.balsamifera..f.,La Gomera site 2,Camponotus feae,La Gomera site 2,10,pollination
+Euphorbia.balsamifera..f.,La Gomera site 2,Eumerus latitarsis,La Gomera site 2,1,pollination
+Euphorbia.balsamifera..f.,La Gomera site 2,Eupelmus testaceiventris,La Gomera site 2,1,pollination
+Euphorbia.balsamifera..f.,La Gomera site 2,Lasioglossum loetum,La Gomera site 2,7,pollination
+Euphorbia.balsamifera..f.,La Gomera site 2,Plagiolepis schmitzii,La Gomera site 2,16,pollination
+Euphorbia.balsamifera..f.,La Gomera site 2,Sarcophagidae sp. 5,La Gomera site 2,1,pollination
+Euphorbia.balsamifera..f.,La Gomera site 2,Tachina canariensis,La Gomera site 2,1,pollination
+Euphorbia.balsamifera..m.,La Gomera site 2,Anaspis cf. canariensis,La Gomera site 2,9,pollination
+Euphorbia.balsamifera..m.,La Gomera site 2,Camponotus feae,La Gomera site 2,14,pollination
+Euphorbia.balsamifera..m.,La Gomera site 2,Chloropidae sp. 4,La Gomera site 2,1,pollination
+Euphorbia.balsamifera..m.,La Gomera site 2,Empididae sp. 1,La Gomera site 2,3,pollination
+Euphorbia.balsamifera..m.,La Gomera site 2,Eumerus latitarsis,La Gomera site 2,17,pollination
+Euphorbia.balsamifera..m.,La Gomera site 2,Lasioglossum loetum,La Gomera site 2,4,pollination
+Euphorbia.balsamifera..m.,La Gomera site 2,Lasioglossum viride,La Gomera site 2,1,pollination
+Euphorbia.balsamifera..m.,La Gomera site 2,Plagiolepis schmitzii,La Gomera site 2,11,pollination
+Euphorbia.balsamifera..m.,La Gomera site 2,Thyridanthrax indigenus,La Gomera site 2,21,pollination
+Euphorbia.balsamifera..m.,La Gomera site 2,Thysanoptera sp. 1,La Gomera site 2,6,pollination
+Euphorbia.lamarckii,La Gomera site 2,Camponotus feae,La Gomera site 2,24,pollination
+Euphorbia.lamarckii,La Gomera site 2,Chetogena acuminata,La Gomera site 2,1,pollination
+Euphorbia.lamarckii,La Gomera site 2,Exetastes segmentarius,La Gomera site 2,1,pollination
+Euphorbia.lamarckii,La Gomera site 2,Lasioglossum loetum,La Gomera site 2,1,pollination
+Euphorbia.lamarckii,La Gomera site 2,Musca domestica,La Gomera site 2,1,pollination
+Euphorbia.lamarckii,La Gomera site 2,Sarcophagidae sp. 8,La Gomera site 2,1,pollination
+Euphorbia.lamarckii,La Gomera site 2,Tachina canariensis,La Gomera site 2,4,pollination
+Fagonia.albiflora,La Gomera site 2,Anthophora alluaudi,La Gomera site 2,2,pollination
+Fagonia.albiflora,La Gomera site 2,Anthophora orotavae,La Gomera site 2,1,pollination
+Fagonia.albiflora,La Gomera site 2,Apis mellifera,La Gomera site 2,2,pollination
+Fagonia.albiflora,La Gomera site 2,Lasioglossum viride,La Gomera site 2,3,pollination
+Fagonia.albiflora,La Gomera site 2,Scaeva albomaculata,La Gomera site 2,2,pollination
+Kickxia.scoparia,La Gomera site 2,Amegilla quadrifasciata,La Gomera site 2,1,pollination
+Kickxia.scoparia,La Gomera site 2,Anthophora alluaudi,La Gomera site 2,1,pollination
+Kickxia.scoparia,La Gomera site 2,Thysanoptera sp. 2,La Gomera site 2,1,pollination
+Launaea.arborescens,La Gomera site 2,Anthophora alluaudi,La Gomera site 2,1,pollination
+Launaea.arborescens,La Gomera site 2,Apis mellifera,La Gomera site 2,5,pollination
+Launaea.arborescens,La Gomera site 2,Aprostocetus occidentalis,La Gomera site 2,1,pollination
+Launaea.arborescens,La Gomera site 2,Camponotus feae,La Gomera site 2,1,pollination
+Launaea.arborescens,La Gomera site 2,Estheria simonyi,La Gomera site 2,1,pollination
+Launaea.arborescens,La Gomera site 2,Lasioglossum viride,La Gomera site 2,21,pollination
+Launaea.arborescens,La Gomera site 2,Osmia latreillei,La Gomera site 2,1,pollination
+Launaea.arborescens,La Gomera site 2,Pieris rapae,La Gomera site 2,1,pollination
+Launaea.arborescens,La Gomera site 2,Plagiolepis schmitzii,La Gomera site 2,5,pollination
+Launaea.arborescens,La Gomera site 2,Thyridanthrax indigenus,La Gomera site 2,1,pollination
+Launaea.arborescens,La Gomera site 2,Thysanoptera sp. 2,La Gomera site 2,5,pollination
+Launaea.arborescens,La Gomera site 2,Urelliosoma guimari,La Gomera site 2,1,pollination
+Lycium.intricatum,La Gomera site 2,Amegilla quadrifasciata,La Gomera site 2,2,pollination
+Lycium.intricatum,La Gomera site 2,Blaesoxipha sp. 1,La Gomera site 2,2,pollination
+Lycium.intricatum,La Gomera site 2,Lasioglossum loetum,La Gomera site 2,2,pollination
+Lycium.intricatum,La Gomera site 2,Lasioglossum viride,La Gomera site 2,1,pollination
+Periploca.laevigata,La Gomera site 2,Aprostocetus occidentalis,La Gomera site 2,11,pollination
+Periploca.laevigata,La Gomera site 2,Camponotus feae,La Gomera site 2,48,pollination
+Periploca.laevigata,La Gomera site 2,Plagiolepis schmitzii,La Gomera site 2,4,pollination
+Periploca.laevigata,La Gomera site 2,Sciaridae sp. 1,La Gomera site 2,1,pollination
+Phagnalon.saxatile,La Gomera site 2,Apis mellifera,La Gomera site 2,1,pollination
+Phagnalon.saxatile,La Gomera site 2,Camponotus feae,La Gomera site 2,9,pollination
+Phagnalon.saxatile,La Gomera site 2,Eurytoma sp. 2,La Gomera site 2,1,pollination
+Phagnalon.saxatile,La Gomera site 2,Lasioglossum loetum,La Gomera site 2,3,pollination
+Phagnalon.saxatile,La Gomera site 2,Lasioglossum viride,La Gomera site 2,2,pollination
+Phagnalon.saxatile,La Gomera site 2,Lucilia sericata,La Gomera site 2,1,pollination
+Phagnalon.saxatile,La Gomera site 2,Myopites nigrescens,La Gomera site 2,3,pollination
+Phagnalon.saxatile,La Gomera site 2,Plagiolepis schmitzii,La Gomera site 2,2,pollination
+Phagnalon.saxatile,La Gomera site 2,Thyridanthrax indigenus,La Gomera site 2,1,pollination
+Phagnalon.saxatile,La Gomera site 2,Thysanoptera sp. 2,La Gomera site 2,11,pollination
+Phagnalon.saxatile,La Gomera site 2,Trupanea augur,La Gomera site 2,1,pollination
+Rubia.fruticosa,La Gomera site 2,Aprostocetus occidentalis,La Gomera site 2,1,pollination
+Rubia.fruticosa,La Gomera site 2,Camponotus feae,La Gomera site 2,3,pollination
+Rubia.fruticosa,La Gomera site 2,Eupelmus sp.,La Gomera site 2,1,pollination
+Rubia.fruticosa,La Gomera site 2,Lasioglossum loetum,La Gomera site 2,1,pollination
+Rubia.fruticosa,La Gomera site 2,Nyctia lugubris,La Gomera site 2,1,pollination
+Rubia.fruticosa,La Gomera site 2,Plagiolepis schmitzii,La Gomera site 2,6,pollination
+Salvia.aegyptiaca,La Gomera site 2,Thyridanthrax indigenus,La Gomera site 2,2,pollination
+Asphaltklee.bituminosa,El Hierro site 1,Anthophora alluaudi,El Hierro site 1,2,pollination
+Asphaltklee.bituminosa,El Hierro site 1,Camponotus feae,El Hierro site 1,1,pollination
+Asphaltklee.bituminosa,El Hierro site 1,Colias croceus,El Hierro site 1,1,pollination
+Asphaltklee.bituminosa,El Hierro site 1,Dasytes subaenescens,El Hierro site 1,1,pollination
+Asphaltklee.bituminosa,El Hierro site 1,Estheria simonyi,El Hierro site 1,1,pollination
+Asphaltklee.bituminosa,El Hierro site 1,Eucera gracilipes,El Hierro site 1,3,pollination
+Asphaltklee.bituminosa,El Hierro site 1,Eumerus latitarsis,El Hierro site 1,1,pollination
+Ceballosia.fruticosa,El Hierro site 1,Camponotus feae,El Hierro site 1,8,pollination
+Euphorbia.balsamifera..f.,El Hierro site 1,Camponotus feae,El Hierro site 1,27,pollination
+Euphorbia.balsamifera..f.,El Hierro site 1,Dilophus hiemalis,El Hierro site 1,1,pollination
+Euphorbia.balsamifera..f.,El Hierro site 1,Empididae sp. 1,El Hierro site 1,1,pollination
+Euphorbia.balsamifera..f.,El Hierro site 1,Lasioglossum loetum,El Hierro site 1,2,pollination
+Euphorbia.balsamifera..f.,El Hierro site 1,Lasioglossum viride,El Hierro site 1,1,pollination
+Euphorbia.balsamifera..m.,El Hierro site 1,Camponotus feae,El Hierro site 1,45,pollination
+Euphorbia.balsamifera..m.,El Hierro site 1,Chironomidae sp. 1,El Hierro site 1,1,pollination
+Euphorbia.balsamifera..m.,El Hierro site 1,Chloropidae sp. 3,El Hierro site 1,2,pollination
+Euphorbia.balsamifera..m.,El Hierro site 1,Lasioglossum loetum,El Hierro site 1,7,pollination
+Euphorbia.balsamifera..m.,El Hierro site 1,Lasioglossum viride,El Hierro site 1,2,pollination
+Euphorbia.balsamifera..m.,El Hierro site 1,Thomisus cf. onustus,El Hierro site 1,1,pollination
+Euphorbia.balsamifera..m.,El Hierro site 1,Thysanoptera sp. 1,El Hierro site 1,18,pollination
+Euphorbia.lamarckii,El Hierro site 1,Anthophora alluaudi,El Hierro site 1,2,pollination
+Euphorbia.lamarckii,El Hierro site 1,Camponotus feae,El Hierro site 1,29,pollination
+Euphorbia.lamarckii,El Hierro site 1,Ceratogoponidae sp. 2,El Hierro site 1,1,pollination
+Euphorbia.lamarckii,El Hierro site 1,Chironomidae sp. 1,El Hierro site 1,2,pollination
+Euphorbia.lamarckii,El Hierro site 1,Chloropidae sp. 3,El Hierro site 1,2,pollination
+Euphorbia.lamarckii,El Hierro site 1,Colletes dimidiatus,El Hierro site 1,2,pollination
+Euphorbia.lamarckii,El Hierro site 1,Dasytes subaenescens,El Hierro site 1,1,pollination
+Euphorbia.lamarckii,El Hierro site 1,Dilophus hiemalis,El Hierro site 1,2,pollination
+Euphorbia.lamarckii,El Hierro site 1,Eristalinus taeniops,El Hierro site 1,1,pollination
+Euphorbia.lamarckii,El Hierro site 1,Estheria simonyi,El Hierro site 1,9,pollination
+Euphorbia.lamarckii,El Hierro site 1,Eucera gracilipes,El Hierro site 1,4,pollination
+Euphorbia.lamarckii,El Hierro site 1,Eumerus latitarsis,El Hierro site 1,1,pollination
+Euphorbia.lamarckii,El Hierro site 1,Lasioglossum loetum,El Hierro site 1,5,pollination
+Euphorbia.lamarckii,El Hierro site 1,Lasioglossum viride,El Hierro site 1,2,pollination
+Euphorbia.lamarckii,El Hierro site 1,Linnaemyia soror,El Hierro site 1,1,pollination
+Euphorbia.lamarckii,El Hierro site 1,Lucilia sericata,El Hierro site 1,1,pollination
+Euphorbia.lamarckii,El Hierro site 1,Myathropa florea,El Hierro site 1,1,pollination
+Euphorbia.lamarckii,El Hierro site 1,Mycetophilidae sp. 1,El Hierro site 1,2,pollination
+Euphorbia.lamarckii,El Hierro site 1,Perilampus sp. 2,El Hierro site 1,1,pollination
+Euphorbia.lamarckii,El Hierro site 1,Scaeva albomaculata,El Hierro site 1,1,pollination
+Euphorbia.lamarckii,El Hierro site 1,Tachina canariensis,El Hierro site 1,2,pollination
+Lotus.glaucus,El Hierro site 1,Chalicodoma canescens,El Hierro site 1,1,pollination
+Lotus.glaucus,El Hierro site 1,Lasioglossum arctifrons,El Hierro site 1,1,pollination
+Lotus.glaucus,El Hierro site 1,Lasioglossum viride,El Hierro site 1,1,pollination
+Lotus.glaucus,El Hierro site 1,Megachile canariensis,El Hierro site 1,1,pollination
+Lotus.glaucus,El Hierro site 1,Osmia canaria,El Hierro site 1,1,pollination
+Lotus.glaucus,El Hierro site 1,Sciaridae sp. 1,El Hierro site 1,1,pollination
+Lotus.glaucus,El Hierro site 1,Thysanoptera sp. 2,El Hierro site 1,4,pollination
+Periploca.laevigata,El Hierro site 1,Camponotus feae,El Hierro site 1,28,pollination
+Periploca.laevigata,El Hierro site 1,Delia flavibasis,El Hierro site 1,1,pollination
+Periploca.laevigata,El Hierro site 1,Lucilia sericata,El Hierro site 1,1,pollination
+Periploca.laevigata,El Hierro site 1,Thaumatomyia notata,El Hierro site 1,1,pollination
+Rubia.fruticosa,El Hierro site 1,Camponotus feae,El Hierro site 1,4,pollination
+Rubia.fruticosa,El Hierro site 1,Myathropa florea,El Hierro site 1,1,pollination
+Asphaltklee.bituminosa,El Hierro site 2,Anthophora alluaudi,El Hierro site 2,3,pollination
+Asphaltklee.bituminosa,El Hierro site 2,Camponotus feae,El Hierro site 2,1,pollination
+Asphaltklee.bituminosa,El Hierro site 2,Colias croceus,El Hierro site 2,1,pollination
+Asphaltklee.bituminosa,El Hierro site 2,Estheria simonyi,El Hierro site 2,2,pollination
+Asphaltklee.bituminosa,El Hierro site 2,Villa nigriceps,El Hierro site 2,1,pollination
+Ceballosia.fruticosa,El Hierro site 2,Camponotus feae,El Hierro site 2,5,pollination
+Ceballosia.fruticosa,El Hierro site 2,Perilampus sp. 1,El Hierro site 2,1,pollination
+Ceballosia.fruticosa,El Hierro site 2,Phthiria simonyi,El Hierro site 2,1,pollination
+Euphorbia.balsamifera..f.,El Hierro site 2,Camponotus feae,El Hierro site 2,24,pollination
+Euphorbia.balsamifera..f.,El Hierro site 2,Chloropidae sp. 3,El Hierro site 2,1,pollination
+Euphorbia.balsamifera..f.,El Hierro site 2,Estheria simonyi,El Hierro site 2,1,pollination
+Euphorbia.balsamifera..f.,El Hierro site 2,Myathropa florea,El Hierro site 2,1,pollination
+Euphorbia.balsamifera..f.,El Hierro site 2,Pteromalus sp. 3,El Hierro site 2,1,pollination
+Euphorbia.balsamifera..m.,El Hierro site 2,Camponotus feae,El Hierro site 2,20,pollination
+Euphorbia.balsamifera..m.,El Hierro site 2,Cecydomyiidae sp.,El Hierro site 2,1,pollination
+Euphorbia.balsamifera..m.,El Hierro site 2,Chloropidae sp. 3,El Hierro site 2,1,pollination
+Euphorbia.balsamifera..m.,El Hierro site 2,Cryptocephalus nitidicollis,El Hierro site 2,1,pollination
+Euphorbia.balsamifera..m.,El Hierro site 2,Dasytes subaenescens,El Hierro site 2,1,pollination
+Euphorbia.balsamifera..m.,El Hierro site 2,Eumerus latitarsis,El Hierro site 2,1,pollination
+Euphorbia.balsamifera..m.,El Hierro site 2,Lasioglossum loetum,El Hierro site 2,1,pollination
+Euphorbia.balsamifera..m.,El Hierro site 2,Lasioglossum viride,El Hierro site 2,2,pollination
+Euphorbia.balsamifera..m.,El Hierro site 2,Perilampus sp. 1,El Hierro site 2,1,pollination
+Euphorbia.balsamifera..m.,El Hierro site 2,Rondania insularis,El Hierro site 2,1,pollination
+Euphorbia.balsamifera..m.,El Hierro site 2,Sarcophagidae sp. 3,El Hierro site 2,1,pollination
+Euphorbia.balsamifera..m.,El Hierro site 2,Thysanoptera sp. 1,El Hierro site 2,24,pollination
+Euphorbia.lamarckii,El Hierro site 2,Attalus crispus,El Hierro site 2,1,pollination
+Euphorbia.lamarckii,El Hierro site 2,Camponotus feae,El Hierro site 2,42,pollination
+Euphorbia.lamarckii,El Hierro site 2,Ceratogoponidae sp.,El Hierro site 2,2,pollination
+Euphorbia.lamarckii,El Hierro site 2,Chironomidae sp. 1,El Hierro site 2,1,pollination
+Euphorbia.lamarckii,El Hierro site 2,Chrysomya albiceps,El Hierro site 2,1,pollination
+Euphorbia.lamarckii,El Hierro site 2,Colletes dimidiatus,El Hierro site 2,11,pollination
+Euphorbia.lamarckii,El Hierro site 2,Dasytes subaenescens,El Hierro site 2,1,pollination
+Euphorbia.lamarckii,El Hierro site 2,Empis sp. 1,El Hierro site 2,1,pollination
+Euphorbia.lamarckii,El Hierro site 2,Estheria simonyi,El Hierro site 2,3,pollination
+Euphorbia.lamarckii,El Hierro site 2,Eumerus latitarsis,El Hierro site 2,3,pollination
+Euphorbia.lamarckii,El Hierro site 2,Lasioglossum loetum,El Hierro site 2,6,pollination
+Euphorbia.lamarckii,El Hierro site 2,Lasioglossum viride,El Hierro site 2,9,pollination
+Euphorbia.lamarckii,El Hierro site 2,Lucilia sericata,El Hierro site 2,4,pollination
+Euphorbia.lamarckii,El Hierro site 2,Myathropa florea,El Hierro site 2,5,pollination
+Euphorbia.lamarckii,El Hierro site 2,Paratrechina longicornis,El Hierro site 2,1,pollination
+Euphorbia.lamarckii,El Hierro site 2,Sciaridae sp.,El Hierro site 2,1,pollination
+Euphorbia.lamarckii,El Hierro site 2,Syritta pipiens,El Hierro site 2,1,pollination
+Euphorbia.lamarckii,El Hierro site 2,Thaumatomyia notata,El Hierro site 2,2,pollination
+Periploca.laevigata,El Hierro site 2,Camponotus feae,El Hierro site 2,43,pollination
+Periploca.laevigata,El Hierro site 2,Chloropidae sp. 4,El Hierro site 2,1,pollination
+Periploca.laevigata,El Hierro site 2,Cryptocephalus nitidicollis,El Hierro site 2,1,pollination
+Periploca.laevigata,El Hierro site 2,Neodryophilus cryptophagoides,El Hierro site 2,1,pollination
+Phagnalon.saxatile,El Hierro site 2,Myopites nigrescens,El Hierro site 2,4,pollination
+Phagnalon.saxatile,El Hierro site 2,Phalacrus coruscus,El Hierro site 2,1,pollination
+Phagnalon.saxatile,El Hierro site 2,Spathulina sicula,El Hierro site 2,2,pollination
+Phagnalon.saxatile,El Hierro site 2,Thysanoptera sp. 2,El Hierro site 2,2,pollination
+Rubia.fruticosa,El Hierro site 2,Camponotus feae,El Hierro site 2,2,pollination
+Rubia.fruticosa,El Hierro site 2,Thaumatomyia notata,El Hierro site 2,1,pollination
+Satureja.kuegleri,El Hierro site 2,Camponotus feae,El Hierro site 2,1,pollination
+Schizogyne.sericea,El Hierro site 2,Euderus sp.,El Hierro site 2,2,pollination
+Schizogyne.sericea,El Hierro site 2,Myopites nigrescens,El Hierro site 2,10,pollination
+Schizogyne.sericea,El Hierro site 2,Pteromalus sp. 3,El Hierro site 2,2,pollination

@@ -1,0 +1,221 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Achnanthes minutissima,taxon,taxonomy_name,Achnanthes minutissima,taxonomy_rank,species
+2,Frustulia rhomboides,taxon,taxonomy_name,Frustulia rhomboides,taxonomy_rank,species
+3,Navicula avenacea,taxon,taxonomy_name,Navicula avenacea,taxonomy_rank,species
+4,Achnanthes linearis,taxon,taxonomy_name,Rossithidium linearis,taxonomy_rank,species
+5,Rhoicosphenia curvata,taxon,taxonomy_name,Rhoicosphenia curvata,taxonomy_rank,species
+6,Oligochaeta type II,taxon,taxonomy_name,Oligochaeta,taxonomy_rank,genus
+7,Unknown green algal cells,taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+8,Pirara matakiri (Boothroyd and Cranston),taxon,taxonomy_name,Pirara matakiri,taxonomy_rank,species
+9,pras,taxon,taxonomy_name,Pras,taxonomy_rank,NA
+10,Nitzschia linearis,taxon,taxonomy_name,Nitzschia linearis,taxonomy_rank,species
+11,Gomphonema subclavatum,taxon,taxonomy_name,Gomphonema subclavatum,taxonomy_rank,species
+12,Sphaerium spp.,taxon,taxonomy_name,Sphaerium,taxonomy_rank,genus
+13,Gomphonema truncatum,taxon,taxonomy_name,Gomphonema truncatum,taxonomy_rank,species
+14,Achnanthes inflata,taxon,taxonomy_name,Achnanthes inflata,taxonomy_rank,species
+15,Gomphonema parvulum,taxon,taxonomy_name,Gomphonema parvulum,taxonomy_rank,species
+16,phrea,taxon,taxonomy_name,Phrea,taxonomy_rank,NA
+17,Ameletopsis perscitus (Eaton),taxon,taxonomy_name,Ameletopsis perscitus,taxonomy_rank,species
+18,Austroperla cyrene,taxon,taxonomy_name,Austroperla cyrene,taxonomy_rank,species
+19,Cricotopus sp. III,taxon,taxonomy_name,Cricotopus,taxonomy_rank,genus
+20,Helicopsyche albescens (Tillyard),taxon,taxonomy_name,Helicopsyche albescens,taxonomy_rank,species
+21,Hydora nitida (larva) (Broun),taxon,taxonomy_name,Hydora nitida,taxonomy_rank,NA
+22,Unidentified detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+23,Cocconeis placentula,taxon,taxonomy_name,Cocconeis placentula,taxonomy_rank,species
+24,Gomphonema angustatum,taxon,taxonomy_name,Gomphonema angustatum,taxonomy_rank,species
+25,Gomphonema sp. 3,taxon,taxonomy_name,Gomphonema,taxonomy_rank,genus
+26,Synedra ulna,taxon,taxonomy_name,Synedra ulna,taxonomy_rank,species
+27,Fragilaria vaucheriae,taxon,taxonomy_name,Fragilaria vaucheriae,taxonomy_rank,species
+28,Blue green algae,taxon,taxonomy_name,Cyanophyta,taxonomy_rank,NA
+29,Surirella elegans,taxon,taxonomy_name,Surirella elegans,taxonomy_rank,species
+30,Gomphoneis herculeana,taxon,taxonomy_name,Gomphonema herculeana,taxonomy_rank,species
+31,Gomphonema sp. 4,taxon,taxonomy_name,Gomphonema,taxonomy_rank,genus
+32,Oligochaeta lumbr blue,taxon,taxonomy_name,Lumbriculidae,taxonomy_rank,family
+33,Maoridiamesa spp.,taxon,taxonomy_name,Maoridiamesa,taxonomy_rank,genus
+34,Zelandoperla fenestrata (McLellan),taxon,taxonomy_name,Zelandoperla fenestrata,taxonomy_rank,species
+35,Nitzschia palea,taxon,taxonomy_name,Nitzschia palea,taxonomy_rank,species
+36,Deleatidium,taxon,taxonomy_name,Deleatidium,taxonomy_rank,genus
+37,Gomphonema intricatum,taxon,taxonomy_name,Gomphonema intricatum,taxonomy_rank,infraspecies
+38,Diatoma elongatum,taxon,taxonomy_name,Diatoma elongatum,taxonomy_rank,infraspecies
+39,Synedra rumpens,taxon,taxonomy_name,Synedra rumpens,taxonomy_rank,species
+40,Pycnocentria spp.,taxon,taxonomy_name,Pycnocentria,taxonomy_rank,genus
+41,Aphrophila spp.,taxon,taxonomy_name,Aphrophila,taxonomy_rank,genus
+42,Austrosimulium australense,taxon,taxonomy_name,Austrosimulium australense,taxonomy_rank,species
+43,Eukiefidriella,taxon,taxonomy_name,Eukiefferiella,taxonomy_rank,genus
+44,Hydrobiosella stenocerca (Tillyard),taxon,taxonomy_name,Hydrobiosella stenocerca,taxonomy_rank,species
+45,Plant material,taxon,taxonomy_name,NA,taxonomy_rank,NA
+46,Fungi,taxon,taxonomy_name,NA,taxonomy_rank,NA
+47,Hydrobiosis parumbripennis,taxon,taxonomy_name,Hydrobiosis parumbripennis,taxonomy_rank,species
+48,Potamopyrgus antipodarum (Gray),taxon,taxonomy_name,Potamopyrgus antipodarum,taxonomy_rank,species
+49,Paranephrops zealandicus (White),taxon,taxonomy_name,Paranephrops zealandicus,taxonomy_rank,species
+50,Cricotopus II,taxon,taxonomy_name,Cricotopus,taxonomy_rank,genus
+51,Oligochaeta lumbriculiid white,taxon,taxonomy_name,Lumbriculidae,taxonomy_rank,family
+52,Nannochorista,taxon,taxonomy_name,Nannochoristidae,taxonomy_rank,family
+53,Oligochaeta type 'weak/long',taxon,taxonomy_name,Oligochaeta,taxonomy_rank,NA
+54,Orthocladiinae unknown spp. 2,taxon,taxonomy_name,Orthocladiinae,taxonomy_rank,NA
+55,Paratanytarsus spp.,taxon,taxonomy_name,Paratanytarsus,taxonomy_rank,genus
+56,Salmo trutta,taxon,taxonomy_name,Salmo trutta,taxonomy_rank,species
+57,Oxyethira albiceps (McLachlan),taxon,taxonomy_name,Oxyethira albiceps,taxonomy_rank,species
+58,Zelandobius spp. nr confusus (Hare),taxon,taxonomy_name,Zelandobius confusus,taxonomy_rank,species
+59,Coloburiscus humeralis (Walker),taxon,taxonomy_name,Coloburiscus humeralis,taxonomy_rank,species
+60,Cricotopus sp. I (Cranston),taxon,taxonomy_name,Cricotopus,taxonomy_rank,genus
+61,Oligochaeta lumbriculiid purple,taxon,taxonomy_name,Lumbriculidae,taxonomy_rank,family
+62,Megaleptoperla grandis (Newman),taxon,taxonomy_name,Megaleptoperla grandis,taxonomy_rank,species
+63,Naonella,taxon,taxonomy_name,Naonella,taxonomy_rank,genus
+64,Oligochaeta lumbriculiid pink,taxon,taxonomy_name,Lumbriculidae,taxonomy_rank,family
+65,Orthocladiinae unknown spp. 1,taxon,taxonomy_name,Orthocladiinae,taxonomy_rank,NA
+66,Paralimnophila skusei (Hutton),taxon,taxonomy_name,Paralimnophila skusei,taxonomy_rank,species
+67,Stictoclcaius,taxon,taxonomy_name,Stictocladius,taxonomy_rank,genus
+68,Terrestrial invertebrates,taxon,taxonomy_name,NA,taxonomy_rank,NA
+69,nymph,taxon,taxonomy_name,NA,taxonomy_rank,NA
+70,Diatoma heimale,taxon,taxonomy_name,NA,taxonomy_rank,NA
+71,Aucalosira,taxon,taxonomy_name,NA,taxonomy_rank,NA
+72,frustv,taxon,taxonomy_name,NA,taxonomy_rank,NA
+73,Audouniella,taxon,taxonomy_name,NA,taxonomy_rank,NA
+74,Hudsonema amabilis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+75,Stenoperla prasinia,taxon,taxonomy_name,NA,taxonomy_rank,NA
+76,Costachorema xanthoptera,taxon,taxonomy_name,NA,taxonomy_rank,NA
+77,Psilochorema bidens (McFarlane),taxon,taxonomy_name,NA,taxonomy_rank,NA
+78,Rhabdomastrix sp.,taxon,taxonomy_name,NA,taxonomy_rank,NA
+79,gomclev,taxon,taxonomy_name,NA,taxonomy_rank,NA
+80,Tanytarsus verspertinus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+81,surova,taxon,taxonomy_name,NA,taxonomy_rank,NA
+82,Pinnularia mesoleptus,taxon,taxonomy_name,Pinnularia mesolepta,taxonomy_rank,species
+83,Eunotia pectinalis,taxon,taxonomy_name,Eunotia pectinalis,taxonomy_rank,species
+84,redalg,taxon,taxonomy_name,Rhodophyta,taxonomy_rank,phylum
+85,Stauroneis,taxon,taxonomy_name,Stauroneis,taxonomy_rank,genus
+86,Pinnularia viridis,taxon,taxonomy_name,Pinnularia viridis,taxonomy_rank,species
+87,Navicula dicephala,taxon,taxonomy_name,Navicula dicephala,taxonomy_rank,species
+88,Navicula placentula,taxon,taxonomy_name,Navicula placentula,taxonomy_rank,species
+89,Cymbella aspera,taxon,taxonomy_name,Cymbella aspera,taxonomy_rank,species
+90,Surirella linearis,taxon,taxonomy_name,Surirella linearis,taxonomy_rank,species
+91,Polyplectropus puerilis (McLachlan),taxon,taxonomy_name,Polyplectropus puerilis,taxonomy_rank,species
+92,Eriopterini sp. 1,taxon,taxonomy_name,Eriopterini,taxonomy_rank,NA
+93,Paradixa sp.,taxon,taxonomy_name,Paradixa,taxonomy_rank,NA
+94,Mischoderus sp.,taxon,taxonomy_name,Mischoderus,taxonomy_rank,NA
+95,Zelandotipula sp.,taxon,taxonomy_name,Zelandotipula,taxonomy_rank,genus
+96,Surirella tenera,taxon,taxonomy_name,Surirella tenera,taxonomy_rank,species
+97,Gomphonema new sp.,taxon,taxonomy_name,Gomphonema,taxonomy_rank,genus
+98,Ulothrix,taxon,taxonomy_name,Ulothrix,taxonomy_rank,genus
+99,Pinnularia gibba,taxon,taxonomy_name,Pinnularia gibba,taxonomy_rank,species
+100,Oligochaeta type I,taxon,taxonomy_name,Oligochaeta,taxonomy_rank,NA
+101,Tanytarsus sp. I,taxon,taxonomy_name,Tanytarsus,taxonomy_rank,genus
+102,Cristaperla,taxon,taxonomy_name,Cristaperla,taxonomy_rank,genus
+103,Melosira varians,taxon,taxonomy_name,Melosira varians,taxonomy_rank,species
+104,Apsectrotanypus spp.,taxon,taxonomy_name,Apsectrotanypus,taxonomy_rank,genus
+105,Stictocladius spp.,taxon,taxonomy_name,Stictocladius,taxonomy_rank,genus
+106,Neozephlebia scita (Walker),taxon,taxonomy_name,Neozephlebia scita,taxonomy_rank,species
+107,Chironomous zelandicus (Hudson),taxon,taxonomy_name,Chironomus zealandicus,taxonomy_rank,species
+108,Hydora l,taxon,taxonomy_name,Elodea canadensis,taxonomy_rank,species
+109,Muscid sp.,taxon,taxonomy_name,Muscidae,taxonomy_rank,family
+110,Paucispinigera approximata (Freeman),taxon,taxonomy_name,Paucispinigera approximata,taxonomy_rank,species
+111,Pycnocentrodes spp.,taxon,taxonomy_name,Pycnocentrodes,taxonomy_rank,genus
+112,fungi,taxon,taxonomy_name,NA,taxonomy_rank,NA
+113,Paracalliope fluviatilis (Thomson),taxon,taxonomy_name,NA,taxonomy_rank,NA
+114,Stenoperla prasina (Newman),taxon,taxonomy_name,NA,taxonomy_rank,NA
+115,galeld,taxon,taxonomy_name,NA,taxonomy_rank,NA
+116,Homolaena sp. Type I,taxon,taxonomy_name,NA,taxonomy_rank,NA
+117,Neozephlebia,taxon,taxonomy_name,Neozephlebia,taxonomy_rank,genus
+118,Calothrix,taxon,taxonomy_name,Calothrix,taxonomy_rank,genus
+119,Gomphonema intricaturm,taxon,taxonomy_name,NA,taxonomy_rank,NA
+120,Aspectrotanypus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+121,Gyrosigma,taxon,taxonomy_name,Gyrosigma,taxonomy_rank,genus
+122,Navicula unk. Sp. A,taxon,taxonomy_name,Navicula,taxonomy_rank,genus
+123,Austrosimulium,taxon,taxonomy_name,Austrosimulium,taxonomy_rank,genus
+124,Hexatomini,taxon,taxonomy_name,Hexatomini,taxonomy_rank,NA
+125,Sphaerium,taxon,taxonomy_name,Sphaerium,taxonomy_rank,genus
+126,Batrachospermum,taxon,taxonomy_name,Batrachospermum,taxonomy_rank,genus
+127,Nitzschia acicularis,taxon,taxonomy_name,Nitzschia acicularis,taxonomy_rank,species
+128,Gloecustis (grn alg),taxon,taxonomy_name,Gloeocystis,taxonomy_rank,genus
+129,Microspora,taxon,taxonomy_name,Microspora,taxonomy_rank,genus
+130,Oligo four chaetae,taxon,taxonomy_name,Oligochaeta,taxonomy_rank,genus
+131,Terrestrial Inverts,taxon,taxonomy_name,NA,taxonomy_rank,NA
+132,Paucispinigera approximata,taxon,taxonomy_name,Paucispinigera approximata,taxonomy_rank,species
+133,Acroperla,taxon,taxonomy_name,Acroperla,taxonomy_rank,genus
+134,Coloburiscus,taxon,taxonomy_name,Coloburiscus,taxonomy_rank,genus
+135,Neurchorema,taxon,taxonomy_name,Neurochorema,taxonomy_rank,genus
+136,Plectrocnemia,taxon,taxonomy_name,Plectrocnemia,taxonomy_rank,genus
+137,Pseudooeconesus,taxon,taxonomy_name,Pseudopanax,taxonomy_rank,genus
+138,Paracalliope purple,taxon,taxonomy_name,Paracalliope,taxonomy_rank,genus
+139,Pycnocentria,taxon,taxonomy_name,Pycnocentria,taxonomy_rank,genus
+140,Scritid brd,taxon,taxonomy_name,Scirtidae,taxonomy_rank,family
+141,Stictocaldius,taxon,taxonomy_name,Stictocladius,taxonomy_rank,genus
+142,Stictocladius III,taxon,taxonomy_name,Stictocladius,taxonomy_rank,genus
+143,Tanyderidae,taxon,taxonomy_name,Tanyderidae,taxonomy_rank,family
+144,Zelanoperla,taxon,taxonomy_name,Zelandoperla,taxonomy_rank,genus
+145,Cymbella kappi,taxon,taxonomy_name,NA,taxonomy_rank,NA
+146,Gomphonema tennuellum,taxon,taxonomy_name,NA,taxonomy_rank,NA
+147,Oligochaeta type III,taxon,taxonomy_name,NA,taxonomy_rank,NA
+148,Psilachorema,taxon,taxonomy_name,NA,taxonomy_rank,NA
+149,Hudsonema aliena,taxon,taxonomy_name,NA,taxonomy_rank,NA
+150,Oligochaeta nr 'Aelosoma sp.',taxon,taxonomy_name,NA,taxonomy_rank,NA
+151,Navicula cryptocephala,taxon,taxonomy_name,Navicula cryptocephala,taxonomy_rank,species
+152,Tabellaria fenestrata,taxon,taxonomy_name,Tabellaria fenestrata,taxonomy_rank,species
+153,Nitzschia dissipata,taxon,taxonomy_name,Nitzschia dissipata,taxonomy_rank,species
+154,Tabellaria floccculosa,taxon,taxonomy_name,Tabellaria flocculosa,taxonomy_rank,species
+155,Pseudoeconesus sp.,taxon,taxonomy_name,Pseudoeconesus,taxonomy_rank,genus
+156,Scirtid sp. (larvae) broad type.,taxon,taxonomy_name,Scirtidae,taxonomy_rank,family
+157,Zelolessica cheira (McFarlane),taxon,taxonomy_name,Zelolessica cheira,taxonomy_rank,species
+158,Eukiefiriella,taxon,taxonomy_name,Eukiefferiella,taxonomy_rank,genus
+159,Pinnularia borealis,taxon,taxonomy_name,Pinnularia borealis,taxonomy_rank,species
+160,Stigeoclonium,taxon,taxonomy_name,Stigeoclonium,taxonomy_rank,genus
+161,Deleatidium spp,taxon,taxonomy_name,Deleatidium,taxonomy_rank,genus
+162,Hydrophilid unknown sp.,taxon,taxonomy_name,Hydrophilidae,taxonomy_rank,family
+163,Molophilus sp.,taxon,taxonomy_name,Molophilus,taxonomy_rank,genus
+164,Podonomous spp.,taxon,taxonomy_name,NA,taxonomy_rank,NA
+165,gomaff,taxon,taxonomy_name,NA,taxonomy_rank,NA
+166,Philorheithrus agilis (Hudson),taxon,taxonomy_name,NA,taxonomy_rank,NA
+167,Zelandoperla agnetis (McLellan),taxon,taxonomy_name,Zelandoperla agnetis,taxonomy_rank,species
+168,Cristaperla fimbriae,taxon,taxonomy_name,Cristaperla fimbria,taxonomy_rank,species
+169,Eukiefidrella,taxon,taxonomy_name,Eukiefferiella,taxonomy_rank,genus
+170,Gyraulus corinna,taxon,taxonomy_name,Gyraulus corinna,taxonomy_rank,species
+171,Gyraulus sp.,taxon,taxonomy_name,Gyraulus,taxonomy_rank,genus
+172,Hydora nitida (adult) (Broun),taxon,taxonomy_name,Hydora nitida,taxonomy_rank,NA
+173,Olinga feredayi (McLachlan),taxon,taxonomy_name,Olinga feredayi,taxonomy_rank,species
+174,Orthocladiinae unknown spp.,taxon,taxonomy_name,Orthocladiinae,taxonomy_rank,NA
+175,Paraleptamphobus subterraneus (Chilton),taxon,taxonomy_name,Paraleptamphopus subterraneus,taxonomy_rank,species
+176,fungii,taxon,taxonomy_name,NA,taxonomy_rank,NA
+177,Stictocladius,taxon,taxonomy_name,Stictocladius,taxonomy_rank,genus
+178,Naonella forsythii,taxon,taxonomy_name,NA,taxonomy_rank,NA
+179,Hudsonema amabilis (McLachlan),taxon,taxonomy_name,NA,taxonomy_rank,NA
+180,Deleatidium lilli,taxon,taxonomy_name,NA,taxonomy_rank,NA
+181,Cymbella tumida,taxon,taxonomy_name,Cymbella tumida,taxonomy_rank,species
+182,Pinnularia sp (large),taxon,taxonomy_name,Pinnularia,taxonomy_rank,genus
+183,Tanytarsus spp. (other),taxon,taxonomy_name,Tanytarsus,taxonomy_rank,genus
+184,galgol,taxon,taxonomy_name,NA,taxonomy_rank,NA
+185,Cymbella mulleri,taxon,taxonomy_name,Encyonema muelleri,taxonomy_rank,species
+186,Navicula mutica,taxon,taxonomy_name,Navicula mutica,taxonomy_rank,species
+187,Surirella sp.,taxon,taxonomy_name,Surirella,taxonomy_rank,genus
+188,Oligo smooth,taxon,taxonomy_name,Oligochaeta,taxonomy_rank,genus
+189,Cymbella cistula,taxon,taxonomy_name,Cymbella cistula,taxonomy_rank,species
+190,Oedogonium,taxon,taxonomy_name,Oedogonium,taxonomy_rank,genus
+191,Austroclima jollyae (Towns and Peters),taxon,taxonomy_name,Austroclima jollyae,taxonomy_rank,species
+192,Cricotopus sp. II (Cranston),taxon,taxonomy_name,Cricotopus,taxonomy_rank,genus
+193,Hexatomini spp.,taxon,taxonomy_name,Hexatomini,taxonomy_rank,NA
+194,Megaleptoperla diminuta (Newman),taxon,taxonomy_name,Megaleptoperla diminuta,taxonomy_rank,species
+195,Nannochorista philpotti (Tillyard),taxon,taxonomy_name,Nannochorista philpotti,taxonomy_rank,NA
+196,Parochlus sp.,taxon,taxonomy_name,Parochlus,taxonomy_rank,genus
+197,Tabanid sp.,taxon,taxonomy_name,Tabanidae,taxonomy_rank,family
+198,Tanypodini spp.,taxon,taxonomy_name,Tanypus,taxonomy_rank,genus
+199,Tanytarsus sp. II,taxon,taxonomy_name,Tanytarsus,taxonomy_rank,genus
+200,Hudsonema aliena (McLachlan),taxon,taxonomy_name,NA,taxonomy_rank,NA
+201,Eunotia serpentina,taxon,taxonomy_name,NA,taxonomy_rank,NA
+202,Lobodiamesini campbelli (Pagast.),taxon,taxonomy_name,NA,taxonomy_rank,NA
+203,Spaniocerca zelandica (Tillyard),taxon,taxonomy_name,NA,taxonomy_rank,NA
+204,Meridion circulare,taxon,taxonomy_name,Meridion circulare,taxonomy_rank,species
+205,Navicula rhynchocephala,taxon,taxonomy_name,Navicula rhynchocephala,taxonomy_rank,species
+206,Encyonema,taxon,taxonomy_name,Encyonema,taxonomy_rank,genus
+207,Epithemia sorex,taxon,taxonomy_name,Epithemia sorex,taxonomy_rank,species
+208,Epithemia turgida,taxon,taxonomy_name,Epithemia turgida,taxonomy_rank,species
+209,Nothodixa sp.,taxon,taxonomy_name,Nothodixa,taxonomy_rank,genus
+210,Nitzschia sp.,taxon,taxonomy_name,Nitzschia,taxonomy_rank,genus
+211,Stratiomyid spp.,taxon,taxonomy_name,Stratiomyidae,taxonomy_rank,family
+212,Closterium,taxon,taxonomy_name,Closterium,taxonomy_rank,genus
+213,Pleaurotaenium sp.,taxon,taxonomy_name,Pleurotaenium,taxonomy_rank,genus
+214,gomcle,taxon,taxonomy_name,NA,taxonomy_rank,NA
+215,Rhopalodia musculus,taxon,taxonomy_name,Rhopalodia musculus,taxonomy_rank,species
+216,Surirella striatula,taxon,taxonomy_name,Surirella striatula,taxonomy_rank,species
+217,Oligochaeta lumbriculiid peacock,taxon,taxonomy_name,Lumbriculidae,taxonomy_rank,family
+218,gomnew,taxon,taxonomy_name,NA,taxonomy_rank,NA
+219,Tiphobiosis sp.,taxon,taxonomy_name,Tiphobiosis,taxonomy_rank,genus
+220,rhoado,taxon,taxonomy_name,NA,taxonomy_rank,NA

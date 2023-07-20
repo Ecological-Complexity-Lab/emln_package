@@ -1,0 +1,260 @@
+node_from,layer_from,node_to,layer_to,weight,type
+Dendropanax arboreus,1,Apis.mellifera,1,44,pollination
+Dendropanax arboreus,1,Unidentified.sp4.M_PL_040,1,57,pollination
+Dendropanax arboreus,1,Sphex.jamaicensis,1,2,pollination
+Dendropanax arboreus,1,Dryas.iulia.delila,1,43,pollination
+Dendropanax arboreus,1,Heliconius.charitonius.simulator,1,38,pollination
+Dendropanax arboreus,1,Unidentified.sp3.M_PL_040,1,10,pollination
+Dendropanax arboreus,1,Trochilus.polytmus.polytmus,1,11,pollination
+Dendropanax arboreus,1,Mellisuga.minima,1,12,pollination
+Dendropanax arboreus,1,Aguna.asander.jasper,1,14,pollination
+Dendropanax arboreus,1,Papilio.thersites,1,11,pollination
+Dendropanax arboreus,1,Unidentified.sp7.M_PL_040,1,10,pollination
+Dendropanax arboreus,1,Eurytides.marcellinus,1,2,pollination
+Dendropanax arboreus,1,Marpesia.chiron,1,4,pollination
+Dendropanax arboreus,1,Coereba.flaveola.,1,2,pollination
+Dendropanax arboreus,1,Adelpha.abyla,1,3,pollination
+Dendropanax arboreus,1,Atlantea.pantoni,1,2,pollination
+Dendropanax arboreus,1,Dione.vanillae.insularis,1,2,pollination
+Dendropanax arboreus,1,Unidentified.sp6.M_PL_040,1,1,pollination
+Dendropanax sp1 M_PL_040,1,Apis.mellifera,1,22,pollination
+Dendropanax sp1 M_PL_040,1,Unidentified.sp4.M_PL_040,1,10,pollination
+Dendropanax sp1 M_PL_040,1,Sphex.jamaicensis,1,50,pollination
+Dendropanax sp1 M_PL_040,1,Unidentified.sp3.M_PL_040,1,15,pollination
+Dendropanax sp1 M_PL_040,1,Centris.sp1.M_PL_040,1,14,pollination
+Dendropanax sp1 M_PL_040,1,Aguna.asander.jasper,1,1,pollination
+Dendropanax sp1 M_PL_040,1,Anolis.grahami,1,11,pollination
+Dendropanax sp1 M_PL_040,1,Unidentified.sp7.M_PL_040,1,1,pollination
+Dendropanax sp1 M_PL_040,1,Eurytides.marcellinus,1,7,pollination
+Dendropanax sp1 M_PL_040,1,Marpesia.chiron,1,3,pollination
+Dendropanax sp1 M_PL_040,1,Coereba.flaveola.,1,1,pollination
+Dendropanax sp1 M_PL_040,1,Paraphrissopoda.chrysostoma,1,3,pollination
+Dendropanax sp1 M_PL_040,1,Unidentified.sp5.M_PL_040,1,1,pollination
+Dendropanax sp1 M_PL_040,1,Paragymnetis.lanius,1,1,pollination
+Unidentified sp21 M_PL_040,1,Wasmannia.auropunctata,1,78,pollination
+Unidentified sp21 M_PL_040,1,Crematogaster.steinheili,1,30,pollination
+Unidentified sp14 M_PL_040,1,Crematogaster.steinheili,1,26,pollination
+Unidentified sp14 M_PL_040,1,Camponotus.hannani,1,49,pollination
+Unidentified sp14 M_PL_040,1,Unidentified.sp1.M_PL_040,1,1,pollination
+Unidentified sp14 M_PL_040,1,Paraphrissopoda.chrysostoma,1,1,pollination
+Unidentified sp14 M_PL_040,1,Unidentified.sp11.M_PL_040,1,4,pollination
+Unidentified sp14 M_PL_040,1,Unidentified.sp12.M_PL_040,1,3,pollination
+Unidentified sp14 M_PL_040,1,Diptera.sp1.M_PL_040,1,1,pollination
+Portlandia grandiflora,1,Wasmannia.auropunctata,1,33,pollination
+Portlandia grandiflora,1,Unidentified.sp1.M_PL_040,1,15,pollination
+Portlandia grandiflora,1,Conotelus.obscurus,1,8,pollination
+Portlandia grandiflora,1,Agapostemon.sp1.M_PL_040,1,1,pollination
+Unidentified sp23 M_PL_040,1,Wasmannia.auropunctata,1,46,pollination
+Miconia sp1 M_PL_040,1,Apis.mellifera,1,3,pollination
+Miconia sp1 M_PL_040,1,Unidentified.sp4.M_PL_040,1,1,pollination
+Miconia sp1 M_PL_040,1,Euglossa.jamaicensis,1,8,pollination
+Miconia sp1 M_PL_040,1,Xylocopa.sp1.M_PL_040,1,27,pollination
+Miconia sp1 M_PL_040,1,Centris.sp2.M_PL_040,1,2,pollination
+Miconia sp1 M_PL_040,1,Centris.sp1.M_PL_040,1,1,pollination
+Miconia sp1 M_PL_040,1,Polistes.sp1.M_PL_040,1,2,pollination
+Spermacoce assurgens,1,Wasmannia.auropunctata,1,35,pollination
+Spermacoce assurgens,1,Crematogaster.steinheili,1,3,pollination
+Spermacoce assurgens,1,Unidentified.sp9.M_PL_040,1,1,pollination
+Unidentified sp13 M_PL_040,1,Wasmannia.auropunctata,1,5,pollination
+Unidentified sp13 M_PL_040,1,Apis.mellifera,1,6,pollination
+Unidentified sp13 M_PL_040,1,Crematogaster.steinheili,1,6,pollination
+Unidentified sp13 M_PL_040,1,Camponotus.hannani,1,2,pollination
+Unidentified sp13 M_PL_040,1,Euglossa.jamaicensis,1,1,pollination
+Unidentified sp13 M_PL_040,1,Xylocopa.sp1.M_PL_040,1,1,pollination
+Unidentified sp13 M_PL_040,1,Centris.sp2.M_PL_040,1,4,pollination
+Unidentified sp13 M_PL_040,1,Trochilus.polytmus.polytmus,1,6,pollination
+Unidentified sp13 M_PL_040,1,Mellisuga.minima,1,3,pollination
+Unidentified sp13 M_PL_040,1,Adelpha.abyla,1,1,pollination
+Unidentified sp15 M_PL_040,1,Apis.mellifera,1,1,pollination
+Unidentified sp15 M_PL_040,1,Camponotus.hannani,1,2,pollination
+Unidentified sp15 M_PL_040,1,Euglossa.jamaicensis,1,1,pollination
+Unidentified sp15 M_PL_040,1,Xylocopa.sp1.M_PL_040,1,2,pollination
+Unidentified sp15 M_PL_040,1,Centris.sp2.M_PL_040,1,23,pollination
+Unidentified sp15 M_PL_040,1,Agapostemon.sp1.M_PL_040,1,5,pollination
+Aechmea paniculigera,1,Camponotus.hannani,1,1,pollination
+Aechmea paniculigera,1,Euglossa.jamaicensis,1,26,pollination
+Aechmea paniculigera,1,Trochilus.polytmus.polytmus,1,1,pollination
+Impatiens walleriana,1,Wasmannia.auropunctata,1,14,pollination
+Impatiens walleriana,1,Crematogaster.steinheili,1,4,pollination
+Impatiens walleriana,1,Unidentified.sp1.M_PL_040,1,2,pollination
+Impatiens walleriana,1,Unidentified.sp2.M_PL_040,1,2,pollination
+Petiveria sp1 M_PL_040,1,Wasmannia.auropunctata,1,21,pollination
+Petiveria sp1 M_PL_040,1,Unidentified.sp2.M_PL_040,1,1,pollination
+Blakea trinervia,1,Euglossa.jamaicensis,1,6,pollination
+Blakea trinervia,1,Coereba.flaveola.,1,1,pollination
+Blakea trinervia,1,Nesopsar.nigerrimus,1,3,pollination
+Blakea trinervia,1,Euneornis.campestris,1,2,pollination
+Unidentified sp19 M_PL_040,1,Camponotus.hannani,1,7,pollination
+Unidentified sp19 M_PL_040,1,Camponotus.subdepilis,1,5,pollination
+Byrsonima sp1 M_PL_040,1,Camponotus.hannani,1,1,pollination
+Byrsonima sp1 M_PL_040,1,Unidentified.sp1.M_PL_040,1,5,pollination
+Byrsonima sp1 M_PL_040,1,Mellisuga.minima,1,1,pollination
+Byrsonima sp1 M_PL_040,1,Unidentified.sp5.M_PL_040,1,1,pollination
+Byrsonima sp1 M_PL_040,1,Unidentified.sp6.M_PL_040,1,1,pollination
+Pilea sp1 M_PL_040,1,Wasmannia.auropunctata,1,5,pollination
+Pilea sp1 M_PL_040,1,Unidentified.sp8.M_PL_040,1,1,pollination
+Unidentified sp16 M_PL_040,1,Euglossa.jamaicensis,1,3,pollination
+Unidentified sp16 M_PL_040,1,Trochilus.polytmus.polytmus,1,1,pollination
+Unidentified sp16 M_PL_040,1,Coereba.flaveola.,1,1,pollination
+Unidentified sp18 M_PL_040,1,Apis.mellifera,1,3,pollination
+Unidentified sp18 M_PL_040,1,Xylocopa.sp1.M_PL_040,1,2,pollination
+Unidentified sp20 M_PL_040,1,Crematogaster.steinheili,1,4,pollination
+Unidentified sp20 M_PL_040,1,Camponotus.subdepilis,1,1,pollination
+Wallenia laurifolia,1,Camponotus.subdepilis,1,5,pollination
+Passiflora sp1 M_PL_040,1,Wasmannia.auropunctata,1,2,pollination
+Passiflora sp1 M_PL_040,1,Crematogaster.steinheili,1,1,pollination
+Unidentified sp17 M_PL_040,1,Unidentified.sp1.M_PL_040,1,1,pollination
+Unidentified sp17 M_PL_040,1,Trochilus.polytmus.polytmus,1,1,pollination
+Unidentified sp17 M_PL_040,1,Unidentified.sp2.M_PL_040,1,1,pollination
+Guarea swartzii,1,Centris.sp1.M_PL_040,1,2,pollination
+Psidium montanum,1,Wasmannia.auropunctata,1,1,pollination
+Psidium montanum,1,Unidentified.sp2.M_PL_040,1,1,pollination
+Unidentified sp22 M_PL_040,1,Xylocopa.sp1.M_PL_040,1,2,pollination
+Nectandra coriacea,1,Unidentified.sp3.M_PL_040,1,1,pollination
+Pilea sp2 M_PL_040,1,Anolis.sagrei,1,1,pollination
+Tradescantia zebrina,1,Unidentified.sp2.M_PL_040,1,1,pollination
+Cordia martinicensis,2,Orthorhyncus.cristatus,2,33,pollination
+Cordia martinicensis,2,Apis.mellifera,2,14,pollination
+Cordia martinicensis,2,Unidentified.sp1.M_PL_041,2,13,pollination
+Cordia martinicensis,2,Unidentified.sp2.M_PL_041,2,28,pollination
+Cordia martinicensis,2,Xylocopa.sp1.M_PL_041,2,27,pollination
+Cordia martinicensis,2,Unidentified.sp4.M_PL_041,2,20,pollination
+Cordia martinicensis,2,Appias.drusilla,2,12,pollination
+Cordia martinicensis,2,Ascia.monuste,2,11,pollination
+Cordia martinicensis,2,Unidentified.sp7.M_PL_041,2,9,pollination
+Cordia martinicensis,2,Unidentified.sp5.M_PL_041,2,9,pollination
+Cordia martinicensis,2,Coereba.flaveola.,2,1,pollination
+Cordia martinicensis,2,Electrostrymon.angerona,2,8,pollination
+Cordia martinicensis,2,Polygonus.sp1.M_PL_041,2,10,pollination
+Cordia martinicensis,2,Janonia.evarete,2,6,pollination
+Cordia martinicensis,2,Dryas.iulia,2,1,pollination
+Cordia martinicensis,2,Agraulis.vanillae,2,1,pollination
+Cordia martinicensis,2,Allosmaitia.piplea,2,4,pollination
+Cordia martinicensis,2,Urbanus.sp1.M_PL_041,2,1,pollination
+Cordia martinicensis,2,Phoebis.sp1.M_PL_041,2,3,pollination
+Cordia martinicensis,2,Unidentified.sp10.M_PL_041,2,1,pollination
+Cordia martinicensis,2,Marpesia.petreus,2,4,pollination
+Cordia martinicensis,2,Unidentified.sp20.M_PL_041,2,3,pollination
+Cordia martinicensis,2,Unidentified.sp9.M_PL_041,2,1,pollination
+Cordia sp1 M_PL_041,2,Orthorhyncus.cristatus,2,28,pollination
+Cordia sp1 M_PL_041,2,Apis.mellifera,2,5,pollination
+Cordia sp1 M_PL_041,2,Unidentified.sp1.M_PL_041,2,14,pollination
+Cordia sp1 M_PL_041,2,Appias.drusilla,2,2,pollination
+Cordia sp1 M_PL_041,2,Unidentified.sp5.M_PL_041,2,1,pollination
+Cordia sp1 M_PL_041,2,Coereba.flaveola.,2,1,pollination
+Cordia sp1 M_PL_041,2,Polygonus.sp1.M_PL_041,2,1,pollination
+Cordia sp1 M_PL_041,2,Dryas.iulia,2,2,pollination
+Cordia sp1 M_PL_041,2,Agraulis.vanillae,2,1,pollination
+Cordia sp1 M_PL_041,2,Phoebis.sp1.M_PL_041,2,1,pollination
+Cordia sp1 M_PL_041,2,Eulampis.holosericeus,2,4,pollination
+Cordia sp1 M_PL_041,2,Unidentified.sp18.M_PL_041,2,4,pollination
+Cornutia pyramidata,2,Orthorhyncus.cristatus,2,35,pollination
+Cornutia pyramidata,2,Unidentified.sp1.M_PL_041,2,7,pollination
+Cornutia pyramidata,2,Xylocopa.sp1.M_PL_041,2,14,pollination
+Cornutia pyramidata,2,Loxigilla.noctis,2,2,pollination
+Unidentified sp21 M_PL_041,2,Apis.mellifera,2,3,pollination
+Unidentified sp21 M_PL_041,2,Unidentified.sp2.M_PL_041,2,5,pollination
+Unidentified sp21 M_PL_041,2,Unidentified.sp4.M_PL_041,2,17,pollination
+Unidentified sp21 M_PL_041,2,Unidentified.sp3.M_PL_041,2,14,pollination
+Unidentified sp21 M_PL_041,2,Unidentified.sp7.M_PL_041,2,1,pollination
+Unidentified sp21 M_PL_041,2,Unidentified.sp5.M_PL_041,2,2,pollination
+Unidentified sp21 M_PL_041,2,Electrostrymon.angerona,2,3,pollination
+Unidentified sp21 M_PL_041,2,Allosmaitia.piplea,2,3,pollination
+Unidentified sp21 M_PL_041,2,Unidentified.sp16.M_PL_041,2,3,pollination
+Unidentified sp21 M_PL_041,2,Unidentified.sp17.M_PL_041,2,2,pollination
+Croton flavens,2,Unidentified.sp2.M_PL_041,2,1,pollination
+Croton flavens,2,Unidentified.sp8.M_PL_041,2,46,pollination
+Croton flavens,2,Polygonus.sp1.M_PL_041,2,1,pollination
+Vernonia sp1 M_PL_041,2,Apis.mellifera,2,6,pollination
+Vernonia sp1 M_PL_041,2,Unidentified.sp1.M_PL_041,2,1,pollination
+Vernonia sp1 M_PL_041,2,Unidentified.sp2.M_PL_041,2,3,pollination
+Vernonia sp1 M_PL_041,2,Xylocopa.sp1.M_PL_041,2,1,pollination
+Vernonia sp1 M_PL_041,2,Unidentified.sp4.M_PL_041,2,3,pollination
+Vernonia sp1 M_PL_041,2,Unidentified.sp3.M_PL_041,2,15,pollination
+Vernonia sp1 M_PL_041,2,Appias.drusilla,2,1,pollination
+Vernonia sp1 M_PL_041,2,Unidentified.sp6.M_PL_041,2,2,pollination
+Vernonia sp1 M_PL_041,2,Unidentified.sp7.M_PL_041,2,5,pollination
+Vernonia sp1 M_PL_041,2,Unidentified.sp5.M_PL_041,2,1,pollination
+Vernonia sp1 M_PL_041,2,Janonia.evarete,2,1,pollination
+Vernonia sp1 M_PL_041,2,Urbanus.sp1.M_PL_041,2,3,pollination
+Vernonia sp1 M_PL_041,2,Phoebis.sp1.M_PL_041,2,1,pollination
+Vernonia sp1 M_PL_041,2,Unidentified.sp10.M_PL_041,2,3,pollination
+Chamaecrista glandulosa,2,Orthorhyncus.cristatus,2,1,pollination
+Chamaecrista glandulosa,2,Unidentified.sp1.M_PL_041,2,21,pollination
+Chamaecrista glandulosa,2,Unidentified.sp2.M_PL_041,2,3,pollination
+Chamaecrista glandulosa,2,Xylocopa.sp1.M_PL_041,2,1,pollination
+Chamaecrista glandulosa,2,Unidentified.sp4.M_PL_041,2,1,pollination
+Chamaecrista glandulosa,2,Unidentified.sp6.M_PL_041,2,14,pollination
+Chamaecrista glandulosa,2,Electrostrymon.angerona,2,1,pollination
+Wedelia calycina,2,Orthorhyncus.cristatus,2,1,pollination
+Wedelia calycina,2,Apis.mellifera,2,10,pollination
+Wedelia calycina,2,Unidentified.sp2.M_PL_041,2,7,pollination
+Wedelia calycina,2,Unidentified.sp8.M_PL_041,2,2,pollination
+Wedelia calycina,2,Unidentified.sp3.M_PL_041,2,6,pollination
+Wedelia calycina,2,Appias.drusilla,2,4,pollination
+Wedelia calycina,2,Unidentified.sp6.M_PL_041,2,3,pollination
+Wedelia calycina,2,Unidentified.sp7.M_PL_041,2,1,pollination
+Wedelia calycina,2,Unidentified.sp5.M_PL_041,2,1,pollination
+Wedelia calycina,2,Dryas.iulia,2,1,pollination
+Wedelia calycina,2,Urbanus.sp1.M_PL_041,2,3,pollination
+Wedelia calycina,2,Unidentified.sp10.M_PL_041,2,1,pollination
+Wedelia calycina,2,Unidentified.sp19.M_PL_041,2,2,pollination
+Mimosa casta,2,Apis.mellifera,2,26,pollination
+Mimosa casta,2,Unidentified.sp1.M_PL_041,2,3,pollination
+Mimosa casta,2,Unidentified.sp2.M_PL_041,2,1,pollination
+Mimosa casta,2,Unidentified.sp4.M_PL_041,2,1,pollination
+Lantana camara,2,Orthorhyncus.cristatus,2,8,pollination
+Lantana camara,2,Unidentified.sp2.M_PL_041,2,6,pollination
+Lantana camara,2,Ascia.monuste,2,4,pollination
+Lantana camara,2,Dryas.iulia,2,4,pollination
+Lantana camara,2,Agraulis.vanillae,2,5,pollination
+Gonzalagunia hirsuta,2,Orthorhyncus.cristatus,2,4,pollination
+Gonzalagunia hirsuta,2,Apis.mellifera,2,1,pollination
+Gonzalagunia hirsuta,2,Unidentified.sp1.M_PL_041,2,1,pollination
+Gonzalagunia hirsuta,2,Wasmannia.auropunctata,2,15,pollination
+Gonzalagunia hirsuta,2,Appias.drusilla,2,1,pollination
+Gonzalagunia hirsuta,2,Unidentified.sp11.M_PL_041,2,1,pollination
+Guettarda scabra,2,Orthorhyncus.cristatus,2,12,pollination
+Guettarda scabra,2,Coereba.flaveola.,2,8,pollination
+Guettarda scabra,2,Cyanophaia.bicolor,2,2,pollination
+Ipomoea tiliacea,2,Orthorhyncus.cristatus,2,7,pollination
+Ipomoea tiliacea,2,Apis.mellifera,2,1,pollination
+Ipomoea tiliacea,2,Coereba.flaveola.,2,1,pollination
+Ipomoea tiliacea,2,Eulampis.jugularis,2,3,pollination
+Calliandra tergemina,2,Orthorhyncus.cristatus,2,5,pollination
+Calliandra tergemina,2,Apis.mellifera,2,1,pollination
+Calliandra tergemina,2,Xylocopa.sp1.M_PL_041,2,1,pollination
+Calliandra tergemina,2,Ascia.monuste,2,1,pollination
+Calliandra tergemina,2,Coereba.flaveola.,2,1,pollination
+Calliandra tergemina,2,Eulampis.jugularis,2,1,pollination
+Daphnopsis americana,2,Apis.mellifera,2,10,pollination
+Lantana involucrata,2,Orthorhyncus.cristatus,2,3,pollination
+Lantana involucrata,2,Unidentified.sp2.M_PL_041,2,3,pollination
+Lantana involucrata,2,Appias.drusilla,2,2,pollination
+Lantana involucrata,2,Hemiargus.hanno,2,1,pollination
+Lantana involucrata,2,Unidentified.sp15.M_PL_041,2,1,pollination
+Tetrazygia angustifolia,2,Unidentified.sp1.M_PL_041,2,9,pollination
+Wedelia trilobata,2,Apis.mellifera,2,1,pollination
+Wedelia trilobata,2,Unidentified.sp3.M_PL_041,2,2,pollination
+Wedelia trilobata,2,Janonia.evarete,2,4,pollination
+Wedelia trilobata,2,Anartia.jatrophae,2,1,pollination
+Sida rhombifolia,2,Wasmannia.auropunctata,2,2,pollination
+Sida rhombifolia,2,Unidentified.sp13.M_PL_041,2,3,pollination
+Sida rhombifolia,2,Unidentified.sp9.M_PL_041,2,1,pollination
+Byrsonima spicata,2,Unidentified.sp1.M_PL_041,2,4,pollination
+Byrsonima spicata,2,Anolis.oculatus,2,1,pollination
+Miconia striata,2,Unidentified.sp1.M_PL_041,2,3,pollination
+Miconia striata,2,Unidentified.sp4.M_PL_041,2,1,pollination
+Miconia striata,2,Unidentified.sp3.M_PL_041,2,1,pollination
+Spermacoce assurgens,2,Wasmannia.auropunctata,2,3,pollination
+Spermacoce assurgens,2,Unidentified.sp6.M_PL_041,2,2,pollination
+Ludwigia octovalvis,2,Unidentified.sp8.M_PL_041,2,1,pollination
+Ludwigia octovalvis,2,Wasmannia.auropunctata,2,3,pollination
+Odontonema nitidum,2,Orthorhyncus.cristatus,2,3,pollination
+Palicourea crocea,2,Orthorhyncus.cristatus,2,3,pollination
+Centrosema virginianum,2,Unidentified.sp12.M_PL_041,2,1,pollination
+Coccoloba sp1 M_PL_041,2,Xylocopa.sp1.M_PL_041,2,1,pollination
+Desmodium adscendens,2,Unidentified.sp3.M_PL_041,2,1,pollination
+Oxalis barrelieri,2,Pyrgus.oileus,2,1,pollination
+Oxalis frutescens,2,Orthorhyncus.cristatus,2,1,pollination
+Stigmaphyllon diversifolium,2,Wasmannia.auropunctata,2,1,pollination

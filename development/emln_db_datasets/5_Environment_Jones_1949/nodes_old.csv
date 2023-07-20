@@ -1,0 +1,46 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Ulothrix,taxon,taxonomy_name,Ulothrix,taxonomy_rank,genus
+2,Other green algae,taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+3,Diatoms,taxon,taxonomy_name,Diatoms,taxonomy_rank,NA
+4,Leuctra,taxon,taxonomy_name,Leuctra,taxonomy_rank,genus
+5,Baetis,taxon,taxonomy_name,Baetis,taxonomy_rank,genus
+6,Ephemerella,taxon,taxonomy_name,Ephemerella,taxonomy_rank,genus
+7,Simulium chironomids,taxon,taxonomy_name,Simulium,taxonomy_rank,genus
+8,Ecdyonurus,taxon,taxonomy_name,Ecdyonurus,taxonomy_rank,genus
+9,Hydropsyche,taxon,taxonomy_name,Hydropsyche,taxonomy_rank,genus
+10,Protonemura,taxon,taxonomy_name,Protonemura,taxonomy_rank,genus
+11,Philopotamus,taxon,taxonomy_name,Philopotamus,taxonomy_rank,genus
+12,Rhyacophila,taxon,taxonomy_name,Rhyacophila,taxonomy_rank,genus
+13,Perla,taxon,taxonomy_name,Perla,taxonomy_rank,genus
+14,Dinocras,taxon,taxonomy_name,Dinocras,taxonomy_rank,genus
+15,Detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+16,Leaf fragments,taxon,taxonomy_name,NA,taxonomy_rank,NA
+17,Protonemura sp.,taxon,taxonomy_name,Protonemura,taxonomy_rank,genus
+18,Baetis rhodani,taxon,taxonomy_name,Baetis rhodani,taxonomy_rank,species
+19,Ephemerella notata,taxon,taxonomy_name,Ephemerella notata,taxonomy_rank,species
+20,Simulium spp.,taxon,taxonomy_name,Simulium,taxonomy_rank,genus
+21,other chironomids,taxon,taxonomy_name,Chironomidae,taxonomy_rank,family
+22,Philopotamus montanus,taxon,taxonomy_name,Philopotamus montanus,taxonomy_rank,species
+23,Ulothrix sp.,taxon,taxonomy_name,Ulothrix,taxonomy_rank,genus
+24,Rhyacophila obliterata,taxon,taxonomy_name,Rhyacophila obliterata,taxonomy_rank,species
+25,L. geniculata,taxon,taxonomy_name,Leuctra geniculata,taxonomy_rank,species
+26,Ecdyonurus venosus,taxon,taxonomy_name,Ecdyonurus venosus,taxonomy_rank,species
+27,Dicranota sp.,taxon,taxonomy_name,Dicranota,taxonomy_rank,genus
+28,Cricotopus sp.,taxon,taxonomy_name,Cricotopus,taxonomy_rank,genus
+29,leaf fragments,taxon,taxonomy_name,NA,taxonomy_rank,NA
+30,diatoms (unspec.),taxon,taxonomy_name,Diatoms,taxonomy_rank,NA
+31,other green algae (unspec.),taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+32,Cladophora sp.,taxon,taxonomy_name,Cladophora,taxonomy_rank,genus
+33,Hydropsyche instabilis,taxon,taxonomy_name,Hydropsyche instabilis,taxonomy_rank,species
+34,Pentaneura sp.,taxon,taxonomy_name,Pentaneura,taxonomy_rank,genus
+35,Microspora sp.,taxon,taxonomy_name,Microspora,taxonomy_rank,genus
+36,Dinocras cephalotes,taxon,taxonomy_name,Dinocras cephalotes,taxonomy_rank,species
+37,Oreodytes rivalis,taxon,taxonomy_name,Oreodytes sanmarkii,taxonomy_rank,species
+38,O. septentrionalis,taxon,taxonomy_name,Oreodytes septentrionalis,taxonomy_rank,species
+39,Odontocerum albicorne,taxon,taxonomy_name,Odontocerum albicorne,taxonomy_rank,species
+40,Sericostoma personatum,taxon,taxonomy_name,Sericostoma personatum,taxonomy_rank,species
+41,Plectrocnemia conspersa,taxon,taxonomy_name,Plectrocnemia conspersa,taxonomy_rank,species
+42,Siphlonurus lacustris,taxon,taxonomy_name,Siphlonurus lacustris,taxonomy_rank,species
+43,detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+44,Leuctra fusciventris,taxon,taxonomy_name,NA,taxonomy_rank,NA
+45,Perla carlukiana,taxon,taxonomy_name,NA,taxonomy_rank,NA

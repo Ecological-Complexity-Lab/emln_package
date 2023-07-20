@@ -1,0 +1,65 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Dermestes carnivorus,taxon,taxonomy_name,Dermestes carnivorus,taxonomy_rank,species
+2,Euspilotus sp.,taxon,taxonomy_name,Euspilotus,taxonomy_rank,genus
+3,Phaenicia eximia,taxon,taxonomy_name,Lucilia eximia,taxonomy_rank,species
+4,Atherigena orientalis,taxon,taxonomy_name,Atherigona orientalis,taxonomy_rank,species
+5,Megaselia sp. 6,taxon,taxonomy_name,Megaselia,taxonomy_rank,genus
+6,Eumacronychia sternalis,taxon,taxonomy_name,Eumacronychia sternalis,taxonomy_rank,species
+7,Helicobia rapax,taxon,taxonomy_name,Helicobia rapax,taxonomy_rank,species
+8,Camponotus rectangularis,taxon,taxonomy_name,Camponotus rectangularis,taxonomy_rank,species
+9,Monomorium carbonarium,taxon,taxonomy_name,Monomorium carbonarium,taxonomy_rank,species
+10,Pheidole sp. 3,taxon,taxonomy_name,Pheidole,taxonomy_rank,genus
+11,Pheidole sp. 5,taxon,taxonomy_name,Pheidole,taxonomy_rank,genus
+12,Ectatomma ruidum,taxon,taxonomy_name,Ectatomma ruidum,taxonomy_rank,species
+13,Odontomachus haematodus,taxon,taxonomy_name,Odontomachus haematodus,taxonomy_rank,species
+14,Pseudomyrmex sp. 1,taxon,taxonomy_name,Pseudomyrmex,taxonomy_rank,genus
+15,acarid (unspecified),taxon,taxonomy_name,Acarida,taxonomy_rank,NA
+16,E. sternalis larvae,taxon,taxonomy_name,Engaeus sternalis,taxonomy_rank,NA
+17,H. repax larvae,taxon,taxonomy_name,Helicobia rapax,taxonomy_rank,species
+18,toad carrion,taxon,taxonomy_name,NA,taxonomy_rank,NA
+19,P. eximia larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+20,A. orientalis larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+21,H. flavifacies eggs,taxon,taxonomy_name,Hemilucilia flavifacies,taxonomy_rank,NA
+22,C. conspersa eggs,taxon,taxonomy_name,Cyrtoneurina conspersa,taxonomy_rank,species
+23,G. sp. eggs,taxon,taxonomy_name,Gymnogeophagus,taxonomy_rank,genus
+24,C. gemina eggs,taxon,taxonomy_name,Cyrtoneurina gemina,taxonomy_rank,species
+25,Fannia sp. 1 eggs,taxon,taxonomy_name,Fannia,taxonomy_rank,genus
+26,Fannia sp. 2 eggs,taxon,taxonomy_name,Fannia,taxonomy_rank,genus
+27,H. flavifacies larvae,taxon,taxonomy_name,Hemilucilia flavifacies,taxonomy_rank,NA
+28,C. conspersa larvae,taxon,taxonomy_name,Cyrtoneurina conspersa,taxonomy_rank,species
+29,C. gemina larvae,taxon,taxonomy_name,Cyrtoneurina gemina,taxonomy_rank,species
+30,G. sp. larvae,taxon,taxonomy_name,Gymnogeophagus,taxonomy_rank,genus
+31,Fannia sp. 1 larvae,taxon,taxonomy_name,Fannia,taxonomy_rank,genus
+32,Fannia sp. 2 larvae,taxon,taxonomy_name,Fannia,taxonomy_rank,genus
+33,Deltochilum lobipes,taxon,taxonomy_name,Deltochilum lobipes,taxonomy_rank,species
+34,Eurysternus caribaeus,taxon,taxonomy_name,Eurysternus caribaeus,taxonomy_rank,species
+35,E. plebejus,taxon,taxonomy_name,Euscelis plebejus,taxonomy_rank,NA
+36,Onthophagus praecellens,taxon,taxonomy_name,Onthophagus praecellens,taxonomy_rank,species
+37,Hemilucilia flavifacies,taxon,taxonomy_name,Hemilucilia flavifacies,taxonomy_rank,NA
+38,Chrysotus sp.,taxon,taxonomy_name,Chrysotus,taxonomy_rank,genus
+39,Cyrtoneurina conspersa,taxon,taxonomy_name,Cyrtoneurina conspersa,taxonomy_rank,species
+40,C. gemina,taxon,taxonomy_name,Cyrtoneurina gemina,taxonomy_rank,species
+41,Graphomyia sp.,taxon,taxonomy_name,Graphomya,taxonomy_rank,genus
+42,Fannia sp. 1,taxon,taxonomy_name,Fannia,taxonomy_rank,genus
+43,Fannia sp. 2,taxon,taxonomy_name,Fannia,taxonomy_rank,genus
+44,Glyphidops flavifrons,taxon,taxonomy_name,Glyphidops flavifrons,taxonomy_rank,species
+45,Euxesta (near annonae),taxon,taxonomy_name,Euxesta,taxonomy_rank,genus
+46,Megaselia sp. 1,taxon,taxonomy_name,Megaselia,taxonomy_rank,genus
+47,Megaselia sp. 7,taxon,taxonomy_name,Megaselia,taxonomy_rank,genus
+48,Epiplatea hondurana,taxon,taxonomy_name,Epiplatea hondurana,taxonomy_rank,species
+49,Leptocera sp. 2,taxon,taxonomy_name,Leptocera,taxonomy_rank,genus
+50,Leptocera sp. 3,taxon,taxonomy_name,Leptocera,taxonomy_rank,genus
+51,Sphaerocera sp. 1,taxon,taxonomy_name,Sphaerocera,taxonomy_rank,genus
+52,Sphaerocera sp. 2,taxon,taxonomy_name,Sphaerocera,taxonomy_rank,genus
+53,staphylinid sp. 1,taxon,taxonomy_name,Staphylinidae,taxonomy_rank,family
+54,staphylinid sp. 6,taxon,taxonomy_name,Staphylinidae,taxonomy_rank,family
+55,staphylinid sp. 7,taxon,taxonomy_name,Staphylinidae,taxonomy_rank,family
+56,staphylinid sp. 10,taxon,taxonomy_name,Staphylinidae,taxonomy_rank,family
+57,Camponotus abdominalis,taxon,taxonomy_name,Camponotus atriceps,taxonomy_rank,species
+58,Solenopsis geminata,taxon,taxonomy_name,Solenopsis geminata,taxonomy_rank,species
+59,Pachycondyla sp.,taxon,taxonomy_name,Pachycondyla,taxonomy_rank,genus
+60,saurians (unspec.),taxon,taxonomy_name,Eritrichium akkolium,taxonomy_rank,species
+61,Anaides sp. (near plana),taxon,taxonomy_name,NA,taxonomy_rank,NA
+62,Coilodes castanea,taxon,taxonomy_name,NA,taxonomy_rank,NA
+63,E. caludicans,taxon,taxonomy_name,NA,taxonomy_rank,NA
+64,Phocoscelus arthriticus,taxon,taxonomy_name,NA,taxonomy_rank,NA

@@ -1,0 +1,264 @@
+node_from,layer_from,node_to,layer_to,weight,type
+Guarea guidonia,1,Loxigilla.portoricensis.,1,34,seed-dispersal
+Guarea guidonia,1,Vireo.altiloquous.,1,6,seed-dispersal
+Guarea guidonia,1,Tyrannus.dominicensis.,1,2,seed-dispersal
+Guarea guidonia,1,Margarops.fuscatus.,1,1,seed-dispersal
+Cecropia schreberiana,1,Loxigilla.portoricensis.,1,10,seed-dispersal
+Cecropia schreberiana,1,Spindalis.portoricensis.,1,12,seed-dispersal
+Cecropia schreberiana,1,Vireo.altiloquous.,1,1,seed-dispersal
+Cecropia schreberiana,1,Turdus.plumbeus.,1,3,seed-dispersal
+Cecropia schreberiana,1,Columba.squamosa.,1,1,seed-dispersal
+Cecropia schreberiana,1,Coereba.flaveola.,1,7,seed-dispersal
+Cecropia schreberiana,1,Euphonia.musica.,1,1,seed-dispersal
+Cecropia schreberiana,1,Margarops.fuscatus.,1,2,seed-dispersal
+Cecropia schreberiana,1,Nesospingus.sp1.M_SD_003,1,1,seed-dispersal
+Cecropia schreberiana,1,Tiaris.bicolor.,1,1,seed-dispersal
+Cecropia schreberiana,1,Todus.mexicanus.,1,1,seed-dispersal
+Schefflera morototoni,1,Spindalis.portoricensis.,1,14,seed-dispersal
+Schefflera morototoni,1,Vireo.altiloquous.,1,1,seed-dispersal
+Schefflera morototoni,1,Turdus.plumbeus.,1,10,seed-dispersal
+Schefflera morototoni,1,Columba.squamosa.,1,3,seed-dispersal
+Miconia prasina,1,Loxigilla.portoricensis.,1,7,seed-dispersal
+Miconia prasina,1,Spindalis.portoricensis.,1,15,seed-dispersal
+Miconia prasina,1,Coereba.flaveola.,1,2,seed-dispersal
+Miconia prasina,1,Margarops.fuscatus.,1,1,seed-dispersal
+Cupania americana,1,Loxigilla.portoricensis.,1,7,seed-dispersal
+Cupania americana,1,Vireo.altiloquous.,1,3,seed-dispersal
+Cupania americana,1,Turdus.plumbeus.,1,1,seed-dispersal
+Cupania americana,1,Coereba.flaveola.,1,2,seed-dispersal
+Cupania americana,1,Tyrannus.dominicensis.,1,6,seed-dispersal
+Cupania americana,1,Icterus.dominicensis.,1,1,seed-dispersal
+Cupania americana,1,Molothrus.bonariensis.,1,1,seed-dispersal
+Alchornea latifolia,1,Loxigilla.portoricensis.,1,5,seed-dispersal
+Alchornea latifolia,1,Vireo.altiloquous.,1,1,seed-dispersal
+Alchornea latifolia,1,Zenaida.zenaida.,1,2,seed-dispersal
+Myrcia sp1 M_SD_003,1,Loxigilla.portoricensis.,1,2,seed-dispersal
+Myrcia sp1 M_SD_003,1,Spindalis.portoricensis.,1,5,seed-dispersal
+Myrcia sp1 M_SD_003,1,Margarops.fuscatus.,1,1,seed-dispersal
+Byrsonima coriacea,1,Loxigilla.portoricensis.,1,1,seed-dispersal
+Byrsonima coriacea,1,Spindalis.portoricensis.,1,1,seed-dispersal
+Byrsonima coriacea,1,Vireo.altiloquous.,1,2,seed-dispersal
+Byrsonima coriacea,1,Columba.squamosa.,1,3,seed-dispersal
+Clusia rosea,1,Vireo.altiloquous.,1,7,seed-dispersal
+Henriettea fascicularis,1,Loxigilla.portoricensis.,1,4,seed-dispersal
+Henriettea fascicularis,1,Spindalis.portoricensis.,1,1,seed-dispersal
+Henriettea fascicularis,1,Turdus.plumbeus.,1,1,seed-dispersal
+Henriettea fascicularis,1,Icterus.dominicensis.,1,1,seed-dispersal
+Casearia arborea,1,Loxigilla.portoricensis.,1,2,seed-dispersal
+Casearia arborea,1,Vireo.altiloquous.,1,1,seed-dispersal
+Casearia arborea,1,Columba.squamosa.,1,1,seed-dispersal
+Casearia arborea,1,Tyrannus.dominicensis.,1,1,seed-dispersal
+Casearia arborea,1,Unidentified.sp1.M_SD_003,1,1,seed-dispersal
+Ocotea leucoxylon,1,Columba.squamosa.,1,5,seed-dispersal
+Miconia affinis,1,Loxigilla.portoricensis.,1,4,seed-dispersal
+Phoradendron sp1 M_SD_003,1,Loxigilla.portoricensis.,1,1,seed-dispersal
+Phoradendron sp1 M_SD_003,1,Euphonia.musica.,1,3,seed-dispersal
+Psychotria berteroana,1,Loxigilla.portoricensis.,1,1,seed-dispersal
+Psychotria berteroana,1,Spindalis.portoricensis.,1,3,seed-dispersal
+Inga vera,1,Loxigilla.portoricensis.,1,1,seed-dispersal
+Inga vera,1,Spindalis.portoricensis.,1,2,seed-dispersal
+Ficus sp1 M_SD_003,1,Euphonia.musica.,1,2,seed-dispersal
+Myrcine coriacea,1,Spindalis.portoricensis.,1,1,seed-dispersal
+Myrcine coriacea,1,Vireo.altiloquous.,1,1,seed-dispersal
+Anthurium scandens,1,Loxigilla.portoricensis.,1,1,seed-dispersal
+Dendropanax arboreus,1,Spindalis.portoricensis.,1,1,seed-dispersal
+Inga laurina,1,Icterus.dominicensis.,1,1,seed-dispersal
+Miconia serrulata,1,Spindalis.portoricensis.,1,1,seed-dispersal
+Tournefortia hisutissima,1,Spindalis.portoricensis.,1,1,seed-dispersal
+Unidentified sp2 M_SD_003,1,Vireo.altiloquous.,1,1,seed-dispersal
+Unidentified sp3 M_SD_003,1,Spindalis.portoricensis.,1,1,seed-dispersal
+Phoradendron sp1 M_SD_004,2,Spindalis.portoricensis.,2,10,seed-dispersal
+Phoradendron sp1 M_SD_004,2,Euphonia.musica.,2,55,seed-dispersal
+Phoradendron sp1 M_SD_004,2,Nesospingus.sp1.M_SD_004,2,3,seed-dispersal
+Phoradendron sp1 M_SD_004,2,Loxigilla.portoricensis.,2,9,seed-dispersal
+Phoradendron sp1 M_SD_004,2,Vireo.altiloquous.,2,1,seed-dispersal
+Phoradendron sp1 M_SD_004,2,Coereba.flaveola.,2,1,seed-dispersal
+Phoradendron sp1 M_SD_004,2,Vireo.flavirostris.,2,1,seed-dispersal
+Schefflera morototoni,2,Spindalis.portoricensis.,2,56,seed-dispersal
+Schefflera morototoni,2,Euphonia.musica.,2,1,seed-dispersal
+Schefflera morototoni,2,Nesospingus.sp1.M_SD_004,2,4,seed-dispersal
+Schefflera morototoni,2,Loxigilla.portoricensis.,2,1,seed-dispersal
+Schefflera morototoni,2,Vireo.altiloquous.,2,3,seed-dispersal
+Schefflera morototoni,2,Columba.squamosa.,2,5,seed-dispersal
+Schefflera morototoni,2,Margarops.fuscatus.,2,1,seed-dispersal
+Schefflera morototoni,2,Tyrannus.dominicensis.,2,4,seed-dispersal
+Schefflera morototoni,2,Coereba.flaveola.,2,1,seed-dispersal
+Schefflera morototoni,2,Dendroica.tigrina.,2,1,seed-dispersal
+Schefflera morototoni,2,Tyrannus.caudifasciatus.,2,1,seed-dispersal
+Cecropia schreberiana,2,Spindalis.portoricensis.,2,29,seed-dispersal
+Cecropia schreberiana,2,Nesospingus.sp1.M_SD_004,2,6,seed-dispersal
+Cecropia schreberiana,2,Loxigilla.portoricensis.,2,6,seed-dispersal
+Cecropia schreberiana,2,Vireo.altiloquous.,2,4,seed-dispersal
+Cecropia schreberiana,2,Melanerpes.portoricensis.,2,3,seed-dispersal
+Cecropia schreberiana,2,Margarops.fuscatus.,2,1,seed-dispersal
+Cecropia schreberiana,2,Coereba.flaveola.,2,2,seed-dispersal
+Cecropia schreberiana,2,Dendroica.tigrina.,2,3,seed-dispersal
+Cecropia schreberiana,2,Dendroica.caerulescens.,2,1,seed-dispersal
+Ficus sp1 M_SD_004,2,Spindalis.portoricensis.,2,34,seed-dispersal
+Ficus sp1 M_SD_004,2,Nesospingus.sp1.M_SD_004,2,4,seed-dispersal
+Ficus sp1 M_SD_004,2,Vireo.altiloquous.,2,1,seed-dispersal
+Ficus sp1 M_SD_004,2,Margarops.fuscatus.,2,1,seed-dispersal
+Guarea guidonia,2,Nesospingus.sp1.M_SD_004,2,5,seed-dispersal
+Guarea guidonia,2,Loxigilla.portoricensis.,2,17,seed-dispersal
+Guarea guidonia,2,Vireo.altiloquous.,2,14,seed-dispersal
+Guarea guidonia,2,Margarops.fuscatus.,2,1,seed-dispersal
+Guarea guidonia,2,Vireo.flavirostris.,2,1,seed-dispersal
+Cordia sulcata,2,Spindalis.portoricensis.,2,28,seed-dispersal
+Alchornea latifolia,2,Spindalis.portoricensis.,2,3,seed-dispersal
+Alchornea latifolia,2,Loxigilla.portoricensis.,2,14,seed-dispersal
+Alchornea latifolia,2,Vireo.altiloquous.,2,3,seed-dispersal
+Alchornea latifolia,2,Zenaida.asiatica,2,5,seed-dispersal
+Alchornea latifolia,2,Todus.mexicanus.,2,1,seed-dispersal
+Alchornea latifolia,2,Vireo.latimeri.,2,1,seed-dispersal
+Miconia serrulata,2,Spindalis.portoricensis.,2,6,seed-dispersal
+Miconia serrulata,2,Euphonia.musica.,2,2,seed-dispersal
+Miconia serrulata,2,Nesospingus.sp1.M_SD_004,2,12,seed-dispersal
+Clusia rosea,2,Nesospingus.sp1.M_SD_004,2,1,seed-dispersal
+Clusia rosea,2,Vireo.altiloquous.,2,11,seed-dispersal
+Clusia rosea,2,Melanerpes.portoricensis.,2,3,seed-dispersal
+Clusia rosea,2,Tyrannus.dominicensis.,2,1,seed-dispersal
+Clusia rosea,2,Icterus.dominicensis.,2,1,seed-dispersal
+Clusia rosea,2,Myarchus.antillarum.,2,1,seed-dispersal
+Anthurium scandens,2,Spindalis.portoricensis.,2,1,seed-dispersal
+Anthurium scandens,2,Euphonia.musica.,2,16,seed-dispersal
+Miconia affinis,2,Spindalis.portoricensis.,2,2,seed-dispersal
+Miconia affinis,2,Nesospingus.sp1.M_SD_004,2,10,seed-dispersal
+Miconia affinis,2,Vireo.altiloquous.,2,1,seed-dispersal
+Inga vera,2,Nesospingus.sp1.M_SD_004,2,8,seed-dispersal
+Inga vera,2,Vireo.altiloquous.,2,1,seed-dispersal
+Musa acuminata,2,Spindalis.portoricensis.,2,1,seed-dispersal
+Musa acuminata,2,Nesospingus.sp1.M_SD_004,2,3,seed-dispersal
+Musa acuminata,2,Loxigilla.portoricensis.,2,4,seed-dispersal
+Inga laurina,2,Spindalis.portoricensis.,2,4,seed-dispersal
+Inga laurina,2,Vireo.altiloquous.,2,1,seed-dispersal
+Dendropemon bicolor,2,Nesospingus.sp1.M_SD_004,2,3,seed-dispersal
+Dendropemon bicolor,2,Loxigilla.portoricensis.,2,1,seed-dispersal
+Myrcine coriacea,2,Nesospingus.sp1.M_SD_004,2,2,seed-dispersal
+Myrcine coriacea,2,Loxigilla.portoricensis.,2,1,seed-dispersal
+Myrcine coriacea,2,Vireo.altiloquous.,2,1,seed-dispersal
+Syzigium jambos,2,Nesospingus.sp1.M_SD_004,2,1,seed-dispersal
+Syzigium jambos,2,Loxigilla.portoricensis.,2,3,seed-dispersal
+Andira inermis,2,Spindalis.portoricensis.,2,1,seed-dispersal
+Andira inermis,2,Vireo.altiloquous.,2,2,seed-dispersal
+Coffea arabica,2,Loxigilla.portoricensis.,2,1,seed-dispersal
+Coffea arabica,2,Vireo.altiloquous.,2,2,seed-dispersal
+Miconia racemosa,2,Nesospingus.sp1.M_SD_004,2,2,seed-dispersal
+Miconia racemosa,2,Loxigilla.portoricensis.,2,1,seed-dispersal
+Palicourea guianensis,2,Nesospingus.sp1.M_SD_004,2,1,seed-dispersal
+Palicourea guianensis,2,Loxigilla.portoricensis.,2,2,seed-dispersal
+Tilandsia sp1 M_SD_004,2,Nesospingus.sp1.M_SD_004,2,3,seed-dispersal
+Buchenavia capitata,2,Loxigilla.portoricensis.,2,1,seed-dispersal
+Buchenavia capitata,2,Vireo.altiloquous.,2,1,seed-dispersal
+Casearia arborea,2,Spindalis.portoricensis.,2,1,seed-dispersal
+Casearia arborea,2,Nesospingus.sp1.M_SD_004,2,1,seed-dispersal
+Citrus sinensis,2,Spindalis.portoricensis.,2,1,seed-dispersal
+Citrus sinensis,2,Nesospingus.sp1.M_SD_004,2,1,seed-dispersal
+Dendropanax arboreus,2,Spindalis.portoricensis.,2,1,seed-dispersal
+Henriettea fascicularis,2,Euphonia.musica.,2,1,seed-dispersal
+Momordica charantia,2,Euphonia.musica.,2,1,seed-dispersal
+Palicourea crocea,2,Loxigilla.portoricensis.,2,1,seed-dispersal
+Philodendron angustatum,2,Nesospingus.sp1.M_SD_004,2,1,seed-dispersal
+Piper sp1 M_SD_004,2,Tiaris.bicolor.,2,1,seed-dispersal
+Solanum rugosum,2,Margarops.fuscatus.,2,1,seed-dispersal
+Unidentified sp1 M_SD_004,2,Nesospingus.sp1.M_SD_004,2,1,seed-dispersal
+Zanthoxylum martinicensis,2,Loxigilla.portoricensis.,2,1,seed-dispersal
+Guarea guidonia,3,Loxigilla.portoricensis.,3,13,seed-dispersal
+Guarea guidonia,3,Margarops.fuscatus.,3,11,seed-dispersal
+Guarea guidonia,3,Turdus.plumbeus.,3,4,seed-dispersal
+Guarea guidonia,3,Vireo.altiloquous.,3,1,seed-dispersal
+Guarea guidonia,3,Tyrannus.caudifasciatus.,3,4,seed-dispersal
+Guarea guidonia,3,Myarchus.antillarum.,3,1,seed-dispersal
+Clusia rosea,3,Loxigilla.portoricensis.,3,3,seed-dispersal
+Clusia rosea,3,Margarops.fuscatus.,3,3,seed-dispersal
+Clusia rosea,3,Vireo.altiloquous.,3,5,seed-dispersal
+Clusia rosea,3,Molothrus.bonariensis.,3,2,seed-dispersal
+Clusia rosea,3,Myarchus.antillarum.,3,1,seed-dispersal
+Clusia rosea,3,Coereba.flaveola.,3,1,seed-dispersal
+Clusia rosea,3,Vireo.latimeri.,3,1,seed-dispersal
+Ocotea coriacea,3,Margarops.fuscatus.,3,6,seed-dispersal
+Ocotea coriacea,3,Columba.squamosa.,3,3,seed-dispersal
+Ocotea coriacea,3,Turdus.plumbeus.,3,4,seed-dispersal
+Ocotea coriacea,3,Tyrannus.dominicensis.,3,2,seed-dispersal
+Roystonea borinquena,3,Columba.squamosa.,3,11,seed-dispersal
+Roystonea borinquena,3,Turdus.plumbeus.,3,2,seed-dispersal
+Cupania americana,3,Loxigilla.portoricensis.,3,6,seed-dispersal
+Cupania americana,3,Turdus.plumbeus.,3,4,seed-dispersal
+Cupania americana,3,Tyrannus.dominicensis.,3,2,seed-dispersal
+Cecropia schreberiana,3,Loxigilla.portoricensis.,3,1,seed-dispersal
+Cecropia schreberiana,3,Columba.squamosa.,3,2,seed-dispersal
+Cecropia schreberiana,3,Turdus.plumbeus.,3,1,seed-dispersal
+Clusia gundlachi,3,Loxigilla.portoricensis.,3,1,seed-dispersal
+Clusia gundlachi,3,Margarops.fuscatus.,3,2,seed-dispersal
+Clusia gundlachi,3,Columba.squamosa.,3,1,seed-dispersal
+Hyeronima clusioides,3,Spindalis.portoricensis.,3,3,seed-dispersal
+Ficus sp1 M_SD_005,3,Loxigilla.portoricensis.,3,1,seed-dispersal
+Ficus sp1 M_SD_005,3,Margarops.fuscatus.,3,1,seed-dispersal
+Margravia rectiflora,3,Margarops.fuscatus.,3,1,seed-dispersal
+Margravia rectiflora,3,Turdus.plumbeus.,3,1,seed-dispersal
+Persea americana,3,Margarops.fuscatus.,3,1,seed-dispersal
+Persea americana,3,Spindalis.portoricensis.,3,1,seed-dispersal
+Phoradendron sp1 M_SD_005,3,Euphonia.musica.,3,2,seed-dispersal
+Alchornea latifolia,3,Loxigilla.portoricensis.,3,1,seed-dispersal
+Anthurium scandens,3,Euphonia.musica.,3,1,seed-dispersal
+Ardisia obovata,3,Spindalis.portoricensis.,3,1,seed-dispersal
+Bursera simaruba,3,Loxigilla.portoricensis.,3,1,seed-dispersal
+Chrysophyllum argenteum,3,Margarops.fuscatus.,3,1,seed-dispersal
+Comocladia glabra,3,Loxigilla.portoricensis.,3,1,seed-dispersal
+Dendropemon bicolor,3,Euphonia.musica.,3,1,seed-dispersal
+Guapira fragrans,3,Margarops.fuscatus.,3,1,seed-dispersal
+Petitia dominguensis,3,Columba.squamosa.,3,1,seed-dispersal
+Syzigium malaccensis,3,Margarops.fuscatus.,3,1,seed-dispersal
+Unidentified sp1 M_SD_005,3,Loxigilla.portoricensis.,3,1,seed-dispersal
+Unidentified sp2 M_SD_005,3,Turdus.plumbeus.,3,1,seed-dispersal
+Zanthoxylum martinicensis,3,Margarops.fuscatus.,3,1,seed-dispersal
+Cecropia schreberiana,4,Spindalis.portoricensis.,4,17,seed-dispersal
+Cecropia schreberiana,4,Loxigilla.portoricensis.,4,4,seed-dispersal
+Cecropia schreberiana,4,Vireo.altiloquous.,4,5,seed-dispersal
+Cecropia schreberiana,4,Turdus.plumbeus.,4,2,seed-dispersal
+Cecropia schreberiana,4,Coereba.flaveola.,4,5,seed-dispersal
+Cecropia schreberiana,4,Tyrannus.dominicensis.,4,1,seed-dispersal
+Cecropia schreberiana,4,Nesospingus.speculiferus,4,2,seed-dispersal
+Cecropia schreberiana,4,Melanerpes.portoricensis.,4,1,seed-dispersal
+Cecropia schreberiana,4,Euphonia.musica.,4,1,seed-dispersal
+Guarea guidonia,4,Loxigilla.portoricensis.,4,13,seed-dispersal
+Guarea guidonia,4,Vireo.altiloquous.,4,5,seed-dispersal
+Guarea guidonia,4,Tyrannus.dominicensis.,4,1,seed-dispersal
+Guarea guidonia,4,Melanerpes.portoricensis.,4,1,seed-dispersal
+Guarea guidonia,4,Tyrannus.caudifasciatus.,4,2,seed-dispersal
+Guarea guidonia,4,Myarchus.antillarum.,4,1,seed-dispersal
+Guarea guidonia,4,Vireo.flavirostris.,4,1,seed-dispersal
+Schefflera morototoni,4,Spindalis.portoricensis.,4,7,seed-dispersal
+Schefflera morototoni,4,Turdus.plumbeus.,4,4,seed-dispersal
+Schefflera morototoni,4,Coereba.flaveola.,4,1,seed-dispersal
+Schefflera morototoni,4,Tyrannus.dominicensis.,4,4,seed-dispersal
+Alchornea latifolia,4,Loxigilla.portoricensis.,4,2,seed-dispersal
+Alchornea latifolia,4,Vireo.altiloquous.,4,3,seed-dispersal
+Dendropanax arboreus,4,Spindalis.portoricensis.,4,1,seed-dispersal
+Dendropanax arboreus,4,Loxigilla.portoricensis.,4,3,seed-dispersal
+Dendropanax arboreus,4,Turdus.plumbeus.,4,1,seed-dispersal
+Ocotea floribunda,4,Turdus.plumbeus.,4,3,seed-dispersal
+Ocotea floribunda,4,Tyrannus.dominicensis.,4,1,seed-dispersal
+Ocotea floribunda,4,Columba.squamosa.,4,1,seed-dispersal
+Inga vera,4,Loxigilla.portoricensis.,4,1,seed-dispersal
+Inga vera,4,Vireo.altiloquous.,4,1,seed-dispersal
+Inga vera,4,Coereba.flaveola.,4,2,seed-dispersal
+Ficus sp1 M_SD_006,4,Spindalis.portoricensis.,4,1,seed-dispersal
+Ficus sp1 M_SD_006,4,Turdus.plumbeus.,4,2,seed-dispersal
+Miconia prasina,4,Loxigilla.portoricensis.,4,1,seed-dispersal
+Miconia prasina,4,Vireo.altiloquous.,4,1,seed-dispersal
+Miconia prasina,4,Nesospingus.speculiferus,4,1,seed-dispersal
+Musa acuminata,4,Spindalis.portoricensis.,4,1,seed-dispersal
+Musa acuminata,4,Icterus.dominicensis.,4,1,seed-dispersal
+Phytolacca rivinoides,4,Spindalis.portoricensis.,4,1,seed-dispersal
+Phytolacca rivinoides,4,Turdus.plumbeus.,4,1,seed-dispersal
+Tournefortia hisutissima,4,Spindalis.portoricensis.,4,1,seed-dispersal
+Tournefortia hisutissima,4,Turdus.plumbeus.,4,1,seed-dispersal
+Casearia sylvestris,4,Vireo.latimeri.,4,1,seed-dispersal
+Citrus sinensis,4,Vireo.altiloquous.,4,1,seed-dispersal
+Coffea arabica,4,Vireo.altiloquous.,4,1,seed-dispersal
+Miconia laevigatta,4,Spindalis.portoricensis.,4,1,seed-dispersal
+Momordica charantia,4,Tyrannus.dominicensis.,4,1,seed-dispersal
+Murraya paniculata,4,Nesospingus.speculiferus,4,1,seed-dispersal
+Piper amalaga,4,Spindalis.portoricensis.,4,1,seed-dispersal
+Roystonea borinquena,4,Spindalis.portoricensis.,4,1,seed-dispersal
+Solanum rugosum,4,Spindalis.portoricensis.,4,1,seed-dispersal

@@ -1,0 +1,1840 @@
+node_from,layer_from,node_to,layer_to,weight,type
+Aelosoma,1,Unidentified sp1 FW_012_01,1,1,trophic
+Brachycentrus sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Cambarus bartoni,1,Unidentified sp1 FW_012_01,1,1,trophic
+Dicranota sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Ectopria thoracica,1,Unidentified sp1 FW_012_01,1,1,trophic
+Epeorus dispar,1,Unidentified sp1 FW_012_01,1,1,trophic
+Glossosoma sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Homoplectra sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Hudsonimya sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Hydropsyche sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Leucrocuta sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Leuctra sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Lumbriculiid oligochaete,1,Unidentified sp1 FW_012_01,1,1,trophic
+Parametriocnemus sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Ophiogomphus sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Palpomyia sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Palpomyia sp2 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Promoresia sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Psephenus sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Soliperla sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Stenelmis adult,1,Unidentified sp1 FW_012_01,1,1,trophic
+Stenelmis sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Suwalia sp1 FW_012_01,1,Unidentified sp1 FW_012_01,1,1,trophic
+Tallaperla maria,1,Unidentified sp1 FW_012_01,1,1,trophic
+Tipula abdominalis,1,Unidentified sp1 FW_012_01,1,1,trophic
+Salamander,1,Unidentified sp1 FW_012_01,1,1,trophic
+Cordulegaster maculata,1,Terrestrial invertebrates,1,1,trophic
+Homoplectra sp1 FW_012_01,1,Terrestrial invertebrates,1,1,trophic
+Hydropsyche sp1 FW_012_01,1,Terrestrial invertebrates,1,1,trophic
+Ophiogomphus sp1 FW_012_01,1,Terrestrial invertebrates,1,1,trophic
+Aelosoma,1,Plant material,1,1,trophic
+Cambarus bartoni,1,Plant material,1,1,trophic
+Ectopria thoracica,1,Plant material,1,1,trophic
+Epeorus dispar,1,Plant material,1,1,trophic
+Glossosoma sp1 FW_012_01,1,Plant material,1,1,trophic
+Homoplectra sp1 FW_012_01,1,Plant material,1,1,trophic
+Hydropsyche sp1 FW_012_01,1,Plant material,1,1,trophic
+Leucrocuta sp1 FW_012_01,1,Plant material,1,1,trophic
+Leuctra sp1 FW_012_01,1,Plant material,1,1,trophic
+Lumbriculiid oligochaete,1,Plant material,1,1,trophic
+Parametriocnemus sp1 FW_012_01,1,Plant material,1,1,trophic
+Neureclipsis sp1 FW_012_01,1,Plant material,1,1,trophic
+Promoresia sp1 FW_012_01,1,Plant material,1,1,trophic
+Psephenus sp1 FW_012_01,1,Plant material,1,1,trophic
+Soliperla sp1 FW_012_01,1,Plant material,1,1,trophic
+Stenelmis adult,1,Plant material,1,1,trophic
+Tallaperla maria,1,Plant material,1,1,trophic
+Tipula abdominalis,1,Plant material,1,1,trophic
+Ectopria thoracica,1,Achnanthes lanceolata,1,1,trophic
+Epeorus dispar,1,Achnanthes lanceolata,1,1,trophic
+Leucrocuta sp1 FW_012_01,1,Achnanthes lanceolata,1,1,trophic
+Promoresia sp1 FW_012_01,1,Achnanthes lanceolata,1,1,trophic
+Psephenus sp1 FW_012_01,1,Achnanthes lanceolata,1,1,trophic
+Thaumalea sp1 FW_012_01,1,Achnanthes lanceolata,1,1,trophic
+Thaumalea sp1 FW_012_01,1,Achnanthes minutissima,1,1,trophic
+Epeorus dispar,1,Audouinella sp1 FW_012_01,1,1,trophic
+Tipula abdominalis,1,Batrachospermum,1,1,trophic
+Epeorus dispar,1,Blue-green algae,1,1,trophic
+Homoplectra sp1 FW_012_01,1,Blue-green algae,1,1,trophic
+Leucrocuta sp1 FW_012_01,1,Blue-green algae,1,1,trophic
+Leuctra sp1 FW_012_01,1,Blue-green algae,1,1,trophic
+Promoresia sp1 FW_012_01,1,Blue-green algae,1,1,trophic
+Tallaperla maria,1,Blue-green algae,1,1,trophic
+Tipula abdominalis,1,Calothrix,1,1,trophic
+Epeorus dispar,1,Cymbella cistula,1,1,trophic
+Brachycentrus sp1 FW_012_01,1,Cymbella mulleri,1,1,trophic
+Ectopria thoracica,1,Diatoma heimale,1,1,trophic
+Epeorus dispar,1,Diatoma heimale,1,1,trophic
+Leucrocuta sp1 FW_012_01,1,Diatoma heimale,1,1,trophic
+Psephenus sp1 FW_012_01,1,Diatoma heimale,1,1,trophic
+Stenelmis sp1 FW_012_01,1,Diatoma heimale,1,1,trophic
+Aelosoma,1,Epithemia sorex,1,1,trophic
+Lumbriculiid oligochaete,1,Epithemia sorex,1,1,trophic
+Parametriocnemus sp1 FW_012_01,1,Epithemia sorex,1,1,trophic
+Epeorus dispar,1,Epithemia turgida,1,1,trophic
+Epeorus dispar,1,Eunotia pectinalis,1,1,trophic
+Promoresia sp1 FW_012_01,1,Eunotia pectinalis,1,1,trophic
+Thaumalea sp1 FW_012_01,1,Eunotia pectinalis,1,1,trophic
+Thaumalea sp1 FW_012_01,1,Eunotia sp1 FW_012_01,1,1,trophic
+Leucrocuta sp1 FW_012_01,1,Frustulia rhomboides,1,1,trophic
+Promoresia sp1 FW_012_01,1,Frustulia rhomboides,1,1,trophic
+Ectopria thoracica,1,Gomphoneis herculeana,1,1,trophic
+Psephenus sp1 FW_012_01,1,Gomphoneis herculeana,1,1,trophic
+Thaumalea sp1 FW_012_01,1,Gomphonema intricatum,1,1,trophic
+Brachycentrus sp1 FW_012_01,1,Gomphonema sp1 FW_012_01,1,1,trophic
+Epeorus dispar,1,Gomphonema sp1 FW_012_01,1,1,trophic
+Leucrocuta sp1 FW_012_01,1,Gomphonema sp1 FW_012_01,1,1,trophic
+Thaumalea sp1 FW_012_01,1,Gomphonema sp1 FW_012_01,1,1,trophic
+Aelosoma,1,Meridion circulare,1,1,trophic
+Lumbriculiid oligochaete,1,Meridion circulare,1,1,trophic
+Parametriocnemus sp1 FW_012_01,1,Meridion circulare,1,1,trophic
+Neureclipsis sp1 FW_012_01,1,Navicula avenacea,1,1,trophic
+Epeorus dispar,1,Pleurotaenium,1,1,trophic
+Brachycentrus sp1 FW_012_01,1,Rhoicosphenia curvata,1,1,trophic
+Promoresia sp1 FW_012_01,1,Rhoicosphenia curvata,1,1,trophic
+Thaumalea sp1 FW_012_01,1,Rhoicosphenia curvata,1,1,trophic
+Leucrocuta sp1 FW_012_01,1,Stigeoclonium,1,1,trophic
+Hydropsyche sp1 FW_012_01,1,Synedra ulna,1,1,trophic
+Leucrocuta sp1 FW_012_01,1,Synedra ulna,1,1,trophic
+Neureclipsis sp1 FW_012_01,1,Synedra ulna,1,1,trophic
+Promoresia sp1 FW_012_01,1,Synedra ulna,1,1,trophic
+Leucrocuta sp1 FW_012_01,1,Ulothrix,1,1,trophic
+Homoplectra sp1 FW_012_01,1,Unidentified sp2 FW_012_01,1,1,trophic
+Cambarus bartoni,1,Aelosoma,1,1,trophic
+Chauliodes sp1 FW_012_01,1,Aelosoma,1,1,trophic
+Hydropsyche sp1 FW_012_01,1,Aelosoma,1,1,trophic
+Soliperla sp1 FW_012_01,1,Aelosoma,1,1,trophic
+Suwalia sp1 FW_012_01,1,Aelosoma,1,1,trophic
+Salamander,1,Homoplectra sp1 FW_012_01,1,1,trophic
+Cambarus bartoni,1,Hydropsyche sp1 FW_012_01,1,1,trophic
+Homoplectra sp1 FW_012_01,1,Hydropsyche sp1 FW_012_01,1,1,trophic
+Ophiogomphus sp1 FW_012_01,1,Hydropsyche sp1 FW_012_01,1,1,trophic
+Salamander,1,Hydropsyche sp1 FW_012_01,1,1,trophic
+Salamander,1,Leuctra sp1 FW_012_01,1,1,trophic
+Cambarus bartoni,1,Lumbriculiid oligochaete,1,1,trophic
+Cordulegaster maculata,1,Lumbriculiid oligochaete,1,1,trophic
+Hudsonimya sp1 FW_012_01,1,Lumbriculiid oligochaete,1,1,trophic
+Hydropsyche sp1 FW_012_01,1,Lumbriculiid oligochaete,1,1,trophic
+Ophiogomphus sp1 FW_012_01,1,Lumbriculiid oligochaete,1,1,trophic
+Soliperla sp1 FW_012_01,1,Lumbriculiid oligochaete,1,1,trophic
+Suwalia sp1 FW_012_01,1,Lumbriculiid oligochaete,1,1,trophic
+Salamander,1,Parametriocnemus sp1 FW_012_01,1,1,trophic
+Salamander,1,Soliperla sp1 FW_012_01,1,1,trophic
+Salamander,1,Stenelmis adult,1,1,trophic
+Hydropsyche sp1 FW_012_01,1,Stenelmis sp1 FW_012_01,1,1,trophic
+Hydropsyche sp1 FW_012_01,1,Tallaperla maria,1,1,trophic
+Aeolosoma sp1 FW_012_02,2,Unidentified sp1 FW_012_02,2,1,trophic
+Ajax longipes,2,Unidentified sp1 FW_012_02,2,1,trophic
+Amphinemura wui,2,Unidentified sp1 FW_012_02,2,1,trophic
+Anchytarsus bicolor,2,Unidentified sp1 FW_012_02,2,1,trophic
+Baetis,2,Unidentified sp1 FW_012_02,2,1,trophic
+Hudsonimya,2,Unidentified sp1 FW_012_02,2,1,trophic
+Cricotopus,2,Unidentified sp1 FW_012_02,2,1,trophic
+Dicranota,2,Unidentified sp1 FW_012_02,2,1,trophic
+Eukieffidrella pseudomontana,2,Unidentified sp1 FW_012_02,2,1,trophic
+Diplectrona modesta,2,Unidentified sp1 FW_012_02,2,1,trophic
+Dixella,2,Unidentified sp1 FW_012_02,2,1,trophic
+Dolophilodes,2,Unidentified sp1 FW_012_02,2,1,trophic
+Ectopria thoracica,2,Unidentified sp1 FW_012_02,2,1,trophic
+Epeorus dispar,2,Unidentified sp1 FW_012_02,2,1,trophic
+Fatigia pele,2,Unidentified sp1 FW_012_02,2,1,trophic
+Hexatoma sp1 FW_012_02,2,Unidentified sp1 FW_012_02,2,1,trophic
+Leuctra,2,Unidentified sp1 FW_012_02,2,1,trophic
+Oligo Lumbr  Blue,2,Unidentified sp1 FW_012_02,2,1,trophic
+Oligo  Lumbr  Pink,2,Unidentified sp1 FW_012_02,2,1,trophic
+Ophiogomphus,2,Unidentified sp1 FW_012_02,2,1,trophic
+Paraleptophelebia,2,Unidentified sp1 FW_012_02,2,1,trophic
+Pericoma,2,Unidentified sp1 FW_012_02,2,1,trophic
+Pilaria,2,Unidentified sp1 FW_012_02,2,1,trophic
+Pentaneuri sp1 FW_012_02,2,Unidentified sp1 FW_012_02,2,1,trophic
+Stenelmis,2,Unidentified sp1 FW_012_02,2,1,trophic
+Tallaperla maria,2,Unidentified sp1 FW_012_02,2,1,trophic
+Tanyderid,2,Unidentified sp1 FW_012_02,2,1,trophic
+Conchapelopia,2,Unidentified sp1 FW_012_02,2,1,trophic
+Tipula,2,Unidentified sp1 FW_012_02,2,1,trophic
+Wormaldia moesta,2,Unidentified sp1 FW_012_02,2,1,trophic
+Crayfish,2,Unidentified sp1 FW_012_02,2,1,trophic
+Salamander,2,Unidentified sp1 FW_012_02,2,1,trophic
+Aeolosoma sp1 FW_012_02,2,Terrestrial plants,2,1,trophic
+Anchytarsus bicolor,2,Terrestrial plants,2,1,trophic
+Baetis,2,Terrestrial plants,2,1,trophic
+Cricotopus,2,Terrestrial plants,2,1,trophic
+Eukieffidrella pseudomontana,2,Terrestrial plants,2,1,trophic
+Diplectrona modesta,2,Terrestrial plants,2,1,trophic
+Dixella,2,Terrestrial plants,2,1,trophic
+Ectopria thoracica,2,Terrestrial plants,2,1,trophic
+Epeorus dispar,2,Terrestrial plants,2,1,trophic
+Fatigia pele,2,Terrestrial plants,2,1,trophic
+Hexatoma sp1 FW_012_02,2,Terrestrial plants,2,1,trophic
+Leuctra,2,Terrestrial plants,2,1,trophic
+Oligo Lumbr  Blue,2,Terrestrial plants,2,1,trophic
+Oligo  Lumbr  Pink,2,Terrestrial plants,2,1,trophic
+Paraleptophelebia,2,Terrestrial plants,2,1,trophic
+Pilaria,2,Terrestrial plants,2,1,trophic
+Stenelmis,2,Terrestrial plants,2,1,trophic
+Tallaperla maria,2,Terrestrial plants,2,1,trophic
+Tanyderid,2,Terrestrial plants,2,1,trophic
+Tipula,2,Terrestrial plants,2,1,trophic
+Crayfish,2,Terrestrial plants,2,1,trophic
+Salamander,2,Terrestrial plants,2,1,trophic
+Tanyderid,2,Terrestrial bugs,2,1,trophic
+Salamander,2,Terrestrial bugs,2,1,trophic
+Aeolosoma sp1 FW_012_02,2,Achnanthes inflata var. elata,2,1,trophic
+Epeorus dispar,2,Achnanthes inflata var. elata,2,1,trophic
+Fatigia pele,2,Achnanthes inflata var. elata,2,1,trophic
+Aeolosoma sp1 FW_012_02,2,Achnanthes lanceolata,2,1,trophic
+Ectopria thoracica,2,Achnanthes lanceolata,2,1,trophic
+Epeorus dispar,2,Achnanthes lanceolata,2,1,trophic
+Ectopria thoracica,2,Achnanthes linearis,2,1,trophic
+Epeorus dispar,2,Achnanthes linearis,2,1,trophic
+Baetis,2,Achnanthes minutissima,2,1,trophic
+Ectopria thoracica,2,Achnanthes minutissima,2,1,trophic
+Epeorus dispar,2,Achnanthes minutissima,2,1,trophic
+Leuctra,2,Achnanthes minutissima,2,1,trophic
+Stenelmis,2,Achnanthes minutissima,2,1,trophic
+Diplectrona modesta,2,Auodinella hermanii,2,1,trophic
+Aeolosoma sp1 FW_012_02,2,Blue Green algae,2,1,trophic
+Amphinemura wui,2,Blue Green algae,2,1,trophic
+Stenelmis,2,Blue Green algae,2,1,trophic
+Baetis,2,Calothrix,2,1,trophic
+Diplectrona modesta,2,Calothrix,2,1,trophic
+Dixella,2,Calothrix,2,1,trophic
+Amphinemura wui,2,Cocconeis placentula,2,1,trophic
+Cricotopus,2,Cocconeis placentula,2,1,trophic
+Epeorus dispar,2,Cocconeis placentula,2,1,trophic
+Leuctra,2,Cocconeis placentula,2,1,trophic
+Amphinemura wui,2,Cymbella kappi,2,1,trophic
+Leuctra,2,Cymbella kappi,2,1,trophic
+Ectopria thoracica,2,Cymbella mulleri,2,1,trophic
+Cricotopus,2,Diatoma heimale,2,1,trophic
+Epeorus dispar,2,Epithemia turgida,2,1,trophic
+Ectopria thoracica,2,Eunotia meisteri,2,1,trophic
+Anchytarsus bicolor,2,Eunotia pectinalis,2,1,trophic
+Baetis,2,Eunotia pectinalis,2,1,trophic
+Ectopria thoracica,2,Eunotia pectinalis,2,1,trophic
+Epeorus dispar,2,Eunotia pectinalis,2,1,trophic
+Tallaperla maria,2,Eunotia pectinalis,2,1,trophic
+Baetis,2,Fragilaria vaucheriae,2,1,trophic
+Ectopria thoracica,2,Fragilaria vaucheriae,2,1,trophic
+Epeorus dispar,2,Fragilaria vaucheriae,2,1,trophic
+Oligo  Lumbr  Pink,2,Fragilaria vaucheriae,2,1,trophic
+Pericoma,2,Fragilaria vaucheriae,2,1,trophic
+Stenelmis,2,Fragilaria vaucheriae,2,1,trophic
+Cricotopus,2,Frustulia rhomboides,2,1,trophic
+Epeorus dispar,2,Frustulia rhomboides,2,1,trophic
+Pentaneuri sp1 FW_012_02,2,Frustulia rhomboides,2,1,trophic
+Ectopria thoracica,2,Gomphoneis herculeana,2,1,trophic
+Epeorus dispar,2,Gomphoneis herculeana,2,1,trophic
+Aeolosoma sp1 FW_012_02,2,Gomphonema accuminatum,2,1,trophic
+Ectopria thoracica,2,Gomphonema angustatum,2,1,trophic
+Baetis,2,Gomphonema intricatum,2,1,trophic
+Baetis,2,Gomphonema tennuellum,2,1,trophic
+Aeolosoma sp1 FW_012_02,2,Marssoniella,2,1,trophic
+Cricotopus,2,Marssoniella,2,1,trophic
+Aeolosoma sp1 FW_012_02,2,Navicula avenacea,2,1,trophic
+Leuctra,2,Navicula avenacea,2,1,trophic
+Anchytarsus bicolor,2,Navicula cryptocephala,2,1,trophic
+Dixella,2,Navicula mutica,2,1,trophic
+Ectopria thoracica,2,Navicula sp1 FW_012_02,2,1,trophic
+Epeorus dispar,2,Navicula sp1 FW_012_02,2,1,trophic
+Stenelmis,2,Navicula sp1 FW_012_02,2,1,trophic
+Pericoma,2,Pinnularia viridis,2,1,trophic
+Baetis,2,Rhoicosphenia curvata,2,1,trophic
+Cricotopus,2,Rhoicosphenia curvata,2,1,trophic
+Ectopria thoracica,2,Rhoicosphenia curvata,2,1,trophic
+Epeorus dispar,2,Rhoicosphenia curvata,2,1,trophic
+Baetis,2,Rhopalodia,2,1,trophic
+Ectopria thoracica,2,Surirella brebbisonii,2,1,trophic
+Epeorus dispar,2,Surirella elegans,2,1,trophic
+Pericoma,2,Synechoccus,2,1,trophic
+Oligo Lumbr  Blue,2,Synedra ulna,2,1,trophic
+Oligo Lumbr  Blue,2,Ulothrix,2,1,trophic
+Pentaneuri sp1 FW_012_02,2,Ulothrix,2,1,trophic
+Ectopria thoracica,2,Unidentified sp2 FW_012_02,2,1,trophic
+Ajax longipes,2,Aeolosoma sp1 FW_012_02,2,1,trophic
+Dicranota,2,Aeolosoma sp1 FW_012_02,2,1,trophic
+Diplectrona modesta,2,Aeolosoma sp1 FW_012_02,2,1,trophic
+Dixella,2,Aeolosoma sp1 FW_012_02,2,1,trophic
+Dolophilodes,2,Aeolosoma sp1 FW_012_02,2,1,trophic
+Hexatoma sp1 FW_012_02,2,Aeolosoma sp1 FW_012_02,2,1,trophic
+Ophiogomphus,2,Aeolosoma sp1 FW_012_02,2,1,trophic
+Polycentropus maculatus,2,Aeolosoma sp1 FW_012_02,2,1,trophic
+Crayfish,2,Aeolosoma sp1 FW_012_02,2,1,trophic
+Salamander,2,Aeolosoma sp1 FW_012_02,2,1,trophic
+Ajax longipes,2,Leuctra,2,1,trophic
+Salamander,2,Leuctra,2,1,trophic
+Ajax longipes,2,Oligo Lumbr. Blue,2,1,trophic
+Dolophilodes,2,Oligo Lumbr. Blue,2,1,trophic
+Ajax longipes,2,Oligo. Lumbr. Pink,2,1,trophic
+Tallaperla maria,2,Oligo. Lumbr. Pink,2,1,trophic
+Ajax longipes,2,Pentaneuri sp1 FW_012_02,2,1,trophic
+Hexatoma sp1 FW_012_02,2,Conchapelopia,2,1,trophic
+Crayfish,2,Wormaldia moesta,2,1,trophic
+Salamander,2,Wormaldia moesta,2,1,trophic
+Aoteapsyche raruraru,3,Terrestrial invertebrates,3,1,trophic
+Aphrophila neozelandicus,3,Terrestrial invertebrates,3,1,trophic
+Hydrobiosella stenocerca,3,Terrestrial invertebrates,3,1,trophic
+Stenoperla prasinia,3,Terrestrial invertebrates,3,1,trophic
+Paranephrops zelandicus,3,Terrestrial invertebrates,3,1,trophic
+Salmo trutta,3,Terrestrial invertebrates,3,1,trophic
+Amphipoda type purple,3,Terrestrial plant material,3,1,trophic
+Aphrophila neozelandicus,3,Terrestrial plant material,3,1,trophic
+Austroperla cyrene,3,Terrestrial plant material,3,1,trophic
+Austrosimulium australense,3,Terrestrial plant material,3,1,trophic
+Coloburiscus humeralis,3,Terrestrial plant material,3,1,trophic
+Cricotopus sp1 FW_013_01,3,Terrestrial plant material,3,1,trophic
+Deleatidum lilli,3,Terrestrial plant material,3,1,trophic
+Hudsonema amabilis,3,Terrestrial plant material,3,1,trophic
+Hydora nitida,3,Terrestrial plant material,3,1,trophic
+Lumbriculiid type II,3,Terrestrial plant material,3,1,trophic
+Paracalliope fluviatalus,3,Terrestrial plant material,3,1,trophic
+Podaena sp1 FW_013_01,3,Terrestrial plant material,3,1,trophic
+Potamopyrgus antipodarum,3,Terrestrial plant material,3,1,trophic
+Pycnocentria evecta,3,Terrestrial plant material,3,1,trophic
+Rhabdomastrix sp1 FW_013_01,3,Terrestrial plant material,3,1,trophic
+Scirtidae type broad,3,Terrestrial plant material,3,1,trophic
+Stictocladius sp1 FW_013_01,3,Terrestrial plant material,3,1,trophic
+Tanytarsini sp1 FW_013_01,3,Terrestrial plant material,3,1,trophic
+Zelandobius confusus,3,Terrestrial plant material,3,1,trophic
+Zelandoperla fenestrata,3,Terrestrial plant material,3,1,trophic
+Paranephrops zelandicus,3,Terrestrial plant material,3,1,trophic
+Amphipoda type purple,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Aphrophila neozelandicus,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Austroperla cyrene,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Coloburiscus humeralis,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Cricotopus sp1 FW_013_01,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Cristaperla fimbria,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Deleatidum lilli,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Eukieflidriella brundini,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Hudsonema amabilis,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Hydora nitida,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Hydraena homolaena,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Hydrophilidae,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Isopoda,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Lumbriculiid type II,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Maoridiamesia sp1 FW_013_01,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Naonella forsythii,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Paracalliope fluviatalus,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Podaena sp1 FW_013_01,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Potamopyrgus antipodarum,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Pycnocentria evecta,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Rhabdomastrix sp1 FW_013_01,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Scirtidae type broad,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Stictocladius sp1 FW_013_01,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Tanytarsini sp1 FW_013_01,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Zelandobius confusus,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Zelandoperla fenestrata,3,Organic detritus sp1 FW_013_01,3,1,trophic
+Aphrophila neozelandicus,3,Cocconeis placentual,3,1,trophic
+Austroperla cyrene,3,Cocconeis placentual,3,1,trophic
+Deleatidum lilli,3,Cocconeis placentual,3,1,trophic
+Maoridiamesia sp1 FW_013_01,3,Cocconeis placentual,3,1,trophic
+Potamopyrgus antipodarum,3,Cocconeis placentual,3,1,trophic
+Zelandoperla fenestrata,3,Cocconeis placentual,3,1,trophic
+Zelandoperla fenestrata,3,Cymbella aspera,3,1,trophic
+Aphrophila neozelandicus,3,Epithemis turgida,3,1,trophic
+Austroperla cyrene,3,Epithemis turgida,3,1,trophic
+Deleatidum lilli,3,Fragilaria vaucheriae,3,1,trophic
+Potamopyrgus antipodarum,3,Fragilaria vaucheriae,3,1,trophic
+Tanytarsini sp1 FW_013_01,3,Fragilaria vaucheriae,3,1,trophic
+Aphrophila neozelandicus,3,Frustulia rhomboides,3,1,trophic
+Austrosimulium australense,3,Frustulia rhomboides,3,1,trophic
+Cricotopus sp1 FW_013_01,3,Frustulia rhomboides,3,1,trophic
+Deleatidum lilli,3,Frustulia rhomboides,3,1,trophic
+Naonella forsythii,3,Frustulia rhomboides,3,1,trophic
+Potamopyrgus antipodarum,3,Frustulia rhomboides,3,1,trophic
+Zelandobius confusus,3,Frustulia rhomboides,3,1,trophic
+Austrosimulium australense,3,Gomphonema angustatum,3,1,trophic
+Deleatidum lilli,3,Gomphonema angustatum,3,1,trophic
+Potamopyrgus antipodarum,3,Gomphonema angustatum,3,1,trophic
+Aphrophila neozelandicus,3,Gomphonema parvulum,3,1,trophic
+Austrosimulium australense,3,Gomphonema parvulum,3,1,trophic
+Hydraena homolaena,3,Gomphonema sp1 FW_013_01,3,1,trophic
+Aphrophila neozelandicus,3,Gomphonema subclavatum,3,1,trophic
+Austroperla cyrene,3,Gomphonema subclavatum,3,1,trophic
+Deleatidum lilli,3,Gomphonema subclavatum,3,1,trophic
+Hydora nitida,3,Gomphonema subclavatum,3,1,trophic
+Hydraena homolaena,3,Gomphonema subclavatum,3,1,trophic
+Naonella forsythii,3,Gomphonema subclavatum,3,1,trophic
+Potamopyrgus antipodarum,3,Gomphonema subclavatum,3,1,trophic
+Tanytarsini sp1 FW_013_01,3,Gomphonema subclavatum,3,1,trophic
+Aphrophila neozelandicus,3,Gomphonema truncatum,3,1,trophic
+Zelandoperla fenestrata,3,Gomphonema truncatum,3,1,trophic
+Aphrophila neozelandicus,3,Melosira granulata,3,1,trophic
+Aphrophila neozelandicus,3,Navicula avenacea,3,1,trophic
+Austroperla cyrene,3,Navicula avenacea,3,1,trophic
+Austrosimulium australense,3,Navicula avenacea,3,1,trophic
+Coloburiscus humeralis,3,Navicula avenacea,3,1,trophic
+Cricotopus sp1 FW_013_01,3,Navicula avenacea,3,1,trophic
+Deleatidum lilli,3,Navicula avenacea,3,1,trophic
+Eukieflidriella brundini,3,Navicula avenacea,3,1,trophic
+Hydraena homolaena,3,Navicula avenacea,3,1,trophic
+Isopoda,3,Navicula avenacea,3,1,trophic
+Lumbriculiid type II,3,Navicula avenacea,3,1,trophic
+Maoridiamesia sp1 FW_013_01,3,Navicula avenacea,3,1,trophic
+Naonella forsythii,3,Navicula avenacea,3,1,trophic
+Paracalliope fluviatalus,3,Navicula avenacea,3,1,trophic
+Potamopyrgus antipodarum,3,Navicula avenacea,3,1,trophic
+Stictocladius sp1 FW_013_01,3,Navicula avenacea,3,1,trophic
+Tanytarsini sp1 FW_013_01,3,Navicula avenacea,3,1,trophic
+Zelandobius confusus,3,Navicula avenacea,3,1,trophic
+Zelandoperla fenestrata,3,Navicula avenacea,3,1,trophic
+Aphrophila neozelandicus,3,Navicula placentula,3,1,trophic
+Cricotopus sp1 FW_013_01,3,Navicula placentula,3,1,trophic
+Deleatidum lilli,3,Nitzschia linearis,3,1,trophic
+Maoridiamesia sp1 FW_013_01,3,Nitzschia linearis,3,1,trophic
+Potamopyrgus antipodarum,3,Nitzschia linearis,3,1,trophic
+Aphrophila neozelandicus,3,Pinnularia borealis,3,1,trophic
+Paracalliope fluviatalus,3,Pinnularia borealis,3,1,trophic
+Austroperla cyrene,3,Rhoicosphenia curvata,3,1,trophic
+Austrosimulium australense,3,Rhoicosphenia curvata,3,1,trophic
+Deleatidum lilli,3,Rhoicosphenia curvata,3,1,trophic
+Hydora nitida,3,Rhoicosphenia curvata,3,1,trophic
+Hydraena homolaena,3,Rhoicosphenia curvata,3,1,trophic
+Isopoda,3,Rhoicosphenia curvata,3,1,trophic
+Lumbriculiid type II,3,Rhoicosphenia curvata,3,1,trophic
+Maoridiamesia sp1 FW_013_01,3,Rhoicosphenia curvata,3,1,trophic
+Naonella forsythii,3,Rhoicosphenia curvata,3,1,trophic
+Paracalliope fluviatalus,3,Rhoicosphenia curvata,3,1,trophic
+Potamopyrgus antipodarum,3,Rhoicosphenia curvata,3,1,trophic
+Pycnocentria evecta,3,Rhoicosphenia curvata,3,1,trophic
+Stictocladius sp1 FW_013_01,3,Rhoicosphenia curvata,3,1,trophic
+Zelandobius confusus,3,Rhoicosphenia curvata,3,1,trophic
+Zelandoperla fenestrata,3,Rhoicosphenia curvata,3,1,trophic
+Hydora nitida,3,Surirella elegans,3,1,trophic
+Zelandoperla fenestrata,3,Surirella elegans,3,1,trophic
+Austrosimulium australense,3,Synedra rumpens,3,1,trophic
+Zelandobius confusus,3,Synedra rumpens,3,1,trophic
+Aphrophila neozelandicus,3,Synedra ulna,3,1,trophic
+Deleatidum lilli,3,Synedra ulna,3,1,trophic
+Potamopyrgus antipodarum,3,Synedra ulna,3,1,trophic
+Scirtidae type broad,3,Synedra ulna,3,1,trophic
+Amphipoda type purple,3,Tabellaria flocculosa,3,1,trophic
+Aphrophila neozelandicus,3,Tabellaria flocculosa,3,1,trophic
+Austroperla cyrene,3,Tabellaria flocculosa,3,1,trophic
+Zelandoperla fenestrata,3,Tabellaria flocculosa,3,1,trophic
+Amphipoda type purple,3,Batrachospermum sp1 FW_013_01,3,1,trophic
+Scirtidae type broad,3,Batrachospermum sp1 FW_013_01,3,1,trophic
+Amphipoda type purple,3,Blue-green algae,3,1,trophic
+Deleatidum lilli,3,Blue-green algae,3,1,trophic
+Lumbriculiid type II,3,Blue-green algae,3,1,trophic
+Potamopyrgus antipodarum,3,Blue-green algae,3,1,trophic
+Zelandobius confusus,3,Blue-green algae,3,1,trophic
+Paracalliope fluviatalus,3,Cyclotella sp1 FW_013_01,3,1,trophic
+Amphipoda type purple,3,Oedogonium sp1 FW_013_01,3,1,trophic
+Amphipoda type purple,3,Ulothrix sp1 FW_013_01,3,1,trophic
+Aphrophila neozelandicus,3,Ulothrix sp1 FW_013_01,3,1,trophic
+Austrosimulium australense,3,Ulothrix sp1 FW_013_01,3,1,trophic
+Maoridiamesia sp1 FW_013_01,3,Ulothrix sp1 FW_013_01,3,1,trophic
+Cricotopus sp1 FW_013_01,3,Green algae sp1 FW_013_01,3,1,trophic
+Deleatidum lilli,3,Green algae sp1 FW_013_01,3,1,trophic
+Potamopyrgus antipodarum,3,Green algae sp1 FW_013_01,3,1,trophic
+Aphrophila neozelandicus,3,Amphipoda type purple,3,1,trophic
+Salmo trutta,3,Aoteapsyche raruraru,3,1,trophic
+Salmo trutta,3,Coloburiscus humeralis,3,1,trophic
+Galaxias brevipennis,3,Coloburiscus humeralis,3,1,trophic
+Megaleptoperla grandis,3,Cricotopus sp1 FW_013_01,3,1,trophic
+Stenoperla prasinia,3,Cricotopus sp1 FW_013_01,3,1,trophic
+Zelandoperla fenestrata,3,Cricotopus sp1 FW_013_01,3,1,trophic
+Ameletopsis perscitus,3,Deleatidum lilli,3,1,trophic
+Aoteapsyche raruraru,3,Deleatidum lilli,3,1,trophic
+Hydrobiosella stenocerca,3,Deleatidum lilli,3,1,trophic
+Megaleptoperla grandis,3,Deleatidum lilli,3,1,trophic
+Paranephrops zelandicus,3,Deleatidum lilli,3,1,trophic
+Salmo trutta,3,Deleatidum lilli,3,1,trophic
+Galaxias brevipennis,3,Deleatidum lilli,3,1,trophic
+Megaleptoperla grandis,3,Eukieflidriella brundini,3,1,trophic
+Stenoperla prasinia,3,Hydora nitida,3,1,trophic
+Salmo trutta,3,Hydora nitida,3,1,trophic
+Salmo trutta,3,Hydrobiosis sp1 FW_013_01,3,1,trophic
+Ameletopsis perscitus,3,Lumbriculiid type II,3,1,trophic
+Stenoperla prasinia,3,Lumbriculiid type II,3,1,trophic
+Stenoperla prasinia,3,Megaleptoperla grandis,3,1,trophic
+Salmo trutta,3,Megaleptoperla grandis,3,1,trophic
+Salmo trutta,3,Paracalliope fluviatalus,3,1,trophic
+Galaxias brevipennis,3,Paracalliope fluviatalus,3,1,trophic
+Salmo trutta,3,Potamopyrgus antipodarum,3,1,trophic
+Salmo trutta,3,Pycnocentria evecta,3,1,trophic
+Salmo trutta,3,Stenoperla prasinia,3,1,trophic
+Tiphobiosis montana,3,Tanytarsini sp1 FW_013_01,3,1,trophic
+Salmo trutta,3,Zelandoperla fenestrata,3,1,trophic
+Salmo trutta,3,Paranephrops zelandicus,3,1,trophic
+Ameletopsis perscitus,4,Detritus sp1 FW_013_02,4,1,trophic
+Aphrophila neozelandiae,4,Detritus sp1 FW_013_02,4,1,trophic
+Aspectrotanypus,4,Detritus sp1 FW_013_02,4,1,trophic
+Austroperla cyrene,4,Detritus sp1 FW_013_02,4,1,trophic
+Austrosimulium australense,4,Detritus sp1 FW_013_02,4,1,trophic
+Brundin,4,Detritus sp1 FW_013_02,4,1,trophic
+Ceratopogonid,4,Detritus sp1 FW_013_02,4,1,trophic
+Coloburiscus humeralis,4,Detritus sp1 FW_013_02,4,1,trophic
+Deleatidium lilli,4,Detritus sp1 FW_013_02,4,1,trophic
+Eriopterini,4,Detritus sp1 FW_013_02,4,1,trophic
+Eukiefidrella,4,Detritus sp1 FW_013_02,4,1,trophic
+Heliodidae beetle,4,Detritus sp1 FW_013_02,4,1,trophic
+Hexatomini,4,Detritus sp1 FW_013_02,4,1,trophic
+Hudsonema aliena,4,Detritus sp1 FW_013_02,4,1,trophic
+Hydora nitida l,4,Detritus sp1 FW_013_02,4,1,trophic
+Hydrobiosis frater,4,Detritus sp1 FW_013_02,4,1,trophic
+Hydrophiliid beetle,4,Detritus sp1 FW_013_02,4,1,trophic
+Megaleptoperla diminuata,4,Detritus sp1 FW_013_02,4,1,trophic
+Megaleptoperla grandis,4,Detritus sp1 FW_013_02,4,1,trophic
+Molophilus,4,Detritus sp1 FW_013_02,4,1,trophic
+Nannochorista philpotti,4,Detritus sp1 FW_013_02,4,1,trophic
+Naonella,4,Detritus sp1 FW_013_02,4,1,trophic
+Oeconesus,4,Detritus sp1 FW_013_02,4,1,trophic
+Oligo skinny,4,Detritus sp1 FW_013_02,4,1,trophic
+Orchymontia,4,Detritus sp1 FW_013_02,4,1,trophic
+Paracalliope fluviatalus,4,Detritus sp1 FW_013_02,4,1,trophic
+Paralimnophila skuseii,4,Detritus sp1 FW_013_02,4,1,trophic
+Paucispinigera approximata,4,Detritus sp1 FW_013_02,4,1,trophic
+Phreatoicus prasinia,4,Detritus sp1 FW_013_02,4,1,trophic
+Pirara matakiri,4,Detritus sp1 FW_013_02,4,1,trophic
+Pycnocentrodes,4,Detritus sp1 FW_013_02,4,1,trophic
+Stictocladius,4,Detritus sp1 FW_013_02,4,1,trophic
+Stratiomyid I,4,Detritus sp1 FW_013_02,4,1,trophic
+Zelandoperla agnetis,4,Detritus sp1 FW_013_02,4,1,trophic
+Paranephrops zelandicus,4,Detritus sp1 FW_013_02,4,1,trophic
+Salmo trutta,4,Terrestrial invertebrates,4,1,trophic
+Aphrophila neozelandiae,4,Plant material,4,1,trophic
+Austroperla cyrene,4,Plant material,4,1,trophic
+Eriopterini,4,Plant material,4,1,trophic
+Eukiefidrella,4,Plant material,4,1,trophic
+Heliodidae beetle,4,Plant material,4,1,trophic
+Hydora nitida l,4,Plant material,4,1,trophic
+Molophilus,4,Plant material,4,1,trophic
+Oeconesus,4,Plant material,4,1,trophic
+Oligo skinny,4,Plant material,4,1,trophic
+Paucispinigera approximata,4,Plant material,4,1,trophic
+Pirara matakiri,4,Plant material,4,1,trophic
+Pycnocentrodes,4,Plant material,4,1,trophic
+Paranephrops zelandicus,4,Plant material,4,1,trophic
+Salmo trutta,4,Plant material,4,1,trophic
+Aphrophila neozelandiae,4,Achnanthes lanceolata,4,1,trophic
+Deleatidium lilli,4,Achnanthes lanceolata,4,1,trophic
+Hexatomini,4,Achnanthes lanceolata,4,1,trophic
+Hydora nitida l,4,Achnanthes lanceolata,4,1,trophic
+Naonella,4,Achnanthes lanceolata,4,1,trophic
+Orchymontia,4,Achnanthes lanceolata,4,1,trophic
+Phreatoicus prasinia,4,Achnanthes lanceolata,4,1,trophic
+Zelandoperla agnetis,4,Achnanthes lanceolata,4,1,trophic
+Aphrophila neozelandiae,4,Calothrix,4,1,trophic
+Austrosimulium australense,4,Calothrix,4,1,trophic
+Paracalliope fluviatalus,4,Calothrix,4,1,trophic
+Phreatoicus prasinia,4,Calothrix,4,1,trophic
+Stictocladius,4,Calothrix,4,1,trophic
+Aphrophila neozelandiae,4,Coccoenis placentula,4,1,trophic
+Austrosimulium australense,4,Coccoenis placentula,4,1,trophic
+Coloburiscus humeralis,4,Coccoenis placentula,4,1,trophic
+Eriopterini,4,Coccoenis placentula,4,1,trophic
+Hydora nitida l,4,Coccoenis placentula,4,1,trophic
+Paucispinigera approximata,4,Coccoenis placentula,4,1,trophic
+Stictocladius,4,Coccoenis placentula,4,1,trophic
+Austrosimulium australense,4,Diatoma elongatum,4,1,trophic
+Paracalliope fluviatalus,4,Diatoma elongatum,4,1,trophic
+Phreatoicus prasinia,4,Diatoma elongatum,4,1,trophic
+Deleatidium lilli,4,Epithemia sorex,4,1,trophic
+Oeconesus,4,Epithemia sorex,4,1,trophic
+Pycnocentrodes,4,Epithemia sorex,4,1,trophic
+Deleatidium lilli,4,Eunotia pectinalis,4,1,trophic
+Paracalliope fluviatalus,4,Fragilaria vaucheriae,4,1,trophic
+Phreatoicus prasinia,4,Fragilaria vaucheriae,4,1,trophic
+Austrosimulium australense,4,Frustulia rhomboides,4,1,trophic
+Eriopterini,4,Frustulia rhomboides,4,1,trophic
+Paralimnophila skuseii,4,Frustulia rhomboides,4,1,trophic
+Zelandoperla agnetis,4,Frustulia rhomboides,4,1,trophic
+Austroperla cyrene,4,Gomphoneis herculeana var. robusta,4,1,trophic
+Deleatidium lilli,4,Gomphoneis herculeana var. robusta,4,1,trophic
+Eukiefidrella,4,Gomphoneis herculeana var. robusta,4,1,trophic
+Naonella,4,Gomphoneis herculeana var. robusta,4,1,trophic
+Oligo skinny,4,Gomphoneis herculeana var. robusta,4,1,trophic
+Paracalliope fluviatalus,4,Gomphoneis herculeana var. robusta,4,1,trophic
+Phreatoicus prasinia,4,Gomphoneis herculeana var. robusta,4,1,trophic
+Pirara matakiri,4,Gomphoneis herculeana var. robusta,4,1,trophic
+Zelandoperla agnetis,4,Gomphoneis herculeana var. robusta,4,1,trophic
+Eriopterini,4,Gomphonema accuminatum,4,1,trophic
+Oeconesus,4,Gomphonema accuminatum,4,1,trophic
+Pycnocentrodes,4,Gomphonema accuminatum,4,1,trophic
+Aphrophila neozelandiae,4,Gomphonema angustatum,4,1,trophic
+Austroperla cyrene,4,Gomphonema angustatum,4,1,trophic
+Austrosimulium australense,4,Gomphonema angustatum,4,1,trophic
+Eriopterini,4,Gomphonema angustatum,4,1,trophic
+Hydora nitida l,4,Gomphonema angustatum,4,1,trophic
+Oeconesus,4,Gomphonema angustatum,4,1,trophic
+Pycnocentrodes,4,Gomphonema angustatum,4,1,trophic
+Scirtid skinny,4,Gomphonema angustatum,4,1,trophic
+Zelandoperla agnetis,4,Gomphonema angustatum,4,1,trophic
+Coloburiscus humeralis,4,Gomphonema truncatum,4,1,trophic
+Eukiefidrella,4,Gomphonema truncatum,4,1,trophic
+Pirara matakiri,4,Gomphonema truncatum,4,1,trophic
+Aphrophila neozelandiae,4,Navicula avenacea,4,1,trophic
+Austroperla cyrene,4,Navicula avenacea,4,1,trophic
+Austrosimulium australense,4,Navicula avenacea,4,1,trophic
+Coloburiscus humeralis,4,Navicula avenacea,4,1,trophic
+Deleatidium lilli,4,Navicula avenacea,4,1,trophic
+Eriopterini,4,Navicula avenacea,4,1,trophic
+Eukiefidrella,4,Navicula avenacea,4,1,trophic
+Heliodidae beetle,4,Navicula avenacea,4,1,trophic
+Hydora nitida l,4,Navicula avenacea,4,1,trophic
+Hydrophiliid beetle,4,Navicula avenacea,4,1,trophic
+Naonella,4,Navicula avenacea,4,1,trophic
+Oligo skinny,4,Navicula avenacea,4,1,trophic
+Paucispinigera approximata,4,Navicula avenacea,4,1,trophic
+Phreatoicus prasinia,4,Navicula avenacea,4,1,trophic
+Pirara matakiri,4,Navicula avenacea,4,1,trophic
+Stratiomyid I,4,Navicula avenacea,4,1,trophic
+Zelandoperla agnetis,4,Navicula avenacea,4,1,trophic
+Aphrophila neozelandiae,4,Navicula placentula,4,1,trophic
+Oeconesus,4,Navicula placentula,4,1,trophic
+Pycnocentrodes,4,Navicula placentula,4,1,trophic
+Oeconesus,4,Navicula rhynocephala,4,1,trophic
+Pycnocentrodes,4,Navicula rhynocephala,4,1,trophic
+Scirtid skinny,4,Navicula rhynocephala,4,1,trophic
+Paracalliope fluviatalus,4,Nitzschia dubia,4,1,trophic
+Phreatoicus prasinia,4,Nitzschia dubia,4,1,trophic
+Deleatidium lilli,4,Nitzschia palea,4,1,trophic
+Aphrophila neozelandiae,4,Pinnularia borealis,4,1,trophic
+Oeconesus,4,Pinnularia borealis,4,1,trophic
+Pycnocentrodes,4,Pinnularia borealis,4,1,trophic
+Eukiefidrella,4,Pinnularia sp1 FW_013_02,4,1,trophic
+Naonella,4,Pinnularia sp1 FW_013_02,4,1,trophic
+Pirara matakiri,4,Pinnularia sp1 FW_013_02,4,1,trophic
+Eukiefidrella,4,Pinnularia viridis,4,1,trophic
+Hydrophiliid beetle,4,Pinnularia viridis,4,1,trophic
+Pirara matakiri,4,Pinnularia viridis,4,1,trophic
+Ameletopsis perscitus,4,Rhoicosphenia curvata,4,1,trophic
+Aphrophila neozelandiae,4,Rhoicosphenia curvata,4,1,trophic
+Austroperla cyrene,4,Rhoicosphenia curvata,4,1,trophic
+Austrosimulium australense,4,Rhoicosphenia curvata,4,1,trophic
+Coloburiscus humeralis,4,Rhoicosphenia curvata,4,1,trophic
+Deleatidium lilli,4,Rhoicosphenia curvata,4,1,trophic
+Eriopterini,4,Rhoicosphenia curvata,4,1,trophic
+Eukiefidrella,4,Rhoicosphenia curvata,4,1,trophic
+Heliodidae beetle,4,Rhoicosphenia curvata,4,1,trophic
+Hudsonema aliena,4,Rhoicosphenia curvata,4,1,trophic
+Hydora nitida l,4,Rhoicosphenia curvata,4,1,trophic
+Hydrophiliid beetle,4,Rhoicosphenia curvata,4,1,trophic
+Naonella,4,Rhoicosphenia curvata,4,1,trophic
+Oeconesus,4,Rhoicosphenia curvata,4,1,trophic
+Paracalliope fluviatalus,4,Rhoicosphenia curvata,4,1,trophic
+Paucispinigera approximata,4,Rhoicosphenia curvata,4,1,trophic
+Phreatoicus prasinia,4,Rhoicosphenia curvata,4,1,trophic
+Pirara matakiri,4,Rhoicosphenia curvata,4,1,trophic
+Pycnocentrodes,4,Rhoicosphenia curvata,4,1,trophic
+Scirtid skinny,4,Rhoicosphenia curvata,4,1,trophic
+Stictocladius,4,Rhoicosphenia curvata,4,1,trophic
+Stratiomyid I,4,Rhoicosphenia curvata,4,1,trophic
+Zelandoperla agnetis,4,Rhoicosphenia curvata,4,1,trophic
+Heliodidae beetle,4,Rhopaloidea musculus,4,1,trophic
+Heliodidae beetle,4,Spirogyra,4,1,trophic
+Hydrophiliid beetle,4,Spirogyra,4,1,trophic
+Eukiefidrella,4,Stauroneis vacheriae,4,1,trophic
+Pirara matakiri,4,Stauroneis vacheriae,4,1,trophic
+Zelandoperla agnetis,4,Stauroneis vacheriae,4,1,trophic
+Oeconesus,4,Stigeoclonium,4,1,trophic
+Pycnocentrodes,4,Stigeoclonium,4,1,trophic
+Aphrophila neozelandiae,4,Surirella elegans,4,1,trophic
+Hydora nitida l,4,Surirella elegans,4,1,trophic
+Scirtid skinny,4,Surirella elegans,4,1,trophic
+Zelandoperla agnetis,4,Surirella elegans,4,1,trophic
+Ameletopsis perscitus,4,Surirella linearis,4,1,trophic
+Aphrophila neozelandiae,4,Synedra ulna,4,1,trophic
+Austroperla cyrene,4,Synedra ulna,4,1,trophic
+Hydrophiliid beetle,4,Synedra ulna,4,1,trophic
+Naonella,4,Synedra ulna,4,1,trophic
+Phreatoicus prasinia,4,Synedra ulna,4,1,trophic
+Scirtid skinny,4,Synedra ulna,4,1,trophic
+Stictocladius,4,Synedra ulna,4,1,trophic
+Aphrophila neozelandiae,4,Tabellaria flocculosa,4,1,trophic
+Ameletopsis perscitus,4,Ulothrix,4,1,trophic
+Aphrophila neozelandiae,4,Ulothrix,4,1,trophic
+Austroperla cyrene,4,Ulothrix,4,1,trophic
+Austrosimulium australense,4,Ulothrix,4,1,trophic
+Deleatidium lilli,4,Ulothrix,4,1,trophic
+Eriopterini,4,Ulothrix,4,1,trophic
+Eukiefidrella,4,Ulothrix,4,1,trophic
+Heliodidae beetle,4,Ulothrix,4,1,trophic
+Hexatomini,4,Ulothrix,4,1,trophic
+Hydora nitida l,4,Ulothrix,4,1,trophic
+Hydrophiliid beetle,4,Ulothrix,4,1,trophic
+Molophilus,4,Ulothrix,4,1,trophic
+Naonella,4,Ulothrix,4,1,trophic
+Oligo skinny,4,Ulothrix,4,1,trophic
+Orchymontia,4,Ulothrix,4,1,trophic
+Paracalliope fluviatalus,4,Ulothrix,4,1,trophic
+Paralimnophila skuseii,4,Ulothrix,4,1,trophic
+Phreatoicus prasinia,4,Ulothrix,4,1,trophic
+Pirara matakiri,4,Ulothrix,4,1,trophic
+Scirtid skinny,4,Ulothrix,4,1,trophic
+Stictocladius,4,Ulothrix,4,1,trophic
+Stratiomyid I,4,Ulothrix,4,1,trophic
+Zelandoperla agnetis,4,Ulothrix,4,1,trophic
+Deleatidium lilli,4,Blue-green algae sp1 FW_013_02,4,1,trophic
+Eriopterini,4,Blue-green algae sp1 FW_013_02,4,1,trophic
+Oligo skinny,4,Blue-green algae sp1 FW_013_02,4,1,trophic
+Scirtid skinny,4,Blue-green algae sp1 FW_013_02,4,1,trophic
+Austroperla cyrene,4,Green algae sp1 FW_013_02,4,1,trophic
+Heliodidae beetle,4,Green algae sp1 FW_013_02,4,1,trophic
+Paralimnophila skuseii,4,Green algae sp1 FW_013_02,4,1,trophic
+Salmo trutta,4,Costachorema xanthoptera,4,1,trophic
+Hydrobiosella stenocerca,4,Deleatidium lilli,4,1,trophic
+Salmo trutta,4,Deleatidium lilli,4,1,trophic
+Hydrobiosella stenocerca,4,Megaleptoperla diminuata,4,1,trophic
+Salmo trutta,4,Megaleptoperla diminuata,4,1,trophic
+Costachorema xanthoptera,4,Naonella,4,1,trophic
+Nannochorista philpotti,4,Naonella,4,1,trophic
+Philorheithrus agilis,4,Naonella,4,1,trophic
+Stenoperla prasinia,4,Naonella,4,1,trophic
+Salmo trutta,4,Oeconesus,4,1,trophic
+Aphrophila neozelandiae,4,Oligo skinny,4,1,trophic
+Costachorema xanthoptera,4,Oligo skinny,4,1,trophic
+Hydrobiosella stenocerca,4,Oligo skinny,4,1,trophic
+Nannochorista philpotti,4,Oligo skinny,4,1,trophic
+Paralimnophila skuseii,4,Oligo skinny,4,1,trophic
+Polyplectropus puerilis,4,Oligo skinny,4,1,trophic
+Salmo trutta,4,Oligo skinny,4,1,trophic
+Nannochorista philpotti,4,Paracalliope fluviatalus,4,1,trophic
+Philorheithrus agilis,4,Paracalliope fluviatalus,4,1,trophic
+Salmo trutta,4,Paracalliope fluviatalus,4,1,trophic
+Salmo trutta,4,Polyplectropus puerilis,4,1,trophic
+Salmo trutta,4,Stenoperla prasinia,4,1,trophic
+Salmo trutta,4,Zelandoperla agnetis,4,1,trophic
+Salmo trutta,4,Paranephrops zelandicus,4,1,trophic
+Ameletopsis perscitus,5,Terrestrial invertebrates,5,1,trophic
+Aoteapsyche raruraru,5,Terrestrial invertebrates,5,1,trophic
+Apsectrotanypus sp1 FW_013_03,5,Terrestrial invertebrates,5,1,trophic
+Hydrobiosella stenocerca,5,Terrestrial invertebrates,5,1,trophic
+Hydrobiosis charadera,5,Terrestrial invertebrates,5,1,trophic
+Hydrobiosis parumbripennis,5,Terrestrial invertebrates,5,1,trophic
+Philorheithrus agilis,5,Terrestrial invertebrates,5,1,trophic
+Polyplectropus puerilis,5,Terrestrial invertebrates,5,1,trophic
+Rhabdomastix sp1 FW_013_03,5,Terrestrial invertebrates,5,1,trophic
+Stenoperla prasinia,5,Terrestrial invertebrates,5,1,trophic
+Salmo trutta,5,Terrestrial invertebrates,5,1,trophic
+Aoteapsyche raruraru,5,Terrestrial plant material,5,1,trophic
+Aphrophila neozelandica,5,Terrestrial plant material,5,1,trophic
+Austroperla cyrene,5,Terrestrial plant material,5,1,trophic
+Austrosimulium australense,5,Terrestrial plant material,5,1,trophic
+Cricotopus type II,5,Terrestrial plant material,5,1,trophic
+Deleatidium sp1 FW_013_03,5,Terrestrial plant material,5,1,trophic
+Hexatomini,5,Terrestrial plant material,5,1,trophic
+Hudsonema amabilis,5,Terrestrial plant material,5,1,trophic
+Lumbriculiid type I,5,Terrestrial plant material,5,1,trophic
+Lumbriculiid type II,5,Terrestrial plant material,5,1,trophic
+Lumbriculiid type III,5,Terrestrial plant material,5,1,trophic
+Lumbriculiid type skinny,5,Terrestrial plant material,5,1,trophic
+Lumbriculiid type smooth,5,Terrestrial plant material,5,1,trophic
+Nothodixa campbelli,5,Terrestrial plant material,5,1,trophic
+Nymphula nitens,5,Terrestrial plant material,5,1,trophic
+Paracalliope sp1 FW_013_03,5,Terrestrial plant material,5,1,trophic
+Paralimnophila skuseii,5,Terrestrial plant material,5,1,trophic
+Paucispinigera approximata,5,Terrestrial plant material,5,1,trophic
+Polypedilum type I,5,Terrestrial plant material,5,1,trophic
+Polypedilum type II,5,Terrestrial plant material,5,1,trophic
+Potamopyrgus antipodarum,5,Terrestrial plant material,5,1,trophic
+Rhabdomastix sp1 FW_013_03,5,Terrestrial plant material,5,1,trophic
+Tanytarsus sp1 FW_013_03,5,Terrestrial plant material,5,1,trophic
+Tanytarsus verspertinus,5,Terrestrial plant material,5,1,trophic
+Zelanoperla sp1 FW_013_03,5,Terrestrial plant material,5,1,trophic
+Paranephrops zelandicus,5,Terrestrial plant material,5,1,trophic
+Aphrophila neozelandica,5,Unidentified sp1 FW_013_03,5,1,trophic
+Apsectrotanypus sp1 FW_013_03,5,Unidentified sp1 FW_013_03,5,1,trophic
+Austrosimulium australense,5,Unidentified sp1 FW_013_03,5,1,trophic
+Chironomini sp1 FW_013_03,5,Unidentified sp1 FW_013_03,5,1,trophic
+Costchorema xanthoptera,5,Unidentified sp1 FW_013_03,5,1,trophic
+Cricotopus type II,5,Unidentified sp1 FW_013_03,5,1,trophic
+Deleatidium sp1 FW_013_03,5,Unidentified sp1 FW_013_03,5,1,trophic
+Eukiefidrella brundini,5,Unidentified sp1 FW_013_03,5,1,trophic
+Hydora nitida,5,Unidentified sp1 FW_013_03,5,1,trophic
+Hydrochorema crassicaudatum,5,Unidentified sp1 FW_013_03,5,1,trophic
+Lumbriculiid type I,5,Unidentified sp1 FW_013_03,5,1,trophic
+Lumbriculiid type II,5,Unidentified sp1 FW_013_03,5,1,trophic
+Lumbriculiid type III,5,Unidentified sp1 FW_013_03,5,1,trophic
+Lumbriculiid type skinny,5,Unidentified sp1 FW_013_03,5,1,trophic
+Lumbriculiid type smooth,5,Unidentified sp1 FW_013_03,5,1,trophic
+Megaleptoperla grandis,5,Unidentified sp1 FW_013_03,5,1,trophic
+Molophilus sp1 FW_013_03,5,Unidentified sp1 FW_013_03,5,1,trophic
+Naonella forsythii,5,Unidentified sp1 FW_013_03,5,1,trophic
+Orchymontia sp1 FW_013_03,5,Unidentified sp1 FW_013_03,5,1,trophic
+Paucispinigera approximata,5,Unidentified sp1 FW_013_03,5,1,trophic
+Polypedilum type I,5,Unidentified sp1 FW_013_03,5,1,trophic
+Polypedilum type II,5,Unidentified sp1 FW_013_03,5,1,trophic
+Potamopyrgus antipodarum,5,Unidentified sp1 FW_013_03,5,1,trophic
+Psychodidae,5,Unidentified sp1 FW_013_03,5,1,trophic
+Pycnocentria evecta,5,Unidentified sp1 FW_013_03,5,1,trophic
+Rhabdomastix sp1 FW_013_03,5,Unidentified sp1 FW_013_03,5,1,trophic
+Scirtidae type broad,5,Unidentified sp1 FW_013_03,5,1,trophic
+Scirtidae type skinny,5,Unidentified sp1 FW_013_03,5,1,trophic
+Tanypodini sp1 FW_013_03,5,Unidentified sp1 FW_013_03,5,1,trophic
+Tanytarsus sp1 FW_013_03,5,Unidentified sp1 FW_013_03,5,1,trophic
+Tanytarsus verspertinus,5,Unidentified sp1 FW_013_03,5,1,trophic
+Zelolessica cheira,5,Unidentified sp1 FW_013_03,5,1,trophic
+Paranephrops zelandicus,5,Unidentified sp1 FW_013_03,5,1,trophic
+Aoteapsyche raruraru,5,Achnanthes lanceolata,5,1,trophic
+Aphrophila neozelandica,5,Achnanthes lanceolata,5,1,trophic
+Austroperla cyrene,5,Achnanthes lanceolata,5,1,trophic
+Austrosimulium australense,5,Achnanthes lanceolata,5,1,trophic
+Cricotopus type II,5,Achnanthes lanceolata,5,1,trophic
+Deleatidium sp1 FW_013_03,5,Achnanthes lanceolata,5,1,trophic
+Eukiefidrella brundini,5,Achnanthes lanceolata,5,1,trophic
+Hudsonema amabilis,5,Achnanthes lanceolata,5,1,trophic
+Hydora nitida,5,Achnanthes lanceolata,5,1,trophic
+Lumbriculiid type I,5,Achnanthes lanceolata,5,1,trophic
+Lumbriculiid type II,5,Achnanthes lanceolata,5,1,trophic
+Lumbriculiid type III,5,Achnanthes lanceolata,5,1,trophic
+Lumbriculiid type skinny,5,Achnanthes lanceolata,5,1,trophic
+Lumbriculiid type smooth,5,Achnanthes lanceolata,5,1,trophic
+Molophilus sp1 FW_013_03,5,Achnanthes lanceolata,5,1,trophic
+Naonella forsythii,5,Achnanthes lanceolata,5,1,trophic
+Nothodixa campbelli,5,Achnanthes lanceolata,5,1,trophic
+Orchymontia sp1 FW_013_03,5,Achnanthes lanceolata,5,1,trophic
+Paucispinigera approximata,5,Achnanthes lanceolata,5,1,trophic
+Polypedilum type I,5,Achnanthes lanceolata,5,1,trophic
+Polypedilum type II,5,Achnanthes lanceolata,5,1,trophic
+Potamopyrgus antipodarum,5,Achnanthes lanceolata,5,1,trophic
+Psychodidae,5,Achnanthes lanceolata,5,1,trophic
+Pycnocentria evecta,5,Achnanthes lanceolata,5,1,trophic
+Scirtidae type broad,5,Achnanthes lanceolata,5,1,trophic
+Scirtidae type skinny,5,Achnanthes lanceolata,5,1,trophic
+Stictocladius sp1 FW_013_03,5,Achnanthes lanceolata,5,1,trophic
+Tanytarsus sp1 FW_013_03,5,Achnanthes lanceolata,5,1,trophic
+Tanytarsus verspertinus,5,Achnanthes lanceolata,5,1,trophic
+Zelanoperla sp1 FW_013_03,5,Achnanthes lanceolata,5,1,trophic
+Zelolessica cheira,5,Achnanthes lanceolata,5,1,trophic
+Deleatidium sp1 FW_013_03,5,Achnanthes sp1 FW_013_03,5,1,trophic
+Pycnocentria evecta,5,Achnanthes sp1 FW_013_03,5,1,trophic
+Zelolessica cheira,5,Achnanthes sp1 FW_013_03,5,1,trophic
+Deleatidium sp1 FW_013_03,5,Cocconeis placentula,5,1,trophic
+Tanytarsus verspertinus,5,Cocconeis placentula,5,1,trophic
+Deleatidium sp1 FW_013_03,5,Diatoma heimale,5,1,trophic
+Hexatomini,5,Diatoma heimale,5,1,trophic
+Paracalliope sp1 FW_013_03,5,Diatoma heimale,5,1,trophic
+Paralimnophila skuseii,5,Diatoma heimale,5,1,trophic
+Austroperla cyrene,5,Diploneis ovalis,5,1,trophic
+Zelanoperla sp1 FW_013_03,5,Diploneis ovalis,5,1,trophic
+Aphrophila neozelandica,5,Epithemia turgida,5,1,trophic
+Austrosimulium australense,5,Epithemia turgida,5,1,trophic
+Polypedilum type I,5,Epithemia turgida,5,1,trophic
+Polypedilum type II,5,Epithemia turgida,5,1,trophic
+Austroperla cyrene,5,Gomphoneis herculeana var. robusta,5,1,trophic
+Lumbriculiid type I,5,Gomphoneis herculeana var. robusta,5,1,trophic
+Lumbriculiid type III,5,Gomphoneis herculeana var. robusta,5,1,trophic
+Lumbriculiid type skinny,5,Gomphoneis herculeana var. robusta,5,1,trophic
+Zelanoperla sp1 FW_013_03,5,Gomphoneis herculeana var. robusta,5,1,trophic
+Aphrophila neozelandica,5,Gomphonema olivaceum,5,1,trophic
+Austroperla cyrene,5,Gomphonema olivaceum,5,1,trophic
+Tanytarsus sp1 FW_013_03,5,Gomphonema olivaceum,5,1,trophic
+Zelanoperla sp1 FW_013_03,5,Gomphonema olivaceum,5,1,trophic
+Hudsonema amabilis,5,Gomphonema truncatum,5,1,trophic
+Lumbriculiid type I,5,Navicula avenacea,5,1,trophic
+Lumbriculiid type III,5,Navicula avenacea,5,1,trophic
+Lumbriculiid type skinny,5,Navicula avenacea,5,1,trophic
+Deleatidium sp1 FW_013_03,5,Rhoicosphenia curvata,5,1,trophic
+Paracalliope sp1 FW_013_03,5,Rhoicosphenia curvata,5,1,trophic
+Deleatidium sp1 FW_013_03,5,Surirella tenera,5,1,trophic
+Deleatidium sp1 FW_013_03,5,Synedra ulna,5,1,trophic
+Lumbriculiid type I,5,Synedra ulna,5,1,trophic
+Lumbriculiid type III,5,Synedra ulna,5,1,trophic
+Lumbriculiid type skinny,5,Synedra ulna,5,1,trophic
+Austroperla cyrene,5,Tabellaria flocculosa,5,1,trophic
+Austrosimulium australense,5,Tabellaria flocculosa,5,1,trophic
+Deleatidium sp1 FW_013_03,5,Tabellaria flocculosa,5,1,trophic
+Hydora nitida,5,Tabellaria flocculosa,5,1,trophic
+Lumbriculiid type smooth,5,Tabellaria flocculosa,5,1,trophic
+Nothodixa campbelli,5,Tabellaria flocculosa,5,1,trophic
+Paucispinigera approximata,5,Tabellaria flocculosa,5,1,trophic
+Rhabdomastix sp1 FW_013_03,5,Tabellaria flocculosa,5,1,trophic
+Tanytarsus sp1 FW_013_03,5,Tabellaria flocculosa,5,1,trophic
+Zelanoperla sp1 FW_013_03,5,Tabellaria flocculosa,5,1,trophic
+Lumbriculiid type I,5,Blue-green algae,5,1,trophic
+Lumbriculiid type III,5,Blue-green algae,5,1,trophic
+Lumbriculiid type skinny,5,Blue-green algae,5,1,trophic
+Paracalliope sp1 FW_013_03,5,Blue-green algae,5,1,trophic
+Rhabdomastix sp1 FW_013_03,5,Closterium sp1 FW_013_03,5,1,trophic
+Tanytarsus sp1 FW_013_03,5,Closterium sp1 FW_013_03,5,1,trophic
+Paucispinigera approximata,5,Cosmarium sp1 FW_013_03,5,1,trophic
+Aphrophila neozelandica,5,Rhopalodea sp1 FW_013_03,5,1,trophic
+Naonella forsythii,5,Rhopalodea sp1 FW_013_03,5,1,trophic
+Rhabdomastix sp1 FW_013_03,5,Rhopalodea sp1 FW_013_03,5,1,trophic
+Austroperla cyrene,5,Scenedesmus sp1 FW_013_03,5,1,trophic
+Austrosimulium australense,5,Scenedesmus sp1 FW_013_03,5,1,trophic
+Deleatidium sp1 FW_013_03,5,Scenedesmus sp1 FW_013_03,5,1,trophic
+Zelanoperla sp1 FW_013_03,5,Scenedesmus sp1 FW_013_03,5,1,trophic
+Austroperla cyrene,5,Spaeocystis sp1 FW_013_03,5,1,trophic
+Austrosimulium australense,5,Spaeocystis sp1 FW_013_03,5,1,trophic
+Cricotopus type II,5,Spaeocystis sp1 FW_013_03,5,1,trophic
+Hexatomini,5,Spaeocystis sp1 FW_013_03,5,1,trophic
+Hudsonema amabilis,5,Spaeocystis sp1 FW_013_03,5,1,trophic
+Nothodixa campbelli,5,Spaeocystis sp1 FW_013_03,5,1,trophic
+Paralimnophila skuseii,5,Spaeocystis sp1 FW_013_03,5,1,trophic
+Pycnocentria evecta,5,Spaeocystis sp1 FW_013_03,5,1,trophic
+Rhabdomastix sp1 FW_013_03,5,Spaeocystis sp1 FW_013_03,5,1,trophic
+Zelanoperla sp1 FW_013_03,5,Spaeocystis sp1 FW_013_03,5,1,trophic
+Zelolessica cheira,5,Spaeocystis sp1 FW_013_03,5,1,trophic
+Aoteapsyche raruraru,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Austroperla cyrene,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Deleatidium sp1 FW_013_03,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Hexatomini,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Hudsonema amabilis,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Hydora nitida,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Lumbriculiid type II,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Naonella forsythii,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Nothodixa campbelli,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Orchymontia sp1 FW_013_03,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Paralimnophila skuseii,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Polypedilum type I,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Polypedilum type II,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Potamopyrgus antipodarum,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Rhabdomastix sp1 FW_013_03,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Zelanoperla sp1 FW_013_03,5,Stigeoclonium sp1 FW_013_03,5,1,trophic
+Hydora nitida,5,Green-algae sp1 FW_013_03,5,1,trophic
+Salmo trutta,5,Aoteapsyche raruraru,5,1,trophic
+Psilachorema bidens,5,Austroperla cyrene,5,1,trophic
+Salmo trutta,5,Austroperla cyrene,5,1,trophic
+Salmo trutta,5,Austrosimulium australense,5,1,trophic
+Ameletopsis perscitus,5,Deleatidium sp1 FW_013_03,5,1,trophic
+Aoteapsyche raruraru,5,Deleatidium sp1 FW_013_03,5,1,trophic
+Nannochorista philpotti,5,Deleatidium sp1 FW_013_03,5,1,trophic
+Polypedilum type I,5,Deleatidium sp1 FW_013_03,5,1,trophic
+Polypedilum type II,5,Deleatidium sp1 FW_013_03,5,1,trophic
+Psilachorema bidens,5,Deleatidium sp1 FW_013_03,5,1,trophic
+Psychodidae,5,Deleatidium sp1 FW_013_03,5,1,trophic
+Stenoperla prasinia,5,Deleatidium sp1 FW_013_03,5,1,trophic
+Paranephrops zelandicus,5,Deleatidium sp1 FW_013_03,5,1,trophic
+Salmo trutta,5,Deleatidium sp1 FW_013_03,5,1,trophic
+Salmo trutta,5,Hudsonema amabilis,5,1,trophic
+Salmo trutta,5,Hydora nitida,5,1,trophic
+Salmo trutta,5,Hydrobiosella stenocerca,5,1,trophic
+Salmo trutta,5,Hydrobiosis charadera,5,1,trophic
+Megaleptoperla grandis,5,Hydrobiosis parumbripennis,5,1,trophic
+Salmo trutta,5,Hydrobiosis parumbripennis,5,1,trophic
+Aoteapsyche raruraru,5,Lumbriculiid type II,5,1,trophic
+Hydrobiosella stenocerca,5,Lumbriculiid type II,5,1,trophic
+Hydrobiosis charadera,5,Lumbriculiid type II,5,1,trophic
+Hydrobiosis parumbripennis,5,Lumbriculiid type II,5,1,trophic
+Hydrochorema crassicaudatum,5,Lumbriculiid type II,5,1,trophic
+Megaleptoperla grandis,5,Lumbriculiid type II,5,1,trophic
+Orchymontia sp1 FW_013_03,5,Lumbriculiid type II,5,1,trophic
+Philorheithrus agilis,5,Lumbriculiid type II,5,1,trophic
+Polyplectropus puerilis,5,Lumbriculiid type II,5,1,trophic
+Psilachorema bidens,5,Lumbriculiid type II,5,1,trophic
+Psychodidae,5,Lumbriculiid type II,5,1,trophic
+Tanypodini sp1 FW_013_03,5,Lumbriculiid type II,5,1,trophic
+Hudsonema amabilis,5,Lumbriculiid type smooth,5,1,trophic
+Salmo trutta,5,Megaleptoperla grandis,5,1,trophic
+Salmo trutta,5,Orchymontia sp1 FW_013_03,5,1,trophic
+Salmo trutta,5,Paracalliope sp1 FW_013_03,5,1,trophic
+Salmo trutta,5,Philorheithrus agilis,5,1,trophic
+Salmo trutta,5,Polypedilum type II,5,1,trophic
+Salmo trutta,5,Polyplectropus puerilis,5,1,trophic
+Salmo trutta,5,Potamopyrgus antipodarum,5,1,trophic
+Salmo trutta,5,Psilachorema bidens,5,1,trophic
+Salmo trutta,5,Pycnocentria evecta,5,1,trophic
+Salmo trutta,5,Scirtidae type broad,5,1,trophic
+Paranephrops zelandicus,5,Stenoperla prasinia,5,1,trophic
+Salmo trutta,5,Stenoperla prasinia,5,1,trophic
+Hydrobiosella stenocerca,5,Zelanoperla sp1 FW_013_03,5,1,trophic
+Hydrobiosis charadera,5,Zelanoperla sp1 FW_013_03,5,1,trophic
+Hydrobiosis parumbripennis,5,Zelanoperla sp1 FW_013_03,5,1,trophic
+Philorheithrus agilis,5,Zelanoperla sp1 FW_013_03,5,1,trophic
+Polyplectropus puerilis,5,Zelanoperla sp1 FW_013_03,5,1,trophic
+Salmo trutta,5,Zelanoperla sp1 FW_013_03,5,1,trophic
+Salmo trutta,5,Zelolessica cheira,5,1,trophic
+Salmo trutta,5,Paranephrops zelandicus,5,1,trophic
+Aoteapsyche colonica,6,Terrestrial invertebrate,6,1,trophic
+Archicauliodes diversus,6,Terrestrial invertebrate,6,1,trophic
+Psilachorema bidens,6,Terrestrial invertebrate,6,1,trophic
+Salmo trutta,6,Terrestrial invertebrate,6,1,trophic
+Acroperla sp1 FW_013_04,6,Terrestrial plant material,6,1,trophic
+Aoteapsyche colonica,6,Terrestrial plant material,6,1,trophic
+Aoteapsyche raruraru,6,Terrestrial plant material,6,1,trophic
+Aphrophila neozelandica,6,Terrestrial plant material,6,1,trophic
+Aphrotenidae,6,Terrestrial plant material,6,1,trophic
+Austroperla cyrene,6,Terrestrial plant material,6,1,trophic
+Austrosimulium austranse,6,Terrestrial plant material,6,1,trophic
+Barareoptera roria,6,Terrestrial plant material,6,1,trophic
+Deleatidium sp1 FW_013_04,6,Terrestrial plant material,6,1,trophic
+Hydora nitida larvae,6,Terrestrial plant material,6,1,trophic
+Lumbriculiid type II,6,Terrestrial plant material,6,1,trophic
+Lumbriculiid type III,6,Terrestrial plant material,6,1,trophic
+Lumbriculiid type skinny,6,Terrestrial plant material,6,1,trophic
+Naonella forsythii,6,Terrestrial plant material,6,1,trophic
+Paucispinigera approximata,6,Terrestrial plant material,6,1,trophic
+Polypedilum sp1 FW_013_04,6,Terrestrial plant material,6,1,trophic
+Potamopyrgus antipodarum,6,Terrestrial plant material,6,1,trophic
+Pycnocentrodes evecta,6,Terrestrial plant material,6,1,trophic
+Rhabdomastrix sp1 FW_013_04,6,Terrestrial plant material,6,1,trophic
+Scirtidae type skinny,6,Terrestrial plant material,6,1,trophic
+Tanyderidae,6,Terrestrial plant material,6,1,trophic
+Zelandoperla agnetis,6,Terrestrial plant material,6,1,trophic
+Paranephrops zelandicus,6,Terrestrial plant material,6,1,trophic
+Acroperla sp1 FW_013_04,6,Unidentified sp1 FW_013_04,6,1,trophic
+Aoteapsyche colonica,6,Unidentified sp1 FW_013_04,6,1,trophic
+Aphrophila neozelandica,6,Unidentified sp1 FW_013_04,6,1,trophic
+Apsectrotanypus sp1 FW_013_04,6,Unidentified sp1 FW_013_04,6,1,trophic
+Austroperla cyrene,6,Unidentified sp1 FW_013_04,6,1,trophic
+Austrosimulium austranse,6,Unidentified sp1 FW_013_04,6,1,trophic
+Barareoptera roria,6,Unidentified sp1 FW_013_04,6,1,trophic
+Cricotopus sp1 FW_013_04,6,Unidentified sp1 FW_013_04,6,1,trophic
+Deleatidium sp1 FW_013_04,6,Unidentified sp1 FW_013_04,6,1,trophic
+Eukieflidrella brundini,6,Unidentified sp1 FW_013_04,6,1,trophic
+Helicopsyche albescens,6,Unidentified sp1 FW_013_04,6,1,trophic
+Hexatomini sp1 FW_013_04,6,Unidentified sp1 FW_013_04,6,1,trophic
+Hydora nitida larvae,6,Unidentified sp1 FW_013_04,6,1,trophic
+Lumbriculiid type I,6,Unidentified sp1 FW_013_04,6,1,trophic
+Lumbriculiid type III,6,Unidentified sp1 FW_013_04,6,1,trophic
+Lumbriculiid type skinny,6,Unidentified sp1 FW_013_04,6,1,trophic
+Megaleptoperla grandis,6,Unidentified sp1 FW_013_04,6,1,trophic
+Molophilus sp1 FW_013_04,6,Unidentified sp1 FW_013_04,6,1,trophic
+Naonella forsythii,6,Unidentified sp1 FW_013_04,6,1,trophic
+Paralimnophila skuseii,6,Unidentified sp1 FW_013_04,6,1,trophic
+Paucispinigera approximata,6,Unidentified sp1 FW_013_04,6,1,trophic
+Polypedilum sp1 FW_013_04,6,Unidentified sp1 FW_013_04,6,1,trophic
+Pycnocentrodes evecta,6,Unidentified sp1 FW_013_04,6,1,trophic
+Rhabdomastrix sp1 FW_013_04,6,Unidentified sp1 FW_013_04,6,1,trophic
+Scirtidae type skinny,6,Unidentified sp1 FW_013_04,6,1,trophic
+Stictocladius sp1 FW_013_04,6,Unidentified sp1 FW_013_04,6,1,trophic
+Tanyderidae,6,Unidentified sp1 FW_013_04,6,1,trophic
+Tanypodini sp1 FW_013_04,6,Unidentified sp1 FW_013_04,6,1,trophic
+Tiphobiosis sp1 FW_013_04,6,Unidentified sp1 FW_013_04,6,1,trophic
+Zelandoperla agnetis,6,Unidentified sp1 FW_013_04,6,1,trophic
+Paranephrops zelandicus,6,Unidentified sp1 FW_013_04,6,1,trophic
+Aoteapsyche colonica,6,Achnanthes lanceolata,6,1,trophic
+Aoteapsyche raruraru,6,Achnanthes lanceolata,6,1,trophic
+Aphrophila neozelandica,6,Achnanthes lanceolata,6,1,trophic
+Austrosimulium austranse,6,Achnanthes lanceolata,6,1,trophic
+Deleatidium sp1 FW_013_04,6,Achnanthes lanceolata,6,1,trophic
+Hydora nitida larvae,6,Achnanthes lanceolata,6,1,trophic
+Lumbriculiid type I,6,Achnanthes lanceolata,6,1,trophic
+Lumbriculiid type II,6,Achnanthes lanceolata,6,1,trophic
+Lumbriculiid type III,6,Achnanthes lanceolata,6,1,trophic
+Lumbriculiid type skinny,6,Achnanthes lanceolata,6,1,trophic
+Molophilus sp1 FW_013_04,6,Achnanthes lanceolata,6,1,trophic
+Naonella forsythii,6,Achnanthes lanceolata,6,1,trophic
+Paucispinigera approximata,6,Achnanthes lanceolata,6,1,trophic
+Polypedilum sp1 FW_013_04,6,Achnanthes lanceolata,6,1,trophic
+Potamopyrgus antipodarum,6,Achnanthes lanceolata,6,1,trophic
+Pycnocentrodes evecta,6,Achnanthes lanceolata,6,1,trophic
+Stictocladius sp1 FW_013_04,6,Achnanthes lanceolata,6,1,trophic
+Tanytarsus type blunt,6,Achnanthes lanceolata,6,1,trophic
+Zelandobius confusus,6,Achnanthes lanceolata,6,1,trophic
+Aoteapsyche colonica,6,Cocconeis placentula,6,1,trophic
+Aoteapsyche raruraru,6,Cocconeis placentula,6,1,trophic
+Aphrophila neozelandica,6,Cocconeis placentula,6,1,trophic
+Austrosimulium austranse,6,Cocconeis placentula,6,1,trophic
+Deleatidium sp1 FW_013_04,6,Cocconeis placentula,6,1,trophic
+Helicopsyche albescens,6,Cocconeis placentula,6,1,trophic
+Lumbriculiid type II,6,Cocconeis placentula,6,1,trophic
+Lumbriculiid type III,6,Cocconeis placentula,6,1,trophic
+Lumbriculiid type skinny,6,Cocconeis placentula,6,1,trophic
+Naonella forsythii,6,Cocconeis placentula,6,1,trophic
+Polypedilum sp1 FW_013_04,6,Cocconeis placentula,6,1,trophic
+Potamopyrgus antipodarum,6,Cocconeis placentula,6,1,trophic
+Pycnocentrodes evecta,6,Cocconeis placentula,6,1,trophic
+Scirtidae type skinny,6,Cocconeis placentula,6,1,trophic
+Stictocladius sp1 FW_013_04,6,Cocconeis placentula,6,1,trophic
+Tanyderidae,6,Cocconeis placentula,6,1,trophic
+Tanytarsus type blunt,6,Cocconeis placentula,6,1,trophic
+Hydora nitida larvae,6,Cymbella kappi,6,1,trophic
+Naonella forsythii,6,Cymbella kappi,6,1,trophic
+Polypedilum sp1 FW_013_04,6,Cymbella kappi,6,1,trophic
+Rhabdomastrix sp1 FW_013_04,6,Cymbella kappi,6,1,trophic
+Aoteapsyche colonica,6,Cymbella lunate,6,1,trophic
+Deleatidium sp1 FW_013_04,6,Cymbella lunate,6,1,trophic
+Naonella forsythii,6,Cymbella lunate,6,1,trophic
+Polypedilum sp1 FW_013_04,6,Cymbella lunate,6,1,trophic
+Aoteapsyche raruraru,6,Diatoma heimale,6,1,trophic
+Naonella forsythii,6,Diatoma heimale,6,1,trophic
+Polypedilum sp1 FW_013_04,6,Diatoma heimale,6,1,trophic
+Tanytarsus type blunt,6,Frustulia rhomboides,6,1,trophic
+Acroperla sp1 FW_013_04,6,Gomphoneis herculeana var. robusta,6,1,trophic
+Aoteapsyche raruraru,6,Gomphoneis herculeana var. robusta,6,1,trophic
+Austroperla cyrene,6,Gomphoneis herculeana var. robusta,6,1,trophic
+Austrosimulium austranse,6,Gomphoneis herculeana var. robusta,6,1,trophic
+Cricotopus sp1 FW_013_04,6,Gomphoneis herculeana var. robusta,6,1,trophic
+Helicopsyche albescens,6,Gomphoneis herculeana var. robusta,6,1,trophic
+Naonella forsythii,6,Gomphoneis herculeana var. robusta,6,1,trophic
+Paralimnophila skuseii,6,Gomphoneis herculeana var. robusta,6,1,trophic
+Polypedilum sp1 FW_013_04,6,Gomphoneis herculeana var. robusta,6,1,trophic
+Scirtidae type skinny,6,Gomphoneis herculeana var. robusta,6,1,trophic
+Zelandoperla agnetis,6,Gomphoneis herculeana var. robusta,6,1,trophic
+Aoteapsyche colonica,6,Gomphonema angustatum,6,1,trophic
+Aoteapsyche raruraru,6,Gomphonema angustatum,6,1,trophic
+Eukieflidrella brundini,6,Gomphonema angustatum,6,1,trophic
+Hydora nitida larvae,6,Gomphonema angustatum,6,1,trophic
+Lumbriculiid type III,6,Gomphonema angustatum,6,1,trophic
+Lumbriculiid type skinny,6,Gomphonema angustatum,6,1,trophic
+Austrosimulium austranse,6,Gomphonema truncatum,6,1,trophic
+Paralimnophila skuseii,6,Gomphonema truncatum,6,1,trophic
+Pycnocentrodes evecta,6,Gomphonema truncatum,6,1,trophic
+Aoteapsyche colonica,6,Gomphonema type coffin,6,1,trophic
+Lumbriculiid type II,6,Gomphonema type coffin,6,1,trophic
+Lumbriculiid type III,6,Gomphonema type coffin,6,1,trophic
+Naonella forsythii,6,Gomphonema type coffin,6,1,trophic
+Paucispinigera approximata,6,Gomphonema type coffin,6,1,trophic
+Polypedilum sp1 FW_013_04,6,Gomphonema type coffin,6,1,trophic
+Aphrophila neozelandica,6,Navicula avenacea,6,1,trophic
+Austroperla cyrene,6,Navicula avenacea,6,1,trophic
+Austrosimulium austranse,6,Navicula avenacea,6,1,trophic
+Deleatidium sp1 FW_013_04,6,Navicula avenacea,6,1,trophic
+Eukieflidrella brundini,6,Navicula avenacea,6,1,trophic
+Hydora nitida larvae,6,Navicula avenacea,6,1,trophic
+Lumbriculiid type I,6,Navicula avenacea,6,1,trophic
+Lumbriculiid type II,6,Navicula avenacea,6,1,trophic
+Lumbriculiid type III,6,Navicula avenacea,6,1,trophic
+Lumbriculiid type skinny,6,Navicula avenacea,6,1,trophic
+Molophilus sp1 FW_013_04,6,Navicula avenacea,6,1,trophic
+Naonella forsythii,6,Navicula avenacea,6,1,trophic
+Paucispinigera approximata,6,Navicula avenacea,6,1,trophic
+Polypedilum sp1 FW_013_04,6,Navicula avenacea,6,1,trophic
+Scirtidae type skinny,6,Navicula avenacea,6,1,trophic
+Tanyderidae,6,Navicula avenacea,6,1,trophic
+Tanytarsus type blunt,6,Navicula avenacea,6,1,trophic
+Hexatomini sp1 FW_013_04,6,Pinnularia borealis,6,1,trophic
+Barareoptera roria,6,Pinnularia viridis,6,1,trophic
+Acroperla sp1 FW_013_04,6,Rhoicosphenia curvata,6,1,trophic
+Aoteapsyche colonica,6,Rhoicosphenia curvata,6,1,trophic
+Aoteapsyche raruraru,6,Rhoicosphenia curvata,6,1,trophic
+Aphrophila neozelandica,6,Rhoicosphenia curvata,6,1,trophic
+Aphrotenidae,6,Rhoicosphenia curvata,6,1,trophic
+Apsectrotanypus sp1 FW_013_04,6,Rhoicosphenia curvata,6,1,trophic
+Austroperla cyrene,6,Rhoicosphenia curvata,6,1,trophic
+Austrosimulium austranse,6,Rhoicosphenia curvata,6,1,trophic
+Chironomini sp1 FW_013_04,6,Rhoicosphenia curvata,6,1,trophic
+Cricotopus sp1 FW_013_04,6,Rhoicosphenia curvata,6,1,trophic
+Deleatidium sp1 FW_013_04,6,Rhoicosphenia curvata,6,1,trophic
+Eukieflidrella brundini,6,Rhoicosphenia curvata,6,1,trophic
+Helicopsyche albescens,6,Rhoicosphenia curvata,6,1,trophic
+Hydora nitida larvae,6,Rhoicosphenia curvata,6,1,trophic
+Lumbriculiid type I,6,Rhoicosphenia curvata,6,1,trophic
+Lumbriculiid type II,6,Rhoicosphenia curvata,6,1,trophic
+Lumbriculiid type III,6,Rhoicosphenia curvata,6,1,trophic
+Lumbriculiid type skinny,6,Rhoicosphenia curvata,6,1,trophic
+Molophilus sp1 FW_013_04,6,Rhoicosphenia curvata,6,1,trophic
+Naonella forsythii,6,Rhoicosphenia curvata,6,1,trophic
+Paralimnophila skuseii,6,Rhoicosphenia curvata,6,1,trophic
+Paucispinigera approximata,6,Rhoicosphenia curvata,6,1,trophic
+Podonomus sp1 FW_013_04,6,Rhoicosphenia curvata,6,1,trophic
+Polypedilum sp1 FW_013_04,6,Rhoicosphenia curvata,6,1,trophic
+Potamopyrgus antipodarum,6,Rhoicosphenia curvata,6,1,trophic
+Pycnocentrodes evecta,6,Rhoicosphenia curvata,6,1,trophic
+Rhabdomastrix sp1 FW_013_04,6,Rhoicosphenia curvata,6,1,trophic
+Scirtidae type skinny,6,Rhoicosphenia curvata,6,1,trophic
+Stictocladius sp1 FW_013_04,6,Rhoicosphenia curvata,6,1,trophic
+Tanyderidae,6,Rhoicosphenia curvata,6,1,trophic
+Tanytarsus type blunt,6,Rhoicosphenia curvata,6,1,trophic
+Zelandobius confusus,6,Rhoicosphenia curvata,6,1,trophic
+Zelandoperla agnetis,6,Rhoicosphenia curvata,6,1,trophic
+Apsectrotanypus sp1 FW_013_04,6,Surirella elegans,6,1,trophic
+Hydora nitida larvae,6,Surirella elegans,6,1,trophic
+Naonella forsythii,6,Surirella elegans,6,1,trophic
+Polypedilum sp1 FW_013_04,6,Surirella elegans,6,1,trophic
+Aoteapsyche colonica,6,Surirella linearis,6,1,trophic
+Hydora nitida larvae,6,Surirella linearis,6,1,trophic
+Aoteapsyche raruraru,6,Synedra rumpens,6,1,trophic
+Austrosimulium austranse,6,Synedra ulna,6,1,trophic
+Lumbriculiid type II,6,Synedra ulna,6,1,trophic
+Pycnocentrodes evecta,6,Synedra ulna,6,1,trophic
+Aphrotenidae,6,Tabellaria flocculosa,6,1,trophic
+Chironomini sp1 FW_013_04,6,Tabellaria flocculosa,6,1,trophic
+Lumbriculiid type I,6,Tabellaria flocculosa,6,1,trophic
+Lumbriculiid type II,6,Tabellaria flocculosa,6,1,trophic
+Lumbriculiid type skinny,6,Tabellaria flocculosa,6,1,trophic
+Podonomus sp1 FW_013_04,6,Tabellaria flocculosa,6,1,trophic
+Austroperla cyrene,6,Auodinella,6,1,trophic
+Austroperla cyrene,6,Batrachospermum,6,1,trophic
+Aoteapsyche raruraru,6,Blue-green algae,6,1,trophic
+Austroperla cyrene,6,Blue-green algae,6,1,trophic
+Austrosimulium austranse,6,Blue-green algae,6,1,trophic
+Deleatidium sp1 FW_013_04,6,Blue-green algae,6,1,trophic
+Lumbriculiid type II,6,Blue-green algae,6,1,trophic
+Aoteapsyche colonica,6,Calothrix,6,1,trophic
+Aoteapsyche raruraru,6,Calothrix,6,1,trophic
+Potamopyrgus antipodarum,6,Calothrix,6,1,trophic
+Naonella forsythii,6,Pediastrum sp1 FW_013_04,6,1,trophic
+Polypedilum sp1 FW_013_04,6,Pediastrum sp1 FW_013_04,6,1,trophic
+Aoteapsyche raruraru,6,Schizothrix,6,1,trophic
+Austrosimulium austranse,6,Stigeoclonium,6,1,trophic
+Austrosimulium austranse,6,Ulothrix,6,1,trophic
+Aoteapsyche colonica,6,Green algae sp1 FW_013_04,6,1,trophic
+Aoteapsyche raruraru,6,Green algae sp1 FW_013_04,6,1,trophic
+Austroperla cyrene,6,Green algae sp1 FW_013_04,6,1,trophic
+Lumbriculiid type II,6,Green algae sp1 FW_013_04,6,1,trophic
+Scirtidae type skinny,6,Green algae sp1 FW_013_04,6,1,trophic
+Deleatidium sp1 FW_013_04,6,Rhodophyceae sp1 FW_013_04,6,1,trophic
+Salmo trutta,6,Aoteapsyche colonica,6,1,trophic
+Salmo trutta,6,Aoteapsyche raruraru,6,1,trophic
+Salmo trutta,6,Archicauliodes diversus,6,1,trophic
+Hydrobiosis parumbripennis,6,Austrosimulium austranse,6,1,trophic
+Hydrobiosis silvicola,6,Austrosimulium austranse,6,1,trophic
+Aoteapsyche colonica,6,Cricotopus sp1 FW_013_04,6,1,trophic
+Aphrophila neozelandica,6,Cricotopus sp1 FW_013_04,6,1,trophic
+Archicauliodes diversus,6,Cricotopus sp1 FW_013_04,6,1,trophic
+Hydrobiosis frater,6,Cricotopus sp1 FW_013_04,6,1,trophic
+Hydrobiosis parumbripennis,6,Cricotopus sp1 FW_013_04,6,1,trophic
+Hydrobiosis silvicola,6,Cricotopus sp1 FW_013_04,6,1,trophic
+Psilachorema bidens,6,Cricotopus sp1 FW_013_04,6,1,trophic
+Stenoperla prasinia,6,Cricotopus sp1 FW_013_04,6,1,trophic
+Tanypodini sp1 FW_013_04,6,Cricotopus sp1 FW_013_04,6,1,trophic
+Aoteapsyche colonica,6,Deleatidium sp1 FW_013_04,6,1,trophic
+Aphrophila neozelandica,6,Deleatidium sp1 FW_013_04,6,1,trophic
+Archicauliodes diversus,6,Deleatidium sp1 FW_013_04,6,1,trophic
+Hydrobiosis frater,6,Deleatidium sp1 FW_013_04,6,1,trophic
+Hydrobiosis parumbripennis,6,Deleatidium sp1 FW_013_04,6,1,trophic
+Hydrobiosis silvicola,6,Deleatidium sp1 FW_013_04,6,1,trophic
+Megaleptoperla grandis,6,Deleatidium sp1 FW_013_04,6,1,trophic
+Psilachorema bidens,6,Deleatidium sp1 FW_013_04,6,1,trophic
+Salmo trutta,6,Deleatidium sp1 FW_013_04,6,1,trophic
+Hydrobiosis parumbripennis,6,Eukieflidrella brundini,6,1,trophic
+Salmo trutta,6,Helicopsyche albescens,6,1,trophic
+Salmo trutta,6,Hydrobiosis frater,6,1,trophic
+Salmo trutta,6,Hydrobiosis parumbripennis,6,1,trophic
+Salmo trutta,6,Hydrobiosis silvicola,6,1,trophic
+Aoteapsyche raruraru,6,Lumbriculiid type I,6,1,trophic
+Archicauliodes diversus,6,Lumbriculiid type II,6,1,trophic
+Hydrobiosis parumbripennis,6,Lumbriculiid type II,6,1,trophic
+Psilachorema bidens,6,Lumbriculiid type II,6,1,trophic
+Archicauliodes diversus,6,Lumbriculiid type III,6,1,trophic
+Psilachorema bidens,6,Lumbriculiid type III,6,1,trophic
+Salmo trutta,6,Megaleptoperla grandis,6,1,trophic
+Hydrobiosis parumbripennis,6,Naonella forsythii,6,1,trophic
+Salmo trutta,6,Naonella forsythii,6,1,trophic
+Salmo trutta,6,Psilachorema bidens,6,1,trophic
+Psilachorema bidens,6,Pycnocentrodes evecta,6,1,trophic
+Salmo trutta,6,Stenoperla prasinia,6,1,trophic
+Hydrobiosis frater,6,Tanytarsus type blunt,6,1,trophic
+Salmo trutta,6,Tanytarsus type blunt,6,1,trophic
+Aoteapsyche raruraru,6,Zelandoperla agnetis,6,1,trophic
+Hydrobiosis parumbripennis,6,Zelandoperla agnetis,6,1,trophic
+Psilachorema bidens,6,Zelandoperla agnetis,6,1,trophic
+Salmo trutta,6,Zelandoperla agnetis,6,1,trophic
+Salmo trutta,6,Paranephrops zelandicus,6,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Detritus sp1 FW_013_05,7,1,trophic
+Aphrophila noevaezelandiae,7,Detritus sp1 FW_013_05,7,1,trophic
+Austraclima jollyae,7,Detritus sp1 FW_013_05,7,1,trophic
+Austrosimulium australense,7,Detritus sp1 FW_013_05,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Detritus sp1 FW_013_05,7,1,trophic
+Cricotopus II,7,Detritus sp1 FW_013_05,7,1,trophic
+Maoridiamesea,7,Detritus sp1 FW_013_05,7,1,trophic
+Eukiefiriella,7,Detritus sp1 FW_013_05,7,1,trophic
+Tanytarsini II,7,Detritus sp1 FW_013_05,7,1,trophic
+Pirara,7,Detritus sp1 FW_013_05,7,1,trophic
+Naonella,7,Detritus sp1 FW_013_05,7,1,trophic
+Podonomus,7,Detritus sp1 FW_013_05,7,1,trophic
+Polypedellum,7,Detritus sp1 FW_013_05,7,1,trophic
+Cricotopus I,7,Detritus sp1 FW_013_05,7,1,trophic
+Tanytarsini I,7,Detritus sp1 FW_013_05,7,1,trophic
+Heliopsyche albescens,7,Detritus sp1 FW_013_05,7,1,trophic
+Hydora nitida larvae,7,Detritus sp1 FW_013_05,7,1,trophic
+Hydraena homalaena Type H1,7,Detritus sp1 FW_013_05,7,1,trophic
+Hydraena homalaena Type H2,7,Detritus sp1 FW_013_05,7,1,trophic
+Hydraena orchymontia,7,Detritus sp1 FW_013_05,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Detritus sp1 FW_013_05,7,1,trophic
+Oligochaeta type II,7,Detritus sp1 FW_013_05,7,1,trophic
+Olinga feredayi,7,Detritus sp1 FW_013_05,7,1,trophic
+Oxyethira albiceps,7,Detritus sp1 FW_013_05,7,1,trophic
+Paroxyethira eatoni,7,Detritus sp1 FW_013_05,7,1,trophic
+Scirtid sp1 FW_013_05,7,Detritus sp1 FW_013_05,7,1,trophic
+Scirtid sp2 FW_013_05,7,Detritus sp1 FW_013_05,7,1,trophic
+Scirtid sp3 FW_013_05,7,Detritus sp1 FW_013_05,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Detritus sp1 FW_013_05,7,1,trophic
+Zelandoperla sp2 FW_013_05,7,Detritus sp1 FW_013_05,7,1,trophic
+Zelolessica cheira,7,Detritus sp1 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Terrestrial invertebrates,7,1,trophic
+Archicaulioides diversus,7,Terrestrial invertebrates,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Terrestrial invertebrates,7,1,trophic
+Psilachorema bidens,7,Terrestrial invertebrates,7,1,trophic
+Salmo trutta,7,Terrestrial invertebrates,7,1,trophic
+Aphrophila noevaezelandiae,7,Macrophytes,7,1,trophic
+Austraclima jollyae,7,Macrophytes,7,1,trophic
+Austrosimulium australense,7,Macrophytes,7,1,trophic
+Hydora nitida larvae,7,Macrophytes,7,1,trophic
+Hydraena orchymontia,7,Macrophytes,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Macrophytes,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Moss cells,7,1,trophic
+Aphrophila noevaezelandiae,7,Moss cells,7,1,trophic
+Austraclima jollyae,7,Moss cells,7,1,trophic
+Austrosimulium australense,7,Moss cells,7,1,trophic
+Hydora nitida larvae,7,Moss cells,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Moss cells,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Achnanthes lanceoloata,7,1,trophic
+Austrosimulium australense,7,Achnanthes lanceoloata,7,1,trophic
+Eukiefiriella,7,Achnanthes lanceoloata,7,1,trophic
+Podonomus,7,Achnanthes lanceoloata,7,1,trophic
+Cricotopus I,7,Achnanthes lanceoloata,7,1,trophic
+Tanytarsini I,7,Achnanthes lanceoloata,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Achnanthes lanceoloata,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Achnanthes lanceoloata,7,1,trophic
+Hydraena homalaena Type H1,7,Achnanthes lanceoloata,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Achnanthes lanceoloata,7,1,trophic
+Oligochaeta type II,7,Achnanthes lanceoloata,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Achnanthes lanceoloata,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Achnanthes linearis,7,1,trophic
+Aphrophila noevaezelandiae,7,Achnanthes linearis,7,1,trophic
+Austrosimulium australense,7,Achnanthes linearis,7,1,trophic
+Eukiefiriella,7,Achnanthes linearis,7,1,trophic
+Pirara,7,Achnanthes linearis,7,1,trophic
+Naonella,7,Achnanthes linearis,7,1,trophic
+Podonomus,7,Achnanthes linearis,7,1,trophic
+Cricotopus I,7,Achnanthes linearis,7,1,trophic
+Tanytarsini I,7,Achnanthes linearis,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Achnanthes linearis,7,1,trophic
+Hydora nitida larvae,7,Achnanthes linearis,7,1,trophic
+Hydraena orchymontia,7,Achnanthes linearis,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Achnanthes linearis,7,1,trophic
+Oligochaeta type II,7,Achnanthes linearis,7,1,trophic
+Hydora nitida larvae,7,Achnanthes minutissima,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Achnanthes saxonica,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Achnanthes sp1 FW_013_05,7,1,trophic
+Pirara,7,Achnanthes sp1 FW_013_05,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Asterionella sp1 FW_013_05,7,1,trophic
+Tanytarsini II,7,Asterionella sp1 FW_013_05,7,1,trophic
+Pirara,7,Asterionella sp1 FW_013_05,7,1,trophic
+Cricotopus I,7,Asterionella sp1 FW_013_05,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Asterionella sp1 FW_013_05,7,1,trophic
+Paroxyethira eatoni,7,Asterionella sp1 FW_013_05,7,1,trophic
+Scirtid sp1 FW_013_05,7,Asterionella sp1 FW_013_05,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Asterionella sp1 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Aphrophila noevaezelandiae,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Austraclima jollyae,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Austrosimulium australense,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Cricotopus II,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Maoridiamesea,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Eukiefiriella,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Tanytarsini II,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Pirara,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Naonella,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Podonomus,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Polypedellum,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Cricotopus I,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Tanytarsini I,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Heliopsyche albescens,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Hydora nitida larvae,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Hydraena homalaena Type H1,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Hydraena homalaena Type H2,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Oligochaeta type II,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Olinga feredayi,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Oxyethira albiceps,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Scirtid sp2 FW_013_05,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Zelandoperla sp2 FW_013_05,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Zelolessica cheira,7,Cocconeis sp1 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Aphrophila noevaezelandiae,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Austraclima jollyae,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Austrosimulium australense,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Cricotopus II,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Eukiefiriella,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Pirara,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Naonella,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Podonomus,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Cricotopus I,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Tanytarsini I,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Heliopsyche albescens,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Hydora nitida larvae,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Hydraena homalaena Type H1,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Oligochaeta type II,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Olinga feredayi,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Oxyethira albiceps,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Scirtid sp2 FW_013_05,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Zelolessica cheira,7,Cyclotella sp1 FW_013_05,7,1,trophic
+Aphrophila noevaezelandiae,7,Cymbella aspera,7,1,trophic
+Aphrophila noevaezelandiae,7,Cymbella cuspidata,7,1,trophic
+Aphrophila noevaezelandiae,7,Cymbella kappii,7,1,trophic
+Austrosimulium australense,7,Cymbella kappii,7,1,trophic
+Cricotopus II,7,Cymbella kappii,7,1,trophic
+Polypedellum,7,Cymbella kappii,7,1,trophic
+Cricotopus I,7,Cymbella kappii,7,1,trophic
+Tanytarsini I,7,Cymbella kappii,7,1,trophic
+Hydora nitida larvae,7,Cymbella kappii,7,1,trophic
+Oligochaeta type II,7,Cymbella kappii,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Cymbella minuta,7,1,trophic
+Aphrophila noevaezelandiae,7,Cymbella minuta,7,1,trophic
+Austraclima jollyae,7,Cymbella minuta,7,1,trophic
+Austrosimulium australense,7,Cymbella minuta,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Cymbella minuta,7,1,trophic
+Cricotopus II,7,Cymbella minuta,7,1,trophic
+Maoridiamesea,7,Cymbella minuta,7,1,trophic
+Eukiefiriella,7,Cymbella minuta,7,1,trophic
+Tanytarsini II,7,Cymbella minuta,7,1,trophic
+Pirara,7,Cymbella minuta,7,1,trophic
+Naonella,7,Cymbella minuta,7,1,trophic
+Podonomus,7,Cymbella minuta,7,1,trophic
+Polypedellum,7,Cymbella minuta,7,1,trophic
+Cricotopus I,7,Cymbella minuta,7,1,trophic
+Tanytarsini I,7,Cymbella minuta,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Cymbella minuta,7,1,trophic
+Heliopsyche albescens,7,Cymbella minuta,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Cymbella minuta,7,1,trophic
+Hydora nitida larvae,7,Cymbella minuta,7,1,trophic
+Hydraena homalaena Type H1,7,Cymbella minuta,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Cymbella minuta,7,1,trophic
+Oligochaeta type II,7,Cymbella minuta,7,1,trophic
+Olinga feredayi,7,Cymbella minuta,7,1,trophic
+Paroxyethira eatoni,7,Cymbella minuta,7,1,trophic
+Scirtid sp2 FW_013_05,7,Cymbella minuta,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Cymbella minuta,7,1,trophic
+Zelandoperla sp2 FW_013_05,7,Cymbella minuta,7,1,trophic
+Zelolessica cheira,7,Cymbella minuta,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Diatoma heimale,7,1,trophic
+Aphrophila noevaezelandiae,7,Diatoma heimale,7,1,trophic
+Austrosimulium australense,7,Diatoma heimale,7,1,trophic
+Cricotopus II,7,Diatoma heimale,7,1,trophic
+Maoridiamesea,7,Diatoma heimale,7,1,trophic
+Eukiefiriella,7,Diatoma heimale,7,1,trophic
+Naonella,7,Diatoma heimale,7,1,trophic
+Podonomus,7,Diatoma heimale,7,1,trophic
+Polypedellum,7,Diatoma heimale,7,1,trophic
+Tanytarsini I,7,Diatoma heimale,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Diatoma heimale,7,1,trophic
+Hydraena homalaena Type H1,7,Diatoma heimale,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Diatoma heimale,7,1,trophic
+Oligochaeta type II,7,Diatoma heimale,7,1,trophic
+Olinga feredayi,7,Diatoma heimale,7,1,trophic
+Oxyethira albiceps,7,Diatoma heimale,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Diatoma heimale,7,1,trophic
+Zelolessica cheira,7,Diatoma heimale,7,1,trophic
+Tanytarsini I,7,Diploneis sp1 FW_013_05,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Diploneis sp1 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Epithemia sorex,7,1,trophic
+Aphrophila noevaezelandiae,7,Epithemia sorex,7,1,trophic
+Austraclima jollyae,7,Epithemia sorex,7,1,trophic
+Austrosimulium australense,7,Epithemia sorex,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Epithemia sorex,7,1,trophic
+Cricotopus II,7,Epithemia sorex,7,1,trophic
+Maoridiamesea,7,Epithemia sorex,7,1,trophic
+Pirara,7,Epithemia sorex,7,1,trophic
+Naonella,7,Epithemia sorex,7,1,trophic
+Polypedellum,7,Epithemia sorex,7,1,trophic
+Cricotopus I,7,Epithemia sorex,7,1,trophic
+Tanytarsini I,7,Epithemia sorex,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Epithemia sorex,7,1,trophic
+Hydora nitida larvae,7,Epithemia sorex,7,1,trophic
+Hydraena homalaena Type H2,7,Epithemia sorex,7,1,trophic
+Hydraena orchymontia,7,Epithemia sorex,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Epithemia sorex,7,1,trophic
+Oligochaeta type II,7,Epithemia sorex,7,1,trophic
+Paroxyethira eatoni,7,Epithemia sorex,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Epithemia zebra,7,1,trophic
+Aphrophila noevaezelandiae,7,Epithemia zebra,7,1,trophic
+Austrosimulium australense,7,Epithemia zebra,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Epithemia zebra,7,1,trophic
+Cricotopus II,7,Epithemia zebra,7,1,trophic
+Maoridiamesea,7,Epithemia zebra,7,1,trophic
+Naonella,7,Epithemia zebra,7,1,trophic
+Tanytarsini I,7,Epithemia zebra,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Epithemia zebra,7,1,trophic
+Hydora nitida larvae,7,Epithemia zebra,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Epithemia zebra,7,1,trophic
+Oligochaeta type II,7,Epithemia zebra,7,1,trophic
+Polypedellum,7,Eunotia sp2 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Eunotia sp1 FW_013_05,7,1,trophic
+Aphrophila noevaezelandiae,7,Eunotia sp1 FW_013_05,7,1,trophic
+Austraclima jollyae,7,Eunotia sp1 FW_013_05,7,1,trophic
+Cricotopus II,7,Eunotia sp1 FW_013_05,7,1,trophic
+Maoridiamesea,7,Eunotia sp1 FW_013_05,7,1,trophic
+Naonella,7,Eunotia sp1 FW_013_05,7,1,trophic
+Podonomus,7,Eunotia sp1 FW_013_05,7,1,trophic
+Polypedellum,7,Eunotia sp1 FW_013_05,7,1,trophic
+Cricotopus I,7,Eunotia sp1 FW_013_05,7,1,trophic
+Tanytarsini I,7,Eunotia sp1 FW_013_05,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Eunotia sp1 FW_013_05,7,1,trophic
+Hydora nitida larvae,7,Eunotia sp1 FW_013_05,7,1,trophic
+Hydraena homalaena Type H2,7,Eunotia sp1 FW_013_05,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Eunotia sp1 FW_013_05,7,1,trophic
+Oligochaeta type II,7,Eunotia sp1 FW_013_05,7,1,trophic
+Olinga feredayi,7,Eunotia sp1 FW_013_05,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Eunotia sp1 FW_013_05,7,1,trophic
+Zelolessica cheira,7,Eunotia sp1 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Fragilaria vaucheriae,7,1,trophic
+Aphrophila noevaezelandiae,7,Fragilaria vaucheriae,7,1,trophic
+Austraclima jollyae,7,Fragilaria vaucheriae,7,1,trophic
+Austrosimulium australense,7,Fragilaria vaucheriae,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Fragilaria vaucheriae,7,1,trophic
+Cricotopus II,7,Fragilaria vaucheriae,7,1,trophic
+Maoridiamesea,7,Fragilaria vaucheriae,7,1,trophic
+Eukiefiriella,7,Fragilaria vaucheriae,7,1,trophic
+Pirara,7,Fragilaria vaucheriae,7,1,trophic
+Podonomus,7,Fragilaria vaucheriae,7,1,trophic
+Polypedellum,7,Fragilaria vaucheriae,7,1,trophic
+Cricotopus I,7,Fragilaria vaucheriae,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Fragilaria vaucheriae,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Fragilaria vaucheriae,7,1,trophic
+Hydora nitida larvae,7,Fragilaria vaucheriae,7,1,trophic
+Hydraena homalaena Type H1,7,Fragilaria vaucheriae,7,1,trophic
+Hydraena homalaena Type H2,7,Fragilaria vaucheriae,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Fragilaria vaucheriae,7,1,trophic
+Oligochaeta type II,7,Fragilaria vaucheriae,7,1,trophic
+Olinga feredayi,7,Fragilaria vaucheriae,7,1,trophic
+Oxyethira albiceps,7,Fragilaria vaucheriae,7,1,trophic
+Paroxyethira eatoni,7,Fragilaria vaucheriae,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Fragilaria vaucheriae,7,1,trophic
+Zelandoperla sp2 FW_013_05,7,Fragilaria vaucheriae,7,1,trophic
+Zelolessica cheira,7,Fragilaria vaucheriae,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Fragilaria sp1 FW_013_05,7,1,trophic
+Tanytarsini I,7,Fragilaria sp1 FW_013_05,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Fragilaria sp1 FW_013_05,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Fragilaria sp1 FW_013_05,7,1,trophic
+Aphrophila noevaezelandiae,7,Frustulia rhomboides,7,1,trophic
+Austraclima jollyae,7,Frustulia rhomboides,7,1,trophic
+Austrosimulium australense,7,Frustulia rhomboides,7,1,trophic
+Polypedellum,7,Frustulia rhomboides,7,1,trophic
+Cricotopus I,7,Frustulia rhomboides,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Frustulia rhomboides,7,1,trophic
+Hydora nitida larvae,7,Frustulia rhomboides,7,1,trophic
+Scirtid sp1 FW_013_05,7,Frustulia rhomboides,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Frustulia rhomboides,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Gomphoneis herculeana,7,1,trophic
+Aphrophila noevaezelandiae,7,Gomphoneis herculeana,7,1,trophic
+Austrosimulium australense,7,Gomphoneis herculeana,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Gomphoneis herculeana,7,1,trophic
+Cricotopus II,7,Gomphoneis herculeana,7,1,trophic
+Maoridiamesea,7,Gomphoneis herculeana,7,1,trophic
+Eukiefiriella,7,Gomphoneis herculeana,7,1,trophic
+Naonella,7,Gomphoneis herculeana,7,1,trophic
+Polypedellum,7,Gomphoneis herculeana,7,1,trophic
+Cricotopus I,7,Gomphoneis herculeana,7,1,trophic
+Tanytarsini I,7,Gomphoneis herculeana,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Gomphoneis herculeana,7,1,trophic
+Hydora nitida larvae,7,Gomphoneis herculeana,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Gomphoneis herculeana,7,1,trophic
+Oligochaeta type II,7,Gomphoneis herculeana,7,1,trophic
+Olinga feredayi,7,Gomphoneis herculeana,7,1,trophic
+Oxyethira albiceps,7,Gomphoneis herculeana,7,1,trophic
+Scirtid sp2 FW_013_05,7,Gomphoneis herculeana,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Gomphoneis herculeana,7,1,trophic
+Zelandoperla sp2 FW_013_05,7,Gomphoneis herculeana,7,1,trophic
+Zelolessica cheira,7,Gomphoneis herculeana,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Gomphonema cf. olivaceum,7,1,trophic
+Austraclima jollyae,7,Gomphonema cf. olivaceum,7,1,trophic
+Austrosimulium australense,7,Gomphonema cf. olivaceum,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Gomphonema cf. olivaceum,7,1,trophic
+Naonella,7,Gomphonema cf. olivaceum,7,1,trophic
+Podonomus,7,Gomphonema cf. olivaceum,7,1,trophic
+Polypedellum,7,Gomphonema cf. olivaceum,7,1,trophic
+Cricotopus I,7,Gomphonema cf. olivaceum,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Gomphonema cf. olivaceum,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Gomphonema cf. olivaceum,7,1,trophic
+Hydraena orchymontia,7,Gomphonema cf. olivaceum,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Gomphonema cf. olivaceum,7,1,trophic
+Oxyethira albiceps,7,Gomphonema cf. olivaceum,7,1,trophic
+Scirtid sp1 FW_013_05,7,Gomphonema cf. olivaceum,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Gomphonema cf. olivaceum,7,1,trophic
+Aphrophila noevaezelandiae,7,Gomphonema acuminatum,7,1,trophic
+Naonella,7,Gomphonema acuminatum,7,1,trophic
+Tanytarsini I,7,Gomphonema acuminatum,7,1,trophic
+Hydora nitida larvae,7,Gomphonema acuminatum,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Gomphonema truncatum,7,1,trophic
+Aphrophila noevaezelandiae,7,Gomphonema truncatum,7,1,trophic
+Austrosimulium australense,7,Gomphonema truncatum,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Gomphonema truncatum,7,1,trophic
+Cricotopus II,7,Gomphonema truncatum,7,1,trophic
+Maoridiamesea,7,Gomphonema truncatum,7,1,trophic
+Polypedellum,7,Gomphonema truncatum,7,1,trophic
+Cricotopus I,7,Gomphonema truncatum,7,1,trophic
+Tanytarsini I,7,Gomphonema truncatum,7,1,trophic
+Hydora nitida larvae,7,Gomphonema truncatum,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Gomphonema truncatum,7,1,trophic
+Oligochaeta type II,7,Gomphonema truncatum,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Gomphonema truncatum,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Gomphonema parvulum,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Gomphonema parvulum,7,1,trophic
+Eukiefiriella,7,Gomphonema parvulum,7,1,trophic
+Pirara,7,Gomphonema parvulum,7,1,trophic
+Heliopsyche albescens,7,Gomphonema parvulum,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Gomphonema parvulum,7,1,trophic
+Hydraena homalaena Type H2,7,Gomphonema parvulum,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Gomphonema parvulum,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Gomphonema subclavatum,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Gomphonema subclavatum,7,1,trophic
+Naonella,7,Gomphonema subclavatum,7,1,trophic
+Tanytarsini I,7,Gomphonema subclavatum,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Gomphonema subclavatum,7,1,trophic
+Hydora nitida larvae,7,Gomphonema subclavatum,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Gomphonema subclavatum,7,1,trophic
+Olinga feredayi,7,Gomphonema subclavatum,7,1,trophic
+Paroxyethira eatoni,7,Gomphonema subclavatum,7,1,trophic
+Zelolessica cheira,7,Gomphonema subclavatum,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Gomphonema sp1 FW_013_05,7,1,trophic
+Aphrophila noevaezelandiae,7,Gomphonema sp1 FW_013_05,7,1,trophic
+Austrosimulium australense,7,Gomphonema sp1 FW_013_05,7,1,trophic
+Polypedellum,7,Gomphonema sp1 FW_013_05,7,1,trophic
+Tanytarsini I,7,Gomphonema sp1 FW_013_05,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Gomphonema sp1 FW_013_05,7,1,trophic
+Hydraena homalaena Type H1,7,Gomphonema sp1 FW_013_05,7,1,trophic
+Hydraena homalaena Type H2,7,Gomphonema sp1 FW_013_05,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Gomphonema sp1 FW_013_05,7,1,trophic
+Oligochaeta type II,7,Gomphonema sp1 FW_013_05,7,1,trophic
+Oxyethira albiceps,7,Gomphonema sp1 FW_013_05,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Gomphonema sp1 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Aphrophila noevaezelandiae,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Austraclima jollyae,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Eukiefiriella,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Pirara,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Naonella,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Podonomus,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Polypedellum,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Hydora nitida larvae,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Oxyethira albiceps,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Scirtid sp1 FW_013_05,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Sephanodiscus sp1 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Aulacoseira sp1 FW_013_05,7,1,trophic
+Aphrophila noevaezelandiae,7,Aulacoseira sp1 FW_013_05,7,1,trophic
+Austrosimulium australense,7,Aulacoseira sp1 FW_013_05,7,1,trophic
+Eukiefiriella,7,Aulacoseira sp1 FW_013_05,7,1,trophic
+Podonomus,7,Aulacoseira sp1 FW_013_05,7,1,trophic
+Polypedellum,7,Aulacoseira sp1 FW_013_05,7,1,trophic
+Cricotopus I,7,Aulacoseira sp1 FW_013_05,7,1,trophic
+Tanytarsini I,7,Aulacoseira sp1 FW_013_05,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Aulacoseira sp1 FW_013_05,7,1,trophic
+Hydora nitida larvae,7,Aulacoseira sp1 FW_013_05,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Aulacoseira sp1 FW_013_05,7,1,trophic
+Scirtid sp1 FW_013_05,7,Aulacoseira sp1 FW_013_05,7,1,trophic
+Scirtid sp2 FW_013_05,7,Aulacoseira sp1 FW_013_05,7,1,trophic
+Polypedellum,7,Melosira varians,7,1,trophic
+Polypedellum,7,Meridion circulare,7,1,trophic
+Cricotopus I,7,Meridion circulare,7,1,trophic
+Oligochaeta type II,7,Meridion circulare,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Navicula avenacea,7,1,trophic
+Aphrophila noevaezelandiae,7,Navicula avenacea,7,1,trophic
+Austraclima jollyae,7,Navicula avenacea,7,1,trophic
+Austrosimulium australense,7,Navicula avenacea,7,1,trophic
+Eukiefiriella,7,Navicula avenacea,7,1,trophic
+Polypedellum,7,Navicula avenacea,7,1,trophic
+Cricotopus I,7,Navicula avenacea,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Navicula avenacea,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Navicula avenacea,7,1,trophic
+Oligochaeta type II,7,Navicula avenacea,7,1,trophic
+Oxyethira albiceps,7,Navicula avenacea,7,1,trophic
+Scirtid sp1 FW_013_05,7,Navicula avenacea,7,1,trophic
+Scirtid sp2 FW_013_05,7,Navicula avenacea,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Navicula avenacea,7,1,trophic
+Cricotopus I,7,Navicula cryptocephala,7,1,trophic
+Austraclima jollyae,7,Navicula rhynchocephala,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Navicula rhynchocephala,7,1,trophic
+Aphrophila noevaezelandiae,7,Navicula cf. radiosa,7,1,trophic
+Austrosimulium australense,7,Navicula cf. radiosa,7,1,trophic
+Cricotopus II,7,Navicula cf. radiosa,7,1,trophic
+Maoridiamesea,7,Navicula cf. radiosa,7,1,trophic
+Naonella,7,Navicula cf. radiosa,7,1,trophic
+Polypedellum,7,Navicula cf. radiosa,7,1,trophic
+Tanytarsini I,7,Navicula cf. radiosa,7,1,trophic
+Hydora nitida larvae,7,Navicula cf. radiosa,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Navicula cf. radiosa,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Navicula sp1 FW_013_05,7,1,trophic
+Aphrophila noevaezelandiae,7,Navicula sp1 FW_013_05,7,1,trophic
+Austraclima jollyae,7,Navicula sp1 FW_013_05,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Navicula sp1 FW_013_05,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Navicula sp1 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Austraclima jollyae,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Cricotopus II,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Eukiefiriella,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Tanytarsini II,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Pirara,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Naonella,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Podonomus,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Polypedellum,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Cricotopus I,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Tanytarsini I,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Hydraena homalaena Type H2,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Oligochaeta type II,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Oxyethira albiceps,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Paroxyethira eatoni,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Scirtid sp1 FW_013_05,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Scirtid sp2 FW_013_05,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Zelandoperla sp2 FW_013_05,7,Nitzschia sp1 FW_013_05,7,1,trophic
+Pirara,7,Nitzschia sp2 FW_013_05,7,1,trophic
+Hydraena homalaena Type H2,7,Nitzschia sp2 FW_013_05,7,1,trophic
+Paroxyethira eatoni,7,Nitzschia sp2 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Pinnularia,7,1,trophic
+Austraclima jollyae,7,Pinnularia,7,1,trophic
+Podonomus,7,Pinnularia,7,1,trophic
+Tanytarsini I,7,Pinnularia,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Pinnularia,7,1,trophic
+Hydora nitida larvae,7,Pinnularia,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Pinnularia,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Pinnularia sp1 FW_013_05,7,1,trophic
+Austraclima jollyae,7,Pinnularia sp1 FW_013_05,7,1,trophic
+Austrosimulium australense,7,Pinnularia sp1 FW_013_05,7,1,trophic
+Hydora nitida larvae,7,Pinnularia sp1 FW_013_05,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Pinnularia sp1 FW_013_05,7,1,trophic
+Oxyethira albiceps,7,Pinnularia sp1 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Rhoicosphenia curvata,7,1,trophic
+Cricotopus I,7,Rhoicosphenia curvata,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Rhoicosphenia curvata,7,1,trophic
+Oligochaeta type II,7,Rhoicosphenia curvata,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Rhoicosphenia curvata,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Rhopalodia novae zelandicae,7,1,trophic
+Aphrophila noevaezelandiae,7,Rhopalodia novae zelandicae,7,1,trophic
+Cricotopus II,7,Rhopalodia novae zelandicae,7,1,trophic
+Maoridiamesea,7,Rhopalodia novae zelandicae,7,1,trophic
+Tanytarsini I,7,Rhopalodia novae zelandicae,7,1,trophic
+Hydora nitida larvae,7,Rhopalodia novae zelandicae,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Rhopalodia novae zelandicae,7,1,trophic
+Oligochaeta type II,7,Rhopalodia novae zelandicae,7,1,trophic
+Paroxyethira eatoni,7,Rhopalodia novae zelandicae,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Surirella tenera,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Surirella tenera,7,1,trophic
+Eukiefiriella,7,Surirella tenera,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Surirella tenera,7,1,trophic
+Oxyethira albiceps,7,Surirella tenera,7,1,trophic
+Paroxyethira eatoni,7,Surirella tenera,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Surirella tenera,7,1,trophic
+Maoridiamesea,7,Synedra rumpens,7,1,trophic
+Scirtid sp1 FW_013_05,7,Synedra rumpens,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Synedra ulna,7,1,trophic
+Aphrophila noevaezelandiae,7,Synedra ulna,7,1,trophic
+Austraclima jollyae,7,Synedra ulna,7,1,trophic
+Austrosimulium australense,7,Synedra ulna,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Synedra ulna,7,1,trophic
+Cricotopus II,7,Synedra ulna,7,1,trophic
+Maoridiamesea,7,Synedra ulna,7,1,trophic
+Eukiefiriella,7,Synedra ulna,7,1,trophic
+Tanytarsini II,7,Synedra ulna,7,1,trophic
+Pirara,7,Synedra ulna,7,1,trophic
+Polypedellum,7,Synedra ulna,7,1,trophic
+Cricotopus I,7,Synedra ulna,7,1,trophic
+Tanytarsini I,7,Synedra ulna,7,1,trophic
+Heliopsyche albescens,7,Synedra ulna,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Synedra ulna,7,1,trophic
+Hydraena homalaena Type H1,7,Synedra ulna,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Synedra ulna,7,1,trophic
+Oligochaeta type II,7,Synedra ulna,7,1,trophic
+Olinga feredayi,7,Synedra ulna,7,1,trophic
+Oxyethira albiceps,7,Synedra ulna,7,1,trophic
+Paroxyethira eatoni,7,Synedra ulna,7,1,trophic
+Scirtid sp1 FW_013_05,7,Synedra ulna,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Synedra ulna,7,1,trophic
+Zelandoperla sp2 FW_013_05,7,Synedra ulna,7,1,trophic
+Zelolessica cheira,7,Synedra ulna,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Tabellaria flocculosa,7,1,trophic
+Aphrophila noevaezelandiae,7,Tabellaria flocculosa,7,1,trophic
+Austraclima jollyae,7,Tabellaria flocculosa,7,1,trophic
+Austrosimulium australense,7,Tabellaria flocculosa,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Tabellaria flocculosa,7,1,trophic
+Cricotopus II,7,Tabellaria flocculosa,7,1,trophic
+Eukiefiriella,7,Tabellaria flocculosa,7,1,trophic
+Tanytarsini II,7,Tabellaria flocculosa,7,1,trophic
+Pirara,7,Tabellaria flocculosa,7,1,trophic
+Naonella,7,Tabellaria flocculosa,7,1,trophic
+Podonomus,7,Tabellaria flocculosa,7,1,trophic
+Polypedellum,7,Tabellaria flocculosa,7,1,trophic
+Cricotopus I,7,Tabellaria flocculosa,7,1,trophic
+Tanytarsini I,7,Tabellaria flocculosa,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Tabellaria flocculosa,7,1,trophic
+Heliopsyche albescens,7,Tabellaria flocculosa,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Tabellaria flocculosa,7,1,trophic
+Hydora nitida larvae,7,Tabellaria flocculosa,7,1,trophic
+Hydraena homalaena Type H1,7,Tabellaria flocculosa,7,1,trophic
+Hydraena orchymontia,7,Tabellaria flocculosa,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Tabellaria flocculosa,7,1,trophic
+Oligochaeta type II,7,Tabellaria flocculosa,7,1,trophic
+Olinga feredayi,7,Tabellaria flocculosa,7,1,trophic
+Oxyethira albiceps,7,Tabellaria flocculosa,7,1,trophic
+Paroxyethira eatoni,7,Tabellaria flocculosa,7,1,trophic
+Zelandoperla sp1 FW_013_05,7,Tabellaria flocculosa,7,1,trophic
+Zelandoperla sp2 FW_013_05,7,Tabellaria flocculosa,7,1,trophic
+Zelolessica cheira,7,Tabellaria flocculosa,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Microspora sp1 FW_013_05,7,1,trophic
+Aphrophila noevaezelandiae,7,Microspora sp1 FW_013_05,7,1,trophic
+Austraclima jollyae,7,Microspora sp1 FW_013_05,7,1,trophic
+Austrosimulium australense,7,Microspora sp1 FW_013_05,7,1,trophic
+Cricotopus II,7,Microspora sp1 FW_013_05,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Microspora sp1 FW_013_05,7,1,trophic
+Oligochaeta type II,7,Microspora sp1 FW_013_05,7,1,trophic
+Olinga feredayi,7,Microspora sp1 FW_013_05,7,1,trophic
+Zelolessica cheira,7,Microspora sp1 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Oedogonium,7,1,trophic
+Aphrophila noevaezelandiae,7,Oedogonium,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Oedogonium,7,1,trophic
+Austraclima jollyae,7,Green algae sp1 FW_013_05,7,1,trophic
+Orthoclad sp1 FW_013_05,7,Green algae sp1 FW_013_05,7,1,trophic
+Maoridiamesea,7,Green algae sp1 FW_013_05,7,1,trophic
+Eukiefiriella,7,Green algae sp1 FW_013_05,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Green algae sp1 FW_013_05,7,1,trophic
+Hydora nitida larvae,7,Green algae sp1 FW_013_05,7,1,trophic
+Scirtid sp1 FW_013_05,7,Green algae sp1 FW_013_05,7,1,trophic
+Pirara,7,Green algae sp2 FW_013_05,7,1,trophic
+Cricotopus I,7,Green algae sp2 FW_013_05,7,1,trophic
+Heliopsyche albescens,7,Green algae sp2 FW_013_05,7,1,trophic
+Hexatomini sp1 FW_013_05,7,Green algae sp2 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Blue-green algae,7,1,trophic
+Austraclima jollyae,7,Blue-green algae,7,1,trophic
+Polypedellum,7,Blue-green algae,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Blue-green algae,7,1,trophic
+Scirtid sp2 FW_013_05,7,Blue-green algae,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Audouinella,7,1,trophic
+Naonella,7,Audouinella,7,1,trophic
+Deleatidium sp1 FW_013_05,7,Audouinella,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Audouinella,7,1,trophic
+Archicaulioides diversus,7,Meiofauna,7,1,trophic
+Austraclima jollyae,7,Meiofauna,7,1,trophic
+Costachorema xanthoptera,7,Meiofauna,7,1,trophic
+Psilachorema bidens,7,Meiofauna,7,1,trophic
+Zelandoperla sp2 FW_013_05,7,Meiofauna,7,1,trophic
+Psilachorema bidens,7,Aoteapsyche sp1 FW_013_05,7,1,trophic
+Salmo trutta,7,Aoteapsyche sp1 FW_013_05,7,1,trophic
+Salmo trutta,7,Aphrophila noevaezelandiae,7,1,trophic
+Salmo trutta,7,Austrosimulium australense,7,1,trophic
+Salmo trutta,7,Orthoclad sp1 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Cricotopus II,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Cricotopus II,7,1,trophic
+Salmo trutta,7,Cricotopus II,7,1,trophic
+Salmo trutta,7,Maoridiamesea,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Eukiefiriella,7,1,trophic
+Archicaulioides diversus,7,Eukiefiriella,7,1,trophic
+Austraclima jollyae,7,Eukiefiriella,7,1,trophic
+Larsia I,7,Eukiefiriella,7,1,trophic
+Tanypodini,7,Eukiefiriella,7,1,trophic
+Costachorema xanthoptera,7,Eukiefiriella,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Eukiefiriella,7,1,trophic
+Psilachorema bidens,7,Eukiefiriella,7,1,trophic
+Salmo trutta,7,Eukiefiriella,7,1,trophic
+Larsia I,7,Pirara,7,1,trophic
+Salmo trutta,7,Pirara,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Naonella,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Naonella,7,1,trophic
+Psilachorema bidens,7,Naonella,7,1,trophic
+Salmo trutta,7,Naonella,7,1,trophic
+Psilachorema bidens,7,Podonomus,7,1,trophic
+Salmo trutta,7,Tanytarsini I,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Deleatidium sp1 FW_013_05,7,1,trophic
+Archicaulioides diversus,7,Deleatidium sp1 FW_013_05,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Deleatidium sp1 FW_013_05,7,1,trophic
+Psilachorema bidens,7,Deleatidium sp1 FW_013_05,7,1,trophic
+Salmo trutta,7,Deleatidium sp1 FW_013_05,7,1,trophic
+Salmo trutta,7,Hydraena orchymontia,7,1,trophic
+Salmo trutta,7,Hydrobiosella sp1 FW_013_05,7,1,trophic
+Tanytarsini II,7,Hydrobiosid sp1 FW_013_05,7,1,trophic
+Salmo trutta,7,Hydrobiosid sp1 FW_013_05,7,1,trophic
+Hydrobiosid sp1 FW_013_05,7,Oligochaeta type II,7,1,trophic
+Psilachorema bidens,7,Oligochaeta type II,7,1,trophic
+Austraclima jollyae,7,Olinga feredayi,7,1,trophic
+Salmo trutta,7,Oxyethira albiceps,7,1,trophic
+Salmo trutta,7,Paroxyethira eatoni,7,1,trophic
+Salmo trutta,7,Psilachorema bidens,7,1,trophic
+Salmo trutta,7,Scirtid sp3 FW_013_05,7,1,trophic
+Aoteapsyche sp1 FW_013_05,7,Zelandoperla sp1 FW_013_05,7,1,trophic
+Hydrobiosella sp1 FW_013_05,7,Zelandoperla sp1 FW_013_05,7,1,trophic
+Salmo trutta,7,Zelandoperla sp1 FW_013_05,7,1,trophic
+Salmo trutta,7,Zelandoperla sp2 FW_013_05,7,1,trophic
+Salmo trutta,7,Zelolessica cheira,7,1,trophic

@@ -6,3 +6,6 @@ This repository also contains the website that accompanies the emln repository, 
 # Folders
 
 - **`website_source`**: All files for the emln package website.
+- **`package`**: All files for the emln package.
+- **`docs`**: Documents for the working example.
+- **`development`**: All files needed for the development of the package.

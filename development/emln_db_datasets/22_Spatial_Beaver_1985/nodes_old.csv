@@ -1,0 +1,45 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Lestodiplosis syringopais,taxon,taxonomy_name,Lestodiplosis syringopais,taxonomy_rank,species
+2,Megaselia sp. (?nepenthina),taxon,taxonomy_name,Megaselia nepenthina,taxonomy_rank,species
+3,Endonepenthia schuitemakeri,taxon,taxonomy_name,Endonepenthia schuitemakeri,taxonomy_rank,species
+4,T. bambusa,taxon,taxonomy_name,Tripteroides bambusa,taxonomy_rank,species
+5,Dasyhelea nepenthicola,taxon,taxonomy_name,Dasyhelea nepenthicola,taxonomy_rank,species
+6,Culex curtipalpis,taxon,taxonomy_name,Culex curtipalpis,taxonomy_rank,species
+7,C. lucaris,taxon,taxonomy_name,Culex lucaris,taxonomy_rank,species
+8,live insects,taxon,taxonomy_name,Insecta,taxonomy_rank,class
+9,recently drowned insects,taxon,taxonomy_name,Insecta,taxonomy_rank,class
+10,bacteria,taxon,taxonomy_name,Bacteria,taxonomy_rank,genus
+11,protozoa,taxon,taxonomy_name,Protozoa,taxonomy_rank,kingdom
+12,older organic debris,taxon,taxonomy_name,NA,taxonomy_rank,NA
+13,Misumenops nepenthicola,taxon,taxonomy_name,Misumenops nepenthicola,taxonomy_rank,species
+14,Encyrtid (near Tachinaephagus),taxon,taxonomy_name,Encyrtidae,taxonomy_rank,family
+15,Toxorhynchites klossi,taxon,taxonomy_name,Tipula klossi,taxonomy_rank,species
+16,Nepenthosyrphus sp.,taxon,taxonomy_name,Nepenthosyrphus,taxonomy_rank,genus
+17,Pierretia urceola,taxon,taxonomy_name,Pierretia urceola,taxonomy_rank,NA
+18,Anoetidae sp. 1,taxon,taxonomy_name,Anoetidae,taxonomy_rank,NA
+19,Anoetidae sp. 2,taxon,taxonomy_name,Anoetidae,taxonomy_rank,NA
+20,Tripteroides tenax,taxon,taxonomy_name,NA,taxonomy_rank,NA
+21,Megaselia deningi,taxon,taxonomy_name,Megaselia deningi,taxonomy_rank,species
+22,Trybliographa sp.,taxon,taxonomy_name,Trybliographa,taxonomy_rank,NA
+23,Uranotaenia nivipleura,taxon,taxonomy_name,Uranotaenia nivipleura,taxonomy_rank,species
+24,Zwickia guentheri,taxon,taxonomy_name,Zwickia guentheri,taxonomy_rank,NA
+25,Tripteroides dofleini,taxon,taxonomy_name,NA,taxonomy_rank,NA
+26,Chloropid (unspecified),taxon,taxonomy_name,Chloropidae,taxonomy_rank,family
+27,Uranotaenia belkini,taxon,taxonomy_name,Uranotaenia belkini,taxonomy_rank,species
+28,U. bosseri,taxon,taxonomy_name,Uranotaenia bosseri,taxonomy_rank,species
+29,U. damasei,taxon,taxonomy_name,Uranotaenia damasei,taxonomy_rank,species
+30,Theridion sp.,taxon,taxonomy_name,Theridion,taxonomy_rank,genus
+31,Creutzeria sp.,taxon,taxonomy_name,Creutzeria,taxonomy_rank,NA
+32,U. brunhesi,taxon,taxonomy_name,NA,taxonomy_rank,NA
+33,Uranotaenia nepenthes,taxon,taxonomy_name,Uranotaenia nepenthes,taxonomy_rank,species
+34,Creutzeria seychellensis,taxon,taxonomy_name,Creutzeria seychellensis,taxonomy_rank,NA
+35,Corethrella calathicola,taxon,taxonomy_name,Corethrella calathicola,taxonomy_rank,species
+36,Uranotaenia moultoni,taxon,taxonomy_name,Uranotaenia moultoni,taxonomy_rank,species
+37,Dasyhelea ampullariae,taxon,taxonomy_name,Dasyhelea ampullariae,taxonomy_rank,species
+38,D. nepenthicola,taxon,taxonomy_name,Dasyhelea nepenthicola,taxonomy_rank,species
+39,Culex acutipalus,taxon,taxonomy_name,Culex acutipalus,taxonomy_rank,species
+40,C. navalis,taxon,taxonomy_name,Culex navalis,taxonomy_rank,species
+41,C. hewitti,taxon,taxonomy_name,Culex hewitti,taxonomy_rank,species
+42,Nepenthomyia malayana,taxon,taxonomy_name,Nepenthomyia malayana,taxonomy_rank,species
+43,T. nepenthis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+44,Xenoplatyura beaveri,taxon,taxonomy_name,NA,taxonomy_rank,NA

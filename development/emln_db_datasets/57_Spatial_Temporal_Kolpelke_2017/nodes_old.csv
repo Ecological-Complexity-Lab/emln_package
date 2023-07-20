@@ -1,0 +1,149 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Salix purpurea,individual,taxonomy_name,Salix purpurea,taxonomy_rank,species
+2,Pontania viminalis,population,taxonomy_name,Pontania viminalis,taxonomy_rank,NA
+3,Bracon romani,population,taxonomy_name,Perilitus deceptor,taxonomy_rank,species
+4,Chalcidoidea indet.,population,taxonomy_name,Chalcidoidea,taxonomy_rank,superfamily
+5,Eurytoma aciculata,population,taxonomy_name,Eurytoma aciculata,taxonomy_rank,species
+6,Pteromalus dolichurus,population,taxonomy_name,Pteromalus dolichurus,taxonomy_rank,species
+7,Eurytoma sp.,population,taxonomy_name,Eurytoma,taxonomy_rank,genus
+8,Eulonchetron torymoides,population,taxonomy_name,Eulonchetron torymoides,taxonomy_rank,species
+9,Salix apennina,individual,taxonomy_name,Salix apennina,taxonomy_rank,species
+10,Pontania varia,population,taxonomy_name,Pontania varia,taxonomy_rank,NA
+11,Pontania pedunculi,population,taxonomy_name,Pontania pedunculi,taxonomy_rank,NA
+12,Ichneumonidae indet.,population,taxonomy_name,Ichneumonidae,taxonomy_rank,family
+13,Curculio crux,population,taxonomy_name,Archarius crux,taxonomy_rank,species
+14,Pontania vesicator,population,taxonomy_name,Pontania vesicator,taxonomy_rank,NA
+15,Salix glabra,individual,taxonomy_name,Salix glabra,taxonomy_rank,species
+16,Phyllocolpa Ph. sp. / S. glabra,population,taxonomy_name,Phyllocolpa,taxonomy_rank,genus
+17,Adelognathus sp.,population,taxonomy_name,Adelognathus,taxonomy_rank,genus
+18,Phyllocolpa spirappendiculata,population,taxonomy_name,Phyllocolpa spirappendiculata,taxonomy_rank,NA
+19,Salix appendiculata,individual,taxonomy_name,NA,taxonomy_rank,NA
+20,Pontania bridgmanii,population,taxonomy_name,Pontania bridgmanii,taxonomy_rank,NA
+21,Euphranta toxoneura,population,taxonomy_name,Euphranta toxoneura,taxonomy_rank,species
+22,Salix glabra 1,individual,taxonomy_name,Salix glabra,taxonomy_rank,species
+23,Phyllocolpa Ph. sp. / S. glabra 1,population,taxonomy_name,Phyllocolpa,taxonomy_rank,genus
+24,Scambus vesicarius,population,taxonomy_name,Scambus vesicarius,taxonomy_rank,species
+25,Salix hastata,individual,taxonomy_name,Salix hastata,taxonomy_rank,species
+26,Pontania hastatae,population,taxonomy_name,Pontania hastatae,taxonomy_rank,NA
+27,Euura hastatae,population,taxonomy_name,Euura hastatae,taxonomy_rank,NA
+28,Pontania obscura,population,taxonomy_name,Pontania obscura,taxonomy_rank,NA
+29,Lathrostizus lugens,population,taxonomy_name,Lathrostizus lugens,taxonomy_rank,species
+30,Salix foetida,individual,taxonomy_name,NA,taxonomy_rank,NA
+31,Salix myrsinifolia,individual,taxonomy_name,Salix myrsinifolia,taxonomy_rank,species
+32,Hydriomena ruberata,population,taxonomy_name,Hydriomena ruberata,taxonomy_rank,species
+33,Euura gemmahelveticae,population,taxonomy_name,Euura gemmahelveticae,taxonomy_rank,NA
+34,Pteromalus euurae,population,taxonomy_name,Pteromalus euurae,taxonomy_rank,species
+35,Salix helvetica,individual,taxonomy_name,Salix helvetica,taxonomy_rank,species
+36,Euura gemmafoetidae,population,taxonomy_name,Euura gemmafoetidae,taxonomy_rank,NA
+37,Phyllocolpa carinifrons,population,taxonomy_name,Phyllocolpa carinifrons,taxonomy_rank,NA
+38,Chrysocharis elongata,population,taxonomy_name,Chrysocharis elongata,taxonomy_rank,species
+39,Salix pentandra,individual,taxonomy_name,Salix pentandra,taxonomy_rank,species
+40,Pontania foetidae,population,taxonomy_name,Pontania foetidae,taxonomy_rank,NA
+41,Eurytoma nobbei,population,taxonomy_name,NA,taxonomy_rank,NA
+42,Euura purpureae,population,taxonomy_name,Euura purpureae,taxonomy_rank,NA
+43,Anaprostocetus acuminatus,population,taxonomy_name,Anaprostocetus acuminatus,taxonomy_rank,species
+44,Eurytoma salicis,population,taxonomy_name,Eurytoma salicis,taxonomy_rank,species
+45,Lathrostizus alpicola,population,taxonomy_name,Lathrostizus alpicola,taxonomy_rank,species
+46,Salix daphnoides,individual,taxonomy_name,Salix daphnoides,taxonomy_rank,species
+47,Pontania maculosa,population,taxonomy_name,Pontania maculosa,taxonomy_rank,NA
+48,Pontania breviserratae,population,taxonomy_name,Pontania breviserratae,taxonomy_rank,NA
+49,Pontania virilis,population,taxonomy_name,Pontania virilis,taxonomy_rank,NA
+50,Theroscopus hemipteron,population,taxonomy_name,Theroscopus hemipteron,taxonomy_rank,species
+51,Salix breviserrata,individual,taxonomy_name,NA,taxonomy_rank,NA
+52,Saotis pygidiator,population,taxonomy_name,NA,taxonomy_rank,NA
+53,Gelis sp.,population,taxonomy_name,Gelis,taxonomy_rank,genus
+54,Euura myrsinifoliae,population,taxonomy_name,Euura myrsinifoliae,taxonomy_rank,NA
+55,Salix caprea,individual,taxonomy_name,Salix caprea,taxonomy_rank,species
+56,Phyllocolpa anomaloptera,population,taxonomy_name,Phyllocolpa anomaloptera,taxonomy_rank,NA
+57,Phyllocolpa leucosticta,population,taxonomy_name,Phyllocolpa leucosticta,taxonomy_rank,NA
+58,Bracon lividus,population,taxonomy_name,Bracon lividus,taxonomy_rank,species
+59,Apion minimum,population,taxonomy_name,NA,taxonomy_rank,NA
+60,Phyllocolpa polita,population,taxonomy_name,Phyllocolpa polita,taxonomy_rank,NA
+61,Aptesis nigrocincta,population,taxonomy_name,Aptesis nigrocincta,taxonomy_rank,species
+62,Colastes flavitarsis,population,taxonomy_name,Colastes flavitarsis,taxonomy_rank,species
+63,Braconidae indet.,population,taxonomy_name,Braconidae,taxonomy_rank,family
+64,Phyllocolpa purpureae,population,taxonomy_name,NA,taxonomy_rank,NA
+65,Salix elaeagnos,individual,taxonomy_name,Salix elaeagnos,taxonomy_rank,species
+66,Pontania kriechbaumeri,population,taxonomy_name,Pontania kriechbaumeri,taxonomy_rank,NA
+67,Phyllocolpa ischnocera,population,taxonomy_name,Phyllocolpa ischnocera,taxonomy_rank,NA
+68,Mesoleius sp.,population,taxonomy_name,Mesoleius,taxonomy_rank,genus
+69,Pteromalus pontaniae,population,taxonomy_name,Pteromalus pontaniae,taxonomy_rank,species
+70,Pontania foetidae 1,population,taxonomy_name,Pontania foetidae,taxonomy_rank,NA
+71,Pteromalus dolichurus 1,population,taxonomy_name,Pteromalus dolichurus,taxonomy_rank,species
+72,Pontania obscura 1,population,taxonomy_name,Pontania obscura,taxonomy_rank,NA
+73,Pontania breviserratae 1,population,taxonomy_name,Pontania breviserratae,taxonomy_rank,NA
+74,Chalcidoidea indet. 1,population,taxonomy_name,Chalcidoidea,taxonomy_rank,superfamily
+75,Euura gemmafoetidae 1,population,taxonomy_name,Euura gemmafoetidae,taxonomy_rank,NA
+76,Pteromalus euurae 1,population,taxonomy_name,Pteromalus euurae,taxonomy_rank,species
+77,Euura gemmafoetidae 2,population,taxonomy_name,Euura gemmafoetidae,taxonomy_rank,NA
+78,Salix foetida 1,individual,taxonomy_name,NA,taxonomy_rank,NA
+79,Salix foetida 2,individual,taxonomy_name,NA,taxonomy_rank,NA
+80,Pteromalus cyniphidis,population,taxonomy_name,NA,taxonomy_rank,NA
+81,Bracon obscurator,population,taxonomy_name,NA,taxonomy_rank,NA
+82,Pontania obscura 2,population,taxonomy_name,Pontania obscura,taxonomy_rank,NA
+83,Pontania obscura 3,population,taxonomy_name,Pontania obscura,taxonomy_rank,NA
+84,Chalcidoidea indet. 2,population,taxonomy_name,Chalcidoidea,taxonomy_rank,superfamily
+85,Pontania obscura 4,population,taxonomy_name,Pontania obscura,taxonomy_rank,NA
+86,Chalcidoidea indet. 3,population,taxonomy_name,Chalcidoidea,taxonomy_rank,superfamily
+87,Pontania obscura 5,population,taxonomy_name,Pontania obscura,taxonomy_rank,NA
+88,Bracon kopelkei,population,taxonomy_name,Bracon kopelkei,taxonomy_rank,species
+89,Pontania breviserratae 2,population,taxonomy_name,Pontania breviserratae,taxonomy_rank,NA
+90,Bracon immutator,population,taxonomy_name,Bracon immutator,taxonomy_rank,species
+91,Salix myrsinifolia 1,individual,taxonomy_name,Salix myrsinifolia,taxonomy_rank,species
+92,Pontania varia 1,population,taxonomy_name,Pontania varia,taxonomy_rank,NA
+93,Salix myrsinifolia 2,individual,taxonomy_name,Salix myrsinifolia,taxonomy_rank,species
+94,Pontania varia 2,population,taxonomy_name,Pontania varia,taxonomy_rank,NA
+95,Pontania varia 3,population,taxonomy_name,Pontania varia,taxonomy_rank,NA
+96,Pontania varia 4,population,taxonomy_name,Pontania varia,taxonomy_rank,NA
+97,Salix myrsinifolia 3,individual,taxonomy_name,Salix myrsinifolia,taxonomy_rank,species
+98,Pontania varia 5,population,taxonomy_name,Pontania varia,taxonomy_rank,NA
+99,Salix myrsinifolia 4,individual,taxonomy_name,Salix myrsinifolia,taxonomy_rank,species
+100,Pontania varia 6,population,taxonomy_name,Pontania varia,taxonomy_rank,NA
+101,Salix myrsinifolia 5,individual,taxonomy_name,Salix myrsinifolia,taxonomy_rank,species
+102,Pontania varia 7,population,taxonomy_name,Pontania varia,taxonomy_rank,NA
+103,Pontania reticulatae,population,taxonomy_name,Pontania reticulatae,taxonomy_rank,NA
+104,Salix reticulata,individual,taxonomy_name,Salix reticulata,taxonomy_rank,species
+105,Salix reticulata 1,individual,taxonomy_name,Salix reticulata,taxonomy_rank,species
+106,Pontania reticulatae 1,population,taxonomy_name,Pontania reticulatae,taxonomy_rank,NA
+107,Chalcidoidea indet. 4,population,taxonomy_name,Chalcidoidea,taxonomy_rank,superfamily
+108,Euura gemmafoetidae 3,population,taxonomy_name,Euura gemmafoetidae,taxonomy_rank,NA
+109,Chalcidoidea indet. 5,population,taxonomy_name,Chalcidoidea,taxonomy_rank,superfamily
+110,Euura gemmafoetidae 4,population,taxonomy_name,Euura gemmafoetidae,taxonomy_rank,NA
+111,Chalcidoidea indet. 6,population,taxonomy_name,Chalcidoidea,taxonomy_rank,superfamily
+112,Euura gemmafoetidae 5,population,taxonomy_name,Euura gemmafoetidae,taxonomy_rank,NA
+113,Chalcidoidea indet. 7,population,taxonomy_name,Chalcidoidea,taxonomy_rank,superfamily
+114,Euura gemmafoetidae 6,population,taxonomy_name,Euura gemmafoetidae,taxonomy_rank,NA
+115,Chalcidoidea indet. 8,population,taxonomy_name,Chalcidoidea,taxonomy_rank,superfamily
+116,Euura gemmafoetidae 7,population,taxonomy_name,Euura gemmafoetidae,taxonomy_rank,NA
+117,Chalcidoidea indet. 9,population,taxonomy_name,Chalcidoidea,taxonomy_rank,superfamily
+118,Euura gemmafoetidae 8,population,taxonomy_name,Euura gemmafoetidae,taxonomy_rank,NA
+119,Chalcidoidea indet. 10,population,taxonomy_name,Chalcidoidea,taxonomy_rank,superfamily
+120,Salix breviserrata 1,individual,taxonomy_name,NA,taxonomy_rank,NA
+121,Salix breviserrata 2,individual,taxonomy_name,NA,taxonomy_rank,NA
+122,Pontania foetidae 2,population,taxonomy_name,Pontania foetidae,taxonomy_rank,NA
+123,Scambus vesicarius 1,population,taxonomy_name,Scambus vesicarius,taxonomy_rank,species
+124,Hydriomena ruberata 1,population,taxonomy_name,Hydriomena ruberata,taxonomy_rank,species
+125,Hydriomena ruberata 2,population,taxonomy_name,Hydriomena ruberata,taxonomy_rank,species
+126,Pontania obscura 6,population,taxonomy_name,Pontania obscura,taxonomy_rank,NA
+127,Pontania obscura 7,population,taxonomy_name,Pontania obscura,taxonomy_rank,NA
+128,Salix foetida 3,individual,taxonomy_name,NA,taxonomy_rank,NA
+129,Pontania breviserratae 3,population,taxonomy_name,Pontania breviserratae,taxonomy_rank,NA
+130,Pontania foetidae 3,population,taxonomy_name,Pontania foetidae,taxonomy_rank,NA
+131,Pontania foetidae 4,population,taxonomy_name,Pontania foetidae,taxonomy_rank,NA
+132,Euura gemmafoetidae 9,population,taxonomy_name,Euura gemmafoetidae,taxonomy_rank,NA
+133,Euura gemmafoetidae 10,population,taxonomy_name,Euura gemmafoetidae,taxonomy_rank,NA
+134,Salix foetida 4,individual,taxonomy_name,NA,taxonomy_rank,NA
+135,Salix foetida 5,individual,taxonomy_name,NA,taxonomy_rank,NA
+136,Salix foetida 6,individual,taxonomy_name,NA,taxonomy_rank,NA
+137,Salix foetida 7,individual,taxonomy_name,NA,taxonomy_rank,NA
+138,Salix foetida 8,individual,taxonomy_name,NA,taxonomy_rank,NA
+139,Salix daphnoides 1,individual,taxonomy_name,Salix daphnoides,taxonomy_rank,species
+140,Salix retusa,individual,taxonomy_name,Salix retusa,taxonomy_rank,species
+141,Pontania retusae,population,taxonomy_name,Pontania retusae,taxonomy_rank,NA
+142,Shawiana lapponica,population,taxonomy_name,Shawiana lapponica,taxonomy_rank,NA
+143,Salix elaeagnos 1,individual,taxonomy_name,Salix elaeagnos,taxonomy_rank,species
+144,Pontania kriechbaumeri 1,population,taxonomy_name,Pontania kriechbaumeri,taxonomy_rank,NA
+145,Euura elaeagnos,population,taxonomy_name,Euura elaeagnos,taxonomy_rank,NA
+146,Phyllocolpa spirhelvetica,population,taxonomy_name,Phyllocolpa,taxonomy_rank,genus
+147,Torymus sp.,population,taxonomy_name,Torymus,taxonomy_rank,genus
+148,Phyllocolpa tuberculata,population,taxonomy_name,Pontania tuberculata,taxonomy_rank,NA

@@ -1,0 +1,96 @@
+node_id,node_name,type
+1,Guarea guidonia,plant
+2,Cecropia schreberiana,plant
+3,Schefflera morototoni,plant
+4,Miconia prasina,plant
+5,Cupania americana,plant
+6,Alchornea latifolia,plant
+7,Myrcia sp1 M_SD_003,plant
+8,Byrsonima coriacea,plant
+9,Clusia rosea,plant
+10,Henriettea fascicularis,plant
+11,Casearia arborea,plant
+12,Ocotea leucoxylon,plant
+13,Miconia affinis,plant
+14,Phoradendron sp1 M_SD_003,plant
+15,Psychotria berteroana,plant
+16,Inga vera,plant
+17,Ficus sp1 M_SD_003,plant
+18,Myrcine coriacea,plant
+19,Anthurium scandens,plant
+20,Dendropanax arboreus,plant
+21,Inga laurina,plant
+22,Miconia serrulata,plant
+23,Tournefortia hisutissima,plant
+24,Unidentified sp2 M_SD_003,plant
+25,Unidentified sp3 M_SD_003,plant
+26,Phoradendron sp1 M_SD_004,plant
+27,Ficus sp1 M_SD_004,plant
+28,Cordia sulcata,plant
+29,Musa acuminata,plant
+30,Dendropemon bicolor,plant
+31,Syzigium jambos,plant
+32,Andira inermis,plant
+33,Coffea arabica,plant
+34,Miconia racemosa,plant
+35,Palicourea guianensis,plant
+36,Tilandsia sp1 M_SD_004,plant
+37,Buchenavia capitata,plant
+38,Citrus sinensis,plant
+39,Momordica charantia,plant
+40,Palicourea crocea,plant
+41,Philodendron angustatum,plant
+42,Piper sp1 M_SD_004,plant
+43,Solanum rugosum,plant
+44,Unidentified sp1 M_SD_004,plant
+45,Zanthoxylum martinicensis,plant
+46,Ocotea coriacea,plant
+47,Roystonea borinquena,plant
+48,Clusia gundlachi,plant
+49,Hyeronima clusioides,plant
+50,Ficus sp1 M_SD_005,plant
+51,Margravia rectiflora,plant
+52,Persea americana,plant
+53,Phoradendron sp1 M_SD_005,plant
+54,Ardisia obovata,plant
+55,Bursera simaruba,plant
+56,Chrysophyllum argenteum,plant
+57,Comocladia glabra,plant
+58,Guapira fragrans,plant
+59,Petitia dominguensis,plant
+60,Syzigium malaccensis,plant
+61,Unidentified sp1 M_SD_005,plant
+62,Unidentified sp2 M_SD_005,plant
+63,Ocotea floribunda,plant
+64,Ficus sp1 M_SD_006,plant
+65,Phytolacca rivinoides,plant
+66,Casearia sylvestris,plant
+67,Miconia laevigatta,plant
+68,Murraya paniculata,plant
+69,Piper amalaga,plant
+70,Loxigilla.portoricensis.,bird
+71,Vireo.altiloquous.,bird
+72,Tyrannus.dominicensis.,bird
+73,Margarops.fuscatus.,bird
+74,Spindalis.portoricensis.,bird
+75,Turdus.plumbeus.,bird
+76,Columba.squamosa.,bird
+77,Coereba.flaveola.,bird
+78,Euphonia.musica.,bird
+79,Nesospingus.sp1.M_SD_003,bird
+80,Tiaris.bicolor.,bird
+81,Todus.mexicanus.,bird
+82,Icterus.dominicensis.,bird
+83,Molothrus.bonariensis.,bird
+84,Zenaida.zenaida.,bird
+85,Unidentified.sp1.M_SD_003,bird
+86,Nesospingus.sp1.M_SD_004,bird
+87,Vireo.flavirostris.,bird
+88,Dendroica.tigrina.,bird
+89,Tyrannus.caudifasciatus.,bird
+90,Melanerpes.portoricensis.,bird
+91,Dendroica.caerulescens.,bird
+92,Zenaida.asiatica,bird
+93,Vireo.latimeri.,bird
+94,Myarchus.antillarum.,bird
+95,Nesospingus.speculiferus,bird

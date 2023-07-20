@@ -1,0 +1,33 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,benthic algae,taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+2,plankton,taxon,taxonomy_name,Plankton,taxonomy_rank,NA
+3,Halichondria,taxon,taxonomy_name,Halichondria,taxonomy_rank,genus
+4,Littorina,taxon,taxonomy_name,Littorina,taxonomy_rank,genus
+5,barnacles,taxon,taxonomy_name,Cirripedia,taxonomy_rank,NA
+6,Mytilus edulis,taxon,taxonomy_name,Mytilus edulis,taxonomy_rank,species
+7,limpets,taxon,taxonomy_name,Gastropoda,taxonomy_rank,class
+8,Thais sp.,taxon,taxonomy_name,Thais,taxonomy_rank,genus
+9,anemones,taxon,taxonomy_name,Actiniaria,taxonomy_rank,order
+10,tunicates,taxon,taxonomy_name,Corbula tunicata,taxonomy_rank,species
+11,bryozoa,taxon,taxonomy_name,Ectoprocta,taxonomy_rank,NA
+12,Tonicella,taxon,taxonomy_name,Tonicella,taxonomy_rank,genus
+13,Acmaea mitra,taxon,taxonomy_name,Acmaea mitra,taxonomy_rank,species
+14,urchins,taxon,taxonomy_name,Echinoidea,taxonomy_rank,class
+15,Katharina,taxon,taxonomy_name,Katharina,taxonomy_rank,genus
+16,Searlesia,taxon,taxonomy_name,Lirabuccinum fuscolabiatum,taxonomy_rank,species
+17,Pycnopodia,taxon,taxonomy_name,Pycnopodia,taxonomy_rank,genus
+18,Henricia,taxon,taxonomy_name,Henricia,taxonomy_rank,genus
+19,Archidoris,taxon,taxonomy_name,Archidoris,taxonomy_rank,genus
+20,Dermasterias,taxon,taxonomy_name,Dermasterias,taxonomy_rank,genus
+21,Pisaster,taxon,taxonomy_name,Pisaster,taxonomy_rank,genus
+22,Thais canaliculata,taxon,taxonomy_name,Stramonita canaliculata,taxonomy_rank,species
+23,Emplectonema,taxon,taxonomy_name,Emplectonema,taxonomy_rank,genus
+24,Leptasterias,taxon,taxonomy_name,Leptasterias,taxonomy_rank,genus
+25,detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+26,Thais lima,taxon,taxonomy_name,NA,taxonomy_rank,NA
+27,Spirorbis,taxon,taxonomy_name,Spirorbis,taxonomy_rank,genus
+28,Mytilus californianus,taxon,taxonomy_name,Mytilus californianus,taxonomy_rank,species
+29,Tegula,taxon,taxonomy_name,Tegula,taxonomy_rank,genus
+30,Thais sp,taxon,taxonomy_name,Thais,taxonomy_rank,genus
+31,Emplectonema,taxon,taxonomy_name,Emplectonema,taxonomy_rank,NA
+32,Ceratostoma,taxon,taxonomy_name,Ceratostoma,taxonomy_rank,genus

@@ -1,0 +1,76 @@
+plant_sp,bird_sp,intralayer
+Boerhavia coccinea,Setophaga petechia,0.016666667
+Chiococca alba,Mimus melanotis,0.37254902
+Cyperaceae cf. Eleocharis sp.1,Geospiza fuliginosa,0.242165242
+Desmodium incanum,Geospiza fuliginosa,0.008547009
+Desmodium incanum,Geospiza magnirostris,0.333333334
+Desmodium procumbens,Geospiza magnirostris,0.166666666
+Elecharis maculosa,Geospiza fuliginosa,0.005698006
+Eragrostis sp.,Camarhynchus pallidus,0.2
+Eragrostis sp.,Camarhynchus parvulus,0.045454545
+Eragrostis sp.,Geospiza fortis,0.166666667
+Eragrostis sp.,Geospiza fuliginosa,0.13960114
+Eragrostis sp.,Myiarchus magnirostris,0.027777778
+Erichloa pacifica,Geospiza fuliginosa,0.025641026
+Fimbristylis dichotoma,Setophaga petechia,0.016666667
+Fimbristylis dichotoma,Geospiza fuliginosa,0.076923077
+Hypoxis decumbens,Geospiza fuliginosa,0.002849003
+Lantana camara,Mimus melanotis,0.098039216
+Lantana camara,Myiarchus magnirostris,0.222222222
+Ludwigia leptocarpa,Geospiza fuliginosa,0.005698006
+Maytenus octogona,Mimus melanotis,0.019607843
+Mentzelia aspera,Geospiza fuliginosa,0.002849003
+Miconia robinsoniana,Camarhynchus pallidus,0.5
+Miconia robinsoniana,Camarhynchus parvulus,0.5
+Miconia robinsoniana,Certhidea fusca,0.5
+Miconia robinsoniana,Setophaga petechia,0.633333333
+Miconia robinsoniana,Geospiza fortis,0.333333333
+Miconia robinsoniana,Geospiza fuliginosa,0.062678063
+Miconia robinsoniana,Geospiza magnirostris,0.166666666
+Miconia robinsoniana,Mimus melanotis,0.019607843
+Miconia robinsoniana,Myiarchus magnirostris,0.055555556
+Oxalis sp.1,Geospiza fuliginosa,0.01994302
+Paspalum conjugatum,Camarhynchus pallidus,0.1
+Paspalum conjugatum,Camarhynchus parvulus,0.045454545
+Paspalum conjugatum,Certhidea fusca,0.166666666
+Paspalum conjugatum,Setophaga petechia,0.2
+Paspalum conjugatum,Geospiza fuliginosa,0.153846154
+Passiflora foetida,Mimus melanotis,0.019607843
+Pennisetum purpureum,Setophaga petechia,0.016666667
+Poaceae,Camarhynchus parvulus,0.090909091
+Poaceae,Certhidea fusca,0.166666666
+Poaceae,Setophaga petechia,0.05
+Poaceae,Geospiza fortis,0.083333333
+Poaceae,Geospiza fuliginosa,0.088319088
+Poaceae,Geospiza magnirostris,0.166666666
+Polygonum galapagense,Camarhynchus pallidus,0.1
+Polygonum galapagense,Geospiza fuliginosa,0.045584046
+Portulaca oleracea,Geospiza fuliginosa,0.017094017
+Portulaca oleracea,Mimus melanotis,0.019607843
+Psidium guajava,Mimus melanotis,0.019607843
+Rubus niveus,Camarhynchus pallidus,0.1
+Rubus niveus,Camarhynchus parvulus,0.045454545
+Rubus niveus,Geospiza fortis,0.166666667
+Rubus niveus,Geospiza fuliginosa,0.002849003
+Rubus niveus,Mimus melanotis,0.137254902
+Rubus niveus,Myiarchus magnirostris,0.111111111
+Scutia spicata,Mimus melanotis,0.019607843
+Seed_13,Setophaga petechia,0.016666667
+Seed_27,Certhidea fusca,0.166666666
+Seed_27,Geospiza fortis,0.083333333
+Seed_27,Geospiza fuliginosa,0.042735043
+Seed_56,Geospiza fuliginosa,0.022792023
+Solanum americanum,Camarhynchus parvulus,0.045454545
+Talinum paniculatum,Camarhynchus parvulus,0.227272727
+Talinum paniculatum,Setophaga petechia,0.033333333
+Talinum paniculatum,Geospiza fortis,0.166666667
+Talinum paniculatum,Geospiza fuliginosa,0.031339031
+Talinum paniculatum,Geospiza magnirostris,0.166666666
+Tournefortia psilostachya,Setophaga petechia,0.016666667
+Tournefortia psilostachya,Geospiza fuliginosa,0.002849003
+Tournefortia psilostachya,Mimus melanotis,0.098039216
+Tournefortia pubescens,Mimus melanotis,0.039215686
+Tournefortia pubescens,Myiarchus magnirostris,0.055555556
+Vallesia glabra,Mimus melanotis,0.019607843
+Zanthoxylum fagara,Mimus melanotis,0.117647059
+Zanthoxylum fagara,Myiarchus magnirostris,0.527777778

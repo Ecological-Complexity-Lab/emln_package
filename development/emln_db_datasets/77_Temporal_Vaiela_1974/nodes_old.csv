@@ -1,0 +1,38 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Cercyon sp. A,taxon,taxonomy_name,Cercyon,taxonomy_rank,genus
+2,Cercyon sp. B,taxon,taxonomy_name,Cercyon,taxonomy_rank,genus
+3,Cercyon sp. C,taxon,taxonomy_name,Cercyon,taxonomy_rank,genus
+4,Cercyon sp. F,taxon,taxonomy_name,Cercyon,taxonomy_rank,genus
+5,Sarcophaga sp.,taxon,taxonomy_name,Sarcophaga,taxonomy_rank,genus
+6,Musca autumnalis,taxon,taxonomy_name,Musca autumnalis,taxonomy_rank,species
+7,Philonthus cruentatus,taxon,taxonomy_name,Philonthus cruentatus,taxonomy_rank,species
+8,Aleochara bipustulata,taxon,taxonomy_name,Aleochara bipustulata,taxonomy_rank,species
+9,Aleochara sp.,taxon,taxonomy_name,Aleochara,taxonomy_rank,genus
+10,Macrochelus sp.,taxon,taxonomy_name,Macrochelys,taxonomy_rank,genus
+11,Parasitus sp.,taxon,taxonomy_name,Parasitus,taxonomy_rank,genus
+12,Uropodid sp.,taxon,taxonomy_name,Uropodidae,taxonomy_rank,family
+13,Acarid sp.,taxon,taxonomy_name,Acarida,taxonomy_rank,NA
+14,Aphodius haemorrhoidalis,taxon,taxonomy_name,Otophorus haemorrhoidalis,taxonomy_rank,species
+15,A. erraticus,taxon,taxonomy_name,Colobopterus erraticus,taxonomy_rank,species
+16,A. fimetarius,taxon,taxonomy_name,Aphodius fimetarius,taxonomy_rank,species
+17,A. stercorosus,taxon,taxonomy_name,Aphodius stercorosus,taxonomy_rank,NA
+18,A. fossor,taxon,taxonomy_name,Teuchestes fossor,taxonomy_rank,species
+19,Collembola (unspecified),taxon,taxonomy_name,Collembola,taxonomy_rank,order
+20,Sphaeridium bipostulatum,taxon,taxonomy_name,Sphaeridium bipustulatum,taxonomy_rank,species
+21,S. scarabaeoides,taxon,taxonomy_name,Sphaeridium scarabaeoides,taxonomy_rank,species
+22,S. lunatum,taxon,taxonomy_name,Sphaeridium lunatum,taxonomy_rank,species
+23,dung,taxon,taxonomy_name,NA,taxonomy_rank,NA
+24,Ravinia l'herminieri,taxon,taxonomy_name,NA,taxonomy_rank,NA
+25,Oxytelus tetracarinatus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+26,A. prodiomus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+27,Sarcophaga sp. A,taxon,taxonomy_name,Sarcophaga,taxonomy_rank,genus
+28,Sepsis sp. B,taxon,taxonomy_name,Sepsis,taxonomy_rank,genus
+29,Acrotrichis (n. sericans),taxon,taxonomy_name,Acrotrichis,taxonomy_rank,genus
+30,Leptocera adults,taxon,taxonomy_name,Leptocera,taxonomy_rank,genus
+31,Cothonaspis sp. adults,taxon,taxonomy_name,Cothonaspis,taxonomy_rank,NA
+32,Cercyon larvae,taxon,taxonomy_name,Cercyon,taxonomy_rank,genus
+33,Saltella sphondylii larvae,taxon,taxonomy_name,Saltella sphondylii,taxonomy_rank,species
+34,Aphodius larvae,taxon,taxonomy_name,Aphodius,taxonomy_rank,genus
+35,Sepsis neocynipsea larvae,taxon,taxonomy_name,Sepsis neocynipsea,taxonomy_rank,species
+36,Hyponigrus obsidianus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+37,Oxyteline larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA

@@ -1,0 +1,1735 @@
+node_from,layer_from,node_to,layer_to,weight,type
+Ajuga reptans,plant - flower visitor,Rhingia campestris,plant - flower visitor,149.2,pollination
+Alliaria petiolata,plant - flower visitor,Simulium sp,plant - flower visitor,49.71,pollination
+Anthriscus sylvestris,plant - flower visitor,Agriotes pallidulus,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Anaspis maculata,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Anthocomus fasciatus,plant - flower visitor,39.39,pollination
+Anthriscus sylvestris,plant - flower visitor,Bicellaria vana,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Botanophila striolata,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Bracon sp,plant - flower visitor,39.39,pollination
+Anthriscus sylvestris,plant - flower visitor,Cantharis lateralis,plant - flower visitor,39.39,pollination
+Anthriscus sylvestris,plant - flower visitor,Chlorops hypostigma,plant - flower visitor,452.3,pollination
+Anthriscus sylvestris,plant - flower visitor,Chlorops pumilionis,plant - flower visitor,18.99,pollination
+Anthriscus sylvestris,plant - flower visitor,Dacnusa (maculipes),plant - flower visitor,18.99,pollination
+Anthriscus sylvestris,plant - flower visitor,Delia sp,plant - flower visitor,39.39,pollination
+Anthriscus sylvestris,plant - flower visitor,Dicraeus tibialis,plant - flower visitor,18.99,pollination
+Anthriscus sylvestris,plant - flower visitor,Dolichopus ungulatus,plant - flower visitor,39.39,pollination
+Anthriscus sylvestris,plant - flower visitor,Empis (Xanthempis) sp,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Empis caudatula,plant - flower visitor,39.39,pollination
+Anthriscus sylvestris,plant - flower visitor,Empis livida,plant - flower visitor,78.78,pollination
+Anthriscus sylvestris,plant - flower visitor,Empis nigripes,plant - flower visitor,118.2,pollination
+Anthriscus sylvestris,plant - flower visitor,Endasys sp,plant - flower visitor,39.39,pollination
+Anthriscus sylvestris,plant - flower visitor,Episyrphus balteatus,plant - flower visitor,39.39,pollination
+Anthriscus sylvestris,plant - flower visitor,Fannia serena,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Fannia sp,plant - flower visitor,39.39,pollination
+Anthriscus sylvestris,plant - flower visitor,Helina sp,plant - flower visitor,78.78,pollination
+Anthriscus sylvestris,plant - flower visitor,Hylemya vagans,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Microphor anomalus,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Miscogaster maculata,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Oscinella cariciphila,plant - flower visitor,118.4,pollination
+Anthriscus sylvestris,plant - flower visitor,Phaenocarpa (ruficeps),plant - flower visitor,39.39,pollination
+Anthriscus sylvestris,plant - flower visitor,Phaonia lasiophthalma,plant - flower visitor,39.39,pollination
+Anthriscus sylvestris,plant - flower visitor,Phasia pusilla,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Pimpla contemplator,plant - flower visitor,39.39,pollination
+Anthriscus sylvestris,plant - flower visitor,Platycheirus albimanus,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Platycheirus nielseni,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Platypalpus sp,plant - flower visitor,18.99,pollination
+Anthriscus sylvestris,plant - flower visitor,Psychodidae sp,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Psyllidae sp,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Pteromalidae,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Scathophaga stercoraria,plant - flower visitor,293.3,pollination
+Anthriscus sylvestris,plant - flower visitor,Scatopsidae sp,plant - flower visitor,19.69,pollination
+Anthriscus sylvestris,plant - flower visitor,Tenthredopsis nassata,plant - flower visitor,19.69,pollination
+Bellis perennis,plant - flower visitor,Empis livida,plant - flower visitor,1479,pollination
+Bellis perennis,plant - flower visitor,Oscinella nitidissima,plant - flower visitor,739.6,pollination
+Bellis perennis,plant - flower visitor,Pegoplata aestiva or Adia cinerella,plant - flower visitor,739.6,pollination
+Bellis perennis,plant - flower visitor,Scathophaga stercoraria,plant - flower visitor,8875,pollination
+Brassica napus,plant - flower visitor,Empis livida,plant - flower visitor,149.1,pollination
+Brassica napus,plant - flower visitor,Neoascia podagrica,plant - flower visitor,49.71,pollination
+Brassica napus,plant - flower visitor,Syritta pipiens,plant - flower visitor,49.71,pollination
+Capsella bursa-pastoris,plant - flower visitor,Empis livida,plant - flower visitor,747.6,pollination
+Capsella bursa-pastoris,plant - flower visitor,Platycheirus albimanus,plant - flower visitor,747.6,pollination
+Capsella bursa-pastoris,plant - flower visitor,Syritta pipiens,plant - flower visitor,747.6,pollination
+Cerastium fontanum,plant - flower visitor,Empis livida,plant - flower visitor,746.1,pollination
+Cerastium fontanum,plant - flower visitor,Neomyia cornicina,plant - flower visitor,6.532,pollination
+Cerastium fontanum,plant - flower visitor,Platycheirus albimanus,plant - flower visitor,45.92,pollination
+Cerastium fontanum,plant - flower visitor,Tetrastichinae sp,plant - flower visitor,476.2,pollination
+Cerastium fontanum,plant - flower visitor,Torymus sp,plant - flower visitor,6.532,pollination
+Chaerophyllum temulum,plant - flower visitor,Anaspis pulicaria,plant - flower visitor,39.39,pollination
+Cirsium arvense,plant - flower visitor,Anapausis soluta,plant - flower visitor,49.71,pollination
+Cirsium arvense,plant - flower visitor,Anthomyza gracilis,plant - flower visitor,49.71,pollination
+Cirsium arvense,plant - flower visitor,Apis mellifera,plant - flower visitor,2400,pollination
+Cirsium arvense,plant - flower visitor,Bombus lapidarius,plant - flower visitor,218.5,pollination
+Cirsium arvense,plant - flower visitor,Bombus pascuorum,plant - flower visitor,218.5,pollination
+Cirsium arvense,plant - flower visitor,Bombus terrestris,plant - flower visitor,49.71,pollination
+Cirsium arvense,plant - flower visitor,Botanophila striolata,plant - flower visitor,19.69,pollination
+Cirsium arvense,plant - flower visitor,Bracon sp,plant - flower visitor,1473,pollination
+Cirsium arvense,plant - flower visitor,Cheilosia honesta,plant - flower visitor,49.71,pollination
+Cirsium arvense,plant - flower visitor,Chrysopilus asiliformis,plant - flower visitor,8.709,pollination
+Cirsium arvense,plant - flower visitor,Delia sp,plant - flower visitor,49.71,pollination
+Cirsium arvense,plant - flower visitor,Dilophus febrilis,plant - flower visitor,204.4,pollination
+Cirsium arvense,plant - flower visitor,Empis livida,plant - flower visitor,787.1,pollination
+Cirsium arvense,plant - flower visitor,Episyrphus balteatus,plant - flower visitor,49.71,pollination
+Cirsium arvense,plant - flower visitor,Eriothrix rufomaculata,plant - flower visitor,49.71,pollination
+Cirsium arvense,plant - flower visitor,Eristalis arbustorum,plant - flower visitor,1150,pollination
+Cirsium arvense,plant - flower visitor,Helophilus pendulus,plant - flower visitor,13.06,pollination
+Cirsium arvense,plant - flower visitor,Heteronychia vagans,plant - flower visitor,49.71,pollination
+Cirsium arvense,plant - flower visitor,Kuzinia sp,plant - flower visitor,19.69,pollination
+Cirsium arvense,plant - flower visitor,Lasioglossum sp,plant - flower visitor,89.09,pollination
+Cirsium arvense,plant - flower visitor,Lucilia caesar,plant - flower visitor,99.41,pollination
+Cirsium arvense,plant - flower visitor,Lucilia sericata,plant - flower visitor,39.39,pollination
+Cirsium arvense,plant - flower visitor,Melanostoma mellinum,plant - flower visitor,13.06,pollination
+Cirsium arvense,plant - flower visitor,Melinda viridicyanea,plant - flower visitor,49.71,pollination
+Cirsium arvense,plant - flower visitor,Neomyia cornicina,plant - flower visitor,1572,pollination
+Cirsium arvense,plant - flower visitor,Neomyia viridescens,plant - flower visitor,49.71,pollination
+Cirsium arvense,plant - flower visitor,Pegoplata aestiva or Adia cinerella,plant - flower visitor,19.69,pollination
+Cirsium arvense,plant - flower visitor,Pegoplata depilis,plant - flower visitor,19.69,pollination
+Cirsium arvense,plant - flower visitor,Pierretia sp,plant - flower visitor,19.69,pollination
+Cirsium arvense,plant - flower visitor,Platycheirus nielseni,plant - flower visitor,19.69,pollination
+Cirsium arvense,plant - flower visitor,Polyommatus icarus,plant - flower visitor,49.71,pollination
+Cirsium arvense,plant - flower visitor,Pyronia tithonus,plant - flower visitor,99.41,pollination
+Cirsium arvense,plant - flower visitor,Rhagonycha fulva,plant - flower visitor,8.709,pollination
+Cirsium arvense,plant - flower visitor,Rhingia campestris,plant - flower visitor,1150,pollination
+Cirsium arvense,plant - flower visitor,Rhinophora lepida,plant - flower visitor,39.39,pollination
+Cirsium arvense,plant - flower visitor,Scathophaga stercoraria,plant - flower visitor,843.2,pollination
+Cirsium arvense,plant - flower visitor,Siphona geniculata,plant - flower visitor,3331,pollination
+Cirsium arvense,plant - flower visitor,Sphaerophoria sp,plant - flower visitor,69.4,pollination
+Cirsium arvense,plant - flower visitor,Tetramesa sp,plant - flower visitor,49.71,pollination
+Cirsium arvense,plant - flower visitor,Theroscopus sp,plant - flower visitor,39.39,pollination
+Cirsium arvense,plant - flower visitor,Tricimba cincta,plant - flower visitor,49.71,pollination
+Cirsium vulgare,plant - flower visitor,Apis mellifera,plant - flower visitor,17.42,pollination
+Cirsium vulgare,plant - flower visitor,Bombus lapidarius,plant - flower visitor,2594,pollination
+Cirsium vulgare,plant - flower visitor,Bombus pascuorum,plant - flower visitor,23.95,pollination
+Cirsium vulgare,plant - flower visitor,Bombus terrestris,plant - flower visitor,604.9,pollination
+Cirsium vulgare,plant - flower visitor,Empis livida,plant - flower visitor,43.54,pollination
+Cirsium vulgare,plant - flower visitor,Oscinella frit,plant - flower visitor,476.2,pollination
+Cirsium vulgare,plant - flower visitor,Pieris brassicae,plant - flower visitor,604.9,pollination
+Cirsium vulgare,plant - flower visitor,Sepsis fulgens,plant - flower visitor,747.6,pollination
+Conolvulus/Calystegia,plant - flower visitor,Bombus pascuorum,plant - flower visitor,18.99,pollination
+Conolvulus/Calystegia,plant - flower visitor,Delia sp,plant - flower visitor,52.52,pollination
+Conolvulus/Calystegia,plant - flower visitor,Empis livida,plant - flower visitor,99.41,pollination
+Conolvulus/Calystegia,plant - flower visitor,Eupeodes luniger,plant - flower visitor,49.71,pollination
+Conolvulus/Calystegia,plant - flower visitor,Melanostoma mellinum,plant - flower visitor,49.71,pollination
+Conolvulus/Calystegia,plant - flower visitor,Oedemera nobilis,plant - flower visitor,49.71,pollination
+Conolvulus/Calystegia,plant - flower visitor,Platycheirus albimanus,plant - flower visitor,18.99,pollination
+Conolvulus/Calystegia,plant - flower visitor,Sphaerophoria sp,plant - flower visitor,18.99,pollination
+Cornus sanguinea,plant - flower visitor,Empis livida,plant - flower visitor,43.54,pollination
+Cornus sanguinea,plant - flower visitor,Rhagio tringarius,plant - flower visitor,8.709,pollination
+Crataegus monogyna,plant - flower visitor,Andrena dorsata,plant - flower visitor,6.532,pollination
+Crataegus monogyna,plant - flower visitor,Bombus pascuorum,plant - flower visitor,39.39,pollination
+Crataegus monogyna,plant - flower visitor,Cantharis decipiens,plant - flower visitor,19.69,pollination
+Crataegus monogyna,plant - flower visitor,Chlorops hypostigma,plant - flower visitor,19.69,pollination
+Crataegus monogyna,plant - flower visitor,Chlorops pumilionis,plant - flower visitor,26.13,pollination
+Crataegus monogyna,plant - flower visitor,Delia sp,plant - flower visitor,13.06,pollination
+Crataegus monogyna,plant - flower visitor,Dilophus febrilis,plant - flower visitor,19.69,pollination
+Crataegus monogyna,plant - flower visitor,Glyphipterix simpliciella,plant - flower visitor,19.69,pollination
+Crataegus monogyna,plant - flower visitor,Malachius bipustulatus,plant - flower visitor,39.19,pollination
+Crataegus monogyna,plant - flower visitor,Oedemera nobilis,plant - flower visitor,13.06,pollination
+Crataegus monogyna,plant - flower visitor,Phyllonorycter sp,plant - flower visitor,6.532,pollination
+Crataegus monogyna,plant - flower visitor,Platycheirus albimanus,plant - flower visitor,26.23,pollination
+Crataegus monogyna,plant - flower visitor,Platypalpus sp,plant - flower visitor,6.532,pollination
+Crataegus monogyna,plant - flower visitor,Scathophaga stercoraria,plant - flower visitor,59.08,pollination
+Galium aparine,plant - flower visitor,Hylemya vagans,plant - flower visitor,298.3,pollination
+Galium aparine,plant - flower visitor,Sciaridae sp,plant - flower visitor,78.78,pollination
+Galium odoratum,plant - flower visitor,Hercostomus parvilamellatus,plant - flower visitor,74.58,pollination
+Geranium robertianum,plant - flower visitor,Platycheirus albimanus,plant - flower visitor,19.69,pollination
+Geranium robertianum,plant - flower visitor,Rhingia campestris,plant - flower visitor,74.58,pollination
+Heracleum sphondylium,plant - flower visitor,Alysiinae sp,plant - flower visitor,99.41,pollination
+Heracleum sphondylium,plant - flower visitor,Anaspis maculata,plant - flower visitor,367.6,pollination
+Heracleum sphondylium,plant - flower visitor,Anaspis pulicaria,plant - flower visitor,298.2,pollination
+Heracleum sphondylium,plant - flower visitor,Anthophila fabriciana,plant - flower visitor,138.8,pollination
+Heracleum sphondylium,plant - flower visitor,Azelia zetterstedtii,plant - flower visitor,19.69,pollination
+Heracleum sphondylium,plant - flower visitor,Botanophila striolata,plant - flower visitor,49.71,pollination
+Heracleum sphondylium,plant - flower visitor,Calliphora vicina,plant - flower visitor,59.08,pollination
+Heracleum sphondylium,plant - flower visitor,Cantharis nigra,plant - flower visitor,19.69,pollination
+Heracleum sphondylium,plant - flower visitor,Cheilosia illustrata,plant - flower visitor,49.71,pollination
+Heracleum sphondylium,plant - flower visitor,Chloromyia formosa,plant - flower visitor,8.709,pollination
+Heracleum sphondylium,plant - flower visitor,Chlorops hypostigma,plant - flower visitor,277.6,pollination
+Heracleum sphondylium,plant - flower visitor,Chlorops pumilionis,plant - flower visitor,19.69,pollination
+Heracleum sphondylium,plant - flower visitor,Chorebus sp,plant - flower visitor,99.41,pollination
+Heracleum sphondylium,plant - flower visitor,Delia sp,plant - flower visitor,546.8,pollination
+Heracleum sphondylium,plant - flower visitor,Dicraeus vagans,plant - flower visitor,397.6,pollination
+Heracleum sphondylium,plant - flower visitor,Diplonevra sp,plant - flower visitor,49.71,pollination
+Heracleum sphondylium,plant - flower visitor,Empis chioptera,plant - flower visitor,13.06,pollination
+Heracleum sphondylium,plant - flower visitor,Empis livida,plant - flower visitor,377,pollination
+Heracleum sphondylium,plant - flower visitor,Eristalis pertinax,plant - flower visitor,99.41,pollination
+Heracleum sphondylium,plant - flower visitor,Eudasyphora cyanella,plant - flower visitor,19.69,pollination
+Heracleum sphondylium,plant - flower visitor,Fannia sp,plant - flower visitor,19.69,pollination
+Heracleum sphondylium,plant - flower visitor,Formicidae A,plant - flower visitor,49.71,pollination
+Heracleum sphondylium,plant - flower visitor,Glyphipterix simpliciella,plant - flower visitor,49.71,pollination
+Heracleum sphondylium,plant - flower visitor,Grammoptera ruficornis,plant - flower visitor,119.1,pollination
+Heracleum sphondylium,plant - flower visitor,Hemicrepidius hirtus,plant - flower visitor,248.5,pollination
+Heracleum sphondylium,plant - flower visitor,Limnophora triangula,plant - flower visitor,19.69,pollination
+Heracleum sphondylium,plant - flower visitor,Melinda viridicyanea,plant - flower visitor,19.69,pollination
+Heracleum sphondylium,plant - flower visitor,Microchrysa polita,plant - flower visitor,13.06,pollination
+Heracleum sphondylium,plant - flower visitor,Neomyia cornicina,plant - flower visitor,19.69,pollination
+Heracleum sphondylium,plant - flower visitor,Pegoplata infirma,plant - flower visitor,198.8,pollination
+Heracleum sphondylium,plant - flower visitor,Pionini sp,plant - flower visitor,49.71,pollination
+Heracleum sphondylium,plant - flower visitor,Platycheirus scutatus,plant - flower visitor,19.69,pollination
+Heracleum sphondylium,plant - flower visitor,Platypalpus sp,plant - flower visitor,99.41,pollination
+Heracleum sphondylium,plant - flower visitor,Pteromalidae,plant - flower visitor,49.71,pollination
+Heracleum sphondylium,plant - flower visitor,Scaptomyza pallida,plant - flower visitor,49.71,pollination
+Heracleum sphondylium,plant - flower visitor,Scathophaga stercoraria,plant - flower visitor,273.5,pollination
+Heracleum sphondylium,plant - flower visitor,Sciaridae sp,plant - flower visitor,4314,pollination
+Heracleum sphondylium,plant - flower visitor,Sepsis fulgens,plant - flower visitor,99.41,pollination
+Heracleum sphondylium,plant - flower visitor,Sepsis orthocnemis,plant - flower visitor,99.41,pollination
+Heracleum sphondylium,plant - flower visitor,Sepsis violacea,plant - flower visitor,49.71,pollination
+Heracleum sphondylium,plant - flower visitor,Tersilochus sp,plant - flower visitor,13.06,pollination
+Heracleum sphondylium,plant - flower visitor,Tiphia minuta,plant - flower visitor,149.1,pollination
+Heracleum sphondylium,plant - flower visitor,Volucella bombylans,plant - flower visitor,49.71,pollination
+Lamiastrum galeobdolon,plant - flower visitor,Platycheirus albimanus,plant - flower visitor,74.58,pollination
+Lamiastrum galeobdolon,plant - flower visitor,Rhingia campestris,plant - flower visitor,74.58,pollination
+Lamium album,plant - flower visitor,Bombus pascuorum,plant - flower visitor,99.41,pollination
+Lapsana communis,plant - flower visitor,Pegoplata aestiva or Adia cinerella,plant - flower visitor,19.69,pollination
+Leontodon autumnalis,plant - flower visitor,Asecodes coronis,plant - flower visitor,1479,pollination
+Leontodon autumnalis,plant - flower visitor,Botanophila striolata,plant - flower visitor,1479,pollination
+Leontodon autumnalis,plant - flower visitor,Delia sp,plant - flower visitor,1479,pollination
+Leontodon autumnalis,plant - flower visitor,Halticoptera sp,plant - flower visitor,1479,pollination
+Leontodon autumnalis,plant - flower visitor,Hexacola hexatoma,plant - flower visitor,1479,pollination
+Leontodon autumnalis,plant - flower visitor,Kleidotoma tetratoma,plant - flower visitor,10350,pollination
+Leontodon autumnalis,plant - flower visitor,Metopina sp,plant - flower visitor,4808,pollination
+Leontodon autumnalis,plant - flower visitor,Pegoplata aestiva or Adia cinerella,plant - flower visitor,1479,pollination
+Leontodon autumnalis,plant - flower visitor,Rhoptromeris heptoma,plant - flower visitor,5917,pollination
+Leontodon autumnalis,plant - flower visitor,Rhoptromeris rufiventris,plant - flower visitor,1479,pollination
+Leontodon autumnalis,plant - flower visitor,Tetrastichinae sp,plant - flower visitor,2958,pollination
+Ligustrum vulgare,plant - flower visitor,Anaspis maculata,plant - flower visitor,149.2,pollination
+Ligustrum vulgare,plant - flower visitor,Dolerus haematodes,plant - flower visitor,6.532,pollination
+Ligustrum vulgare,plant - flower visitor,Epuraea melanocephala,plant - flower visitor,3132,pollination
+Matricaria recutita,plant - flower visitor,Andrena minutula,plant - flower visitor,99.41,pollination
+Matricaria recutita,plant - flower visitor,Anthomyia liturata,plant - flower visitor,99.41,pollination
+Matricaria recutita,plant - flower visitor,Authonomus rubi,plant - flower visitor,49.71,pollination
+Matricaria recutita,plant - flower visitor,Azelia cilipes,plant - flower visitor,99.41,pollination
+Matricaria recutita,plant - flower visitor,Bellardia pandia,plant - flower visitor,99.41,pollination
+Matricaria recutita,plant - flower visitor,Botanophila fugax,plant - flower visitor,771.1,pollination
+Matricaria recutita,plant - flower visitor,Bruchus rufimanus,plant - flower visitor,2778,pollination
+Matricaria recutita,plant - flower visitor,Cantharis nigra,plant - flower visitor,1473,pollination
+Matricaria recutita,plant - flower visitor,Chrysotoxum bicinctum,plant - flower visitor,99.41,pollination
+Matricaria recutita,plant - flower visitor,Delia sp,plant - flower visitor,6613,pollination
+Matricaria recutita,plant - flower visitor,Dolichopus festivus,plant - flower visitor,2778,pollination
+Matricaria recutita,plant - flower visitor,Empis livida,plant - flower visitor,9261,pollination
+Matricaria recutita,plant - flower visitor,Eristalis arbustorum,plant - flower visitor,1463,pollination
+Matricaria recutita,plant - flower visitor,Eristalis tenax,plant - flower visitor,604.9,pollination
+Matricaria recutita,plant - flower visitor,Eudasyphora cyanella,plant - flower visitor,604.9,pollination
+Matricaria recutita,plant - flower visitor,Eupeodes corollae,plant - flower visitor,1542,pollination
+Matricaria recutita,plant - flower visitor,Gastrophysa viridular,plant - flower visitor,2313,pollination
+Matricaria recutita,plant - flower visitor,Helophilus trivittatus,plant - flower visitor,771.1,pollination
+Matricaria recutita,plant - flower visitor,Hydrellia griseola,plant - flower visitor,1900,pollination
+Matricaria recutita,plant - flower visitor,Hylaeus communis,plant - flower visitor,604.9,pollination
+Matricaria recutita,plant - flower visitor,Melanostoma mellinum,plant - flower visitor,1284,pollination
+Matricaria recutita,plant - flower visitor,Neomyia cornicina,plant - flower visitor,2313,pollination
+Matricaria recutita,plant - flower visitor,Oedemera lurida,plant - flower visitor,771.1,pollination
+Matricaria recutita,plant - flower visitor,Oedemera nobilis,plant - flower visitor,1473,pollination
+Matricaria recutita,plant - flower visitor,Olibrus aeneus,plant - flower visitor,1094,pollination
+Matricaria recutita,plant - flower visitor,Omphalapion hookerorum,plant - flower visitor,696.3,pollination
+Matricaria recutita,plant - flower visitor,Opomyza germinationis,plant - flower visitor,696.3,pollination
+Matricaria recutita,plant - flower visitor,Pegoplata aestiva or Adia cinerella,plant - flower visitor,3984,pollination
+Matricaria recutita,plant - flower visitor,Phasia obesa,plant - flower visitor,1542,pollination
+Matricaria recutita,plant - flower visitor,Phasia pusilla,plant - flower visitor,604.9,pollination
+Matricaria recutita,plant - flower visitor,Platycheirus albimanus,plant - flower visitor,1383,pollination
+Matricaria recutita,plant - flower visitor,Platycheirus manicatus,plant - flower visitor,771.1,pollination
+Matricaria recutita,plant - flower visitor,Platycheirus sp,plant - flower visitor,771.1,pollination
+Matricaria recutita,plant - flower visitor,Pollenia amentaria,plant - flower visitor,99.41,pollination
+Matricaria recutita,plant - flower visitor,Pollenia pediculata,plant - flower visitor,1599,pollination
+Matricaria recutita,plant - flower visitor,Pollenia rudis,plant - flower visitor,791,pollination
+Matricaria recutita,plant - flower visitor,Rhagonycha fulva,plant - flower visitor,298.2,pollination
+Matricaria recutita,plant - flower visitor,Rhinophora lepida,plant - flower visitor,99.41,pollination
+Matricaria recutita,plant - flower visitor,Scaptomyza flava,plant - flower visitor,665.6,pollination
+Matricaria recutita,plant - flower visitor,Scaptomyza pallida,plant - flower visitor,1301,pollination
+Matricaria recutita,plant - flower visitor,Scathophaga stercoraria,plant - flower visitor,6265,pollination
+Matricaria recutita,plant - flower visitor,Scatopsidae sp,plant - flower visitor,2418,pollination
+Matricaria recutita,plant - flower visitor,Sepsis fulgens,plant - flower visitor,1210,pollination
+Matricaria recutita,plant - flower visitor,Siphona geniculata,plant - flower visitor,198.8,pollination
+Matricaria recutita,plant - flower visitor,Sphaerophoria menthastri,plant - flower visitor,604.9,pollination
+Matricaria recutita,plant - flower visitor,Sphaerophoria scripta,plant - flower visitor,4942,pollination
+Matricaria recutita,plant - flower visitor,Sphaerophoria sp,plant - flower visitor,5189,pollination
+Matricaria recutita,plant - flower visitor,Stenodiplosis sp,plant - flower visitor,99.41,pollination
+Matricaria recutita,plant - flower visitor,Syritta pipiens,plant - flower visitor,604.9,pollination
+Matricaria recutita,plant - flower visitor,Thaumatomyia glabra,plant - flower visitor,99.41,pollination
+Medicago sativa ssp. sativa,plant - flower visitor,Apis mellifera,plant - flower visitor,17100,pollination
+Medicago sativa ssp. sativa,plant - flower visitor,Bombus terrestris,plant - flower visitor,1140,pollination
+Medicago sativa ssp. sativa,plant - flower visitor,Gastrophysa viridular,plant - flower visitor,1140,pollination
+Medicago sativa ssp. sativa,plant - flower visitor,Rhingia campestris,plant - flower visitor,1140,pollination
+Mentha arvensis,plant - flower visitor,Apis mellifera,plant - flower visitor,596.5,pollination
+Mentha arvensis,plant - flower visitor,Eristalis arbustorum,plant - flower visitor,99.41,pollination
+Mentha arvensis,plant - flower visitor,Oedemera lurida,plant - flower visitor,99.41,pollination
+Mentha arvensis,plant - flower visitor,Scathophaga stercoraria,plant - flower visitor,39.39,pollination
+Myosotis arvensis,plant - flower visitor,Empis livida,plant - flower visitor,747.6,pollination
+Papaver sp.,plant - flower visitor,Bombus lapidarius,plant - flower visitor,2290,pollination
+Papaver sp.,plant - flower visitor,Bombus terrestris,plant - flower visitor,2220,pollination
+Papaver sp.,plant - flower visitor,Delia sp,plant - flower visitor,771.1,pollination
+Papaver sp.,plant - flower visitor,Empis livida,plant - flower visitor,49.71,pollination
+Papaver sp.,plant - flower visitor,Oedemera nobilis,plant - flower visitor,99.41,pollination
+Papaver sp.,plant - flower visitor,Platycheirus nielseni,plant - flower visitor,771.1,pollination
+Prunus spinosa,plant - flower visitor,Scathophaga stercoraria,plant - flower visitor,39.39,pollination
+Ranunculus acris,plant - flower visitor,Pegoplata aestiva or Adia cinerella,plant - flower visitor,1473,pollination
+Ranunculus repens,plant - flower visitor,Agriotes pallidulus,plant - flower visitor,19.69,pollination
+Ranunculus repens,plant - flower visitor,Alysiinae sp,plant - flower visitor,495.1,pollination
+Ranunculus repens,plant - flower visitor,Asecodes coronis,plant - flower visitor,1109,pollination
+Ranunculus repens,plant - flower visitor,Botanophila striolata,plant - flower visitor,534.6,pollination
+Ranunculus repens,plant - flower visitor,Bracon sp,plant - flower visitor,18.99,pollination
+Ranunculus repens,plant - flower visitor,Cantharis nigra,plant - flower visitor,761.4,pollination
+Ranunculus repens,plant - flower visitor,Cecidomyiidae sp,plant - flower visitor,370.2,pollination
+Ranunculus repens,plant - flower visitor,Cephus pygmaeus,plant - flower visitor,58.41,pollination
+Ranunculus repens,plant - flower visitor,Ceraphron trissacantha,plant - flower visitor,720.4,pollination
+Ranunculus repens,plant - flower visitor,Cheilosia albitarsis,plant - flower visitor,775.3,pollination
+Ranunculus repens,plant - flower visitor,Chloromyia formosa,plant - flower visitor,1345,pollination
+Ranunculus repens,plant - flower visitor,Chorebus sp nov,plant - flower visitor,1479,pollination
+Ranunculus repens,plant - flower visitor,Chromatomyia nigra,plant - flower visitor,49.71,pollination
+Ranunculus repens,plant - flower visitor,Chrysotus sp,plant - flower visitor,49.71,pollination
+Ranunculus repens,plant - flower visitor,Delia sp,plant - flower visitor,9002,pollination
+Ranunculus repens,plant - flower visitor,Demetrias atricapillus,plant - flower visitor,604.9,pollination
+Ranunculus repens,plant - flower visitor,Desmometopa sp,plant - flower visitor,747.6,pollination
+Ranunculus repens,plant - flower visitor,Diplonevra sp,plant - flower visitor,1586,pollination
+Ranunculus repens,plant - flower visitor,Dolichopus festivus,plant - flower visitor,68.7,pollination
+Ranunculus repens,plant - flower visitor,Empis livida,plant - flower visitor,3865,pollination
+Ranunculus repens,plant - flower visitor,Episyrphus balteatus,plant - flower visitor,747.6,pollination
+Ranunculus repens,plant - flower visitor,Fannia sp,plant - flower visitor,118.4,pollination
+Ranunculus repens,plant - flower visitor,Formicidae B,plant - flower visitor,1517,pollination
+Ranunculus repens,plant - flower visitor,Geomyza tripunctata,plant - flower visitor,952.3,pollination
+Ranunculus repens,plant - flower visitor,Glyphipterix simpliciella,plant - flower visitor,1034,pollination
+Ranunculus repens,plant - flower visitor,Helina sp,plant - flower visitor,739.6,pollination
+Ranunculus repens,plant - flower visitor,Hemicrepidius hirtus,plant - flower visitor,49.71,pollination
+Ranunculus repens,plant - flower visitor,Hydrellia griseola,plant - flower visitor,1109,pollination
+Ranunculus repens,plant - flower visitor,Hydrellia maura,plant - flower visitor,758.6,pollination
+Ranunculus repens,plant - flower visitor,Hylaeus hyalinatus,plant - flower visitor,277.6,pollination
+Ranunculus repens,plant - flower visitor,Hylemya urbica/variata,plant - flower visitor,476.2,pollination
+Ranunculus repens,plant - flower visitor,Hylemya vagans,plant - flower visitor,49.71,pollination
+Ranunculus repens,plant - flower visitor,Hylemya variata,plant - flower visitor,277.6,pollination
+Ranunculus repens,plant - flower visitor,Limnia unguicornis,plant - flower visitor,13.06,pollination
+Ranunculus repens,plant - flower visitor,Lonchoptera lutea,plant - flower visitor,654.6,pollination
+Ranunculus repens,plant - flower visitor,Lotophila atra,plant - flower visitor,1216,pollination
+Ranunculus repens,plant - flower visitor,Malachius bipustulatus,plant - flower visitor,816.3,pollination
+Ranunculus repens,plant - flower visitor,Megaselia sp,plant - flower visitor,18.99,pollination
+Ranunculus repens,plant - flower visitor,Melangyna sp,plant - flower visitor,2409,pollination
+Ranunculus repens,plant - flower visitor,Melanostoma mellinum,plant - flower visitor,1800,pollination
+Ranunculus repens,plant - flower visitor,Melanostoma sp,plant - flower visitor,19.69,pollination
+Ranunculus repens,plant - flower visitor,Metopina sp,plant - flower visitor,5144,pollination
+Ranunculus repens,plant - flower visitor,Micropterix calthella,plant - flower visitor,832.9,pollination
+Ranunculus repens,plant - flower visitor,Oedemera lurida,plant - flower visitor,676.5,pollination
+Ranunculus repens,plant - flower visitor,Oedemera nobilis,plant - flower visitor,2276,pollination
+Ranunculus repens,plant - flower visitor,Opomyza germinationis,plant - flower visitor,1529,pollination
+Ranunculus repens,plant - flower visitor,Opomyza petrei,plant - flower visitor,49.71,pollination
+Ranunculus repens,plant - flower visitor,Oscinella frit,plant - flower visitor,303.8,pollination
+Ranunculus repens,plant - flower visitor,Oscinella hortensis,plant - flower visitor,13.06,pollination
+Ranunculus repens,plant - flower visitor,Oscinella nigerrima,plant - flower visitor,49.71,pollination
+Ranunculus repens,plant - flower visitor,Oscinella nitidissima,plant - flower visitor,344.5,pollination
+Ranunculus repens,plant - flower visitor,Pegoplata aestiva or Adia cinerella,plant - flower visitor,29110,pollination
+Ranunculus repens,plant - flower visitor,Pegoplata infirma,plant - flower visitor,99.41,pollination
+Ranunculus repens,plant - flower visitor,Phyllonorycter sp,plant - flower visitor,99.41,pollination
+Ranunculus repens,plant - flower visitor,Phytomyza cineracea,plant - flower visitor,99.41,pollination
+Ranunculus repens,plant - flower visitor,Phytomyza notata,plant - flower visitor,476.2,pollination
+Ranunculus repens,plant - flower visitor,Platycheirus albimanus,plant - flower visitor,772.3,pollination
+Ranunculus repens,plant - flower visitor,Platycheirus clypeatus,plant - flower visitor,604.9,pollination
+Ranunculus repens,plant - flower visitor,Platypalpus sp,plant - flower visitor,6.532,pollination
+Ranunculus repens,plant - flower visitor,Psallinae sp,plant - flower visitor,476.2,pollination
+Ranunculus repens,plant - flower visitor,Pteromalidae,plant - flower visitor,476.2,pollination
+Ranunculus repens,plant - flower visitor,Rhagio notatus,plant - flower visitor,739.6,pollination
+Ranunculus repens,plant - flower visitor,Rhagio tringarius,plant - flower visitor,1479,pollination
+Ranunculus repens,plant - flower visitor,Rhagonycha fulva,plant - flower visitor,49.71,pollination
+Ranunculus repens,plant - flower visitor,Rhingia campestris,plant - flower visitor,277.6,pollination
+Ranunculus repens,plant - flower visitor,Rhoptromeris heptoma,plant - flower visitor,1479,pollination
+Ranunculus repens,plant - flower visitor,Saltella sphondylii,plant - flower visitor,476.2,pollination
+Ranunculus repens,plant - flower visitor,Scathophaga stercoraria,plant - flower visitor,6814,pollination
+Ranunculus repens,plant - flower visitor,Scatopsidae sp,plant - flower visitor,1109,pollination
+Ranunculus repens,plant - flower visitor,Sciaridae sp,plant - flower visitor,476.2,pollination
+Ranunculus repens,plant - flower visitor,Sepsis cynipsea or neocynipsea,plant - flower visitor,952.3,pollination
+Ranunculus repens,plant - flower visitor,Sepsis fulgens,plant - flower visitor,739.6,pollination
+Ranunculus repens,plant - flower visitor,Siphona geniculata,plant - flower visitor,1159,pollination
+Ranunculus repens,plant - flower visitor,Sphaerophoria sp,plant - flower visitor,2844,pollination
+Ranunculus repens,plant - flower visitor,Stenomalina sp,plant - flower visitor,2409,pollination
+Ranunculus repens,plant - flower visitor,Tetrastichinae sp,plant - flower visitor,1479,pollination
+Ranunculus repens,plant - flower visitor,Triphleba sp,plant - flower visitor,1122,pollination
+Ranunculus repens,plant - flower visitor,Tytthaspis sedecimpunctata,plant - flower visitor,18.99,pollination
+Rosa sp.,plant - flower visitor,Anaspis maculata,plant - flower visitor,39.39,pollination
+Rosa sp.,plant - flower visitor,Anaspis pulicaria,plant - flower visitor,236.3,pollination
+Rosa sp.,plant - flower visitor,Byturus tomentosus,plant - flower visitor,39.39,pollination
+Rosa sp.,plant - flower visitor,Epuraea melanocephala,plant - flower visitor,157.6,pollination
+Rosa sp.,plant - flower visitor,Pegoplata aestiva or Adia cinerella,plant - flower visitor,39.39,pollination
+Rubus fruticosus,plant - flower visitor,Anaspis pulicaria,plant - flower visitor,49.71,pollination
+Rubus fruticosus,plant - flower visitor,Apis mellifera,plant - flower visitor,413.6,pollination
+Rubus fruticosus,plant - flower visitor,Baccha elongate,plant - flower visitor,74.58,pollination
+Rubus fruticosus,plant - flower visitor,Bombus hortorum,plant - flower visitor,49.71,pollination
+Rubus fruticosus,plant - flower visitor,Bombus lapidarius,plant - flower visitor,19.69,pollination
+Rubus fruticosus,plant - flower visitor,Bombus pascuorum,plant - flower visitor,39.39,pollination
+Rubus fruticosus,plant - flower visitor,Bombus terrestris,plant - flower visitor,59.08,pollination
+Rubus fruticosus,plant - flower visitor,Brachypterus urticae,plant - flower visitor,99.41,pollination
+Rubus fruticosus,plant - flower visitor,Cantharis nigra,plant - flower visitor,78.78,pollination
+Rubus fruticosus,plant - flower visitor,Cephus pygmaeus,plant - flower visitor,19.69,pollination
+Rubus fruticosus,plant - flower visitor,Chrysotus sp,plant - flower visitor,213.4,pollination
+Rubus fruticosus,plant - flower visitor,Coccinella septempunctata,plant - flower visitor,39.39,pollination
+Rubus fruticosus,plant - flower visitor,Crossopalpus sp,plant - flower visitor,39.39,pollination
+Rubus fruticosus,plant - flower visitor,Empis livida,plant - flower visitor,436.1,pollination
+Rubus fruticosus,plant - flower visitor,Episyrphus balteatus,plant - flower visitor,188.5,pollination
+Rubus fruticosus,plant - flower visitor,Eristalis pertinax,plant - flower visitor,133.7,pollination
+Rubus fruticosus,plant - flower visitor,Fannia sp,plant - flower visitor,99.41,pollination
+Rubus fruticosus,plant - flower visitor,Hylemya variata,plant - flower visitor,74.58,pollination
+Rubus fruticosus,plant - flower visitor,Ichneumonidae,plant - flower visitor,19.69,pollination
+Rubus fruticosus,plant - flower visitor,Malthodes minimus,plant - flower visitor,39.39,pollination
+Rubus fruticosus,plant - flower visitor,Melanostoma scalare,plant - flower visitor,118.2,pollination
+Rubus fruticosus,plant - flower visitor,Neoascia podagrica,plant - flower visitor,99.41,pollination
+Rubus fruticosus,plant - flower visitor,Oedemera nobilis,plant - flower visitor,138.8,pollination
+Rubus fruticosus,plant - flower visitor,Pegoplata aestiva or Adia cinerella,plant - flower visitor,89.09,pollination
+Rubus fruticosus,plant - flower visitor,Platycheirus albimanus,plant - flower visitor,192.7,pollination
+Rubus fruticosus,plant - flower visitor,Platycheirus nielseni,plant - flower visitor,19.69,pollination
+Rubus fruticosus,plant - flower visitor,Platycheirus peltatus,plant - flower visitor,19.69,pollination
+Rubus fruticosus,plant - flower visitor,Pollenia pediculata,plant - flower visitor,19.69,pollination
+Rubus fruticosus,plant - flower visitor,Rhagonycha fulva,plant - flower visitor,19.69,pollination
+Rubus fruticosus,plant - flower visitor,Rhinophora lepida,plant - flower visitor,78.78,pollination
+Rubus fruticosus,plant - flower visitor,Scathophaga stercoraria,plant - flower visitor,49.71,pollination
+Rubus fruticosus,plant - flower visitor,Sepsis cynipsea or neocynipsea,plant - flower visitor,19.69,pollination
+Rubus fruticosus,plant - flower visitor,Sepsis flavimana,plant - flower visitor,39.39,pollination
+Rubus fruticosus,plant - flower visitor,Siphona geniculata,plant - flower visitor,149.2,pollination
+Rubus fruticosus,plant - flower visitor,Sphaerophoria sp,plant - flower visitor,19.69,pollination
+Rubus fruticosus,plant - flower visitor,Syritta pipiens,plant - flower visitor,19.69,pollination
+Rubus fruticosus,plant - flower visitor,Trybliographa erythrocera,plant - flower visitor,39.39,pollination
+Senacio jacobaea,plant - flower visitor,Botanophila fugax,plant - flower visitor,13.06,pollination
+Senacio jacobaea,plant - flower visitor,Calliphora vomitoria,plant - flower visitor,6.532,pollination
+Senacio jacobaea,plant - flower visitor,Eriothrix rufomaculata,plant - flower visitor,6.532,pollination
+Senacio jacobaea,plant - flower visitor,Eristalis arbustorum,plant - flower visitor,13.06,pollination
+Senacio jacobaea,plant - flower visitor,Eristalis pertinax,plant - flower visitor,13.06,pollination
+Senacio jacobaea,plant - flower visitor,Eristalis tenax,plant - flower visitor,17.42,pollination
+Senacio jacobaea,plant - flower visitor,Eupeodes corollae,plant - flower visitor,6.532,pollination
+Senacio jacobaea,plant - flower visitor,Herina longistylata,plant - flower visitor,6.532,pollination
+Senacio jacobaea,plant - flower visitor,Lucilia caesar,plant - flower visitor,6.532,pollination
+Senacio jacobaea,plant - flower visitor,Lucilia richardsi,plant - flower visitor,6.532,pollination
+Senacio jacobaea,plant - flower visitor,Lucilia sericata,plant - flower visitor,6.532,pollination
+Senacio jacobaea,plant - flower visitor,Melinda viridicyanea,plant - flower visitor,13.06,pollination
+Senacio jacobaea,plant - flower visitor,Neomyia cornicina,plant - flower visitor,13.06,pollination
+Senacio jacobaea,plant - flower visitor,Neomyia viridescens,plant - flower visitor,6.532,pollination
+Senacio jacobaea,plant - flower visitor,Platycheirus albimanus,plant - flower visitor,6.532,pollination
+Senacio jacobaea,plant - flower visitor,Psocoptera sp,plant - flower visitor,6.532,pollination
+Senacio jacobaea,plant - flower visitor,Pyronia tithonus,plant - flower visitor,19.59,pollination
+Senacio jacobaea,plant - flower visitor,Sicus ferrugineus,plant - flower visitor,6.532,pollination
+Senacio jacobaea,plant - flower visitor,Sphaerophoria rueppellii,plant - flower visitor,6.532,pollination
+Senacio jacobaea,plant - flower visitor,Sphaerophoria scripta,plant - flower visitor,6.532,pollination
+Senacio jacobaea,plant - flower visitor,Sphaerophoria sp,plant - flower visitor,58.78,pollination
+Senacio jacobaea,plant - flower visitor,Syritta pipiens,plant - flower visitor,13.06,pollination
+Silene dioica,plant - flower visitor,Bicellaria vana,plant - flower visitor,19.69,pollination
+Silene dioica,plant - flower visitor,Bicellaria varia,plant - flower visitor,39.39,pollination
+Silene dioica,plant - flower visitor,Bracon sp,plant - flower visitor,19.69,pollination
+Silene dioica,plant - flower visitor,Empis livida,plant - flower visitor,39.39,pollination
+Silene dioica,plant - flower visitor,Melanostoma scalare,plant - flower visitor,19.69,pollination
+Silene dioica,plant - flower visitor,Ophiomyia sp,plant - flower visitor,39.39,pollination
+Silene dioica,plant - flower visitor,Pipiza noctiluca,plant - flower visitor,19.69,pollination
+Silene dioica,plant - flower visitor,Platycheirus albimanus,plant - flower visitor,19.69,pollination
+Sinapis arvensis,plant - flower visitor,Andrena dorsata,plant - flower visitor,747.6,pollination
+Sinapis arvensis,plant - flower visitor,Cantharis nigra,plant - flower visitor,1801,pollination
+Sinapis arvensis,plant - flower visitor,Centrorhynchus obstrictus,plant - flower visitor,1801,pollination
+Sinapis arvensis,plant - flower visitor,Cephus pygmaeus,plant - flower visitor,747.6,pollination
+Sinapis arvensis,plant - flower visitor,Cetema elongata,plant - flower visitor,720.4,pollination
+Sinapis arvensis,plant - flower visitor,Chrysotus sp,plant - flower visitor,720.4,pollination
+Sinapis arvensis,plant - flower visitor,Delia sp,plant - flower visitor,7231,pollination
+Sinapis arvensis,plant - flower visitor,Diospilus capito,plant - flower visitor,720.4,pollination
+Sinapis arvensis,plant - flower visitor,Empis livida,plant - flower visitor,14090,pollination
+Sinapis arvensis,plant - flower visitor,Lonchoptera lutea,plant - flower visitor,720.4,pollination
+Sinapis arvensis,plant - flower visitor,Melanostoma mellinum,plant - flower visitor,665.6,pollination
+Sinapis arvensis,plant - flower visitor,Olibrus aeneus,plant - flower visitor,1801,pollination
+Sinapis arvensis,plant - flower visitor,Oscinella frit,plant - flower visitor,2161,pollination
+Sinapis arvensis,plant - flower visitor,Pegoplata aestiva or Adia cinerella,plant - flower visitor,1522,pollination
+Sinapis arvensis,plant - flower visitor,Phradis morionellus,plant - flower visitor,720.4,pollination
+Sinapis arvensis,plant - flower visitor,Scathophaga stercoraria,plant - flower visitor,665.6,pollination
+Sinapis arvensis,plant - flower visitor,Scatopsidae sp,plant - flower visitor,720.4,pollination
+Sinapis arvensis,plant - flower visitor,Sphaerophoria scripta,plant - flower visitor,1109,pollination
+Sinapis arvensis,plant - flower visitor,Tetramesa sp,plant - flower visitor,747.6,pollination
+Sonchus asper/oleraceus,plant - flower visitor,Apis mellifera,plant - flower visitor,6.532,pollination
+Sonchus asper/oleraceus,plant - flower visitor,Helophilus pendulus,plant - flower visitor,747.6,pollination
+Sonchus asper/oleraceus,plant - flower visitor,Pegoplata aestiva or Adia cinerella,plant - flower visitor,1353,pollination
+Sonchus asper/oleraceus,plant - flower visitor,Sphaerophoria scripta,plant - flower visitor,747.6,pollination
+Sonchus asper/oleraceus,plant - flower visitor,Sphaerophoria sp,plant - flower visitor,6.532,pollination
+Spergula arvensis,plant - flower visitor,Empis nuntia,plant - flower visitor,696.3,pollination
+Stachys sylvatica,plant - flower visitor,Bombus hortorum,plant - flower visitor,294.4,pollination
+Stellaria graminea,plant - flower visitor,Empis livida,plant - flower visitor,26.13,pollination
+Torilis japonica,plant - flower visitor,Cheilosia pagana,plant - flower visitor,49.71,pollination
+Torilis japonica,plant - flower visitor,Cheilosia proxima,plant - flower visitor,49.71,pollination
+Torilis japonica,plant - flower visitor,Cheilosia proxima D,plant - flower visitor,49.71,pollination
+Torilis japonica,plant - flower visitor,Coenosia tigrina,plant - flower visitor,49.71,pollination
+Torilis japonica,plant - flower visitor,Copromyza similes,plant - flower visitor,39.39,pollination
+Torilis japonica,plant - flower visitor,Ectemnius cephalotes,plant - flower visitor,49.71,pollination
+Torilis japonica,plant - flower visitor,Episyrphus balteatus,plant - flower visitor,138.8,pollination
+Torilis japonica,plant - flower visitor,Melanostoma scalare,plant - flower visitor,39.39,pollination
+Torilis japonica,plant - flower visitor,Musca autumnalis,plant - flower visitor,49.71,pollination
+Torilis japonica,plant - flower visitor,Neoascia podagrica,plant - flower visitor,52.52,pollination
+Torilis japonica,plant - flower visitor,Neomyia cornicina,plant - flower visitor,49.71,pollination
+Torilis japonica,plant - flower visitor,Oscinella nitidissima,plant - flower visitor,49.71,pollination
+Torilis japonica,plant - flower visitor,Pegoplata infirma,plant - flower visitor,49.71,pollination
+Torilis japonica,plant - flower visitor,Plagiatrochus sp,plant - flower visitor,39.39,pollination
+Torilis japonica,plant - flower visitor,Platycheirus albimanus,plant - flower visitor,128.5,pollination
+Torilis japonica,plant - flower visitor,Platycheirus clypeatus,plant - flower visitor,49.71,pollination
+Torilis japonica,plant - flower visitor,Pollenia pediculata,plant - flower visitor,49.71,pollination
+Torilis japonica,plant - flower visitor,Rhagonycha fulva,plant - flower visitor,99.41,pollination
+Torilis japonica,plant - flower visitor,Rhinophora lepida,plant - flower visitor,39.39,pollination
+Torilis japonica,plant - flower visitor,Sepsis flavimana,plant - flower visitor,39.39,pollination
+Torilis japonica,plant - flower visitor,Sussaba cognata,plant - flower visitor,39.39,pollination
+Trifolium pratense/repens,plant - flower visitor,Alysiinae sp,plant - flower visitor,476.2,pollination
+Trifolium pratense/repens,plant - flower visitor,Anthomyia pluvialis,plant - flower visitor,604.9,pollination
+Trifolium pratense/repens,plant - flower visitor,Apis mellifera,plant - flower visitor,3654,pollination
+Trifolium pratense/repens,plant - flower visitor,Aprostocetus sp,plant - flower visitor,476.2,pollination
+Trifolium pratense/repens,plant - flower visitor,Bombus hortorum,plant - flower visitor,1210,pollination
+Trifolium pratense/repens,plant - flower visitor,Bombus lapidarius,plant - flower visitor,11910,pollination
+Trifolium pratense/repens,plant - flower visitor,Bombus pascuorum,plant - flower visitor,8656,pollination
+Trifolium pratense/repens,plant - flower visitor,Bombus pratorum,plant - flower visitor,789.3,pollination
+Trifolium pratense/repens,plant - flower visitor,Bombus terrestris,plant - flower visitor,5871,pollination
+Trifolium pratense/repens,plant - flower visitor,Bombus vestalis,plant - flower visitor,952.3,pollination
+Trifolium pratense/repens,plant - flower visitor,Chrysotus sp,plant - flower visitor,1109,pollination
+Trifolium pratense/repens,plant - flower visitor,Empis livida,plant - flower visitor,2409,pollination
+Trifolium pratense/repens,plant - flower visitor,Eupeodes corollae,plant - flower visitor,476.2,pollination
+Trifolium pratense/repens,plant - flower visitor,Maniola jurtina,plant - flower visitor,739.6,pollination
+Trifolium pratense/repens,plant - flower visitor,Metasyrphus luniger,plant - flower visitor,476.2,pollination
+Trifolium pratense/repens,plant - flower visitor,Norellisoma spinimanum,plant - flower visitor,18.99,pollination
+Trifolium pratense/repens,plant - flower visitor,Oedemera nobilis,plant - flower visitor,49.71,pollination
+Trifolium pratense/repens,plant - flower visitor,Pegoplata aestiva or Adia cinerella,plant - flower visitor,49.71,pollination
+Trifolium pratense/repens,plant - flower visitor,Phyllobius virideaeris,plant - flower visitor,832.9,pollination
+Trifolium pratense/repens,plant - flower visitor,Platycheirus albimanus,plant - flower visitor,19.69,pollination
+Trifolium pratense/repens,plant - flower visitor,Platypalpus sp,plant - flower visitor,2219,pollination
+Trifolium pratense/repens,plant - flower visitor,Pollenia amentaria,plant - flower visitor,2409,pollination
+Trifolium pratense/repens,plant - flower visitor,Pollenia pediculata,plant - flower visitor,99.41,pollination
+Trifolium pratense/repens,plant - flower visitor,Sarcophaga carnaria,plant - flower visitor,604.9,pollination
+Trifolium pratense/repens,plant - flower visitor,Scaptomyza pallida,plant - flower visitor,2409,pollination
+Trifolium pratense/repens,plant - flower visitor,Scathophaga stercoraria,plant - flower visitor,4293,pollination
+Trifolium pratense/repens,plant - flower visitor,Scatopsidae sp,plant - flower visitor,1109,pollination
+Trifolium pratense/repens,plant - flower visitor,Sitona puncticollis,plant - flower visitor,2409,pollination
+Trifolium pratense/repens,plant - flower visitor,Syrphus ribesii,plant - flower visitor,18.99,pollination
+Veronica chamaedrys,plant - flower visitor,Hercostomus parvilamellatus,plant - flower visitor,74.58,pollination
+Veronica persica,plant - flower visitor,Longitarsus sp,plant - flower visitor,720.4,pollination
+Veronica persica,plant - flower visitor,Pegoplata aestiva or Adia cinerella,plant - flower visitor,1150,pollination
+Viburnum lanatum,plant - flower visitor,Empis livida,plant - flower visitor,8.709,pollination
+Viburnum lanatum,plant - flower visitor,Pollenia pediculata,plant - flower visitor,6.532,pollination
+Vicia hirsute,plant - flower visitor,Cantharis nigra,plant - flower visitor,1473,pollination
+Vicia hirsute,plant - flower visitor,Empis livida,plant - flower visitor,2990,pollination
+Vicia hirsute,plant - flower visitor,Fannia sp,plant - flower visitor,747.6,pollination
+Vicia sativa,plant - flower visitor,Bombus pascuorum,plant - flower visitor,49.71,pollination
+Vicia sativa,plant - flower visitor,Empis livida,plant - flower visitor,99.41,pollination
+Vicia sepium,plant - flower visitor,Syritta pipiens,plant - flower visitor,99.41,pollination
+<d7> Triticosecale,plant - aphid,Sitobion avenae,plant - aphid,2022000,host-parasite
+Aphanes arvensis,plant - aphid,Myzus persicae,plant - aphid,37380,host-parasite
+Avena sativa winter-sown,plant - aphid,Metopolophium dihrodum,plant - aphid,635400,host-parasite
+Avena sativa winter-sown,plant - aphid,Sitobion avenae,plant - aphid,83060,host-parasite
+Cerastium fontanum,plant - aphid,Myzus persicae,plant - aphid,98180,host-parasite
+Cirsium arvense,plant - aphid,Capitophorus elaeagnii,plant - aphid,403500,host-parasite
+Cirsium arvense,plant - aphid,Uroleucon aeneum,plant - aphid,96720000,host-parasite
+Cirsium arvense,plant - aphid,Uroleucon cirsii,plant - aphid,66560000,host-parasite
+Cirsium vulgare,plant - aphid,Hyperomyzus lactucae,plant - aphid,828500,host-parasite
+Corylus avellana,plant - aphid,Myzocallis coryli,plant - aphid,1597,host-parasite
+Crataegus monogyna,plant - aphid,Dysaphis species 1,plant - aphid,145.1,host-parasite
+Euonymus europaeus,plant - aphid,Aphis fabae,plant - aphid,725.7,host-parasite
+Galium aparine,plant - aphid,Aphis galiiscabri,plant - aphid,442800,host-parasite
+Heracleum sphondylium,plant - aphid,Cavariella aegopodii,plant - aphid,1703000,host-parasite
+Lamiastrum galeobdolon,plant - aphid,Aphid species 1,plant - aphid,2486,host-parasite
+Matricaria discoidea,plant - aphid,Brachycaudus helichrysii,plant - aphid,605300,host-parasite
+Matricaria recutita,plant - aphid,Brachycaudus helichrysii,plant - aphid,114500000,host-parasite
+Myosotis arvensis,plant - aphid,Brachycaudus helichrysii,plant - aphid,5374000,host-parasite
+Plantago sp.,plant - aphid,Brachycaudus helichrysii,plant - aphid,23810,host-parasite
+Poaceae,plant - aphid,Cavariella aegopodii,plant - aphid,8218,host-parasite
+Poaceae,plant - aphid,Metopolophium dihrodum,plant - aphid,51570,host-parasite
+Poaceae,plant - aphid,Sipha maydis,plant - aphid,29890000,host-parasite
+Poaceae,plant - aphid,Sitobion avenae,plant - aphid,22120000,host-parasite
+Prunus spinosa,plant - aphid,Phorodon humuli,plant - aphid,11320,host-parasite
+Ranunculus repens,plant - aphid,Tubaphis ranunculina,plant - aphid,1206000,host-parasite
+Rosa sp.,plant - aphid,Sitobion fragariae,plant - aphid,34460,host-parasite
+Rubus fruticosus,plant - aphid,Macrosiphum funestum,plant - aphid,104500,host-parasite
+Rumex sp.,plant - aphid,Aphis rumicis,plant - aphid,9202000,host-parasite
+Scrophularia auriculata,plant - aphid,Myzus persicae,plant - aphid,2761,host-parasite
+Sinapis arvensis,plant - aphid,Lipaphys erysimi,plant - aphid,2010000,host-parasite
+Sonchus asper/oleraceus,plant - aphid,Hyperomyzus lactucae,plant - aphid,1225000,host-parasite
+Sonchus asper/oleraceus,plant - aphid,Uroleucon sonchi,plant - aphid,322600,host-parasite
+Stachys sylvatica,plant - aphid,Cryptomyzus korschelti,plant - aphid,6629,host-parasite
+Trifolium pratense/repens,plant - aphid,Acyrthosiphon pisum,plant - aphid,297700,host-parasite
+Trifolium pratense/repens,plant - aphid,Therioaphis trifoli,plant - aphid,60490,host-parasite
+Triticum aestivum,plant - aphid,Sitobion avenae,plant - aphid,15280000,host-parasite
+Urtica dioica,plant - aphid,Aphis urticae,plant - aphid,5252,host-parasite
+Urtica dioica,plant - aphid,Microlophium carnosum,plant - aphid,142500,host-parasite
+Veronica arvensis,plant - aphid,Nasonvoia ribisnigri,plant - aphid,194900,host-parasite
+<d7> Triticosecale,plant - primary aphid parasitoid,Aphidius picipes?,plant - primary aphid parasitoid,12850,host-parasite
+<d7> Triticosecale,plant - primary aphid parasitoid,Ephedrus plagiator,plant - primary aphid parasitoid,8568,host-parasite
+<d7> Triticosecale,plant - primary aphid parasitoid,Praon volucre,plant - primary aphid parasitoid,8568,host-parasite
+Avena sativa winter-sown,plant - primary aphid parasitoid,Aphidius matricariae,plant - primary aphid parasitoid,12460,host-parasite
+Avena sativa winter-sown,plant - primary aphid parasitoid,Aphidius picipes?,plant - primary aphid parasitoid,12460,host-parasite
+Avena sativa winter-sown,plant - primary aphid parasitoid,Aphidius rhopalosiphi?,plant - primary aphid parasitoid,20770,host-parasite
+Avena sativa winter-sown,plant - primary aphid parasitoid,Ephedrus plagiator,plant - primary aphid parasitoid,8306,host-parasite
+Lamiastrum galeobdolon,plant - primary aphid parasitoid,Praon exoletum?,plant - primary aphid parasitoid,828.6,host-parasite
+Matricaria discoidea,plant - primary aphid parasitoid,Aphidius matricariae,plant - primary aphid parasitoid,552.3,host-parasite
+Matricaria discoidea,plant - primary aphid parasitoid,Aphidius rhopalosiphi?,plant - primary aphid parasitoid,2209,host-parasite
+Matricaria recutita,plant - primary aphid parasitoid,Aphidius matricariae,plant - primary aphid parasitoid,12460,host-parasite
+Poaceae,plant - primary aphid parasitoid,Aphidius ervi,plant - primary aphid parasitoid,67640,host-parasite
+Poaceae,plant - primary aphid parasitoid,Aphidius funebris,plant - primary aphid parasitoid,552.3,host-parasite
+Poaceae,plant - primary aphid parasitoid,Aphidius picipes?,plant - primary aphid parasitoid,25100,host-parasite
+Poaceae,plant - primary aphid parasitoid,Aphidius rhopalosiphi?,plant - primary aphid parasitoid,2383,host-parasite
+Poaceae,plant - primary aphid parasitoid,Ephedrus plagiator,plant - primary aphid parasitoid,50440,host-parasite
+Poaceae,plant - primary aphid parasitoid,Praon volucre,plant - primary aphid parasitoid,24550,host-parasite
+Ranunculus repens,plant - primary aphid parasitoid,Praon exoletum?,plant - primary aphid parasitoid,8568,host-parasite
+Ranunculus repens,plant - primary aphid parasitoid,Praon sp nr flavinode,plant - primary aphid parasitoid,12330,host-parasite
+Ranunculus repens,plant - primary aphid parasitoid,Praon volucre,plant - primary aphid parasitoid,24550,host-parasite
+Rubus fruticosus,plant - primary aphid parasitoid,Aphidius ervi,plant - primary aphid parasitoid,328.2,host-parasite
+Sonchus asper/oleraceus,plant - primary aphid parasitoid,Aphidius ervi,plant - primary aphid parasitoid,10080,host-parasite
+Trifolium pratense/repens,plant - primary aphid parasitoid,Aphidius ervi,plant - primary aphid parasitoid,94600,host-parasite
+Trifolium pratense/repens,plant - primary aphid parasitoid,Aphidius rhopalosiphi?,plant - primary aphid parasitoid,6722,host-parasite
+Trifolium pratense/repens,plant - primary aphid parasitoid,Praon dorsale?,plant - primary aphid parasitoid,6722,host-parasite
+Triticum aestivum,plant - primary aphid parasitoid,Aphidius ervi,plant - primary aphid parasitoid,98180,host-parasite
+Triticum aestivum,plant - primary aphid parasitoid,Aphidius picipes?,plant - primary aphid parasitoid,24550,host-parasite
+Triticum aestivum,plant - primary aphid parasitoid,Aphidius rhopalosiphi?,plant - primary aphid parasitoid,73640,host-parasite
+Triticum aestivum,plant - primary aphid parasitoid,Ephedrus plagiator,plant - primary aphid parasitoid,49090,host-parasite
+Triticum aestivum,plant - primary aphid parasitoid,Praon volucre,plant - primary aphid parasitoid,73640,host-parasite
+Urtica dioica,plant - primary aphid parasitoid,Aphidius ervi,plant - primary aphid parasitoid,1157,host-parasite
+Urtica dioica,plant - primary aphid parasitoid,Trioxys B,plant - primary aphid parasitoid,1657,host-parasite
+Avena sativa winter-sown,plant - secondary aphid parasitoid,Alloxysta victrix,plant - secondary aphid parasitoid,8306,host-parasite
+Avena sativa winter-sown,plant - secondary aphid parasitoid,Asaphes suspensus,plant - secondary aphid parasitoid,12460,host-parasite
+Cirsium arvense,plant - secondary aphid parasitoid,Alloxysta victrix,plant - secondary aphid parasitoid,552.3,host-parasite
+Crataegus monogyna,plant - secondary aphid parasitoid,Alloxysta victrix,plant - secondary aphid parasitoid,145.1,host-parasite
+Lamiastrum galeobdolon,plant - secondary aphid parasitoid,Dendrocerus aphidum,plant - secondary aphid parasitoid,828.6,host-parasite
+Matricaria discoidea,plant - secondary aphid parasitoid,Asaphes suspensus,plant - secondary aphid parasitoid,30930,host-parasite
+Matricaria discoidea,plant - secondary aphid parasitoid,Dendrocerus aphidum,plant - secondary aphid parasitoid,1657,host-parasite
+Matricaria discoidea,plant - secondary aphid parasitoid,Dendrocerus carpenteri,plant - secondary aphid parasitoid,552.3,host-parasite
+Myosotis arvensis,plant - secondary aphid parasitoid,Alloxysta victrix,plant - secondary aphid parasitoid,8306,host-parasite
+Myosotis arvensis,plant - secondary aphid parasitoid,Asaphes suspensus,plant - secondary aphid parasitoid,58140,host-parasite
+Myosotis arvensis,plant - secondary aphid parasitoid,Dendrocerus aphidum,plant - secondary aphid parasitoid,8306,host-parasite
+Poaceae,plant - secondary aphid parasitoid,Alloxysta victrix,plant - secondary aphid parasitoid,52300,host-parasite
+Poaceae,plant - secondary aphid parasitoid,Asaphes suspensus,plant - secondary aphid parasitoid,9903,host-parasite
+Poaceae,plant - secondary aphid parasitoid,Asaphes vulgaris,plant - secondary aphid parasitoid,9278,host-parasite
+Poaceae,plant - secondary aphid parasitoid,Coruna clavata,plant - secondary aphid parasitoid,72.57,host-parasite
+Poaceae,plant - secondary aphid parasitoid,Dendrocerus aphidum,plant - secondary aphid parasitoid,39910,host-parasite
+Poaceae,plant - secondary aphid parasitoid,Dendrocerus carpenteri,plant - secondary aphid parasitoid,2241,host-parasite
+Poaceae,plant - secondary aphid parasitoid,Pachyneuron sp,plant - secondary aphid parasitoid,552.3,host-parasite
+Prunus spinosa,plant - secondary aphid parasitoid,Asaphes vulgaris,plant - secondary aphid parasitoid,328.2,host-parasite
+Prunus spinosa,plant - secondary aphid parasitoid,Dendrocerus carpenteri,plant - secondary aphid parasitoid,218.8,host-parasite
+Ranunculus repens,plant - secondary aphid parasitoid,Alloxysta victrix,plant - secondary aphid parasitoid,5291,host-parasite
+Rumex sp.,plant - secondary aphid parasitoid,Dendrocerus carpenteri,plant - secondary aphid parasitoid,108000,host-parasite
+Trifolium pratense/repens,plant - secondary aphid parasitoid,Alloxysta victrix,plant - secondary aphid parasitoid,67220,host-parasite
+Trifolium pratense/repens,plant - secondary aphid parasitoid,Asaphes suspensus,plant - secondary aphid parasitoid,82150,host-parasite
+Trifolium pratense/repens,plant - secondary aphid parasitoid,Asaphes vulgaris,plant - secondary aphid parasitoid,26890,host-parasite
+Trifolium pratense/repens,plant - secondary aphid parasitoid,Dendrocerus carpenteri,plant - secondary aphid parasitoid,6722,host-parasite
+Triticum aestivum,plant - secondary aphid parasitoid,Alloxysta victrix,plant - secondary aphid parasitoid,139100,host-parasite
+Triticum aestivum,plant - secondary aphid parasitoid,Asaphes suspensus,plant - secondary aphid parasitoid,212700,host-parasite
+Triticum aestivum,plant - secondary aphid parasitoid,Asaphes vulgaris,plant - secondary aphid parasitoid,49090,host-parasite
+Triticum aestivum,plant - secondary aphid parasitoid,Dendrocerus carpenteri,plant - secondary aphid parasitoid,294600,host-parasite
+Urtica dioica,plant - secondary aphid parasitoid,Alloxysta victrix,plant - secondary aphid parasitoid,875.3,host-parasite
+<d7> Triticosecale,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,3868,host-parasite
+<d7> Triticosecale,plant - leaf-miner parasitoid,Seladerma diffine,plant - leaf-miner parasitoid,3868,host-parasite
+Acer campestre,plant - leaf-miner parasitoid,Achrysocharoides acerianus,plant - leaf-miner parasitoid,11290,host-parasite
+Acer campestre,plant - leaf-miner parasitoid,Microgastrinae sp,plant - leaf-miner parasitoid,5647,host-parasite
+Anthriscus sylvestris,plant - leaf-miner parasitoid,Dacnusa maculipes/confinis,plant - leaf-miner parasitoid,656.5,host-parasite
+Anthriscus sylvestris,plant - leaf-miner parasitoid,Exotela cyclogaster,plant - leaf-miner parasitoid,218.8,host-parasite
+Anthriscus sylvestris,plant - leaf-miner parasitoid,Miscogaster maculata,plant - leaf-miner parasitoid,656.5,host-parasite
+Arctium minus,plant - leaf-miner parasitoid,Anagrus sp A,plant - leaf-miner parasitoid,828.6,host-parasite
+Arctium minus,plant - leaf-miner parasitoid,Chrysocharis viridis,plant - leaf-miner parasitoid,2486,host-parasite
+Avena sativa spring-sown,plant - leaf-miner parasitoid,Dacnusa maculipes/confinis,plant - leaf-miner parasitoid,16010,host-parasite
+Avena sativa spring-sown,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,28010,host-parasite
+Bellis perennis,plant - leaf-miner parasitoid,Desmiostoma parvulum,plant - leaf-miner parasitoid,49310,host-parasite
+Cerastium fontanum,plant - leaf-miner parasitoid,Pnigalio soemius,plant - leaf-miner parasitoid,19300,host-parasite
+Chaerophyllum temulum,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,828.6,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Alysiinae sp,plant - leaf-miner parasitoid,3868,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Anagrus sp B,plant - leaf-miner parasitoid,19000,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Asaphes suspensus,plant - leaf-miner parasitoid,6391,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Campoplex sp,plant - leaf-miner parasitoid,96.76,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Chelonus sp,plant - leaf-miner parasitoid,1542,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Chelonus sp aff rimatus,plant - leaf-miner parasitoid,656.5,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Chrysocharis orbicularis,plant - leaf-miner parasitoid,4087,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Chrysocharis pubicornis,plant - leaf-miner parasitoid,24630,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Chrysocharis viridis,plant - leaf-miner parasitoid,66060,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Cyrtogaster vulgaris,plant - leaf-miner parasitoid,7018,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Dacnusa areolaris,plant - leaf-miner parasitoid,19550,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Dacnusa maculipes/confinis,plant - leaf-miner parasitoid,18950,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Dacnusa tarsalis,plant - leaf-miner parasitoid,355000,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,410200,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Exotela spinifer,plant - leaf-miner parasitoid,1906,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Forsterella sp,plant - leaf-miner parasitoid,2199,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Gelis bicolor,plant - leaf-miner parasitoid,1542,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Hemiptarsenus dropion,plant - leaf-miner parasitoid,96.76,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Hemiptarsenus unguicellus,plant - leaf-miner parasitoid,6163,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Miscogaster maculata,plant - leaf-miner parasitoid,96.76,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Opius sensu stricto lugens,plant - leaf-miner parasitoid,13380,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Phaedrotoma exigua,plant - leaf-miner parasitoid,6391,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Pnigalio soemius,plant - leaf-miner parasitoid,72.57,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Seladerma diffine,plant - leaf-miner parasitoid,679100,host-parasite
+Cirsium arvense,plant - leaf-miner parasitoid,Seladerma tarsale,plant - leaf-miner parasitoid,27320,host-parasite
+Cirsium vulgare,plant - leaf-miner parasitoid,Dacnusa maculipes/confinis,plant - leaf-miner parasitoid,437.6,host-parasite
+Cirsium vulgare,plant - leaf-miner parasitoid,Dacnusa tarsalis,plant - leaf-miner parasitoid,655.4,host-parasite
+Cirsium vulgare,plant - leaf-miner parasitoid,Opiinae sp,plant - leaf-miner parasitoid,552.3,host-parasite
+Cirsium vulgare,plant - leaf-miner parasitoid,Seladerma diffine,plant - leaf-miner parasitoid,552.3,host-parasite
+Corylus avellana,plant - leaf-miner parasitoid,Colastes braconius,plant - leaf-miner parasitoid,828.6,host-parasite
+Crataegus monogyna,plant - leaf-miner parasitoid,Achrysocharoides atys,plant - leaf-miner parasitoid,1531,host-parasite
+Crataegus monogyna,plant - leaf-miner parasitoid,Chrysocharis pentheus,plant - leaf-miner parasitoid,193.5,host-parasite
+Crataegus monogyna,plant - leaf-miner parasitoid,Pnigalio soemius,plant - leaf-miner parasitoid,96.76,host-parasite
+Crataegus monogyna,plant - leaf-miner parasitoid,Sympiesis sericeicornis,plant - leaf-miner parasitoid,828.6,host-parasite
+Dipsacus fullonum,plant - leaf-miner parasitoid,Anagrus sp C,plant - leaf-miner parasitoid,552.3,host-parasite
+Dipsacus fullonum,plant - leaf-miner parasitoid,Chorebus tanis,plant - leaf-miner parasitoid,552.3,host-parasite
+Glechoma hederacea,plant - leaf-miner parasitoid,Colastes braconius,plant - leaf-miner parasitoid,218.8,host-parasite
+Heracleum sphondylium,plant - leaf-miner parasitoid,Aphanogmus sp,plant - leaf-miner parasitoid,552.3,host-parasite
+Heracleum sphondylium,plant - leaf-miner parasitoid,Apodesmia ocellata,plant - leaf-miner parasitoid,771.1,host-parasite
+Heracleum sphondylium,plant - leaf-miner parasitoid,Chrysocharis pentheus,plant - leaf-miner parasitoid,552.3,host-parasite
+Heracleum sphondylium,plant - leaf-miner parasitoid,Chrysocharis viridis,plant - leaf-miner parasitoid,6722,host-parasite
+Heracleum sphondylium,plant - leaf-miner parasitoid,Colastes braconius,plant - leaf-miner parasitoid,291.8,host-parasite
+Heracleum sphondylium,plant - leaf-miner parasitoid,Dacnusa laevipectus,plant - leaf-miner parasitoid,9204,host-parasite
+Heracleum sphondylium,plant - leaf-miner parasitoid,Dacnusa maculipes/confinis,plant - leaf-miner parasitoid,1657,host-parasite
+Heracleum sphondylium,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,16260,host-parasite
+Heracleum sphondylium,plant - leaf-miner parasitoid,Exotela cyclogaster,plant - leaf-miner parasitoid,510.6,host-parasite
+Heracleum sphondylium,plant - leaf-miner parasitoid,Synopeas rhanis,plant - leaf-miner parasitoid,552.3,host-parasite
+Hordeum vulgare,plant - leaf-miner parasitoid,Cirrospilus vittatus,plant - leaf-miner parasitoid,4002,host-parasite
+Hordeum vulgare,plant - leaf-miner parasitoid,Dacnusa maculipes/confinis,plant - leaf-miner parasitoid,4002,host-parasite
+Hordeum vulgare,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,16010,host-parasite
+Hordeum vulgare,plant - leaf-miner parasitoid,Hemiptarsenus unguicellus,plant - leaf-miner parasitoid,8004,host-parasite
+Lonicera periclymenum,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,218.8,host-parasite
+Medicago sativa ssp. sativa,plant - leaf-miner parasitoid,Chrysocharis pentheus,plant - leaf-miner parasitoid,19000,host-parasite
+Medicago sativa ssp. sativa,plant - leaf-miner parasitoid,Dacnusa maculipes/confinis,plant - leaf-miner parasitoid,6333,host-parasite
+Medicago sativa ssp. sativa,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,139300,host-parasite
+Medicago sativa ssp. sativa,plant - leaf-miner parasitoid,Pnigalio soemius,plant - leaf-miner parasitoid,6333,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Alysiinae sp,plant - leaf-miner parasitoid,14780,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Apodesmia irregularis,plant - leaf-miner parasitoid,3314,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Apodesmia similis,plant - leaf-miner parasitoid,12410,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Bracon sp,plant - leaf-miner parasitoid,1105,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Chorebus A,plant - leaf-miner parasitoid,218.8,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Chorebus aphantus,plant - leaf-miner parasitoid,99530,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Chorebus B,plant - leaf-miner parasitoid,4700,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Chorebus C,plant - leaf-miner parasitoid,552.3,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Chorebus E,plant - leaf-miner parasitoid,3314,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Chrysocharis orbicularis,plant - leaf-miner parasitoid,3314,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Chrysocharis pentheus,plant - leaf-miner parasitoid,7706,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Chrysocharis polyzo,plant - leaf-miner parasitoid,1774,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Chrysocharis pubicornis,plant - leaf-miner parasitoid,65830,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Colastes braconius,plant - leaf-miner parasitoid,13630,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Coloneura (ate),plant - leaf-miner parasitoid,72.57,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Cyrtogaster vulgaris,plant - leaf-miner parasitoid,107300,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Dacnusa adducta,plant - leaf-miner parasitoid,218.8,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Dacnusa areolaris,plant - leaf-miner parasitoid,102800,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Dacnusa maculipes/confinis,plant - leaf-miner parasitoid,217300,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Dacnusa tarsalis,plant - leaf-miner parasitoid,16570,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Dapsilarthra rufiventris,plant - leaf-miner parasitoid,24450,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Diglyphus chabrias,plant - leaf-miner parasitoid,218.8,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,225200,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Epiclerus temenus,plant - leaf-miner parasitoid,145.1,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Eulophinae sp,plant - leaf-miner parasitoid,24970,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Exotela flavicoxa,plant - leaf-miner parasitoid,828.6,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Forsterella sp,plant - leaf-miner parasitoid,1657,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Gelis anthracinus,plant - leaf-miner parasitoid,1542,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Hemiptarsenus dropion,plant - leaf-miner parasitoid,31380,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Hemiptarsenus fulvicollis,plant - leaf-miner parasitoid,57340,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Hemiptarsenus unguicellus,plant - leaf-miner parasitoid,122100,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Miscogaster maculata,plant - leaf-miner parasitoid,27140,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Opiinae sp,plant - leaf-miner parasitoid,7964,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Pediobius acantha,plant - leaf-miner parasitoid,1915,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Phaedrotoma exigua,plant - leaf-miner parasitoid,8841,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Phaedrotoma variegata,plant - leaf-miner parasitoid,1657,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Pnigalio soemius,plant - leaf-miner parasitoid,8309,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Seladerma diffine,plant - leaf-miner parasitoid,5161,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Seladerma tarsale,plant - leaf-miner parasitoid,87300,host-parasite
+Poaceae,plant - leaf-miner parasitoid,Torymus sp,plant - leaf-miner parasitoid,218.8,host-parasite
+Potentilla reptans,plant - leaf-miner parasitoid,Bracon sp,plant - leaf-miner parasitoid,1657,host-parasite
+Potentilla reptans,plant - leaf-miner parasitoid,Colastes sp aff braconius,plant - leaf-miner parasitoid,1657,host-parasite
+Prunus spinosa,plant - leaf-miner parasitoid,Adelius sp,plant - leaf-miner parasitoid,218.8,host-parasite
+Prunus spinosa,plant - leaf-miner parasitoid,Apanteles circumscriptus,plant - leaf-miner parasitoid,583.5,host-parasite
+Prunus spinosa,plant - leaf-miner parasitoid,Bracon sp,plant - leaf-miner parasitoid,218.8,host-parasite
+Prunus spinosa,plant - leaf-miner parasitoid,Chrysocharis pentheus,plant - leaf-miner parasitoid,580.6,host-parasite
+Prunus spinosa,plant - leaf-miner parasitoid,Chrysocharis prodice,plant - leaf-miner parasitoid,437.6,host-parasite
+Prunus spinosa,plant - leaf-miner parasitoid,Cirrospilus vittatus,plant - leaf-miner parasitoid,2129,host-parasite
+Prunus spinosa,plant - leaf-miner parasitoid,Diadegma crataegi,plant - leaf-miner parasitoid,583.5,host-parasite
+Prunus spinosa,plant - leaf-miner parasitoid,Eulophinae sp,plant - leaf-miner parasitoid,96.76,host-parasite
+Prunus spinosa,plant - leaf-miner parasitoid,Microgastrinae sp,plant - leaf-miner parasitoid,291.8,host-parasite
+Prunus spinosa,plant - leaf-miner parasitoid,Pnigalio soemius,plant - leaf-miner parasitoid,2032,host-parasite
+Pulicaria dysenterica,plant - leaf-miner parasitoid,Bracon sp,plant - leaf-miner parasitoid,6163,host-parasite
+Pulicaria dysenterica,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,36980,host-parasite
+Pulicaria dysenterica,plant - leaf-miner parasitoid,Phaedrotoma exigua,plant - leaf-miner parasitoid,6163,host-parasite
+Pulicaria dysenterica,plant - leaf-miner parasitoid,Seladerma diffine,plant - leaf-miner parasitoid,6163,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Achrysocharoides butus,plant - leaf-miner parasitoid,148900,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Achrysocharoides latreillei,plant - leaf-miner parasitoid,271100,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Anagrus sp A,plant - leaf-miner parasitoid,48330,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Chrysocharis laomedon,plant - leaf-miner parasitoid,93500,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Cirrospilus diallus,plant - leaf-miner parasitoid,947400,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Cirrospilus lyncus,plant - leaf-miner parasitoid,128700,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Dacnusa areolaris,plant - leaf-miner parasitoid,6580,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Dacnusa maculipes/confinis,plant - leaf-miner parasitoid,6580,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,19740,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Eulophinae sp,plant - leaf-miner parasitoid,220100,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Microgastrinae sp,plant - leaf-miner parasitoid,314100,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Opius sensu stricto,plant - leaf-miner parasitoid,13160,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Pediobius saulius,plant - leaf-miner parasitoid,48330,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Pnigalio agraules,plant - leaf-miner parasitoid,48330,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Sympiesis gordius,plant - leaf-miner parasitoid,272300,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Sympiesis sericeicornis,plant - leaf-miner parasitoid,427100,host-parasite
+Quercus robur,plant - leaf-miner parasitoid,Trioxys A,plant - leaf-miner parasitoid,106800,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Alysiinae sp,plant - leaf-miner parasitoid,3868,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Anagrus sp A,plant - leaf-miner parasitoid,3290,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Aphanogmus microneurus,plant - leaf-miner parasitoid,6580,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Apodesmia A,plant - leaf-miner parasitoid,32230,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Apodesmia curvata,plant - leaf-miner parasitoid,9974,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Apodesmia similis,plant - leaf-miner parasitoid,32120,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Ascogaster varipes,plant - leaf-miner parasitoid,96.76,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Chorebus fallaciosae,plant - leaf-miner parasitoid,204900,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Chrysocharis orbicularis,plant - leaf-miner parasitoid,15430,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Chrysocharis pentheus,plant - leaf-miner parasitoid,23310,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Chrysocharis pubicornis,plant - leaf-miner parasitoid,4686,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Chrysocharis viridis,plant - leaf-miner parasitoid,9264,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Cyrtogaster vulgaris,plant - leaf-miner parasitoid,1542,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Dacnusa areolaris,plant - leaf-miner parasitoid,1542,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Dacnusa laevipectus,plant - leaf-miner parasitoid,218.8,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Dacnusa macrospila,plant - leaf-miner parasitoid,83940,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Dacnusa maculipes/confinis,plant - leaf-miner parasitoid,85540,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Dapsilarthra rufiventris,plant - leaf-miner parasitoid,3868,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,413500,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Epiclerus temenus,plant - leaf-miner parasitoid,1542,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Eulophinae sp,plant - leaf-miner parasitoid,33290,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Exotela gilvipes,plant - leaf-miner parasitoid,6163,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Hemiptarsenus dropion,plant - leaf-miner parasitoid,9112,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Hemiptarsenus unguicellus,plant - leaf-miner parasitoid,1542,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Opius sp,plant - leaf-miner parasitoid,17430,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Phaedrotoma exigua,plant - leaf-miner parasitoid,31630,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Pnigalio soemius,plant - leaf-miner parasitoid,20580,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Seladerma diffine,plant - leaf-miner parasitoid,59030,host-parasite
+Ranunculus repens,plant - leaf-miner parasitoid,Seladerma tarsale,plant - leaf-miner parasitoid,2609,host-parasite
+Rubus fruticosus,plant - leaf-miner parasitoid,Adelius sp,plant - leaf-miner parasitoid,771.1,host-parasite
+Rubus fruticosus,plant - leaf-miner parasitoid,Chrysocharis pentheus,plant - leaf-miner parasitoid,218.8,host-parasite
+Rubus fruticosus,plant - leaf-miner parasitoid,Chrysocharis prodice,plant - leaf-miner parasitoid,1876,host-parasite
+Rubus fruticosus,plant - leaf-miner parasitoid,Colastes braconius,plant - leaf-miner parasitoid,828.6,host-parasite
+Rubus fruticosus,plant - leaf-miner parasitoid,Pnigalio soemius,plant - leaf-miner parasitoid,828.6,host-parasite
+Rumex sp.,plant - leaf-miner parasitoid,Adelurola florimela,plant - leaf-miner parasitoid,729.4,host-parasite
+Rumex sp.,plant - leaf-miner parasitoid,Apodesmia rufipes,plant - leaf-miner parasitoid,96.76,host-parasite
+Rumex sp.,plant - leaf-miner parasitoid,Bracon sp,plant - leaf-miner parasitoid,218.8,host-parasite
+Sinapis arvensis,plant - leaf-miner parasitoid,Chrysocharis chilo,plant - leaf-miner parasitoid,4002,host-parasite
+Sinapis arvensis,plant - leaf-miner parasitoid,Dacnusa temula,plant - leaf-miner parasitoid,16010,host-parasite
+Sinapis arvensis,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,4002,host-parasite
+Sinapis arvensis,plant - leaf-miner parasitoid,Pnigalio soemius,plant - leaf-miner parasitoid,8004,host-parasite
+Sonchus asper/oleraceus,plant - leaf-miner parasitoid,Chelonus scabrosus,plant - leaf-miner parasitoid,96.76,host-parasite
+Sonchus asper/oleraceus,plant - leaf-miner parasitoid,Chorebus leptogaster,plant - leaf-miner parasitoid,18720,host-parasite
+Sonchus asper/oleraceus,plant - leaf-miner parasitoid,Chrysocharis pentheus,plant - leaf-miner parasitoid,3290,host-parasite
+Sonchus asper/oleraceus,plant - leaf-miner parasitoid,Chrysocharis pubicornis,plant - leaf-miner parasitoid,3290,host-parasite
+Sonchus asper/oleraceus,plant - leaf-miner parasitoid,Dacnusa areolaris,plant - leaf-miner parasitoid,6391,host-parasite
+Sonchus asper/oleraceus,plant - leaf-miner parasitoid,Dacnusa maculipes/confinis,plant - leaf-miner parasitoid,6391,host-parasite
+Sonchus asper/oleraceus,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,34160,host-parasite
+Sonchus asper/oleraceus,plant - leaf-miner parasitoid,Hemiptarsenus dropion,plant - leaf-miner parasitoid,4002,host-parasite
+Sonchus asper/oleraceus,plant - leaf-miner parasitoid,Ionympha carne,plant - leaf-miner parasitoid,4002,host-parasite
+Sonchus asper/oleraceus,plant - leaf-miner parasitoid,Phaedrotoma exigua,plant - leaf-miner parasitoid,6580,host-parasite
+Sonchus asper/oleraceus,plant - leaf-miner parasitoid,Seladerma diffine,plant - leaf-miner parasitoid,15430,host-parasite
+Sonchus asper/oleraceus,plant - leaf-miner parasitoid,Seladerma tarsale,plant - leaf-miner parasitoid,15430,host-parasite
+Trifolium pratense/repens,plant - leaf-miner parasitoid,Chrysocharis orbicularis,plant - leaf-miner parasitoid,3290,host-parasite
+Trifolium pratense/repens,plant - leaf-miner parasitoid,Chrysocharis polyzo,plant - leaf-miner parasitoid,2057,host-parasite
+Trifolium pratense/repens,plant - leaf-miner parasitoid,Chrysocharis viridis,plant - leaf-miner parasitoid,1105,host-parasite
+Trifolium pratense/repens,plant - leaf-miner parasitoid,Colastes braconius,plant - leaf-miner parasitoid,3290,host-parasite
+Trifolium pratense/repens,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,55370,host-parasite
+Trifolium pratense/repens,plant - leaf-miner parasitoid,Eulophinae sp,plant - leaf-miner parasitoid,24560,host-parasite
+Trifolium pratense/repens,plant - leaf-miner parasitoid,Hemiptarsenus unguicellus,plant - leaf-miner parasitoid,10310,host-parasite
+Trifolium pratense/repens,plant - leaf-miner parasitoid,Opius sensu stricto lugens,plant - leaf-miner parasitoid,8218,host-parasite
+Trifolium pratense/repens,plant - leaf-miner parasitoid,Pnigalio soemius,plant - leaf-miner parasitoid,8218,host-parasite
+Triticum aestivum,plant - leaf-miner parasitoid,Chorebus B,plant - leaf-miner parasitoid,15430,host-parasite
+Ulmus sp.,plant - leaf-miner parasitoid,Anagrus sp A,plant - leaf-miner parasitoid,4168,host-parasite
+Ulmus sp.,plant - leaf-miner parasitoid,Bracon sp,plant - leaf-miner parasitoid,218.8,host-parasite
+Urtica dioica,plant - leaf-miner parasitoid,Anagrus sp A,plant - leaf-miner parasitoid,6629,host-parasite
+Urtica dioica,plant - leaf-miner parasitoid,Chorebus lateralis,plant - leaf-miner parasitoid,828.6,host-parasite
+Urtica dioica,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,828.6,host-parasite
+Urtica dioica,plant - leaf-miner parasitoid,Miscogaster hortensis,plant - leaf-miner parasitoid,828.6,host-parasite
+Urtica dioica,plant - leaf-miner parasitoid,Pnigalio soemius,plant - leaf-miner parasitoid,96.76,host-parasite
+Veronica arvensis,plant - leaf-miner parasitoid,Chorebus amasis,plant - leaf-miner parasitoid,13160,host-parasite
+Veronica persica,plant - leaf-miner parasitoid,Chorebus amasis,plant - leaf-miner parasitoid,7292,host-parasite
+Veronica persica,plant - leaf-miner parasitoid,Chrysocharis orbicularis,plant - leaf-miner parasitoid,3290,host-parasite
+Veronica persica,plant - leaf-miner parasitoid,Phaedrotoma exigua,plant - leaf-miner parasitoid,4002,host-parasite
+Vicia sativa,plant - leaf-miner parasitoid,Chrysocharis pubicornis,plant - leaf-miner parasitoid,552.3,host-parasite
+Vicia sativa,plant - leaf-miner parasitoid,Diglyphus isaea,plant - leaf-miner parasitoid,2761,host-parasite
+Cirsium arvense,plant - seed-feeding insect,Terellia ruficauda,plant - seed-feeding insect,43140,trophic
+Cirsium arvense,plant - seed-feeding insect,Urophora stylata,plant - seed-feeding insect,552.3,trophic
+Cirsium vulgare,plant - seed-feeding insect,Curtonotus aulicus,plant - seed-feeding insect,552.3,trophic
+Cirsium vulgare,plant - seed-feeding insect,Olibrus aeneus,plant - seed-feeding insect,552.3,trophic
+Cirsium vulgare,plant - seed-feeding insect,Rhinocyllus conicus,plant - seed-feeding insect,552.3,trophic
+Cirsium vulgare,plant - seed-feeding insect,Terellia longicauda,plant - seed-feeding insect,291.8,trophic
+Cirsium vulgare,plant - seed-feeding insect,Terellia serratulae,plant - seed-feeding insect,11110,trophic
+Cirsium vulgare,plant - seed-feeding insect,Urophora stylata,plant - seed-feeding insect,72690,trophic
+Crataegus monogyna,plant - seed-feeding insect,Blastodacna hellerella,plant - seed-feeding insect,1323,trophic
+Trifolium dubium,plant - seed-feeding insect,Protapion nigritarse,plant - seed-feeding insect,8218,trophic
+Trifolium pratense/repens,plant - seed-feeding insect,Bruchidius varius,plant - seed-feeding insect,1105,trophic
+Trifolium pratense/repens,plant - seed-feeding insect,Bruchophagus gibbus,plant - seed-feeding insect,65740,trophic
+Trifolium pratense/repens,plant - seed-feeding insect,Protapion apricans,plant - seed-feeding insect,92240,trophic
+Trifolium pratense/repens,plant - seed-feeding insect,Protapion assimile,plant - seed-feeding insect,131600,trophic
+Trifolium pratense/repens,plant - seed-feeding insect,Protapion fulvipes,plant - seed-feeding insect,748200,trophic
+Trifolium pratense/repens,plant - seed-feeding insect,Protapion trifolii,plant - seed-feeding insect,466100,trophic
+Trifolium pratense/repens,plant - seed-feeding insect,Protapion varipes,plant - seed-feeding insect,552.3,trophic
+Trifolium pratense/repens,plant - seed-feeding insect,Sitona lineatus,plant - seed-feeding insect,552.3,trophic
+Trifolium pratense/repens,plant - seed-feeding insect,Sitona sulcifrons,plant - seed-feeding insect,552.3,trophic
+Vicia sativa,plant - seed-feeding insect,Oxystoma pomonae,plant - seed-feeding insect,6075,trophic
+Acer campestre,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.7227,trophic
+Allium ursinum,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,0.03122,trophic
+Allium ursinum,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.2037,trophic
+Allium ursinum,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.02802,trophic
+Allium ursinum,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.08777,trophic
+Allium ursinum,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.3641,trophic
+Allium ursinum,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0211,trophic
+Allium ursinum,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.006996,trophic
+Anthriscus sylvestris,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.00596,trophic
+Anthriscus sylvestris,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,9.44e-4,trophic
+Anthriscus sylvestris,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.0219,trophic
+Anthriscus sylvestris,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.002356,trophic
+Anthriscus sylvestris,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.00817,trophic
+Anthriscus sylvestris,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.01675,trophic
+Anthriscus sylvestris,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.002676,trophic
+Anthriscus sylvestris,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,1.31e-4,trophic
+Arctium minus,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,1.26e-4,trophic
+Arctium minus,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,1.85e-5,trophic
+Arctium minus,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.00396,trophic
+Arctium minus,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,3.34e-4,trophic
+Arctium minus,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,1.33e-5,trophic
+Capsella bursa-pastoris,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.2661,trophic
+Capsella bursa-pastoris,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.3262,trophic
+Capsella bursa-pastoris,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.7611,trophic
+Capsella bursa-pastoris,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.335,trophic
+Capsella bursa-pastoris,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,1.485,trophic
+Capsella bursa-pastoris,plant - seed-feeding bird,Streptopelia decaocto,plant - seed-feeding bird,0.49,trophic
+Cardamine flexuosa,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.06108,trophic
+Cardamine flexuosa,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,6.11e-4,trophic
+Cardamine flexuosa,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.6257,trophic
+Cardamine flexuosa,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,7.49e-4,trophic
+Cardamine flexuosa,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,6.28e-4,trophic
+Cardamine flexuosa,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,7.34e-5,trophic
+Cardamine flexuosa,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0652,trophic
+Cardamine flexuosa,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,4.02e-4,trophic
+Cardamine pratensis,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,1.017,trophic
+Cerastium fontanum,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.9567,trophic
+Cerastium fontanum,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.0195,trophic
+Cerastium fontanum,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.4524,trophic
+Cerastium fontanum,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.03937,trophic
+Cerastium fontanum,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.1398,trophic
+Cerastium fontanum,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,1.158,trophic
+Cerastium fontanum,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.9475,trophic
+Cerastium fontanum,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.00281,trophic
+Chaerophyllum temulum,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.2143,trophic
+Chaerophyllum temulum,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.00691,trophic
+Chaerophyllum temulum,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.1601,trophic
+Chaerophyllum temulum,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.04074,trophic
+Chaerophyllum temulum,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.1333,trophic
+Chaerophyllum temulum,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.4278,trophic
+Chaerophyllum temulum,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.03728,trophic
+Chaerophyllum temulum,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.00683,trophic
+Chenopodium sp.,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,1.564,trophic
+Chenopodium sp.,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,6.108,trophic
+Chenopodium sp.,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,1.2,trophic
+Chenopodium sp.,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,75.75,trophic
+Chenopodium sp.,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.2616,trophic
+Chenopodium sp.,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.2768,trophic
+Chenopodium sp.,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.7052,trophic
+Chenopodium sp.,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.1586,trophic
+Chenopodium sp.,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0863,trophic
+Chenopodium sp.,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,5.668,trophic
+Chenopodium sp.,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,18.85,trophic
+Chenopodium sp.,plant - seed-feeding bird,Streptopelia decaocto,plant - seed-feeding bird,0.01,trophic
+Cirsium arvense,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.124,trophic
+Cirsium arvense,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,3.01e-4,trophic
+Cirsium arvense,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.9328,trophic
+Cirsium arvense,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.05164,trophic
+Cirsium arvense,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.1187,trophic
+Cirsium arvense,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.01851,trophic
+Cirsium arvense,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.5482,trophic
+Cirsium vulgare,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.385,trophic
+Cirsium vulgare,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.00135,trophic
+Cirsium vulgare,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.2902,trophic
+Cirsium vulgare,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.1859,trophic
+Cirsium vulgare,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.6146,trophic
+Cirsium vulgare,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.0999,trophic
+Cirsium vulgare,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.01287,trophic
+Cirsium vulgare,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.00323,trophic
+Clematis vitalba,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.2648,trophic
+Clematis vitalba,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.00126,trophic
+Clematis vitalba,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.0291,trophic
+Clematis vitalba,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.00848,trophic
+Clematis vitalba,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.02767,trophic
+Clematis vitalba,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.1834,trophic
+Clematis vitalba,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0863,trophic
+Clematis vitalba,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.00181,trophic
+Crataegus monogyna,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,1.279,trophic
+Crataegus monogyna,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.0847,trophic
+Crataegus monogyna,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,10.9,trophic
+Crataegus monogyna,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.4259,trophic
+Crataegus monogyna,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.4307,trophic
+Crataegus monogyna,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.1155,trophic
+Epilobium sp.,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.2648,trophic
+Epilobium sp.,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.02701,trophic
+Epilobium sp.,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.6257,trophic
+Epilobium sp.,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.08026,trophic
+Epilobium sp.,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.2743,trophic
+Epilobium sp.,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.6477,trophic
+Epilobium sp.,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0863,trophic
+Epilobium sp.,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.1038,trophic
+Epilobium sp.,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.006996,trophic
+Euphorbia helioscopia,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.08057,trophic
+Euphorbia helioscopia,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.05214,trophic
+Fallopia convolvulus,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,0.00845,trophic
+Fallopia convolvulus,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.007978,trophic
+Fallopia convolvulus,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,1.11e-4,trophic
+Fallopia convolvulus,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,3.96e-4,trophic
+Fallopia convolvulus,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.002347,trophic
+Fallopia convolvulus,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,4.462e-4,trophic
+Fallopia convolvulus,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.007948,trophic
+Fallopia convolvulus,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.01012,trophic
+Fallopia convolvulus,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,5.478e-4,trophic
+Fallopia convolvulus,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.001667,trophic
+Fallopia convolvulus,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,4.35e-4,trophic
+Galium aparine,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.08026,trophic
+Galium aparine,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.1861,trophic
+Galium aparine,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.1138,trophic
+Galium aparine,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.006996,trophic
+Geranium dissectum,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.0364,trophic
+Geranium dissectum,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.036,trophic
+Geranium robertianum,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.0158,trophic
+Geranium robertianum,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.0157,trophic
+Geum urbanum,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.0036,trophic
+Geum urbanum,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,5.22e-4,trophic
+Geum urbanum,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,9.6e-4,trophic
+Geum urbanum,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.001162,trophic
+Geum urbanum,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,2.31e-4,trophic
+Geum urbanum,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,3.14e-4,trophic
+Geum urbanum,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.006996,trophic
+Glechoma hederacea,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.00921,trophic
+Glechoma hederacea,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,7.31e-4,trophic
+Glechoma hederacea,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.01694,trophic
+Glechoma hederacea,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.00141,trophic
+Glechoma hederacea,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.00546,trophic
+Glechoma hederacea,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.0083,trophic
+Glechoma hederacea,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.00191,trophic
+Glechoma hederacea,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.00292,trophic
+Heracleum sphondylium,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.04445,trophic
+Heracleum sphondylium,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.0192,trophic
+Heracleum sphondylium,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.4437,trophic
+Heracleum sphondylium,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.03716,trophic
+Heracleum sphondylium,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.1328,trophic
+Heracleum sphondylium,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.2032,trophic
+Heracleum sphondylium,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.04632,trophic
+Heracleum sphondylium,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,3.95e-5,trophic
+Hypochaeris/ Crepis sp.,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.004795,trophic
+Hypochaeris/ Crepis sp.,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,3.02e-5,trophic
+Hypochaeris/ Crepis sp.,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.00648,trophic
+Hypochaeris/ Crepis sp.,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.002516,trophic
+Hypochaeris/ Crepis sp.,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,1.667e-4,trophic
+Hypochaeris/ Crepis sp.,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,3.95e-5,trophic
+Lamium purpureum,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.4855,trophic
+Lamium purpureum,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.0243,trophic
+Lamium purpureum,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.6547,trophic
+Lamium purpureum,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.0469,trophic
+Lamium purpureum,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.1836,trophic
+Lamium purpureum,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.2754,trophic
+Lamium purpureum,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0633,trophic
+Lamium purpureum,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.1069,trophic
+Lamium purpureum,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.15,trophic
+Lamium purpureum,plant - seed-feeding bird,Streptopelia decaocto,plant - seed-feeding bird,0.0025,trophic
+Lapsana communis,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,6.208e-4,trophic
+Lapsana communis,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,4.08e-7,trophic
+Lapsana communis,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,8.75e-5,trophic
+Lapsana communis,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,2.724e-4,trophic
+Lapsana communis,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,6.569e-4,trophic
+Lapsana communis,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,5.31e-6,trophic
+Leontodon autumnalis,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,6.35e-7,trophic
+Leontodon autumnalis,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,9.34e-8,trophic
+Leontodon autumnalis,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,2e-5,trophic
+Leontodon autumnalis,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,1.69e-6,trophic
+Leontodon autumnalis,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,6.72e-8,trophic
+Matricaria discoidea,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.0272,trophic
+Matricaria discoidea,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.3061,trophic
+Matricaria discoidea,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,5.04e-4,trophic
+Matricaria discoidea,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.0748,trophic
+Matricaria recutita,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,2.665,trophic
+Matricaria recutita,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.067,trophic
+Matricaria recutita,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,17.93,trophic
+Matricaria recutita,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,2.047,trophic
+Matricaria recutita,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.1147,trophic
+Matricaria recutita,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,1.179,trophic
+Mercurialis perennis,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.06108,trophic
+Mercurialis perennis,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.02701,trophic
+Mercurialis perennis,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.6257,trophic
+Mercurialis perennis,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.05224,trophic
+Mercurialis perennis,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.1865,trophic
+Mercurialis perennis,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.2837,trophic
+Mercurialis perennis,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0652,trophic
+Myosotis arvensis,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.02701,trophic
+Myosotis arvensis,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.6257,trophic
+Myosotis arvensis,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0863,trophic
+Myosotis arvensis,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.1038,trophic
+Papaver sp.,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,0.03122,trophic
+Papaver sp.,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.02701,trophic
+Papaver sp.,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.6257,trophic
+Papaver sp.,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.1261,trophic
+Persicaria sp.,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,2.206,trophic
+Persicaria sp.,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,2.963,trophic
+Persicaria sp.,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.8231,trophic
+Persicaria sp.,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,3.202,trophic
+Persicaria sp.,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,1.807,trophic
+Persicaria sp.,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.2471,trophic
+Persicaria sp.,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,3.852,trophic
+Persicaria sp.,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,4.529,trophic
+Persicaria sp.,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.5859,trophic
+Persicaria sp.,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.9337,trophic
+Persicaria sp.,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,3.3,trophic
+Persicaria sp.,plant - seed-feeding bird,Streptopelia decaocto,plant - seed-feeding bird,0.00125,trophic
+Picris echioides,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.006609,trophic
+Picris echioides,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,4.29e-6,trophic
+Picris echioides,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,9.19e-4,trophic
+Picris echioides,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.002907,trophic
+Picris echioides,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.007033,trophic
+Picris echioides,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,2.111e-4,trophic
+Picris echioides,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,5.65e-5,trophic
+Poaceae,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,0.03122,trophic
+Poaceae,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,11.11,trophic
+Poaceae,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.02701,trophic
+Poaceae,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.7432,trophic
+Poaceae,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.08026,trophic
+Poaceae,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.2768,trophic
+Poaceae,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.8002,trophic
+Poaceae,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.2186,trophic
+Poaceae,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,5.467,trophic
+Poaceae,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.5804,trophic
+Poaceae,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,16.16,trophic
+Poaceae,plant - seed-feeding bird,Streptopelia decaocto,plant - seed-feeding bird,0.01,trophic
+Polygonum sp.,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,0.0446,trophic
+Polygonum sp.,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.05434,trophic
+Polygonum sp.,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,3.84e-4,trophic
+Polygonum sp.,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.01937,trophic
+Polygonum sp.,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.012070000000000001,trophic
+Polygonum sp.,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.001206,trophic
+Polygonum sp.,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.6874,trophic
+Polygonum sp.,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,3.084,trophic
+Polygonum sp.,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.002784,trophic
+Polygonum sp.,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.07115,trophic
+Polygonum sp.,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.2219,trophic
+Polygonum sp.,plant - seed-feeding bird,Streptopelia decaocto,plant - seed-feeding bird,6.47e-5,trophic
+Potentilla reptans,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.00622,trophic
+Potentilla reptans,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,9.02e-4,trophic
+Potentilla reptans,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,3.54e-4,trophic
+Prunella vulgaris,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.0253,trophic
+Prunella vulgaris,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.002012,trophic
+Prunella vulgaris,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.04661,trophic
+Prunella vulgaris,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.00389,trophic
+Prunella vulgaris,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.00804,trophic
+Prunus spinosa,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.6436,trophic
+Prunus spinosa,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.0565,trophic
+Prunus spinosa,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,7.27,trophic
+Prunus spinosa,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.2537,trophic
+Prunus spinosa,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.1972,trophic
+Prunus spinosa,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.1228,trophic
+Quercus robur,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.2648,trophic
+Quercus robur,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.02701,trophic
+Quercus robur,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.6257,trophic
+Quercus robur,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.08026,trophic
+Quercus robur,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,19.88,trophic
+Quercus robur,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,30.46,trophic
+Quercus robur,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,2.708,trophic
+Quercus robur,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0863,trophic
+Quercus robur,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,1.121,trophic
+Quercus robur,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.006996,trophic
+Ranunculus acris,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,0.00654,trophic
+Ranunculus acris,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.00206,trophic
+Ranunculus acris,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.0478,trophic
+Ranunculus acris,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.00859,trophic
+Ranunculus acris,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.0287,trophic
+Ranunculus acris,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.02054,trophic
+Ranunculus acris,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.01504,trophic
+Ranunculus repens,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,0.0247,trophic
+Ranunculus repens,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.0237,trophic
+Ranunculus repens,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.5488,trophic
+Ranunculus repens,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.0632,trophic
+Ranunculus repens,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.218,trophic
+Ranunculus repens,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.5394,trophic
+Ranunculus repens,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.1056,trophic
+Ranunculus repens,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.0888,trophic
+Ranunculus repens,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.00519,trophic
+Rosa sp.,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.1881,trophic
+Rosa sp.,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,6.12e-4,trophic
+Rosa sp.,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.0788,trophic
+Rosa sp.,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.02901,trophic
+Rosa sp.,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.01104,trophic
+Rubus fruticosus,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.3561,trophic
+Rubus fruticosus,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.00815,trophic
+Rubus fruticosus,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,1.049,trophic
+Rubus fruticosus,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.0748,trophic
+Rubus fruticosus,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.2733,trophic
+Rubus fruticosus,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.1138,trophic
+Rubus fruticosus,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.1861,trophic
+Rubus fruticosus,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0861,trophic
+Rubus fruticosus,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.03025,trophic
+Rumex sp.,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,0.6075,trophic
+Rumex sp.,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.8611,trophic
+Rumex sp.,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.0762,trophic
+Rumex sp.,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.7653,trophic
+Rumex sp.,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.2712,trophic
+Rumex sp.,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.02808,trophic
+Rumex sp.,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,15.24,trophic
+Rumex sp.,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,13.19,trophic
+Rumex sp.,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0775,trophic
+Rumex sp.,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.4448,trophic
+Rumex sp.,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,9.942,trophic
+Rumex sp.,plant - seed-feeding bird,Streptopelia decaocto,plant - seed-feeding bird,0.00868,trophic
+Sambucus nigra,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.2743,trophic
+Sambucus nigra,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,8.424,trophic
+Sambucus nigra,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,2.322,trophic
+Sambucus nigra,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.1063,trophic
+Sambucus nigra,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.006996,trophic
+Senacio vulgaris,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.1023,trophic
+Senacio vulgaris,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,1.52e-4,trophic
+Senacio vulgaris,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.03263,trophic
+Senacio vulgaris,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.04625,trophic
+Senacio vulgaris,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.003319,trophic
+Senacio vulgaris,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,8.71e-4,trophic
+Silene dioica,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.0534,trophic
+Silene dioica,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.05399,trophic
+Silene dioica,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.1913,trophic
+Silene dioica,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,2.81e-4,trophic
+Sinapis arvensis,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,2.358,trophic
+Sinapis arvensis,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,4.644,trophic
+Sinapis arvensis,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,3.701,trophic
+Sinapis arvensis,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.6477,trophic
+Sinapis arvensis,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.1261,trophic
+Sinapis arvensis,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,3.292,trophic
+Sinapis arvensis,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.0295,trophic
+Sonchus arvensis,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.001961,trophic
+Sonchus arvensis,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,9.4e-5,trophic
+Sonchus arvensis,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.0338,trophic
+Sonchus arvensis,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.002268,trophic
+Sonchus arvensis,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.1812,trophic
+Sonchus arvensis,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.07675,trophic
+Sonchus arvensis,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,4.24e-4,trophic
+Sonchus arvensis,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,1.095e-4,trophic
+Sonchus arvensis,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.009761,trophic
+Sonchus arvensis,plant - seed-feeding bird,Streptopelia decaocto,plant - seed-feeding bird,0.0075,trophic
+Sonchus asper/oleraceus,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,1.678,trophic
+Sonchus asper/oleraceus,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.081,trophic
+Sonchus asper/oleraceus,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,20.33,trophic
+Sonchus asper/oleraceus,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,1.846,trophic
+Sonchus asper/oleraceus,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0856,trophic
+Sonchus asper/oleraceus,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.1392,trophic
+Sonchus asper/oleraceus,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.8767,trophic
+Spergula arvensis,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.0141,trophic
+Spergula arvensis,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.04556,trophic
+Spergula arvensis,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0206,trophic
+Spergula arvensis,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.0161,trophic
+Stachys sylvatica,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,1.564,trophic
+Stachys sylvatica,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,1.146,trophic
+Stachys sylvatica,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.1088,trophic
+Stellaria graminea,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.5613,trophic
+Stellaria graminea,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.6477,trophic
+Stellaria graminea,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0959,trophic
+Stellaria graminea,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.2016,trophic
+Stellaria graminea,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.0085,trophic
+Stellaria media,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,3.367,trophic
+Stellaria media,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.00748,trophic
+Stellaria media,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.1733,trophic
+Stellaria media,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.041,trophic
+Stellaria media,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.1346,trophic
+Stellaria media,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.8714,trophic
+Stellaria media,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,1.389,trophic
+Stellaria media,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.0475,trophic
+Taraxacum officinale,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.002176,trophic
+Taraxacum officinale,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,2.58e-5,trophic
+Taraxacum officinale,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.00553,trophic
+Taraxacum officinale,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.001325,trophic
+Taraxacum officinale,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.093,trophic
+Taraxacum officinale,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.00685,trophic
+Taraxacum officinale,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,2.696e-4,trophic
+Taraxacum officinale,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,8.19e-5,trophic
+Taraxacum officinale,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,1.72e-5,trophic
+Trifolium dubium,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.03,trophic
+Trifolium dubium,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,4.5e-4,trophic
+Trifolium dubium,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.02388,trophic
+Trifolium dubium,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,9.66e-4,trophic
+Trifolium dubium,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.00235,trophic
+Trifolium pratense/repens,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,1.707,trophic
+Trifolium pratense/repens,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.02701,trophic
+Trifolium pratense/repens,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.6507,trophic
+Trifolium pratense/repens,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.05791,trophic
+Trifolium pratense/repens,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,4.524,trophic
+Trifolium pratense/repens,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.1146,trophic
+Trifolium pratense/repens,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.06378,trophic
+Trifolium pratense/repens,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.1015,trophic
+Trifolium pratense/repens,plant - seed-feeding bird,Streptopelia decaocto,plant - seed-feeding bird,1.47,trophic
+Triticum aestivum,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,0.03122,trophic
+Triticum aestivum,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,16.34,trophic
+Triticum aestivum,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.02701,trophic
+Triticum aestivum,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.6257,trophic
+Triticum aestivum,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,2.878,trophic
+Triticum aestivum,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,21.58,trophic
+Triticum aestivum,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,92.52,trophic
+Triticum aestivum,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,16.25,trophic
+Triticum aestivum,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,2.133,trophic
+Triticum aestivum,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,5.418,trophic
+Triticum aestivum,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.6794,trophic
+Urtica dioica,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,0.03122,trophic
+Urtica dioica,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.02701,trophic
+Urtica dioica,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.7432,trophic
+Urtica dioica,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.2768,trophic
+Urtica dioica,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,5.734,trophic
+Urtica dioica,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.2695,trophic
+Veronica arvensis,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,0.03122,trophic
+Veronica arvensis,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.00409,trophic
+Veronica arvensis,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.116,trophic
+Veronica hederifolia,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.06108,trophic
+Veronica hederifolia,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,1.32e-4,trophic
+Veronica hederifolia,plant - seed-feeding bird,Carduelis carduelis,plant - seed-feeding bird,0.6257,trophic
+Veronica hederifolia,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.05224,trophic
+Veronica hederifolia,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,9.13e-4,trophic
+Veronica hederifolia,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.2837,trophic
+Veronica hederifolia,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.0652,trophic
+Veronica persica,plant - seed-feeding bird,Carduelis cannabina,plant - seed-feeding bird,0.0228,trophic
+Veronica persica,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.1574,trophic
+Vicia hirsute,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,1.226,trophic
+Vicia hirsute,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,0.02169,trophic
+Vicia hirsute,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,1.124,trophic
+Vicia hirsute,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.6451,trophic
+Vicia hirsute,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,0.0402,trophic
+Vicia hirsute,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,0.02236,trophic
+Vicia hirsute,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,0.00695,trophic
+Vicia sepium,plant - seed-feeding bird,Alectoris rufa,plant - seed-feeding bird,0.00871,trophic
+Vicia sepium,plant - seed-feeding bird,Carduelis chloris,plant - seed-feeding bird,1.31e-4,trophic
+Vicia sepium,plant - seed-feeding bird,Columba palumbus,plant - seed-feeding bird,0.00693,trophic
+Vicia sepium,plant - seed-feeding bird,Corvus frugilegus,plant - seed-feeding bird,0.00263,trophic
+Vicia sepium,plant - seed-feeding bird,Corvus monedula,plant - seed-feeding bird,2.8e-4,trophic
+Vicia sepium,plant - seed-feeding bird,Emberiza citrinella,plant - seed-feeding bird,1.13e-4,trophic
+Vicia sepium,plant - seed-feeding bird,Passer domesticus,plant - seed-feeding bird,5.06e-5,trophic
+Viola arvensis,plant - seed-feeding bird,Alauda arvensis,plant - seed-feeding bird,0.03122,trophic
+Viola arvensis,plant - seed-feeding bird,Fringilla coelebs,plant - seed-feeding bird,0.1038,trophic
+Acer campestre,plant - seed-feeding rodent,Apodemus flavicollis,plant - seed-feeding rodent,3.179,trophic
+Acer campestre,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,13.11,trophic
+Acer campestre,plant - seed-feeding rodent,Micromys minutus,plant - seed-feeding rodent,0.8254,trophic
+Acer campestre,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,13.06,trophic
+"Acer pseudoplatanus,",plant - seed-feeding rodent,Apodemus flavicollis,plant - seed-feeding rodent,0.3603,trophic
+"Acer pseudoplatanus,",plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,3.764,trophic
+"Acer pseudoplatanus,",plant - seed-feeding rodent,Micromys minutus,plant - seed-feeding rodent,0.0216,trophic
+"Acer pseudoplatanus,",plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,6.789,trophic
+Chenopodium sp.,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,61.86,trophic
+Chenopodium sp.,plant - seed-feeding rodent,Micromys minutus,plant - seed-feeding rodent,0.006773,trophic
+Chenopodium sp.,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,0.01641,trophic
+Corylus avellana,plant - seed-feeding rodent,Apodemus flavicollis,plant - seed-feeding rodent,0.5557,trophic
+Corylus avellana,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,3.734,trophic
+Corylus avellana,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,6.072,trophic
+Crataegus monogyna,plant - seed-feeding rodent,Apodemus flavicollis,plant - seed-feeding rodent,1.376,trophic
+Crataegus monogyna,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,7.355,trophic
+Crataegus monogyna,plant - seed-feeding rodent,Micromys minutus,plant - seed-feeding rodent,0.4326,trophic
+Crataegus monogyna,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,2.949,trophic
+Fallopia convolvulus,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,1.848,trophic
+Fraxinus excelsior,plant - seed-feeding rodent,Apodemus flavicollis,plant - seed-feeding rodent,0.4693,trophic
+Fraxinus excelsior,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,9.086,trophic
+Fraxinus excelsior,plant - seed-feeding rodent,Micromys minutus,plant - seed-feeding rodent,0.0221,trophic
+Fraxinus excelsior,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,21.04,trophic
+Geranium dissectum,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,0.01071,trophic
+Geranium robertianum,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,0.0465,trophic
+Geranium robertianum,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,0.0339,trophic
+Glechoma hederacea,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,0.0248,trophic
+Glechoma hederacea,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,0.0181,trophic
+Hyacinthoides non-scripta,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,0.2147,trophic
+Hyacinthoides non-scripta,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,0.5313,trophic
+Lamium purpureum,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,0.03384,trophic
+Lamium purpureum,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,0.00731,trophic
+Mercurialis perennis,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,0.0231,trophic
+Mercurialis perennis,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,0.0169,trophic
+Persicaria sp.,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,78.14,trophic
+Poaceae,plant - seed-feeding rodent,Apodemus flavicollis,plant - seed-feeding rodent,18.22,trophic
+Poaceae,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,734.9,trophic
+Poaceae,plant - seed-feeding rodent,Micromys minutus,plant - seed-feeding rodent,20.55,trophic
+Poaceae,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,359.8,trophic
+Polygonum sp.,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,13.4,trophic
+Prunus spinosa,plant - seed-feeding rodent,Apodemus flavicollis,plant - seed-feeding rodent,0.4204,trophic
+Prunus spinosa,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,3.527,trophic
+Prunus spinosa,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,5.599,trophic
+Quercus robur,plant - seed-feeding rodent,Apodemus flavicollis,plant - seed-feeding rodent,3.633,trophic
+Quercus robur,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,63.93,trophic
+Quercus robur,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,69.42,trophic
+Rosa sp.,plant - seed-feeding rodent,Apodemus flavicollis,plant - seed-feeding rodent,0.3408,trophic
+Rosa sp.,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,1.156,trophic
+Rosa sp.,plant - seed-feeding rodent,Micromys minutus,plant - seed-feeding rodent,0.1071,trophic
+Rosa sp.,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,0.5359,trophic
+Rubus fruticosus,plant - seed-feeding rodent,Apodemus flavicollis,plant - seed-feeding rodent,2.766,trophic
+Rubus fruticosus,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,17.58,trophic
+Rubus fruticosus,plant - seed-feeding rodent,Micromys minutus,plant - seed-feeding rodent,0.8456,trophic
+Rubus fruticosus,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,9.656,trophic
+Rumex sp.,plant - seed-feeding rodent,Apodemus flavicollis,plant - seed-feeding rodent,1.742,trophic
+Rumex sp.,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,39.01,trophic
+Rumex sp.,plant - seed-feeding rodent,Micromys minutus,plant - seed-feeding rodent,0.4219,trophic
+Rumex sp.,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,17.76,trophic
+Sambucus nigra,plant - seed-feeding rodent,Apodemus flavicollis,plant - seed-feeding rodent,0.04317,trophic
+Sambucus nigra,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,0.2709,trophic
+Sambucus nigra,plant - seed-feeding rodent,Micromys minutus,plant - seed-feeding rodent,0.0136,trophic
+Sambucus nigra,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,0.2145,trophic
+Sherardia arvensis,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,0.02226,trophic
+Sinapis arvensis,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,0.5922,trophic
+Stachys sylvatica,plant - seed-feeding rodent,Apodemus flavicollis,plant - seed-feeding rodent,0.00905,trophic
+Stachys sylvatica,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,0.0307,trophic
+Stachys sylvatica,plant - seed-feeding rodent,Micromys minutus,plant - seed-feeding rodent,0.00284,trophic
+Stachys sylvatica,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,0.0142,trophic
+Stellaria graminea,plant - seed-feeding rodent,Apodemus flavicollis,plant - seed-feeding rodent,0.00307,trophic
+Stellaria graminea,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,0.1789,trophic
+Stellaria graminea,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,0.00484,trophic
+Stellaria media,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,3.28e-6,trophic
+Trifolium pratense/repens,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,1.103,trophic
+Triticum aestivum,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,0.5627,trophic
+Urtica dioica,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,9.066,trophic
+Urtica dioica,plant - seed-feeding rodent,Myodes glareolus,plant - seed-feeding rodent,6.727,trophic
+Vicia hirsute,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,3.826,trophic
+Vicia sepium,plant - seed-feeding rodent,Apodemus sylvaticus,plant - seed-feeding rodent,1.09e-4,trophic
+Bellis perennis,plant - butterfly,Pieris rapae,plant - butterfly,0.1503,pollination
+Brassica napus,plant - butterfly,Pieris rapae,plant - butterfly,5.338,pollination
+Cardamine pratensis,plant - butterfly,Inachis io,plant - butterfly,4.98,pollination
+Cirsium arvense,plant - butterfly,Aglais urticae,plant - butterfly,9.659,pollination
+Cirsium arvense,plant - butterfly,Aphantopus hyperantus,plant - butterfly,17.92,pollination
+Cirsium arvense,plant - butterfly,Inachis io,plant - butterfly,71.06,pollination
+Cirsium arvense,plant - butterfly,Maniola jurtina,plant - butterfly,149.7,pollination
+Cirsium arvense,plant - butterfly,Ochlodes sylvanus,plant - butterfly,0.762,pollination
+Cirsium arvense,plant - butterfly,Pieris brassicae,plant - butterfly,70.53,pollination
+Cirsium arvense,plant - butterfly,Pieris napi,plant - butterfly,38.59,pollination
+Cirsium arvense,plant - butterfly,Pieris rapae,plant - butterfly,2.482,pollination
+Cirsium arvense,plant - butterfly,Polygonia c-album,plant - butterfly,0.2153,pollination
+Cirsium arvense,plant - butterfly,Polyommatus icarus,plant - butterfly,2.273,pollination
+Cirsium arvense,plant - butterfly,Pyronia tithonus,plant - butterfly,38.98,pollination
+Cirsium arvense,plant - butterfly,Thymelicus sylvestris,plant - butterfly,0.2267,pollination
+Cirsium arvense,plant - butterfly,Vanessa atalanta,plant - butterfly,12.52,pollination
+Cirsium vulgare,plant - butterfly,Aglais urticae,plant - butterfly,0.7684,pollination
+Cirsium vulgare,plant - butterfly,Aphantopus hyperantus,plant - butterfly,0.0954,pollination
+Cirsium vulgare,plant - butterfly,Inachis io,plant - butterfly,0.8885,pollination
+Cirsium vulgare,plant - butterfly,Maniola jurtina,plant - butterfly,2.901,pollination
+Cirsium vulgare,plant - butterfly,Pieris brassicae,plant - butterfly,2.56,pollination
+Cirsium vulgare,plant - butterfly,Pieris napi,plant - butterfly,1.388,pollination
+Cirsium vulgare,plant - butterfly,Pieris rapae,plant - butterfly,0.3673,pollination
+Cirsium vulgare,plant - butterfly,Polygonia c-album,plant - butterfly,0.00414,pollination
+Cirsium vulgare,plant - butterfly,Pyronia tithonus,plant - butterfly,2.729,pollination
+Cirsium vulgare,plant - butterfly,Vanessa atalanta,plant - butterfly,0.7807,pollination
+Conolvulus/Calystegia,plant - butterfly,Pieris rapae,plant - butterfly,0.9988,pollination
+Epilobium sp.,plant - butterfly,Pieris brassicae,plant - butterfly,10.64,pollination
+Glechoma hederacea,plant - butterfly,Pieris napi,plant - butterfly,3.505,pollination
+Heracleum sphondylium,plant - butterfly,Maniola jurtina,plant - butterfly,0.2657,pollination
+Hyacinthoides non-scripta,plant - butterfly,Inachis io,plant - butterfly,8.551,pollination
+Hyacinthoides non-scripta,plant - butterfly,Pieris rapae,plant - butterfly,8.473,pollination
+Hypochaeris/ Crepis sp.,plant - butterfly,Aglais urticae,plant - butterfly,10.83,pollination
+Hypochaeris/ Crepis sp.,plant - butterfly,Inachis io,plant - butterfly,16.24,pollination
+Ligustrum vulgare,plant - butterfly,Pyronia tithonus,plant - butterfly,2.095,pollination
+Lotus corniculatus,plant - butterfly,Ochlodes sylvanus,plant - butterfly,0.1676,pollination
+Lotus corniculatus,plant - butterfly,Pieris rapae,plant - butterfly,5.022,pollination
+Matricaria recutita,plant - butterfly,Maniola jurtina,plant - butterfly,721.5,pollination
+Matricaria recutita,plant - butterfly,Thymelicus sylvestris,plant - butterfly,56.81,pollination
+Medicago sativa ssp. sativa,plant - butterfly,Pieris brassicae,plant - butterfly,115.1,pollination
+Medicago sativa ssp. sativa,plant - butterfly,Pieris napi,plant - butterfly,31.93,pollination
+Medicago sativa ssp. sativa,plant - butterfly,Polyommatus icarus,plant - butterfly,2.767,pollination
+Medicago sativa ssp. sativa,plant - butterfly,Thymelicus sylvestris,plant - butterfly,27.26,pollination
+Mentha arvensis,plant - butterfly,Pyronia tithonus,plant - butterfly,3.891,pollination
+Prunella vulgaris,plant - butterfly,Maniola jurtina,plant - butterfly,101.3,pollination
+Ranunculus repens,plant - butterfly,Lycaena phlaeas,plant - butterfly,28.66,pollination
+Ranunculus repens,plant - butterfly,Maniola jurtina,plant - butterfly,3558,pollination
+Ranunculus repens,plant - butterfly,Pieris napi,plant - butterfly,141.3,pollination
+Ranunculus repens,plant - butterfly,Pieris rapae,plant - butterfly,158.7,pollination
+Rubus fruticosus,plant - butterfly,Aglais urticae,plant - butterfly,4.991,pollination
+Rubus fruticosus,plant - butterfly,Inachis io,plant - butterfly,40,pollination
+Rubus fruticosus,plant - butterfly,Maniola jurtina,plant - butterfly,176.1,pollination
+Rubus fruticosus,plant - butterfly,Ochlodes sylvanus,plant - butterfly,1.691,pollination
+Rubus fruticosus,plant - butterfly,Pararge aegeria,plant - butterfly,9.643,pollination
+Rubus fruticosus,plant - butterfly,Pieris rapae,plant - butterfly,12.08,pollination
+Rubus fruticosus,plant - butterfly,Polygonia c-album,plant - butterfly,9.896,pollination
+Rubus fruticosus,plant - butterfly,Pyronia tithonus,plant - butterfly,163.8,pollination
+Rubus fruticosus,plant - butterfly,Vanessa atalanta,plant - butterfly,24.87,pollination
+Senacio jacobaea,plant - butterfly,Pyronia tithonus,plant - butterfly,2.57,pollination
+Silene dioica,plant - butterfly,Pieris brassicae,plant - butterfly,5.058,pollination
+Sinapis arvensis,plant - butterfly,Pieris rapae,plant - butterfly,44.1,pollination
+Taraxacum officinale,plant - butterfly,Aglais urticae,plant - butterfly,52.2,pollination
+Taraxacum officinale,plant - butterfly,Inachis io,plant - butterfly,166.6,pollination
+Taraxacum officinale,plant - butterfly,Lycaena phlaeas,plant - butterfly,0.7066,pollination
+Taraxacum officinale,plant - butterfly,Pararge aegeria,plant - butterfly,17.47,pollination
+Taraxacum officinale,plant - butterfly,Pieris brassicae,plant - butterfly,8.302,pollination
+Torilis japonica,plant - butterfly,Pyronia tithonus,plant - butterfly,39.43,pollination
+Trifolium pratense/repens,plant - butterfly,Lycaena phlaeas,plant - butterfly,41.18,pollination
+Trifolium pratense/repens,plant - butterfly,Ochlodes sylvanus,plant - butterfly,60.77,pollination
+Trifolium pratense/repens,plant - butterfly,Pieris rapae,plant - butterfly,139,pollination
+Trifolium pratense/repens,plant - butterfly,Polyommatus icarus,plant - butterfly,58.97,pollination
+Trifolium pratense/repens,plant - butterfly,Pyronia tithonus,plant - butterfly,342.7,pollination
+Trifolium pratense/repens,plant - butterfly,Thymelicus sylvestris,plant - butterfly,24.74,pollination
+Trifolium pratense/repens,plant - butterfly,Vanessa cardui,plant - butterfly,47.41,pollination
+Vicia sativa,plant - butterfly,Ochlodes sylvanus,plant - butterfly,1.234,pollination
+Vicia sativa,plant - butterfly,Pieris napi,plant - butterfly,1.487,pollination
+Cirsium arvense,plant - seed-feeder parasitoid,Bracon praecox,plant - seed-feeder parasitoid,2057,host-parasite
+Cirsium arvense,plant - seed-feeder parasitoid,Pteromalus albipennis,plant - seed-feeder parasitoid,24650,host-parasite
+Cirsium vulgare,plant - seed-feeder parasitoid,Bracon immutator,plant - seed-feeder parasitoid,1105,host-parasite
+Cirsium vulgare,plant - seed-feeder parasitoid,Bracon osculator,plant - seed-feeder parasitoid,552.3,host-parasite
+Cirsium vulgare,plant - seed-feeder parasitoid,Crataepus marbis,plant - seed-feeder parasitoid,3314,host-parasite
+Cirsium vulgare,plant - seed-feeder parasitoid,Eurytoma sp A,plant - seed-feeder parasitoid,552.3,host-parasite
+Cirsium vulgare,plant - seed-feeder parasitoid,Eurytoma sp B,plant - seed-feeder parasitoid,552.3,host-parasite
+Cirsium vulgare,plant - seed-feeder parasitoid,Pterandrophysalis levantina,plant - seed-feeder parasitoid,1105,host-parasite
+Cirsium vulgare,plant - seed-feeder parasitoid,Pteromalus beryllii,plant - seed-feeder parasitoid,1167,host-parasite
+Cirsium vulgare,plant - seed-feeder parasitoid,Pteromalus elevatus,plant - seed-feeder parasitoid,1105,host-parasite
+Trifolium pratense/repens,plant - seed-feeder parasitoid,Aprostocetus sp,plant - seed-feeder parasitoid,1105,host-parasite
+Trifolium pratense/repens,plant - seed-feeder parasitoid,Mesopolobus incultus,plant - seed-feeder parasitoid,399500,host-parasite
+Trifolium pratense/repens,plant - seed-feeder parasitoid,Spintherus dubius,plant - seed-feeder parasitoid,41400,host-parasite
+Trifolium pratense/repens,plant - seed-feeder parasitoid,Triaspis floricola,plant - seed-feeder parasitoid,2209,host-parasite
+Trifolium pratense/repens,plant - seed-feeder parasitoid,Trichomalus campestris,plant - seed-feeder parasitoid,92460,host-parasite
+Trifolium pratense/repens,plant - seed-feeder parasitoid,Trichomalus rufinus,plant - seed-feeder parasitoid,76080,host-parasite
+Vicia sativa,plant - seed-feeder parasitoid,Pteromalus sequester-group,plant - seed-feeder parasitoid,1657,host-parasite
+Acer campestre,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,12.74,host-parasite
+Acer campestre,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,6.653,host-parasite
+Acer campestre,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,1.597,host-parasite
+Acer campestre,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.4852,host-parasite
+Acer campestre,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,1.843,host-parasite
+Acer campestre,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,0.00942,host-parasite
+Acer campestre,plant - rodent ectoparasite,Palaeopsylla soricis soricis,plant - rodent ectoparasite,0.4664,host-parasite
+"Acer pseudoplatanus,",plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,3.768,host-parasite
+"Acer pseudoplatanus,",plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,2.38,host-parasite
+"Acer pseudoplatanus,",plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,0.2752,host-parasite
+"Acer pseudoplatanus,",plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.2458,host-parasite
+"Acer pseudoplatanus,",plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,0.3656,host-parasite
+"Acer pseudoplatanus,",plant - rodent ectoparasite,Palaeopsylla soricis soricis,plant - rodent ectoparasite,0.2458,host-parasite
+Chenopodium sp.,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,0.00123,host-parasite
+Chenopodium sp.,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,0.001802,host-parasite
+Chenopodium sp.,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,3.433e-4,host-parasite
+Chenopodium sp.,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.001828,host-parasite
+Chenopodium sp.,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,0.006833,host-parasite
+Chenopodium sp.,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,3.29e-4,host-parasite
+Corylus avellana,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,3.126,host-parasite
+Corylus avellana,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,1.939,host-parasite
+Corylus avellana,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,0.3107,host-parasite
+Corylus avellana,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.1532,host-parasite
+Corylus avellana,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,0.4588,host-parasite
+Corylus avellana,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,0.0066,host-parasite
+Corylus avellana,plant - rodent ectoparasite,Palaeopsylla soricis soricis,plant - rodent ectoparasite,0.14,host-parasite
+Crataegus monogyna,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,3.547,host-parasite
+Crataegus monogyna,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,1.733,host-parasite
+Crataegus monogyna,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,0.6503,host-parasite
+Crataegus monogyna,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.2154,host-parasite
+Crataegus monogyna,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,0.7229,host-parasite
+Crataegus monogyna,plant - rodent ectoparasite,Nosopsyllus fasciatus,plant - rodent ectoparasite,0.00182,host-parasite
+Crataegus monogyna,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,0.1077,host-parasite
+Fallopia convolvulus,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,1.43e-5,host-parasite
+Fallopia convolvulus,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,5.74e-6,host-parasite
+Fraxinus excelsior,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,6.085,host-parasite
+Fraxinus excelsior,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,4.708,host-parasite
+Fraxinus excelsior,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,0.367,host-parasite
+Fraxinus excelsior,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.338,host-parasite
+Fraxinus excelsior,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,0.9788,host-parasite
+Fraxinus excelsior,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,7.93e-4,host-parasite
+Fraxinus excelsior,plant - rodent ectoparasite,Palaeopsylla soricis soricis,plant - rodent ectoparasite,0.3364,host-parasite
+Geranium dissectum,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,0.00227,host-parasite
+Geranium dissectum,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.002,host-parasite
+Geranium dissectum,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,0.001,host-parasite
+Geranium robertianum,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,0.013,host-parasite
+Geranium robertianum,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,0.0132,host-parasite
+Geranium robertianum,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,0.00261,host-parasite
+Geranium robertianum,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.0093,host-parasite
+Geranium robertianum,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,0.00465,host-parasite
+Glechoma hederacea,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,0.00696,host-parasite
+Glechoma hederacea,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,0.00703,host-parasite
+Glechoma hederacea,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,0.00139,host-parasite
+Glechoma hederacea,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.00496,host-parasite
+Glechoma hederacea,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,0.00248,host-parasite
+Hyacinthoides non-scripta,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,0.0443,host-parasite
+Hyacinthoides non-scripta,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,0.0664,host-parasite
+Hyacinthoides non-scripta,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,0.0221,host-parasite
+Lamium purpureum,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,0.002428,host-parasite
+Lamium purpureum,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,0.002438,host-parasite
+Lamium purpureum,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,3.41e-4,host-parasite
+Lamium purpureum,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.00266,host-parasite
+Lamium purpureum,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,7.18e-4,host-parasite
+Lamium purpureum,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,6.08e-4,host-parasite
+Mercurialis perennis,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,0.00649,host-parasite
+Mercurialis perennis,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,0.00655,host-parasite
+Mercurialis perennis,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,0.0013,host-parasite
+Mercurialis perennis,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.00462,host-parasite
+Mercurialis perennis,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,0.00231,host-parasite
+Persicaria sp.,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,0.004198,host-parasite
+Persicaria sp.,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,0.008697,host-parasite
+Persicaria sp.,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.00215,host-parasite
+Persicaria sp.,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,0.00124,host-parasite
+Persicaria sp.,plant - rodent ectoparasite,Nosopsyllus fasciatus,plant - rodent ectoparasite,0.00124,host-parasite
+Persicaria sp.,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,0.00107,host-parasite
+Poaceae,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,171.9,host-parasite
+Poaceae,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,116.9,host-parasite
+Poaceae,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,26.03,host-parasite
+Poaceae,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,34.84,host-parasite
+Poaceae,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,38.31,host-parasite
+Poaceae,plant - rodent ectoparasite,Nosopsyllus fasciatus,plant - rodent ectoparasite,2.618,host-parasite
+Poaceae,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,12.82,host-parasite
+Poaceae,plant - rodent ectoparasite,Palaeopsylla soricis soricis,plant - rodent ectoparasite,3.039,host-parasite
+Polygonum sp.,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,0.0014,host-parasite
+Polygonum sp.,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,5.65e-4,host-parasite
+Polygonum sp.,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,2.973e-4,host-parasite
+Polygonum sp.,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,3.49e-4,host-parasite
+Polygonum sp.,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,1.75e-4,host-parasite
+Prunus spinosa,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,1.864,host-parasite
+Prunus spinosa,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,1.311,host-parasite
+Prunus spinosa,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,0.2155,host-parasite
+Prunus spinosa,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.0953,host-parasite
+Prunus spinosa,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,0.4041,host-parasite
+Prunus spinosa,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,0.0271,host-parasite
+Prunus spinosa,plant - rodent ectoparasite,Palaeopsylla soricis soricis,plant - rodent ectoparasite,0.0411,host-parasite
+Quercus robur,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,15.92,host-parasite
+Quercus robur,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,14.33,host-parasite
+Quercus robur,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,1.548,host-parasite
+Quercus robur,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.5183,host-parasite
+Quercus robur,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,3.552,host-parasite
+Quercus robur,plant - rodent ectoparasite,Palaeopsylla soricis soricis,plant - rodent ectoparasite,0.5183,host-parasite
+Rosa sp.,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,0.8039,host-parasite
+Rosa sp.,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,0.3532,host-parasite
+Rosa sp.,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,0.146,host-parasite
+Rosa sp.,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,0.1786,host-parasite
+Rubus fruticosus,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,7.689,host-parasite
+Rubus fruticosus,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,3.934,host-parasite
+Rubus fruticosus,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,1.241,host-parasite
+Rubus fruticosus,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.1508,host-parasite
+Rubus fruticosus,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,1.636,host-parasite
+Rubus fruticosus,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,0.0433,host-parasite
+Rubus fruticosus,plant - rodent ectoparasite,Palaeopsylla soricis soricis,plant - rodent ectoparasite,0.0642,host-parasite
+Rumex sp.,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,12.99,host-parasite
+Rumex sp.,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,8.003,host-parasite
+Rumex sp.,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,1.421,host-parasite
+Rumex sp.,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,1.591,host-parasite
+Rumex sp.,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,1.287,host-parasite
+Rumex sp.,plant - rodent ectoparasite,Nosopsyllus fasciatus,plant - rodent ectoparasite,0.0186,host-parasite
+Rumex sp.,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,0.4279,host-parasite
+Rumex sp.,plant - rodent ectoparasite,Palaeopsylla soricis soricis,plant - rodent ectoparasite,0.6742,host-parasite
+Sambucus nigra,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,0.1201,host-parasite
+Sambucus nigra,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,0.06833,host-parasite
+Sambucus nigra,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,0.02005,host-parasite
+Sambucus nigra,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.00553,host-parasite
+Sambucus nigra,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,0.02786,host-parasite
+Sambucus nigra,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,0.00276,host-parasite
+Sherardia arvensis,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,0.00311,host-parasite
+Sherardia arvensis,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.00274,host-parasite
+Sherardia arvensis,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,0.00137,host-parasite
+Sinapis arvensis,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,0.00411,host-parasite
+Sinapis arvensis,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,0.00411,host-parasite
+Sinapis arvensis,plant - rodent ectoparasite,Nosopsyllus fasciatus,plant - rodent ectoparasite,0.00411,host-parasite
+Stachys sylvatica,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,0.0213,host-parasite
+Stachys sylvatica,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,0.00938,host-parasite
+Stachys sylvatica,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,0.00388,host-parasite
+Stachys sylvatica,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,0.00474,host-parasite
+Stellaria graminea,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,0.00725,host-parasite
+Stellaria graminea,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,0.00319,host-parasite
+Stellaria graminea,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,0.00132,host-parasite
+Stellaria graminea,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,0.00161,host-parasite
+Trifolium pratense/repens,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,3.61e-4,host-parasite
+Trifolium pratense/repens,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,3.61e-4,host-parasite
+Trifolium pratense/repens,plant - rodent ectoparasite,Nosopsyllus fasciatus,plant - rodent ectoparasite,3.61e-4,host-parasite
+Urtica dioica,plant - rodent ectoparasite,Amalaraeus penicilliger mustelae,plant - rodent ectoparasite,3.024,host-parasite
+Urtica dioica,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,1.475,host-parasite
+Urtica dioica,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,0.2374,host-parasite
+Urtica dioica,plant - rodent ectoparasite,Ixodes trianguliceps,plant - rodent ectoparasite,0.2255,host-parasite
+Urtica dioica,plant - rodent ectoparasite,Megabothris turbidus,plant - rodent ectoparasite,1.227,host-parasite
+Urtica dioica,plant - rodent ectoparasite,Nosopsyllus fasciatus,plant - rodent ectoparasite,0.0074,host-parasite
+Urtica dioica,plant - rodent ectoparasite,Palaeopsylla minor,plant - rodent ectoparasite,0.02454,host-parasite
+Urtica dioica,plant - rodent ectoparasite,Palaeopsylla soricis soricis,plant - rodent ectoparasite,0.175,host-parasite
+Vicia sepium,plant - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,plant - rodent ectoparasite,4.55e-5,host-parasite
+Vicia sepium,plant - rodent ectoparasite,Hystrichopsylla talpae talpae,plant - rodent ectoparasite,1.82e-5,host-parasite
+Acyrthosiphon pisum,aphid - primary aphid parasitoid,Aphidius ervi,aphid - primary aphid parasitoid,87880,host-parasite
+Acyrthosiphon pisum,aphid - primary aphid parasitoid,Aphidius rhopalosiphi?,aphid - primary aphid parasitoid,6722,host-parasite
+Acyrthosiphon pisum,aphid - primary aphid parasitoid,Praon dorsale?,aphid - primary aphid parasitoid,6722,host-parasite
+Aphid species 1,aphid - primary aphid parasitoid,Praon exoletum?,aphid - primary aphid parasitoid,828.6,host-parasite
+Brachycaudus helichrysii,aphid - primary aphid parasitoid,Aphidius matricariae,aphid - primary aphid parasitoid,13010,host-parasite
+Brachycaudus helichrysii,aphid - primary aphid parasitoid,Aphidius rhopalosiphi?,aphid - primary aphid parasitoid,2209,host-parasite
+Macrosiphum funestum,aphid - primary aphid parasitoid,Aphidius ervi,aphid - primary aphid parasitoid,328.2,host-parasite
+Microlophium carnosum,aphid - primary aphid parasitoid,Aphidius ervi,aphid - primary aphid parasitoid,1157,host-parasite
+Microlophium carnosum,aphid - primary aphid parasitoid,Trioxys B,aphid - primary aphid parasitoid,1657,host-parasite
+Sitobion avenae,aphid - primary aphid parasitoid,Aphidius ervi,aphid - primary aphid parasitoid,165800,host-parasite
+Sitobion avenae,aphid - primary aphid parasitoid,Aphidius funebris,aphid - primary aphid parasitoid,552.3,host-parasite
+Sitobion avenae,aphid - primary aphid parasitoid,Aphidius matricariae,aphid - primary aphid parasitoid,12460,host-parasite
+Sitobion avenae,aphid - primary aphid parasitoid,Aphidius picipes?,aphid - primary aphid parasitoid,74960,host-parasite
+Sitobion avenae,aphid - primary aphid parasitoid,Aphidius rhopalosiphi?,aphid - primary aphid parasitoid,96790,host-parasite
+Sitobion avenae,aphid - primary aphid parasitoid,Ephedrus plagiator,aphid - primary aphid parasitoid,116400,host-parasite
+Sitobion avenae,aphid - primary aphid parasitoid,Praon volucre,aphid - primary aphid parasitoid,106800,host-parasite
+Therioaphis trifoli,aphid - primary aphid parasitoid,Aphidius ervi,aphid - primary aphid parasitoid,6722,host-parasite
+Tubaphis ranunculina,aphid - primary aphid parasitoid,Praon exoletum?,aphid - primary aphid parasitoid,8568,host-parasite
+Tubaphis ranunculina,aphid - primary aphid parasitoid,Praon sp nr flavinode,aphid - primary aphid parasitoid,12330,host-parasite
+Tubaphis ranunculina,aphid - primary aphid parasitoid,Praon volucre,aphid - primary aphid parasitoid,24550,host-parasite
+Uroleucon sonchi,aphid - primary aphid parasitoid,Aphidius ervi,aphid - primary aphid parasitoid,10080,host-parasite
+Acyrthosiphon pisum,aphid - secondary aphid parasitoid,Alloxysta victrix,aphid - secondary aphid parasitoid,47050,host-parasite
+Acyrthosiphon pisum,aphid - secondary aphid parasitoid,Asaphes suspensus,aphid - secondary aphid parasitoid,82150,host-parasite
+Acyrthosiphon pisum,aphid - secondary aphid parasitoid,Asaphes vulgaris,aphid - secondary aphid parasitoid,26890,host-parasite
+Acyrthosiphon pisum,aphid - secondary aphid parasitoid,Dendrocerus carpenteri,aphid - secondary aphid parasitoid,6722,host-parasite
+Aphid species 1,aphid - secondary aphid parasitoid,Dendrocerus aphidum,aphid - secondary aphid parasitoid,828.6,host-parasite
+Aphis rumicis,aphid - secondary aphid parasitoid,Dendrocerus carpenteri,aphid - secondary aphid parasitoid,108000,host-parasite
+Brachycaudus helichrysii,aphid - secondary aphid parasitoid,Alloxysta victrix,aphid - secondary aphid parasitoid,8306,host-parasite
+Brachycaudus helichrysii,aphid - secondary aphid parasitoid,Asaphes suspensus,aphid - secondary aphid parasitoid,89070,host-parasite
+Brachycaudus helichrysii,aphid - secondary aphid parasitoid,Dendrocerus aphidum,aphid - secondary aphid parasitoid,9963,host-parasite
+Brachycaudus helichrysii,aphid - secondary aphid parasitoid,Dendrocerus carpenteri,aphid - secondary aphid parasitoid,552.3,host-parasite
+Dysaphis species 1,aphid - secondary aphid parasitoid,Alloxysta victrix,aphid - secondary aphid parasitoid,145.1,host-parasite
+Microlophium carnosum,aphid - secondary aphid parasitoid,Alloxysta victrix,aphid - secondary aphid parasitoid,875.3,host-parasite
+Phorodon humuli,aphid - secondary aphid parasitoid,Asaphes vulgaris,aphid - secondary aphid parasitoid,328.2,host-parasite
+Phorodon humuli,aphid - secondary aphid parasitoid,Dendrocerus carpenteri,aphid - secondary aphid parasitoid,218.8,host-parasite
+Sitobion avenae,aphid - secondary aphid parasitoid,Alloxysta victrix,aphid - secondary aphid parasitoid,199700,host-parasite
+Sitobion avenae,aphid - secondary aphid parasitoid,Asaphes suspensus,aphid - secondary aphid parasitoid,235100,host-parasite
+Sitobion avenae,aphid - secondary aphid parasitoid,Asaphes vulgaris,aphid - secondary aphid parasitoid,58370,host-parasite
+Sitobion avenae,aphid - secondary aphid parasitoid,Coruna clavata,aphid - secondary aphid parasitoid,72.57,host-parasite
+Sitobion avenae,aphid - secondary aphid parasitoid,Dendrocerus aphidum,aphid - secondary aphid parasitoid,39910,host-parasite
+Sitobion avenae,aphid - secondary aphid parasitoid,Dendrocerus carpenteri,aphid - secondary aphid parasitoid,296800,host-parasite
+Sitobion avenae,aphid - secondary aphid parasitoid,Pachyneuron sp,aphid - secondary aphid parasitoid,552.3,host-parasite
+Therioaphis trifoli,aphid - secondary aphid parasitoid,Alloxysta victrix,aphid - secondary aphid parasitoid,20160,host-parasite
+Tubaphis ranunculina,aphid - secondary aphid parasitoid,Alloxysta victrix,aphid - secondary aphid parasitoid,5291,host-parasite
+Uroleucon cirsii,aphid - secondary aphid parasitoid,Alloxysta victrix,aphid - secondary aphid parasitoid,552.3,host-parasite
+Bruchidius varius,seed-feeding insect - seed-feeder parasitoid,Aprostocetus sp,seed-feeding insect - seed-feeder parasitoid,64.98,host-parasite
+Bruchidius varius,seed-feeding insect - seed-feeder parasitoid,Spintherus dubius,seed-feeding insect - seed-feeder parasitoid,974.6,host-parasite
+Bruchidius varius,seed-feeding insect - seed-feeder parasitoid,Triaspis floricola,seed-feeding insect - seed-feeder parasitoid,130,host-parasite
+Bruchophagus gibbus,seed-feeding insect - seed-feeder parasitoid,Mesopolobus incultus,seed-feeding insect - seed-feeder parasitoid,64010,host-parasite
+Bruchophagus gibbus,seed-feeding insect - seed-feeder parasitoid,Spintherus dubius,seed-feeding insect - seed-feeder parasitoid,1730,host-parasite
+Bruchophagus gibbus,seed-feeding insect - seed-feeder parasitoid,Trichomalus campestris,seed-feeding insect - seed-feeder parasitoid,17300,host-parasite
+Bruchophagus gibbus,seed-feeding insect - seed-feeder parasitoid,Trichomalus rufinus,seed-feeding insect - seed-feeder parasitoid,3460,host-parasite
+Curtonotus aulicus,seed-feeding insect - seed-feeder parasitoid,Bracon immutator,seed-feeding insect - seed-feeder parasitoid,10.23,host-parasite
+Curtonotus aulicus,seed-feeding insect - seed-feeder parasitoid,Bracon osculator,seed-feeding insect - seed-feeder parasitoid,5.114,host-parasite
+Curtonotus aulicus,seed-feeding insect - seed-feeder parasitoid,Eurytoma sp A,seed-feeding insect - seed-feeder parasitoid,5.114,host-parasite
+Curtonotus aulicus,seed-feeding insect - seed-feeder parasitoid,Eurytoma sp B,seed-feeding insect - seed-feeder parasitoid,5.114,host-parasite
+Curtonotus aulicus,seed-feeding insect - seed-feeder parasitoid,Pterandrophysalis levantina,seed-feeding insect - seed-feeder parasitoid,368.2,host-parasite
+Olibrus aeneus,seed-feeding insect - seed-feeder parasitoid,Bracon immutator,seed-feeding insect - seed-feeder parasitoid,10.23,host-parasite
+Olibrus aeneus,seed-feeding insect - seed-feeder parasitoid,Bracon osculator,seed-feeding insect - seed-feeder parasitoid,5.114,host-parasite
+Olibrus aeneus,seed-feeding insect - seed-feeder parasitoid,Eurytoma sp A,seed-feeding insect - seed-feeder parasitoid,5.114,host-parasite
+Olibrus aeneus,seed-feeding insect - seed-feeder parasitoid,Eurytoma sp B,seed-feeding insect - seed-feeder parasitoid,5.114,host-parasite
+Olibrus aeneus,seed-feeding insect - seed-feeder parasitoid,Pterandrophysalis levantina,seed-feeding insect - seed-feeder parasitoid,368.2,host-parasite
+Oxystoma pomonae,seed-feeding insect - seed-feeder parasitoid,Pteromalus sequester-group,seed-feeding insect - seed-feeder parasitoid,1657,host-parasite
+Protapion apricans,seed-feeding insect - seed-feeder parasitoid,Aprostocetus sp,seed-feeding insect - seed-feeder parasitoid,324.9,host-parasite
+Protapion apricans,seed-feeding insect - seed-feeder parasitoid,Mesopolobus incultus,seed-feeding insect - seed-feeder parasitoid,56300,host-parasite
+Protapion apricans,seed-feeding insect - seed-feeder parasitoid,Spintherus dubius,seed-feeding insect - seed-feeder parasitoid,6675,host-parasite
+Protapion apricans,seed-feeding insect - seed-feeder parasitoid,Triaspis floricola,seed-feeding insect - seed-feeder parasitoid,649.8,host-parasite
+Protapion apricans,seed-feeding insect - seed-feeder parasitoid,Trichomalus campestris,seed-feeding insect - seed-feeder parasitoid,15140,host-parasite
+Protapion apricans,seed-feeding insect - seed-feeder parasitoid,Trichomalus rufinus,seed-feeding insect - seed-feeder parasitoid,3028,host-parasite
+Protapion assimile,seed-feeding insect - seed-feeder parasitoid,Aprostocetus sp,seed-feeding insect - seed-feeder parasitoid,292.4,host-parasite
+Protapion assimile,seed-feeding insect - seed-feeder parasitoid,Mesopolobus incultus,seed-feeding insect - seed-feeder parasitoid,1439,host-parasite
+Protapion assimile,seed-feeding insect - seed-feeder parasitoid,Spintherus dubius,seed-feeding insect - seed-feeder parasitoid,5825,host-parasite
+Protapion assimile,seed-feeding insect - seed-feeder parasitoid,Triaspis floricola,seed-feeding insect - seed-feeder parasitoid,584.8,host-parasite
+Protapion fulvipes,seed-feeding insect - seed-feeder parasitoid,Aprostocetus sp,seed-feeding insect - seed-feeder parasitoid,130,host-parasite
+Protapion fulvipes,seed-feeding insect - seed-feeder parasitoid,Mesopolobus incultus,seed-feeding insect - seed-feeder parasitoid,217200,host-parasite
+Protapion fulvipes,seed-feeding insect - seed-feeder parasitoid,Spintherus dubius,seed-feeding insect - seed-feeder parasitoid,15690,host-parasite
+Protapion fulvipes,seed-feeding insect - seed-feeder parasitoid,Triaspis floricola,seed-feeding insect - seed-feeder parasitoid,259.9,host-parasite
+Protapion fulvipes,seed-feeding insect - seed-feeder parasitoid,Trichomalus campestris,seed-feeding insect - seed-feeder parasitoid,44880,host-parasite
+Protapion fulvipes,seed-feeding insect - seed-feeder parasitoid,Trichomalus rufinus,seed-feeding insect - seed-feeder parasitoid,66560,host-parasite
+Protapion trifolii,seed-feeding insect - seed-feeder parasitoid,Aprostocetus sp,seed-feeding insect - seed-feeder parasitoid,194.9,host-parasite
+Protapion trifolii,seed-feeding insect - seed-feeder parasitoid,Mesopolobus incultus,seed-feeding insect - seed-feeder parasitoid,60610,host-parasite
+Protapion trifolii,seed-feeding insect - seed-feeder parasitoid,Spintherus dubius,seed-feeding insect - seed-feeder parasitoid,9043,host-parasite
+Protapion trifolii,seed-feeding insect - seed-feeder parasitoid,Triaspis floricola,seed-feeding insect - seed-feeder parasitoid,389.9,host-parasite
+Protapion trifolii,seed-feeding insect - seed-feeder parasitoid,Trichomalus campestris,seed-feeding insect - seed-feeder parasitoid,15140,host-parasite
+Protapion trifolii,seed-feeding insect - seed-feeder parasitoid,Trichomalus rufinus,seed-feeding insect - seed-feeder parasitoid,3028,host-parasite
+Protapion varipes,seed-feeding insect - seed-feeder parasitoid,Aprostocetus sp,seed-feeding insect - seed-feeder parasitoid,32.49,host-parasite
+Protapion varipes,seed-feeding insect - seed-feeder parasitoid,Spintherus dubius,seed-feeding insect - seed-feeder parasitoid,487.3,host-parasite
+Protapion varipes,seed-feeding insect - seed-feeder parasitoid,Triaspis floricola,seed-feeding insect - seed-feeder parasitoid,64.98,host-parasite
+Rhinocyllus conicus,seed-feeding insect - seed-feeder parasitoid,Bracon immutator,seed-feeding insect - seed-feeder parasitoid,10.23,host-parasite
+Rhinocyllus conicus,seed-feeding insect - seed-feeder parasitoid,Bracon osculator,seed-feeding insect - seed-feeder parasitoid,5.114,host-parasite
+Rhinocyllus conicus,seed-feeding insect - seed-feeder parasitoid,Eurytoma sp A,seed-feeding insect - seed-feeder parasitoid,5.114,host-parasite
+Rhinocyllus conicus,seed-feeding insect - seed-feeder parasitoid,Eurytoma sp B,seed-feeding insect - seed-feeder parasitoid,5.114,host-parasite
+Rhinocyllus conicus,seed-feeding insect - seed-feeder parasitoid,Pterandrophysalis levantina,seed-feeding insect - seed-feeder parasitoid,368.2,host-parasite
+Sitona lineatus,seed-feeding insect - seed-feeder parasitoid,Aprostocetus sp,seed-feeding insect - seed-feeder parasitoid,32.49,host-parasite
+Sitona lineatus,seed-feeding insect - seed-feeder parasitoid,Spintherus dubius,seed-feeding insect - seed-feeder parasitoid,487.3,host-parasite
+Sitona lineatus,seed-feeding insect - seed-feeder parasitoid,Triaspis floricola,seed-feeding insect - seed-feeder parasitoid,64.98,host-parasite
+Sitona sulcifrons,seed-feeding insect - seed-feeder parasitoid,Aprostocetus sp,seed-feeding insect - seed-feeder parasitoid,32.49,host-parasite
+Sitona sulcifrons,seed-feeding insect - seed-feeder parasitoid,Spintherus dubius,seed-feeding insect - seed-feeder parasitoid,487.3,host-parasite
+Sitona sulcifrons,seed-feeding insect - seed-feeder parasitoid,Triaspis floricola,seed-feeding insect - seed-feeder parasitoid,64.98,host-parasite
+Terellia longicauda,seed-feeding insect - seed-feeder parasitoid,Pteromalus beryllii,seed-feeding insect - seed-feeder parasitoid,145.9,host-parasite
+Terellia ruficauda,seed-feeding insect - seed-feeder parasitoid,Bracon praecox,seed-feeding insect - seed-feeder parasitoid,205.7,host-parasite
+Terellia ruficauda,seed-feeding insect - seed-feeder parasitoid,Pteromalus albipennis,seed-feeding insect - seed-feeder parasitoid,24650,host-parasite
+Terellia serratulae,seed-feeding insect - seed-feeder parasitoid,Bracon immutator,seed-feeding insect - seed-feeder parasitoid,102.3,host-parasite
+Terellia serratulae,seed-feeding insect - seed-feeder parasitoid,Bracon osculator,seed-feeding insect - seed-feeder parasitoid,51.14,host-parasite
+Terellia serratulae,seed-feeding insect - seed-feeder parasitoid,Crataepus marbis,seed-feeding insect - seed-feeder parasitoid,315.6,host-parasite
+Terellia serratulae,seed-feeding insect - seed-feeder parasitoid,Eurytoma sp A,seed-feeding insect - seed-feeder parasitoid,51.14,host-parasite
+Terellia serratulae,seed-feeding insect - seed-feeder parasitoid,Eurytoma sp B,seed-feeding insect - seed-feeder parasitoid,51.14,host-parasite
+Terellia serratulae,seed-feeding insect - seed-feeder parasitoid,Pteromalus beryllii,seed-feeding insect - seed-feeder parasitoid,1021,host-parasite
+Terellia serratulae,seed-feeding insect - seed-feeder parasitoid,Pteromalus elevatus,seed-feeding insect - seed-feeder parasitoid,105.2,host-parasite
+Urophora stylata,seed-feeding insect - seed-feeder parasitoid,Bracon immutator,seed-feeding insect - seed-feeder parasitoid,971.6,host-parasite
+Urophora stylata,seed-feeding insect - seed-feeder parasitoid,Bracon osculator,seed-feeding insect - seed-feeder parasitoid,485.8,host-parasite
+Urophora stylata,seed-feeding insect - seed-feeder parasitoid,Bracon praecox,seed-feeding insect - seed-feeder parasitoid,1851,host-parasite
+Urophora stylata,seed-feeding insect - seed-feeder parasitoid,Crataepus marbis,seed-feeding insect - seed-feeder parasitoid,2998,host-parasite
+Urophora stylata,seed-feeding insect - seed-feeder parasitoid,Eurytoma sp A,seed-feeding insect - seed-feeder parasitoid,485.8,host-parasite
+Urophora stylata,seed-feeding insect - seed-feeder parasitoid,Eurytoma sp B,seed-feeding insect - seed-feeder parasitoid,485.8,host-parasite
+Urophora stylata,seed-feeding insect - seed-feeder parasitoid,Pteromalus elevatus,seed-feeding insect - seed-feeder parasitoid,999.4,host-parasite
+Apodemus flavicollis,seed-feeding rodent - rodent ectoparasite,Amalaraeus penicilliger mustelae,seed-feeding rodent - rodent ectoparasite,5.368,host-parasite
+Apodemus flavicollis,seed-feeding rodent - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,seed-feeding rodent - rodent ectoparasite,17.67,host-parasite
+Apodemus flavicollis,seed-feeding rodent - rodent ectoparasite,Hystrichopsylla talpae talpae,seed-feeding rodent - rodent ectoparasite,6.937,host-parasite
+Apodemus sylvaticus,seed-feeding rodent - rodent ectoparasite,Amalaraeus penicilliger mustelae,seed-feeding rodent - rodent ectoparasite,5.141,host-parasite
+Apodemus sylvaticus,seed-feeding rodent - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,seed-feeding rodent - rodent ectoparasite,38.56,host-parasite
+Apodemus sylvaticus,seed-feeding rodent - rodent ectoparasite,Hystrichopsylla talpae talpae,seed-feeding rodent - rodent ectoparasite,10.41,host-parasite
+Apodemus sylvaticus,seed-feeding rodent - rodent ectoparasite,Ixodes trianguliceps,seed-feeding rodent - rodent ectoparasite,26.97,host-parasite
+Apodemus sylvaticus,seed-feeding rodent - rodent ectoparasite,Megabothris turbidus,seed-feeding rodent - rodent ectoparasite,2.652,host-parasite
+Apodemus sylvaticus,seed-feeding rodent - rodent ectoparasite,Nosopsyllus fasciatus,seed-feeding rodent - rodent ectoparasite,2.652,host-parasite
+Apodemus sylvaticus,seed-feeding rodent - rodent ectoparasite,Palaeopsylla minor,seed-feeding rodent - rodent ectoparasite,13.49,host-parasite
+Micromys minutus,seed-feeding rodent - rodent ectoparasite,Amalaraeus penicilliger mustelae,seed-feeding rodent - rodent ectoparasite,0.9713,host-parasite
+Micromys minutus,seed-feeding rodent - rodent ectoparasite,Hystrichopsylla talpae talpae,seed-feeding rodent - rodent ectoparasite,3.885,host-parasite
+Myodes glareolus,seed-feeding rodent - rodent ectoparasite,Amalaraeus penicilliger mustelae,seed-feeding rodent - rodent ectoparasite,232.2,host-parasite
+Myodes glareolus,seed-feeding rodent - rodent ectoparasite,Ctenophthalmus nobilis vulgaris,seed-feeding rodent - rodent ectoparasite,107.6,host-parasite
+Myodes glareolus,seed-feeding rodent - rodent ectoparasite,Hystrichopsylla talpae talpae,seed-feeding rodent - rodent ectoparasite,12.84,host-parasite
+Myodes glareolus,seed-feeding rodent - rodent ectoparasite,Ixodes trianguliceps,seed-feeding rodent - rodent ectoparasite,11.92,host-parasite
+Myodes glareolus,seed-feeding rodent - rodent ectoparasite,Megabothris turbidus,seed-feeding rodent - rodent ectoparasite,48.38,host-parasite
+Myodes glareolus,seed-feeding rodent - rodent ectoparasite,Palaeopsylla soricis soricis,seed-feeding rodent - rodent ectoparasite,5.701,host-parasite

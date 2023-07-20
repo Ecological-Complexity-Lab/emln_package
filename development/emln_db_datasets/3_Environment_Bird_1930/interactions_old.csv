@@ -1,0 +1,500 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+red-tailed hawk,1,vole (microtus),1,1,predation,method,field observation and gut content
+weasel,1,vole (microtus),1,1,predation,method,field observation and gut content
+marsh hawk,1,13-striped spermophile (ground squirrel),1,1,predation,method,field observation and gut content
+coyote,1,13-striped spermophile (ground squirrel),1,1,predation,method,field observation and gut content
+red-tailed hawk,1,13-striped spermophile (ground squirrel),1,1,predation,method,field observation and gut content
+weasel,1,13-striped spermophile (ground squirrel),1,1,predation,method,field observation and gut content
+marsh hawk,1,pocket gopher (thomomys),1,1,predation,method,field observation and gut content
+coyote,1,pocket gopher (thomomys),1,1,predation,method,field observation and gut content
+red-tailed hawk,1,pocket gopher (thomomys),1,1,predation,method,field observation and gut content
+weasel,1,pocket gopher (thomomys),1,1,predation,method,field observation and gut content
+badger,1,richardson spermophile (ground squirrel),1,1,predation,method,field observation and gut content
+badger,1,13-striped spermophile (ground squirrel),1,1,predation,method,field observation and gut content
+vole (microtus),1,agropyron,1,1,herbivory,method,field observation and gut content
+vole (microtus),1,stipa,1,1,herbivory,method,field observation and gut content
+vole (microtus),1,helianthus,1,1,herbivory,method,field observation and gut content
+13-striped spermophile (ground squirrel),1,vole (microtus),1,1,predation,method,field observation and gut content
+13-striped spermophile (ground squirrel),1,agropyron,1,1,herbivory,method,field observation and gut content
+13-striped spermophile (ground squirrel),1,stipa,1,1,herbivory,method,field observation and gut content
+13-striped spermophile (ground squirrel),1,helianthus,1,1,herbivory,method,field observation and gut content
+13-striped spermophile (ground squirrel),1,insects in herb and surface stratum,1,1,predation,method,field observation and gut content
+13-striped spermophile (ground squirrel),1,diptera,1,1,predation,method,field observation and gut content
+13-striped spermophile (ground squirrel),1,hemiptera,1,1,predation,method,field observation and gut content
+13-striped spermophile (ground squirrel),1,grasshoppers,1,1,predation,method,field observation and gut content
+pocket gopher (thomomys),1,agropyron,1,1,herbivory,method,field observation and gut content
+pocket gopher (thomomys),1,stipa,1,1,herbivory,method,field observation and gut content
+pocket gopher (thomomys),1,helianthus,1,1,herbivory,method,field observation and gut content
+great horned owl,1,vole (microtus),1,1,predation,method,field observation and gut content
+great horned owl,1,crow,1,1,predation,method,field observation and gut content
+insects in herb and surface stratum,1,agropyron,1,1,herbivory,method,field observation and gut content
+hemiptera,1,agropyron,1,1,herbivory,method,field observation and gut content
+grasshoppers,1,agropyron,1,1,herbivory,method,field observation and gut content
+insects in herb and surface stratum,1,stipa,1,1,herbivory,method,field observation and gut content
+diptera,1,stipa,1,1,herbivory,method,field observation and gut content
+hemiptera,1,stipa,1,1,herbivory,method,field observation and gut content
+grasshoppers,1,stipa,1,1,herbivory,method,field observation and gut content
+insects in herb and surface stratum,1,helianthus,1,1,herbivory,method,field observation and gut content
+diptera,1,helianthus,1,1,herbivory,method,field observation and gut content
+hemiptera,1,helianthus,1,1,herbivory,method,field observation and gut content
+grasshoppers,1,helianthus,1,1,herbivory,method,field observation and gut content
+spiders,1,insects in herb and surface stratum,1,1,predation,method,field observation and gut content
+spiders,1,diptera,1,1,predation,method,field observation and gut content
+spiders,1,hemiptera,1,1,predation,method,field observation and gut content
+spiders,1,grasshoppers,1,1,predation,method,field observation and gut content
+insects in soil stratum,1,agropyron,1,1,herbivory,method,field observation and gut content
+wire worms,1,agropyron,1,1,herbivory,method,field observation and gut content
+cutworms,1,agropyron,1,1,herbivory,method,field observation and gut content
+white grubs,1,agropyron,1,1,herbivory,method,field observation and gut content
+insects in soil stratum,1,stipa,1,1,herbivory,method,field observation and gut content
+wire worms,1,stipa,1,1,herbivory,method,field observation and gut content
+cutworms,1,stipa,1,1,herbivory,method,field observation and gut content
+white grubs,1,stipa,1,1,herbivory,method,field observation and gut content
+insects in soil stratum,1,helianthus,1,1,herbivory,method,field observation and gut content
+wire worms,1,helianthus,1,1,herbivory,method,field observation and gut content
+cutworms,1,helianthus,1,1,herbivory,method,field observation and gut content
+white grubs,1,helianthus,1,1,herbivory,method,field observation and gut content
+meadow lark,1,insects in herb and surface stratum,1,1,predation,method,field observation and gut content
+chipping sparrow,1,insects in herb and surface stratum,1,1,predation,method,field observation and gut content
+clay-colored sparrow,1,insects in herb and surface stratum,1,1,predation,method,field observation and gut content
+vesper sparrow,1,insects in herb and surface stratum,1,1,predation,method,field observation and gut content
+horned lark,1,insects in herb and surface stratum,1,1,predation,method,field observation and gut content
+upland plover,1,insects in herb and surface stratum,1,1,predation,method,field observation and gut content
+meadow lark,1,diptera,1,1,predation,method,field observation and gut content
+chipping sparrow,1,diptera,1,1,predation,method,field observation and gut content
+clay-colored sparrow,1,diptera,1,1,predation,method,field observation and gut content
+vesper sparrow,1,diptera,1,1,predation,method,field observation and gut content
+horned lark,1,diptera,1,1,predation,method,field observation and gut content
+upland plover,1,diptera,1,1,predation,method,field observation and gut content
+meadow lark,1,hemiptera,1,1,predation,method,field observation and gut content
+chipping sparrow,1,hemiptera,1,1,predation,method,field observation and gut content
+clay-colored sparrow,1,hemiptera,1,1,predation,method,field observation and gut content
+vesper sparrow,1,hemiptera,1,1,predation,method,field observation and gut content
+horned lark,1,hemiptera,1,1,predation,method,field observation and gut content
+meadow lark,1,grasshoppers,1,1,predation,method,field observation and gut content
+clay-colored sparrow,1,grasshoppers,1,1,predation,method,field observation and gut content
+vesper sparrow,1,grasshoppers,1,1,predation,method,field observation and gut content
+horned lark,1,grasshoppers,1,1,predation,method,field observation and gut content
+upland plover,1,grasshoppers,1,1,predation,method,field observation and gut content
+meadow lark,1,insects in soil stratum,1,1,predation,method,field observation and gut content
+upland plover,1,insects in soil stratum,1,1,predation,method,field observation and gut content
+meadow lark,1,wire worms,1,1,predation,method,field observation and gut content
+chipping sparrow,1,wire worms,1,1,predation,method,field observation and gut content
+clay-colored sparrow,1,wire worms,1,1,predation,method,field observation and gut content
+vesper sparrow,1,wire worms,1,1,predation,method,field observation and gut content
+horned lark,1,wire worms,1,1,predation,method,field observation and gut content
+upland plover,1,wire worms,1,1,predation,method,field observation and gut content
+meadow lark,1,cutworms,1,1,predation,method,field observation and gut content
+chipping sparrow,1,cutworms,1,1,predation,method,field observation and gut content
+clay-colored sparrow,1,cutworms,1,1,predation,method,field observation and gut content
+vesper sparrow,1,cutworms,1,1,predation,method,field observation and gut content
+horned lark,1,cutworms,1,1,predation,method,field observation and gut content
+upland plover,1,cutworms,1,1,predation,method,field observation and gut content
+meadow lark,1,white grubs,1,1,predation,method,field observation and gut content
+chipping sparrow,1,white grubs,1,1,predation,method,field observation and gut content
+clay-colored sparrow,1,white grubs,1,1,predation,method,field observation and gut content
+vesper sparrow,1,white grubs,1,1,predation,method,field observation and gut content
+horned lark,1,white grubs,1,1,predation,method,field observation and gut content
+upland plover,1,white grubs,1,1,predation,method,field observation and gut content
+crow,1,insects in herb and surface stratum,1,1,predation,method,field observation and gut content
+crow,1,diptera,1,1,predation,method,field observation and gut content
+crow,1,hemiptera,1,1,predation,method,field observation and gut content
+crow,1,grasshoppers,1,1,predation,method,field observation and gut content
+crow,1,insects in soil stratum,1,1,predation,method,field observation and gut content
+crow,1,wire worms,1,1,predation,method,field observation and gut content
+crow,1,white grubs,1,1,predation,method,field observation and gut content
+frog,1,insects in herb and surface stratum,1,1,predation,method,field observation and gut content
+frog,1,diptera,1,1,predation,method,field observation and gut content
+frog,1,hemiptera,1,1,predation,method,field observation and gut content
+frog,1,grasshoppers,1,1,predation,method,field observation and gut content
+frog,1,spiders,1,1,predation,method,field observation and gut content
+garter snake,1,insects in herb and surface stratum,1,1,predation,method,field observation and gut content
+garter snake,1,diptera,1,1,predation,method,field observation and gut content
+garter snake,1,hemiptera,1,1,predation,method,field observation and gut content
+garter snake,1,grasshoppers,1,1,predation,method,field observation and gut content
+garter snake,1,frog,1,1,predation,method,field observation and gut content
+chipping sparrow,1,insects in soil stratum,1,1,predation,method,field observation and gut content
+clay-colored sparrow,1,insects in soil stratum,1,1,predation,method,field observation and gut content
+vesper sparrow,1,insects in soil stratum,1,1,predation,method,field observation and gut content
+horned lark,1,insects in soil stratum,1,1,predation,method,field observation and gut content
+diptera,1,agropyron,1,1,herbivory,method,field observation and gut content
+upland plover,1,hemiptera,1,1,predation,method,field observation and gut content
+richardson spermophile (ground squirrel),1,agropyron,1,1,herbivory,method,field observation and gut content
+richardson spermophile (ground squirrel),1,stipa,1,1,herbivory,method,field observation and gut content
+richardson spermophile (ground squirrel),1,helianthus,1,1,herbivory,method,field observation and gut content
+marsh hawk,1,richardson spermophile (ground squirrel),1,1,predation,method,field observation and gut content
+coyote,1,richardson spermophile (ground squirrel),1,1,predation,method,field observation and gut content
+red-tailed hawk,1,richardson spermophile (ground squirrel),1,1,predation,method,field observation and gut content
+weasel,1,richardson spermophile (ground squirrel),1,1,predation,method,field observation and gut content
+marsh hawk,1,vole (microtus),1,1,predation,method,field observation and gut content
+coyote,1,vole (microtus),1,1,predation,method,field observation and gut content
+chipping sparrow,1,grasshoppers,1,1,predation,method,field observation and gut content
+crow,1,cutworms,1,1,predation,method,field observation and gut content
+baltimore oriole,2,spiders (mature forest),2,1,predation,method,field observation and gut content
+chickadee,2,spiders (mature forest),2,1,predation,method,field observation and gut content
+least flycatcher,2,spiders (mature forest),2,1,predation,method,field observation and gut content
+warbling vireo,2,spiders (mature forest),2,1,predation,method,field observation and gut content
+rosebreasted grossbeak,2,spiders (mature forest),2,1,predation,method,field observation and gut content
+willow thrush,2,spiders (mature forest),2,1,predation,method,field observation and gut content
+baltimore oriole,2,insects (mature forest),2,1,predation,method,field observation and gut content
+chickadee,2,insects (mature forest),2,1,predation,method,field observation and gut content
+least flycatcher,2,insects (mature forest),2,1,predation,method,field observation and gut content
+warbling vireo,2,insects (mature forest),2,1,predation,method,field observation and gut content
+rosebreasted grossbeak,2,insects (mature forest),2,1,predation,method,field observation and gut content
+willow thrush,2,insects (mature forest),2,1,predation,method,field observation and gut content
+canker,2,populus,2,1,herbivory,method,field observation and gut content
+fomes,2,populus,2,1,herbivory,method,field observation and gut content
+canker,2,cornus,2,1,herbivory,method,field observation and gut content
+fomes,2,cornus,2,1,herbivory,method,field observation and gut content
+canker,2,corylus,2,1,herbivory,method,field observation and gut content
+fomes,2,corylus,2,1,herbivory,method,field observation and gut content
+canker,2,pyrola,2,1,herbivory,method,field observation and gut content
+fomes,2,pyrola,2,1,herbivory,method,field observation and gut content
+canker,2,aralia,2,1,herbivory,method,field observation and gut content
+fomes,2,aralia,2,1,herbivory,method,field observation and gut content
+canker,2,symphoricarpos,2,1,herbivory,method,field observation and gut content
+fomes,2,symphoricarpos,2,1,herbivory,method,field observation and gut content
+canker,2,prunus,2,1,herbivory,method,field observation and gut content
+fomes,2,prunus,2,1,herbivory,method,field observation and gut content
+canker,2,amelanchier,2,1,herbivory,method,field observation and gut content
+fomes,2,amelanchier,2,1,herbivory,method,field observation and gut content
+hairy woodpecker,2,dicera,2,1,predation,method,field observation and gut content
+hairy woodpecker,2,saperda,2,1,predation,method,field observation and gut content
+spiders (mature forest),2,insects (mature forest),2,1,predation,method,field observation and gut content
+insects (mature forest),2,populus,2,1,herbivory,method,field observation and gut content
+insects (mature forest),2,cornus,2,1,herbivory,method,field observation and gut content
+insects (mature forest),2,corylus,2,1,herbivory,method,field observation and gut content
+insects (mature forest),2,pyrola,2,1,herbivory,method,field observation and gut content
+insects (mature forest),2,aralia,2,1,herbivory,method,field observation and gut content
+dicera,2,populus,2,1,herbivory,method,field observation and gut content
+saperda,2,populus,2,1,herbivory,method,field observation and gut content
+dicera,2,cornus,2,1,herbivory,method,field observation and gut content
+saperda,2,cornus,2,1,herbivory,method,field observation and gut content
+dicera,2,corylus,2,1,herbivory,method,field observation and gut content
+saperda,2,corylus,2,1,herbivory,method,field observation and gut content
+dicera,2,pyrola,2,1,herbivory,method,field observation and gut content
+saperda,2,pyrola,2,1,herbivory,method,field observation and gut content
+dicera,2,aralia,2,1,herbivory,method,field observation and gut content
+saperda,2,aralia,2,1,herbivory,method,field observation and gut content
+dicera,2,symphoricarpos,2,1,herbivory,method,field observation and gut content
+saperda,2,symphoricarpos,2,1,herbivory,method,field observation and gut content
+dicera,2,prunus,2,1,herbivory,method,field observation and gut content
+saperda,2,prunus,2,1,herbivory,method,field observation and gut content
+dicera,2,amelanchier,2,1,herbivory,method,field observation and gut content
+saperda,2,amelanchier,2,1,herbivory,method,field observation and gut content
+red squirrel,2,populus,2,1,herbivory,method,field observation and gut content
+red squirrel,2,cornus,2,1,herbivory,method,field observation and gut content
+red squirrel,2,corylus,2,1,herbivory,method,field observation and gut content
+red squirrel,2,pyrola,2,1,herbivory,method,field observation and gut content
+red squirrel,2,aralia,2,1,herbivory,method,field observation and gut content
+goshawk,2,ruffed grouse,2,1,predation,method,field observation and gut content
+goshawk,2,snowshoe rabbit,2,1,predation,method,field observation and gut content
+redbacked vole (evolomys),2,populus,2,1,herbivory,method,field observation and gut content
+redbacked vole (evolomys),2,cornus,2,1,herbivory,method,field observation and gut content
+redbacked vole (evolomys),2,corylus,2,1,herbivory,method,field observation and gut content
+redbacked vole (evolomys),2,pyrola,2,1,herbivory,method,field observation and gut content
+redbacked vole (evolomys),2,aralia,2,1,herbivory,method,field observation and gut content
+cooper's hawk,2,baltimore oriole,2,1,predation,method,field observation and gut content
+cooper's hawk,2,chickadee,2,1,predation,method,field observation and gut content
+cooper's hawk,2,least flycatcher,2,1,predation,method,field observation and gut content
+cooper's hawk,2,warbling vireo,2,1,predation,method,field observation and gut content
+cooper's hawk,2,rosebreasted grossbeak,2,1,predation,method,field observation and gut content
+cooper's hawk,2,willow thrush,2,1,predation,method,field observation and gut content
+cooper's hawk,2,house wren,2,1,predation,method,field observation and gut content
+cooper's hawk,2,red-eyed vireo,2,1,predation,method,field observation and gut content
+cooper's hawk,2,yellow warbler,2,1,predation,method,field observation and gut content
+cooper's hawk,2,gold finch,2,1,predation,method,field observation and gut content
+cooper's hawk,2,catbird,2,1,predation,method,field observation and gut content
+cooper's hawk,2,brown thrasher,2,1,predation,method,field observation and gut content
+cooper's hawk,2,towhee,2,1,predation,method,field observation and gut content
+great horned owl,2,red squirrel,2,1,predation,method,field observation and gut content
+great horned owl,2,redbacked vole (evolomys),2,1,predation,method,field observation and gut content
+great horned owl,2,ruffed grouse,2,1,predation,method,field observation and gut content
+great horned owl,2,flicker,2,1,predation,method,field observation and gut content
+great horned owl,2,crow,2,1,predation,method,field observation and gut content
+great horned owl,2,snowshoe rabbit,2,1,predation,method,field observation and gut content
+great horned owl,2,redbacked vole,2,1,predation,method,field observation and gut content
+great horned owl,2,franklin ground squirrel,2,1,predation,method,field observation and gut content
+ruffed grouse,2,populus,2,1,herbivory,method,field observation and gut content
+ruffed grouse,2,cornus,2,1,herbivory,method,field observation and gut content
+ruffed grouse,2,corylus,2,1,herbivory,method,field observation and gut content
+ruffed grouse,2,pyrola,2,1,herbivory,method,field observation and gut content
+ruffed grouse,2,aralia,2,1,herbivory,method,field observation and gut content
+ruffed grouse,2,symphoricarpos,2,1,herbivory,method,field observation and gut content
+ruffed grouse,2,prunus,2,1,herbivory,method,field observation and gut content
+ruffed grouse,2,amelanchier,2,1,herbivory,method,field observation and gut content
+crow,2,populus,2,1,herbivory,method,field observation and gut content
+crow,2,cornus,2,1,herbivory,method,field observation and gut content
+crow,2,corylus,2,1,herbivory,method,field observation and gut content
+crow,2,pyrola,2,1,herbivory,method,field observation and gut content
+crow,2,aralia,2,1,herbivory,method,field observation and gut content
+crow,2,symphoricarpos,2,1,herbivory,method,field observation and gut content
+crow,2,prunus,2,1,herbivory,method,field observation and gut content
+crow,2,amelanchier,2,1,herbivory,method,field observation and gut content
+house wren,2,insects (mature forest),2,1,predation,method,field observation and gut content
+house wren,2,insects (forest edge),2,1,predation,method,field observation and gut content
+ticks,2,snowshoe rabbit,2,1,predation,method,field observation and gut content
+snowshoe rabbit,2,populus,2,1,herbivory,method,field observation and gut content
+snowshoe rabbit,2,symphoricarpos,2,1,herbivory,method,field observation and gut content
+snowshoe rabbit,2,corylus,2,1,herbivory,method,field observation and gut content
+snowshoe rabbit,2,prunus,2,1,herbivory,method,field observation and gut content
+snowshoe rabbit,2,amelanchier,2,1,herbivory,method,field observation and gut content
+red-eyed vireo,2,insects (forest edge),2,1,predation,method,field observation and gut content
+yellow warbler,2,insects (forest edge),2,1,predation,method,field observation and gut content
+gold finch,2,insects (forest edge),2,1,predation,method,field observation and gut content
+catbird,2,insects (forest edge),2,1,predation,method,field observation and gut content
+brown thrasher,2,insects (forest edge),2,1,predation,method,field observation and gut content
+towhee,2,insects (forest edge),2,1,predation,method,field observation and gut content
+robin,2,insects (forest edge),2,1,predation,method,field observation and gut content
+redbacked vole,2,populus,2,1,herbivory,method,field observation and gut content
+franklin ground squirrel,2,populus,2,1,herbivory,method,field observation and gut content
+redbacked vole,2,symphoricarpos,2,1,herbivory,method,field observation and gut content
+franklin ground squirrel,2,symphoricarpos,2,1,herbivory,method,field observation and gut content
+redbacked vole,2,corylus,2,1,herbivory,method,field observation and gut content
+franklin ground squirrel,2,corylus,2,1,herbivory,method,field observation and gut content
+redbacked vole,2,prunus,2,1,herbivory,method,field observation and gut content
+franklin ground squirrel,2,prunus,2,1,herbivory,method,field observation and gut content
+redbacked vole,2,amelanchier,2,1,herbivory,method,field observation and gut content
+franklin ground squirrel,2,amelanchier,2,1,herbivory,method,field observation and gut content
+insects (forest edge),2,populus,2,1,herbivory,method,field observation and gut content
+insects (forest edge),2,symphoricarpos,2,1,herbivory,method,field observation and gut content
+insects (forest edge),2,corylus,2,1,herbivory,method,field observation and gut content
+insects (forest edge),2,prunus,2,1,herbivory,method,field observation and gut content
+insects (forest edge),2,amelanchier,2,1,herbivory,method,field observation and gut content
+spiders (forest edge),2,insects (forest edge),2,1,predation,method,field observation and gut content
+snails,2,populus,2,1,herbivory,method,field observation and gut content
+sharpshinned hawk,2,towhee,2,1,predation,method,field observation and gut content
+sharpshinned hawk,2,robin,2,1,predation,method,field observation and gut content
+snails,2,cornus,2,1,herbivory,method,field observation and gut content
+snails,2,corylus,2,1,herbivory,method,field observation and gut content
+snails,2,pyrola,2,1,herbivory,method,field observation and gut content
+snails,2,aralia,2,1,herbivory,method,field observation and gut content
+frogs,2,spiders (mature forest),2,1,predation,method,field observation and gut content
+frogs,2,insects (mature forest),2,1,predation,method,field observation and gut content
+frogs,2,snails,2,1,predation,method,field observation and gut content
+downy woodpecker,2,dicera,2,1,predation,method,field observation and gut content
+downy woodpecker,2,saperda,2,1,predation,method,field observation and gut content
+sharpshinned hawk,2,baltimore oriole,2,1,predation,method,field observation and gut content
+sharpshinned hawk,2,chickadee,2,1,predation,method,field observation and gut content
+sharpshinned hawk,2,least flycatcher,2,1,predation,method,field observation and gut content
+sharpshinned hawk,2,warbling vireo,2,1,predation,method,field observation and gut content
+sharpshinned hawk,2,rosebreasted grossbeak,2,1,predation,method,field observation and gut content
+sharpshinned hawk,2,willow thrush,2,1,predation,method,field observation and gut content
+sharpshinned hawk,2,house wren,2,1,predation,method,field observation and gut content
+sharpshinned hawk,2,red-eyed vireo,2,1,predation,method,field observation and gut content
+sharpshinned hawk,2,yellow warbler,2,1,predation,method,field observation and gut content
+sharpshinned hawk,2,gold finch,2,1,predation,method,field observation and gut content
+sharpshinned hawk,2,catbird,2,1,predation,method,field observation and gut content
+sharpshinned hawk,2,brown thrasher,2,1,predation,method,field observation and gut content
+cooper's hawk,2,robin,2,1,predation,method,field observation and gut content
+baltimore oriole,3,insects,3,1,predation,method,field observation and gut content
+chickadee,3,insects,3,1,predation,method,field observation and gut content
+least flycatcher,3,insects,3,1,predation,method,field observation and gut content
+rosebreasted grosbeak,3,insects,3,1,predation,method,field observation and gut content
+willow thrush,3,insects,3,1,predation,method,field observation and gut content
+baltimore oriole,3,spiders,3,1,predation,method,field observation and gut content
+chickadee,3,spiders,3,1,predation,method,field observation and gut content
+least flycatcher,3,spiders,3,1,predation,method,field observation and gut content
+rosebreasted grosbeak,3,spiders,3,1,predation,method,field observation and gut content
+willow thrush,3,spiders,3,1,predation,method,field observation and gut content
+canker,3,populus,3,1,herbivory,method,field observation and gut content
+fomes,3,populus,3,1,herbivory,method,field observation and gut content
+canker,3,cornus,3,1,herbivory,method,field observation and gut content
+fomes,3,cornus,3,1,herbivory,method,field observation and gut content
+canker,3,corylus,3,1,herbivory,method,field observation and gut content
+fomes,3,corylus,3,1,herbivory,method,field observation and gut content
+canker,3,pryola,3,1,herbivory,method,field observation and gut content
+fomes,3,pryola,3,1,herbivory,method,field observation and gut content
+canker,3,aralia,3,1,herbivory,method,field observation and gut content
+fomes,3,aralia,3,1,herbivory,method,field observation and gut content
+hairy woodpecker,3,dicera,3,1,predation,method,field observation and gut content
+hairy woodpecker,3,saperda,3,1,predation,method,field observation and gut content
+dicera,3,populus,3,1,herbivory,method,field observation and gut content
+saperda,3,populus,3,1,herbivory,method,field observation and gut content
+dicera,3,cornus,3,1,herbivory,method,field observation and gut content
+saperda,3,cornus,3,1,herbivory,method,field observation and gut content
+dicera,3,corylus,3,1,herbivory,method,field observation and gut content
+saperda,3,corylus,3,1,herbivory,method,field observation and gut content
+dicera,3,pryola,3,1,herbivory,method,field observation and gut content
+saperda,3,pryola,3,1,herbivory,method,field observation and gut content
+dicera,3,aralia,3,1,herbivory,method,field observation and gut content
+saperda,3,aralia,3,1,herbivory,method,field observation and gut content
+insects,3,populus,3,1,herbivory,method,field observation and gut content
+insects,3,cornus,3,1,herbivory,method,field observation and gut content
+insects,3,corylus,3,1,herbivory,method,field observation and gut content
+insects,3,pryola,3,1,herbivory,method,field observation and gut content
+insects,3,aralia,3,1,herbivory,method,field observation and gut content
+insects,3,salix longifolia,3,1,herbivory,method,field observation and gut content
+insects,3,salix petiolaris,3,1,herbivory,method,field observation and gut content
+spiders,3,insects,3,1,predation,method,field observation and gut content
+cooper's hawk,3,baltimore oriole,3,1,predation,method,field observation and gut content
+cooper's hawk,3,chickadee,3,1,predation,method,field observation and gut content
+cooper's hawk,3,least flycatcher,3,1,predation,method,field observation and gut content
+cooper's hawk,3,rosebreasted grosbeak,3,1,predation,method,field observation and gut content
+cooper's hawk,3,willow thrush,3,1,predation,method,field observation and gut content
+cooper's hawk,3,maryland yellowthroat,3,1,predation,method,field observation and gut content
+cooper's hawk,3,yellow warbler,3,1,predation,method,field observation and gut content
+cooper's hawk,3,songsparrow,3,1,predation,method,field observation and gut content
+cooper's hawk,3,redwinged blackbird,3,1,predation,method,field observation and gut content
+cooper's hawk,3,bronze grackle,3,1,predation,method,field observation and gut content
+crow,3,populus,3,1,herbivory,method,field observation and gut content
+crow,3,cornus,3,1,herbivory,method,field observation and gut content
+crow,3,corylus,3,1,herbivory,method,field observation and gut content
+crow,3,pryola,3,1,herbivory,method,field observation and gut content
+crow,3,aralia,3,1,herbivory,method,field observation and gut content
+crow,3,cutworms,3,1,predation,method,field observation and gut content
+crow,3,grasshoppers,3,1,predation,method,field observation and gut content
+crow,3,clickbeetles,3,1,predation,method,field observation and gut content
+ruffed grouse,3,populus,3,1,herbivory,method,field observation and gut content
+ruffed grouse,3,cornus,3,1,herbivory,method,field observation and gut content
+ruffed grouse,3,corylus,3,1,herbivory,method,field observation and gut content
+ruffed grouse,3,pryola,3,1,herbivory,method,field observation and gut content
+ruffed grouse,3,aralia,3,1,herbivory,method,field observation and gut content
+man,3,populus,3,1,herbivory,method,field observation and gut content
+man,3,cornus,3,1,herbivory,method,field observation and gut content
+man,3,corylus,3,1,herbivory,method,field observation and gut content
+man,3,pryola,3,1,herbivory,method,field observation and gut content
+man,3,aralia,3,1,herbivory,method,field observation and gut content
+man,3,ruffed grouse,3,1,predation,method,field observation and gut content
+man,3,rabbit,3,1,predation,method,field observation and gut content
+man,3,fish,3,1,predation,method,field observation and gut content
+man,3,ducks,3,1,predation,method,field observation and gut content
+man,3,coyote,3,1,predation,method,field observation and gut content
+man,3,weasel,3,1,predation,method,field observation and gut content
+man,3,skunk,3,1,predation,method,field observation and gut content
+man,3,agrostis,3,1,herbivory,method,field observation and gut content
+man,3,agropyron,3,1,herbivory,method,field observation and gut content
+man,3,stipa,3,1,herbivory,method,field observation and gut content
+man,3,helianthus,3,1,herbivory,method,field observation and gut content
+goshawk,3,ruffed grouse,3,1,predation,method,field observation and gut content
+goshawk,3,rabbit,3,1,predation,method,field observation and gut content
+rabbit,3,populus,3,1,herbivory,method,field observation and gut content
+rabbit,3,cornus,3,1,herbivory,method,field observation and gut content
+rabbit,3,corylus,3,1,herbivory,method,field observation and gut content
+rabbit,3,pryola,3,1,herbivory,method,field observation and gut content
+rabbit,3,aralia,3,1,herbivory,method,field observation and gut content
+rabbit,3,salix longifolia,3,1,herbivory,method,field observation and gut content
+rabbit,3,salix petiolaris,3,1,herbivory,method,field observation and gut content
+great horned owl,3,baltimore oriole,3,1,predation,method,field observation and gut content
+great horned owl,3,chickadee,3,1,predation,method,field observation and gut content
+great horned owl,3,least flycatcher,3,1,predation,method,field observation and gut content
+great horned owl,3,rosebreasted grosbeak,3,1,predation,method,field observation and gut content
+great horned owl,3,willow thrush,3,1,predation,method,field observation and gut content
+great horned owl,3,crow,3,1,predation,method,field observation and gut content
+great horned owl,3,ruffed grouse,3,1,predation,method,field observation and gut content
+great horned owl,3,rabbit,3,1,predation,method,field observation and gut content
+great horned owl,3,flicker,3,1,predation,method,field observation and gut content
+great horned owl,3,red squirrel,3,1,predation,method,field observation and gut content
+great horned owl,3,coots,3,1,predation,method,field observation and gut content
+great horned owl,3,prairie vole,3,1,predation,method,field observation and gut content
+great horned owl,3,pocket gophers,3,1,predation,method,field observation and gut content
+great horned owl,3,ground squirrels,3,1,predation,method,field observation and gut content
+great horned owl,3,mice,3,1,predation,method,field observation and gut content
+flicker,3,ants,3,1,predation,method,field observation and gut content
+maryland yellowthroat,3,insects,3,1,predation,method,field observation and gut content
+yellow warbler,3,insects,3,1,predation,method,field observation and gut content
+songsparrow,3,insects,3,1,predation,method,field observation and gut content
+yellow warbler,3,spiders,3,1,predation,method,field observation and gut content
+songsparrow,3,spiders,3,1,predation,method,field observation and gut content
+galerucella decora,3,salix longifolia,3,1,herbivory,method,field observation and gut content
+galerucella decora,3,salix discolor,3,1,herbivory,method,field observation and gut content
+galerucella decora,3,salix petiolaris,3,1,herbivory,method,field observation and gut content
+red squirrel,3,populus,3,1,herbivory,method,field observation and gut content
+red squirrel,3,cornus,3,1,herbivory,method,field observation and gut content
+red squirrel,3,corylus,3,1,herbivory,method,field observation and gut content
+red squirrel,3,pryola,3,1,herbivory,method,field observation and gut content
+red squirrel,3,aralia,3,1,herbivory,method,field observation and gut content
+redwinged blackbird,3,insects,3,1,predation,method,field observation and gut content
+bronze grackle,3,insects,3,1,predation,method,field observation and gut content
+rana pipiens,3,insects,3,1,predation,method,field observation and gut content
+rana pipiens,3,spiders,3,1,predation,method,field observation and gut content
+rana pipiens,3,cutworms,3,1,predation,method,field observation and gut content
+rana pipiens,3,grasshoppers,3,1,predation,method,field observation and gut content
+rana pipiens,3,clickbeetles,3,1,predation,method,field observation and gut content
+garter snake,3,rana pipiens,3,1,predation,method,field observation and gut content
+fish,3,rana pipiens,3,1,predation,method,field observation and gut content
+fish,3,garter snake,3,1,predation,method,field observation and gut content
+coyote,3,rabbit,3,1,predation,method,field observation and gut content
+weasel,3,rabbit,3,1,predation,method,field observation and gut content
+skunk,3,rabbit,3,1,predation,method,field observation and gut content
+coyote,3,prairie vole,3,1,predation,method,field observation and gut content
+weasel,3,prairie vole,3,1,predation,method,field observation and gut content
+skunk,3,prairie vole,3,1,predation,method,field observation and gut content
+coyote,3,pocket gophers,3,1,predation,method,field observation and gut content
+weasel,3,pocket gophers,3,1,predation,method,field observation and gut content
+skunk,3,pocket gophers,3,1,predation,method,field observation and gut content
+coyote,3,ground squirrels,3,1,predation,method,field observation and gut content
+weasel,3,ground squirrels,3,1,predation,method,field observation and gut content
+skunk,3,ground squirrels,3,1,predation,method,field observation and gut content
+prairie vole,3,agrostis,3,1,herbivory,method,field observation and gut content
+prairie vole,3,agropyron,3,1,herbivory,method,field observation and gut content
+prairie vole,3,stipa,3,1,herbivory,method,field observation and gut content
+prairie vole,3,helianthus,3,1,herbivory,method,field observation and gut content
+pocket gophers,3,prairie vole,3,1,predation,method,field observation and gut content
+ground squirrels,3,prairie vole,3,1,predation,method,field observation and gut content
+pocket gophers,3,agrostis,3,1,herbivory,method,field observation and gut content
+ground squirrels,3,agrostis,3,1,herbivory,method,field observation and gut content
+pocket gophers,3,agropyron,3,1,herbivory,method,field observation and gut content
+ground squirrels,3,agropyron,3,1,herbivory,method,field observation and gut content
+pocket gophers,3,stipa,3,1,herbivory,method,field observation and gut content
+ground squirrels,3,stipa,3,1,herbivory,method,field observation and gut content
+pocket gophers,3,helianthus,3,1,herbivory,method,field observation and gut content
+ground squirrels,3,helianthus,3,1,herbivory,method,field observation and gut content
+cutworms,3,agrostis,3,1,herbivory,method,field observation and gut content
+grasshoppers,3,agrostis,3,1,herbivory,method,field observation and gut content
+clickbeetles,3,agrostis,3,1,herbivory,method,field observation and gut content
+cutworms,3,agropyron,3,1,herbivory,method,field observation and gut content
+grasshoppers,3,agropyron,3,1,herbivory,method,field observation and gut content
+clickbeetles,3,agropyron,3,1,herbivory,method,field observation and gut content
+cutworms,3,stipa,3,1,herbivory,method,field observation and gut content
+grasshoppers,3,stipa,3,1,herbivory,method,field observation and gut content
+clickbeetles,3,stipa,3,1,herbivory,method,field observation and gut content
+cutworms,3,helianthus,3,1,herbivory,method,field observation and gut content
+grasshoppers,3,helianthus,3,1,herbivory,method,field observation and gut content
+clickbeetles,3,helianthus,3,1,herbivory,method,field observation and gut content
+downy woodpecker,3,dicera,3,1,predation,method,field observation and gut content
+downy woodpecker,3,saperda,3,1,predation,method,field observation and gut content
+sharpshinned hawk,3,baltimore oriole,3,1,predation,method,field observation and gut content
+sharpshinned hawk,3,chickadee,3,1,predation,method,field observation and gut content
+sharpshinned hawk,3,least flycatcher,3,1,predation,method,field observation and gut content
+sharpshinned hawk,3,rosebreasted grosbeak,3,1,predation,method,field observation and gut content
+sharpshinned hawk,3,willow thrush,3,1,predation,method,field observation and gut content
+sharpshinned hawk,3,maryland yellowthroat,3,1,predation,method,field observation and gut content
+sharpshinned hawk,3,yellow warbler,3,1,predation,method,field observation and gut content
+sharpshinned hawk,3,songsparrow,3,1,predation,method,field observation and gut content
+sharpshinned hawk,3,redwinged blackbird,3,1,predation,method,field observation and gut content
+sharpshinned hawk,3,bronze grackle,3,1,predation,method,field observation and gut content
+maryland yellowthroat,3,spiders,3,1,predation,method,field observation and gut content
+yellow warbler,4,disyonicha quinquevitata,4,1,predation,method,field observation and gut content
+song sparrow,4,disyonicha quinquevitata,4,1,predation,method,field observation and gut content
+maryland yellowthroat,4,collembola,4,1,predation,method,field observation and gut content
+yellow warbler,4,collembola,4,1,predation,method,field observation and gut content
+song sparrow,4,collembola,4,1,predation,method,field observation and gut content
+spiders,4,insects,4,1,predation,method,field observation and gut content
+spiders,4,pontania petiolaridis,4,1,predation,method,field observation and gut content
+spiders,4,collembola,4,1,predation,method,field observation and gut content
+spiders,4,disyonicha quinquevitata,4,1,predation,method,field observation and gut content
+insects,4,salix petiolaris,4,1,herbivory,method,field observation and gut content
+pontania petiolaridis,4,salix petiolaris,4,1,herbivory,method,field observation and gut content
+collembola,4,salix petiolaris,4,1,herbivory,method,field observation and gut content
+insects,4,salix longifolia,4,1,herbivory,method,field observation and gut content
+rana pipiens,4,insects,4,1,predation,method,field observation and gut content
+rana pipiens,4,pontania petiolaridis,4,1,predation,method,field observation and gut content
+rana pipiens,4,collembola,4,1,predation,method,field observation and gut content
+rana pipiens,4,disyonicha quinquevitata,4,1,predation,method,field observation and gut content
+rana pipiens,4,snails,4,1,predation,method,field observation and gut content
+garter snake,4,rana pipiens,4,1,predation,method,field observation and gut content
+galerucella decora,4,salix petiolaris,4,1,herbivory,method,field observation and gut content
+galerucella decora,4,salix longifolia,4,1,herbivory,method,field observation and gut content
+redwinged blackbird,4,spiders,4,1,predation,method,field observation and gut content
+bronze grackle,4,spiders,4,1,predation,method,field observation and gut content
+song sparrow,4,spiders,4,1,predation,method,field observation and gut content
+maryland yellowthroat,4,spiders,4,1,predation,method,field observation and gut content
+yellow warbler,4,spiders,4,1,predation,method,field observation and gut content
+maryland yellowthroat,4,insects,4,1,predation,method,field observation and gut content
+yellow warbler,4,insects,4,1,predation,method,field observation and gut content
+song sparrow,4,insects,4,1,predation,method,field observation and gut content
+maryland yellowthroat,4,disyonicha quinquevitata,4,1,predation,method,field observation and gut content
+galerucella decora,4,salix discolor,4,1,herbivory,method,field observation and gut content
+disyonicha quinquevitata,4,salix longifolia,4,1,herbivory,method,field observation and gut content
+collembola,4,salix longifolia,4,1,herbivory,method,field observation and gut content

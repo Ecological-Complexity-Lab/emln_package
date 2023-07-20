@@ -1,0 +1,63 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Eupelmid gen. n.,taxon,taxonomy_name,Eupelmidae,taxonomy_rank,family
+2,Torymus c. capillaceus,taxon,taxonomy_name,Torymus capillaceus,taxonomy_rank,species
+3,Pseudocatolaccus guizoti,taxon,taxonomy_name,Pseudocatolaccus guizoti,taxonomy_rank,species
+4,Rileya tegularis,taxon,taxonomy_name,Rileya cecidomyiae,taxonomy_rank,species
+5,Torymus atriplicis,taxon,taxonomy_name,Torymus atriplicis,taxonomy_rank,species
+6,Tetrastichus sp. A,taxon,taxonomy_name,Tetrastichus,taxonomy_rank,genus
+7,Torymus umbilicatus,taxon,taxonomy_name,Torymus umbilicatus,taxonomy_rank,species
+8,Tetrastichus sp. B,taxon,taxonomy_name,Tetrastichus,taxonomy_rank,genus
+9,Galeopsomyia sp. B,taxon,taxonomy_name,Galeopsomyia,taxonomy_rank,genus
+10,Asphondylia sp. E (tumor stem maker),taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+11,Asphondylia sp. F (oval twig maker),taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+12,Eurytoma sp.,taxon,taxonomy_name,Eurytoma,taxonomy_rank,genus
+13,Tetrastichus sp. C,taxon,taxonomy_name,Tetrastichus,taxonomy_rank,genus
+14,Platygaster sp. B,taxon,taxonomy_name,Platygaster,taxonomy_rank,genus
+15,Asphondylia sp. G (oval bud/flower gall maker),taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+16,Asphondylia sp. H (fuzzy bud/flower gall maker),taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+17,gall tissue (Atriplex canescens),taxon,taxonomy_name,Atriplex canescens,taxonomy_rank,species
+18,Asphondylia sp. D (blister leaf and nipple bud gall maker),taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+19,Gelechiid sp. B,taxon,taxonomy_name,Gelechiidae,taxonomy_rank,family
+20,Acarid sp.,taxon,taxonomy_name,Acarida,taxonomy_rank,NA
+21,Phyllobaenus atriplexus,taxon,taxonomy_name,Phyllobaenus atriplexus,taxonomy_rank,species
+22,Rileya piercei,taxon,taxonomy_name,Rileya piercei,taxonomy_rank,species
+23,Galeopsomyia sp. D,taxon,taxonomy_name,Galeopsomyia,taxonomy_rank,genus
+24,Galeopsomyia sp. E,taxon,taxonomy_name,Galeopsomyia,taxonomy_rank,genus
+25,Torymus n. sp.,taxon,taxonomy_name,Torymus,taxonomy_rank,genus
+26,Lestodiplosis sp.,taxon,taxonomy_name,Lestodiplosis,taxonomy_rank,genus
+27,Galeopsomyia sp. A,taxon,taxonomy_name,Galeopsomyia,taxonomy_rank,genus
+28,Tetrastichus cecidobroter,taxon,taxonomy_name,Paragaleopsomyia cecidobroter,taxonomy_rank,species
+29,Gracilariid sp.,taxon,taxonomy_name,Gracillariidae,taxonomy_rank,family
+30,Goniozus sp. A,taxon,taxonomy_name,Goniozus,taxonomy_rank,genus
+31,Goniozus sp. B,taxon,taxonomy_name,Goniozus,taxonomy_rank,genus
+32,Chelonus sp.,taxon,taxonomy_name,Chelonus,taxonomy_rank,genus
+33,Arthrocnodax sp.,taxon,taxonomy_name,Arthrocnodax,taxonomy_rank,genus
+34,Tenuipetiolus medicaginus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+35,Nesolasioptera willistoni (woody/smooth stem maker),taxon,taxonomy_name,NA,taxonomy_rank,NA
+36,Anystid sp.,taxon,taxonomy_name,NA,taxonomy_rank,NA
+37,Spilochalcis sp.,taxon,taxonomy_name,Conura acuta,taxonomy_rank,species
+38,Galeopsomyia sp. C,taxon,taxonomy_name,Galeopsomyia,taxonomy_rank,genus
+39,Platygaster sp. A,taxon,taxonomy_name,Platygaster,taxonomy_rank,genus
+40,Asphondylia sp. B (nodular stem gallmaker),taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+41,Asphondylia sp. C (woody stem maker),taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+42,Asphondylia sp. A (club stem maker),taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+43,gall tissue (Atriplex polycarpa),taxon,taxonomy_name,Atriplex polycarpa,taxonomy_rank,species
+44,Ophiomyia atriplicis (leaf cluster bud gall maker),taxon,taxonomy_name,Ophiomyia atriplicis,taxonomy_rank,species
+45,Gelechiid sp. A,taxon,taxonomy_name,Gelechiidae,taxonomy_rank,family
+46,Tricorynus sp.,taxon,taxonomy_name,Tricorynus,taxonomy_rank,genus
+47,Opius sp.,taxon,taxonomy_name,Opius,taxonomy_rank,genus
+48,Agathis sp.,taxon,taxonomy_name,Agathis,taxonomy_rank,genus
+49,Plastanoxus incompletus,taxon,taxonomy_name,Plastanoxus incompletus,taxonomy_rank,NA
+50,Eupelmid n. genus,taxon,taxonomy_name,Eupelmidae,taxonomy_rank,family
+51,Asphondylia sp. D,taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+52,Asphondylia sp. A,taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+53,Asphondylia sp. H,taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+54,Asphondylia sp. B,taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+55,Asphondylia sp. G,taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+56,Rileyi piercei,taxon,taxonomy_name,Rileya piercei,taxonomy_rank,species
+57,torymus umbilicatus,taxon,taxonomy_name,Torymus umbilicatus,taxonomy_rank,species
+58,Asphondylia sp. F,taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+59,Asphondylia sp. E,taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+60,Asphondylia sp. C,taxon,taxonomy_name,Asphondylia,taxonomy_rank,genus
+61,Plastonoxus incompletus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+62,Neolasioptera willistoni,taxon,taxonomy_name,Neolasioptera willistoni,taxonomy_rank,species

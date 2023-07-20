@@ -1,0 +1,312 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2,attribute3,value3
+1,Catostomus catostomus,host,sample_size,"6,12,0,49,51,39,14,6,12,49,51,14",species,NA,genus,NA
+2,Coregonus clupeaformis,host,sample_size,"63,836,15,0,86,99,102,63,836,0,86,102",species,NA,genus,NA
+3,Cottus cognatus,host,sample_size,"61,0,0,23,29,0,0,61,0,23,29,0",species,NA,genus,NA
+4,Esox lucius,host,sample_size,"14,62,23,0,0,66,107,14,62,0,0,107",species,NA,genus,NA
+5,Prosopium cylindraceum,host,sample_size,"57,0,0,0,0,22,0,57,0,0,0,0",species,NA,genus,NA
+6,Salvelinus namaycush,host,sample_size,"61,35,7,13,24,18,32,61,35,13,24,32",species,NA,genus,NA
+7,Thymallus arcticus,host,sample_size,"44,0,0,0,100,0,0,44,0,0,100,0",species,NA,genus,NA
+8,Coregonus artedii,host,sample_size,"0,757,52,0,0,0,0,0,757,0,0,0",species,NA,genus,NA
+9,Oncorhynchus kisutch,host,sample_size,"0,291,0,0,0,0,0,0,291,0,0,0",species,NA,genus,NA
+10,Catostomus commersoni,host,sample_size,"0,36,51,0,22,152,0,0,36,0,22,0",species,NA,genus,NA
+11,Lota lota,host,sample_size,"0,29,17,9,7,21,0,0,29,9,7,0",species,NA,genus,NA
+12,Pungitius pungitius,host,sample_size,"0,1038,0,0,0,0,0,0,1038,0,0,0",species,NA,genus,NA
+13,Stizostedion vitreum,host,sample_size,"0,12,29,0,0,41,0,0,12,0,0,0",species,NA,genus,NA
+14,Carpiodes cyprinus,host,sample_size,"0,0,5,0,0,0,0,0,0,0,0,0",species,NA,genus,NA
+15,Moxostoma anisurum,host,sample_size,"0,0,6,0,0,0,0,0,0,0,0,0",species,NA,genus,NA
+16,Chrosomus neogaeus,host,sample_size,"0,0,11,0,0,0,0,0,0,0,0,0",species,NA,genus,NA
+17,Couesius plumbeus,host,sample_size,"0,0,5,0,0,0,0,0,0,0,0,0",species,NA,genus,NA
+18,Notropis anogenus,host,sample_size,"0,0,8,0,0,0,0,0,0,0,0,0",species,NA,genus,NA
+19,Notropis atherinoides,host,sample_size,"0,0,9,0,0,5,0,0,0,0,0,0",species,NA,genus,NA
+20,Notropis hudsonius,host,sample_size,"0,0,25,0,0,100,0,0,0,0,0,0",species,NA,genus,NA
+21,Pimephales notatus,host,sample_size,"0,0,20,0,0,17,0,0,0,0,0,0",species,NA,genus,NA
+22,Pimephales promelas,host,sample_size,"0,0,6,0,0,0,0,0,0,0,0,0",species,NA,genus,NA
+23,Semotilus margarita,host,sample_size,"0,0,5,0,0,0,0,0,0,0,0,0",species,NA,genus,NA
+24,Ictalurus nebulosus,host,sample_size,"0,0,20,0,0,14,0,0,0,0,0,0",species,NA,genus,NA
+25,Noturus gyrinus,host,sample_size,"0,0,11,0,0,0,0,0,0,0,0,0",species,NA,genus,NA
+26,Culaea inconstans,host,sample_size,"0,0,17,0,0,34,0,0,0,0,0,0",species,NA,genus,NA
+27,Percopsis omiscomaycus,host,sample_size,"0,0,13,0,0,19,0,0,0,0,0,0",species,NA,genus,NA
+28,Ambloplites rupestris,host,sample_size,"0,0,20,0,0,116,0,0,0,0,0,0",species,NA,genus,NA
+29,Lepomis gibbosus,host,sample_size,"0,0,16,0,0,55,0,0,0,0,0,0",species,NA,genus,NA
+30,Micropterus dolomieui,host,sample_size,"0,0,37,0,0,221,0,0,0,0,0,0",species,NA,genus,NA
+31,Pomoxis nigromaculatus,host,sample_size,"0,0,40,0,0,0,0,0,0,0,0,0",species,NA,genus,NA
+32,Perca flavescens,host,sample_size,"0,0,67,0,0,201,0,0,0,0,0,0",species,NA,genus,NA
+33,Stizostedion canadense,host,sample_size,"0,0,18,0,0,0,0,0,0,0,0,0",species,NA,genus,NA
+34,Etheostoma exile,host,sample_size,"0,0,16,0,0,5,0,0,0,0,0,0",species,NA,genus,NA
+35,Etheostoma nigrum,host,sample_size,"0,0,24,0,0,39,0,0,0,0,0,0",species,NA,genus,NA
+36,Percina caprodes,host,sample_size,"0,0,35,0,0,0,0,0,0,0,0,0",species,NA,genus,NA
+37,Cottus bairdi,host,sample_size,"0,0,10,0,0,8,0,0,0,0,0,0",species,NA,genus,NA
+38,Catostomus macrocheilus,host,sample_size,"0,0,0,43,49,0,0,0,0,43,49,0",species,NA,genus,NA
+39,Cottus asper,host,sample_size,"0,0,0,19,0,0,0,0,0,19,0,0",species,NA,genus,NA
+40,Mylocheilus caurinus,host,sample_size,"0,0,0,22,7,0,0,0,0,22,7,0",species,NA,genus,NA
+41,Oncorhynchus nerka,host,sample_size,"0,0,0,18,52,0,0,0,0,18,52,0",species,NA,genus,NA
+42,Oncorhynchus tshawytscha,host,sample_size,"0,0,0,57,0,0,0,0,0,57,0,0",species,NA,genus,NA
+43,Prosopium williamsoni,host,sample_size,"0,0,0,145,153,0,0,0,0,145,153,0",species,NA,genus,NA
+44,Ptychocheilus oregonensis,host,sample_size,"0,0,0,20,33,0,0,0,0,20,33,0",species,NA,genus,NA
+45,Richardsonius balteatus,host,sample_size,"0,0,0,20,20,0,0,0,0,20,20,0",species,NA,genus,NA
+46,Salmo gairdneri,host,sample_size,"0,0,0,98,100,0,0,0,0,98,100,0",species,NA,genus,NA
+47,Salvelinus malma,host,sample_size,"0,0,0,85,101,0,0,0,0,85,101,0",species,NA,genus,NA
+48,Prosopium coulteri,host,sample_size,"0,0,0,0,5,0,0,0,0,0,5,0",species,NA,genus,NA
+49,Rhinichthys cataractae,host,sample_size,"0,0,0,6,20,5,0,0,0,6,20,0",species,NA,genus,NA
+50,Osmerus mordax,host,sample_size,"0,0,0,0,0,50,0,0,0,0,0,0",species,NA,genus,NA
+51,Coregonus artedi,host,sample_size,"0,0,0,0,0,79,0,0,0,0,0,0",species,NA,genus,NA
+52,Coregonus hoyi,host,sample_size,"0,0,0,0,0,47,0,0,0,0,0,0",species,NA,genus,NA
+53,Oncorhynchus mykiss,host,sample_size,"0,0,0,0,0,15,0,0,0,0,0,0",species,NA,genus,NA
+54,Salvelinus fontinalis,host,sample_size,"0,0,0,0,0,13,68,0,0,0,0,68",species,NA,genus,NA
+55,Semotilus atromaculatus,host,sample_size,"0,0,0,0,0,34,0,0,0,0,0,0",species,NA,genus,NA
+56,Chrosomus eos,host,sample_size,"0,0,0,0,0,17,0,0,0,0,0,0",species,NA,genus,NA
+57,Notropis cornutus,host,sample_size,"0,0,0,0,0,6,0,0,0,0,0,0",species,NA,genus,NA
+58,Notropis volucellus,host,sample_size,"0,0,0,0,0,11,0,0,0,0,0,0",species,NA,genus,NA
+59,Notropis heterolepis,host,sample_size,"0,0,0,0,0,25,0,0,0,0,0,0",species,NA,genus,NA
+60,Micropterus salmoides,host,sample_size,"0,0,0,0,0,5,0,0,0,0,0,0",species,NA,genus,NA
+61,Salmo salar,host,sample_size,"0,0,0,0,0,0,5,0,0,0,0,5",species,NA,genus,NA
+62,Anonchohaptor_anomalus,parasite,sample_size,NA,species,anomalus,genus,Anonchohaptor
+63,Diplostomum_spathaceum (L),parasite,sample_size,NA,species,spathaceum (L),genus,Diplostomum
+64,Glaridacris_catostomi,parasite,sample_size,NA,species,catostomi,genus,Glaridacris
+65,Cystidicola_farionis,parasite,sample_size,NA,species,farionis,genus,Cystidicola
+66,Discocotyle_sagittata,parasite,sample_size,NA,species,sagittata,genus,Discocotyle
+67,Crepidostomum_farionis,parasite,sample_size,NA,species,farionis,genus,Crepidostomum
+68,Tetracotyle_sp. (L),parasite,sample_size,NA,species,sp. (L),genus,Tetracotyle
+69,Cyathocephalus_truncatus,parasite,sample_size,NA,species,truncatus,genus,Cyathocephalus
+70,Diphyllobothrium_sp. (L),parasite,sample_size,NA,species,sp. (L),genus,Diphyllobothrium
+71,Eubothrium_salvelini,parasite,sample_size,NA,species,salvelini,genus,Eubothrium
+72,Proteocephalus_tumidocollus,parasite,sample_size,NA,species,tumidocollus,genus,Proteocephalus
+73,Triaenophorus_crassus (L),parasite,sample_size,NA,species,crassus (L),genus,Triaenophorus
+74,Raphidascaris_acus (L),parasite,sample_size,NA,species,acus (L),genus,Raphidascaris
+75,Neoechinorhynchus_tumidus,parasite,sample_size,NA,species,tumidus,genus,Neoechinorhynchus
+76,Piscicola_milneri,parasite,sample_size,NA,species,milneri,genus,Piscicola
+77,Salmincola_extensus,parasite,sample_size,NA,species,extensus,genus,Salmincola
+78,Dactylogyrus_buddi,parasite,sample_size,NA,species,buddi,genus,Dactylogyrus
+79,Heterophyid_meta (L),parasite,sample_size,NA,species,meta (L),genus,Heterophyid
+80,Neascus_sp. (L),parasite,sample_size,NA,species,sp. (L),genus,Neascus
+81,Schistocephalus_solidus (L),parasite,sample_size,NA,species,solidus (L),genus,Schistocephalus
+82,Tetraonchus_monenteron,parasite,sample_size,NA,species,monenteron,genus,Tetraonchus
+83,Allocreadium_isosporum,parasite,sample_size,NA,species,isosporum,genus,Allocreadium
+84,Triaenophorus_crassus,parasite,sample_size,NA,species,crassus,genus,Triaenophorus
+85,Raphidascaris_acus,parasite,sample_size,NA,species,acus,genus,Raphidascaris
+86,Tetraonchus_variabilis,parasite,sample_size,NA,species,variabilis,genus,Tetraonchus
+87,Capillaria_salvelini,parasite,sample_size,NA,species,salvelini,genus,Capillaria
+88,Salmincola_edwardsii,parasite,sample_size,NA,species,edwardsii,genus,Salmincola
+89,Tetraonchus_borealis,parasite,sample_size,NA,species,borealis,genus,Tetraonchus
+90,Salmincola_thymalli,parasite,sample_size,NA,species,thymalli,genus,Salmincola
+91,Parasite genus_Parasite species,parasite,sample_size,NA,species,Parasite species,genus,Parasite genus
+92,Cotylurus_erraticus (L),parasite,sample_size,NA,species,erraticus (L),genus,Cotylurus
+93,Proteocephalus_filicollis,parasite,sample_size,NA,species,filicollis,genus,Proteocephalus
+94,Philonema_agubernaculum,parasite,sample_size,NA,species,agubernaculum,genus,Philonema
+95,Metechinorhynchus_salmonis,parasite,sample_size,NA,species,salmonis,genus,Metechinorhynchus
+96,Pomphorhynchus_bulbocolli,parasite,sample_size,NA,species,bulbocolli,genus,Pomphorhynchus
+97,Ergasilus_auritus,parasite,sample_size,NA,species,auritus,genus,Ergasilus
+98,Ergasilus_nerkae,parasite,sample_size,NA,species,nerkae,genus,Ergasilus
+99,Phyllodistomum_coregoni,parasite,sample_size,NA,species,coregoni,genus,Phyllodistomum
+100,Proteocephalus_exiguus,parasite,sample_size,NA,species,exiguus,genus,Proteocephalus
+101,Salmincola_extumescens,parasite,sample_size,NA,species,extumescens,genus,Salmincola
+102,Triaenophorus_nodulosus (L),parasite,sample_size,NA,species,nodulosus (L),genus,Triaenophorus
+103,Neoechinorhynchus_strigosus,parasite,sample_size,NA,species,strigosus,genus,Neoechinorhynchus
+104,Triaenophorus_nodulosus,parasite,sample_size,NA,species,nodulosus,genus,Triaenophorus
+105,Proteocephalus_pinguis,parasite,sample_size,NA,species,pinguis,genus,Proteocephalus
+106,Glaridacris_sp.,parasite,sample_size,NA,species,sp.,genus,Glaridacris
+107,Rhabdochona_cascadilla,parasite,sample_size,NA,species,cascadilla,genus,Rhabdochona
+108,Ergasilus_sp. A,parasite,sample_size,NA,species,sp. A,genus,Ergasilus
+109,Lissorchis_attenuatum,parasite,sample_size,NA,species,attenuatum,genus,Lissorchis
+110,Hunterella_nodulosa,parasite,sample_size,NA,species,nodulosa,genus,Hunterella
+111,Eubothrium_rugosum,parasite,sample_size,NA,species,rugosum,genus,Eubothrium
+112,Haplonema_hamulatum,parasite,sample_size,NA,species,hamulatum,genus,Haplonema
+113,Cystobranchus_verrilli,parasite,sample_size,NA,species,verrilli,genus,Cystobranchus
+114,Gyrodactylus_sp.,parasite,sample_size,NA,species,sp.,genus,Gyrodactylus
+115,Apatemon_gracilis (L),parasite,sample_size,NA,species,gracilis (L),genus,Apatemon
+116,Bunodera_luciopercae,parasite,sample_size,NA,species,luciopercae,genus,Bunodera
+117,Bothriocephalus_cuspidatus,parasite,sample_size,NA,species,cuspidatus,genus,Bothriocephalus
+118,Proteocephalus_sp. A,parasite,sample_size,NA,species,sp. A,genus,Proteocephalus
+119,Diplostomulum_sp. (L),parasite,sample_size,NA,species,sp. (L),genus,Diplostomulum
+120,Proteocephalus_parallacticus,parasite,sample_size,NA,species,parallacticus,genus,Proteocephalus
+121,Cystidicola_cristivomeri,parasite,sample_size,NA,species,cristivomeri,genus,Cystidicola
+122,Salmincola_siscowet,parasite,sample_size,NA,species,siscowet,genus,Salmincola
+123,Tetracotyle_intermedia (L),parasite,sample_size,NA,species,intermedia (L),genus,Tetracotyle
+124,Proteocephalus_laruei,parasite,sample_size,NA,species,laruei,genus,Proteocephalus
+125,Cystidicola_stigmatura,parasite,sample_size,NA,species,stigmatura,genus,Cystidicola
+126,Metechinorhynchus_lateralis,parasite,sample_size,NA,species,lateralis,genus,Metechinorhynchus
+127,Neoechinorhynchus_tumidum,parasite,sample_size,NA,species,tumidum,genus,Neoechinorhynchus
+128,Achtheres_corpulentus,parasite,sample_size,NA,species,corpulentus,genus,Achtheres
+129,Phyllodistomum_sp.,parasite,sample_size,NA,species,sp.,genus,Phyllodistomum
+130,Spinitectus_gracilis,parasite,sample_size,NA,species,gracilis,genus,Spinitectus
+131,Ergasilus_sp.,parasite,sample_size,NA,species,sp.,genus,Ergasilus
+132,Argulus_canadensis,parasite,sample_size,NA,species,canadensis,genus,Argulus
+133,Azygia_angusticauda,parasite,sample_size,NA,species,angusticauda,genus,Azygia
+134,Azygia_longa,parasite,sample_size,NA,species,longa,genus,Azygia
+135,Clinostomum_marginatum (L),parasite,sample_size,NA,species,marginatum (L),genus,Clinostomum
+136,Posthodiplostomum_minimum (L),parasite,sample_size,NA,species,minimum (L),genus,Posthodiplostomum
+137,Uvulifer_ambloplitis (L),parasite,sample_size,NA,species,ambloplitis (L),genus,Uvulifer
+138,Contracaecum_brachyurum,parasite,sample_size,NA,species,brachyurum,genus,Contracaecum
+139,Leptorhynchoides_thecatus,parasite,sample_size,NA,species,thecatus,genus,Leptorhynchoides
+140,Neoechinorhynchus_tenellum,parasite,sample_size,NA,species,tenellum,genus,Neoechinorhynchus
+141,Illinobdella_sp.,parasite,sample_size,NA,species,sp.,genus,Illinobdella
+142,Anonchohaptor_anomalum,parasite,sample_size,NA,species,anomalum,genus,Anonchohaptor
+143,Triganodistomum_attenuatum,parasite,sample_size,NA,species,attenuatum,genus,Triganodistomum
+144,Glaridacris_confusus,parasite,sample_size,NA,species,confusus,genus,Glaridacris
+145,Acolpenteron_catostomi,parasite,sample_size,NA,species,catostomi,genus,Acolpenteron
+146,Gyrodactylus_spathulatus,parasite,sample_size,NA,species,spathulatus,genus,Gyrodactylus
+147,Octomacrum_lanceatum,parasite,sample_size,NA,species,lanceatum,genus,Octomacrum
+148,Pellucidhaptor_nasalis,parasite,sample_size,NA,species,nasalis,genus,Pellucidhaptor
+149,Pseudomurraytrema_copulatum,parasite,sample_size,NA,species,copulatum,genus,Pseudomurraytrema
+150,Allocreadium_lobatum,parasite,sample_size,NA,species,lobatum,genus,Allocreadium
+151,Crepidostomum_cooperi,parasite,sample_size,NA,species,cooperi,genus,Crepidostomum
+152,Diplostomum_flexicaudum (L),parasite,sample_size,NA,species,flexicaudum (L),genus,Diplostomum
+153,Phyllodistomum_lysteri,parasite,sample_size,NA,species,lysteri,genus,Phyllodistomum
+154,Plagioporus_sinitsini,parasite,sample_size,NA,species,sinitsini,genus,Plagioporus
+155,Glaridacris_intermedius,parasite,sample_size,NA,species,intermedius,genus,Glaridacris
+156,Ligula_intestinalis (L),parasite,sample_size,NA,species,intestinalis (L),genus,Ligula
+157,Camallanus_oxycephalus,parasite,sample_size,NA,species,oxycephalus,genus,Camallanus
+158,Contracaecum_sp. (L),parasite,sample_size,NA,species,sp. (L),genus,Contracaecum
+159,Spiroxys_sp (L),parasite,sample_size,NA,species,sp (L),genus,Spiroxys
+160,Neoechinorhynchus_crassus,parasite,sample_size,NA,species,crassus,genus,Neoechinorhynchus
+161,Neoechinorhynchus_cristatus,parasite,sample_size,NA,species,cristatus,genus,Neoechinorhynchus
+162,Octospinifer_macilentus,parasite,sample_size,NA,species,macilentus,genus,Octospinifer
+163,Actinobdella_triannulata,parasite,sample_size,NA,species,triannulata,genus,Actinobdella
+164,Ergasilus_caeruleus,parasite,sample_size,NA,species,caeruleus,genus,Ergasilus
+165,Argulus_catostomi,parasite,sample_size,NA,species,catostomi,genus,Argulus
+166,Pseudomurraytrema_sp.,parasite,sample_size,NA,species,sp.,genus,Pseudomurraytrema
+167,Sanguinicola_sp.,parasite,sample_size,NA,species,sp.,genus,Sanguinicola
+168,Biacetabulum_infrequens,parasite,sample_size,NA,species,infrequens,genus,Biacetabulum
+169,Contracaecum_brachyurum (L),parasite,sample_size,NA,species,brachyurum (L),genus,Contracaecum
+170,Cleidodiscus_brachus,parasite,sample_size,NA,species,brachus,genus,Cleidodiscus
+171,Octomacrum_semotili,parasite,sample_size,NA,species,semotili,genus,Octomacrum
+172,Dactylogyrus_mylocheilus,parasite,sample_size,NA,species,mylocheilus,genus,Dactylogyrus
+173,Octomacrum_sp.,parasite,sample_size,NA,species,sp.,genus,Octomacrum
+174,Proteocephalus_pearsei,parasite,sample_size,NA,species,pearsei,genus,Proteocephalus
+175,Neoechinorhynchus_sp.,parasite,sample_size,NA,species,sp.,genus,Neoechinorhynchus
+176,Dactylogyrus_sp.,parasite,sample_size,NA,species,sp.,genus,Dactylogyrus
+177,Dactylogyrus_bifurcatus,parasite,sample_size,NA,species,bifurcatus,genus,Dactylogyrus
+178,Biacetabulum_sp.,parasite,sample_size,NA,species,sp.,genus,Biacetabulum
+179,Cleidodiscus_pricei,parasite,sample_size,NA,species,pricei,genus,Cleidodiscus
+180,Allocreadium_ictaluri,parasite,sample_size,NA,species,ictaluri,genus,Allocreadium
+181,Alloglossidium_geminus,parasite,sample_size,NA,species,geminus,genus,Alloglossidium
+182,Crepidostomum_ictaluri,parasite,sample_size,NA,species,ictaluri,genus,Crepidostomum
+183,Phyllodistomum_staffordi,parasite,sample_size,NA,species,staffordi,genus,Phyllodistomum
+184,Corallobothrium_fimbriatum,parasite,sample_size,NA,species,fimbriatum,genus,Corallobothrium
+185,Proteocephalus_ambloplitis (L),parasite,sample_size,NA,species,ambloplitis (L),genus,Proteocephalus
+186,Ergasilus_versicolor,parasite,sample_size,NA,species,versicolor,genus,Ergasilus
+187,Alloglossidium_corti,parasite,sample_size,NA,species,corti,genus,Alloglossidium
+188,Crepidostomum_cornutum,parasite,sample_size,NA,species,cornutum,genus,Crepidostomum
+189,Capillaria_bakeri,parasite,sample_size,NA,species,bakeri,genus,Capillaria
+190,Dichelyne_cotylophora,parasite,sample_size,NA,species,cotylophora,genus,Dichelyne
+191,Piscicola_punctata,parasite,sample_size,NA,species,punctata,genus,Piscicola
+192,Ergasilus_osburni,parasite,sample_size,NA,species,osburni,genus,Ergasilus
+193,Dactylogyrus_eucaliae,parasite,sample_size,NA,species,eucaliae,genus,Dactylogyrus
+194,Gyrodactylus_eucaliae,parasite,sample_size,NA,species,eucaliae,genus,Gyrodactylus
+195,Bunoderina_eucaliae,parasite,sample_size,NA,species,eucaliae,genus,Bunoderina
+196,Diplostomum_baeri (L),parasite,sample_size,NA,species,baeri (L),genus,Diplostomum
+197,Neoechinorhynchus_rutili,parasite,sample_size,NA,species,rutili,genus,Neoechinorhynchus
+198,Crepidostomum_isostomum,parasite,sample_size,NA,species,isostomum,genus,Crepidostomum
+199,Bothriocephalus_formosus,parasite,sample_size,NA,species,formosus,genus,Bothriocephalus
+200,Triaenophorus_stizostedionis (L),parasite,sample_size,NA,species,stizostedionis (L),genus,Triaenophorus
+201,Argulus_versicolor,parasite,sample_size,NA,species,versicolor,genus,Argulus
+202,Cryptogonimus_chilli,parasite,sample_size,NA,species,chilli,genus,Cryptogonimus
+203,Bothriocephalus_claviceps,parasite,sample_size,NA,species,claviceps,genus,Bothriocephalus
+204,Capillaria_catenata,parasite,sample_size,NA,species,catenata,genus,Capillaria
+205,Spinitectus_carolini,parasite,sample_size,NA,species,carolini,genus,Spinitectus
+206,Neoechinorhynchus_cylindratus,parasite,sample_size,NA,species,cylindratus,genus,Neoechinorhynchus
+207,Achtheres_micropteri,parasite,sample_size,NA,species,micropteri,genus,Achtheres
+208,Ergasilus_centrarchidarum,parasite,sample_size,NA,species,centrarchidarum,genus,Ergasilus
+209,Gyrodactylus_macrochiri,parasite,sample_size,NA,species,macrochiri,genus,Gyrodactylus
+210,Diplostomum_scheuringi,parasite,sample_size,NA,species,scheuringi,genus,Diplostomum
+211,Actinocleidus_fusiformis,parasite,sample_size,NA,species,fusiformis,genus,Actinocleidus
+212,Cleidodiscus_banghami,parasite,sample_size,NA,species,banghami,genus,Cleidodiscus
+213,Caecincola_parvus,parasite,sample_size,NA,species,parvus,genus,Caecincola
+214,Microphallus_opacus,parasite,sample_size,NA,species,opacus,genus,Microphallus
+215,Neochasmus_umbellus,parasite,sample_size,NA,species,umbellus,genus,Neochasmus
+216,Proteocephalus_ambloplitis,parasite,sample_size,NA,species,ambloplitis,genus,Proteocephalus
+217,Proteocephalus_fluviatilis,parasite,sample_size,NA,species,fluviatilis,genus,Proteocephalus
+218,Philometra_sp.,parasite,sample_size,NA,species,sp.,genus,Philometra
+219,Cleidodiscus_capax,parasite,sample_size,NA,species,capax,genus,Cleidodiscus
+220,Bothriocephalus_sp.,parasite,sample_size,NA,species,sp.,genus,Bothriocephalus
+221,Cleidodiscus_adspectus,parasite,sample_size,NA,species,adspectus,genus,Cleidodiscus
+222,Apophallus_itascensis (L),parasite,sample_size,NA,species,itascensis (L),genus,Apophallus
+223,Bunodera_sacculata,parasite,sample_size,NA,species,sacculata,genus,Bunodera
+224,Centrovarium_lobotes,parasite,sample_size,NA,species,lobotes,genus,Centrovarium
+225,Crassiphiala_bulboglossa,parasite,sample_size,NA,species,bulboglossa,genus,Crassiphiala
+226,Phyllodistomum_superbum,parasite,sample_size,NA,species,superbum,genus,Phyllodistomum
+227,Eustrongylides_sp. (L),parasite,sample_size,NA,species,sp. (L),genus,Eustrongylides
+228,Philometra_cylindracea,parasite,sample_size,NA,species,cylindracea,genus,Philometra
+229,Cleidodiscus_aculeatus,parasite,sample_size,NA,species,aculeatus,genus,Cleidodiscus
+230,Bucephalus_pusillus,parasite,sample_size,NA,species,pusillus,genus,Bucephalus
+231,Proteocephalus_stizostethi,parasite,sample_size,NA,species,stizostethi,genus,Proteocephalus
+232,Illinobdella_moorei,parasite,sample_size,NA,species,moorei,genus,Illinobdella
+233,Argulus_appendiculosus,parasite,sample_size,NA,species,appendiculosus,genus,Argulus
+234,Triaenophorus_stizostedionis,parasite,sample_size,NA,species,stizostedionis,genus,Triaenophorus
+235,Leptorhynchoides_thecatus (L),parasite,sample_size,NA,species,thecatus (L),genus,Leptorhynchoides
+236,Cleidodiscus_malleus,parasite,sample_size,NA,species,malleus,genus,Cleidodiscus
+237,Gyrodactylus_bairdi,parasite,sample_size,NA,species,bairdi,genus,Gyrodactylus
+238,Phyllodistomum_undulans,parasite,sample_size,NA,species,undulans,genus,Phyllodistomum
+239,Anoncohaptor_anomalum,parasite,sample_size,NA,species,anomalum,genus,Anoncohaptor
+240,Pseudomurraytrema_copulata,parasite,sample_size,NA,species,copulata,genus,Pseudomurraytrema
+241,Diplostomum_sp.2 (L),parasite,sample_size,NA,species,sp.2 (L),genus,Diplostomum
+242,Philometroides_huronensis,parasite,sample_size,NA,species,huronensis,genus,Philometroides
+243,Rhabdochona_zacconis,parasite,sample_size,NA,species,zacconis,genus,Rhabdochona
+244,Proteocephalus_sp.,parasite,sample_size,NA,species,sp.,genus,Proteocephalus
+245,Rhabdochona_cotti,parasite,sample_size,NA,species,cotti,genus,Rhabdochona
+246,Hysterothylacium_brachyurum,parasite,sample_size,NA,species,brachyurum,genus,Hysterothylacium
+247,Haplonema_hamatulum,parasite,sample_size,NA,species,hamatulum,genus,Haplonema
+248,Octomacrum_micronfibulum,parasite,sample_size,NA,species,micronfibulum,genus,Octomacrum
+249,Diplostomum_sp.1 (L),parasite,sample_size,NA,species,sp.1 (L),genus,Diplostomum
+250,Philonema_sp.,parasite,sample_size,NA,species,sp.,genus,Philonema
+251,Rhabdochona_kisutchi,parasite,sample_size,NA,species,kisutchi,genus,Rhabdochona
+252,Brachyphallus_crenatus,parasite,sample_size,NA,species,crenatus,genus,Brachyphallus
+253,Genolinea_oncorhynchi,parasite,sample_size,NA,species,oncorhynchi,genus,Genolinea
+254,Lampritrema_miescheri,parasite,sample_size,NA,species,miescheri,genus,Lampritrema
+255,Phyllobothrium_sp. (L),parasite,sample_size,NA,species,sp. (L),genus,Phyllobothrium
+256,Philonema_oncorhynchi,parasite,sample_size,NA,species,oncorhynchi,genus,Philonema
+257,Salmincola_californiensis,parasite,sample_size,NA,species,californiensis,genus,Salmincola
+258,Rhabdochona_milleri,parasite,sample_size,NA,species,milleri,genus,Rhabdochona
+259,Proteocephalus_ptychocheilus,parasite,sample_size,NA,species,ptychocheilus,genus,Proteocephalus
+260,Bothriocephalus_opsariichthydis,parasite,sample_size,NA,species,opsariichthydis,genus,Bothriocephalus
+261,Cystidicoloides_tenuissima,parasite,sample_size,NA,species,tenuissima,genus,Cystidicoloides
+262,Tetraonchus_alaskensis,parasite,sample_size,NA,species,alaskensis,genus,Tetraonchus
+263,Proteocephalus_salmonidicola,parasite,sample_size,NA,species,salmonidicola,genus,Proteocephalus
+264,Rhabdochona_canadensis,parasite,sample_size,NA,species,canadensis,genus,Rhabdochona
+265,Monobothrium_sp.,parasite,sample_size,NA,species,sp.,genus,Monobothrium
+266,Octomacrum_lanceatus,parasite,sample_size,NA,species,lanceatus,genus,Octomacrum
+267,Glaridacris_vogei,parasite,sample_size,NA,species,vogei,genus,Glaridacris
+268,Truttaedacnitis_truttae,parasite,sample_size,NA,species,truttae,genus,Truttaedacnitis
+269,Neascus_sp (L),parasite,sample_size,NA,species,sp (L),genus,Neascus
+270,Pellucidhaptor_pellucidhaptor,parasite,sample_size,NA,species,pellucidhaptor,genus,Pellucidhaptor
+271,Philometra_sp. (L),parasite,sample_size,NA,species,sp. (L),genus,Philometra
+272,Spinitectus_gracilis (L),parasite,sample_size,NA,species,gracilis (L),genus,Spinitectus
+273,Echinorhynchus_salmonis,parasite,sample_size,NA,species,salmonis,genus,Echinorhynchus
+274,Echinorhynchus_salmonis (L),parasite,sample_size,NA,species,salmonis (L),genus,Echinorhynchus
+275,Pomphorhynchus_bulbocolli (L),parasite,sample_size,NA,species,bulbocolli (L),genus,Pomphorhynchus
+276,Discocotyle_salmonis,parasite,sample_size,NA,species,salmonis,genus,Discocotyle
+277,Abothrium_crassum,parasite,sample_size,NA,species,crassum,genus,Abothrium
+278,Salmincola_inermis,parasite,sample_size,NA,species,inermis,genus,Salmincola
+279,Salmincola_wisconsinsensis,parasite,sample_size,NA,species,wisconsinsensis,genus,Salmincola
+280,Argulus_sp.,parasite,sample_size,NA,species,sp.,genus,Argulus
+281,Echinorhynchus_leidyi,parasite,sample_size,NA,species,leidyi,genus,Echinorhynchus
+282,Cyathocephalus_americanus,parasite,sample_size,NA,species,americanus,genus,Cyathocephalus
+283,Achtheres_coregoni,parasite,sample_size,NA,species,coregoni,genus,Achtheres
+284,Salmincola_sp.,parasite,sample_size,NA,species,sp.,genus,Salmincola
+285,Metabronema_salvelini,parasite,sample_size,NA,species,salvelini,genus,Metabronema
+286,Hepaticola_bakeri,parasite,sample_size,NA,species,bakeri,genus,Hepaticola
+287,Triganodistomum_simeri,parasite,sample_size,NA,species,simeri,genus,Triganodistomum
+288,Lebouria_cooperi,parasite,sample_size,NA,species,cooperi,genus,Lebouria
+289,Bucephalus_sp.,parasite,sample_size,NA,species,sp.,genus,Bucephalus
+290,Centrovarium_lobotes (L),parasite,sample_size,NA,species,lobotes (L),genus,Centrovarium
+291,Spiroxys_sp. (L),parasite,sample_size,NA,species,sp. (L),genus,Spiroxys
+292,Acetodextra_amiuri,parasite,sample_size,NA,species,amiuri,genus,Acetodextra
+293,Dichelyne_robusta,parasite,sample_size,NA,species,robusta,genus,Dichelyne
+294,Bucephalus_elegans,parasite,sample_size,NA,species,elegans,genus,Bucephalus
+295,Philometra_cylindracea (L),parasite,sample_size,NA,species,cylindracea (L),genus,Philometra
+296,Rhabdochona_sp.,parasite,sample_size,NA,species,sp.,genus,Rhabdochona
+297,Illinobdella_alba,parasite,sample_size,NA,species,alba,genus,Illinobdella
+298,Bucephalopsis_pusilla,parasite,sample_size,NA,species,pusilla,genus,Bucephalopsis
+299,Spinitectus_sp.,parasite,sample_size,NA,species,sp.,genus,Spinitectus
+300,Dichelyne_sp.,parasite,sample_size,NA,species,sp.,genus,Dichelyne
+301,Cryptogonimus_chyli,parasite,sample_size,NA,species,chyli,genus,Cryptogonimus
+302,Rhipidocotyle_papillosa,parasite,sample_size,NA,species,papillosa,genus,Rhipidocotyle
+303,Caecincola_parvulus,parasite,sample_size,NA,species,parvulus,genus,Caecincola
+304,Protometra_macrostoma,parasite,sample_size,NA,species,macrostoma,genus,Protometra
+305,Achtheres_ambloplitis,parasite,sample_size,NA,species,ambloplitis,genus,Achtheres
+306,Phyllodistomum_lachancei,parasite,sample_size,NA,species,lachancei,genus,Phyllodistomum
+307,Proteocephalus_sp.2,parasite,sample_size,NA,species,sp.2,genus,Proteocephalus
+308,Proteocephalus_sp.1,parasite,sample_size,NA,species,sp.1,genus,Proteocephalus
+309,Raphidascaris_sp.,parasite,sample_size,NA,species,sp.,genus,Raphidascaris
+310,Salmincola_coregonorum,parasite,sample_size,NA,species,coregonorum,genus,Salmincola
+311,Raphidascaris_canadensis,parasite,sample_size,NA,species,canadensis,genus,Raphidascaris

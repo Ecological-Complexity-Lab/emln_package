@@ -1,0 +1,59 @@
+node_id,node_name,type
+1,Prunus mahaleb,plant
+2,Crataegus monogyna,plant
+3,Juniperus phoenicea,plant
+4,Berberis vulgaris,plant
+5,Hedera helix,plant
+6,Rosa canina,plant
+7,Lonicera arborea,plant
+8,Juniperus sabina,plant
+9,Taxus baccata,plant
+10,Juniperus communis,plant
+11,Daphne laureola,plant
+12,Rhamnus myrtifolius,plant
+13,Rubus ulmifolius,plant
+14,Sorbus aria,plant
+15,Amelanchier ovalis,plant
+16,Arum italicum,plant
+17,Prunus prostrata,plant
+18,Rhamnus saxatilis,plant
+19,Rubia peregrina,plant
+20,Cotoneaster granatensis,plant
+21,Juniperus oxycedrus,plant
+22,Lonicera splendida,plant
+23,Lonicera etrusca,plant
+24,Paeonia officinalis,plant
+25,Polygonatum odoratum,plant
+26,Turdus.viscivorus,bird
+27,Phoenicurus.ochruros,bird
+28,Turdus.merula,bird
+29,Fringilla.coelebs,bird
+30,Parus.ater,bird
+31,Erithacus.rubecula,bird
+32,Sylvia.communis,bird
+33,Sylvia.atricapilla,bird
+34,Garrulus.glandarius,bird
+35,Phoenicurus.phoenicurus,bird
+36,Coccothraustes.coccothraustes,bird
+37,Parus.major,bird
+38,Columba.palumbus,bird
+39,Parus.caeruleus,bird
+40,Parus.cristatus,bird
+41,Corvus.corone,bird
+42,Sylvia.melanocephala,bird
+43,Sitta.europaea,bird
+44,Sylvia.cantillans,bird
+45,Dendrocopos.major,bird
+46,Serinus.serinus,bird
+47,Sylvia.borin,bird
+48,Serinus.citinella,bird
+49,Sylvia.conspicillata,bird
+50,Ficedula.hypoleuca,bird
+51,Turdus.torquatus,bird
+52,Turdus.iliacus,bird
+53,Turdus.pilaris,bird
+54,Pica.pica,bird
+55,Turdus.philomelos,bird
+56,Loxia.curvirostra,bird
+57,Corvus.corax,bird
+58,Emberiza.cia,bird

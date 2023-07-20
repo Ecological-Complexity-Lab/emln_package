@@ -1,0 +1,147 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+H. repax larvae,1,toad carrion,1,1,scavenger,method,field observation
+Dermestes carnivorus,1,toad carrion,1,1,scavenger,method,field observation
+Euspilotus sp.,1,toad carrion,1,1,scavenger,method,field observation
+Phaenicia eximia,1,toad carrion,1,1,scavenger,method,field observation
+Atherigena orientalis,1,toad carrion,1,1,scavenger,method,field observation
+Megaselia sp. 6,1,toad carrion,1,1,scavenger,method,field observation
+Eumacronychia sternalis,1,toad carrion,1,1,scavenger,method,field observation
+Helicobia rapax,1,toad carrion,1,1,scavenger,method,field observation
+Camponotus rectangularis,1,toad carrion,1,1,scavenger,method,field observation
+Monomorium carbonarium,1,toad carrion,1,1,scavenger,method,field observation
+Pheidole sp. 3,1,toad carrion,1,1,scavenger,method,field observation
+Pheidole sp. 5,1,toad carrion,1,1,scavenger,method,field observation
+Ectatomma ruidum,1,toad carrion,1,1,scavenger,method,field observation
+Odontomachus haematodus,1,toad carrion,1,1,scavenger,method,field observation
+Pseudomyrmex sp. 1,1,toad carrion,1,1,scavenger,method,field observation
+acarid (unspecified),1,toad carrion,1,1,scavenger,method,field observation
+P. eximia larvae,1,toad carrion,1,1,scavenger,method,field observation
+A. orientalis larvae,1,toad carrion,1,1,scavenger,method,field observation
+E. sternalis larvae,1,toad carrion,1,1,scavenger,method,field observation
+staphylinid sp. 10,2,C. conspersa larvae,2,1,predation,method,field observation
+staphylinid sp. 10,2,C. gemina larvae,2,1,predation,method,field observation
+staphylinid sp. 10,2,G. sp. larvae,2,1,predation,method,field observation
+staphylinid sp. 10,2,Fannia sp. 1 larvae,2,1,predation,method,field observation
+staphylinid sp. 10,2,Fannia sp. 2 larvae,2,1,predation,method,field observation
+Hemilucilia flavifacies,2,toad carrion,2,1,scavenger,method,field observation
+Chrysotus sp.,2,toad carrion,2,1,scavenger,method,field observation
+Phocoscelus arthriticus,2,toad carrion,2,1,scavenger,method,field observation
+Cyrtoneurina conspersa,2,toad carrion,2,1,scavenger,method,field observation
+C. gemina,2,toad carrion,2,1,scavenger,method,field observation
+Graphomyia sp.,2,toad carrion,2,1,scavenger,method,field observation
+Fannia sp. 1,2,toad carrion,2,1,scavenger,method,field observation
+Fannia sp. 2,2,toad carrion,2,1,scavenger,method,field observation
+Glyphidops flavifrons,2,toad carrion,2,1,scavenger,method,field observation
+Euxesta (near annonae),2,toad carrion,2,1,scavenger,method,field observation
+Megaselia sp. 1,2,toad carrion,2,1,scavenger,method,field observation
+Megaselia sp. 7,2,toad carrion,2,1,scavenger,method,field observation
+Epiplatea hondurana,2,toad carrion,2,1,scavenger,method,field observation
+Leptocera sp. 2,2,toad carrion,2,1,scavenger,method,field observation
+Leptocera sp. 3,2,toad carrion,2,1,scavenger,method,field observation
+Sphaerocera sp. 1,2,toad carrion,2,1,scavenger,method,field observation
+Sphaerocera sp. 2,2,toad carrion,2,1,scavenger,method,field observation
+Camponotus abdominalis,2,Anaides sp. (near plana),2,1,predation,method,field observation
+Camponotus abdominalis,2,Coilodes castanea,2,1,predation,method,field observation
+Camponotus abdominalis,2,Eurysternus caribaeus,2,1,predation,method,field observation
+Camponotus abdominalis,2,E. caludicans,2,1,predation,method,field observation
+Camponotus abdominalis,2,E. plebejus,2,1,predation,method,field observation
+Camponotus abdominalis,2,Onthophagus praecellens,2,1,predation,method,field observation
+Monomorium carbonarium,2,Anaides sp. (near plana),2,1,predation,method,field observation
+Monomorium carbonarium,2,Coilodes castanea,2,1,predation,method,field observation
+Monomorium carbonarium,2,Deltochilum lobipes,2,1,predation,method,field observation
+Monomorium carbonarium,2,Eurysternus caribaeus,2,1,predation,method,field observation
+Monomorium carbonarium,2,E. caludicans,2,1,predation,method,field observation
+Monomorium carbonarium,2,E. plebejus,2,1,predation,method,field observation
+Monomorium carbonarium,2,Onthophagus praecellens,2,1,predation,method,field observation
+Monomorium carbonarium,2,toad carrion,2,1,scavenger,method,field observation
+Solenopsis geminata,2,Anaides sp. (near plana),2,1,predation,method,field observation
+Solenopsis geminata,2,Coilodes castanea,2,1,predation,method,field observation
+Solenopsis geminata,2,Deltochilum lobipes,2,1,predation,method,field observation
+Solenopsis geminata,2,Eurysternus caribaeus,2,1,predation,method,field observation
+Solenopsis geminata,2,E. caludicans,2,1,predation,method,field observation
+Solenopsis geminata,2,E. plebejus,2,1,predation,method,field observation
+Solenopsis geminata,2,Onthophagus praecellens,2,1,predation,method,field observation
+Solenopsis geminata,2,toad carrion,2,1,scavenger,method,field observation
+Pachycondyla sp.,2,Anaides sp. (near plana),2,1,predation,method,field observation
+Pachycondyla sp.,2,Coilodes castanea,2,1,predation,method,field observation
+Pachycondyla sp.,2,Deltochilum lobipes,2,1,predation,method,field observation
+Pachycondyla sp.,2,Eurysternus caribaeus,2,1,predation,method,field observation
+Pachycondyla sp.,2,E. caludicans,2,1,predation,method,field observation
+Pachycondyla sp.,2,E. plebejus,2,1,predation,method,field observation
+Pachycondyla sp.,2,Onthophagus praecellens,2,1,predation,method,field observation
+Pachycondyla sp.,2,toad carrion,2,1,scavenger,method,field observation
+saurians (unspec.),2,Hemilucilia flavifacies,2,1,predation,method,field observation
+saurians (unspec.),2,Chrysotus sp.,2,1,predation,method,field observation
+saurians (unspec.),2,Phocoscelus arthriticus,2,1,predation,method,field observation
+saurians (unspec.),2,Cyrtoneurina conspersa,2,1,predation,method,field observation
+saurians (unspec.),2,C. gemina,2,1,predation,method,field observation
+saurians (unspec.),2,Graphomyia sp.,2,1,predation,method,field observation
+saurians (unspec.),2,Fannia sp. 2,2,1,predation,method,field observation
+saurians (unspec.),2,Glyphidops flavifrons,2,1,predation,method,field observation
+saurians (unspec.),2,Euxesta (near annonae),2,1,predation,method,field observation
+saurians (unspec.),2,Megaselia sp. 1,2,1,predation,method,field observation
+saurians (unspec.),2,Megaselia sp. 7,2,1,predation,method,field observation
+saurians (unspec.),2,Epiplatea hondurana,2,1,predation,method,field observation
+saurians (unspec.),2,Leptocera sp. 2,2,1,predation,method,field observation
+saurians (unspec.),2,Leptocera sp. 3,2,1,predation,method,field observation
+saurians (unspec.),2,Sphaerocera sp. 1,2,1,predation,method,field observation
+saurians (unspec.),2,Sphaerocera sp. 2,2,1,predation,method,field observation
+H. flavifacies larvae,2,toad carrion,2,1,scavenger,method,field observation
+C. conspersa larvae,2,toad carrion,2,1,scavenger,method,field observation
+C. gemina larvae,2,toad carrion,2,1,scavenger,method,field observation
+G. sp. larvae,2,toad carrion,2,1,scavenger,method,field observation
+Fannia sp. 2 larvae,2,toad carrion,2,1,scavenger,method,field observation
+Anaides sp. (near plana),2,toad carrion,2,1,scavenger,method,field observation
+Coilodes castanea,2,toad carrion,2,1,scavenger,method,field observation
+Deltochilum lobipes,2,toad carrion,2,1,scavenger,method,field observation
+Eurysternus caribaeus,2,toad carrion,2,1,scavenger,method,field observation
+E. caludicans,2,toad carrion,2,1,scavenger,method,field observation
+E. plebejus,2,toad carrion,2,1,scavenger,method,field observation
+Onthophagus praecellens,2,toad carrion,2,1,scavenger,method,field observation
+staphylinid sp. 1,2,H. flavifacies eggs,2,1,predation,method,field observation
+staphylinid sp. 1,2,C. conspersa eggs,2,1,predation,method,field observation
+staphylinid sp. 1,2,G. sp. eggs,2,1,predation,method,field observation
+staphylinid sp. 1,2,C. gemina eggs,2,1,predation,method,field observation
+staphylinid sp. 1,2,Fannia sp. 1 eggs,2,1,predation,method,field observation
+staphylinid sp. 1,2,Fannia sp. 2 eggs,2,1,predation,method,field observation
+staphylinid sp. 1,2,H. flavifacies larvae,2,1,predation,method,field observation
+staphylinid sp. 1,2,C. conspersa larvae,2,1,predation,method,field observation
+Fannia sp. 1 larvae,2,toad carrion,2,1,scavenger,method,field observation
+Camponotus abdominalis,2,toad carrion,2,1,scavenger,method,field observation
+staphylinid sp. 1,2,Fannia sp. 2 larvae,2,1,predation,method,field observation
+staphylinid sp. 6,2,H. flavifacies larvae,2,1,predation,method,field observation
+staphylinid sp. 7,2,Fannia sp. 2 eggs,2,1,predation,method,field observation
+staphylinid sp. 7,2,H. flavifacies larvae,2,1,predation,method,field observation
+staphylinid sp. 7,2,C. conspersa larvae,2,1,predation,method,field observation
+staphylinid sp. 7,2,G. sp. larvae,2,1,predation,method,field observation
+staphylinid sp. 7,2,Fannia sp. 2 larvae,2,1,predation,method,field observation
+staphylinid sp. 10,2,C. conspersa eggs,2,1,predation,method,field observation
+staphylinid sp. 10,2,G. sp. eggs,2,1,predation,method,field observation
+staphylinid sp. 1,2,C. gemina larvae,2,1,predation,method,field observation
+saurians (unspec.),2,Megaselia sp. 1,2,1,predation,method,field observation
+saurians (unspec.),2,Megaselia sp. 7,2,1,predation,method,field observation
+saurians (unspec.),2,Epiplatea hondurana,2,1,predation,method,field observation
+saurians (unspec.),2,Leptocera sp. 2,2,1,predation,method,field observation
+saurians (unspec.),2,Leptocera sp. 3,2,1,predation,method,field observation
+saurians (unspec.),2,Sphaerocera sp. 1,2,1,predation,method,field observation
+saurians (unspec.),2,Sphaerocera sp. 2,2,1,predation,method,field observation
+H. flavifacies larvae,2,toad carrion,2,1,scavenger,method,field observation
+C. conspersa larvae,2,toad carrion,2,1,scavenger,method,field observation
+C. gemina larvae,2,toad carrion,2,1,scavenger,method,field observation
+G. sp. larvae,2,toad carrion,2,1,scavenger,method,field observation
+Fannia sp. 2 larvae,2,toad carrion,2,1,scavenger,method,field observation
+Anaides sp. (near plana),2,toad carrion,2,1,scavenger,method,field observation
+Coilodes castanea,2,toad carrion,2,1,scavenger,method,field observation
+Deltochilum lobipes,2,toad carrion,2,1,scavenger,method,field observation
+Eurysternus caribaeus,2,toad carrion,2,1,scavenger,method,field observation
+E. caludicans,2,toad carrion,2,1,scavenger,method,field observation
+E. plebejus,2,toad carrion,2,1,scavenger,method,field observation
+Onthophagus praecellens,2,toad carrion,2,1,scavenger,method,field observation
+staphylinid sp. 1,2,H. flavifacies eggs,2,1,predation,method,field observation
+staphylinid sp. 1,2,C. conspersa eggs,2,1,predation,method,field observation
+staphylinid sp. 1,2,G. sp. eggs,2,1,predation,method,field observation
+staphylinid sp. 1,2,C. gemina eggs,2,1,predation,method,field observation
+staphylinid sp. 1,2,Fannia sp. 1 eggs,2,1,predation,method,field observation
+staphylinid sp. 1,2,Fannia sp. 2 eggs,2,1,predation,method,field observation
+staphylinid sp. 1,2,H. flavifacies larvae,2,1,predation,method,field observation
+staphylinid sp. 1,2,C. conspersa larvae,2,1,predation,method,field observation

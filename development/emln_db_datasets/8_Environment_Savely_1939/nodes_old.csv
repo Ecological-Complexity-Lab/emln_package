@@ -1,0 +1,209 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,fungi,taxon,taxonomy_name,NA,taxonomy_rank,NA
+2,Entomobrya ligate,taxon,taxonomy_name,Entomobrya ligata,taxonomy_rank,species
+3,Lepidocyrtus cyaneus,taxon,taxonomy_name,Lepidocyrtus cyaneus,taxonomy_rank,species
+4,Isotoma sensibilis,taxon,taxonomy_name,Isotoma sensibilis,taxonomy_rank,species
+5,Uropoda sp.,taxon,taxonomy_name,Uropoda,taxonomy_rank,genus
+6,Pergamasus sp.,taxon,taxonomy_name,Pergamasus,taxonomy_rank,genus
+7,Megisthanus sp.,taxon,taxonomy_name,Megisthanidae,taxonomy_rank,NA
+8,Dendrolaelops sp.,taxon,taxonomy_name,Dendrolaelaps,taxonomy_rank,NA
+9,S. planatus,taxon,taxonomy_name,Silvanus planatus,taxonomy_rank,species
+10,Brontes dubius larvae,taxon,taxonomy_name,Uleiota dubius,taxonomy_rank,species
+11,Megaselia sp. larvae,taxon,taxonomy_name,Megaselia,taxonomy_rank,genus
+12,Lonchaea sp. larvae,taxon,taxonomy_name,Lonchaeidae,taxonomy_rank,family
+13,tachinid larvae,taxon,taxonomy_name,Tachinidae,taxonomy_rank,family
+14,phloem (Quercus spp.),taxon,taxonomy_name,Quercus,taxonomy_rank,genus
+15,sapwood,taxon,taxonomy_name,Quercus,taxonomy_rank,genus
+16,Chrysobothris femorata larvae,taxon,taxonomy_name,Chrysobothris femorata,taxonomy_rank,species
+17,Parcoblatta sp.,taxon,taxonomy_name,Parcoblatta,taxonomy_rank,genus
+18,Tachyta nana,taxon,taxonomy_name,Tachyta nana,taxonomy_rank,species
+19,Thoracophorus costalis,taxon,taxonomy_name,Thoracophorus costalis,taxonomy_rank,species
+20,Acritus exiguus,taxon,taxonomy_name,Acritus exiguus,taxonomy_rank,species
+21,Chariessa pilosa,taxon,taxonomy_name,Chariessa pilosa,taxonomy_rank,species
+22,Alaus oculatus larvae,taxon,taxonomy_name,Alaus oculatus,taxonomy_rank,species
+23,Melanopus sp. larvae,taxon,taxonomy_name,Neocrepidodera melanopus,taxonomy_rank,NA
+24,Agrilus sp. larvae,taxon,taxonomy_name,Agrilus,taxonomy_rank,genus
+25,Megalodacne fasciata,taxon,taxonomy_name,Megalodacne fasciata,taxonomy_rank,species
+26,Xylotrechus colonus larvae,taxon,taxonomy_name,Xylotrechus colonus,taxonomy_rank,species
+27,Neoclytus scutellaris larvae,taxon,taxonomy_name,Neoclytus scutellaris,taxonomy_rank,species
+28,Graphisurus fasciatus larvae,taxon,taxonomy_name,Graphisurus fasciatus,taxonomy_rank,species
+29,Tremex columba larvae,taxon,taxonomy_name,Tremex columba,taxonomy_rank,species
+30,Atanycolus simplex,taxon,taxonomy_name,Atanycolus simplex,taxonomy_rank,species
+31,Sparhius floridanus,taxon,taxonomy_name,Spathius floridanus,taxonomy_rank,species
+32,Camponotus herculeanus,taxon,taxonomy_name,Camponotus herculeanus,taxonomy_rank,species
+33,Crematogaster lineolata,taxon,taxonomy_name,Crematogaster lineolata,taxonomy_rank,species
+34,Leptothorax curvispinosus,taxon,taxonomy_name,Leptothorax curvispinosus,taxonomy_rank,species
+35,Ponera coarcta,taxon,taxonomy_name,Ponera coarctata,taxonomy_rank,species
+36,Proceratium croceum,taxon,taxonomy_name,Proceratium croceum,taxonomy_rank,species
+37,Geophilus varians,taxon,taxonomy_name,Geophilus varians,taxonomy_rank,species
+38,Chthonius spinosus,taxon,taxonomy_name,Chthonius spinosus,taxonomy_rank,species
+39,C. longipalpus,taxon,taxonomy_name,Chthonius longipalpus,taxonomy_rank,NA
+40,various larvae (unspecified),taxon,taxonomy_name,NA,taxonomy_rank,NA
+41,Pseudistoma sensibilis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+42,Discopoma sp.,taxon,taxonomy_name,NA,taxonomy_rank,NA
+43,Silvanus embellis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+44,Romaleum atomarium larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+45,Canosoma crassus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+46,Orthotomicus coelatus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+47,Linotaenia bidens,taxon,taxonomy_name,NA,taxonomy_rank,NA
+48,rotting wood,taxon,taxonomy_name,Quercus,taxonomy_rank,genus
+49,Podothrombium sp.,taxon,taxonomy_name,Podothrombium,taxonomy_rank,NA
+50,Zetes sp.,taxon,taxonomy_name,Acraea zetes,taxonomy_rank,species
+51,mycetophilid larvae (undet.),taxon,taxonomy_name,Mycetophilidae,taxonomy_rank,family
+52,cecidomyid larvae (undet.),taxon,taxonomy_name,Cecidomyiidae,taxonomy_rank,family
+53,dolicopodid larvae (undet.),taxon,taxonomy_name,Dolichopodidae,taxonomy_rank,family
+54,pollen (undet.),taxon,taxonomy_name,Zaprochilus australis,taxonomy_rank,species
+55,Reticulitermes flavipes,taxon,taxonomy_name,Reticulitermes flavipes,taxonomy_rank,species
+56,Coproporus ventriculus,taxon,taxonomy_name,Coproporus ventriculus,taxonomy_rank,species
+57,Actium sp.,taxon,taxonomy_name,Actium,taxonomy_rank,genus
+58,Epierus regularis,taxon,taxonomy_name,Epierus regularis,taxonomy_rank,species
+59,Epierus sp.,taxon,taxonomy_name,Epierus,taxonomy_rank,genus
+60,Platysoma lecontei,taxon,taxonomy_name,Platysoma leconti,taxonomy_rank,species
+61,Dendroides bicolor larvae,taxon,taxonomy_name,Dendroides bicolor,taxonomy_rank,NA
+62,Orthostethus infuscatus larvae,taxon,taxonomy_name,Orthostethus infuscatus,taxonomy_rank,NA
+63,Deltometopus amoenicornis larvae,taxon,taxonomy_name,Deltometopus amoenicornis,taxonomy_rank,NA
+64,Elaterinae larvae (undet.),taxon,taxonomy_name,Elaterinae,taxonomy_rank,NA
+65,Rhysodes americanus,taxon,taxonomy_name,Omoglymmius americanus,taxonomy_rank,species
+66,Triplax thoracica,taxon,taxonomy_name,Triplax thoracica,taxonomy_rank,species
+67,mycetyphagid (undet.),taxon,taxonomy_name,Mycetophagidae,taxonomy_rank,family
+68,Hymenorus sp.,taxon,taxonomy_name,Hymenorus,taxonomy_rank,genus
+69,Platydema subcostatum,taxon,taxonomy_name,Platydema subcostatum,taxonomy_rank,NA
+70,P. ruficorne,taxon,taxonomy_name,Platydema ruficorne,taxonomy_rank,NA
+71,Uloma imberbis,taxon,taxonomy_name,Uloma imberbis,taxonomy_rank,NA
+72,Dioedus punctatus,taxon,taxonomy_name,Dioedus punctatus,taxonomy_rank,NA
+73,Xylopinus saperdoides,taxon,taxonomy_name,Xylopinus saperdoides,taxonomy_rank,NA
+74,Meracantha contracta larvae,taxon,taxonomy_name,Meracantha contracta,taxonomy_rank,NA
+75,Strongylium crenatum larvae,taxon,taxonomy_name,Strongylium crenatum,taxonomy_rank,NA
+76,Synchroa punctata larvae,taxon,taxonomy_name,Synchroa punctata,taxonomy_rank,species
+77,Platycerus quercus,taxon,taxonomy_name,Platycerus quercus,taxonomy_rank,species
+78,Ceruchus piceus,taxon,taxonomy_name,Ceruchus piceus,taxonomy_rank,species
+79,Dorcus (brevis?),taxon,taxonomy_name,Dorcus,taxonomy_rank,genus
+80,Cloetus globosus,taxon,taxonomy_name,Coelus globosus,taxonomy_rank,NA
+81,Trichiotinus bidens larvae,taxon,taxonomy_name,Trichiotinus bibens,taxonomy_rank,species
+82,Phileurus valgus larvae,taxon,taxonomy_name,Phileurus valgus,taxonomy_rank,species
+83,Passalus cornutus,taxon,taxonomy_name,Odontotaenius disjunctus,taxonomy_rank,species
+84,Eupsalis minuta,taxon,taxonomy_name,Arrenodes minutus,taxonomy_rank,species
+85,Scolecocampa liburna larvae,taxon,taxonomy_name,Scolecocampa liburna,taxonomy_rank,species
+86,Augochlora pura,taxon,taxonomy_name,Augochlora pura,taxonomy_rank,species
+87,Pheidole sp.,taxon,taxonomy_name,Pheidole,taxonomy_rank,genus
+88,lumbricid (undet.),taxon,taxonomy_name,Lumbricidae,taxonomy_rank,family
+89,Polygyra fallax,taxon,taxonomy_name,Polygyra fallax,taxonomy_rank,NA
+90,fungi (red rot),taxon,taxonomy_name,NA,taxonomy_rank,NA
+91,Zonitoides arboreus,taxon,taxonomy_name,Zonitoides arboreus,taxonomy_rank,species
+92,Euconulus chersinus,taxon,taxonomy_name,Euconulus chersinus,taxonomy_rank,NA
+93,Retinella indentata,taxon,taxonomy_name,Retinella indentata,taxonomy_rank,NA
+94,Cambala annulata,taxon,taxonomy_name,Cambala annulata,taxonomy_rank,species
+95,Polydesmus serratus,taxon,taxonomy_name,Polydesmus serratus,taxonomy_rank,species
+96,Scolopendra viridis,taxon,taxonomy_name,Scolopendra viridis,taxonomy_rank,species
+97,Cryptops hyalina,taxon,taxonomy_name,Cryptops leucopodus,taxonomy_rank,species
+98,Otocryptops sexspinosus,taxon,taxonomy_name,Otocryptops sexspinosus,taxonomy_rank,NA
+99,Bothropolys multidentatus,taxon,taxonomy_name,Bothropolys multidentatus,taxonomy_rank,species
+100,various larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+101,Neosmithurus clavatus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+102,Allothrombium pulvinus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+103,Schelorabates sp.,taxon,taxonomy_name,NA,taxonomy_rank,NA
+104,Pseudolucanus capreole larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+105,Polymoecus brevipes larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+106,Derobrachus brunneus larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+107,microorganisms,taxon,taxonomy_name,NA,taxonomy_rank,NA
+108,Staphylinus violacens,taxon,taxonomy_name,NA,taxonomy_rank,NA
+109,Trachysectus confluentus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+110,Elater nigricollis larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+111,P. ruficolle,taxon,taxonomy_name,NA,taxonomy_rank,NA
+112,Scotobates carcaratus larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+113,Alobates pennsylvanicus larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+114,Leptura proxima larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+115,Strobilops aena,taxon,taxonomy_name,NA,taxonomy_rank,NA
+116,P. tridentata,taxon,taxonomy_name,NA,taxonomy_rank,NA
+117,P. thyroideus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+118,Philomycus carolinensis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+119,Fontaria coriacea,taxon,taxonomy_name,NA,taxonomy_rank,NA
+120,Spirostephon lactarium,taxon,taxonomy_name,NA,taxonomy_rank,NA
+121,Chelanops dentatus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+122,Ips grandicollis,taxon,taxonomy_name,Ips grandicollis,taxonomy_rank,species
+123,I. calligraphus,taxon,taxonomy_name,Ips calligraphus,taxonomy_rank,species
+124,Xyleborus fitchi,taxon,taxonomy_name,Xyleborus fitchi,taxonomy_rank,species
+125,Pithyophthorus annectens,taxon,taxonomy_name,Pityophthorus annectens,taxonomy_rank,species
+126,P. pullus,taxon,taxonomy_name,Crypturgus pullus,taxonomy_rank,species
+127,Dendroctonus valens,taxon,taxonomy_name,Dendroctonus valens,taxonomy_rank,species
+128,E. ligata,taxon,taxonomy_name,Entomobrya ligata,taxonomy_rank,species
+129,Entomobrya sp.,taxon,taxonomy_name,Entomobrya,taxonomy_rank,genus
+130,Pseudachorutes sp.,taxon,taxonomy_name,Pseudachorutes,taxonomy_rank,genus
+131,uropodid sp.,taxon,taxonomy_name,Uropodidae,taxonomy_rank,family
+132,Sciara coprophila larvae,taxon,taxonomy_name,Bradysia tilicola,taxonomy_rank,species
+133,Sarcophaga sp. larvae,taxon,taxonomy_name,Sarcophaga,taxonomy_rank,genus
+134,chironomid larvae,taxon,taxonomy_name,Chironomidae,taxonomy_rank,family
+135,cecidomyid larvae,taxon,taxonomy_name,Cecidomyiidae,taxonomy_rank,family
+136,dolicopodid larvae,taxon,taxonomy_name,Dolichopodidae,taxonomy_rank,family
+137,Acanthocinus obsoletus larvae,taxon,taxonomy_name,Acanthocinus obsoletus,taxonomy_rank,species
+138,Monochammus titillator larvae,taxon,taxonomy_name,Monochamus titillator,taxonomy_rank,species
+139,phloem (Pinus spp.),taxon,taxonomy_name,Pinus,taxonomy_rank,genus
+140,Chalcophora sp. larvae,taxon,taxonomy_name,Chalcophora,taxonomy_rank,genus
+141,Chrysobothris sp. larvae,taxon,taxonomy_name,Chrysobothris,taxonomy_rank,genus
+142,Platypus flavicornis,taxon,taxonomy_name,Platypus flavicornis,taxonomy_rank,species
+143,Callidium antennatum larvae,taxon,taxonomy_name,Callidium antennatum,taxonomy_rank,species
+144,dead cerambycid,taxon,taxonomy_name,Cerambycidae,taxonomy_rank,family
+145,heteropteran (undet.),taxon,taxonomy_name,Amauropelta heteroptera,taxonomy_rank,species
+146,Epiptera sp.,taxon,taxonomy_name,Cixidia advena,taxonomy_rank,species
+147,Saprinus sp.,taxon,taxonomy_name,Saprinus,taxonomy_rank,genus
+148,Platysoma parallelum,taxon,taxonomy_name,Platysoma parallelum,taxonomy_rank,species
+149,P. lecontei,taxon,taxonomy_name,Platysoma leconti,taxonomy_rank,species
+150,Plegaderus sp.,taxon,taxonomy_name,Plegaderus,taxonomy_rank,genus
+151,Thanasimus dubius,taxon,taxonomy_name,Thanasimus dubius,taxonomy_rank,species
+152,Boros unicolor larvae,taxon,taxonomy_name,Boros unicolor,taxonomy_rank,species
+153,Alaus myops larvae,taxon,taxonomy_name,Alaus myops,taxonomy_rank,NA
+154,Ischiodontus sp. larvae,taxon,taxonomy_name,Ischiodontus,taxonomy_rank,NA
+155,Melanotus sp. larvae,taxon,taxonomy_name,Melanotus,taxonomy_rank,genus
+156,Drapites sp. larvae,taxon,taxonomy_name,Coleoptera,taxonomy_rank,order
+157,Buprestis lineata larvae,taxon,taxonomy_name,Sphenoptera gemmata,taxonomy_rank,species
+158,Buprestis sp. larvae,taxon,taxonomy_name,Buprestis,taxonomy_rank,genus
+159,Temnochila virescens,taxon,taxonomy_name,Temnochila virescens,taxonomy_rank,species
+160,Rhizophagus cylindricus,taxon,taxonomy_name,Rhizophagus cylindricus,taxonomy_rank,species
+161,Brontes dubius,taxon,taxonomy_name,Uleiota dubius,taxonomy_rank,species
+162,Mycetophagus pini,taxon,taxonomy_name,Mycetophagus pini,taxonomy_rank,species
+163,Colopterus semitectus,taxon,taxonomy_name,Colopterus semitectus,taxonomy_rank,species
+164,Stelidota geminata,taxon,taxonomy_name,Stelidota geminata,taxonomy_rank,species
+165,Bolitotherus cornutus,taxon,taxonomy_name,Bolitotherus cornutus,taxonomy_rank,NA
+166,Platydema flavipes,taxon,taxonomy_name,Platydema flavipes,taxonomy_rank,NA
+167,Stephanopachys rugosus larvae,taxon,taxonomy_name,Stephanopachys rugosus,taxonomy_rank,species
+168,Asemum moestum larvae,taxon,taxonomy_name,Asemum striatum,taxonomy_rank,species
+169,Xylotrechus sagittatus larvae,taxon,taxonomy_name,Xylotrechus sagittatus,taxonomy_rank,species
+170,A. nodosus larvae,taxon,taxonomy_name,Acanthocinus nodosus,taxonomy_rank,species
+171,Eupogonius tomentosus larvae,taxon,taxonomy_name,Eupogonius tomentosus,taxonomy_rank,species
+172,Rhyncolus sp.,taxon,taxonomy_name,Rhyncolus,taxonomy_rank,genus
+173,Cossonus corticola,taxon,taxonomy_name,Cossonus corticola,taxonomy_rank,species
+174,Hylobius pales larvae,taxon,taxonomy_name,Hylobius pales,taxonomy_rank,species
+175,Orussus sp. larvae,taxon,taxonomy_name,Orussus,taxonomy_rank,NA
+176,Coeloides pissodis larvae,taxon,taxonomy_name,Coeloides pissodis,taxonomy_rank,species
+177,Leptinothorax curvispinosus,taxon,taxonomy_name,Leptothorax curvispinosus,taxonomy_rank,species
+178,Ponera coarctata,taxon,taxonomy_name,Ponera coarctata,taxonomy_rank,species
+179,Lasius umbratus,taxon,taxonomy_name,Lasius umbratus,taxonomy_rank,species
+180,Parasitus sp,taxon,taxonomy_name,Parasitus,taxonomy_rank,genus
+181,Dendrolaelaps sp.,taxon,taxonomy_name,Dendrolaelaps,taxonomy_rank,NA
+182,Chelifer cancroides,taxon,taxonomy_name,Chelifer cancroides,taxonomy_rank,species
+183,various larvae (unsp.),taxon,taxonomy_name,NA,taxonomy_rank,NA
+184,D. tenebrans,taxon,taxonomy_name,NA,taxonomy_rank,NA
+185,Entomobrya corticola,taxon,taxonomy_name,NA,taxonomy_rank,NA
+186,Tomocera flavescens,taxon,taxonomy_name,NA,taxonomy_rank,NA
+187,Xylophagus fasciatus larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+188,Theresia monohammi larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+189,Rhagium lineatum larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+190,Pissodes memorensis larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+191,Tachymenis flavicauda,taxon,taxonomy_name,NA,taxonomy_rank,NA
+192,Erchomus ventriculus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+193,Cylistix cylindrica,taxon,taxonomy_name,NA,taxonomy_rank,NA
+194,Elater verticinus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+195,Pachylobins picivorus larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+196,Sirex nigricornia larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+197,Chelanops oblongus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+198,C. virginnae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+199,rotting wood (Pinus spp.),taxon,taxonomy_name,Pinus,taxonomy_rank,genus
+200,Entomobrya ligata,taxon,taxonomy_name,Entomobrya ligata,taxonomy_rank,species
+201,Leptura sp. larvae,taxon,taxonomy_name,Leptura,taxonomy_rank,genus
+202,Uloma punctulata,taxon,taxonomy_name,Uloma punctulata,taxonomy_rank,NA
+203,Pseudolucanus capreolus larvae,taxon,taxonomy_name,Lucanus capreolus,taxonomy_rank,species
+204,Scotobates calcaratus larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+205,Fontaria coriacen,taxon,taxonomy_name,NA,taxonomy_rank,NA
+206,E. corticola,taxon,taxonomy_name,NA,taxonomy_rank,NA
+207,Xylopinus rufipes larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+208,Polygyra thyriodes,taxon,taxonomy_name,NA,taxonomy_rank,NA

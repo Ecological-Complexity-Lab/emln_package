@@ -1,0 +1,516 @@
+node_from,layer_from,node_to,layer_to,weight,type
+Ascomorpha eucadis,1,Cryptomonas sp. 1,1,1,herbivory
+Synchaeta sp.,1,Cryptomonas sp. 1,1,1,herbivory
+Keratella cochlearis,1,Cryptomonas sp. 1,1,1,herbivory
+Ascomorpha eucadis,1,Chroococcus dispersus,1,1,herbivory
+Synchaeta sp.,1,Chroococcus dispersus,1,1,herbivory
+Keratella cochlearis,1,Chroococcus dispersus,1,1,herbivory
+Ascomorpha eucadis,1,Unclassified flagellates,1,1,predation
+Synchaeta sp.,1,Unclassified flagellates,1,1,predation
+Keratella cochlearis,1,Unclassified flagellates,1,1,predation
+Ascomorpha eucadis,1,Chromulina sp.,1,1,herbivory
+Synchaeta sp.,1,Chromulina sp.,1,1,herbivory
+Keratella cochlearis,1,Chromulina sp.,1,1,herbivory
+Ascomorpha eucadis,1,Selanastrum minutum,1,1,herbivory
+Synchaeta sp.,1,Selanastrum minutum,1,1,herbivory
+Keratella cochlearis,1,Selanastrum minutum,1,1,herbivory
+Ascomorpha eucadis,1,Trachelomonas sp.,1,1,predation
+Synchaeta sp.,1,Trachelomonas sp.,1,1,predation
+Keratella cochlearis,1,Trachelomonas sp.,1,1,predation
+Bosmina longirostris,1,Cryptomonas sp. 1,1,1,herbivory
+Bosmina longirostris,1,Chroococcus dispersus,1,1,herbivory
+Bosmina longirostris,1,Unclassified flagellates,1,1,predation
+Bosmina longirostris,1,Chromulina sp.,1,1,herbivory
+Bosmina longirostris,1,Selanastrum minutum,1,1,herbivory
+Bosmina longirostris,1,Trachelomonas sp.,1,1,predation
+Bosmina longirostris,1,Cryptomonas sp. 2,1,1,herbivory
+Bosmina longirostris,1,Dictyosphaerium pulchellum,1,1,herbivory
+Bosmina longirostris,1,Dinobryon sociale,1,1,herbivory
+Bosmina longirostris,1,Peridinium pulsillum,1,1,predation
+Bosmina longirostris,1,Glenodinium quadridens,1,1,herbivory
+Conochilus (solitary),1,Cryptomonas sp. 1,1,1,herbivory
+Conochiloides dossuarius,1,Cryptomonas sp. 1,1,1,herbivory
+Conochilus (solitary),1,Chroococcus dispersus,1,1,herbivory
+Conochiloides dossuarius,1,Chroococcus dispersus,1,1,herbivory
+Conochilus (solitary),1,Unclassified flagellates,1,1,predation
+Conochiloides dossuarius,1,Unclassified flagellates,1,1,predation
+Conochilus (solitary),1,Chromulina sp.,1,1,herbivory
+Conochiloides dossuarius,1,Chromulina sp.,1,1,herbivory
+Conochilus (solitary),1,Selanastrum minutum,1,1,herbivory
+Conochiloides dossuarius,1,Selanastrum minutum,1,1,herbivory
+Conochilus (solitary),1,Trachelomonas sp.,1,1,predation
+Conochiloides dossuarius,1,Trachelomonas sp.,1,1,predation
+Conochilus (solitary),1,Closteriopsis longissimus,1,1,herbivory
+Conochiloides dossuarius,1,Closteriopsis longissimus,1,1,herbivory
+Cyclops varians rubellus,1,Ascomorpha eucadis,1,1,predation
+Tropocyclops prasinus,1,Ascomorpha eucadis,1,1,predation
+Cyclops varians rubellus,1,Synchaeta sp.,1,1,predation
+Tropocyclops prasinus,1,Synchaeta sp.,1,1,predation
+Cyclops varians rubellus,1,Keratella cochlearis,1,1,predation
+Tropocyclops prasinus,1,Keratella cochlearis,1,1,predation
+Cyclops varians rubellus,1,Conochilus (solitary),1,1,predation
+Tropocyclops prasinus,1,Conochilus (solitary),1,1,predation
+Cyclops varians rubellus,1,Conochiloides dossuarius,1,1,predation
+Tropocyclops prasinus,1,Conochiloides dossuarius,1,1,predation
+Cyclops varians rubellus,1,Cyclops varians rubellus,1,1,predation
+Tropocyclops prasinus,1,Cyclops varians rubellus,1,1,predation
+Cyclops varians rubellus,1,Tropocyclops prasinus,1,1,predation
+Tropocyclops prasinus,1,Tropocyclops prasinus,1,1,predation
+Cyclops varians rubellus,1,Filinia longispina,1,1,predation
+Tropocyclops prasinus,1,Filinia longispina,1,1,predation
+Cyclops varians rubellus,1,Gastropus stylifer,1,1,predation
+Tropocyclops prasinus,1,Gastropus stylifer,1,1,predation
+Cyclops varians rubellus,1,Kellicottia sp.,1,1,predation
+Tropocyclops prasinus,1,Kellicottia sp.,1,1,predation
+Cyclops varians rubellus,1,Keratella testudo,1,1,predation
+Tropocyclops prasinus,1,Keratella testudo,1,1,predation
+Cyclops varians rubellus,1,Ploesoma sp.,1,1,predation
+Tropocyclops prasinus,1,Ploesoma sp.,1,1,predation
+Cyclops varians rubellus,1,Polyarthra vulgaris,1,1,predation
+Tropocyclops prasinus,1,Polyarthra vulgaris,1,1,predation
+Cyclops varians rubellus,1,Trichocerca multicrinis,1,1,predation
+Tropocyclops prasinus,1,Trichocerca multicrinis,1,1,predation
+Cyclops varians rubellus,1,Trichocerca cylindrica,1,1,predation
+Tropocyclops prasinus,1,Trichocerca cylindrica,1,1,predation
+Cyclops varians rubellus,1,Leptodiaptomus siciloides,1,1,predation
+Tropocyclops prasinus,1,Leptodiaptomus siciloides,1,1,predation
+Diaphanosoma leuchtenbergianum,1,Nostoc sp.,1,1,predation
+Diaphanosoma leuchtenbergianum,1,Dinobryon cylindricum,1,1,predation
+Diaphanosoma leuchtenbergianum,1,Dactylococcopsis fascicularis,1,1,herbivory
+Diaphanosoma leuchtenbergianum,1,Cryptomonas sp. 1,1,1,herbivory
+Diaphanosoma leuchtenbergianum,1,Chroococcus dispersus,1,1,herbivory
+Diaphanosoma leuchtenbergianum,1,Unclassified flagellates,1,1,predation
+Diaphanosoma leuchtenbergianum,1,Chromulina sp.,1,1,herbivory
+Diaphanosoma leuchtenbergianum,1,Selanastrum minutum,1,1,herbivory
+Diaphanosoma leuchtenbergianum,1,Trachelomonas sp.,1,1,predation
+Diaphanosoma leuchtenbergianum,1,Cryptomonas sp. 2,1,1,herbivory
+Diaphanosoma leuchtenbergianum,1,Dictyosphaerium pulchellum,1,1,herbivory
+Diaphanosoma leuchtenbergianum,1,Dinobryon sociale,1,1,herbivory
+Diaphanosoma leuchtenbergianum,1,Peridinium pulsillum,1,1,predation
+Diaphanosoma leuchtenbergianum,1,Glenodinium quadridens,1,1,herbivory
+Daphnia pulex,1,Nostoc sp.,1,1,predation
+Daphnia pulex,1,Dinobryon cylindricum,1,1,predation
+Daphnia pulex,1,Dactylococcopsis fascicularis,1,1,herbivory
+Daphnia pulex,1,Arthrodesmus sp.,1,1,predation
+Daphnia pulex,1,Mallomonas sp. 2,1,1,predation
+Daphnia pulex,1,Cryptomonas sp. 1,1,1,herbivory
+Daphnia pulex,1,Chroococcus dispersus,1,1,herbivory
+Daphnia pulex,1,Unclassified flagellates,1,1,predation
+Daphnia pulex,1,Chromulina sp.,1,1,herbivory
+Daphnia pulex,1,Selanastrum minutum,1,1,herbivory
+Daphnia pulex,1,Trachelomonas sp.,1,1,predation
+Daphnia pulex,1,Cryptomonas sp. 2,1,1,herbivory
+Daphnia pulex,1,Dictyosphaerium pulchellum,1,1,herbivory
+Daphnia pulex,1,Dinobryon sociale,1,1,herbivory
+Daphnia pulex,1,Peridinium pulsillum,1,1,predation
+Daphnia pulex,1,Closteriopsis longissimus,1,1,herbivory
+Daphnia pulex,1,Dinobryon bavaricum,1,1,predation
+Daphnia pulex,1,Microcystis aeruginosa,1,1,herbivory
+Daphnia pulex,1,Peridinium limbatum,1,1,predation
+Daphnia pulex,1,Peridinium wisconsinense,1,1,predation
+Daphnia pulex,1,Synedra sp.,1,1,herbivory
+Daphnia pulex,1,Dinobryon sertularia,1,1,herbivory
+Daphnia pulex,1,Mallomonas sp. 1,1,1,predation
+Daphnia pulex,1,Peridinium cinctum,1,1,predation
+Daphnia pulex,1,Glenodinium quadridens,1,1,herbivory
+Daphnia pulex,1,Ascomorpha eucadis,1,1,predation
+Daphnia pulex,1,Synchaeta sp.,1,1,predation
+Daphnia pulex,1,Keratella cochlearis,1,1,predation
+Filinia longispina,1,Cryptomonas sp. 1,1,1,herbivory
+Gastropus stylifer,1,Cryptomonas sp. 1,1,1,herbivory
+Kellicottia sp.,1,Cryptomonas sp. 1,1,1,herbivory
+Keratella testudo,1,Cryptomonas sp. 1,1,1,herbivory
+Ploesoma sp.,1,Cryptomonas sp. 1,1,1,herbivory
+Polyarthra vulgaris,1,Cryptomonas sp. 1,1,1,herbivory
+Trichocerca multicrinis,1,Cryptomonas sp. 1,1,1,herbivory
+Trichocerca cylindrica,1,Cryptomonas sp. 1,1,1,herbivory
+Filinia longispina,1,Chroococcus dispersus,1,1,herbivory
+Gastropus stylifer,1,Chroococcus dispersus,1,1,herbivory
+Kellicottia sp.,1,Chroococcus dispersus,1,1,herbivory
+Keratella testudo,1,Chroococcus dispersus,1,1,herbivory
+Ploesoma sp.,1,Chroococcus dispersus,1,1,herbivory
+Polyarthra vulgaris,1,Chroococcus dispersus,1,1,herbivory
+Trichocerca multicrinis,1,Chroococcus dispersus,1,1,herbivory
+Trichocerca cylindrica,1,Chroococcus dispersus,1,1,herbivory
+Filinia longispina,1,Unclassified flagellates,1,1,predation
+Gastropus stylifer,1,Unclassified flagellates,1,1,predation
+Kellicottia sp.,1,Unclassified flagellates,1,1,predation
+Keratella testudo,1,Unclassified flagellates,1,1,predation
+Ploesoma sp.,1,Unclassified flagellates,1,1,predation
+Polyarthra vulgaris,1,Unclassified flagellates,1,1,predation
+Trichocerca multicrinis,1,Unclassified flagellates,1,1,predation
+Trichocerca cylindrica,1,Unclassified flagellates,1,1,predation
+Filinia longispina,1,Chromulina sp.,1,1,herbivory
+Gastropus stylifer,1,Chromulina sp.,1,1,herbivory
+Kellicottia sp.,1,Chromulina sp.,1,1,herbivory
+Keratella testudo,1,Chromulina sp.,1,1,herbivory
+Ploesoma sp.,1,Chromulina sp.,1,1,herbivory
+Polyarthra vulgaris,1,Chromulina sp.,1,1,herbivory
+Trichocerca multicrinis,1,Chromulina sp.,1,1,herbivory
+Trichocerca cylindrica,1,Chromulina sp.,1,1,herbivory
+Filinia longispina,1,Selanastrum minutum,1,1,herbivory
+Gastropus stylifer,1,Selanastrum minutum,1,1,herbivory
+Kellicottia sp.,1,Selanastrum minutum,1,1,herbivory
+Keratella testudo,1,Selanastrum minutum,1,1,herbivory
+Ploesoma sp.,1,Selanastrum minutum,1,1,herbivory
+Polyarthra vulgaris,1,Selanastrum minutum,1,1,herbivory
+Trichocerca multicrinis,1,Selanastrum minutum,1,1,herbivory
+Trichocerca cylindrica,1,Selanastrum minutum,1,1,herbivory
+Filinia longispina,1,Trachelomonas sp.,1,1,predation
+Gastropus stylifer,1,Trachelomonas sp.,1,1,predation
+Kellicottia sp.,1,Trachelomonas sp.,1,1,predation
+Keratella testudo,1,Trachelomonas sp.,1,1,predation
+Ploesoma sp.,1,Trachelomonas sp.,1,1,predation
+Polyarthra vulgaris,1,Trachelomonas sp.,1,1,predation
+Trichocerca multicrinis,1,Trachelomonas sp.,1,1,predation
+Trichocerca cylindrica,1,Trachelomonas sp.,1,1,predation
+Holopedium gibberum,1,Nostoc sp.,1,1,predation
+Holopedium gibberum,1,Dinobryon cylindricum,1,1,predation
+Holopedium gibberum,1,Dactylococcopsis fascicularis,1,1,herbivory
+Holopedium gibberum,1,Arthrodesmus sp.,1,1,predation
+Holopedium gibberum,1,Mallomonas sp. 2,1,1,predation
+Holopedium gibberum,1,Cryptomonas sp. 1,1,1,herbivory
+Holopedium gibberum,1,Chroococcus dispersus,1,1,herbivory
+Holopedium gibberum,1,Unclassified flagellates,1,1,predation
+Holopedium gibberum,1,Chromulina sp.,1,1,herbivory
+Holopedium gibberum,1,Selanastrum minutum,1,1,herbivory
+Holopedium gibberum,1,Trachelomonas sp.,1,1,predation
+Holopedium gibberum,1,Cryptomonas sp. 2,1,1,herbivory
+Holopedium gibberum,1,Dictyosphaerium pulchellum,1,1,herbivory
+Holopedium gibberum,1,Dinobryon sociale,1,1,herbivory
+Holopedium gibberum,1,Peridinium pulsillum,1,1,predation
+Holopedium gibberum,1,Dinobryon sertularia,1,1,herbivory
+Holopedium gibberum,1,Mallomonas sp. 1,1,1,predation
+Holopedium gibberum,1,Peridinium cinctum,1,1,predation
+Holopedium gibberum,1,Glenodinium quadridens,1,1,herbivory
+Leptodiaptomus siciloides,1,Nostoc sp.,1,1,predation
+Leptodiaptomus siciloides,1,Dinobryon cylindricum,1,1,predation
+Leptodiaptomus siciloides,1,Dactylococcopsis fascicularis,1,1,herbivory
+Leptodiaptomus siciloides,1,Arthrodesmus sp.,1,1,predation
+Leptodiaptomus siciloides,1,Mallomonas sp. 2,1,1,predation
+Leptodiaptomus siciloides,1,Cryptomonas sp. 1,1,1,herbivory
+Leptodiaptomus siciloides,1,Chroococcus dispersus,1,1,herbivory
+Leptodiaptomus siciloides,1,Unclassified flagellates,1,1,predation
+Leptodiaptomus siciloides,1,Chromulina sp.,1,1,herbivory
+Leptodiaptomus siciloides,1,Selanastrum minutum,1,1,herbivory
+Leptodiaptomus siciloides,1,Trachelomonas sp.,1,1,predation
+Leptodiaptomus siciloides,1,Cryptomonas sp. 2,1,1,herbivory
+Leptodiaptomus siciloides,1,Dictyosphaerium pulchellum,1,1,herbivory
+Leptodiaptomus siciloides,1,Dinobryon sociale,1,1,herbivory
+Leptodiaptomus siciloides,1,Peridinium pulsillum,1,1,predation
+Leptodiaptomus siciloides,1,Glenodinium quadridens,1,1,herbivory
+Orthocyclops modestus,1,Ascomorpha eucadis,1,1,predation
+Orthocyclops modestus,1,Synchaeta sp.,1,1,predation
+Orthocyclops modestus,1,Keratella cochlearis,1,1,predation
+Orthocyclops modestus,1,Conochilus (solitary),1,1,predation
+Orthocyclops modestus,1,Conochiloides dossuarius,1,1,predation
+Orthocyclops modestus,1,Cyclops varians rubellus,1,1,predation
+Orthocyclops modestus,1,Tropocyclops prasinus,1,1,predation
+Orthocyclops modestus,1,Filinia longispina,1,1,predation
+Orthocyclops modestus,1,Gastropus stylifer,1,1,predation
+Orthocyclops modestus,1,Kellicottia sp.,1,1,predation
+Orthocyclops modestus,1,Keratella testudo,1,1,predation
+Orthocyclops modestus,1,Ploesoma sp.,1,1,predation
+Orthocyclops modestus,1,Polyarthra vulgaris,1,1,predation
+Orthocyclops modestus,1,Trichocerca multicrinis,1,1,predation
+Orthocyclops modestus,1,Trichocerca cylindrica,1,1,predation
+Orthocyclops modestus,1,Leptodiaptomus siciloides,1,1,predation
+Orthocyclops modestus,1,Orthocyclops modestus,1,1,predation
+Chaoborus punctipennis,1,Glenodinium quadridens,1,1,herbivory
+Chaoborus punctipennis,1,Ascomorpha eucadis,1,1,predation
+Chaoborus punctipennis,1,Synchaeta sp.,1,1,predation
+Chaoborus punctipennis,1,Keratella cochlearis,1,1,predation
+Chaoborus punctipennis,1,Bosmina longirostris,1,1,predation
+Chaoborus punctipennis,1,Conochilus (solitary),1,1,predation
+Chaoborus punctipennis,1,Conochiloides dossuarius,1,1,predation
+Chaoborus punctipennis,1,Cyclops varians rubellus,1,1,predation
+Chaoborus punctipennis,1,Tropocyclops prasinus,1,1,predation
+Chaoborus punctipennis,1,Diaphanosoma leuchtenbergianum,1,1,predation
+Chaoborus punctipennis,1,Daphnia pulex,1,1,predation
+Chaoborus punctipennis,1,Filinia longispina,1,1,predation
+Chaoborus punctipennis,1,Gastropus stylifer,1,1,predation
+Chaoborus punctipennis,1,Kellicottia sp.,1,1,predation
+Chaoborus punctipennis,1,Keratella testudo,1,1,predation
+Chaoborus punctipennis,1,Ploesoma sp.,1,1,predation
+Chaoborus punctipennis,1,Polyarthra vulgaris,1,1,predation
+Chaoborus punctipennis,1,Trichocerca multicrinis,1,1,predation
+Chaoborus punctipennis,1,Trichocerca cylindrica,1,1,predation
+Chaoborus punctipennis,1,Leptodiaptomus siciloides,1,1,predation
+Chaoborus punctipennis,1,Orthocyclops modestus,1,1,predation
+Chaoborus punctipennis,1,Chaoborus punctipennis,1,1,predation
+Phoxinus eos,1,Bosmina longirostris,1,1,predation
+Phoxinus neogaeus,1,Bosmina longirostris,1,1,predation
+Phoxinus eos,1,Cyclops varians rubellus,1,1,predation
+Phoxinus neogaeus,1,Cyclops varians rubellus,1,1,predation
+Phoxinus eos,1,Tropocyclops prasinus,1,1,predation
+Phoxinus neogaeus,1,Tropocyclops prasinus,1,1,predation
+Phoxinus eos,1,Diaphanosoma leuchtenbergianum,1,1,predation
+Phoxinus neogaeus,1,Diaphanosoma leuchtenbergianum,1,1,predation
+Phoxinus eos,1,Daphnia pulex,1,1,predation
+Phoxinus neogaeus,1,Daphnia pulex,1,1,predation
+Phoxinus eos,1,Holopedium gibberum,1,1,predation
+Phoxinus neogaeus,1,Holopedium gibberum,1,1,predation
+Phoxinus eos,1,Leptodiaptomus siciloides,1,1,predation
+Phoxinus neogaeus,1,Leptodiaptomus siciloides,1,1,predation
+Phoxinus eos,1,Orthocyclops modestus,1,1,predation
+Phoxinus neogaeus,1,Orthocyclops modestus,1,1,predation
+Phoxinus eos,1,Chaoborus punctipennis,1,1,predation
+Phoxinus neogaeus,1,Chaoborus punctipennis,1,1,predation
+Umbra limi,1,Bosmina longirostris,1,1,predation
+Umbra limi,1,Cyclops varians rubellus,1,1,predation
+Umbra limi,1,Tropocyclops prasinus,1,1,predation
+Umbra limi,1,Diaphanosoma leuchtenbergianum,1,1,predation
+Umbra limi,1,Daphnia pulex,1,1,predation
+Umbra limi,1,Holopedium gibberum,1,1,predation
+Umbra limi,1,Leptodiaptomus siciloides,1,1,predation
+Umbra limi,1,Orthocyclops modestus,1,1,predation
+Umbra limi,1,Chaoborus punctipennis,1,1,predation
+Umbra limi,1,Phoxinus eos,1,1,predation
+Umbra limi,1,Phoxinus neogaeus,1,1,predation
+Umbra limi,1,Umbra limi,1,1,predation
+Ascomorpha eucadis,2,Cryptomonas sp. 1,2,1,herbivory
+Ascomorpha eucadis,2,Chroococcus dispersus,2,1,herbivory
+Ascomorpha eucadis,2,Chroococcus limneticus,2,1,herbivory
+Ascomorpha eucadis,2,Unclassified microflagellates,2,1,predation
+Ascomorpha eucadis,2,Chromulina sp.,2,1,herbivory
+Ascomorpha eucadis,2,Selenastrum minutum,2,1,predation
+Conochilus (colonial),2,Cryptomonas sp. 1,2,1,herbivory
+Conochilus (colonial),2,Chroococcus dispersus,2,1,herbivory
+Conochilus (colonial),2,Chroococcus limneticus,2,1,herbivory
+Conochilus (colonial),2,Unclassified microflagellates,2,1,predation
+Conochilus (colonial),2,Chromulina sp.,2,1,herbivory
+Conochilus (colonial),2,Selenastrum minutum,2,1,predation
+Conochilus (colonial),2,Closteriopsis longissimus,2,1,herbivory
+Conochiloides dossuarius,2,Cryptomonas sp. 1,2,1,herbivory
+Conochiloides dossuarius,2,Chroococcus dispersus,2,1,herbivory
+Conochiloides dossuarius,2,Chroococcus limneticus,2,1,herbivory
+Conochiloides dossuarius,2,Unclassified microflagellates,2,1,predation
+Conochiloides dossuarius,2,Chromulina sp.,2,1,herbivory
+Conochiloides dossuarius,2,Selenastrum minutum,2,1,predation
+Conochiloides dossuarius,2,Closteriopsis longissimus,2,1,herbivory
+Cyclops varians rubellus,2,Ascomorpha eucadis,2,1,predation
+Orthocyclops modestus,2,Ascomorpha eucadis,2,1,predation
+Cyclops varians rubellus,2,Conochiloides dossuarius,2,1,predation
+Orthocyclops modestus,2,Conochiloides dossuarius,2,1,predation
+Cyclops varians rubellus,2,Cyclops varians rubellus,2,1,predation
+Orthocyclops modestus,2,Cyclops varians rubellus,2,1,predation
+Cyclops varians rubellus,2,Orthocyclops modestus,2,1,predation
+Orthocyclops modestus,2,Orthocyclops modestus,2,1,predation
+Cyclops varians rubellus,2,Diaptomus oregonensis,2,1,predation
+Orthocyclops modestus,2,Diaptomus oregonensis,2,1,predation
+Cyclops varians rubellus,2,Gastropus hyptopus,2,1,predation
+Orthocyclops modestus,2,Gastropus hyptopus,2,1,predation
+Cyclops varians rubellus,2,Kellicottia bostoniensis,2,1,predation
+Orthocyclops modestus,2,Kellicottia bostoniensis,2,1,predation
+Cyclops varians rubellus,2,Kellicottia longispina,2,1,predation
+Orthocyclops modestus,2,Kellicottia longispina,2,1,predation
+Cyclops varians rubellus,2,Keratella testudo,2,1,predation
+Orthocyclops modestus,2,Keratella testudo,2,1,predation
+Cyclops varians rubellus,2,Polyarthra vulgaris,2,1,predation
+Orthocyclops modestus,2,Polyarthra vulgaris,2,1,predation
+Cyclops varians rubellus,2,Trichocerca cylindrica,2,1,predation
+Orthocyclops modestus,2,Trichocerca cylindrica,2,1,predation
+Cyclops varians rubellus,2,Trichocerca multicrinis,2,1,predation
+Orthocyclops modestus,2,Trichocerca multicrinis,2,1,predation
+Cyclops varians rubellus,2,Gastropus stylifer,2,1,predation
+Orthocyclops modestus,2,Gastropus stylifer,2,1,predation
+Cyclops varians rubellus,2,Keratella cochlearis,2,1,predation
+Orthocyclops modestus,2,Keratella cochlearis,2,1,predation
+Cyclops varians rubellus,2,Synchaeta sp.,2,1,predation
+Orthocyclops modestus,2,Synchaeta sp.,2,1,predation
+Cyclops varians rubellus,2,Tropocyclops prasinus,2,1,predation
+Orthocyclops modestus,2,Tropocyclops prasinus,2,1,predation
+Diaptomus oregonensis,2,Cryptomonas sp. 1,2,1,herbivory
+Diaptomus oregonensis,2,Chroococcus dispersus,2,1,herbivory
+Diaptomus oregonensis,2,Chroococcus limneticus,2,1,herbivory
+Diaptomus oregonensis,2,Unclassified microflagellates,2,1,predation
+Diaptomus oregonensis,2,Chromulina sp.,2,1,herbivory
+Diaptomus oregonensis,2,Selenastrum minutum,2,1,predation
+Diaptomus oregonensis,2,Cryptomonas sp. 3,2,1,herbivory
+Diaptomus oregonensis,2,Cryptomonas sp. 4,2,1,herbivory
+Diaptomus oregonensis,2,Cosmarium sp.,2,1,predation
+Diaptomus oregonensis,2,Dactylococcopsis fascicularis,2,1,herbivory
+Diaptomus oregonensis,2,Dictyosphaerium pulchellum,2,1,herbivory
+Diaptomus oregonensis,2,Dinobryon sertularia,2,1,herbivory
+Diaptomus oregonensis,2,Sphaerocystis schroeteri,2,1,herbivory
+Diaptomus oregonensis,2,Glenodinium pulvisculus,2,1,herbivory
+Diaptomus oregonensis,2,Oocystis sp. 1,2,1,herbivory
+Diaptomus oregonensis,2,Oocystis sp. 2,2,1,herbivory
+Diaptomus oregonensis,2,Peridinium pulsillum,2,1,predation
+Diaptomus oregonensis,2,Schroederia setigera,2,1,herbivory
+Daphnia pulex,2,Cryptomonas sp. 1,2,1,herbivory
+Daphnia pulex,2,Chroococcus dispersus,2,1,herbivory
+Daphnia pulex,2,Chroococcus limneticus,2,1,herbivory
+Daphnia pulex,2,Unclassified microflagellates,2,1,predation
+Daphnia pulex,2,Chromulina sp.,2,1,herbivory
+Daphnia pulex,2,Selenastrum minutum,2,1,predation
+Daphnia pulex,2,Cryptomonas sp. 3,2,1,herbivory
+Daphnia pulex,2,Cryptomonas sp. 4,2,1,herbivory
+Daphnia pulex,2,Cosmarium sp.,2,1,predation
+Daphnia pulex,2,Dactylococcopsis fascicularis,2,1,herbivory
+Daphnia pulex,2,Dictyosphaerium pulchellum,2,1,herbivory
+Daphnia pulex,2,Dinobryon sertularia,2,1,herbivory
+Daphnia pulex,2,Sphaerocystis schroeteri,2,1,herbivory
+Daphnia pulex,2,Glenodinium pulvisculus,2,1,herbivory
+Daphnia pulex,2,Oocystis sp. 1,2,1,herbivory
+Daphnia pulex,2,Oocystis sp. 2,2,1,herbivory
+Daphnia pulex,2,Peridinium pulsillum,2,1,predation
+Daphnia pulex,2,Schroederia setigera,2,1,herbivory
+Daphnia pulex,2,Closteriopsis longissimus,2,1,herbivory
+Daphnia pulex,2,Dinobryon bavaricum,2,1,predation
+Daphnia pulex,2,Dinobryon cylindricum,2,1,predation
+Daphnia pulex,2,Microcystis aeruginosa,2,1,herbivory
+Daphnia pulex,2,Peridinium limbatum,2,1,predation
+Daphnia pulex,2,Quadrigula lacustris,2,1,herbivory
+Daphnia pulex,2,Quadrigula sp. 2,2,1,herbivory
+Daphnia pulex,2,Synedra sp.,2,1,herbivory
+Daphnia pulex,2,Oscillatoria sp.,2,1,herbivory
+Daphnia pulex,2,Ascomorpha eucadis,2,1,predation
+Daphnia pulex,2,Keratella cochlearis,2,1,predation
+Daphnia pulex,2,Synchaeta sp.,2,1,predation
+Daphnia rosea,2,Ankyra judayi,2,1,herbivory
+Daphnia rosea,2,Cryptomonas sp. 1,2,1,herbivory
+Daphnia rosea,2,Chroococcus dispersus,2,1,herbivory
+Daphnia rosea,2,Chroococcus limneticus,2,1,herbivory
+Daphnia rosea,2,Unclassified microflagellates,2,1,predation
+Daphnia rosea,2,Chromulina sp.,2,1,herbivory
+Daphnia rosea,2,Selenastrum minutum,2,1,predation
+Daphnia rosea,2,Cryptomonas sp. 3,2,1,herbivory
+Daphnia rosea,2,Cryptomonas sp. 4,2,1,herbivory
+Daphnia rosea,2,Cosmarium sp.,2,1,predation
+Daphnia rosea,2,Dactylococcopsis fascicularis,2,1,herbivory
+Daphnia rosea,2,Dictyosphaerium pulchellum,2,1,herbivory
+Daphnia rosea,2,Dinobryon sertularia,2,1,herbivory
+Daphnia rosea,2,Sphaerocystis schroeteri,2,1,herbivory
+Daphnia rosea,2,Glenodinium pulvisculus,2,1,herbivory
+Daphnia rosea,2,Oocystis sp. 1,2,1,herbivory
+Daphnia rosea,2,Oocystis sp. 2,2,1,herbivory
+Daphnia rosea,2,Peridinium pulsillum,2,1,predation
+Daphnia rosea,2,Schroederia setigera,2,1,herbivory
+Daphnia rosea,2,Dinobryon bavaricum,2,1,predation
+Daphnia rosea,2,Dinobryon cylindricum,2,1,predation
+Daphnia rosea,2,Microcystis aeruginosa,2,1,herbivory
+Daphnia rosea,2,Peridinium limbatum,2,1,predation
+Daphnia rosea,2,Quadrigula lacustris,2,1,herbivory
+Daphnia rosea,2,Quadrigula sp. 2,2,1,herbivory
+Daphnia rosea,2,Synedra sp.,2,1,herbivory
+Daphnia rosea,2,Oscillatoria sp.,2,1,herbivory
+Daphnia rosea,2,Keratella cochlearis,2,1,predation
+Daphnia rosea,2,Synchaeta sp.,2,1,predation
+Gastropus hyptopus,2,Cryptomonas sp. 1,2,1,herbivory
+Kellicottia bostoniensis,2,Cryptomonas sp. 1,2,1,herbivory
+Kellicottia longispina,2,Cryptomonas sp. 1,2,1,herbivory
+Keratella testudo,2,Cryptomonas sp. 1,2,1,herbivory
+Polyarthra vulgaris,2,Cryptomonas sp. 1,2,1,herbivory
+Trichocerca cylindrica,2,Cryptomonas sp. 1,2,1,herbivory
+Trichocerca multicrinis,2,Cryptomonas sp. 1,2,1,herbivory
+Gastropus hyptopus,2,Chroococcus dispersus,2,1,herbivory
+Kellicottia bostoniensis,2,Chroococcus dispersus,2,1,herbivory
+Kellicottia longispina,2,Chroococcus dispersus,2,1,herbivory
+Keratella testudo,2,Chroococcus dispersus,2,1,herbivory
+Polyarthra vulgaris,2,Chroococcus dispersus,2,1,herbivory
+Trichocerca cylindrica,2,Chroococcus dispersus,2,1,herbivory
+Trichocerca multicrinis,2,Chroococcus dispersus,2,1,herbivory
+Gastropus hyptopus,2,Chroococcus limneticus,2,1,herbivory
+Kellicottia bostoniensis,2,Chroococcus limneticus,2,1,herbivory
+Kellicottia longispina,2,Chroococcus limneticus,2,1,herbivory
+Keratella testudo,2,Chroococcus limneticus,2,1,herbivory
+Polyarthra vulgaris,2,Chroococcus limneticus,2,1,herbivory
+Trichocerca cylindrica,2,Chroococcus limneticus,2,1,herbivory
+Trichocerca multicrinis,2,Chroococcus limneticus,2,1,herbivory
+Gastropus hyptopus,2,Unclassified microflagellates,2,1,predation
+Kellicottia bostoniensis,2,Unclassified microflagellates,2,1,predation
+Kellicottia longispina,2,Unclassified microflagellates,2,1,predation
+Keratella testudo,2,Unclassified microflagellates,2,1,predation
+Polyarthra vulgaris,2,Unclassified microflagellates,2,1,predation
+Trichocerca cylindrica,2,Unclassified microflagellates,2,1,predation
+Trichocerca multicrinis,2,Unclassified microflagellates,2,1,predation
+Gastropus hyptopus,2,Chromulina sp.,2,1,herbivory
+Kellicottia bostoniensis,2,Chromulina sp.,2,1,herbivory
+Kellicottia longispina,2,Chromulina sp.,2,1,herbivory
+Keratella testudo,2,Chromulina sp.,2,1,herbivory
+Polyarthra vulgaris,2,Chromulina sp.,2,1,herbivory
+Trichocerca cylindrica,2,Chromulina sp.,2,1,herbivory
+Trichocerca multicrinis,2,Chromulina sp.,2,1,herbivory
+Gastropus hyptopus,2,Selenastrum minutum,2,1,predation
+Kellicottia bostoniensis,2,Selenastrum minutum,2,1,predation
+Kellicottia longispina,2,Selenastrum minutum,2,1,predation
+Keratella testudo,2,Selenastrum minutum,2,1,predation
+Polyarthra vulgaris,2,Selenastrum minutum,2,1,predation
+Trichocerca cylindrica,2,Selenastrum minutum,2,1,predation
+Trichocerca multicrinis,2,Selenastrum minutum,2,1,predation
+Gastropus stylifer,2,Ankyra judayi,2,1,herbivory
+Gastropus stylifer,2,Cryptomonas sp. 1,2,1,herbivory
+Gastropus stylifer,2,Chroococcus dispersus,2,1,herbivory
+Gastropus stylifer,2,Chroococcus limneticus,2,1,herbivory
+Gastropus stylifer,2,Unclassified microflagellates,2,1,predation
+Gastropus stylifer,2,Chromulina sp.,2,1,herbivory
+Gastropus stylifer,2,Selenastrum minutum,2,1,predation
+Holopedium gibberum,2,Cryptomonas sp. 1,2,1,herbivory
+Holopedium gibberum,2,Chroococcus dispersus,2,1,herbivory
+Holopedium gibberum,2,Chroococcus limneticus,2,1,herbivory
+Holopedium gibberum,2,Unclassified microflagellates,2,1,predation
+Holopedium gibberum,2,Chromulina sp.,2,1,herbivory
+Holopedium gibberum,2,Selenastrum minutum,2,1,predation
+Holopedium gibberum,2,Cryptomonas sp. 3,2,1,herbivory
+Holopedium gibberum,2,Cryptomonas sp. 4,2,1,herbivory
+Holopedium gibberum,2,Cosmarium sp.,2,1,predation
+Holopedium gibberum,2,Dactylococcopsis fascicularis,2,1,herbivory
+Holopedium gibberum,2,Dictyosphaerium pulchellum,2,1,herbivory
+Holopedium gibberum,2,Dinobryon sertularia,2,1,herbivory
+Holopedium gibberum,2,Sphaerocystis schroeteri,2,1,herbivory
+Holopedium gibberum,2,Glenodinium pulvisculus,2,1,herbivory
+Holopedium gibberum,2,Oocystis sp. 1,2,1,herbivory
+Holopedium gibberum,2,Oocystis sp. 2,2,1,herbivory
+Holopedium gibberum,2,Peridinium pulsillum,2,1,predation
+Holopedium gibberum,2,Schroederia setigera,2,1,herbivory
+Keratella cochlearis,2,Cryptomonas sp. 1,2,1,herbivory
+Synchaeta sp.,2,Cryptomonas sp. 1,2,1,herbivory
+Keratella cochlearis,2,Chroococcus dispersus,2,1,herbivory
+Synchaeta sp.,2,Chroococcus dispersus,2,1,herbivory
+Keratella cochlearis,2,Chroococcus limneticus,2,1,herbivory
+Synchaeta sp.,2,Chroococcus limneticus,2,1,herbivory
+Keratella cochlearis,2,Unclassified microflagellates,2,1,predation
+Synchaeta sp.,2,Unclassified microflagellates,2,1,predation
+Keratella cochlearis,2,Chromulina sp.,2,1,herbivory
+Synchaeta sp.,2,Chromulina sp.,2,1,herbivory
+Keratella cochlearis,2,Selenastrum minutum,2,1,predation
+Synchaeta sp.,2,Selenastrum minutum,2,1,predation
+Tropocyclops prasinus,2,Conochiloides dossuarius,2,1,predation
+Tropocyclops prasinus,2,Cyclops varians rubellus,2,1,predation
+Tropocyclops prasinus,2,Orthocyclops modestus,2,1,predation
+Tropocyclops prasinus,2,Diaptomus oregonensis,2,1,predation
+Tropocyclops prasinus,2,Gastropus hyptopus,2,1,predation
+Tropocyclops prasinus,2,Kellicottia bostoniensis,2,1,predation
+Tropocyclops prasinus,2,Kellicottia longispina,2,1,predation
+Tropocyclops prasinus,2,Keratella testudo,2,1,predation
+Tropocyclops prasinus,2,Polyarthra vulgaris,2,1,predation
+Tropocyclops prasinus,2,Trichocerca cylindrica,2,1,predation
+Tropocyclops prasinus,2,Trichocerca multicrinis,2,1,predation
+Tropocyclops prasinus,2,Gastropus stylifer,2,1,predation
+Tropocyclops prasinus,2,Keratella cochlearis,2,1,predation
+Tropocyclops prasinus,2,Synchaeta sp.,2,1,predation
+Tropocyclops prasinus,2,Tropocyclops prasinus,2,1,predation
+Chaoborus punctipennis,2,Ascomorpha eucadis,2,1,predation
+Chaoborus punctipennis,2,Conochiloides dossuarius,2,1,predation
+Chaoborus punctipennis,2,Cyclops varians rubellus,2,1,predation
+Chaoborus punctipennis,2,Orthocyclops modestus,2,1,predation
+Chaoborus punctipennis,2,Diaptomus oregonensis,2,1,predation
+Chaoborus punctipennis,2,Daphnia pulex,2,1,predation
+Chaoborus punctipennis,2,Daphnia rosea,2,1,predation
+Chaoborus punctipennis,2,Gastropus hyptopus,2,1,predation
+Chaoborus punctipennis,2,Kellicottia bostoniensis,2,1,predation
+Chaoborus punctipennis,2,Kellicottia longispina,2,1,predation
+Chaoborus punctipennis,2,Keratella testudo,2,1,predation
+Chaoborus punctipennis,2,Polyarthra vulgaris,2,1,predation
+Chaoborus punctipennis,2,Trichocerca cylindrica,2,1,predation
+Chaoborus punctipennis,2,Trichocerca multicrinis,2,1,predation
+Chaoborus punctipennis,2,Gastropus stylifer,2,1,predation
+Chaoborus punctipennis,2,Keratella cochlearis,2,1,predation
+Chaoborus punctipennis,2,Synchaeta sp.,2,1,predation
+Chaoborus punctipennis,2,Tropocyclops prasinus,2,1,predation
+Chaoborus punctipennis,2,Chaoborus punctipennis,2,1,predation
+Micropterus salmoides,2,Daphnia pulex,2,1,predation
+Micropterus salmoides,2,Holopedium gibberum,2,1,predation
+Micropterus salmoides,2,Chaoborus punctipennis,2,1,predation
+Micropterus salmoides,2,Micropterus salmoides,2,1,predation

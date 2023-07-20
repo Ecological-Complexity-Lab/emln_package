@@ -1,0 +1,34 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Zooplankton,taxon,taxonomy_name,NA,taxonomy_rank,NA
+2,Benthos,taxon,taxonomy_name,Benthos,taxonomy_rank,NA
+3,Insects,taxon,taxonomy_name,Insecta,taxonomy_rank,class
+4,Astyanax altiparanae,taxon,taxonomy_name,Astyanax altiparanae,taxonomy_rank,species
+5,Leporinus obtusidens,taxon,taxonomy_name,Leporinus obtusidens,taxonomy_rank,species
+6,Megaloancistrus parananus,taxon,taxonomy_name,Megalancistrus parananus,taxonomy_rank,species
+7,Rhinelepis aspera,taxon,taxonomy_name,Rhinelepis aspera,taxonomy_rank,species
+8,Loricaria sp,taxon,taxonomy_name,Loricaria,taxonomy_rank,genus
+9,Schizodon borelii,taxon,taxonomy_name,Schizodon borellii,taxonomy_rank,species
+10,Iheringichthys labrosus,taxon,taxonomy_name,Iheringichthys labrosus,taxonomy_rank,species
+11,Hypostomus spp,taxon,taxonomy_name,Hypostomus,taxonomy_rank,genus
+12,Leporinus friderici,taxon,taxonomy_name,Leporinus friderici,taxonomy_rank,species
+13,Parauchenipterus galeatus,taxon,taxonomy_name,Trachelyopterus galeatus,taxonomy_rank,species
+14,Pterodoras granulosus,taxon,taxonomy_name,Pterodoras granulosus,taxonomy_rank,species
+15,Prochilodus lineatus,taxon,taxonomy_name,Prochilodus lineatus,taxonomy_rank,species
+16,Hypophthalmus edentatus,taxon,taxonomy_name,Hypophthalmus edentatus,taxonomy_rank,species
+17,Acestrorhyncus lacustris,taxon,taxonomy_name,Acestrorhynchus lacustris,taxonomy_rank,species
+18,Pinirampus pirinampu,taxon,taxonomy_name,Pinirampus pirinampu,taxonomy_rank,species
+19,Rhaphiodon vulpinis,taxon,taxonomy_name,Rhaphiodon vulpinus,taxonomy_rank,species
+20,Hoplias malabaricus,taxon,taxonomy_name,Hoplias malabaricus,taxonomy_rank,species
+21,Trachydoras paraguayensis,taxon,taxonomy_name,Trachydoras paraguayensis,taxonomy_rank,species
+22,Moenkhausia intermedia,taxon,taxonomy_name,Moenkhausia intermedia,taxonomy_rank,species
+23,Detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+24,Periphyton,taxon,taxonomy_name,NA,taxonomy_rank,NA
+25,Phytoplankton,taxon,taxonomy_name,NA,taxonomy_rank,NA
+26,Macrophytes,taxon,taxonomy_name,NA,taxonomy_rank,NA
+27,Other insectivores,taxon,taxonomy_name,NA,taxonomy_rank,NA
+28,Other omnivores,taxon,taxonomy_name,NA,taxonomy_rank,NA
+29,Other detritivores,taxon,taxonomy_name,NA,taxonomy_rank,NA
+30,Acestrorhybcus nuchalis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+31,Group 2,taxon,taxonomy_name,NA,taxonomy_rank,NA
+32,Group 1,taxon,taxonomy_name,NA,taxonomy_rank,NA
+33,Import,taxon,taxonomy_name,Import,taxonomy_rank,NA

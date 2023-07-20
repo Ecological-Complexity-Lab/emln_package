@@ -1,0 +1,183 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+Parasitus sp.,1,Sarcophaga sp.,1,1,predation,method,field observation/experiment
+Philonthus cruentatus,1,dung,1,1,detritivore,method,field observation/experiment
+Acarid sp.,1,dung,1,1,detritivore,method,field observation/experiment
+A. prodiomus,1,dung,1,1,detritivore,method,field observation/experiment
+Cercyon sp. F,1,dung,1,1,detritivore,method,field observation/experiment
+Sphaeridium bipostulatum,1,dung,1,1,detritivore,method,field observation/experiment
+Uropodid sp.,1,dung,1,1,detritivore,method,field observation/experiment
+Aphodius haemorrhoidalis,1,dung,1,1,detritivore,method,field observation/experiment
+A. fossor,1,dung,1,1,detritivore,method,field observation/experiment
+Sarcophaga sp.,1,dung,1,1,detritivore,method,field observation/experiment
+S. scarabaeoides,1,dung,1,1,detritivore,method,field observation/experiment
+Parasitus sp.,1,dung,1,1,detritivore,method,field observation/experiment
+A. erraticus,1,dung,1,1,detritivore,method,field observation/experiment
+Cercyon sp. A,1,dung,1,1,detritivore,method,field observation/experiment
+Ravinia l'herminieri,1,dung,1,1,detritivore,method,field observation/experiment
+S. lunatum,1,dung,1,1,detritivore,method,field observation/experiment
+Aleochara sp.,1,dung,1,1,detritivore,method,field observation/experiment
+Macrochelus sp.,1,dung,1,1,detritivore,method,field observation/experiment
+A. fimetarius,1,dung,1,1,detritivore,method,field observation/experiment
+Cercyon sp. B,1,dung,1,1,detritivore,method,field observation/experiment
+Musca autumnalis,1,dung,1,1,detritivore,method,field observation/experiment
+Aleochara bipustulata,1,dung,1,1,detritivore,method,field observation/experiment
+Oxytelus tetracarinatus,1,dung,1,1,detritivore,method,field observation/experiment
+A. stercorosus,1,dung,1,1,detritivore,method,field observation/experiment
+Cercyon sp. C,1,dung,1,1,detritivore,method,field observation/experiment
+Collembola (unspecified),1,dung,1,1,detritivore,method,field observation/experiment
+Philonthus cruentatus,1,Oxytelus tetracarinatus,1,1,predation,method,field observation/experiment
+Philonthus cruentatus,1,Cercyon sp. A,1,1,predation,method,field observation/experiment
+Philonthus cruentatus,1,Cercyon sp. B,1,1,predation,method,field observation/experiment
+Philonthus cruentatus,1,Cercyon sp. C,1,1,predation,method,field observation/experiment
+Philonthus cruentatus,1,Cercyon sp. F,1,1,predation,method,field observation/experiment
+Philonthus cruentatus,1,Sarcophaga sp.,1,1,predation,method,field observation/experiment
+Philonthus cruentatus,1,Ravinia l'herminieri,1,1,predation,method,field observation/experiment
+Philonthus cruentatus,1,Musca autumnalis,1,1,predation,method,field observation/experiment
+Aleochara bipustulata,1,Cercyon sp. F,1,1,predation,method,field observation/experiment
+Aleochara sp.,1,Oxytelus tetracarinatus,1,1,predation,method,field observation/experiment
+Aleochara sp.,1,Sarcophaga sp.,1,1,predation,method,field observation/experiment
+Macrochelus sp.,1,Sarcophaga sp.,1,1,predation,method,field observation/experiment
+Parasitus sp.,1,Ravinia l'herminieri,1,1,predation,method,field observation/experiment
+Uropodid sp.,1,Musca autumnalis,1,1,predation,method,field observation/experiment
+Aleochara bipustulata,1,Oxytelus tetracarinatus,1,1,predation,method,field observation/experiment
+Aleochara bipustulata,1,Sarcophaga sp.,1,1,predation,method,field observation/experiment
+Aleochara sp.,1,Cercyon sp. A,1,1,predation,method,field observation/experiment
+Aleochara sp.,1,Ravinia l'herminieri,1,1,predation,method,field observation/experiment
+Macrochelus sp.,1,Ravinia l'herminieri,1,1,predation,method,field observation/experiment
+Parasitus sp.,1,Musca autumnalis,1,1,predation,method,field observation/experiment
+Aleochara bipustulata,1,Cercyon sp. A,1,1,predation,method,field observation/experiment
+Aleochara bipustulata,1,Ravinia l'herminieri,1,1,predation,method,field observation/experiment
+Aleochara sp.,1,Cercyon sp. B,1,1,predation,method,field observation/experiment
+Aleochara sp.,1,Musca autumnalis,1,1,predation,method,field observation/experiment
+Macrochelus sp.,1,Musca autumnalis,1,1,predation,method,field observation/experiment
+Acarid sp.,1,Sarcophaga sp.,1,1,predation,method,field observation/experiment
+Aleochara bipustulata,1,Cercyon sp. B,1,1,predation,method,field observation/experiment
+Aleochara bipustulata,1,Musca autumnalis,1,1,predation,method,field observation/experiment
+Aleochara sp.,1,Cercyon sp. C,1,1,predation,method,field observation/experiment
+Uropodid sp.,1,Sarcophaga sp.,1,1,predation,method,field observation/experiment
+Acarid sp.,1,Ravinia l'herminieri,1,1,predation,method,field observation/experiment
+Aleochara bipustulata,1,Cercyon sp. C,1,1,predation,method,field observation/experiment
+Aleochara sp.,1,Cercyon sp. F,1,1,predation,method,field observation/experiment
+Uropodid sp.,1,Ravinia l'herminieri,1,1,predation,method,field observation/experiment
+Acarid sp.,1,Musca autumnalis,1,1,predation,method,field observation/experiment
+Philonthus cruentatus,2,Uropodid sp.,2,1,predation,method,field observation/experiment
+Philonthus cruentatus,2,Cercyon sp. F,2,1,predation,method,field observation/experiment
+Philonthus cruentatus,2,Sepsis neocynipsea larvae,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Macrochelus sp.,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Cercyon sp. B,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Musca autumnalis,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Acarid sp.,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Sarcophaga sp. A,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Sepsis sp. B,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Parasitus sp.,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Cercyon sp. C,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Leptocera adults,2,1,predation,method,field observation/experiment
+Macrochelus sp.,2,Sepsis sp. B,2,1,predation,method,field observation/experiment
+Parasitus sp.,2,Sepsis neocynipsea larvae,2,1,predation,method,field observation/experiment
+Uropodid sp.,2,Musca autumnalis,2,1,predation,method,field observation/experiment
+Acarid sp.,2,Ravinia l'herminieri,2,1,predation,method,field observation/experiment
+Cothonaspis sp. adults,2,Sepsis sp. B,2,1,parasitism,method,field observation/experiment
+Philonthus cruentatus,2,Macrochelus sp.,2,1,predation,method,field observation/experiment
+Philonthus cruentatus,2,Cercyon sp. B,2,1,predation,method,field observation/experiment
+Philonthus cruentatus,2,Musca autumnalis,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Acarid sp.,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Sarcophaga sp. A,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Sepsis sp. B,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Parasitus sp.,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Cercyon sp. C,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Leptocera adults,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Oxytelus tetracarinatus,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Cercyon sp. A,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Ravinia l'herminieri,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Saltella sphondylii larvae,2,1,predation,method,field observation/experiment
+Parasitus sp.,2,Ravinia l'herminieri,2,1,predation,method,field observation/experiment
+Uropodid sp.,2,Sarcophaga sp. A,2,1,predation,method,field observation/experiment
+Uropodid sp.,2,Saltella sphondylii larvae,2,1,predation,method,field observation/experiment
+Acarid sp.,2,Sepsis sp. B,2,1,predation,method,field observation/experiment
+Cothonaspis sp. adults,2,Musca autumnalis,2,1,parasitism,method,field observation/experiment
+Philonthus cruentatus,2,Oxytelus tetracarinatus,2,1,predation,method,field observation/experiment
+Philonthus cruentatus,2,Cercyon sp. A,2,1,predation,method,field observation/experiment
+Philonthus cruentatus,2,Ravinia l'herminieri,2,1,predation,method,field observation/experiment
+Philonthus cruentatus,2,Saltella sphondylii larvae,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Uropodid sp.,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Cercyon sp. F,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Sepsis neocynipsea larvae,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Macrochelus sp.,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Cercyon sp. B,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Musca autumnalis,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Acarid sp.,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Sarcophaga sp. A,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Sepsis sp. B,2,1,predation,method,field observation/experiment
+Macrochelus sp.,2,Ravinia l'herminieri,2,1,predation,method,field observation/experiment
+Parasitus sp.,2,Sarcophaga sp. A,2,1,predation,method,field observation/experiment
+Parasitus sp.,2,Saltella sphondylii larvae,2,1,predation,method,field observation/experiment
+Uropodid sp.,2,Sepsis sp. B,2,1,predation,method,field observation/experiment
+Acarid sp.,2,Sepsis neocynipsea larvae,2,1,predation,method,field observation/experiment
+Cothonaspis sp. adults,2,Ravinia l'herminieri,2,1,parasitism,method,field observation/experiment
+Philonthus cruentatus,2,Parasitus sp.,2,1,predation,method,field observation/experiment
+Philonthus cruentatus,2,Cercyon sp. C,2,1,predation,method,field observation/experiment
+Philonthus cruentatus,2,Leptocera adults,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Oxytelus tetracarinatus,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Cercyon sp. A,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Ravinia l'herminieri,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Saltella sphondylii larvae,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Uropodid sp.,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Cercyon sp. F,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Sepsis neocynipsea larvae,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Macrochelus sp.,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Cercyon sp. B,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Musca autumnalis,2,1,predation,method,field observation/experiment
+Macrochelus sp.,2,Sepsis neocynipsea larvae,2,1,predation,method,field observation/experiment
+Parasitus sp.,2,Musca autumnalis,2,1,predation,method,field observation/experiment
+Uropodid sp.,2,Ravinia l'herminieri,2,1,predation,method,field observation/experiment
+Acarid sp.,2,Sarcophaga sp. A,2,1,predation,method,field observation/experiment
+Acarid sp.,2,Saltella sphondylii larvae,2,1,predation,method,field observation/experiment
+Cothonaspis sp. adults,2,Sepsis neocynipsea larvae,2,1,parasitism,method,field observation/experiment
+Philonthus cruentatus,2,Acarid sp.,2,1,predation,method,field observation/experiment
+Philonthus cruentatus,2,Sarcophaga sp. A,2,1,predation,method,field observation/experiment
+Philonthus cruentatus,2,Sepsis sp. B,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Parasitus sp.,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Cercyon sp. C,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Leptocera adults,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Oxytelus tetracarinatus,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Cercyon sp. A,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Ravinia l'herminieri,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Saltella sphondylii larvae,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Uropodid sp.,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Cercyon sp. F,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Sepsis neocynipsea larvae,2,1,predation,method,field observation/experiment
+Macrochelus sp.,2,Sarcophaga sp. A,2,1,predation,method,field observation/experiment
+Macrochelus sp.,2,Saltella sphondylii larvae,2,1,predation,method,field observation/experiment
+Parasitus sp.,2,Sepsis sp. B,2,1,predation,method,field observation/experiment
+Uropodid sp.,2,Sepsis neocynipsea larvae,2,1,predation,method,field observation/experiment
+Acarid sp.,2,Musca autumnalis,2,1,predation,method,field observation/experiment
+Cothonaspis sp. adults,2,Sarcophaga sp. A,2,1,parasitism,method,field observation/experiment
+Cothonaspis sp. adults,2,Saltella sphondylii larvae,2,1,parasitism,method,field observation/experiment
+Macrochelus sp.,2,Musca autumnalis,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,dung,2,1,detritivore,method,field observation/experiment
+Oxytelus tetracarinatus,2,dung,2,1,detritivore,method,field observation/experiment
+Aphodius haemorrhoidalis,2,dung,2,1,detritivore,method,field observation/experiment
+A. fossor,2,dung,2,1,detritivore,method,field observation/experiment
+Cercyon sp. F,2,dung,2,1,detritivore,method,field observation/experiment
+Leptocera adults,2,dung,2,1,detritivore,method,field observation/experiment
+Philonthus cruentatus,2,Acarid sp.,2,1,predation,method,field observation/experiment
+Philonthus cruentatus,2,Sarcophaga sp. A,2,1,predation,method,field observation/experiment
+Philonthus cruentatus,2,Sepsis sp. B,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Parasitus sp.,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Cercyon sp. C,2,1,predation,method,field observation/experiment
+Aleochara bipustulata,2,Leptocera adults,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Oxytelus tetracarinatus,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Cercyon sp. A,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Ravinia l'herminieri,2,1,predation,method,field observation/experiment
+Aleochara sp.,2,Saltella sphondylii larvae,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Uropodid sp.,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Cercyon sp. F,2,1,predation,method,field observation/experiment
+Hyponigrus obsidianus,2,Sepsis neocynipsea larvae,2,1,predation,method,field observation/experiment
+Macrochelus sp.,2,Sarcophaga sp. A,2,1,predation,method,field observation/experiment
+Macrochelus sp.,2,Saltella sphondylii larvae,2,1,predation,method,field observation/experiment
+Parasitus sp.,2,Sepsis sp. B,2,1,predation,method,field observation/experiment
+Uropodid sp.,2,Sepsis neocynipsea larvae,2,1,predation,method,field observation/experiment
+Acarid sp.,2,Musca autumnalis,2,1,predation,method,field observation/experiment
+Cothonaspis sp. adults,2,Sarcophaga sp. A,2,1,parasitism,method,field observation/experiment
+Cothonaspis sp. adults,2,Saltella sphondylii larvae,2,1,parasitism,method,field observation/experiment
+Macrochelus sp.,2,Musca autumnalis,2,1,predation,method,field observation/experiment

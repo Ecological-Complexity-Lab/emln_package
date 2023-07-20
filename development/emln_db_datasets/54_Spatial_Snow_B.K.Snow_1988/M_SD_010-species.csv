@@ -1,0 +1,65 @@
+Specie,Kingdom,Role,Degree,Sum(connections strength),Networks presence
+"Chlorophanes spiza","Animals","Seed disperser",15,172.0000,1
+"Coereba flaveola ","Animals","Seed disperser",15,55.0000,11
+"Cyanerpes caeruleus","Animals","Seed disperser",10,77.0000,1
+"Cyanerpes cyaneus","Animals","Seed disperser",8,57.0000,1
+"Dacnis cayana","Animals","Seed disperser",20,133.0000,4
+"Euphonia violacea","Animals","Seed disperser",16,201.0000,2
+"Ramphocelus carbo","Animals","Seed disperser",27,283.0000,2
+"Tachyphonus luctuosus","Animals","Seed disperser",4,11.0000,2
+"Tachyphonus rufus","Animals","Seed disperser",25,141.0000,1
+"Tangara guttata","Animals","Seed disperser",10,75.0000,1
+"Tangara gyrola","Animals","Seed disperser",26,405.0000,1
+"Tangara mexicana","Animals","Seed disperser",22,237.0000,1
+"Thraupis episcopus","Animals","Seed disperser",18,133.0000,1
+"Thraupis palmarum","Animals","Seed disperser",18,164.0000,1
+"Aechmaea dichlamydea","Plants","Plant",2,3.0000,1
+"Aechmaea mertensii","Plants","Plant",2,4.0000,1
+"Aechmaea nudicaulis","Plants","Plant",2,45.0000,1
+"Aegiphilia integrifolia","Plants","Plant",2,3.0000,1
+"Alchornea glandulosa","Plants","Plant",7,77.0000,2
+"Anthurium gracile","Plants","Plant",3,9.0000,1
+"Anthurium scandens ","Plants","Plant",3,26.0000,5
+"Byrsonima spicata","Plants","Plant",2,11.0000,2
+"Calycolpus glaber","Plants","Plant",6,9.0000,1
+"Castilla elastica","Plants","Plant",2,6.0000,1
+"Cecropia peltata","Plants","Plant",10,197.0000,1
+"Chiococca alba","Plants","Plant",4,20.0000,1
+"Clidemia sp1 M_SD_010","Plants","Plant",4,41.0000,1
+"Clusia sp1 M_SD_010","Plants","Plant",4,20.0000,1
+"Cordia bicolor","Plants","Plant",6,27.0000,1
+"Cordia curassavica","Plants","Plant",5,29.0000,1
+"Coussarea paniculata","Plants","Plant",5,18.0000,1
+"Cupania sp1 M_SD_010","Plants","Plant",2,9.0000,1
+"Davilla aspera","Plants","Plant",3,7.0000,1
+"Didymopanax morototoni","Plants","Plant",8,108.0000,1
+"Doliocarpus dentatus","Plants","Plant",4,12.0000,1
+"Eugenia baileyi","Plants","Plant",3,7.0000,1
+"Ficus citrifolia","Plants","Plant",4,24.0000,1
+"Ficus clusiifolia","Plants","Plant",12,125.0000,1
+"Ficus tobagensis","Plants","Plant",5,13.0000,1
+"Gravisia aquilega","Plants","Plant",2,43.0000,1
+"Henriettea sp1 M_SD_010","Plants","Plant",3,5.0000,1
+"Hieronyma caribaea","Plants","Plant",8,33.0000,1
+"Ilex sp1 M_SD_010","Plants","Plant",3,24.0000,1
+"Isertia parviflora","Plants","Plant",2,5.0000,1
+"Lacistema aggregatum","Plants","Plant",7,15.0000,1
+"Laetia procera","Plants","Plant",6,25.0000,1
+"Miconia sp1 M_SD_010","Plants","Plant",14,666.0000,1
+"Myrcia leptoclada","Plants","Plant",2,12.0000,1
+"Myrcia sp1 M_SD_010","Plants","Plant",3,6.0000,1
+"Norantea guianensis","Plants","Plant",2,3.0000,1
+"Phytolacca rivinoides ","Plants","Plant",3,3.0000,3
+"Piper sp1 M_SD_010","Plants","Plant",2,19.0000,1
+"Protium heptaphyllum","Plants","Plant",10,65.0000,4
+"Psidium guajava","Plants","Plant",2,7.0000,3
+"Psychotria sp1 M_SD_010","Plants","Plant",2,3.0000,1
+"Rhipsalis sp1 M_SD_010","Plants","Plant",4,41.0000,1
+"Rourea surinamensis","Plants","Plant",3,4.0000,1
+"Sapium aucuparium","Plants","Plant",7,29.0000,1
+"Sloanea stipilata","Plants","Plant",10,25.0000,1
+"Solanum sp1 M_SD_010","Plants","Plant",2,5.0000,1
+"Trema micrantha","Plants","Plant",13,186.0000,5
+"Unidentified sp1 M_SD_010","Plants","Plant",2,5.0000,1
+"Unidentified sp2 M_SD_010","Plants","Plant",8,56.0000,1
+"Wulffia baccata","Plants","Plant",4,9.0000,1

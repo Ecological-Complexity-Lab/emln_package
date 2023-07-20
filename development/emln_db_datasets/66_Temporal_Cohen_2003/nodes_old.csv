@@ -1,0 +1,73 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Cryptomonas sp. 1,taxon,taxonomy_name,Cryptomonas,taxonomy_rank,genus
+2,Chroococcus dispersus,taxon,taxonomy_name,Chroococcus dispersus,taxonomy_rank,species
+3,Chromulina sp.,taxon,taxonomy_name,Chromulinales,taxonomy_rank,order
+4,Selanastrum minutum,taxon,taxonomy_name,Monoraphidium minutum,taxonomy_rank,NA
+5,Trachelomonas sp.,taxon,taxonomy_name,Trachelomonas,taxonomy_rank,genus
+6,Cryptomonas sp. 2,taxon,taxonomy_name,Cryptomonas,taxonomy_rank,genus
+7,Dictyosphaerium pulchellum,taxon,taxonomy_name,Mucidosphaerium pulchellum,taxonomy_rank,NA
+8,Dinobryon sociale,taxon,taxonomy_name,Dinobryon sociale,taxonomy_rank,NA
+9,Glenodinium quadridens,taxon,taxonomy_name,Glenodinium quadridens,taxonomy_rank,NA
+10,Closteriopsis longissimus,taxon,taxonomy_name,Closteriopsis longissima,taxonomy_rank,NA
+11,Synchaeta sp.,taxon,taxonomy_name,Synchaeta,taxonomy_rank,genus
+12,Keratella cochlearis,taxon,taxonomy_name,Keratella cochlearis,taxonomy_rank,species
+13,Conochilus (solitary),taxon,taxonomy_name,Conochilus,taxonomy_rank,genus
+14,Conochiloides dossuarius,taxon,taxonomy_name,Conochilus dossuarius,taxonomy_rank,species
+15,Cyclops varians rubellus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+16,Tropocyclops prasinus,taxon,taxonomy_name,Tropocyclops prasinus,taxonomy_rank,species
+17,Gastropus stylifer,taxon,taxonomy_name,Gastropus stylifer,taxonomy_rank,species
+18,Kellicottia sp.,taxon,taxonomy_name,Kellicottia,taxonomy_rank,genus
+19,Keratella testudo,taxon,taxonomy_name,Brachionus angularis,taxonomy_rank,species
+20,Ploesoma sp.,taxon,taxonomy_name,Ploesoma,taxonomy_rank,genus
+21,Polyarthra vulgaris,taxon,taxonomy_name,Polyarthra vulgaris,taxonomy_rank,species
+22,Trichocerca multicrinis,taxon,taxonomy_name,Trichocerca multicrinis,taxonomy_rank,species
+23,Trichocerca cylindrica,taxon,taxonomy_name,Trichocerca cylindrica,taxonomy_rank,species
+24,Leptodiaptomus siciloides,taxon,taxonomy_name,Leptodiaptomus siciloides,taxonomy_rank,species
+25,Nostoc sp.,taxon,taxonomy_name,Nostoc,taxonomy_rank,genus
+26,Dinobryon cylindricum,taxon,taxonomy_name,Dinobryon cylindricum,taxonomy_rank,NA
+27,Arthrodesmus sp.,taxon,taxonomy_name,Arthrodesmus,taxonomy_rank,NA
+28,Mallomonas sp. 2,taxon,taxonomy_name,Mallomonas,taxonomy_rank,genus
+29,Dinobryon bavaricum,taxon,taxonomy_name,Dinobryon bavaricum,taxonomy_rank,NA
+30,Microcystis aeruginosa,taxon,taxonomy_name,Microcystis aeruginosa,taxonomy_rank,species
+31,Peridinium limbatum,taxon,taxonomy_name,Peridinium limbatum,taxonomy_rank,NA
+32,Peridinium wisconsinense,taxon,taxonomy_name,Peridinium wisconsinense,taxonomy_rank,NA
+33,Synedra sp.,taxon,taxonomy_name,Synedra,taxonomy_rank,genus
+34,Dinobryon sertularia,taxon,taxonomy_name,Dinobryon sertularia,taxonomy_rank,NA
+35,Mallomonas sp. 1,taxon,taxonomy_name,Mallomonas,taxonomy_rank,genus
+36,Peridinium cinctum,taxon,taxonomy_name,Peridinium cinctum,taxonomy_rank,NA
+37,Orthocyclops modestus,taxon,taxonomy_name,Orthocyclops modestus,taxonomy_rank,species
+38,Bosmina longirostris,taxon,taxonomy_name,Bosmina longirostris,taxonomy_rank,species
+39,Diaphanosoma leuchtenbergianum,taxon,taxonomy_name,Diaphanosoma brachyurum,taxonomy_rank,species
+40,Daphnia pulex,taxon,taxonomy_name,Daphnia pulex,taxonomy_rank,species
+41,Chaoborus punctipennis,taxon,taxonomy_name,Chaoborus punctipennis,taxonomy_rank,species
+42,Holopedium gibberum,taxon,taxonomy_name,Holopedium gibberum,taxonomy_rank,species
+43,Phoxinus eos,taxon,taxonomy_name,Chrosomus eos,taxonomy_rank,species
+44,Phoxinus neogaeus,taxon,taxonomy_name,Chrosomus neogaeus,taxonomy_rank,species
+45,Umbra limi,taxon,taxonomy_name,Umbra limi,taxonomy_rank,species
+46,Peridinium pulsillum,taxon,taxonomy_name,NA,taxonomy_rank,NA
+47,Ascomorpha eucadis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+48,Filinia longispina,taxon,taxonomy_name,NA,taxonomy_rank,NA
+49,Unclassified flagellates,taxon,taxonomy_name,NA,taxonomy_rank,NA
+50,Dactylococcopsis fascicularis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+51,Chroococcus limneticus,taxon,taxonomy_name,Chroococcus limneticus,taxonomy_rank,species
+52,Selenastrum minutum,taxon,taxonomy_name,Monoraphidium minutum,taxonomy_rank,NA
+53,Diaptomus oregonensis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+54,Gastropus hyptopus,taxon,taxonomy_name,Gastropus hyptopus,taxonomy_rank,species
+55,Kellicottia bostoniensis,taxon,taxonomy_name,Kellicottia bostoniensis,taxonomy_rank,species
+56,Kellicottia longispina,taxon,taxonomy_name,Kellicottia longispina,taxonomy_rank,species
+57,Cryptomonas sp. 3,taxon,taxonomy_name,Cryptomonas,taxonomy_rank,genus
+58,Cryptomonas sp. 4,taxon,taxonomy_name,Cryptomonas,taxonomy_rank,genus
+59,Cosmarium sp.,taxon,taxonomy_name,Cosmarium,taxonomy_rank,genus
+60,Sphaerocystis schroeteri,taxon,taxonomy_name,Sphaerocystis schroeteri,taxonomy_rank,NA
+61,Glenodinium pulvisculus,taxon,taxonomy_name,Glenodinium pulvisculus,taxonomy_rank,NA
+62,Oocystis sp. 1,taxon,taxonomy_name,Oocystis,taxonomy_rank,genus
+63,Oocystis sp. 2,taxon,taxonomy_name,Oocystis,taxonomy_rank,genus
+64,Schroederia setigera,taxon,taxonomy_name,Scirtidae,taxonomy_rank,family
+65,Quadrigula lacustris,taxon,taxonomy_name,Quadrigula lacustris,taxonomy_rank,NA
+66,Quadrigula sp. 2,taxon,taxonomy_name,Quadrigula,taxonomy_rank,genus
+67,Oscillatoria sp.,taxon,taxonomy_name,Oscillatoria,taxonomy_rank,genus
+68,Ankyra judayi,taxon,taxonomy_name,Ankyra judayi,taxonomy_rank,NA
+69,Daphnia rosea,taxon,taxonomy_name,Daphnia rosea,taxonomy_rank,species
+70,Micropterus salmoides,taxon,taxonomy_name,Micropterus salmoides,taxonomy_rank,species
+71,Conochilus (colonial),taxon,taxonomy_name,Conochilus,taxonomy_rank,genus
+72,Unclassified microflagellates,taxon,taxonomy_name,NA,taxonomy_rank,NA

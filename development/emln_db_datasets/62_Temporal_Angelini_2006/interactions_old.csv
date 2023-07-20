@@ -1,0 +1,281 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1,attribute2,value2
+Leporinus obtusidens,1,Other omnivores,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Astyanax altiparanae,1,Macrophytes,1,0.2,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhybcus nuchalis,1,Other detritivores,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhyncus lacustris,1,Acestrorhybcus nuchalis,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,1,Insects,1,0.02,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,1,Parauchenipterus galeatus,1,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,1,Other omnivores,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,1,Prochilodus lineatus,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,1,Group 2,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,1,Other omnivores,1,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hoplias malabaricus,1,Acestrorhyncus lacustris,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,1,Hypostomus spp,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,1,Astyanax altiparanae,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,1,Rhaphiodon vulpinis,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pterodoras granulosus,1,Benthos,1,0.1,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,1,Parauchenipterus galeatus,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,1,Other insectivores,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Megaloancistrus parananus,1,Macrophytes,1,0.2,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Megaloancistrus parananus,1,Zooplankton,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,1,Macrophytes,1,0.2,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Schizodon borelii,1,Phytoplankton,1,0.3,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Moenkhausia intermedia,1,Benthos,1,0.1,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Iheringichthys labrosus,1,Zooplankton,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Trachydoras paraguayensis,1,Zooplankton,1,0.3,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus friderici,1,Insects,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Loricaria sp,1,Phytoplankton,1,0.1,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Schizodon borelii,1,Macrophytes,1,0.7,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus friderici,1,Astyanax altiparanae,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Prochilodus lineatus,1,Benthos,1,0.15,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Insects,1,Macrophytes,1,0.2,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hypostomus spp,1,Phytoplankton,1,0.2,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hypophthalmus edentatus,1,Phytoplankton,1,0.3,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus friderici,1,Phytoplankton,1,0.05,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus friderici,1,Other omnivores,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Loricaria sp,1,Insects,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hypophthalmus edentatus,1,Zooplankton,1,0.7,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus friderici,1,Macrophytes,1,0.3,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus obtusidens,1,Phytoplankton,1,0.05,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Zooplankton,1,Phytoplankton,1,0.5,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Prochilodus lineatus,1,Phytoplankton,1,0.15,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Iheringichthys labrosus,1,Insects,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Trachydoras paraguayensis,1,Insects,1,0.15,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus obtusidens,1,Macrophytes,1,0.3,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Parauchenipterus galeatus,1,Macrophytes,1,0.4,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pterodoras granulosus,1,Insects,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Astyanax altiparanae,1,Insects,1,0.3,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhybcus nuchalis,1,Insects,1,0.7,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhyncus lacustris,1,Loricaria sp,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhyncus lacustris,1,Other detritivores,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,1,Zooplankton,1,0.03,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,1,Pterodoras granulosus,1,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,1,Other insectivores,1,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,1,Hypophthalmus edentatus,1,0.15,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,1,Group 1,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,1,Other insectivores,1,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hoplias malabaricus,1,Hoplias malabaricus,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,1,Trachydoras paraguayensis,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,1,Prochilodus lineatus,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,1,Astyanax altiparanae,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,1,Other detritivores,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Moenkhausia intermedia,1,Phytoplankton,1,0.1,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Moenkhausia intermedia,1,Insects,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Megaloancistrus parananus,1,Insects,1,0.6,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,1,Phytoplankton,1,0.1,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,1,Insects,1,0.3,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,1,Zooplankton,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Iheringichthys labrosus,1,Benthos,1,0.35,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus friderici,1,Benthos,1,0.05,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,1,Periphyton,1,0.05,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,1,Benthos,1,0.15,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other detritivores,1,Benthos,1,0.1,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other detritivores,1,Insects,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other detritivores,1,Zooplankton,1,0.7,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Parauchenipterus galeatus,1,Insects,1,0.6,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pterodoras granulosus,1,Zooplankton,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Astyanax altiparanae,1,Zooplankton,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhybcus nuchalis,1,Zooplankton,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhyncus lacustris,1,Schizodon borelii,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhyncus lacustris,1,Other omnivores,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,1,Hypostomus spp,1,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,1,Astyanax altiparanae,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,1,Astyanax altiparanae,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,1,Pinirampus pirinampu,1,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hoplias malabaricus,1,Prochilodus lineatus,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hoplias malabaricus,1,Other insectivores,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,1,Leporinus friderici,1,0.15,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other omnivores,1,Periphyton,1,0.1,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other insectivores,1,Periphyton,1,0.1,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other insectivores,1,Benthos,1,0.1,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus obtusidens,1,Benthos,1,0.05,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pterodoras granulosus,1,Detritus,1,0.1,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Astyanax altiparanae,1,Detritus,1,0.1,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Zooplankton,1,Detritus,1,0.5,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Benthos,1,Detritus,1,0.5,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Prochilodus lineatus,1,Detritus,1,0.7,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Iheringichthys labrosus,1,Detritus,1,0.25,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Trachydoras paraguayensis,1,Detritus,1,0.55,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Insects,1,Detritus,1,0.8,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hypostomus spp,1,Detritus,1,0.8,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Loricaria sp,1,Detritus,1,0.6,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,1,Other insectivores,1,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,1,Hypophthalmus edentatus,1,0.15,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,1,Group 1,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,1,Other insectivores,1,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hoplias malabaricus,1,Hoplias malabaricus,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,1,Trachydoras paraguayensis,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,1,Prochilodus lineatus,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,1,Astyanax altiparanae,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,1,Other detritivores,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Moenkhausia intermedia,1,Phytoplankton,1,0.1,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Moenkhausia intermedia,1,Insects,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Megaloancistrus parananus,1,Insects,1,0.6,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,1,Phytoplankton,1,0.1,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,1,Insects,1,0.3,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,1,Zooplankton,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Iheringichthys labrosus,1,Benthos,1,0.35,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus friderici,1,Benthos,1,0.05,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,1,Periphyton,1,0.05,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,1,Benthos,1,0.15,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other detritivores,1,Benthos,1,0.1,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other detritivores,1,Insects,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other detritivores,1,Zooplankton,1,0.7,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Parauchenipterus galeatus,1,Insects,1,0.6,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pterodoras granulosus,1,Zooplankton,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Astyanax altiparanae,1,Zooplankton,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhybcus nuchalis,1,Zooplankton,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhyncus lacustris,1,Schizodon borelii,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhyncus lacustris,1,Other omnivores,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,1,Hypostomus spp,1,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,1,Astyanax altiparanae,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,1,Astyanax altiparanae,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,1,Pinirampus pirinampu,1,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hoplias malabaricus,1,Prochilodus lineatus,1,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hoplias malabaricus,1,Other insectivores,1,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,1,Leporinus friderici,1,0.15,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other omnivores,1,Periphyton,1,0.1,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other insectivores,1,Periphyton,1,0.1,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other insectivores,1,Benthos,1,0.1,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus obtusidens,1,Benthos,1,0.05,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus friderici,2,Macrophytes,2,0.3,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus friderici,2,Import,2,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus obtusidens,2,Astyanax altiparanae,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pterodoras granulosus,2,Phytoplankton,2,0.1,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Astyanax altiparanae,2,Leporinus obtusidens,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhybcus nuchalis,2,Megaloancistrus parananus,2,0.045,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhyncus lacustris,2,Iheringichthys labrosus,2,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhyncus lacustris,2,Other insectivores,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,2,Iheringichthys labrosus,2,0.15,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,2,Group 2,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,2,Loricaria sp,2,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,2,Acestrorhybcus nuchalis,2,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,2,Rhaphiodon vulpinis,2,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hoplias malabaricus,2,Leporinus obtusidens,2,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,2,Loricaria sp,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,2,Astyanax altiparanae,2,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Moenkhausia intermedia,2,Phytoplankton,2,0.1,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Megaloancistrus parananus,2,Insects,2,0.6,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Iheringichthys labrosus,2,Benthos,2,0.35,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,2,Periphyton,2,0.05,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other detritivores,2,Benthos,2,0.1,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hoplias malabaricus,2,Other insectivores,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,2,Leporinus friderici,2,0.15,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,2,Parauchenipterus galeatus,2,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,2,Other insectivores,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Megaloancistrus parananus,2,Macrophytes,2,0.2,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,2,Macrophytes,2,0.2,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other insectivores,2,Periphyton,2,0.1,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Schizodon borelii,2,Phytoplankton,2,0.3,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Iheringichthys labrosus,2,Zooplankton,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Trachydoras paraguayensis,2,Zooplankton,2,0.3,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus friderici,2,Insects,2,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus obtusidens,2,Macrophytes,2,0.3,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus obtusidens,2,Import,2,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Astyanax altiparanae,2,Macrophytes,2,0.2,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhybcus nuchalis,2,Other detritivores,2,0.091,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhyncus lacustris,2,Acestrorhybcus nuchalis,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,2,Insects,2,0.02,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,2,Parauchenipterus galeatus,2,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,2,Other omnivores,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,2,Prochilodus lineatus,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,2,Group 2,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,2,Other omnivores,2,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hoplias malabaricus,2,Acestrorhyncus lacustris,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,2,Hypostomus spp,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,2,Astyanax altiparanae,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Moenkhausia intermedia,2,Insects,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,2,Insects,2,0.3,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other detritivores,2,Zooplankton,2,0.7,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Benthos,2,Periphyton,2,0.5,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Prochilodus lineatus,2,Benthos,2,0.15,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pterodoras granulosus,2,Benthos,2,0.1,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Insects,2,Macrophytes,2,0.2,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Insects,2,Detritus,2,0.8,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Loricaria sp,2,Detritus,2,0.6,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Prochilodus lineatus,2,Detritus,2,0.7,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Iheringichthys labrosus,2,Detritus,2,0.25,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Trachydoras paraguayensis,2,Detritus,2,0.55,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Moenkhausia intermedia,2,Detritus,2,0.7,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,2,Detritus,2,0.15,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hypostomus spp,2,Detritus,2,0.8,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pterodoras granulosus,2,Detritus,2,0.1,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,2,Detritus,2,0.1,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other omnivores,2,Detritus,2,0.9,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Zooplankton,2,Detritus,2,0.5,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Astyanax altiparanae,2,Detritus,2,0.1,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Megaloancistrus parananus,2,Detritus,2,0.1,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other insectivores,2,Detritus,2,0.8,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Benthos,2,Detritus,2,0.5,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus obtusidens,2,Benthos,2,0.05,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Astyanax altiparanae,2,Phytoplankton,2,0.1,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,2,Parauchenipterus galeatus,2,0.15,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,2,Rhaphiodon vulpinis,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Zooplankton,2,Phytoplankton,2,0.5,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Prochilodus lineatus,2,Phytoplankton,2,0.15,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Iheringichthys labrosus,2,Insects,2,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Trachydoras paraguayensis,2,Insects,2,0.15,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus obtusidens,2,Phytoplankton,2,0.05,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus obtusidens,2,Other omnivores,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pterodoras granulosus,2,Macrophytes,2,0.5,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Astyanax altiparanae,2,Other omnivores,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhybcus nuchalis,2,Rhinelepis aspera,2,0.045,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhyncus lacustris,2,Astyanax altiparanae,2,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,2,Leporinus friderici,2,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,2,Group 1,2,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,2,Schizodon borelii,2,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,2,Acestrorhyncus lacustris,2,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,2,Megaloancistrus parananus,2,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hoplias malabaricus,2,Pterodoras granulosus,2,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,2,Schizodon borelii,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,2,Pterodoras granulosus,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,2,Acestrorhyncus lacustris,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Megaloancistrus parananus,2,Zooplankton,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other detritivores,2,Insects,2,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Loricaria sp,2,Phytoplankton,2,0.1,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Schizodon borelii,2,Macrophytes,2,0.7,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus friderici,2,Astyanax altiparanae,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Parauchenipterus galeatus,2,Macrophytes,2,0.4,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pterodoras granulosus,2,Insects,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Astyanax altiparanae,2,Insects,2,0.3,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus obtusidens,2,Macrophytes,2,0.3,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus obtusidens,2,Import,2,0.2,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Astyanax altiparanae,2,Macrophytes,2,0.2,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhybcus nuchalis,2,Other detritivores,2,0.091,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Acestrorhyncus lacustris,2,Acestrorhybcus nuchalis,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,2,Insects,2,0.02,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,2,Parauchenipterus galeatus,2,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,2,Other omnivores,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,2,Prochilodus lineatus,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,2,Group 2,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 1,2,Other omnivores,2,0.05,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hoplias malabaricus,2,Acestrorhyncus lacustris,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,2,Hypostomus spp,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,2,Astyanax altiparanae,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Moenkhausia intermedia,2,Insects,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,2,Insects,2,0.3,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other detritivores,2,Zooplankton,2,0.7,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Benthos,2,Periphyton,2,0.5,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Prochilodus lineatus,2,Benthos,2,0.15,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pterodoras granulosus,2,Benthos,2,0.1,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Insects,2,Macrophytes,2,0.2,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Insects,2,Detritus,2,0.8,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Loricaria sp,2,Detritus,2,0.6,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Prochilodus lineatus,2,Detritus,2,0.7,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Iheringichthys labrosus,2,Detritus,2,0.25,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Trachydoras paraguayensis,2,Detritus,2,0.55,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Moenkhausia intermedia,2,Detritus,2,0.7,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Group 2,2,Detritus,2,0.15,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Hypostomus spp,2,Detritus,2,0.8,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pterodoras granulosus,2,Detritus,2,0.1,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhinelepis aspera,2,Detritus,2,0.1,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other omnivores,2,Detritus,2,0.9,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Zooplankton,2,Detritus,2,0.5,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Astyanax altiparanae,2,Detritus,2,0.1,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Megaloancistrus parananus,2,Detritus,2,0.1,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Other insectivores,2,Detritus,2,0.8,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Benthos,2,Detritus,2,0.5,detritivore,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Leporinus obtusidens,2,Benthos,2,0.05,trophic,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Astyanax altiparanae,2,Phytoplankton,2,0.1,herbivory,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Pinirampus pirinampu,2,Parauchenipterus galeatus,2,0.15,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet
+Rhaphiodon vulpinis,2,Rhaphiodon vulpinis,2,0.1,predation,method,"field observation, literature and model",weight calculation,Proportions of the consumer diet

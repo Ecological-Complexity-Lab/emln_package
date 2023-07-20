@@ -1,0 +1,143 @@
+node_id,node_name,type
+1,Dendropanax arboreus,plant
+2,Dendropanax sp1 M_PL_040,plant
+3,Unidentified sp21 M_PL_040,plant
+4,Unidentified sp14 M_PL_040,plant
+5,Portlandia grandiflora,plant
+6,Unidentified sp23 M_PL_040,plant
+7,Miconia sp1 M_PL_040,plant
+8,Spermacoce assurgens,plant
+9,Unidentified sp13 M_PL_040,plant
+10,Unidentified sp15 M_PL_040,plant
+11,Aechmea paniculigera,plant
+12,Impatiens walleriana,plant
+13,Petiveria sp1 M_PL_040,plant
+14,Blakea trinervia,plant
+15,Unidentified sp19 M_PL_040,plant
+16,Byrsonima sp1 M_PL_040,plant
+17,Pilea sp1 M_PL_040,plant
+18,Unidentified sp16 M_PL_040,plant
+19,Unidentified sp18 M_PL_040,plant
+20,Unidentified sp20 M_PL_040,plant
+21,Wallenia laurifolia,plant
+22,Passiflora sp1 M_PL_040,plant
+23,Unidentified sp17 M_PL_040,plant
+24,Guarea swartzii,plant
+25,Psidium montanum,plant
+26,Unidentified sp22 M_PL_040,plant
+27,Nectandra coriacea,plant
+28,Pilea sp2 M_PL_040,plant
+29,Tradescantia zebrina,plant
+30,Cordia martinicensis,plant
+31,Cordia sp1 M_PL_041,plant
+32,Cornutia pyramidata,plant
+33,Unidentified sp21 M_PL_041,plant
+34,Croton flavens,plant
+35,Vernonia sp1 M_PL_041,plant
+36,Chamaecrista glandulosa,plant
+37,Wedelia calycina,plant
+38,Mimosa casta,plant
+39,Lantana camara,plant
+40,Gonzalagunia hirsuta,plant
+41,Guettarda scabra,plant
+42,Ipomoea tiliacea,plant
+43,Calliandra tergemina,plant
+44,Daphnopsis americana,plant
+45,Lantana involucrata,plant
+46,Tetrazygia angustifolia,plant
+47,Wedelia trilobata,plant
+48,Sida rhombifolia,plant
+49,Byrsonima spicata,plant
+50,Miconia striata,plant
+51,Ludwigia octovalvis,plant
+52,Odontonema nitidum,plant
+53,Palicourea crocea,plant
+54,Centrosema virginianum,plant
+55,Coccoloba sp1 M_PL_041,plant
+56,Desmodium adscendens,plant
+57,Oxalis barrelieri,plant
+58,Oxalis frutescens,plant
+59,Stigmaphyllon diversifolium,plant
+60,Apis.mellifera,pollinator
+61,Unidentified.sp4.M_PL_040,pollinator
+62,Sphex.jamaicensis,pollinator
+63,Dryas.iulia.delila,pollinator
+64,Heliconius.charitonius.simulator,pollinator
+65,Unidentified.sp3.M_PL_040,pollinator
+66,Trochilus.polytmus.polytmus,pollinator
+67,Mellisuga.minima,pollinator
+68,Aguna.asander.jasper,pollinator
+69,Papilio.thersites,pollinator
+70,Unidentified.sp7.M_PL_040,pollinator
+71,Eurytides.marcellinus,pollinator
+72,Marpesia.chiron,pollinator
+73,Coereba.flaveola.,pollinator
+74,Adelpha.abyla,pollinator
+75,Atlantea.pantoni,pollinator
+76,Dione.vanillae.insularis,pollinator
+77,Unidentified.sp6.M_PL_040,pollinator
+78,Centris.sp1.M_PL_040,pollinator
+79,Anolis.grahami,pollinator
+80,Paraphrissopoda.chrysostoma,pollinator
+81,Unidentified.sp5.M_PL_040,pollinator
+82,Paragymnetis.lanius,pollinator
+83,Wasmannia.auropunctata,pollinator
+84,Crematogaster.steinheili,pollinator
+85,Camponotus.hannani,pollinator
+86,Unidentified.sp1.M_PL_040,pollinator
+87,Unidentified.sp11.M_PL_040,pollinator
+88,Unidentified.sp12.M_PL_040,pollinator
+89,Diptera.sp1.M_PL_040,pollinator
+90,Conotelus.obscurus,pollinator
+91,Agapostemon.sp1.M_PL_040,pollinator
+92,Euglossa.jamaicensis,pollinator
+93,Xylocopa.sp1.M_PL_040,pollinator
+94,Centris.sp2.M_PL_040,pollinator
+95,Polistes.sp1.M_PL_040,pollinator
+96,Unidentified.sp9.M_PL_040,pollinator
+97,Unidentified.sp2.M_PL_040,pollinator
+98,Nesopsar.nigerrimus,pollinator
+99,Euneornis.campestris,pollinator
+100,Camponotus.subdepilis,pollinator
+101,Unidentified.sp8.M_PL_040,pollinator
+102,Anolis.sagrei,pollinator
+103,Orthorhyncus.cristatus,pollinator
+104,Unidentified.sp1.M_PL_041,pollinator
+105,Unidentified.sp2.M_PL_041,pollinator
+106,Xylocopa.sp1.M_PL_041,pollinator
+107,Unidentified.sp4.M_PL_041,pollinator
+108,Appias.drusilla,pollinator
+109,Ascia.monuste,pollinator
+110,Unidentified.sp7.M_PL_041,pollinator
+111,Unidentified.sp5.M_PL_041,pollinator
+112,Electrostrymon.angerona,pollinator
+113,Polygonus.sp1.M_PL_041,pollinator
+114,Janonia.evarete,pollinator
+115,Dryas.iulia,pollinator
+116,Agraulis.vanillae,pollinator
+117,Allosmaitia.piplea,pollinator
+118,Urbanus.sp1.M_PL_041,pollinator
+119,Phoebis.sp1.M_PL_041,pollinator
+120,Unidentified.sp10.M_PL_041,pollinator
+121,Marpesia.petreus,pollinator
+122,Unidentified.sp20.M_PL_041,pollinator
+123,Unidentified.sp9.M_PL_041,pollinator
+124,Eulampis.holosericeus,pollinator
+125,Unidentified.sp18.M_PL_041,pollinator
+126,Loxigilla.noctis,pollinator
+127,Unidentified.sp3.M_PL_041,pollinator
+128,Unidentified.sp16.M_PL_041,pollinator
+129,Unidentified.sp17.M_PL_041,pollinator
+130,Unidentified.sp8.M_PL_041,pollinator
+131,Unidentified.sp6.M_PL_041,pollinator
+132,Unidentified.sp19.M_PL_041,pollinator
+133,Unidentified.sp11.M_PL_041,pollinator
+134,Cyanophaia.bicolor,pollinator
+135,Eulampis.jugularis,pollinator
+136,Hemiargus.hanno,pollinator
+137,Unidentified.sp15.M_PL_041,pollinator
+138,Anartia.jatrophae,pollinator
+139,Unidentified.sp13.M_PL_041,pollinator
+140,Anolis.oculatus,pollinator
+141,Unidentified.sp12.M_PL_041,pollinator
+142,Pyrgus.oileus,pollinator

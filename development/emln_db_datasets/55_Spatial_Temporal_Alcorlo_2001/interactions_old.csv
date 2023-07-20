@@ -1,0 +1,91 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+Fabrea,1,algae,1,1,herbivory,method,laboratory observation and literature
+Turbellaria,1,microbial mat,1,1,predation,method,laboratory observation and literature
+nematods,1,microbial mat,1,1,predation,method,laboratory observation and literature
+Diptera,1,microbial mat,1,1,predation,method,laboratory observation and literature
+Hexarthra,1,algae,1,1,herbivory,method,laboratory observation and literature
+Hexarthra,1,clay and bacteria,1,1,predation,method,laboratory observation and literature
+Hexarthra,1,Fabrea,1,1,predation,method,laboratory observation and literature
+Hexarthra,1,Hexarthra,1,1,predation,method,laboratory observation and literature
+Moina,1,algae,1,1,herbivory,method,laboratory observation and literature
+Moina,1,clay and bacteria,1,1,predation,method,laboratory observation and literature
+Cletocamptus,1,algae,1,1,herbivory,method,laboratory observation and literature
+Cletocamptus,1,clay and bacteria,1,1,predation,method,laboratory observation and literature
+Arctodisptomus,1,algae,1,1,herbivory,method,laboratory observation and literature
+Arctodisptomus,1,clay and bacteria,1,1,predation,method,laboratory observation and literature
+Candela,1,algae,1,1,herbivory,method,gut content
+Candela,1,microbial mat,1,1,predation,method,gut content
+Candela,1,clay and bacteria,1,1,predation,method,gut content
+Branchinectella,1,algae,1,1,herbivory,method,gut content
+Branchinectella,1,clay and bacteria,1,1,predation,method,gut content
+Branchinectella,1,Fabrea,1,1,predation,method,gut content
+Branchinectella,1,Hexarthra,1,1,predation,method,gut content
+Agabus,1,Turbellaria,1,1,predation,method,laboratory observation and literature
+Agabus,1,nematods,1,1,predation,method,laboratory observation and literature
+Agabus,1,Diptera,1,1,predation,method,laboratory observation and literature
+Agabus,1,Hexarthra,1,1,predation,method,laboratory observation and literature
+Agabus,1,Moina,1,1,predation,method,laboratory observation and literature
+Agabus,1,Cletocamptus,1,1,predation,method,laboratory observation and literature
+Agabus,1,Arctodisptomus,1,1,predation,method,laboratory observation and literature
+Agabus,1,Branchinectella,1,1,predation,method,laboratory observation and literature
+Turbellaria,1,detritus,1,1,detritivore,method,laboratory observation and literature
+nematods,1,detritus,1,1,detritivore,method,laboratory observation and literature
+Diptera,1,detritus,1,1,detritivore,method,laboratory observation and literature
+Hexarthra,1,detritus,1,1,detritivore,method,laboratory observation and literature
+Moina,1,detritus,1,1,detritivore,method,laboratory observation and literature
+Cletocamptus,1,detritus,1,1,detritivore,method,laboratory observation and literature
+Arctodisptomus,1,detritus,1,1,detritivore,method,laboratory observation and literature
+Candela,1,detritus,1,1,detritivore,method,gut content
+Branchinectella,1,detritus,1,1,detritivore,method,gut content
+nematods,2,microbial mat,2,1,predation,method,laboratory observation and literature
+Hexarthra,2,algae,2,1,herbivory,method,laboratory observation and literature
+Hexarthra,2,microbial mat,2,1,predation,method,laboratory observation and literature
+Hexarthra,2,nematods,2,1,predation,method,laboratory observation and literature
+Candela,2,algae,2,1,herbivory,method,gut content
+Candela,2,microbial mat,2,1,predation,method,gut content
+Branchinectella,2,algae,2,1,herbivory,method,gut content
+Branchinectella,2,microbial mat,2,1,predation,method,gut content
+Branchinectella,2,nematods,2,1,predation,method,gut content
+Hexarthra,2,detritus,2,1,detritivore,method,laboratory observation and literature
+Candela,2,detritus,2,1,detritivore,method,gut content
+Branchinectella,2,detritus,2,1,detritivore,method,gut content
+Fabrea,3,algae,3,1,herbivory,method,laboratory observation and literature
+Hexarthra,3,algae,3,1,herbivory,method,laboratory observation and literature
+Hexarthra,3,clay and bacteria,3,1,predation,method,laboratory observation and literature
+Hexarthra,3,Fabrea,3,1,predation,method,laboratory observation and literature
+Hexarthra,3,Hexarthra,3,1,predation,method,laboratory observation and literature
+Moina,3,algae,3,1,herbivory,method,laboratory observation and literature
+Moina,3,clay and bacteria,3,1,predation,method,laboratory observation and literature
+Cletocamptus,3,algae,3,1,herbivory,method,laboratory observation and literature
+Cletocamptus,3,clay and bacteria,3,1,predation,method,laboratory observation and literature
+Arctodisptomus,3,algae,3,1,herbivory,method,laboratory observation and literature
+Arctodisptomus,3,clay and bacteria,3,1,predation,method,laboratory observation and literature
+Candela,3,algae,3,1,herbivory,method,gut content
+Candela,3,clay and bacteria,3,1,predation,method,gut content
+Branchinectella,3,algae,3,1,herbivory,method,gut content
+Branchinectella,3,clay and bacteria,3,1,predation,method,gut content
+Branchinectella,3,Fabrea,3,1,predation,method,gut content
+Branchinectella,3,Hexarthra,3,1,predation,method,gut content
+Turbellaria,3,detritus,3,1,detritivore,method,laboratory observation and literature
+Nematods,3,detritus,3,1,detritivore,method,laboratory observation and literature
+Diptera,3,detritus,3,1,detritivore,method,laboratory observation and literature
+Hexarthra,3,detritus,3,1,detritivore,method,laboratory observation and literature
+Moina,3,detritus,3,1,detritivore,method,laboratory observation and literature
+Cletocamptus,3,detritus,3,1,detritivore,method,laboratory observation and literature
+Arctodisptomus,3,detritus,3,1,detritivore,method,laboratory observation and literature
+Candela,3,detritus,3,1,detritivore,method,gut content
+Branchinectella,3,detritus,3,1,detritivore,method,gut content
+nematods,4,microbial mat,4,1,predation,method,laboratory observation and literature
+Hexarthra,4,algae,4,1,herbivory,method,laboratory observation and literature
+Hexarthra,4,clay and bacteria,4,1,predation,method,laboratory observation and literature
+Hexarthra,4,Hexarthra,4,1,predation,method,laboratory observation and literature
+Candela,4,algae,4,1,herbivory,method,gut content
+Candela,4,microbial mat,4,1,predation,method,gut content
+Candela,4,clay and bacteria,4,1,predation,method,gut content
+Branchinectella,4,algae,4,1,herbivory,method,gut content
+Branchinectella,4,clay and bacteria,4,1,predation,method,gut content
+Branchinectella,4,Hexarthra,4,1,predation,method,gut content
+nematods,4,detritus,4,1,detritivore,method,laboratory observation and literature
+Hexarthra,4,detritus,4,1,detritivore,method,laboratory observation and literature
+Candela,4,detritus,4,1,detritivore,method,gut content
+Branchinectella,4,detritus,4,1,detritivore,method,gut content

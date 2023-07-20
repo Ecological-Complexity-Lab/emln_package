@@ -1,0 +1,10 @@
+layer,attribute,value
+1,name,non trophic negative interactions
+1,type,interaction
+1,directed,TRUE
+2,name,non trophic positive interactions
+2,type,interaction
+2,directed,TRUE
+3,name,trophic interactions
+3,type,interaction
+3,directed,TRUE

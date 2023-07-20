@@ -1,0 +1,49 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,carcass,taxon,taxonomy_name,Leporidae,taxonomy_rank,family
+2,Pogonomyrmex desertorum,taxon,taxonomy_name,Pogonomyrmex desertorum,taxonomy_rank,species
+3,Dialictus sp.,taxon,taxonomy_name,Lasioglossum flavipes,taxonomy_rank,species
+4,Lasioglossum morilli,taxon,taxonomy_name,NA,taxonomy_rank,NA
+5,Dialictus microlepiodes,taxon,taxonomy_name,NA,taxonomy_rank,NA
+6,Taenipoda equus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+7,C. macellaria larvae,taxon,taxonomy_name,Musca macellaria,taxonomy_rank,species
+8,S. utilis larvae,taxon,taxonomy_name,Sarcophaga utilis,taxonomy_rank,species
+9,O. ochripyga larvae,taxon,taxonomy_name,Oxysarcodexia ochripyga,taxonomy_rank,species
+10,Cochliomyia macellaria,taxon,taxonomy_name,Musca macellaria,taxonomy_rank,species
+11,Saprinus discoidalis,taxon,taxonomy_name,Saprinus discoidalis,taxonomy_rank,species
+12,Eleodes hispilabris,taxon,taxonomy_name,Eleodes hispilabris,taxonomy_rank,NA
+13,T. nodosus,taxon,taxonomy_name,Trox nodosus,taxonomy_rank,NA
+14,Euxesta sp.,taxon,taxonomy_name,Euxesta,taxonomy_rank,genus
+15,Coenosia sp.,taxon,taxonomy_name,Coenosia,taxonomy_rank,genus
+16,Sarcophaga utilis,taxon,taxonomy_name,Sarcophaga utilis,taxonomy_rank,species
+17,Oxysarcodexia ochripyga,taxon,taxonomy_name,Oxysarcodexia ochripyga,taxonomy_rank,species
+18,Idiasta sp.,taxon,taxonomy_name,Idiasta,taxonomy_rank,genus
+19,Pogonomyrmex apache,taxon,taxonomy_name,Pogonomyrmex apache,taxonomy_rank,species
+20,Myrmecocystus mimicus,taxon,taxonomy_name,Myrmecocystus mimicus,taxonomy_rank,species
+21,Solenopsis xyloni,taxon,taxonomy_name,Solenopsis xyloni,taxonomy_rank,species
+22,Canis latrans,taxon,taxonomy_name,Canis latrans,taxonomy_rank,species
+23,Trox scutellaris,taxon,taxonomy_name,NA,taxonomy_rank,NA
+24,Iridomyrmex pruinosum,taxon,taxonomy_name,NA,taxonomy_rank,NA
+25,Dermestes vulpinus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+26,T. suberosus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+27,Saprinus sp.,taxon,taxonomy_name,Saprinus,taxonomy_rank,genus
+28,S. pennsylvanicus,taxon,taxonomy_name,Saprinus pennsylvanicus,taxonomy_rank,NA
+29,Boreocanthon lecontei,taxon,taxonomy_name,Canthon lecontei,taxonomy_rank,species
+30,P. rugosus,taxon,taxonomy_name,Pogonomyrmex rugosus,taxonomy_rank,species
+31,Pheidole sp.,taxon,taxonomy_name,Pheidole,taxonomy_rank,genus
+32,Cathartes aura,taxon,taxonomy_name,Cathartes aura,taxonomy_rank,species
+33,Urocyon cinereoargenteus,taxon,taxonomy_name,Urocyon cinereoargenteus,taxonomy_rank,species
+34,Conomyrma insana,taxon,taxonomy_name,NA,taxonomy_rank,NA
+35,Cochliomyia macellaria larvae,taxon,taxonomy_name,Musca macellaria,taxonomy_rank,species
+36,Silpha truncata,taxon,taxonomy_name,Thanatophilus truncatus,taxonomy_rank,species
+37,S. truncata larvae,taxon,taxonomy_name,Thanatophilus truncatus,taxonomy_rank,species
+38,Necrobia rufipes,taxon,taxonomy_name,Necrobia rufipes,taxonomy_rank,species
+39,Proctacanthella leucopogon,taxon,taxonomy_name,Proctacanthella leucopogon,taxonomy_rank,NA
+40,Piophila sp.,taxon,taxonomy_name,Piophila,taxonomy_rank,genus
+41,Musca domestica,taxon,taxonomy_name,Musca domestica,taxonomy_rank,species
+42,Phaenicia sericata,taxon,taxonomy_name,Lucilia sericata,taxonomy_rank,species
+43,P. sericata larvae,taxon,taxonomy_name,Phaenicia sericata,taxonomy_rank,NA
+44,Sinea complexa,taxon,taxonomy_name,Sinea complexa,taxonomy_rank,species
+45,Nomia tetrazonata,taxon,taxonomy_name,Nomia tetrazonata,taxonomy_rank,species
+46,Eleodes entricatus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+47,Trox punctatus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+48,Goniochaeta plagiodes,taxon,taxonomy_name,NA,taxonomy_rank,NA

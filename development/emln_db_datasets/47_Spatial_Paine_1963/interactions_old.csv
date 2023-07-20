@@ -1,0 +1,87 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+barnacles,1,detritus,1,1,detritivore,method,field observation/experiments
+Mytilus edulis,1,detritus,1,1,detritivore,method,field observation/experiments
+anemones,1,detritus,1,1,detritivore,method,field observation/experiments
+tunicates,1,detritus,1,1,detritivore,method,field observation/experiments
+bryozoa,1,detritus,1,1,detritivore,method,field observation/experiments
+Halichondria,1,detritus,1,1,detritivore,method,field observation/experiments
+barnacles,1,plankton,1,1,trophic,method,field observation/experiments
+Mytilus edulis,1,plankton,1,1,trophic,method,field observation/experiments
+anemones,1,plankton,1,1,trophic,method,field observation/experiments
+tunicates,1,plankton,1,1,trophic,method,field observation/experiments
+bryozoa,1,plankton,1,1,trophic,method,field observation/experiments
+Tonicella,1,benthic algae,1,1,herbivory,method,field observation/experiments
+Acmaea mitra,1,benthic algae,1,1,herbivory,method,field observation/experiments
+urchins,1,benthic algae,1,1,herbivory,method,field observation/experiments
+limpets,1,benthic algae,1,1,herbivory,method,field observation/experiments
+Littorina,1,benthic algae,1,1,herbivory,method,field observation/experiments
+Katharina,1,benthic algae,1,1,herbivory,method,field observation/experiments
+Katharina,1,Halichondria,1,1,predation,method,field observation/experiments
+Searlesia,1,Littorina,1,1,predation,method,field observation/experiments
+Searlesia,1,barnacles,1,1,predation,method,field observation/experiments
+Thais sp.,1,barnacles,1,1,predation,method,field observation/experiments
+Thais sp.,1,Mytilus edulis,1,1,predation,method,field observation/experiments
+Pycnopodia,1,limpets,1,1,predation,method,field observation/experiments
+Pycnopodia,1,barnacles,1,1,predation,method,field observation/experiments
+Pycnopodia,1,Mytilus edulis,1,1,predation,method,field observation/experiments
+Pycnopodia,1,Thais sp.,1,1,predation,method,field observation/experiments
+Henricia,1,Halichondria,1,1,predation,method,field observation/experiments
+Archidoris,1,Halichondria,1,1,predation,method,field observation/experiments
+Dermasterias,1,anemones,1,1,predation,method,field observation/experiments
+Dermasterias,1,tunicates,1,1,predation,method,field observation/experiments
+Pisaster,1,barnacles,1,1,predation,method,field observation/experiments
+Pisaster,1,Mytilus edulis,1,1,predation,method,field observation/experiments
+Thais canaliculata,1,barnacles,1,1,predation,method,field observation/experiments
+Thais canaliculata,1,Mytilus edulis,1,1,predation,method,field observation/experiments
+Emplectonema,1,barnacles,1,1,predation,method,field observation/experiments
+Leptasterias,1,limpets,1,1,predation,method,field observation/experiments
+Leptasterias,1,barnacles,1,1,predation,method,field observation/experiments
+Leptasterias,1,Mytilus edulis,1,1,predation,method,field observation/experiments
+Leptasterias,1,bryozoa,1,1,predation,method,field observation/experiments
+Thais lima,1,limpets,1,1,predation,method,field observation/experiments
+Thais lima,1,Littorina,1,1,predation,method,field observation/experiments
+Thais lima,1,barnacles,1,1,predation,method,field observation/experiments
+Thais lima,1,Thais sp.,1,1,predation,method,field observation/experiments
+Halichondria,1,plankton,1,1,trophic,method,field observation/experiments
+Dermasterias,1,bryozoa,1,1,predation,method,field observation/experiments
+barnacles,2,detritus,2,1,detritivore,method,field observation/experiments
+Mytilus edulis,2,detritus,2,1,detritivore,method,field observation/experiments
+anemones,2,detritus,2,1,detritivore,method,field observation/experiments
+Mytilus californianus,2,detritus,2,1,detritivore,method,field observation/experiments
+Halichondria,2,detritus,2,1,detritivore,method,field observation/experiments
+Spirorbis,2,detritus,2,1,detritivore,method,field observation/experiments
+limpets,2,benthic algae,2,1,herbivory,method,field observation/experiments
+Littorina,2,benthic algae,2,1,herbivory,method,field observation/experiments
+Katharina,2,benthic algae,2,1,herbivory,method,field observation/experiments
+Tegula,2,benthic algae,2,1,herbivory,method,field observation/experiments
+Pycnopodia,2,urchins,2,1,predation,method,field observation/experiments
+Searlesia,2,limpets,2,1,predation,method,field observation/experiments
+barnacles,2,plankton,2,1,trophic,method,field observation/experiments
+Mytilus edulis,2,plankton,2,1,trophic,method,field observation/experiments
+anemones,2,plankton,2,1,trophic,method,field observation/experiments
+Mytilus californianus,2,plankton,2,1,trophic,method,field observation/experiments
+Halichondria,2,plankton,2,1,trophic,method,field observation/experiments
+Spirorbis,2,plankton,2,1,trophic,method,field observation/experiments
+Searlesia,2,Littorina,2,1,predation,method,field observation/experiments
+Searlesia,2,Katharina,2,1,predation,method,field observation/experiments
+Thais sp,2,barnacles,2,1,predation,method,field observation/experiments
+Emplectonema,2,barnacles,2,1,predation,method,field observation/experiments
+Ceratostoma,2,barnacles,2,1,predation,method,field observation/experiments
+Leptasterias,2,limpets,2,1,predation,method,field observation/experiments
+Leptasterias,2,Littorina,2,1,predation,method,field observation/experiments
+Leptasterias,2,barnacles,2,1,predation,method,field observation/experiments
+Leptasterias,2,Spirorbis,2,1,predation,method,field observation/experiments
+Thais canaliculata,2,barnacles,2,1,predation,method,field observation/experiments
+Thais canaliculata,2,Mytilus edulis,2,1,predation,method,field observation/experiments
+Dermasterias,2,anemones,2,1,predation,method,field observation/experiments
+Archidoris,2,Halichondria,2,1,predation,method,field observation/experiments
+Pisaster,2,limpets,2,1,predation,method,field observation/experiments
+Pisaster,2,barnacles,2,1,predation,method,field observation/experiments
+Pisaster,2,Mytilus edulis,2,1,predation,method,field observation/experiments
+Pisaster,2,Mytilus californianus,2,1,predation,method,field observation/experiments
+Pisaster,2,Katharina,2,1,predation,method,field observation/experiments
+Pisaster,2,Tegula,2,1,predation,method,field observation/experiments
+Henricia,2,Halichondria,2,1,predation,method,field observation/experiments
+Tonicella,2,benthic algae,2,1,herbivory,method,field observation/experiments
+Acmaea mitra,2,benthic algae,2,1,herbivory,method,field observation/experiments
+urchins,2,benthic algae,2,1,herbivory,method,field observation/experiments

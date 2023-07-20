@@ -1,0 +1,104 @@
+node_from,layer_from,node_to,layer_to,weight,type
+primary carnivores,1,Oikopleura,1,1,predation
+primary carnivores,1,II-III copepodites,1,1,predation
+primary carnivores,1,IV-VI copepodites of Paracalanus,1,1,predation
+primary carnivores,1,naupliuses,1,1,predation
+primary carnivores,1,mixed-food consumers,1,1,predation
+Oikopleura,1,phytoplankton,1,1,herbivory
+Oikopleura,1,saprophagous plankton,1,1,predation
+II-III copepodites,1,phytoplankton,1,1,herbivory
+II-III copepodites,1,saprophagous plankton,1,1,predation
+II-III copepodites,1,large-sized phytoplankton,1,1,herbivory
+IV-VI copepodites of Paracalanus,1,phytoplankton,1,1,herbivory
+larvae of molluscs and polychaetes,1,phytoplankton,1,1,herbivory
+larvae of molluscs and polychaetes,1,saprophagous plankton,1,1,predation
+larvae of molluscs and polychaetes,1,large-sized phytoplankton,1,1,herbivory
+naupliuses,1,phytoplankton,1,1,herbivory
+naupliuses,1,saprophagous plankton,1,1,predation
+naupliuses,1,large-sized phytoplankton,1,1,herbivory
+IV-VI copepodites of Calanus and Pseudocalanus,1,phytoplankton,1,1,herbivory
+IV-VI copepodites of Calanus and Pseudocalanus,1,saprophagous plankton,1,1,predation
+IV-VI copepodites of Calanus and Pseudocalanus,1,large-sized phytoplankton,1,1,herbivory
+mixed-food consumers,1,phytoplankton,1,1,herbivory
+mixed-food consumers,1,saprophagous plankton,1,1,predation
+mixed-food consumers,1,large-sized phytoplankton,1,1,herbivory
+mixed-food consumers,1,Oikopleura,1,1,predation
+mixed-food consumers,1,II-III copepodites,1,1,predation
+mixed-food consumers,1,larvae of molluscs and polychaetes,1,1,predation
+mixed-food consumers,1,naupliuses,1,1,predation
+secondary carnivores,1,Oikopleura,1,1,predation
+secondary carnivores,1,II-III copepodites,1,1,predation
+secondary carnivores,1,IV-VI copepodites of Paracalanus,1,1,predation
+secondary carnivores,1,larvae of molluscs and polychaetes,1,1,predation
+secondary carnivores,1,naupliuses,1,1,predation
+secondary carnivores,1,IV-VI copepodites of Calanus and Pseudocalanus,1,1,predation
+secondary carnivores,1,mixed-food consumers,1,1,predation
+secondary carnivores,1,primary carnivores,1,1,predation
+tertiary carnivores,1,Oikopleura,1,1,predation
+tertiary carnivores,1,II-III copepodites,1,1,predation
+tertiary carnivores,1,IV-VI copepodites of Paracalanus,1,1,predation
+tertiary carnivores,1,IV-VI copepodites of Calanus and Pseudocalanus,1,1,predation
+tertiary carnivores,1,mixed-food consumers,1,1,predation
+tertiary carnivores,1,primary carnivores,1,1,predation
+tertiary carnivores,1,secondary carnivores,1,1,predation
+saprophagous plankton,1,detritus,1,1,detritivore
+large-sized phytoplankton,1,detritus,1,1,detritivore
+Oikopleura,1,detritus,1,1,detritivore
+II-III copepodites,1,detritus,1,1,detritivore
+IV-VI copepodites of Paracalanus,1,detritus,1,1,detritivore
+larvae of molluscs and polychaetes,1,detritus,1,1,detritivore
+naupliuses,1,detritus,1,1,detritivore
+IV-VI copepodites of Calanus and Pseudocalanus,1,detritus,1,1,detritivore
+mixed-food consumers,1,detritus,1,1,detritivore
+primary carnivores,1,detritus,1,1,detritivore
+Oikopleura,2,phytoplankton,2,1,herbivory
+mixed-food consumers,2,Oikopleura,2,1,predation
+II-III copepodites,2,phytoplankton,2,1,herbivory
+IV-VI copepodites of Paracalanus,2,phytoplankton,2,1,herbivory
+larvae of molluscs and polychaetes,2,large-sized phytoplankton,2,1,herbivory
+naupliuses,2,large-sized phytoplankton,2,1,herbivory
+IV-VI copepodites of Calanus and Pseudocalanus,2,large-sized phytoplankton,2,1,herbivory
+mixed-food consumers,2,large-sized phytoplankton,2,1,herbivory
+mixed-food consumers,2,naupliuses,2,1,predation
+primary carnivores,2,IV-VI copepodites of Paracalanus,2,1,predation
+secondary carnivores,2,II-III copepodites,2,1,predation
+secondary carnivores,2,IV-VI copepodites of Calanus and Pseudocalanus,2,1,predation
+tertiary carnivores,2,IV-VI copepodites of Paracalanus,2,1,predation
+tertiary carnivores,2,secondary carnivores,2,1,predation
+Oikopleura,2,saprophagous plankton,2,1,predation
+II-III copepodites,2,large-sized phytoplankton,2,1,herbivory
+larvae of molluscs and polychaetes,2,phytoplankton,2,1,herbivory
+naupliuses,2,phytoplankton,2,1,herbivory
+IV-VI copepodites of Calanus and Pseudocalanus,2,phytoplankton,2,1,herbivory
+mixed-food consumers,2,phytoplankton,2,1,herbivory
+mixed-food consumers,2,II-III copepodites,2,1,predation
+primary carnivores,2,Oikopleura,2,1,predation
+primary carnivores,2,mixed-food consumers,2,1,predation
+secondary carnivores,2,larvae of molluscs and polychaetes,2,1,predation
+secondary carnivores,2,primary carnivores,2,1,predation
+tertiary carnivores,2,mixed-food consumers,2,1,predation
+larvae of molluscs and polychaetes,2,saprophagous plankton,2,1,predation
+naupliuses,2,saprophagous plankton,2,1,predation
+IV-VI copepodites of Calanus and Pseudocalanus,2,saprophagous plankton,2,1,predation
+mixed-food consumers,2,larvae of molluscs and polychaetes,2,1,predation
+primary carnivores,2,II-III copepodites,2,1,predation
+secondary carnivores,2,Oikopleura,2,1,predation
+secondary carnivores,2,naupliuses,2,1,predation
+tertiary carnivores,2,II-III copepodites,2,1,predation
+tertiary carnivores,2,primary carnivores,2,1,predation
+primary carnivores,2,naupliuses,2,1,predation
+secondary carnivores,2,IV-VI copepodites of Paracalanus,2,1,predation
+secondary carnivores,2,mixed-food consumers,2,1,predation
+tertiary carnivores,2,IV-VI copepodites of Calanus and Pseudocalanus,2,1,predation
+primary carnivores,2,detritus,2,1,detritivore
+Oikopleura,2,detritus,2,1,detritivore
+saprophagous plankton,2,detritus,2,1,detritivore
+large-sized phytoplankton,2,detritus,2,1,detritivore
+II-III copepodites,2,detritus,2,1,detritivore
+IV-VI copepodites of Paracalanus,2,detritus,2,1,detritivore
+larvae of molluscs and polychaetes,2,detritus,2,1,detritivore
+naupliuses,2,detritus,2,1,detritivore
+IV-VI copepodites of Calanus and Pseudocalanus,2,detritus,2,1,detritivore
+mixed-food consumers,2,detritus,2,1,detritivore
+II-III copepodites,2,saprophagous plankton,2,1,predation
+mixed-food consumers,2,saprophagous plankton,2,1,predation

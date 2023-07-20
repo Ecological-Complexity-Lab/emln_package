@@ -1,0 +1,51 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Sediment,taxon,taxonomy_name,Sediment,taxonomy_rank,NA
+2,Nematodes,taxon,taxonomy_name,Ornithogalum thunbergii,taxonomy_rank,species
+3,Diatoms,taxon,taxonomy_name,Diatoms,taxonomy_rank,NA
+4,Macroalgae,taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+5,Dinoflagellates,taxon,taxonomy_name,Pyrrophycophyta,taxonomy_rank,NA
+6,Crustacean Parts,taxon,taxonomy_name,Aegerita crustacea,taxonomy_rank,species
+7,Barnacles,taxon,taxonomy_name,Thelotrema lepadinum,taxonomy_rank,species
+8,Bivalves,taxon,taxonomy_name,Bivalves,taxonomy_rank,NA
+9,Crangon,taxon,taxonomy_name,Crangon,taxonomy_rank,genus
+10,Cymadusa,taxon,taxonomy_name,Cymadusa,taxonomy_rank,genus
+11,Gammarus,taxon,taxonomy_name,Gammarus,taxonomy_rank,genus
+12,Hippolyte,taxon,taxonomy_name,Hippolyte,taxonomy_rank,genus
+13,Idotea,taxon,taxonomy_name,Idotea,taxonomy_rank,genus
+14,Palaemonetes vulgaris,taxon,taxonomy_name,Palaemonetes vulgaris,taxonomy_rank,species
+15,Blue crab,taxon,taxonomy_name,Blue crab,taxonomy_rank,NA
+16,Detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+17,Unid. Macrophytes,taxon,taxonomy_name,NA,taxonomy_rank,NA
+18,Gammaridean amphipods,taxon,taxonomy_name,NA,taxonomy_rank,NA
+19,Sygnathus fuscus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+20,A. longimana,taxon,taxonomy_name,NA,taxonomy_rank,NA
+21,A. valida,taxon,taxonomy_name,NA,taxonomy_rank,NA
+22,C. penantis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+23,Foraminifera,taxon,taxonomy_name,Foraminifera,taxonomy_rank,phylum
+24,Erichsonella,taxon,taxonomy_name,Erichsonella,taxonomy_rank,genus
+25,Ostracods,taxon,taxonomy_name,Ostracoda,taxonomy_rank,class
+26,Copepods,taxon,taxonomy_name,Copepoda,taxonomy_rank,NA
+27,Ostracods 1,taxon,taxonomy_name,Ostracoda,taxonomy_rank,class
+28,Elasmopus,taxon,taxonomy_name,Elasmopus,taxonomy_rank,genus
+29,P. vulgaris,taxon,taxonomy_name,P. vulgaris,taxonomy_rank,NA
+30,Gobiesox strumosus,taxon,taxonomy_name,Gobiesox strumosus,taxonomy_rank,species
+31,Polychates,taxon,taxonomy_name,NA,taxonomy_rank,NA
+32,Polychaetes,taxon,taxonomy_name,NA,taxonomy_rank,NA
+33,Crepidulids,taxon,taxonomy_name,NA,taxonomy_rank,NA
+34,Caprellid amphipods,taxon,taxonomy_name,NA,taxonomy_rank,NA
+35,Penaid,taxon,taxonomy_name,NA,taxonomy_rank,NA
+36,Sygnathus floridae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+37,Gobiesoma bosci,taxon,taxonomy_name,NA,taxonomy_rank,NA
+38,Polychaete,taxon,taxonomy_name,Polychaeta,taxonomy_rank,class
+39,Zostera,taxon,taxonomy_name,Zostera,taxonomy_rank,genus
+40,Unid. Bacteria,taxon,taxonomy_name,Bacteria,taxonomy_rank,genus
+41,Ampithoe longimana,taxon,taxonomy_name,Ampithoe longimana,taxonomy_rank,species
+42,Ampithoe valida,taxon,taxonomy_name,Ampithoe valida,taxonomy_rank,species
+43,Caprella penantis,taxon,taxonomy_name,Caprella penantis,taxonomy_rank,species
+44,Cymadusa compta,taxon,taxonomy_name,Cymadusa compta,taxonomy_rank,species
+45,Erichsonella attenuata,taxon,taxonomy_name,Erichsonella attenuata,taxonomy_rank,species
+46,Gammarus mucronatus,taxon,taxonomy_name,Gammarus mucronatus,taxonomy_rank,species
+47,Idotea balthica,taxon,taxonomy_name,Idotea balthica,taxonomy_rank,species
+48,Palaemonetes,taxon,taxonomy_name,Palaemonetes,taxonomy_rank,genus
+49,Callinectes sapidus,taxon,taxonomy_name,Callinectes sapidus,taxonomy_rank,species
+50,Unid. Protista,taxon,taxonomy_name,NA,taxonomy_rank,NA

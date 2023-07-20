@@ -1,0 +1,155 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2,attribute3,value3,attribute4,value4,attribute5,value5
+1,Apodemus_agrarius,mammal,short_name,AAGR,determinator,"Pallas, 1771",groupIR,R,host_type,Field mouse,exclude,FALSE
+2,Apodemus_flavicollis,mammal,short_name,AFLA,determinator,"(Melchior, 1834)",groupIR,R,host_type,Field mouse,exclude,FALSE
+3,Apodemus_uralensis,mammal,short_name,AMIC,determinator,"Pallas, 1811",groupIR,R,host_type,Field mouse,exclude,FALSE
+4,Apodemus_sylvaticus,mammal,short_name,ASYL,determinator,"(Linnaeus, 1758)",groupIR,R,host_type,Field mouse,exclude,FALSE
+5,Arvicola_terrestris,mammal,short_name,ATER,determinator,"(Linnaeus, 1758)",groupIR,R,host_type,Water vole,exclude,FALSE
+6,Spermophilus_citellus,mammal,short_name,CCIT,determinator,"(Linnaeus, 1766)",groupIR,R,host_type,Ground squirrel,exclude,FALSE
+7,Cricetus_cricetus,mammal,short_name,CCRI,determinator,"(Linnaeus, 1758)",groupIR,R,host_type,Hamster,exclude,FALSE
+8,Clethrionomys_glareolus,mammal,short_name,CGLA,determinator,"(Schreber, 1780)",groupIR,R,host_type,Vole,exclude,FALSE
+9,Crocidura_leucodon,mammal,short_name,CLEU,determinator,"(Hermann, 1780)",groupIR,I,host_type,Shrew,exclude,FALSE
+10,Crocidura_suaveolens,mammal,short_name,CSUA,determinator,"(Pallas, 1811)",groupIR,I,host_type,Shrew,exclude,FALSE
+11,Myoxus_glis,mammal,short_name,GGLI,determinator,"(Linnaeus, 1766)",groupIR,R,host_type,Edible dormouse,exclude,TRUE
+12,Microtus_agrestis,mammal,short_name,MAGR,determinator,"(Linnaeus, 1761)",groupIR,R,host_type,Vole,exclude,FALSE
+13,Microtus_arvalis,mammal,short_name,MARV,determinator,"(Pallas, 1779)",groupIR,R,host_type,Vole,exclude,FALSE
+14,Muscardinus_avellanarius,mammal,short_name,MAVE,determinator,"Linnaeus, 1766",groupIR,R,host_type,Common Dormouse,exclude,TRUE
+15,Micromys_minutus,mammal,short_name,MMIN,determinator,"Pallas, 1778",groupIR,R,host_type,mouse,exclude,FALSE
+16,Mus_musculus,mammal,short_name,MMUS,determinator,"Linnaeus, 1758",groupIR,R,host_type,mouse,exclude,FALSE
+17,Neomys_anomalus,mammal,short_name,"NANO",determinator,"Cabrera, 1907",groupIR,I,host_type,Shrew,exclude,FALSE
+18,Neomys_fodiens,mammal,short_name,NFOD,determinator,"(Pennant, 1771)",groupIR,I,host_type,Shrew,exclude,FALSE
+19,Ondatra_zibethicus,mammal,short_name,OZIB,determinator,"(Linnaeus, 1766)",groupIR,R,host_type,Muskrat,exclude,FALSE
+20,Microtus_subterraneus,mammal,short_name,PSUB,determinator,"(de Sélys-Longhchamps, 1836)",groupIR,R,host_type,Vole,exclude,FALSE
+21,Rattus_norvegicus,mammal,short_name,RNOR,determinator,"(Berkenhout, 1769)",groupIR,R,host_type,Rat,exclude,FALSE
+22,Sorex_alpinus,mammal,short_name,SALP,determinator,"Schinz, 1837",groupIR,I,host_type,Shrew,exclude,FALSE
+23,Sorex_araneus,mammal,short_name,SARA,determinator,"Linnaeus, 1758",groupIR,I,host_type,Shrew,exclude,FALSE
+24,Sicista_betulina,mammal,short_name,SBET,determinator,"Pallas, 1779",groupIR,R,host_type,Northern Birch Mouse,exclude,FALSE
+25,Sorex_minutus,mammal,short_name,SMIN,determinator,"Linnaeus, 1766",groupIR,I,host_type,Shrew,exclude,FALSE
+26,Talpa_europaea,mammal,short_name,TEUR,determinator,"Linnaeus, 1758",groupIR,I,host_type,European Mole,exclude,FALSE
+27,Amalaraeus_arvicolae,flea,short_name,AARV,determinator,"(Ioff, 1950)",groupIR,NA,host_type,NA,exclude,NA
+28,Atyphloceras_nuperus,flea,short_name,ANUP,determinator,"(Jordan, 1931)",groupIR,NA,host_type,NA,exclude,NA
+29,Amalaraeus_penicilliger,flea,short_name,APEN,determinator,"(Grube), 1852",groupIR,NA,host_type,NA,exclude,NA
+30,Amphipsylla_rossica,flea,short_name,AROS,determinator,"Wagner, 1912",groupIR,NA,host_type,NA,exclude,NA
+31,Ctenophthalmus_agyrtes,flea,short_name,CAGY,determinator,"Heller, 1896",groupIR,NA,host_type,NA,exclude,NA
+32,Ctenophthalmus_assimilis,flea,short_name,CASS,determinator,"(Taschenberg, 1880)",groupIR,NA,host_type,NA,exclude,NA
+33,Ctenophthalmus_bisoctodentatus,flea,short_name,CBIS,determinator,"Kolenati, 1863",groupIR,NA,host_type,NA,exclude,NA
+34,Ctenocephalides_felis,flea,short_name,CFEL,determinator,"(Bouche, 1835)",groupIR,NA,host_type,NA,exclude,NA
+35,Ctenophthalmus_obtusus,flea,short_name,COBT,determinator,"Jordan et Rothschild, 1912",groupIR,NA,host_type,NA,exclude,NA
+36,Ctenophthalmus_orientalis,flea,short_name,CORI,determinator,"(Wagner, 1898)",groupIR,NA,host_type,NA,exclude,NA
+37,Citellophilus_simplex,flea,short_name,CSIM,determinator,"(Wagner, 1902)",groupIR,NA,host_type,NA,exclude,NA
+38,Ctenophthalmus_solutus,flea,short_name,CSOL,determinator,"Jordan et Rothschild, 1920",groupIR,NA,host_type,NA,exclude,NA
+39,Ctenophthalmus_uncinatus,flea,short_name,CUNC,determinator,"(Wagner, 1898)",groupIR,NA,host_type,NA,exclude,NA
+40,Doratopsylla_dasycnema,flea,short_name,DDAS,determinator,"Rothschild, 1897",groupIR,NA,host_type,NA,exclude,NA
+41,Dasypsyllus_gallinulae,flea,short_name,DGAL,determinator,"(Dale, 1878)",groupIR,NA,host_type,NA,exclude,NA
+42,Hystrichopsylla_orientalis,flea,short_name,HORI,determinator,"Smit, 1956",groupIR,NA,host_type,NA,exclude,NA
+43,Hystrichopsylla_talpae,flea,short_name,HTAL,determinator,"(Curtis, 1826)",groupIR,NA,host_type,NA,exclude,NA
+44,Leptopsylla_segnis,flea,short_name,LSEG,determinator,"(Schönherr, 1916)",groupIR,NA,host_type,NA,exclude,NA
+45,Ceratophyllus_sciurorum,flea,short_name,MSCI,determinator,"(Schrank, 1781)",groupIR,NA,host_type,NA,exclude,NA
+46,Megabothris_turbidus,flea,short_name,MTUR,determinator,"(Rothschild, 1909)",groupIR,NA,host_type,NA,exclude,NA
+47,Nosopsyllus_fasciatus,flea,short_name,NFAS,determinator,"(Bosc, 1801)",groupIR,NA,host_type,NA,exclude,NA
+48,Peromyscopsylla_bidentata,flea,short_name,PBID,determinator,"(Kolenati, 1860)",groupIR,NA,host_type,NA,exclude,NA
+49,Peromyscopsylla_fallax,flea,short_name,PFAL,determinator,"(Rothschild, 1909)",groupIR,NA,host_type,NA,exclude,NA
+50,Peromyscopsylla_silvatica,flea,short_name,PSIL,determinator,"(Meinert, 1896)",groupIR,NA,host_type,NA,exclude,NA
+51,Palaeopsylla_similis,flea,short_name,PSIM,determinator,"similis Dampf, 1910",groupIR,NA,host_type,NA,exclude,NA
+52,Palaeopsylla_soricis,flea,short_name,PSOR,determinator,"(Dale, 1878)",groupIR,NA,host_type,NA,exclude,NA
+53,Palaeopsylla_kohauti steini,flea,short_name,PSTE,determinator,"(Jordan, 1932)",groupIR,NA,host_type,NA,exclude,NA
+54,Rhadinopsylla_integella,flea,short_name,RINT,determinator,"Jordan et Rothschild, 1921",groupIR,NA,host_type,NA,exclude,NA
+55,Rhadinopsylla_isacantha,flea,short_name,RISA,determinator,"(Rothschild, 1907)",groupIR,NA,host_type,NA,exclude,NA
+56,Rhadinopsylla_mesoides,flea,short_name,RMES,determinator,"Smit, 1957",groupIR,NA,host_type,NA,exclude,NA
+57,Rhadinopsylla_pentacantha,flea,short_name,RPEN,determinator,"(Rothschild, 1897)",groupIR,NA,host_type,NA,exclude,NA
+58,Androlaelaps_casalis,mite,short_name,ACAS,determinator,"(Berlese, 1887)",groupIR,NA,host_type,NA,exclude,NA
+59,Androlaelaps_fahrenholzi,mite,short_name,AFAH,determinator,"(Berlese, 1911)",groupIR,NA,host_type,NA,exclude,NA
+60,Androlaelaps_fenilis,mite,short_name,AFEN,determinator,NA,groupIR,NA,host_type,NA,exclude,NA
+61,Ambyseius_sp.,mite,short_name,AMBL,determinator,NA,groupIR,NA,host_type,NA,exclude,NA
+62,Ameroseius_sp.,mite,short_name,AMER,determinator,NA,groupIR,NA,host_type,NA,exclude,NA
+63,Aceoseius_muricatus,mite,short_name,AMUR,determinator,"(C.L. Koch, 1839)",groupIR,NA,host_type,NA,exclude,NA
+64,Ameroseius_plumigerus,mite,short_name,APLU,determinator,"(Oudemans, 1930)",groupIR,NA,host_type,NA,exclude,NA
+65,Hypoaspis_sardoa,mite,short_name,ASAR,determinator,"(Berlese, 1911)",groupIR,NA,host_type,NA,exclude,NA
+66,Cyrtolaelaps_minor,mite,short_name,CMIN,determinator,"Willmann, 1952",groupIR,NA,host_type,NA,exclude,NA
+67,Cyrtolaelaps_mucronatus,mite,short_name,CMUC,determinator,"(R. et G. Canestrini, 1881)",groupIR,NA,host_type,NA,exclude,NA
+68,Euryparasitus_emarginatus,mite,short_name,EEMA,determinator,"(C. L. Koch, 1939)",groupIR,NA,host_type,NA,exclude,NA
+69,Eviphis_ostrinus,mite,short_name,EOST,determinator,"(C. L. Koch, 1836)",groupIR,NA,host_type,NA,exclude,NA
+70,Eulaelaps_oudemansi,mite,short_name,EOUD,determinator,"Turk, 1945",groupIR,NA,host_type,NA,exclude,NA
+71,Eulaelaps_stabularis,mite,short_name,ESTA,determinator,"(C.L.Koch, 1836)",groupIR,NA,host_type,NA,exclude,NA
+72,Geholaspis_longispinosus,mite,short_name,GLON,determinator,"(Kramer, 1876)",groupIR,NA,host_type,NA,exclude,NA
+73,Hypoaspis_acuta,mite,short_name,HACT,determinator,"(Michael, 1891)",groupIR,NA,host_type,NA,exclude,NA
+74,Hypoaspis_aculeifer,mite,short_name,HACU,determinator,"(Canestrini, 1883)",groupIR,NA,host_type,NA,exclude,NA
+75,Hyperlaelaps_amphibius,mite,short_name,HAMP,determinator,"(Zachvatkin, 1948)",groupIR,NA,host_type,NA,exclude,NA
+76,Hirstionyssus_apodemi,mite,short_name,HAPO,determinator,"Zujevskij, 1970",groupIR,NA,host_type,NA,exclude,NA
+77,Hypoaspis_austriaca,mite,short_name,HAUS,determinator,"(Sellnick, 1935)",groupIR,NA,host_type,NA,exclude,NA
+78,Hirstionyssus_carnifex,mite,short_name,HCAR,determinator,"(C. L. Koch, 1839)",groupIR,NA,host_type,NA,exclude,NA
+79,Holoparasitus_coronarius,mite,short_name,HCOR,determinator,"Karg, 1971",groupIR,NA,host_type,NA,exclude,NA
+80,Holoparasitus_excipuliger,mite,short_name,HEXC,determinator,"(Berlese, 1905)",groupIR,NA,host_type,NA,exclude,NA
+81,Hypoaspis_heselhausi,mite,short_name,HHES,determinator,"Oudemans, 1912",groupIR,NA,host_type,NA,exclude,NA
+82,Haemogamasus_hirsutosimilis,mite,short_name,HHIM,determinator,"Willmann, 1952",groupIR,NA,host_type,NA,exclude,NA
+83,Haemogamasus_hirsutus,mite,short_name,HHIR,determinator,"Berlese, 1889",groupIR,NA,host_type,NA,exclude,NA
+84,Haemogamasus_horridus,mite,short_name,HHOR,determinator,"Michael, 1892",groupIR,NA,host_type,NA,exclude,NA
+85,Hypoaspis_hyatti,mite,short_name,HHYA,determinator,"Evans et Till, 1966",groupIR,NA,host_type,NA,exclude,NA
+86,Hirstionyssus_isabellinus,mite,short_name,HISA,determinator,"(Oudemans, 1913)",groupIR,NA,host_type,NA,exclude,NA
+87,Hypoaspis_lubrica,mite,short_name,HLUB,determinator,"Voights et Oudemans, 1904",groupIR,NA,host_type,NA,exclude,NA
+88,Hyperlaelaps_microti,mite,short_name,HMIC,determinator,"Ewing,1933",groupIR,NA,host_type,NA,exclude,NA
+89,Hypoaspis_miles,mite,short_name,HMIL,determinator,"(Berlese, 1882)",groupIR,NA,host_type,NA,exclude,NA
+90,Haemogamasus_nidi,mite,short_name,HNID,determinator,"Michael, 1892",groupIR,NA,host_type,NA,exclude,NA
+91,Hypoaspis_oblonga,mite,short_name,HOBL,determinator,"Halbert, 1915",groupIR,NA,host_type,NA,exclude,NA
+92,Holoparasitus_sp.,mite,short_name,HOLO,determinator,NA,groupIR,NA,host_type,NA,exclude,NA
+93,Haemogamasus_pontiger,mite,short_name,HPON,determinator,"Berlese, 1903",groupIR,NA,host_type,NA,exclude,NA
+94,Holoparasitus_pseudoperforatus,mite,short_name,HPSE,determinator,"Berlese, 1905",groupIR,NA,host_type,NA,exclude,NA
+95,Hirstionyssus_soricis,mite,short_name,HSOR,determinator,"Turk, 1945",groupIR,NA,host_type,NA,exclude,NA
+96,Hirstionyssus_talpae,mite,short_name,HTLP,determinator,"Zemskaya, 1955",groupIR,NA,host_type,NA,exclude,NA
+97,Hypoaspis_vacua,mite,short_name,HVAC,determinator,"(Michael, 1891)",groupIR,NA,host_type,NA,exclude,NA
+98,Hypoaspis_sp.,mite,short_name,HYPO,determinator,NA,groupIR,NA,host_type,NA,exclude,NA
+99,Iphidosoma_fimetarium,mite,short_name,IFIM,determinator,"(Müller, 1859)",groupIR,NA,host_type,NA,exclude,NA
+100,Laelaps_agilis,mite,short_name,LAGI,determinator,"C.L. Koch, 1836",groupIR,NA,host_type,NA,exclude,NA
+101,Lasioseius_sp.,mite,short_name,LASI,determinator,NA,groupIR,NA,host_type,NA,exclude,NA
+102,Laelaspis_astronomica,mite,short_name,LAST,determinator,"(C.L. Koch, 1839)",groupIR,NA,host_type,NA,exclude,NA
+103,Lasioseius_berlesei,mite,short_name,LBER,determinator,"(Oudemans, 1938)",groupIR,NA,host_type,NA,exclude,NA
+104,Laelaps_clethrionomydis,mite,short_name,LCLE,determinator,"Lange, 1955",groupIR,NA,host_type,NA,exclude,NA
+105,Laelaps_hilaris,mite,short_name,LHIL,determinator,"C.L. Koch, 1836",groupIR,NA,host_type,NA,exclude,NA
+106,Laelaps_jettmari,mite,short_name,LJET,determinator,"Vitzthum, 1930",groupIR,NA,host_type,NA,exclude,NA
+107,Laelaps_micromydis,mite,short_name,LMIC,determinator,"Zachvatkin, 1948",groupIR,NA,host_type,NA,exclude,NA
+108,Laelaps_multispinosus,mite,short_name,LMUL,determinator,"Banks, 1909",groupIR,NA,host_type,NA,exclude,NA
+109,Laelaps_muris,mite,short_name,LMUR,determinator,"(Ljungh, 1799)",groupIR,NA,host_type,NA,exclude,NA
+110,Lasioseius_ometes,mite,short_name,LOME,determinator,"Oudemans, 1903",groupIR,NA,host_type,NA,exclude,NA
+111,Lasioseius_youcefi,mite,short_name,LYOU,determinator,"Athias-Henriot, 1959",groupIR,NA,host_type,NA,exclude,NA
+112,Macrocheles_sp.,mite,short_name,MACR,determinator,NA,groupIR,NA,host_type,NA,exclude,NA
+113,Macrocheles_carinatus,mite,short_name,MCAR,determinator,"(C.L. Koch, 1839)",groupIR,NA,host_type,NA,exclude,NA
+114,Macrocheles_glaber,mite,short_name,MGLA,determinator,"(Müller, 1860)",groupIR,NA,host_type,NA,exclude,NA
+115,Myonyssus_ingricus,mite,short_name,MING,determinator,"Bregetova, 1956",groupIR,NA,host_type,NA,exclude,NA
+116,Macrocheles_matrius,mite,short_name,MMAT,determinator,"(Hull, 1925)",groupIR,NA,host_type,NA,exclude,NA
+117,Macrocheles_montanus,mite,short_name,MMON,determinator,"(Willmann, 1951)",groupIR,NA,host_type,NA,exclude,NA
+118,Macrocheles_penicilliger,mite,short_name,MPEN,determinator,"(Berlese, 1903)",groupIR,NA,host_type,NA,exclude,NA
+119,Macrocheles_punctoscutatus,mite,short_name,MPUN,determinator,"Evans et Browning, 1956",groupIR,NA,host_type,NA,exclude,NA
+120,Myonyssus_rossicus,mite,short_name,MROS,determinator,"Bregetova, 1956",groupIR,NA,host_type,NA,exclude,NA
+121,Macrocheles_rotundiscutis,mite,short_name,MROT,determinator,"Bregetova et Koroleva, 1960",groupIR,NA,host_type,NA,exclude,NA
+122,Macrocheles_tridentitus,mite,short_name,MTRI,determinator,"G. et R. Canestrini, 1882",groupIR,NA,host_type,NA,exclude,NA
+123,Neojordensia_levis,mite,short_name,NLEV,determinator,NA,groupIR,NA,host_type,NA,exclude,NA
+124,Neopodocinum_mrciaki,mite,short_name,NMRC,determinator,"Sellnick, 1968",groupIR,NA,host_type,NA,exclude,NA
+125,Ololaelaps_placentulus,mite,short_name,OPLA,determinator,"(Berlese, 1887)",groupIR,NA,host_type,NA,exclude,NA
+126,Olopachys_suecicus,mite,short_name,OSUE,determinator,"Sellnick, 1950",groupIR,NA,host_type,NA,exclude,NA
+127,Pachyseius_sp.,mite,short_name,PACH,determinator,NA,groupIR,NA,host_type,NA,exclude,NA
+128,Parasitidae_non det.,mite,short_name,PARD,determinator,NA,groupIR,NA,host_type,NA,exclude,NA
+129,Parasitus_sp.,mite,short_name,PARS,determinator,NA,groupIR,NA,host_type,NA,exclude,NA
+130,Pergamasus_brevicornis,mite,short_name,PBRE,determinator,"(Oudemans, 1903)",groupIR,NA,host_type,NA,exclude,NA
+131,Pergamasus_crassipes,mite,short_name,PCRA,determinator,"(Linnaeus,1758)",groupIR,NA,host_type,NA,exclude,NA
+132,Paragarmania_dentritica,mite,short_name,PDEN,determinator,"(Berlese, 1918)",groupIR,NA,host_type,NA,exclude,NA
+133,Pergamasus_sp.,mite,short_name,PERG,determinator,NA,groupIR,NA,host_type,NA,exclude,NA
+134,Pachylaelaps_furcifer,mite,short_name,PFUR,determinator,"Oudemans, 1902",groupIR,NA,host_type,NA,exclude,NA
+135,Pachyseius_humeralis,mite,short_name,PHUM,determinator,"Berlese, 1910",groupIR,NA,host_type,NA,exclude,NA
+136,Pachylaelaps_ineptus,mite,short_name,PINE,determinator,"Hirschmann et Krauss, 1965",groupIR,NA,host_type,NA,exclude,NA
+137,Platyseius_italicus,mite,short_name,PITA,determinator,"(Berlese, 1905)",groupIR,NA,host_type,NA,exclude,NA
+138,Vulgarogamasus_kraepelini,mite,short_name,PKRA,determinator,"(Berlese, 1906)",groupIR,NA,host_type,NA,exclude,NA
+139,Platyseius_sp.,mite,short_name,PLAT,determinator,NA,groupIR,NA,host_type,NA,exclude,NA
+140,Pachylaelaps_longisetis,mite,short_name,PLON,determinator,"Halbert, 1915",groupIR,NA,host_type,NA,exclude,NA
+141,Parasitus_lunulatus,mite,short_name,PLUN,determinator,"(Müller, 1859)",groupIR,NA,host_type,NA,exclude,NA
+142,Eugamasus_magnus,mite,short_name,PMAG,determinator,"Kramer, 1876",groupIR,NA,host_type,NA,exclude,NA
+143,Poecilochirus_necrophori,mite,short_name,PNEC,determinator,"Vitzthum, 1930",groupIR,NA,host_type,NA,exclude,NA
+144,Pachylaelaps_pectinifer,mite,short_name,PPEC,determinator,"(G. et R. Canestrini, 1882)",groupIR,NA,host_type,NA,exclude,NA
+145,Proctolaelaps_pygmaeus,mite,short_name,PPYG,determinator,"(Müller, 1860)",groupIR,NA,host_type,NA,exclude,NA
+146,Pergamasus_septentrionalis,mite,short_name,PSEP,determinator,"(Oudemans, 1902)",groupIR,NA,host_type,NA,exclude,NA
+147,Platyseius_subglaber,mite,short_name,PSUB,determinator,"(Oudemans, 1902)",groupIR,NA,host_type,NA,exclude,NA
+148,Veigaia_cerva,mite,short_name,VCER,determinator,"(Kramer, 1876)",groupIR,NA,host_type,NA,exclude,NA
+149,Veigaia_sp.,mite,short_name,VEIG,determinator,NA,groupIR,NA,host_type,NA,exclude,NA
+150,Veigaia_kochi,mite,short_name,VKOC,determinator,"(Trägardh, 1901)",groupIR,NA,host_type,NA,exclude,NA
+151,Veigaia_nemorensis,mite,short_name,VNEM,determinator,"(C.L. Koch, 1839)",groupIR,NA,host_type,NA,exclude,NA
+152,Veigaia_planicola,mite,short_name,VPLA,determinator,"(Berlese, 1892)",groupIR,NA,host_type,NA,exclude,NA
+153,Veigaia_transisale,mite,short_name,VTRA,determinator,"(Oudemans, 1902)",groupIR,NA,host_type,NA,exclude,NA
+154,Zercon_sp.,mite,short_name,ZERC,determinator,NA,groupIR,NA,host_type,NA,exclude,NA

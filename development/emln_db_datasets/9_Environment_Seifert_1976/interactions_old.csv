@@ -1,0 +1,17 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+Gillisius sp. adults,1,floral parts,1,1,herbivory,method,field observation/experiment
+Quichuana picadoi larvae,1,floral parts,1,1,herbivory,method,field observation/experiment
+Quichuana picadoi larvae,1,nectar,1,1,herbivory,method,field observation/experiment
+Copestylum obscurior larvae,1,nectar,1,1,herbivory,method,field observation/experiment
+Beebeomyia sp. larvae,1,floral parts,1,1,herbivory,method,field observation/experiment
+Beebeomyia sp. larvae,1,nectar,1,1,herbivory,method,field observation/experiment
+Quichuana picadoi larvae,1,detritus,1,1,detritivore,method,field observation/experiment
+Copestylum obscurior larvae,1,detritus,1,1,detritivore,method,field observation/experiment
+Gillisius sp. adults,2,floral parts,2,1,herbivory,method,field observation/experiment
+Quichuana picadoi larvae,2,floral parts,2,1,herbivory,method,field observation/experiment
+Quichuana picadoi larvae,2,nectar,2,1,herbivory,method,field observation/experiment
+Cephaloleia puncticollis larvae,2,floral parts,2,1,herbivory,method,field observation/experiment
+C. puncticollis adults,2,young leaves,2,1,herbivory,method,field observation/experiment
+Merosargus sp. larvae,2,floral parts,2,1,herbivory,method,field observation/experiment
+Quichuana picadoi larvae,2,detritus,2,1,detritivore,method,field observation/experiment
+Merosargus sp. larvae,2,detritus,2,1,detritivore,method,field observation/experiment

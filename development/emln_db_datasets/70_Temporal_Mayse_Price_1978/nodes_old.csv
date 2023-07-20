@@ -1,0 +1,16 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,other herbivorous thrips,taxon,taxonomy_name,Thysanoptera,taxonomy_rank,order
+2,Empoasca fabae,taxon,taxonomy_name,Empoasca fabae,taxonomy_rank,species
+3,black alate aphid,taxon,taxonomy_name,Aphis fabae,taxonomy_rank,species
+4,soybean plant,taxon,taxonomy_name,Fabaceae,taxonomy_rank,family
+5,predatory mite,taxon,taxonomy_name,Nosema acari,taxonomy_rank,species
+6,spiders (unspecified),taxon,taxonomy_name,Araneae,taxonomy_rank,order
+7,Sericothrips variabilis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+8,Aeolothrips sp.,taxon,taxonomy_name,Aeolothrips,taxonomy_rank,genus
+9,Platypena scabra,taxon,taxonomy_name,Plathypena scabra,taxonomy_rank,species
+10,Colias eurytheme,taxon,taxonomy_name,Colias eurytheme,taxonomy_rank,species
+11,Orius insidiosus,taxon,taxonomy_name,Orius insidiosus,taxonomy_rank,species
+12,Acrosternum hilare,taxon,taxonomy_name,Acrosternum hilare,taxonomy_rank,species
+13,Nabis spp.,taxon,taxonomy_name,Nabis,taxonomy_rank,genus
+14,syrphid larvae,taxon,taxonomy_name,Syrphidae,taxonomy_rank,family
+15,parasitic Hymenoptera,taxon,taxonomy_name,Hymenoptera,taxonomy_rank,order

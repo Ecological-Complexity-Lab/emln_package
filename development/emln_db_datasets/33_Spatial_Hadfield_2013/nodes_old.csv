@@ -1,0 +1,328 @@
+node_id,node_name,type,attribute1,value1
+1,Microtus arvalis,host,hosts_sampled_per_network,"1345,11,150,0,0,1834,0,0,1946,5,0,0,0,84,0,0,0,102,0,90,1808,50,22,0,0,1941,0,838,0,0,12,3,766,0,0,0,656,88,0,0,0,10,0,159,0,0,0,1920,0,2182,0"
+2,Apodemus sylvaticus,host,hosts_sampled_per_network,"5051,0,0,0,0,0,0,0,0,0,0,0,0,630,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,435,0,33,0,82,0,221,0,0,0,0,0,0,0,0,0,0,0,0"
+3,Prometheomys schaposchnikowi,host,hosts_sampled_per_network,"382,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+4,Apodemus mystacinus,host,hosts_sampled_per_network,"375,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+5,Microtus majori,host,hosts_sampled_per_network,"358,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+6,Dryomys nitedula,host,hosts_sampled_per_network,"34,0,0,0,0,26,0,43,52,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,0,0,0,0,1,0,0,0,0,12,0,0,0,10,0,0,0,0,0,0,0,18,0"
+7,Cricetulus migratorius,host,hosts_sampled_per_network,"68,6,0,0,0,6400,0,167,17,16,198,69,40,25,0,0,0,0,0,0,8,0,0,0,0,0,77,0,336,0,0,0,0,0,0,0,0,33,0,10,0,36,97,0,0,230,0,0,0,4,0"
+8,Sorex araneus,host,hosts_sampled_per_network,"442,17,255,0,0,0,24,0,126,0,0,0,0,0,0,0,0,1266,10,204,182,5,42,0,0,3238,0,0,0,0,318,0,1341,0,81,0,262,0,28,0,0,0,0,863,0,0,0,856,0,3896,0"
+9,Chionomys nivalis,host,hosts_sampled_per_network,"8,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+10,Myoxus glis,host,hosts_sampled_per_network,"4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0"
+11,Arvicola terrestris,host,hosts_sampled_per_network,"0,4,21,0,0,430,0,0,48,0,0,0,0,101,0,0,0,0,0,0,20,16,3,0,0,104,0,52,0,0,843,0,4,9,0,0,6,7,0,0,149,11,0,36,0,0,0,73,0,1054,4"
+12,Lagurus lagurus,host,hosts_sampled_per_network,"0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,20,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0"
+13,Clethrionomys glareolus,host,hosts_sampled_per_network,"0,5,153,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2031,0,14,449,3,23,0,0,1683,0,0,0,0,19,0,2108,152,8,0,1711,0,155,0,0,0,0,672,0,0,0,5209,0,17966,136"
+14,Cricetus cricetus,host,hosts_sampled_per_network,"0,7,12,0,0,0,0,0,22,0,0,0,0,1,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,1,0,29,0,0,0,8,0,2,0"
+15,Microtus oeconomus,host,hosts_sampled_per_network,"0,13,88,0,0,0,10,0,0,0,0,0,0,0,36,0,0,115,18,38,0,16,0,0,6,0,0,0,0,239,26,2,0,87,0,31,0,0,0,0,703,5,1,255,0,0,0,29,0,60,58"
+16,Microtus gregalis,host,hosts_sampled_per_network,"0,12,25,0,0,0,142,0,0,5,0,0,0,0,0,0,0,0,0,43,0,14,0,0,6,0,0,0,222,0,102,2,0,0,0,0,0,0,0,0,0,3,0,0,320,0,0,0,0,0,0"
+17,Spermophilus pygmaeus,host,hosts_sampled_per_network,"0,19,0,0,0,0,0,0,0,1,0,0,5506,14,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,523,0"
+18,Marmota bobak,host,hosts_sampled_per_network,"0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0"
+19,Allocricetulus eversmanni,host,hosts_sampled_per_network,"0,2,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,0,4,0"
+20,Neomys fodiens,host,hosts_sampled_per_network,"0,15,49,0,0,0,0,0,23,0,0,0,0,0,0,0,0,9,0,24,0,0,0,0,0,381,0,0,0,0,35,0,104,1,6,0,43,0,6,0,11,0,0,24,0,0,0,0,0,32,11"
+21,Allactaga major,host,hosts_sampled_per_network,"0,1,0,0,0,0,0,0,0,3,0,0,64,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,21,0,0,10,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,9,0"
+22,Apodemus uralensis,host,hosts_sampled_per_network,"0,3,0,0,0,0,0,1816,687,3,0,195,0,0,0,0,0,300,0,76,29,17,13,0,0,173,0,0,189,0,0,10,166,0,0,0,893,0,0,24,0,60,734,4,36,250,0,15198,0,2500,0"
+23,Spermophilus major,host,hosts_sampled_per_network,"0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,266,0"
+24,Sicista subtilis,host,hosts_sampled_per_network,"0,16,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,8,0"
+25,Ellobius talpinus,host,hosts_sampled_per_network,"0,8,0,0,0,0,0,0,0,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0"
+26,Clethrionomys rutilus,host,hosts_sampled_per_network,"0,0,90,1771,1614,0,309,0,0,0,0,0,0,0,1066,1771,0,136,282,258,0,0,25,0,0,0,0,0,0,389,189,2,0,394,0,145,0,0,0,0,133,0,0,504,0,0,0,0,0,231,1222"
+27,Sorex minutus,host,hosts_sampled_per_network,"0,0,250,0,0,0,0,0,0,0,0,0,0,0,0,0,0,178,0,34,0,0,0,0,0,598,0,0,0,0,0,0,333,0,3,0,0,0,0,0,8,0,0,145,134,0,0,0,0,732,0"
+28,Apodemus speciosus,host,hosts_sampled_per_network,"0,0,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+29,Apodemus agrarius,host,hosts_sampled_per_network,"0,0,102,0,0,0,0,0,106,0,0,0,0,362,0,0,2681,143,0,50,107,0,0,0,0,235,0,0,15,0,157,3,718,0,0,0,2538,0,0,0,0,14,0,170,0,0,0,0,1028,244,0"
+30,Sorex arcticus,host,hosts_sampled_per_network,"0,0,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,118,0,0,0,0,0,0,0,0,0,0,317,0,0,59,0,0,0,0,0,0,0"
+31,Sorex daphaenodon,host,hosts_sampled_per_network,"0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0"
+32,Micromys minutus,host,hosts_sampled_per_network,"0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,28,1,3,0,0,0,3,0,0,0,0,4,0,6,0,0,11,16,0,0,0,0,0,0,90,0,0,0,63,68,0,0"
+33,Talpa europaea,host,hosts_sampled_per_network,"0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,228,0,0,0,0,0,0,0,164,0,0,0,0,11,0,11,0,0,0,5,0,0,0,0,0,0,3,0,0,0,0,0,225,0"
+34,Microtus agrestis,host,hosts_sampled_per_network,"0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,21,24,0,0,23,0,0,207,0,0,0,0,28,0,469,138,110,0,0,0,80,0,0,0,0,168,0,0,0,0,0,69,41"
+35,Sorex caecutiens,host,hosts_sampled_per_network,"0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,322,12,91,0,0,12,0,0,0,0,0,0,147,0,0,0,0,0,0,0,0,0,0,228,0,0,376,0,0,0,0,0,0,0"
+36,Clethrionomys rufocanus,host,hosts_sampled_per_network,"0,0,3,757,2323,0,0,0,0,0,0,0,0,0,153,757,0,0,37,0,0,0,0,0,3,0,0,0,0,224,10,0,0,19,0,6,0,0,0,0,43,4,0,59,0,0,0,0,0,0,458"
+37,Sorex isodon,host,hosts_sampled_per_network,"0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62,0,0,0,0,0,0,0"
+38,Tamias sibiricus,host,hosts_sampled_per_network,"0,0,19,160,19,0,5,0,0,0,0,0,0,0,0,160,3,0,3,0,0,0,0,0,3,0,0,0,0,118,13,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,17,2,248"
+39,Sorex minutissimus,host,hosts_sampled_per_network,"0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,40,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0"
+40,Apodemus peninsulae,host,hosts_sampled_per_network,"0,0,0,161,433,0,0,0,0,0,0,0,0,0,0,161,18,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,58,0,0,10,0,8,0,364"
+41,Microtus maximowiczii,host,hosts_sampled_per_network,"0,0,0,46,0,0,0,0,0,0,0,0,0,0,0,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,677,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+42,Sciurus vulgaris,host,hosts_sampled_per_network,"0,0,0,8,5,0,2,0,0,0,0,0,0,0,0,8,0,12,0,0,0,0,0,0,1,0,0,0,0,11,1,0,0,0,0,0,0,0,0,0,0,0,2,7,0,0,0,0,0,70,60"
+43,Microtus evoronensis,host,hosts_sampled_per_network,"0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+44,Myopus schisticolor,host,hosts_sampled_per_network,"0,0,0,0,7,0,14,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,15,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,4"
+45,Spermophilus xanthoprymnus,host,hosts_sampled_per_network,"0,0,0,0,0,3360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+46,Meriones vinogradovi,host,hosts_sampled_per_network,"0,0,0,0,0,945,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+47,Meriones persicus,host,hosts_sampled_per_network,"0,0,0,0,0,419,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,670,0,0,0,0,0,0,0,0,0,0,0,0,0"
+48,Mesocricetus brandti,host,hosts_sampled_per_network,"0,0,0,0,0,226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+49,Meriones tristrami,host,hosts_sampled_per_network,"0,0,0,0,0,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,400,0,0,0,0,0,0,0,0,0,0,0,0,0"
+50,Microtus socialis,host,hosts_sampled_per_network,"0,0,0,0,0,110,0,0,0,5,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,14,0,2,0,0,0,0,0,0,0,0,129,0,0,0,0,0,0,0,400,0,0,0,0,0"
+51,Apodemus flavicollis,host,hosts_sampled_per_network,"0,0,0,0,0,719,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,5,0,0,0,0,0,0,909,0,0,0,3598,0,198,0,0,0,0,0,0,0,0,0,0,2466,0"
+52,Crocidura suaveolens,host,hosts_sampled_per_network,"0,0,0,0,0,48,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,41,8,0,0,0,0,0,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,173,0,0,0"
+53,Allactaga elater,host,hosts_sampled_per_network,"0,0,0,0,0,6,0,0,0,35,0,0,480,0,0,0,0,0,0,0,0,0,0,0,0,0,233,0,111,0,0,0,0,0,0,0,0,15,0,3,0,3,0,0,0,1003,0,0,0,0,0"
+54,Sciurus anomalus,host,hosts_sampled_per_network,"0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+55,Neomys schelkovnikovi,host,hosts_sampled_per_network,"0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+56,Spermophilus undulatus,host,hosts_sampled_per_network,"0,0,0,0,0,0,39,0,395,0,0,0,0,0,0,0,0,0,0,0,0,0,0,840,2392,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,118,0,0,0,0"
+57,Marmota caudata,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,389,0,0,17479,2838,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,218,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+58,Spermophilus fulvus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,18,0,0,0,0,669,0,0,0,0,0,0,0,0,1,0,0,0,0,2331,0,2675,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9454,0,0,0,0,0"
+59,Ellobius tancrei,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0"
+60,Alticola argentatus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,56,0,0,77,87,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,1,26,0,511,0,342,0,0,0,0"
+61,Microtus juldaschi,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,48,0,0,278,424,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+62,Clethrionomys centralis,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,1449,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,429,0,981,0,0,0,0,0,0"
+63,Sicista tianshanica,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,698,0,129,0,0,0,0,0,0"
+64,Marmota baibacina,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,47,0,0,0,0,0,0,0,0,0"
+65,Spermophilus erythrogenys,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,7,0,0,0,0,0,0,0,71,0,50,0,0,0,0,0,0,0,0,0"
+66,Rhombomys opimus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,194,0,0,44106,0,0,0,0,0,0,0,0,0,0,0,0,0,35365,0,0,0,0,0,0,0,0,0,0,0,0,3039,0,0,0,0,0,136300,0,0,0,0,0"
+67,Meriones tamariscinus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,35,0,0,81,0,0,0,0,0,0,0,0,0,0,0,0,0,1995,0,285,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0"
+68,Meriones meridianus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,24,0,0,1577,0,0,0,0,0,0,0,0,0,0,0,77,0,2328,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,33586,206,0,0,0,0"
+69,Pygeretmus pumilio,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,10,0,0,92,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0"
+70,Allactaga sibirica,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,1,24,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0"
+71,Allactaga severtzovi,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0"
+72,Pygeretmus shitkovi,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+73,Dipus sagitta,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1705,0,0,0,0,0"
+74,Stylodipus telum,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,2,0,0,537,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+75,Rattus turkestanicus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+76,Chionomys gud,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+77,Mesocricetus raddei,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+78,Microtus fortis,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,269,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,137,0,0"
+79,Sicista betulina,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,44,0,0,12,0,0,27,0,0,0,0,60,0,5,8,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,495,17"
+80,Sorex tundrensis,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+81,Lasiopodomys brandtii,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,212,589,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+82,Marmota sibirica,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,666,407,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+83,Phodopus sungorus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0"
+84,Alticola semicanus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+85,Allocricetulus curtatus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+86,Cricetulus barabensis,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,71,0,0,0,0,0,5,10,0,0,0,10,0,0,0,0,0,0,0,0,0,0,63,0,0,0,0"
+87,Eolagurus przewalskii,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+88,Meriones unguiculatus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0"
+89,Meriones libycus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2661,0,0,0,0,0,0,0,0,0,0,770,0,225,0,0,0,0,0,47665,0,0,0,0,0"
+90,Spermophilopsis leptodactylus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3183,0,0,0,0,0"
+91,Diplomesodon pulchellum,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+92,Eremodipus lichtensteini,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0"
+93,Microtus kirgisorum,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+94,Alticola macrotis,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+95,Lemmus sibiricus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65,0,0,0,0,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,0,0"
+96,Spermophilus parryii,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,71,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+97,Sorex cinereus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+98,Sorex roboratus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,47,0,0,28,0,0,0,0,0,0,0"
+99,Myospalax aspalax,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+100,Phodopus campbelli,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+101,Pteromys volans,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+102,Alticola strelzowi,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,20,0,0,0,0,164,0,0,0,0"
+103,Microtus subterraneus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,273,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+104,Sorex alpinus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+105,Neomys anomalus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+106,Muscardinus avellanarius,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+107,Microtus tatricus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+108,Crocidura leucodon,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+109,Apodemus fulvipectus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0"
+110,Microtus middendorffi,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0"
+111,Myospalax myospalax,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0"
+112,Spermophilus relictus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,699,0,0,0,0,0,0,0,0"
+113,Talpa altaica,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,4"
+114,Sorex asper,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,0,0,0,0,0,0"
+115,Blanfordimys afghanus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1570,0,0,0,0,0"
+116,Calomyscus mystax,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0"
+117,Microtus transcaspicus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0"
+118,Nesokia indica,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121,0,0,0,0,0"
+119,Alticola barakshin,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,551,0,0,0,0"
+120,Cricetulus longicaudatus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57,0,0,0,0"
+121,Spermophilus suslicus,host,hosts_sampled_per_network,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0"
+122,Ctenophthalmus.proximus,parasite,hosts_sampled_per_network,NA
+123,Ctenophthalmus.hypanis,parasite,hosts_sampled_per_network,NA
+124,Ctenophthalmus.inornatus,parasite,hosts_sampled_per_network,NA
+125,Megabothris.turbidus,parasite,hosts_sampled_per_network,NA
+126,Ctenophthalmus.shovi,parasite,hosts_sampled_per_network,NA
+127,Amphipsylla.rossica,parasite,hosts_sampled_per_network,NA
+128,Hystrichopsylla.talpae,parasite,hosts_sampled_per_network,NA
+129,Amalaraeus.penicilliger,parasite,hosts_sampled_per_network,NA
+130,Myoxopsylla.jordani,parasite,hosts_sampled_per_network,NA
+131,Nosopsyllus.fasciatus,parasite,hosts_sampled_per_network,NA
+132,Leptopsylla.segnis,parasite,hosts_sampled_per_network,NA
+133,Leptopsylla.taschenbergi,parasite,hosts_sampled_per_network,NA
+134,Amphipsylla.georgica,parasite,hosts_sampled_per_network,NA
+135,Hystrichopsylla.satunini,parasite,hosts_sampled_per_network,NA
+136,Rhadinopsylla.integella,parasite,hosts_sampled_per_network,NA
+137,Ceratophyllus.sciurorum,parasite,hosts_sampled_per_network,NA
+138,Palaeopsylla.caucasica,parasite,hosts_sampled_per_network,NA
+139,Ctenophthalmus.euxinicus,parasite,hosts_sampled_per_network,NA
+140,Megabothris.walkeri,parasite,hosts_sampled_per_network,NA
+141,Ctenophthalmus.breviatus,parasite,hosts_sampled_per_network,NA
+142,Citellophilus.tesquorum,parasite,hosts_sampled_per_network,NA
+143,Ctenophthalmus.assimilis,parasite,hosts_sampled_per_network,NA
+144,Neopsylla.pleskei,parasite,hosts_sampled_per_network,NA
+145,Frontopsylla.elata,parasite,hosts_sampled_per_network,NA
+146,Pectinoctenus.pavlovskii,parasite,hosts_sampled_per_network,NA
+147,Amphipsylla.prima,parasite,hosts_sampled_per_network,NA
+148,Neopsylla.setosa,parasite,hosts_sampled_per_network,NA
+149,Amphipsylla.sibirica,parasite,hosts_sampled_per_network,NA
+150,Peromyscopsylla.bidentata,parasite,hosts_sampled_per_network,NA
+151,Amphipsylla.kuznetzovi,parasite,hosts_sampled_per_network,NA
+152,Stenoponia.ivanovi,parasite,hosts_sampled_per_network,NA
+153,Mesopsylla.hebes,parasite,hosts_sampled_per_network,NA
+154,Oropsylla.ilovaiskii,parasite,hosts_sampled_per_network,NA
+155,Frontopsylla.elatoides,parasite,hosts_sampled_per_network,NA
+156,Oropsylla.silantiewi,parasite,hosts_sampled_per_network,NA
+157,Palaeopsylla.soricis,parasite,hosts_sampled_per_network,NA
+158,Corrodopsylla.birulai,parasite,hosts_sampled_per_network,NA
+159,Amphipsylla.dumalis,parasite,hosts_sampled_per_network,NA
+160,Neopsylla.mana,parasite,hosts_sampled_per_network,NA
+161,Megabothris.rectangulatus,parasite,hosts_sampled_per_network,NA
+162,Ceratophyllus.indages,parasite,hosts_sampled_per_network,NA
+163,Megabothris.advenarius,parasite,hosts_sampled_per_network,NA
+164,Amphipsylla.marikovskii,parasite,hosts_sampled_per_network,NA
+165,Catallagia.dacenkoi,parasite,hosts_sampled_per_network,NA
+166,Catallagia.ioffi,parasite,hosts_sampled_per_network,NA
+167,Amalaraeus.ioffi,parasite,hosts_sampled_per_network,NA
+168,Catallagia.striata,parasite,hosts_sampled_per_network,NA
+169,Hystrichopsylla.microti,parasite,hosts_sampled_per_network,NA
+170,Neopsylla.acanthina,parasite,hosts_sampled_per_network,NA
+171,Peromyscopsylla.silvatica,parasite,hosts_sampled_per_network,NA
+172,Ctenophthalmus.pisticus,parasite,hosts_sampled_per_network,NA
+173,Stenoponia.montana,parasite,hosts_sampled_per_network,NA
+174,Ctenophthalmus.congeneroides,parasite,hosts_sampled_per_network,NA
+175,Ctenophyllus.armatus,parasite,hosts_sampled_per_network,NA
+176,Megabothris.bispinosa,parasite,hosts_sampled_per_network,NA
+177,Ceratophyllus.anisus,parasite,hosts_sampled_per_network,NA
+178,Tarsopsylla.octodecimdentata,parasite,hosts_sampled_per_network,NA
+179,Pectinoctenus.pectiniceps,parasite,hosts_sampled_per_network,NA
+180,Amalaraeus.dissimilis,parasite,hosts_sampled_per_network,NA
+181,Megabothris.asio,parasite,hosts_sampled_per_network,NA
+182,Rhadinopsylla.pseudodahurica,parasite,hosts_sampled_per_network,NA
+183,Citellophilus.transcaucasicus,parasite,hosts_sampled_per_network,NA
+184,Nosopsyllus.iranus,parasite,hosts_sampled_per_network,NA
+185,Nosopsyllus.consimilis,parasite,hosts_sampled_per_network,NA
+186,Ctenophthalmus.teres,parasite,hosts_sampled_per_network,NA
+187,Xenopsylla.cheopis,parasite,hosts_sampled_per_network,NA
+188,Stenoponia.tripectinata,parasite,hosts_sampled_per_network,NA
+189,Rhadinopsylla.cedestis,parasite,hosts_sampled_per_network,NA
+190,Ophthalmopsylla.volgensis,parasite,hosts_sampled_per_network,NA
+191,Amphipsylla.schelkovnikovi,parasite,hosts_sampled_per_network,NA
+192,Ctenophthalmus.acuminatus,parasite,hosts_sampled_per_network,NA
+193,Wagnerina.schelkovnikovi,parasite,hosts_sampled_per_network,NA
+194,Ctenophthalmus.secundus,parasite,hosts_sampled_per_network,NA
+195,Nosopsyllus.mokrzeckyi,parasite,hosts_sampled_per_network,NA
+196,Xenopsylla.conformis,parasite,hosts_sampled_per_network,NA
+197,Callopsylla.saxatilis,parasite,hosts_sampled_per_network,NA
+198,Ctenophthalmus.bogatschevi,parasite,hosts_sampled_per_network,NA
+199,Callopsylla.caspia,parasite,hosts_sampled_per_network,NA
+200,Ctenophthalmus.golovi,parasite,hosts_sampled_per_network,NA
+201,Mesopsylla.apscheronica,parasite,hosts_sampled_per_network,NA
+202,Rhadinopsylla.ucrainica,parasite,hosts_sampled_per_network,NA
+203,Mesopsylla.tuschkan,parasite,hosts_sampled_per_network,NA
+204,Paradoxopsyllus.hesperius,parasite,hosts_sampled_per_network,NA
+205,Amphipsylla.primaris,parasite,hosts_sampled_per_network,NA
+206,Frontopsylla.luculenta,parasite,hosts_sampled_per_network,NA
+207,Ceratophyllus.paradoxus,parasite,hosts_sampled_per_network,NA
+208,Rhadinopsylla.dahurica,parasite,hosts_sampled_per_network,NA
+209,Oropsylla.alaskensis,parasite,hosts_sampled_per_network,NA
+210,Megabothris.calcarifer,parasite,hosts_sampled_per_network,NA
+211,Citellophilus.lebedewi,parasite,hosts_sampled_per_network,NA
+212,Rhadinopsylla.li,parasite,hosts_sampled_per_network,NA
+213,Pectinoctenus.nemorosa,parasite,hosts_sampled_per_network,NA
+214,Leptopsylla.nana,parasite,hosts_sampled_per_network,NA
+215,Frontopsylla.protera,parasite,hosts_sampled_per_network,NA
+216,Amphipsylla.phaiomydis,parasite,hosts_sampled_per_network,NA
+217,Ophthalmopsylla.praefecta,parasite,hosts_sampled_per_network,NA
+218,Ctenophthalmus.dilatatus,parasite,hosts_sampled_per_network,NA
+219,Ctenophthalmus.dux,parasite,hosts_sampled_per_network,NA
+220,Neopsylla.teratura,parasite,hosts_sampled_per_network,NA
+221,Ctenophthalmus.arvalis,parasite,hosts_sampled_per_network,NA
+222,Frontopsylla.ornata,parasite,hosts_sampled_per_network,NA
+223,Rhadinopsylla.angusta,parasite,hosts_sampled_per_network,NA
+224,Xenopsylla.skrjabini,parasite,hosts_sampled_per_network,NA
+225,Xenopsylla.hirtipes,parasite,hosts_sampled_per_network,NA
+226,Xenopsylla.gerbilli,parasite,hosts_sampled_per_network,NA
+227,Nosopsyllus.laeviceps,parasite,hosts_sampled_per_network,NA
+228,Coptopsylla.lamellifer,parasite,hosts_sampled_per_network,NA
+229,Echidnophaga.oschanini,parasite,hosts_sampled_per_network,NA
+230,Mesopsylla.eucta,parasite,hosts_sampled_per_network,NA
+231,Ctenophthalmus.dolichus,parasite,hosts_sampled_per_network,NA
+232,Nosopsyllus.tersus,parasite,hosts_sampled_per_network,NA
+233,Citellophilus.ullus,parasite,hosts_sampled_per_network,NA
+234,Rhadinopsylla.socia,parasite,hosts_sampled_per_network,NA
+235,Rhadinopsylla.bivirgis,parasite,hosts_sampled_per_network,NA
+236,Paradoxopsyllus.repandus,parasite,hosts_sampled_per_network,NA
+237,Citellophilus.trispinus,parasite,hosts_sampled_per_network,NA
+238,Mesopsylla.lenis,parasite,hosts_sampled_per_network,NA
+239,Nosopsyllus.fidus,parasite,hosts_sampled_per_network,NA
+240,Xenopsylla.magdalinae,parasite,hosts_sampled_per_network,NA
+241,Amphipsylla.anceps,parasite,hosts_sampled_per_network,NA
+242,Paraneopsylla.ioffi,parasite,hosts_sampled_per_network,NA
+243,Neopsylla.meridiana,parasite,hosts_sampled_per_network,NA
+244,Amphipsylla.montana,parasite,hosts_sampled_per_network,NA
+245,Pectinoctenus.pamirensis,parasite,hosts_sampled_per_network,NA
+246,Paradoxopsyllus.naryni,parasite,hosts_sampled_per_network,NA
+247,Ceratophyllus.sinicus,parasite,hosts_sampled_per_network,NA
+248,Frontopsylla.ambigua,parasite,hosts_sampled_per_network,NA
+249,Callopsylla.lagomys,parasite,hosts_sampled_per_network,NA
+250,Rhadinopsylla.altifrons,parasite,hosts_sampled_per_network,NA
+251,Nosopsyllus.simla,parasite,hosts_sampled_per_network,NA
+252,Frontopsylla.semura,parasite,hosts_sampled_per_network,NA
+253,Stenoponia.conspecta,parasite,hosts_sampled_per_network,NA
+254,Amphipsylla.kalabukhovi,parasite,hosts_sampled_per_network,NA
+255,Ctenophthalmus.wagneri,parasite,hosts_sampled_per_network,NA
+256,Ctenophthalmus.orientalis,parasite,hosts_sampled_per_network,NA
+257,Ctenophthalmus.chionomydis,parasite,hosts_sampled_per_network,NA
+258,Peromyscopsylla.ostsibirica,parasite,hosts_sampled_per_network,NA
+259,Neopsylla.bidentatiformis,parasite,hosts_sampled_per_network,NA
+260,Stenoponia.sidimi,parasite,hosts_sampled_per_network,NA
+261,Rhadinopsylla.insolita,parasite,hosts_sampled_per_network,NA
+262,Ctenophthalmus.uncinatus,parasite,hosts_sampled_per_network,NA
+263,Doratopsylla.dasycnema,parasite,hosts_sampled_per_network,NA
+264,Ctenophthalmus.bisoctodentatus,parasite,hosts_sampled_per_network,NA
+265,Ctenophthalmus.agyrtes,parasite,hosts_sampled_per_network,NA
+266,Palaeopsylla.kohauti,parasite,hosts_sampled_per_network,NA
+267,Frontopsylla.hetera,parasite,hosts_sampled_per_network,NA
+268,Rhadinopsylla.rothschildi,parasite,hosts_sampled_per_network,NA
+269,Paradoxopsyllus.scorodumovi,parasite,hosts_sampled_per_network,NA
+270,Ctenophyllus.hirticrus,parasite,hosts_sampled_per_network,NA
+271,Paramonopsyllus.scalonae,parasite,hosts_sampled_per_network,NA
+272,Amphipsylla.vinogradovi,parasite,hosts_sampled_per_network,NA
+273,Neopsylla.abagaitui,parasite,hosts_sampled_per_network,NA
+274,Amphalius.runatus,parasite,hosts_sampled_per_network,NA
+275,Paradoxopsyllus.dashidorzhii,parasite,hosts_sampled_per_network,NA
+276,Neopsylla.galea,parasite,hosts_sampled_per_network,NA
+277,Amphipsylla.longispina,parasite,hosts_sampled_per_network,NA
+278,Wagnerina.longicauda,parasite,hosts_sampled_per_network,NA
+279,Paradoxopsyllus.integer,parasite,hosts_sampled_per_network,NA
+280,Frontopsylla.wagneri,parasite,hosts_sampled_per_network,NA
+281,Ophthalmopsylla.kiritschenkovi,parasite,hosts_sampled_per_network,NA
+282,Paradoxopsyllus.kalabukhovi,parasite,hosts_sampled_per_network,NA
+283,Rhadinopsylla.altaica,parasite,hosts_sampled_per_network,NA
+284,Nosopsyllus.turkmenicus,parasite,hosts_sampled_per_network,NA
+285,Stenoponia.vlasovi,parasite,hosts_sampled_per_network,NA
+286,Nosopsyllus.aralis,parasite,hosts_sampled_per_network,NA
+287,Rostropsylla.daca,parasite,hosts_sampled_per_network,NA
+288,Synosternus.longispinus,parasite,hosts_sampled_per_network,NA
+289,Frontopsylla.macrophthalma,parasite,hosts_sampled_per_network,NA
+290,Desertopsylla.rothschildi,parasite,hosts_sampled_per_network,NA
+291,Ctenophthalmus.wladimiri,parasite,hosts_sampled_per_network,NA
+292,Amphipsylla.asiatica,parasite,hosts_sampled_per_network,NA
+293,Megabothris.beljaevi,parasite,hosts_sampled_per_network,NA
+294,Leptopsylla.sicistae,parasite,hosts_sampled_per_network,NA
+295,Ctenophthalmus.solutus,parasite,hosts_sampled_per_network,NA
+296,Amalaraeus.arvicolae,parasite,hosts_sampled_per_network,NA
+297,Ctenophthalmus.congener,parasite,hosts_sampled_per_network,NA
+298,Hystrichopsylla.orientalis,parasite,hosts_sampled_per_network,NA
+299,Ctenophthalmus.obtusus,parasite,hosts_sampled_per_network,NA
+300,Peromyscopsylla.fallax,parasite,hosts_sampled_per_network,NA
+301,Atyphloceras.nuperus,parasite,hosts_sampled_per_network,NA
+302,Rhadinopsylla.pentacantha,parasite,hosts_sampled_per_network,NA
+303,Ctenophthalmus.nobilis,parasite,hosts_sampled_per_network,NA
+304,Rhadinopsylla.isacantha,parasite,hosts_sampled_per_network,NA
+305,Paradoxopsyllus.teretifrons,parasite,hosts_sampled_per_network,NA
+306,Pectinoctenus.lauta,parasite,hosts_sampled_per_network,NA
+307,Neopsylla.democratica,parasite,hosts_sampled_per_network,NA
+308,Rhadinopsylla.ioffi,parasite,hosts_sampled_per_network,NA
+309,Paraneopsylla.tiflovi,parasite,hosts_sampled_per_network,NA
+310,Stenoponia.suknevi,parasite,hosts_sampled_per_network,NA
+311,Xenopsylla.nuttalli,parasite,hosts_sampled_per_network,NA
+312,Coptopsylla.olgae,parasite,hosts_sampled_per_network,NA
+313,Coptopsylla.bairamalensis,parasite,hosts_sampled_per_network,NA
+314,Amphipsylla.parthiana,parasite,hosts_sampled_per_network,NA
+315,Ophthalmopsylla.karakum,parasite,hosts_sampled_per_network,NA
+316,Xenopsylla.persica,parasite,hosts_sampled_per_network,NA
+317,Nosopsyllus.philippovi,parasite,hosts_sampled_per_network,NA
+318,Peromyscopsylla.tikhomirovae,parasite,hosts_sampled_per_network,NA
+319,Phaenopsylla.kopetdag,parasite,hosts_sampled_per_network,NA
+320,Paradoxopsyllus.microphthalmus,parasite,hosts_sampled_per_network,NA
+321,Amphipsylla.argoi,parasite,hosts_sampled_per_network,NA
+322,Phaenopsylla.tiflovi,parasite,hosts_sampled_per_network,NA
+323,Wagnerina.tuvensis,parasite,hosts_sampled_per_network,NA
+324,Ophthalmopsylla.kukuschkini,parasite,hosts_sampled_per_network,NA
+325,Xenopsylla.nubica,parasite,hosts_sampled_per_network,NA
+326,Catallagia.fetisovi,parasite,hosts_sampled_per_network,NA
+327,Ctenophyllus.subarmatus,parasite,hosts_sampled_per_network,NA

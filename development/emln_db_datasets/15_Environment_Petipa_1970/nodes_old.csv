@@ -1,0 +1,15 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Oikopleura,taxon,taxonomy_name,Oikopleura,taxonomy_rank,genus
+2,II-III copepodites,taxon,taxonomy_name,Copepoda,taxonomy_rank,NA
+3,IV-VI copepodites of Paracalanus,taxon,taxonomy_name,Copepoda,taxonomy_rank,NA
+4,larvae of molluscs and polychaetes,taxon,taxonomy_name,Polychaeta,taxonomy_rank,class
+5,naupliuses,taxon,taxonomy_name,Aegerita crustacea,taxonomy_rank,species
+6,IV-VI copepodites of Calanus and Pseudocalanus,taxon,taxonomy_name,Pseudocalanus,taxonomy_rank,genus
+7,detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+8,phytoplankton,taxon,taxonomy_name,NA,taxonomy_rank,NA
+9,saprophagous plankton,taxon,taxonomy_name,NA,taxonomy_rank,NA
+10,mixed-food consumers,taxon,taxonomy_name,NA,taxonomy_rank,NA
+11,primary carnivores,taxon,taxonomy_name,NA,taxonomy_rank,NA
+12,secondary carnivores,taxon,taxonomy_name,NA,taxonomy_rank,NA
+13,tertiary carnivores,taxon,taxonomy_name,NA,taxonomy_rank,NA
+14,large-sized phytoplankton,taxon,taxonomy_name,NA,taxonomy_rank,NA

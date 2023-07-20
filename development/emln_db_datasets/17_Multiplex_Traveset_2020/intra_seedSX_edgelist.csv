@@ -1,0 +1,85 @@
+plant_sp,bird_sp,intralayer
+Bursera graveolens,Geospiza scandens,0.0625
+Bursera graveolens,Mimus parvulus,0.028571429
+Capsicum frutescens,Myiarchus magnirostris,0.090909091
+cf. Malvaceae,Geospiza fortis,0.008547009
+Chiococca alba,Geospiza scandens,0.03125
+Cordia leucophlyctis,Geospiza scandens,0.015625
+Cordia lutea,Geospiza scandens,0.046875
+Cyperaceae cf. Eleocharis sp.1,Geospiza fortis,0.256410256
+Cyperaceae cf. Eleocharis sp.1,Geospiza fuliginosa,0.246376812
+Cyperaceae cf. Eleocharis sp.1,Geospiza magnirostris,0.4
+Cyperaceae cf. Eleocharis sp.1,Setophaga petechia,0.052631579
+Desmodium incanum,Geospiza fortis,0.008547009
+Desmodium procumbens,Geospiza fortis,0.017094017
+Desmodium procumbens,Geospiza fuliginosa,0.014492754
+Desmodium procumbens,Setophaga petechia,0.052631579
+Eragrostis sp.,Geospiza fortis,0.094017094
+Eragrostis sp.,Geospiza fuliginosa,0.115942029
+Eragrostis sp.,Myiarchus magnirostris,0.090909091
+Erichloa pacifica,Camarhynchus parvulus,0.090909091
+Erichloa pacifica,Geospiza fortis,0.025641026
+Erichloa pacifica,Geospiza fuliginosa,0.014492754
+Erichloa pacifica,Setophaga petechia,0.105263158
+Lantana peduncularis ,Geospiza scandens,0.015625
+Mentzelia aspera,Camarhynchus parvulus,0.363636364
+Mentzelia aspera,Geospiza fortis,0.068376068
+Mentzelia aspera,Geospiza fuliginosa,0.043478261
+Mentzelia aspera,Setophaga petechia,0.052631579
+Miconia robinsoniana,Camarhynchus pallidus,1
+Miconia robinsoniana,Camarhynchus parvulus,0.545454545
+Miconia robinsoniana,Certhidea olivacea,1
+Miconia robinsoniana,Geospiza fortis,0.102564103
+Miconia robinsoniana,Geospiza fuliginosa,0.15942029
+Miconia robinsoniana,Mimus parvulus,0.142857143
+Miconia robinsoniana,Myiarchus magnirostris,0.363636364
+Miconia robinsoniana,Setophaga petechia,0.157894737
+Momordica charantia,Geospiza scandens,0.015625
+Opuntia echios,Geospiza magnirostris,0.2
+Oxalis sp.1,Geospiza fortis,0.076923077
+Oxalis sp.1,Geospiza fuliginosa,0.043478261
+Panicum sp.,Geospiza fortis,0.008547009
+Panicum sp.,Geospiza fuliginosa,0.014492754
+Paspalum conjugatum,Geospiza fortis,0.042735043
+Paspalum conjugatum,Geospiza fuliginosa,0.057971014
+Pilea baurii,Mimus parvulus,0.028571429
+Poaceae,Geospiza fortis,0.05982906
+Poaceae,Geospiza fuliginosa,0.014492754
+Poaceae,Mimus parvulus,0.028571429
+Poaceae,Myiarchus magnirostris,0.090909091
+Poaceae,Platyspiza crassirostris,0.333333333
+Poaceae,Setophaga petechia,0.210526316
+Polygonum galapagense,Geospiza fortis,0.136752137
+Polygonum galapagense,Geospiza fuliginosa,0.15942029
+Polygonum galapagense,Geospiza magnirostris,0.2
+Polygonum galapagense,Platyspiza crassirostris,0.333333333
+Polygonum galapagense,Setophaga petechia,0.157894737
+Portulaca oleracea,Geospiza fortis,0.042735043
+Portulaca oleracea,Geospiza fuliginosa,0.057971014
+Rubus niveus,Mimus parvulus,0.2
+Scutia spicata,Geospiza scandens,0.03125
+Scutia spicata,Mimus parvulus,0.171428571
+Seed_01,Geospiza fortis,0.017094017
+Seed_01,Mimus parvulus,0.028571429
+Seed_01,Myiarchus magnirostris,0.181818182
+Seed_01,Setophaga petechia,0.105263158
+Seed_27,Geospiza fortis,0.008547009
+Seed_27,Geospiza fuliginosa,0.014492754
+Seed_56,Setophaga petechia,0.052631579
+Sida spinosa,Geospiza fortis,0.008547009
+Sida spinosa,Geospiza fuliginosa,0.014492754
+Talinum paniculatum,Geospiza fortis,0.008547009
+Talinum paniculatum,Geospiza fuliginosa,0.014492754
+Talinum paniculatum,Platyspiza crassirostris,0.333333333
+Tournefortia psilostachya,Geospiza magnirostris,0.2
+Tournefortia psilostachya,Geospiza scandens,0.484375
+Tournefortia psilostachya,Mimus parvulus,0.314285714
+Tournefortia psilostachya,Myiarchus magnirostris,0.181818182
+Tournefortia psilostachya,Setophaga petechia,0.052631579
+Tournefortia pubescens,Geospiza scandens,0.25
+Tournefortia rufo-sericea,Geospiza scandens,0.015625
+Tradescantia fluminensis ,Geospiza fortis,0.008547009
+Tradescantia fluminensis ,Geospiza fuliginosa,0.014492754
+Vallesia glabra,Mimus parvulus,0.028571429
+Zanthoxylum fagara,Geospiza scandens,0.03125
+Zanthoxylum fagara,Mimus parvulus,0.028571429

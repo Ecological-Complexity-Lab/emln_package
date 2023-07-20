@@ -1,0 +1,75 @@
+Specie,Kingdom,Role,Degree,Sum(connections strength),Networks presence
+"Ageneotettix deorum","Animals","Herbivore",5,5.0000,2
+"Arphia crassa","Animals","Herbivore",6,6.0000,2
+"Aulocara femoratum","Animals","Herbivore",5,5.0000,2
+"Boopedon nubilum","Animals","Herbivore",6,6.0000,1
+"Campylacantha olivacea","Animals","Herbivore",9,9.0000,1
+"Cordillacris crenulata","Animals","Herbivore",7,7.0000,1
+"Dactylotum variegatum","Animals","Herbivore",22,22.0000,1
+"Eritettix variabilis","Animals","Herbivore",6,6.0000,2
+"Leprus cyaneus","Animals","Herbivore",6,6.0000,2
+"Melanoplus arizonae","Animals","Herbivore",8,8.0000,2
+"Melanoplus desultorius","Animals","Herbivore",14,14.0000,2
+"Melanoplus gladstoni","Animals","Herbivore",14,14.0000,2
+"Melanoplus glaucipes","Animals","Herbivore",11,11.0000,1
+"Melanoplus lakinus","Animals","Herbivore",13,13.0000,1
+"Opeia obscura","Animals","Herbivore",6,6.0000,2
+"Philbostroma quadrimaculatum","Animals","Herbivore",5,5.0000,1
+"Phoetaliotes nebrascensis","Animals","Herbivore",10,10.0000,2
+"Psoloessa texana","Animals","Herbivore",6,6.0000,2
+"Syrbula fuscovittata","Animals","Herbivore",4,4.0000,2
+"Trachyrachys kiowa","Animals","Herbivore",6,6.0000,1
+"Trimerotropis pallidipennis","Animals","Herbivore",14,14.0000,2
+"Tropidolophus formosus","Animals","Herbivore",1,1.0000,1
+"Aristida hamulosa","Plants","Plant",1,1.0000,1
+"Bouteloua curtipendula","Plants","Plant",1,1.0000,2
+"Bouteloua gracilis","Plants","Plant",19,19.0000,2
+"Bouteloua hirsuta","Plants","Plant",4,4.0000,2
+"Buchloe dactyloides","Plants","Plant",15,15.0000,2
+"Calyophus hartwegii","Plants","Plant",2,2.0000,2
+"Condalia ericoides","Plants","Plant",3,3.0000,1
+"Convolvulus equitans","Plants","Plant",6,6.0000,2
+"Conyza coulteri","Plants","Plant",3,3.0000,1
+"Croton pottsii","Plants","Plant",13,13.0000,2
+"Cryptantha mexicana","Plants","Plant",1,1.0000,2
+"Dyschoriste linearis","Plants","Plant",1,1.0000,1
+"Eragrostis intermedia","Plants","Plant",3,3.0000,2
+"Eupatorium greggii","Plants","Plant",1,1.0000,1
+"Gaura coccinea","Plants","Plant",2,2.0000,1
+"Gilia rigida","Plants","Plant",2,2.0000,1
+"Hoffmannseggia glauca","Plants","Plant",2,2.0000,1
+"Iva dealbata","Plants","Plant",7,7.0000,1
+"Leptaloma cognata","Plants","Plant",11,11.0000,2
+"Linum rigidum","Plants","Plant",3,3.0000,1
+"Machaeranthera scabrella","Plants","Plant",2,2.0000,2
+"Muhlenbergia sp1 A_PH_004","Plants","Plant",4,4.0000,1
+"Oenothera sp1 A_PH_004","Plants","Plant",1,1.0000,1
+"Panicum obtusum","Plants","Plant",1,1.0000,1
+"Polygala longa","Plants","Plant",1,1.0000,2
+"Prosopis glandulosa","Plants","Plant",1,1.0000,1
+"Ratibida columnaris","Plants","Plant",4,4.0000,1
+"Scleropogon brevifolius","Plants","Plant",7,7.0000,2
+"Setaria leucopila","Plants","Plant",2,2.0000,2
+"Sporobolus sp1 A_PH_004","Plants","Plant",3,3.0000,1
+"Unidentified sp1 A_PH_004","Plants","Plant",5,5.0000,1
+"Unidentified sp10 A_PH_004","Plants","Plant",1,1.0000,1
+"Unidentified sp11 A_PH_004","Plants","Plant",1,1.0000,1
+"Unidentified sp12 A_PH_004","Plants","Plant",1,1.0000,1
+"Unidentified sp13 A_PH_004","Plants","Plant",2,2.0000,1
+"Unidentified sp14 A_PH_004","Plants","Plant",1,1.0000,1
+"Unidentified sp15 A_PH_004","Plants","Plant",2,2.0000,1
+"Unidentified sp16 A_PH_004","Plants","Plant",1,1.0000,1
+"Unidentified sp17 A_PH_004","Plants","Plant",1,1.0000,1
+"Unidentified sp2 A_PH_004","Plants","Plant",1,1.0000,1
+"Unidentified sp3 A_PH_004","Plants","Plant",4,4.0000,1
+"Unidentified sp4 A_PH_004","Plants","Plant",7,7.0000,1
+"Unidentified sp5 A_PH_004","Plants","Plant",6,6.0000,1
+"Unidentified sp6 A_PH_004","Plants","Plant",4,4.0000,1
+"Unidentified sp7 A_PH_004","Plants","Plant",3,3.0000,1
+"Unidentified sp8 A_PH_004","Plants","Plant",4,4.0000,1
+"Unidentified sp9 A_PH_004","Plants","Plant",2,2.0000,1
+"Verbena wrightii","Plants","Plant",1,1.0000,2
+"Xanthocephalum sp1 A_PH_004","Plants","Plant",1,1.0000,1
+"Xanthocephalum texanum","Plants","Plant",5,5.0000,2
+"Zinnia grandiflora","Plants","Plant",2,2.0000,2
+"Ziziphus obtusifolius","Plants","Plant",3,3.0000,1

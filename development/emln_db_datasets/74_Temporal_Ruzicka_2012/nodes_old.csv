@@ -1,0 +1,79 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,"copepods (large, >= 0.025mg C)",taxon,taxonomy_name,Copepods,taxonomy_rank,NA
+2,"copepods (small, < 0.025mg C)",taxon,taxonomy_name,Copepods,taxonomy_rank,NA
+3,pteropods,taxon,taxonomy_name,Pteropoda,taxonomy_rank,order
+4,pelagic amphipods,taxon,taxonomy_name,Amphipoda,taxonomy_rank,order
+5,small jellyfish,taxon,taxonomy_name,Medusozoa,taxonomy_rank,NA
+6,large jellyfish,taxon,taxonomy_name,Medusozoa,taxonomy_rank,NA
+7,E. pacifica (adult and juveniles),taxon,taxonomy_name,Pacifica,taxonomy_rank,genus
+8,T. spinifera (adult and juveniles),taxon,taxonomy_name,Acantheurytoma spinifera,taxonomy_rank,species
+9,cephalopod aggregate,taxon,taxonomy_name,Cephalopoda,taxonomy_rank,class
+10,smelt aggregate,taxon,taxonomy_name,Osmeridae,taxonomy_rank,family
+11,shad,taxon,taxonomy_name,Alosa,taxonomy_rank,genus
+12,sardine,taxon,taxonomy_name,Clupeidae,taxonomy_rank,family
+13,herring,taxon,taxonomy_name,Clupeidae,taxonomy_rank,family
+14,anchovy,taxon,taxonomy_name,Engraulidae,taxonomy_rank,family
+15,saury,taxon,taxonomy_name,Scomberesocidae,taxonomy_rank,family
+16,coho yearling,taxon,taxonomy_name,Oncorhynchus kisutch,taxonomy_rank,species
+17,Chinook subyearling,taxon,taxonomy_name,Oncorhynchus tshawytscha,taxonomy_rank,species
+18,Chinook yearling,taxon,taxonomy_name,Oncorhynchus tshawytscha,taxonomy_rank,species
+19,other juvenile salmon,taxon,taxonomy_name,Salmonidae,taxonomy_rank,family
+20,planktivorous rockfish,taxon,taxonomy_name,Sebastes,taxonomy_rank,genus
+21,coho,taxon,taxonomy_name,Oncorhynchus kisutch,taxonomy_rank,species
+22,Chinook,taxon,taxonomy_name,Oncorhynchus tshawytscha,taxonomy_rank,species
+23,shark aggregate,taxon,taxonomy_name,Selachimorpha,taxonomy_rank,NA
+24,jack mackerel,taxon,taxonomy_name,Trachurus symmetricus,taxonomy_rank,species
+25,Pacific mackerel,taxon,taxonomy_name,Scomber japonicus,taxonomy_rank,species
+26,piscivorous rockfish,taxon,taxonomy_name,Sebastes,taxonomy_rank,genus
+27,dogfish aggregate,taxon,taxonomy_name,Squalus,taxonomy_rank,genus
+28,hake,taxon,taxonomy_name,Phycidae,taxonomy_rank,family
+29,sablefish,taxon,taxonomy_name,Anoplopoma fimbria,taxonomy_rank,species
+30,"Hexagrammidae (lingcod, greenling)",taxon,taxonomy_name,Hexagrammidae,taxonomy_rank,family
+31,flatfish (water-column feeders),taxon,taxonomy_name,Pseudorhombus malayanus,taxonomy_rank,species
+32,skates and rays,taxon,taxonomy_name,Transtillaspis batoidea,taxonomy_rank,species
+33,benthivorous rockfish,taxon,taxonomy_name,Sebastes,taxonomy_rank,genus
+34,"Gadidae (cod, haddock, pollock)",taxon,taxonomy_name,Gadidae,taxonomy_rank,family
+35,flatfish (benthic feeders),taxon,taxonomy_name,Pseudorhombus malayanus,taxonomy_rank,species
+36,flatfish (small),taxon,taxonomy_name,Pseudorhombus malayanus,taxonomy_rank,species
+37,grenadier,taxon,taxonomy_name,Macrouridae,taxonomy_rank,family
+38,juvenile rockfish,taxon,taxonomy_name,Sebastes,taxonomy_rank,genus
+39,Pandalus spp.,taxon,taxonomy_name,Pandalus,taxonomy_rank,genus
+40,mysids,taxon,taxonomy_name,Mysida,taxonomy_rank,order
+41,echinoderms,taxon,taxonomy_name,Echinodermata,taxonomy_rank,phylum
+42,"benthic amphipods, isopods, and cumaceans",taxon,taxonomy_name,Isopoda,taxonomy_rank,order
+43,bivalves,taxon,taxonomy_name,Bivalvia,taxonomy_rank,class
+44,Dungeness crab,taxon,taxonomy_name,Metacarcinus magister,taxonomy_rank,species
+45,Tanner crab,taxon,taxonomy_name,Chionoecetes bairdi,taxonomy_rank,species
+46,sooty shearwaters,taxon,taxonomy_name,Puffinus griseus,taxonomy_rank,species
+47,common murre,taxon,taxonomy_name,Uria aalge,taxonomy_rank,species
+48,gulls and terns,taxon,taxonomy_name,Laridae,taxonomy_rank,family
+49,alcids,taxon,taxonomy_name,Alcidae,taxonomy_rank,family
+50,large pelagic seabirds,taxon,taxonomy_name,Aves,taxonomy_rank,class
+51,other pelagic seabirds,taxon,taxonomy_name,Aves,taxonomy_rank,class
+52,storm-petrels,taxon,taxonomy_name,Procellariiformes,taxonomy_rank,order
+53,gray whales,taxon,taxonomy_name,Eschrichtius robustus,taxonomy_rank,species
+54,baleen whales,taxon,taxonomy_name,Mysticeti,taxonomy_rank,NA
+55,small pinnipeds,taxon,taxonomy_name,Phocidae,taxonomy_rank,family
+56,large pinnipeds,taxon,taxonomy_name,Phocidae,taxonomy_rank,family
+57,toothed whales,taxon,taxonomy_name,Odontoceti,taxonomy_rank,NA
+58,Import,taxon,taxonomy_name,Import,taxonomy_rank,NA
+59,fish eggs,taxon,taxonomy_name,NA,taxonomy_rank,NA
+60,benthic detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+61,micro-zooplankton,taxon,taxonomy_name,NA,taxonomy_rank,NA
+62,mesopelagic fish aggregate,taxon,taxonomy_name,NA,taxonomy_rank,NA
+63,misc. small benthic fishes,taxon,taxonomy_name,NA,taxonomy_rank,NA
+64,infauna,taxon,taxonomy_name,NA,taxonomy_rank,NA
+65,large phytoplankton,taxon,taxonomy_name,NA,taxonomy_rank,NA
+66,small phytoplankton,taxon,taxonomy_name,NA,taxonomy_rank,NA
+67,pelagic detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+68,small invertebrate larvae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+69,invertebrate eggs,taxon,taxonomy_name,NA,taxonomy_rank,NA
+70,"pelagic shrimp (Sergestidae, Panaeidae)",taxon,taxonomy_name,NA,taxonomy_rank,NA
+71,other macro-zooplankton,taxon,taxonomy_name,NA,taxonomy_rank,NA
+72,juvenile fish (other),taxon,taxonomy_name,NA,taxonomy_rank,NA
+73,other epibenthic shrimp (Caridea),taxon,taxonomy_name,NA,taxonomy_rank,NA
+74,misc. epifauna (suspension feeders),taxon,taxonomy_name,NA,taxonomy_rank,NA
+75,misc. epifauna (carnivorous),taxon,taxonomy_name,NA,taxonomy_rank,NA
+76,other salmon aggregate,taxon,taxonomy_name,NA,taxonomy_rank,NA
+77,fishery offal,taxon,taxonomy_name,NA,taxonomy_rank,NA
+78,coastal seabirds (divers),taxon,taxonomy_name,NA,taxonomy_rank,NA

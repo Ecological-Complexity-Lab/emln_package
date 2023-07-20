@@ -1,0 +1,102 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Ephemerella subvaria (0.4-0.6 mm HCW),taxon,taxonomy_name,Ephemerella subvaria,taxonomy_rank,species
+2,Baetis tricaudatus (0.2-0.4 mm HCW),taxon,taxonomy_name,Baetis tricaudatus,taxonomy_rank,species
+3,Hydropsyche sparna (0.4-0.6 mm HCW),taxon,taxonomy_name,Ceratopsyche sparna,taxonomy_rank,species
+4,Diatoms,taxon,taxonomy_name,Diatoms,taxonomy_rank,NA
+5,Soft body parts,taxon,taxonomy_name,NA,taxonomy_rank,NA
+6,Chironomids,taxon,taxonomy_name,Chironomidae,taxonomy_rank,family
+7,Other algae,taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+8,Agnetina capitata (2.0-3.0 mm HCW),taxon,taxonomy_name,Agnetina capitata,taxonomy_rank,species
+9,Paracapnia angulata (0.1-0.2 mm HCW),taxon,taxonomy_name,Paracapnia angulata,taxonomy_rank,species
+10,Brachyptera fasciata (0.4-0.6 mm HCW),taxon,taxonomy_name,Brachyptera fasciata,taxonomy_rank,NA
+11,Paragnetina media (1.0-2.0 mm HCW),taxon,taxonomy_name,Paragnetina media,taxonomy_rank,species
+12,Paragnetina media (0.2-0.3 mm HCW),taxon,taxonomy_name,Paragnetina media,taxonomy_rank,species
+13,Paraleptophlebia adoptiva (0.2-0.4 mm HCW),taxon,taxonomy_name,Paraleptophlebia adoptiva,taxonomy_rank,species
+14,Hydropsyche morosa (0.4-0.6 mm HCW),taxon,taxonomy_name,Ceratopsyche morosa,taxonomy_rank,species
+15,Cheumatopsyche sp. (0.2-0.4 mm HCW),taxon,taxonomy_name,Cheumatopsyche,taxonomy_rank,genus
+16,Dolophilodes distinctus (0.4-0.6 mm HCW),taxon,taxonomy_name,Dolophilodes distinctus,taxonomy_rank,species
+17,Micrasema sp. (0.3-0.4 mm HCW),taxon,taxonomy_name,Micrasema,taxonomy_rank,genus
+18,Glossosoma nigrior (0.2-0.3 mm HCW),taxon,taxonomy_name,Glossosoma nigrior,taxonomy_rank,species
+19,Glossosoma sp. A (0.1-0.2 mm HCW),taxon,taxonomy_name,Glossosoma,taxonomy_rank,genus
+20,Rhyacophila fuscula (0.2-0.4 mm HCW),taxon,taxonomy_name,Rhyacophila fuscula,taxonomy_rank,species
+21,Stemelmis nr. Bicarinata (0.1-0.2 mm HCW),taxon,taxonomy_name,Stenelmis bicarinata,taxonomy_rank,species
+22,Promoresia elegans (0.1-0.2 mm HCW),taxon,taxonomy_name,Promoresia elegans,taxonomy_rank,species
+23,Optioservus fastiditus (0.5-0.6 mm HCW),taxon,taxonomy_name,Optioservus fastiditus,taxonomy_rank,species
+24,Thienemanniella sp. (0.1-0.2 mm HCW),taxon,taxonomy_name,Thienemanniella,taxonomy_rank,genus
+25,Cricotopus sp. (0.1-0.2 mm HCW),taxon,taxonomy_name,Cricotopus,taxonomy_rank,genus
+26,Eukieferiella brehmi grp. (0.0-0.1 mm HCW),taxon,taxonomy_name,Eukiefferiella brehmi,taxonomy_rank,species
+27,E. gracei grp. (0.1-0.2 mm HCW),taxon,taxonomy_name,Eukiefferiella gracei,taxonomy_rank,species
+28,Parametriocnemus sp. (0.0-0.1 mm HCW),taxon,taxonomy_name,Parametriocnemus,taxonomy_rank,genus
+29,Tanytarsus sp. (0.1-0.2 mm HCW),taxon,taxonomy_name,Tanytarsus,taxonomy_rank,genus
+30,Nais simplex (2.1-2.7 mm HCW length),taxon,taxonomy_name,Nais simplex,taxonomy_rank,species
+31,Antocha sp. (1.0-2.0 mm HCW length),taxon,taxonomy_name,Antocha,taxonomy_rank,genus
+32,Antocha sp. (3.0-4.0 mm HCW length),taxon,taxonomy_name,Antocha,taxonomy_rank,genus
+33,Antocha sp. (4.0-5.0 mm HCW length),taxon,taxonomy_name,Antocha,taxonomy_rank,genus
+34,Detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+35,Vascular plant material,taxon,taxonomy_name,NA,taxonomy_rank,NA
+36,Fungal hyphae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+37,Microinorganic particles,taxon,taxonomy_name,NA,taxonomy_rank,NA
+38,Chitin fragments,taxon,taxonomy_name,NA,taxonomy_rank,NA
+39,Stempellina montivaga grp. (0.2-0.3 mm HCW),taxon,taxonomy_name,NA,taxonomy_rank,NA
+40,Agnetina capitata (1.0-2.0 mm HCW),taxon,taxonomy_name,Agnetina capitata,taxonomy_rank,species
+41,Paracapnia angulata (0.7-0.8 mm HCW),taxon,taxonomy_name,Paracapnia angulata,taxonomy_rank,species
+42,Ephemerella subvaria (1.2-1.4 mm HCW),taxon,taxonomy_name,Ephemerella subvaria,taxonomy_rank,species
+43,Paraleptophlebia adoptiva (0.4-0.6 mm HCW),taxon,taxonomy_name,Paraleptophlebia adoptiva,taxonomy_rank,species
+44,Baetis tricaudatus (0.4-0.6 mm HCW),taxon,taxonomy_name,Baetis tricaudatus,taxonomy_rank,species
+45,Hydropsyche sparna (0.0-0.2 mm HCW),taxon,taxonomy_name,Ceratopsyche sparna,taxonomy_rank,species
+46,Hydropsyche morosa (0.6-0.8 mm HCW),taxon,taxonomy_name,Ceratopsyche morosa,taxonomy_rank,species
+47,Dolophilodes distinctus (0.2-0.4 mm HCW),taxon,taxonomy_name,Dolophilodes distinctus,taxonomy_rank,species
+48,Rhyacophila fuscula (0.8-1.0 mm HCW),taxon,taxonomy_name,Rhyacophila fuscula,taxonomy_rank,species
+49,Promoresia elegans (0.4-0.5 mm HCW),taxon,taxonomy_name,Promoresia elegans,taxonomy_rank,species
+50,Optioservus fastiditus (0.3-0.4 mm HCW),taxon,taxonomy_name,Optioservus fastiditus,taxonomy_rank,species
+51,Thienemanniella sp. (0.0-0.1 mm HCW),taxon,taxonomy_name,Thienemanniella,taxonomy_rank,genus
+52,Cricotopus sp. (0.0-0.1 mm HCW),taxon,taxonomy_name,Cricotopus,taxonomy_rank,genus
+53,Eukieferiella brehmi grp. (0.1-0.2 mm HCW),taxon,taxonomy_name,Eukiefferiella brehmi,taxonomy_rank,species
+54,Rheosmittia sp. (0.1-0.2 mm HCW),taxon,taxonomy_name,Rheosmittia,taxonomy_rank,genus
+55,Rheotanytarsus sp. (0.1-0.2 mm HCW),taxon,taxonomy_name,Rheotanytarsus,taxonomy_rank,genus
+56,Paracapnia angulata (0.9-1.0 mm HCW),taxon,taxonomy_name,Paracapnia angulata,taxonomy_rank,species
+57,Brachyptera fasciata (0.6-0.8 mm HCW),taxon,taxonomy_name,Brachyptera fasciata,taxonomy_rank,NA
+58,Ephemerella subvaria (1.6-1.8 mm HCW),taxon,taxonomy_name,Ephemerella subvaria,taxonomy_rank,species
+59,Paraleptophlebia adoptiva (0.6-0.8 mm HCW),taxon,taxonomy_name,Paraleptophlebia adoptiva,taxonomy_rank,species
+60,Baetis tricaudatus (0.6-0.8 mm HCW),taxon,taxonomy_name,Baetis tricaudatus,taxonomy_rank,species
+61,Hydropsyche sparna (0.2-0.4 mm HCW),taxon,taxonomy_name,Ceratopsyche sparna,taxonomy_rank,species
+62,Hydropsyche morosa (0.8-1.0 mm HCW),taxon,taxonomy_name,Ceratopsyche morosa,taxonomy_rank,species
+63,Promoresia elegans (0.2-0.3 mm HCW),taxon,taxonomy_name,Promoresia elegans,taxonomy_rank,species
+64,Optioservus fastiditus (0.2-0.3 mm HCW),taxon,taxonomy_name,Optioservus fastiditus,taxonomy_rank,species
+65,Rheosmittia sp. (0.0-0.1 mm HCW),taxon,taxonomy_name,Rheosmittia,taxonomy_rank,genus
+66,Antocha sp. (5.0-6.0 mm HCW length),taxon,taxonomy_name,Antocha,taxonomy_rank,genus
+67,Stempellina montivaga grp. (0.1-0.2 mm HCW),taxon,taxonomy_name,NA,taxonomy_rank,NA
+68,Brachyptera fasciata (0.2-0.4 mm HCW),taxon,taxonomy_name,Brachyptera fasciata,taxonomy_rank,NA
+69,Paragnetina media (0.3-0.4 mm HCW),taxon,taxonomy_name,Paragnetina media,taxonomy_rank,species
+70,Dolophilodes distinctus (0.0-0.2 mm HCW),taxon,taxonomy_name,Dolophilodes distinctus,taxonomy_rank,species
+71,Micrasema sp. (0.2-0.3 mm HCW),taxon,taxonomy_name,Micrasema,taxonomy_rank,genus
+72,Glossosoma nigrior (0.4-0.5 mm HCW),taxon,taxonomy_name,Glossosoma nigrior,taxonomy_rank,species
+73,Glossosoma sp. A (0.2-0.3 mm HCW),taxon,taxonomy_name,Glossosoma,taxonomy_rank,genus
+74,Stemelmis nr. Bicarinata (0.2-0.3 mm HCW),taxon,taxonomy_name,Stenelmis bicarinata,taxonomy_rank,species
+75,Promoresia elegans (0.3-0.4 mm HCW),taxon,taxonomy_name,Promoresia elegans,taxonomy_rank,species
+76,Optioservus fastiditus (0.1-0.2 mm HCW),taxon,taxonomy_name,Optioservus fastiditus,taxonomy_rank,species
+77,Cricotopus sp. (0.2-0.3 mm HCW),taxon,taxonomy_name,Cricotopus,taxonomy_rank,genus
+78,Parametriocnemus sp. (0.2-0.3 mm HCW),taxon,taxonomy_name,Parametriocnemus,taxonomy_rank,genus
+79,Antocha sp. (2.0-3.0 mm HCW length),taxon,taxonomy_name,Antocha,taxonomy_rank,genus
+80,Ephemerella subvaria (1.0-1.2 mm HCW),taxon,taxonomy_name,Ephemerella subvaria,taxonomy_rank,species
+81,Paracapnia angulata (0.2-0.3 mm HCW),taxon,taxonomy_name,Paracapnia angulata,taxonomy_rank,species
+82,Paragnetina media (0.4-0.5 mm HCW),taxon,taxonomy_name,Paragnetina media,taxonomy_rank,species
+83,Paraleptophlebia adoptiva (0.0-0.2 mm HCW),taxon,taxonomy_name,Paraleptophlebia adoptiva,taxonomy_rank,species
+84,Hydropsyche sparna (1.0-1.2 mm HCW),taxon,taxonomy_name,Ceratopsyche sparna,taxonomy_rank,species
+85,Hydropsyche morosa (1.0-1.2 mm HCW),taxon,taxonomy_name,Ceratopsyche morosa,taxonomy_rank,species
+86,Cheumatopsyche sp. (0.6-0.8 mm HCW),taxon,taxonomy_name,Cheumatopsyche,taxonomy_rank,genus
+87,Glossosoma nigrior (0.1-0.2 mm HCW),taxon,taxonomy_name,Glossosoma nigrior,taxonomy_rank,species
+88,Stemelmis nr. Bicarinata (0.3-0.4 mm HCW),taxon,taxonomy_name,Stenelmis bicarinata,taxonomy_rank,species
+89,Stemelmis nr. Bicarinata (0.4-0.5 mm HCW),taxon,taxonomy_name,Stenelmis bicarinata,taxonomy_rank,species
+90,Optioservus fastiditus (0.4-0.5 mm HCW),taxon,taxonomy_name,Optioservus fastiditus,taxonomy_rank,species
+91,Antocha sp. (0.0-1.0 mm HCW length),taxon,taxonomy_name,Antocha,taxonomy_rank,genus
+92,Ephemerella subvaria (0.2-0.4 mm HCW),taxon,taxonomy_name,Ephemerella subvaria,taxonomy_rank,species
+93,Rhyacophila fuscula (0.4-0.6 mm HCW),taxon,taxonomy_name,Rhyacophila fuscula,taxonomy_rank,species
+94,Parametriocnemus sp. (0.1-0.2 mm HCW),taxon,taxonomy_name,Parametriocnemus,taxonomy_rank,genus
+95,Rheotanytarsus sp. (0.2-0.3 mm HCW),taxon,taxonomy_name,Rheotanytarsus,taxonomy_rank,genus
+96,Paracapnia angulata (0.4-0.5 mm HCW),taxon,taxonomy_name,Paracapnia angulata,taxonomy_rank,species
+97,Hydropsyche sparna (0.6-0.8 mm HCW),taxon,taxonomy_name,Ceratopsyche sparna,taxonomy_rank,species
+98,Cheumatopsyche sp. (0.4-0.6 mm HCW),taxon,taxonomy_name,Cheumatopsyche,taxonomy_rank,genus
+99,Dolophilodes distinctus (1.0-1.2 mm HCW),taxon,taxonomy_name,Dolophilodes distinctus,taxonomy_rank,species
+100,Tanytarsus sp. (0.0-0.1 mm HCW),taxon,taxonomy_name,Tanytarsus,taxonomy_rank,genus
+101,Rheotanytarsus sp. (0.0-0.1 mm HCW),taxon,taxonomy_name,Rheotanytarsus,taxonomy_rank,genus

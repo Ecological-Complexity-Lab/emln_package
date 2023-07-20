@@ -1,0 +1,12 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,nectar,taxon,taxonomy_name,Heliconia wagneriana,taxonomy_rank,species
+2,floral parts,taxon,taxonomy_name,Heliconia wagneriana,taxonomy_rank,species
+3,Quichuana picadoi larvae,taxon,taxonomy_name,Quichuana picadoi,taxonomy_rank,species
+4,Copestylum obscurior larvae,taxon,taxonomy_name,Copestylum obscurior,taxonomy_rank,species
+5,Beebeomyia sp. larvae,taxon,taxonomy_name,Beebeomyia,taxonomy_rank,genus
+6,detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+7,Gillisius sp. adults,taxon,taxonomy_name,NA,taxonomy_rank,NA
+8,young leaves,taxon,taxonomy_name,Heliconia imbricata,taxonomy_rank,species
+9,Cephaloleia puncticollis larvae,taxon,taxonomy_name,Cephaloleia puncticollis,taxonomy_rank,species
+10,C. puncticollis adults,taxon,taxonomy_name,Cephaloleia puncticollis,taxonomy_rank,species
+11,Merosargus sp. larvae,taxon,taxonomy_name,Merosargus,taxonomy_rank,genus

@@ -1,0 +1,23 @@
+node_id,node_name,type
+1,Juniperus communis,plant
+2,Juniperus sabina,plant
+3,Berberis vulgaris,plant
+4,Crataegus monogyna,plant
+5,Rosa canina,plant
+6,Juniperus phoenicea,plant
+7,Hedera helix,plant
+8,Lonicera arborea,plant
+9,Taxus baccata,plant
+10,Prunus prostrata,plant
+11,Rhamnus myrtifolius,plant
+12,Rhamnus saxatilis,plant
+13,Viscum album,plant
+14,Osyris quadripartita,plant
+15,Corema album,plant
+16,Phillyrea angustifolia,plant
+17,Daphne oleoides,plant
+18,Turdus.torquatus,bird
+19,Turdus.viscivorus,bird
+20,Turdus.iliacus,bird
+21,Turdus.merula,bird
+22,Turdus.philomelos,bird

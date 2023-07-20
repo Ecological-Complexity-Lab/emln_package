@@ -1,0 +1,511 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+isopods,1,macroalgae,1,1,trophic,method,observation
+Gammarus,1,macroalgae,1,1,trophic,method,observation
+Caprella,1,macroalgae,1,1,trophic,method,observation
+Littorina littorea,1,macroalgae,1,1,trophic,method,observation
+Pomatomus,1,Gammarus,1,1,trophic,method,observation
+Fundulus,1,plankton,1,1,trophic,method,observation
+Fundulus,1,detritus,1,1,trophic,method,observation
+fish fry,1,plankton,1,1,trophic,method,observation
+fish fry,1,detritus,1,1,trophic,method,observation
+Chalina,1,plankton,1,1,trophic,method,observation
+Chalina,1,detritus,1,1,trophic,method,observation
+Mytilus,1,plankton,1,1,trophic,method,observation
+Mytilus,1,detritus,1,1,trophic,method,observation
+Gemma,1,plankton,1,1,trophic,method,observation
+Gemma,1,detritus,1,1,trophic,method,observation
+Abietinaria,1,plankton,1,1,trophic,method,observation
+Abietinaria,1,detritus,1,1,trophic,method,observation
+Sertularia,1,plankton,1,1,trophic,method,observation
+Sertularia,1,detritus,1,1,trophic,method,observation
+Metridium,1,plankton,1,1,trophic,method,observation
+Metridium,1,detritus,1,1,trophic,method,observation
+Lichenophora,1,plankton,1,1,trophic,method,observation
+Lichenophora,1,detritus,1,1,trophic,method,observation
+Strongylocentrotus,1,macroalgae,1,1,trophic,method,observation
+Crago,1,organic matter in mud,1,1,trophic,method,observation
+annelids,1,organic matter in mud,1,1,trophic,method,observation
+Scomber,1,plankton,1,1,trophic,method,observation
+Scomber,1,detritus,1,1,trophic,method,observation
+Clupea,1,plankton,1,1,trophic,method,observation
+Clupea,1,detritus,1,1,trophic,method,observation
+Scomber,1,Fundulus,1,1,trophic,method,observation
+Scomber,1,fish fry,1,1,trophic,method,observation
+Clupea,1,Fundulus,1,1,trophic,method,observation
+Clupea,1,fish fry,1,1,trophic,method,observation
+Loligo,1,Fundulus,1,1,trophic,method,observation
+Loligo,1,fish fry,1,1,trophic,method,observation
+Pagurus,1,organic debris,1,1,trophic,method,observation
+Cancer,1,organic debris,1,1,trophic,method,observation
+Cancer,1,Chalina,1,1,trophic,method,observation
+Pagurus,1,Mytilus,1,1,trophic,method,observation
+Pagurus,1,Gemma,1,1,trophic,method,observation
+Cancer,1,Mytilus,1,1,trophic,method,observation
+Cancer,1,Gemma,1,1,trophic,method,observation
+Pagurus,1,Abietinaria,1,1,trophic,method,observation
+Pagurus,1,Sertularia,1,1,trophic,method,observation
+Cancer,1,Abietinaria,1,1,trophic,method,observation
+Cancer,1,Sertularia,1,1,trophic,method,observation
+Cancer,1,Metridium,1,1,trophic,method,observation
+Pagurus,1,Lichenophora,1,1,trophic,method,observation
+Cancer,1,Lichenophora,1,1,trophic,method,observation
+Polinices,1,Mytilus,1,1,trophic,method,observation
+Polinices,1,Gemma,1,1,trophic,method,observation
+Polinices,1,Littorina littorea,1,1,trophic,method,observation
+Limulus,1,annelids,1,1,trophic,method,observation
+Raja,1,Fundulus,1,1,trophic,method,observation
+Raja,1,fish fry,1,1,trophic,method,observation
+Raja,1,Loligo,1,1,trophic,method,observation
+Asterias,1,Mytilus,1,1,trophic,method,observation
+Asterias,1,Gemma,1,1,trophic,method,observation
+Asterias,1,Polinices,1,1,trophic,method,observation
+Pomatomus,1,Fundulus,1,1,trophic,method,observation
+Pomatomus,1,fish fry,1,1,trophic,method,observation
+Poronatus,1,Fundulus,1,1,trophic,method,observation
+Poronatus,1,fish fry,1,1,trophic,method,observation
+Pomatomus,1,isopods,1,1,trophic,method,observation
+Pomatomus,1,Caprella,1,1,trophic,method,observation
+Poronatus,1,isopods,1,1,trophic,method,observation
+Poronatus,1,Gammarus,1,1,trophic,method,observation
+Poronatus,1,Caprella,1,1,trophic,method,observation
+Pomatomus,1,Crago,1,1,trophic,method,observation
+Poronatus,1,Crago,1,1,trophic,method,observation
+Pomatomus,1,Scomber,1,1,trophic,method,observation
+Pomatomus,1,Clupea,1,1,trophic,method,observation
+Poronatus,1,Scomber,1,1,trophic,method,observation
+Poronatus,1,Clupea,1,1,trophic,method,observation
+Pomatomus,1,Loligo,1,1,trophic,method,observation
+Poronatus,1,Loligo,1,1,trophic,method,observation
+Pomatomus,1,Asterias,1,1,trophic,method,observation
+Poronatus,1,Asterias,1,1,trophic,method,observation
+Myoxocephalus,1,Chalina,1,1,trophic,method,observation
+Myoxocephalus,1,Mytilus,1,1,trophic,method,observation
+Myoxocephalus,1,Gemma,1,1,trophic,method,observation
+Myoxocephalus,1,Abietinaria,1,1,trophic,method,observation
+Myoxocephalus,1,Sertularia,1,1,trophic,method,observation
+Myoxocephalus,1,Metridium,1,1,trophic,method,observation
+Myoxocephalus,1,isopods,1,1,trophic,method,observation
+Myoxocephalus,1,Gammarus,1,1,trophic,method,observation
+Myoxocephalus,1,Caprella,1,1,trophic,method,observation
+Myoxocephalus,1,Littorina littorea,1,1,trophic,method,observation
+Myoxocephalus,1,Strongylocentrotus,1,1,trophic,method,observation
+Myoxocephalus,1,Crago,1,1,trophic,method,observation
+Myoxocephalus,1,annelids,1,1,trophic,method,observation
+Myoxocephalus,1,Pagurus,1,1,trophic,method,observation
+Myoxocephalus,1,Cancer,1,1,trophic,method,observation
+Myoxocephalus,1,Polinices,1,1,trophic,method,observation
+Phoca,1,Scomber,1,1,trophic,method,observation
+Phoca,1,Clupea,1,1,trophic,method,observation
+Phoca,1,Pomatomus,1,1,trophic,method,observation
+Phoca,1,Poronatus,1,1,trophic,method,observation
+Sterna,1,Fundulus,1,1,trophic,method,observation
+Sterna,1,fish fry,1,1,trophic,method,observation
+Sterna,1,Myoxocephalus,1,1,trophic,method,observation
+Pagurus,1,Metridium,1,1,trophic,method,observation
+isopods,1,organic debris,1,1,trophic,method,observation
+Gammarus,1,organic debris,1,1,trophic,method,observation
+Caprella,1,organic debris,1,1,trophic,method,observation
+Pagurus,1,Chalina,1,1,trophic,method,observation
+marsh insects,2,Spartina patena,2,1,trophic,method,observation
+marsh insects,2,organic debris,2,1,trophic,method,observation
+Melampus,2,algae,2,1,trophic,method,observation
+Littorina littorea,2,algae,2,1,trophic,method,observation
+L. saxatilis,2,algae,2,1,trophic,method,observation
+Philoscia,2,organic debris,2,1,trophic,method,observation
+Anurida,2,organic debris,2,1,trophic,method,observation
+Cylisticus,2,organic debris,2,1,trophic,method,observation
+marsh spiders,2,marsh insects,2,1,trophic,method,observation
+Fundulus,2,plankton,2,1,trophic,method,observation
+Fundulus,2,detritus,2,1,trophic,method,observation
+fish fry,2,plankton,2,1,trophic,method,observation
+fish fry,2,detritus,2,1,trophic,method,observation
+Fundulus,2,Melampus,2,1,trophic,method,observation
+Fundulus,2,Littorina littorea,2,1,trophic,method,observation
+Fundulus,2,L. saxatilis,2,1,trophic,method,observation
+fish fry,2,Littorina littorea,2,1,trophic,method,observation
+fish fry,2,L. saxatilis,2,1,trophic,method,observation
+Fundulus,2,Orchestia,2,1,trophic,method,observation
+Fundulus,2,Philoscia,2,1,trophic,method,observation
+Fundulus,2,Anurida,2,1,trophic,method,observation
+Fundulus,2,Cylisticus,2,1,trophic,method,observation
+fish fry,2,Orchestia,2,1,trophic,method,observation
+fish fry,2,Philoscia,2,1,trophic,method,observation
+fish fry,2,Anurida,2,1,trophic,method,observation
+fish fry,2,Cylisticus,2,1,trophic,method,observation
+Corvus,2,Melampus,2,1,trophic,method,observation
+Corvus,2,Littorina littorea,2,1,trophic,method,observation
+Corvus,2,L. saxatilis,2,1,trophic,method,observation
+Pisobia,2,Melampus,2,1,trophic,method,observation
+Pisobia,2,Littorina littorea,2,1,trophic,method,observation
+Pisobia,2,L. saxatilis,2,1,trophic,method,observation
+Corvus,2,Orchestia,2,1,trophic,method,observation
+Corvus,2,Philoscia,2,1,trophic,method,observation
+Corvus,2,Anurida,2,1,trophic,method,observation
+Corvus,2,Cylisticus,2,1,trophic,method,observation
+Pisobia,2,Orchestia,2,1,trophic,method,observation
+Pisobia,2,Philoscia,2,1,trophic,method,observation
+Pisobia,2,Anurida,2,1,trophic,method,observation
+Pisobia,2,Cylisticus,2,1,trophic,method,observation
+song birds,2,marsh insects,2,1,trophic,method,observation
+song birds,2,marsh spiders,2,1,trophic,method,observation
+Orchestia,2,organic debris,2,1,trophic,method,observation
+fish fry,2,Melampus,2,1,trophic,method,observation
+Thais,3,Balanus,3,1,trophic,method,observation
+Asterias,3,Mytilus,3,1,trophic,method,observation
+Asterias,3,Balanus,3,1,trophic,method,observation
+Carcinides,3,organic debris,3,1,trophic,method,observation
+Carcinides,3,Balanus,3,1,trophic,method,observation
+Cancer,3,Mytilus,3,1,trophic,method,observation
+Cancer,3,Balanus,3,1,trophic,method,observation
+Carcinides,3,Sertularia,3,1,trophic,method,observation
+Carcinides,3,Metridium,3,1,trophic,method,observation
+Carcinides,3,Obelia,3,1,trophic,method,observation
+Carcinides,3,Clava,3,1,trophic,method,observation
+Cancer,3,Sertularia,3,1,trophic,method,observation
+Cancer,3,Metridium,3,1,trophic,method,observation
+Cancer,3,Obelia,3,1,trophic,method,observation
+Cancer,3,Clava,3,1,trophic,method,observation
+Carcinides,3,Spirorbis,3,1,trophic,method,observation
+Cancer,3,Spirorbis,3,1,trophic,method,observation
+Carcinides,3,Gammarus,3,1,trophic,method,observation
+Carcinides,3,Orchestia,3,1,trophic,method,observation
+Cancer,3,Gammarus,3,1,trophic,method,observation
+Cancer,3,Orchestia,3,1,trophic,method,observation
+Myoxocephalus,3,plankton,3,1,trophic,method,observation
+Myoxocephalus,3,suspended detritus,3,1,trophic,method,observation
+Tautogolabrus,3,suspended detritus,3,1,trophic,method,observation
+Fundulus,3,plankton,3,1,trophic,method,observation
+Fundulus,3,suspended detritus,3,1,trophic,method,observation
+Tautogolabrus,3,organic debris,3,1,trophic,method,observation
+Fundulus,3,organic debris,3,1,trophic,method,observation
+Myoxocephalus,3,Acmaea,3,1,trophic,method,observation
+Myoxocephalus,3,Crepidula,3,1,trophic,method,observation
+Tautogolabrus,3,Acmaea,3,1,trophic,method,observation
+Tautogolabrus,3,Crepidula,3,1,trophic,method,observation
+Fundulus,3,Acmaea,3,1,trophic,method,observation
+Fundulus,3,Crepidula,3,1,trophic,method,observation
+Myoxocephalus,3,Littorina littorea,3,1,trophic,method,observation
+Myoxocephalus,3,L. obtusata,3,1,trophic,method,observation
+Myoxocephalus,3,L. saxatilis,3,1,trophic,method,observation
+Tautogolabrus,3,Littorina littorea,3,1,trophic,method,observation
+Tautogolabrus,3,L. obtusata,3,1,trophic,method,observation
+Tautogolabrus,3,L. saxatilis,3,1,trophic,method,observation
+Fundulus,3,Littorina littorea,3,1,trophic,method,observation
+Fundulus,3,L. obtusata,3,1,trophic,method,observation
+Fundulus,3,L. saxatilis,3,1,trophic,method,observation
+Myoxocephalus,3,Mytilus,3,1,trophic,method,observation
+Myoxocephalus,3,Balanus,3,1,trophic,method,observation
+Tautogolabrus,3,Mytilus,3,1,trophic,method,observation
+Tautogolabrus,3,Balanus,3,1,trophic,method,observation
+Fundulus,3,Mytilus,3,1,trophic,method,observation
+Fundulus,3,Balanus,3,1,trophic,method,observation
+Myoxocephalus,3,Sertularia,3,1,trophic,method,observation
+Myoxocephalus,3,Metridium,3,1,trophic,method,observation
+Myoxocephalus,3,Obelia,3,1,trophic,method,observation
+Myoxocephalus,3,Clava,3,1,trophic,method,observation
+Tautogolabrus,3,Sertularia,3,1,trophic,method,observation
+Tautogolabrus,3,Metridium,3,1,trophic,method,observation
+Tautogolabrus,3,Obelia,3,1,trophic,method,observation
+Tautogolabrus,3,Clava,3,1,trophic,method,observation
+Fundulus,3,Sertularia,3,1,trophic,method,observation
+Fundulus,3,Metridium,3,1,trophic,method,observation
+Fundulus,3,Clava,3,1,trophic,method,observation
+Myoxocephalus,3,Gammarus,3,1,trophic,method,observation
+Myoxocephalus,3,Orchestia,3,1,trophic,method,observation
+Tautogolabrus,3,Gammarus,3,1,trophic,method,observation
+Tautogolabrus,3,Orchestia,3,1,trophic,method,observation
+Fundulus,3,Gammarus,3,1,trophic,method,observation
+Fundulus,3,Orchestia,3,1,trophic,method,observation
+Myoxocephalus,3,Thais,3,1,trophic,method,observation
+Myoxocephalus,3,Asterias,3,1,trophic,method,observation
+Tautogolabrus,3,Thais,3,1,trophic,method,observation
+Tautogolabrus,3,Asterias,3,1,trophic,method,observation
+Fundulus,3,Thais,3,1,trophic,method,observation
+Fundulus,3,Asterias,3,1,trophic,method,observation
+Myoxocephalus,3,Carcinides,3,1,trophic,method,observation
+Myoxocephalus,3,Cancer,3,1,trophic,method,observation
+Tautogolabrus,3,Carcinides,3,1,trophic,method,observation
+Tautogolabrus,3,Cancer,3,1,trophic,method,observation
+Fundulus,3,Carcinides,3,1,trophic,method,observation
+Fundulus,3,Cancer,3,1,trophic,method,observation
+Cancer,3,organic debris,3,1,trophic,method,observation
+Carcinides,3,Mytilus,3,1,trophic,method,observation
+Fundulus,3,Obelia,3,1,trophic,method,observation
+Crepidula,3,Ascophyllum,3,1,trophic,method,observation
+Tautogolabrus,3,plankton,3,1,trophic,method,observation
+Acmaea,3,Fucus,3,1,trophic,method,observation
+Myoxocephalus,3,organic debris,3,1,trophic,method,observation
+Acmaea,3,Ascophyllum,3,1,trophic,method,observation
+Acmaea,3,Ulva,3,1,trophic,method,observation
+Acmaea,3,other algae,3,1,trophic,method,observation
+Crepidula,3,Fucus,3,1,trophic,method,observation
+Crepidula,3,Ulva,3,1,trophic,method,observation
+Crepidula,3,other algae,3,1,trophic,method,observation
+Acmaea,3,plankton,3,1,trophic,method,observation
+Acmaea,3,suspended detritus,3,1,trophic,method,observation
+Crepidula,3,plankton,3,1,trophic,method,observation
+Crepidula,3,suspended detritus,3,1,trophic,method,observation
+Littorina littorea,3,Ascophyllum,3,1,trophic,method,observation
+Littorina littorea,3,Fucus,3,1,trophic,method,observation
+Littorina littorea,3,Ulva,3,1,trophic,method,observation
+Littorina littorea,3,other algae,3,1,trophic,method,observation
+L. obtusata,3,Ascophyllum,3,1,trophic,method,observation
+Myoxocephalus,3,Orchestia,3,1,trophic,method,observation
+Tautogolabrus,3,Gammarus,3,1,trophic,method,observation
+Tautogolabrus,3,Orchestia,3,1,trophic,method,observation
+Fundulus,3,Gammarus,3,1,trophic,method,observation
+Fundulus,3,Orchestia,3,1,trophic,method,observation
+Myoxocephalus,3,Thais,3,1,trophic,method,observation
+Myoxocephalus,3,Asterias,3,1,trophic,method,observation
+Tautogolabrus,3,Thais,3,1,trophic,method,observation
+Tautogolabrus,3,Asterias,3,1,trophic,method,observation
+Fundulus,3,Thais,3,1,trophic,method,observation
+Fundulus,3,Asterias,3,1,trophic,method,observation
+Myoxocephalus,3,Carcinides,3,1,trophic,method,observation
+Myoxocephalus,3,Cancer,3,1,trophic,method,observation
+Tautogolabrus,3,Carcinides,3,1,trophic,method,observation
+Tautogolabrus,3,Cancer,3,1,trophic,method,observation
+Fundulus,3,Carcinides,3,1,trophic,method,observation
+Fundulus,3,Cancer,3,1,trophic,method,observation
+Cancer,3,organic debris,3,1,trophic,method,observation
+Carcinides,3,Mytilus,3,1,trophic,method,observation
+Fundulus,3,Obelia,3,1,trophic,method,observation
+Crepidula,3,Ascophyllum,3,1,trophic,method,observation
+Tautogolabrus,3,plankton,3,1,trophic,method,observation
+Acmaea,3,Fucus,3,1,trophic,method,observation
+Myoxocephalus,3,organic debris,3,1,trophic,method,observation
+marsh insects,4,Spartina glabra,4,1,trophic,method,observation
+Littorina littorea,4,Ascophyllum,4,1,trophic,method,observation
+Littorina littorea,4,Fucus,4,1,trophic,method,observation
+Littorina littorea,4,other algae,4,1,trophic,method,observation
+L. obtusata,4,Ascophyllum,4,1,trophic,method,observation
+L. obtusata,4,Fucus,4,1,trophic,method,observation
+L. obtusata,4,other algae,4,1,trophic,method,observation
+L. saxatilis,4,Ascophyllum,4,1,trophic,method,observation
+L. saxatilis,4,Fucus,4,1,trophic,method,observation
+L. saxatilis,4,other algae,4,1,trophic,method,observation
+Mytilus,4,plankton,4,1,trophic,method,observation
+Mytilus,4,detritus,4,1,trophic,method,observation
+Balanus,4,plankton,4,1,trophic,method,observation
+Balanus,4,detritus,4,1,trophic,method,observation
+Brachidontes,4,plankton,4,1,trophic,method,observation
+Brachidontes,4,detritus,4,1,trophic,method,observation
+Anurida,4,organic debris,4,1,trophic,method,observation
+Orchestia,4,organic debris,4,1,trophic,method,observation
+Gammarus,4,organic debris,4,1,trophic,method,observation
+spiders,4,marsh insects,4,1,trophic,method,observation
+song birds,4,marsh insects,4,1,trophic,method,observation
+Fundulus,4,plankton,4,1,trophic,method,observation
+Fundulus,4,detritus,4,1,trophic,method,observation
+Fundulus,4,Littorina littorea,4,1,trophic,method,observation
+Fundulus,4,L. obtusata,4,1,trophic,method,observation
+Fundulus,4,L. saxatilis,4,1,trophic,method,observation
+Fundulus,4,Mytilus,4,1,trophic,method,observation
+Fundulus,4,Balanus,4,1,trophic,method,observation
+Fundulus,4,Anurida,4,1,trophic,method,observation
+Fundulus,4,Orchestia,4,1,trophic,method,observation
+Fundulus,4,Gammarus,4,1,trophic,method,observation
+fish fry,4,plankton,4,1,trophic,method,observation
+fish fry,4,detritus,4,1,trophic,method,observation
+fish fry,4,Anurida,4,1,trophic,method,observation
+fish fry,4,Orchestia,4,1,trophic,method,observation
+fish fry,4,Gammarus,4,1,trophic,method,observation
+Carcinides,4,organic debris,4,1,trophic,method,observation
+Cancer,4,organic debris,4,1,trophic,method,observation
+Carcinides,4,Anurida,4,1,trophic,method,observation
+Carcinides,4,Orchestia,4,1,trophic,method,observation
+Carcinides,4,Gammarus,4,1,trophic,method,observation
+Cancer,4,Anurida,4,1,trophic,method,observation
+Cancer,4,Orchestia,4,1,trophic,method,observation
+Cancer,4,Gammarus,4,1,trophic,method,observation
+Butorides,4,Littorina littorea,4,1,trophic,method,observation
+Butorides,4,L. obtusata,4,1,trophic,method,observation
+Butorides,4,L. saxatilis,4,1,trophic,method,observation
+Corvus,4,Littorina littorea,4,1,trophic,method,observation
+Corvus,4,L. obtusata,4,1,trophic,method,observation
+Corvus,4,L. saxatilis,4,1,trophic,method,observation
+Butorides,4,Anurida,4,1,trophic,method,observation
+Butorides,4,Orchestia,4,1,trophic,method,observation
+Butorides,4,Gammarus,4,1,trophic,method,observation
+Corvus,4,Anurida,4,1,trophic,method,observation
+Corvus,4,Orchestia,4,1,trophic,method,observation
+Corvus,4,Gammarus,4,1,trophic,method,observation
+Butorides,4,Carcinides,4,1,trophic,method,observation
+Butorides,4,Cancer,4,1,trophic,method,observation
+Corvus,4,Carcinides,4,1,trophic,method,observation
+Corvus,4,Cancer,4,1,trophic,method,observation
+Nassarius,5,Littorina littorea,5,1,trophic,method,observation
+Nassarius,5,Onoba,5,1,trophic,method,observation
+Limulus,5,Lumbrinereis,5,1,trophic,method,observation
+Limulus,5,Clymenella,5,1,trophic,method,observation
+Limulus,5,Talorchestia,5,1,trophic,method,observation
+Limulus,5,Mya,5,1,trophic,method,observation
+Limulus,5,Ensis,5,1,trophic,method,observation
+Limulus,5,Macoma,5,1,trophic,method,observation
+Limulus,5,Solemya,5,1,trophic,method,observation
+Limulus,5,Gemma,5,1,trophic,method,observation
+Limulus,5,Glycera,5,1,trophic,method,observation
+Limulus,5,Nereis,5,1,trophic,method,observation
+Limulus,5,Cerebratulus,5,1,trophic,method,observation
+Pagurus,5,organic debris,5,1,trophic,method,observation
+Cancer,5,organic debris,5,1,trophic,method,observation
+Carcinides,5,organic debris,5,1,trophic,method,observation
+Myoxocephalus,5,organic debris,5,1,trophic,method,observation
+Pagurus,5,Lumbrinereis,5,1,trophic,method,observation
+Pagurus,5,Clymenella,5,1,trophic,method,observation
+Cancer,5,Clymenella,5,1,trophic,method,observation
+Carcinides,5,Lumbrinereis,5,1,trophic,method,observation
+Carcinides,5,Clymenella,5,1,trophic,method,observation
+Myoxocephalus,5,Lumbrinereis,5,1,trophic,method,observation
+Myoxocephalus,5,Clymenella,5,1,trophic,method,observation
+Pagurus,5,Gammarus,5,1,trophic,method,observation
+Pagurus,5,Talorchestia,5,1,trophic,method,observation
+Cancer,5,Gammarus,5,1,trophic,method,observation
+Cancer,5,Talorchestia,5,1,trophic,method,observation
+Carcinides,5,Gammarus,5,1,trophic,method,observation
+Carcinides,5,Talorchestia,5,1,trophic,method,observation
+Myoxocephalus,5,Gammarus,5,1,trophic,method,observation
+Myoxocephalus,5,Talorchestia,5,1,trophic,method,observation
+Pagurus,5,Mya,5,1,trophic,method,observation
+Pagurus,5,Ensis,5,1,trophic,method,observation
+Pagurus,5,Macoma,5,1,trophic,method,observation
+Pagurus,5,Solemya,5,1,trophic,method,observation
+Cancer,5,Mya,5,1,trophic,method,observation
+Cancer,5,Macoma,5,1,trophic,method,observation
+Cancer,5,Solemya,5,1,trophic,method,observation
+Carcinides,5,Mya,5,1,trophic,method,observation
+Carcinides,5,Ensis,5,1,trophic,method,observation
+Carcinides,5,Macoma,5,1,trophic,method,observation
+Carcinides,5,Solemya,5,1,trophic,method,observation
+Myoxocephalus,5,Mya,5,1,trophic,method,observation
+Myoxocephalus,5,Ensis,5,1,trophic,method,observation
+Myoxocephalus,5,Macoma,5,1,trophic,method,observation
+Myoxocephalus,5,Solemya,5,1,trophic,method,observation
+Pagurus,5,Littorina littorea,5,1,trophic,method,observation
+Pagurus,5,Onoba,5,1,trophic,method,observation
+Cancer,5,Littorina littorea,5,1,trophic,method,observation
+Cancer,5,Onoba,5,1,trophic,method,observation
+Carcinides,5,Littorina littorea,5,1,trophic,method,observation
+Carcinides,5,Onoba,5,1,trophic,method,observation
+Myoxocephalus,5,Littorina littorea,5,1,trophic,method,observation
+Myoxocephalus,5,Onoba,5,1,trophic,method,observation
+Pagurus,5,Crago,5,1,trophic,method,observation
+Cancer,5,Crago,5,1,trophic,method,observation
+Carcinides,5,Crago,5,1,trophic,method,observation
+Myoxocephalus,5,Crago,5,1,trophic,method,observation
+Pagurus,5,Glycera,5,1,trophic,method,observation
+Pagurus,5,Nereis,5,1,trophic,method,observation
+Pagurus,5,Cerebratulus,5,1,trophic,method,observation
+Cancer,5,Glycera,5,1,trophic,method,observation
+Cancer,5,Cerebratulus,5,1,trophic,method,observation
+Carcinides,5,Glycera,5,1,trophic,method,observation
+Carcinides,5,Nereis,5,1,trophic,method,observation
+Carcinides,5,Cerebratulus,5,1,trophic,method,observation
+Myoxocephalus,5,Glycera,5,1,trophic,method,observation
+Myoxocephalus,5,Nereis,5,1,trophic,method,observation
+Myoxocephalus,5,Cerebratulus,5,1,trophic,method,observation
+Pagurus,5,Polinices,5,1,trophic,method,observation
+Pagurus,5,Nassarius,5,1,trophic,method,observation
+Cancer,5,Polinices,5,1,trophic,method,observation
+Cancer,5,Nassarius,5,1,trophic,method,observation
+Carcinides,5,Polinices,5,1,trophic,method,observation
+Carcinides,5,Nassarius,5,1,trophic,method,observation
+Myoxocephalus,5,Polinices,5,1,trophic,method,observation
+Myoxocephalus,5,Nassarius,5,1,trophic,method,observation
+Tautogolabrus,5,Lumbrinereis,5,1,trophic,method,observation
+Tautogolabrus,5,Clymenella,5,1,trophic,method,observation
+Pseudopleuronectes,5,Lumbrinereis,5,1,trophic,method,observation
+Pseudopleuronectes,5,Clymenella,5,1,trophic,method,observation
+Tautogolabrus,5,Mya,5,1,trophic,method,observation
+Tautogolabrus,5,Ensis,5,1,trophic,method,observation
+Tautogolabrus,5,Macoma,5,1,trophic,method,observation
+Tautogolabrus,5,Solemya,5,1,trophic,method,observation
+Pseudopleuronectes,5,Mya,5,1,trophic,method,observation
+Pseudopleuronectes,5,Ensis,5,1,trophic,method,observation
+Pseudopleuronectes,5,Macoma,5,1,trophic,method,observation
+Pseudopleuronectes,5,Solemya,5,1,trophic,method,observation
+Tautogolabrus,5,Crago,5,1,trophic,method,observation
+Pseudopleuronectes,5,Crago,5,1,trophic,method,observation
+Tautogolabrus,5,Glycera,5,1,trophic,method,observation
+Tautogolabrus,5,Nereis,5,1,trophic,method,observation
+Tautogolabrus,5,Cerebratulus,5,1,trophic,method,observation
+Pseudopleuronectes,5,Glycera,5,1,trophic,method,observation
+Pseudopleuronectes,5,Nereis,5,1,trophic,method,observation
+Pseudopleuronectes,5,Cerebratulus,5,1,trophic,method,observation
+Tautogolabrus,5,Polinices,5,1,trophic,method,observation
+Tautogolabrus,5,Nassarius,5,1,trophic,method,observation
+Pseudopleuronectes,5,Polinices,5,1,trophic,method,observation
+Pseudopleuronectes,5,Nassarius,5,1,trophic,method,observation
+Asterias,5,Mya,5,1,trophic,method,observation
+Asterias,5,Ensis,5,1,trophic,method,observation
+Asterias,5,Macoma,5,1,trophic,method,observation
+Asterias,5,Gemma,5,1,trophic,method,observation
+Asterias,5,Polinices,5,1,trophic,method,observation
+Asterias,5,Nassarius,5,1,trophic,method,observation
+Nereis,5,Mya,5,1,trophic,method,observation
+Nereis,5,Ensis,5,1,trophic,method,observation
+Cancer,5,Ensis,5,1,trophic,method,observation
+Asterias,5,Solemya,5,1,trophic,method,observation
+Talorchestia,5,organic debris,5,1,trophic,method,observation
+Limulus,5,Gammarus,5,1,trophic,method,observation
+Cancer,5,Nereis,5,1,trophic,method,observation
+Gemma,5,detritus,5,1,trophic,method,observation
+Cancer,5,Lumbrinereis,5,1,trophic,method,observation
+Lumbrinereis,5,organic matter,5,1,trophic,method,observation
+Clymenella,5,organic matter,5,1,trophic,method,observation
+Anurida,5,organic debris,5,1,trophic,method,observation
+Gammarus,5,organic debris,5,1,trophic,method,observation
+Mya,5,plankton,5,1,trophic,method,observation
+Mya,5,detritus,5,1,trophic,method,observation
+Ensis,5,plankton,5,1,trophic,method,observation
+Ensis,5,detritus,5,1,trophic,method,observation
+Macoma,5,plankton,5,1,trophic,method,observation
+Macoma,5,detritus,5,1,trophic,method,observation
+Solemya,5,plankton,5,1,trophic,method,observation
+Solemya,5,detritus,5,1,trophic,method,observation
+Gemma,5,plankton,5,1,trophic,method,observation
+Fundulus,5,plankton,5,1,trophic,method,observation
+Fundulus,5,detritus,5,1,trophic,method,observation
+fish fry,5,plankton,5,1,trophic,method,observation
+fish fry,5,detritus,5,1,trophic,method,observation
+Littorina littorea,5,Chaetomorpha,5,1,trophic,method,observation
+Littorina littorea,5,Ulva,5,1,trophic,method,observation
+Littorina littorea,5,other algae,5,1,trophic,method,observation
+Onoba,5,Chaetomorpha,5,1,trophic,method,observation
+Onoba,5,Ulva,5,1,trophic,method,observation
+Onoba,5,other algae,5,1,trophic,method,observation
+Crago,5,organic matter,5,1,trophic,method,observation
+Crago,5,Lumbrinereis,5,1,trophic,method,observation
+Crago,5,Clymenella,5,1,trophic,method,observation
+Glycera,5,Lumbrinereis,5,1,trophic,method,observation
+Glycera,5,Clymenella,5,1,trophic,method,observation
+Nereis,5,Lumbrinereis,5,1,trophic,method,observation
+Nereis,5,Clymenella,5,1,trophic,method,observation
+Cerebratulus,5,Lumbrinereis,5,1,trophic,method,observation
+Cerebratulus,5,Clymenella,5,1,trophic,method,observation
+Glycera,5,Mya,5,1,trophic,method,observation
+Glycera,5,Ensis,5,1,trophic,method,observation
+Glycera,5,Macoma,5,1,trophic,method,observation
+Glycera,5,Solemya,5,1,trophic,method,observation
+Nereis,5,Macoma,5,1,trophic,method,observation
+Nereis,5,Solemya,5,1,trophic,method,observation
+Cerebratulus,5,Mya,5,1,trophic,method,observation
+Cerebratulus,5,Ensis,5,1,trophic,method,observation
+Cerebratulus,5,Macoma,5,1,trophic,method,observation
+Cerebratulus,5,Solemya,5,1,trophic,method,observation
+Megaceryle,5,Fundulus,5,1,trophic,method,observation
+Megaceryle,5,fish fry,5,1,trophic,method,observation
+Sterna,5,Fundulus,5,1,trophic,method,observation
+Sterna,5,fish fry,5,1,trophic,method,observation
+Polinices,5,Mya,5,1,trophic,method,observation
+Polinices,5,Ensis,5,1,trophic,method,observation
+Polinices,5,Macoma,5,1,trophic,method,observation
+Polinices,5,Solemya,5,1,trophic,method,observation
+Nassarius,5,Mya,5,1,trophic,method,observation
+Nassarius,5,Ensis,5,1,trophic,method,observation
+Nassarius,5,Macoma,5,1,trophic,method,observation
+Nassarius,5,Solemya,5,1,trophic,method,observation
+Polinices,5,Gemma,5,1,trophic,method,observation
+Nassarius,5,Gemma,5,1,trophic,method,observation
+Polinices,5,Littorina littorea,5,1,trophic,method,observation
+Polinices,5,Onoba,5,1,trophic,method,observation

@@ -1,0 +1,16 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Heteractis magnifica,taxon,taxonomy_name,Heteractis magnifica,taxonomy_rank,species
+2,Stichodactyla mertensii,taxon,taxonomy_name,Stichodactyla mertensii,taxonomy_rank,species
+3,Amphiprion ocellaris,taxon,taxonomy_name,Amphiprion ocellaris,taxonomy_rank,species
+4,Amphiprion perideraion,taxon,taxonomy_name,Amphiprion perideraion,taxonomy_rank,species
+5,Amphiprion clarkii,taxon,taxonomy_name,Amphiprion clarkii,taxonomy_rank,species
+6,Amphiprion sandaracinos,taxon,taxonomy_name,Amphiprion sandaracinos,taxonomy_rank,species
+7,Entacmaea quadricolor,taxon,taxonomy_name,Entacmaea quadricolor,taxonomy_rank,species
+8,Heteractis aurora,taxon,taxonomy_name,Heteractis aurora,taxonomy_rank,species
+9,Heteractis crispa,taxon,taxonomy_name,Heteractis crispa,taxonomy_rank,species
+10,Heteractis malu,taxon,taxonomy_name,Heteractis malu,taxonomy_rank,species
+11,Premnas biaculeatus,taxon,taxonomy_name,Premnas biaculeatus,taxonomy_rank,species
+12,Stichodactyla haddoni,taxon,taxonomy_name,Stichodactyla haddoni,taxonomy_rank,species
+13,Amphiprion polymnus,taxon,taxonomy_name,Amphiprion polymnus,taxonomy_rank,species
+14,Amphiprion melanopus,taxon,taxonomy_name,Amphiprion melanopus,taxonomy_rank,species
+15,Macrodactyla doreensis,taxon,taxonomy_name,Macrodactyla doreensis,taxonomy_rank,species

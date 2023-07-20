@@ -1,0 +1,43 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Melita palmata,taxon,taxonomy_name,Melita palmata,taxonomy_rank,species
+2,Cerastoderma edule,taxon,taxonomy_name,Cerastoderma edule,taxonomy_rank,species
+3,Scrobicularia plana,taxon,taxonomy_name,Scrobicularia plana,taxonomy_rank,species
+4,Carcinus maenas,taxon,taxonomy_name,Carcinus maenas,taxonomy_rank,species
+5,Crangon crangon,taxon,taxonomy_name,Crangon crangon,taxonomy_rank,species
+6,Hydrobia ulvae,taxon,taxonomy_name,Peringia ulvae,taxonomy_rank,species
+7,Cyathura carinata,taxon,taxonomy_name,Cyathura carinata,taxonomy_rank,species
+8,Alkmaria romijni,taxon,taxonomy_name,Alkmaria romijni,taxonomy_rank,species
+9,Capitella capitata,taxon,taxonomy_name,Capitella capitata,taxonomy_rank,species
+10,Hediste diversicolor,taxon,taxonomy_name,Hediste diversicolor,taxonomy_rank,species
+11,Heteromastus filiformis,taxon,taxonomy_name,Heteromastus filiformis,taxonomy_rank,species
+12,Mediomastus fragilis,taxon,taxonomy_name,Mediomastus fragilis,taxonomy_rank,species
+13,Pygospio elegans,taxon,taxonomy_name,Pygospio elegans,taxonomy_rank,species
+14,Streblospio shrubsolii,taxon,taxonomy_name,Streblospio shrubsolii,taxonomy_rank,species
+15,Oligochaets,taxon,taxonomy_name,Oligochaeta,taxonomy_rank,genus
+16,Green macroalgae,taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+17,Detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+18,Zooplankton,taxon,taxonomy_name,NA,taxonomy_rank,NA
+19,Phytoplankton,taxon,taxonomy_name,NA,taxonomy_rank,NA
+20,Microphytobenthos,taxon,taxonomy_name,NA,taxonomy_rank,NA
+21,Imports,taxon,taxonomy_name,NA,taxonomy_rank,NA
+22,Amphithoe valida,taxon,taxonomy_name,Amphithoe valida,taxonomy_rank,NA
+23,Haminoea hydatis,taxon,taxonomy_name,Haminoea hydatis,taxonomy_rank,species
+24,Littorina littorea,taxon,taxonomy_name,Littorina littorea,taxonomy_rank,species
+25,Idotea chelipes,taxon,taxonomy_name,Idotea chelipes,taxonomy_rank,species
+26,Chaetozone setosa,taxon,taxonomy_name,Chaetozone setosa,taxonomy_rank,species
+27,Eteone flava,taxon,taxonomy_name,Eteone flava,taxonomy_rank,species
+28,Glycera tridactyla,taxon,taxonomy_name,Glycera tridactyla,taxonomy_rank,species
+29,Lagis koreni,taxon,taxonomy_name,Lagis koreni,taxonomy_rank,species
+30,Mista picta,taxon,taxonomy_name,Mysta picta,taxonomy_rank,species
+31,Nephthys spp.,taxon,taxonomy_name,Nephthys,taxonomy_rank,genus
+32,Nemertini,taxon,taxonomy_name,Nemertea,taxonomy_rank,phylum
+33,Ampithoe valida,taxon,taxonomy_name,Ampithoe valida,taxonomy_rank,species
+34,Zostera noltii,taxon,taxonomy_name,Zostera noltii,taxonomy_rank,species
+35,Mytilus sp.,taxon,taxonomy_name,Mytilus,taxonomy_rank,genus
+36,Gibulla umbilicalis,taxon,taxonomy_name,Steromphala umbilicalis,taxonomy_rank,species
+37,Lekanesphaera levii,taxon,taxonomy_name,Lekanesphaera levii,taxonomy_rank,species
+38,Aonides oxycephala,taxon,taxonomy_name,Aonides oxycephala,taxonomy_rank,species
+39,Diopatra neapolitana,taxon,taxonomy_name,Diopatra neapolitana,taxonomy_rank,species
+40,Lumbrineris impatiens,taxon,taxonomy_name,Scoletoma impatiens,taxonomy_rank,species
+41,Corophium multisetosum,taxon,taxonomy_name,Corophium multisetosum,taxonomy_rank,species
+42,Glicera tridactyla,taxon,taxonomy_name,Glycera tridactyla,taxonomy_rank,species

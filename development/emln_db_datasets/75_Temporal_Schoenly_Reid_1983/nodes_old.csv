@@ -1,0 +1,27 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,rabbit carcass (L. californicus),taxon,taxonomy_name,Lepus californicus,taxonomy_rank,species
+2,B. plinthopyga larvae,taxon,taxonomy_name,Blaesoxipha plinthopyga,taxonomy_rank,species
+3,C. macellaria larvae,taxon,taxonomy_name,Musca macellaria,taxonomy_rank,species
+4,M. domestica larvae,taxon,taxonomy_name,Musca domestica,taxonomy_rank,species
+5,Blaesoxipha plinthopyga,taxon,taxonomy_name,Blaesoxipha plinthopyga,taxonomy_rank,species
+6,Cochyliomyia macellaria,taxon,taxonomy_name,Musca macellaria,taxonomy_rank,species
+7,Musca domestica,taxon,taxonomy_name,Musca domestica,taxonomy_rank,species
+8,Boreocanthon puncticollis,taxon,taxonomy_name,Canthon puncticollis,taxonomy_rank,species
+9,Dermestes marmoratus,taxon,taxonomy_name,Dermestes marmoratus,taxonomy_rank,species
+10,Saprinus discoidalis,taxon,taxonomy_name,Saprinus discoidalis,taxonomy_rank,species
+11,Eleodes carbonarius,taxon,taxonomy_name,Eleodes carbonarius,taxonomy_rank,NA
+12,E. longicollis,taxon,taxonomy_name,Eleodes longicollis,taxonomy_rank,NA
+13,Embaphion sp.,taxon,taxonomy_name,Saphenista embaphion,taxonomy_rank,species
+14,Silpha truncata,taxon,taxonomy_name,Thanatophilus truncatus,taxonomy_rank,species
+15,Necrophorus marginatus,taxon,taxonomy_name,Nicrophorus marginatus,taxonomy_rank,species
+16,Pheidole sp.,taxon,taxonomy_name,Pheidole,taxonomy_rank,genus
+17,Novomessor cockerelli,taxon,taxonomy_name,Novomessor cockerelli,taxonomy_rank,NA
+18,Syspira longipes,taxon,taxonomy_name,Syspira longipes,taxonomy_rank,species
+19,Psilochorus utahensis,taxon,taxonomy_name,Psilochorus utahensis,taxonomy_rank,species
+20,Creophilis maxillosus,taxon,taxonomy_name,Creophilus maxillosus,taxonomy_rank,species
+21,dipteran eggs (unknown),taxon,taxonomy_name,NA,taxonomy_rank,NA
+22,Conomyrma bicolor,taxon,taxonomy_name,NA,taxonomy_rank,NA
+23,Iridomyrmex pruinosum,taxon,taxonomy_name,NA,taxonomy_rank,NA
+24,Trox suberosus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+25,Crematogaster clara,taxon,taxonomy_name,NA,taxonomy_rank,NA
+26,carrion,taxon,taxonomy_name,Leporidae,taxonomy_rank,family

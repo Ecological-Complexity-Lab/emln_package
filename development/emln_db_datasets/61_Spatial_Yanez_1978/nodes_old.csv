@@ -1,0 +1,15 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,insects,taxon,taxonomy_name,Insecta,taxonomy_rank,class
+2,Macrobranchium,taxon,taxonomy_name,Macrobrachium,taxonomy_rank,genus
+3,fishes (type 1),taxon,taxonomy_name,Salmo trutta,taxonomy_rank,species
+4,fishes (type 3),taxon,taxonomy_name,Salvelinus alpinus,taxonomy_rank,species
+5,benthic algae,taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+6,detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+7,zooplankton,taxon,taxonomy_name,NA,taxonomy_rank,NA
+8,fishes (type 2),taxon,taxonomy_name,NA,taxonomy_rank,NA
+9,phytoplankton,taxon,taxonomy_name,NA,taxonomy_rank,NA
+10,micro-,taxon,taxonomy_name,NA,taxonomy_rank,NA
+11,meio-benthos,taxon,taxonomy_name,NA,taxonomy_rank,NA
+12,mollusks,taxon,taxonomy_name,Mollusca,taxonomy_rank,phylum
+13,Callinectes,taxon,taxonomy_name,Callinectes,taxonomy_rank,genus
+14,Penaeus,taxon,taxonomy_name,Penaeus,taxonomy_rank,genus

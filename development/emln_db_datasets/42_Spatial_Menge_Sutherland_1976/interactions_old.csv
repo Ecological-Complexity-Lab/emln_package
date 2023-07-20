@@ -1,0 +1,42 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1,attribute2,value2
+Acmaea testudinalis,1,algae,1,1,herbivory,method,field observation/experiment,directed,TRUE
+Littorina,1,algae,1,1,herbivory,method,field observation/experiment,directed,TRUE
+Mytilus edulis,1,plankton,1,1,predation,method,field observation/experiment,directed,TRUE
+Balanus balanoides,1,plankton,1,1,predation,method,field observation/experiment,directed,TRUE
+Thais lapillus,1,Acmaea testudinalis,1,1,predation,method,field observation/experiment,directed,TRUE
+Thais lapillus,1,Littorina,1,1,predation,method,field observation/experiment,directed,TRUE
+Thais lapillus,1,Mytilus edulis,1,1,predation,method,field observation/experiment,directed,TRUE
+Thais lapillus,1,Balanus balanoides,1,1,predation,method,field observation/experiment,directed,TRUE
+Balanus balanoides,1,Mytilus edulis,1,1,competition,method,field observation/experiment,directed,FALSE
+Mytilus edulis,1,detritus,1,1,detritivore,method,field observation/experiment,directed,TRUE
+Balanus balanoides,1,detritus,1,1,detritivore,method,field observation/experiment,directed,TRUE
+Seariesia,2,chitons,2,1,predation,method,field observation/experiment,directed,TRUE
+Pisaster,2,acorn barnacles,2,1,predation,method,field observation/experiment,directed,TRUE
+Pisaster,2,limpets,2,1,predation,method,field observation/experiment,directed,TRUE
+Pisaster,2,other herbivorous gastropods,2,1,predation,method,field observation/experiment,directed,TRUE
+Pisaster,2,Mytilus edulis,2,1,predation,method,field observation/experiment,directed,TRUE
+Pisaster,2,chitons,2,1,predation,method,field observation/experiment,directed,TRUE
+Pisaster,2,Littorina,2,1,predation,method,field observation/experiment,directed,TRUE
+Pisaster,2,Thais,2,1,predation,method,field observation/experiment,directed,TRUE
+Pisaster,2,Seariesia,2,1,predation,method,field observation/experiment,directed,TRUE
+Leptasterias,2,acorn barnacles,2,1,predation,method,field observation/experiment,directed,TRUE
+Leptasterias,2,limpets,2,1,predation,method,field observation/experiment,directed,TRUE
+Leptasterias,2,other herbivorous gastropods,2,1,predation,method,field observation/experiment,directed,TRUE
+Leptasterias,2,Mytilus edulis,2,1,predation,method,field observation/experiment,directed,TRUE
+Leptasterias,2,chitons,2,1,predation,method,field observation/experiment,directed,TRUE
+Leptasterias,2,Littorina,2,1,predation,method,field observation/experiment,directed,TRUE
+Leptasterias,2,Thais,2,1,predation,method,field observation/experiment,directed,TRUE
+Leptasterias,2,Seariesia,2,1,predation,method,field observation/experiment,directed,TRUE
+acorn barnacles,2,Mytilus californianus,2,1,competition,method,field observation/experiment,directed,FALSE
+acorn barnacles,2,plankton,2,1,predation,method,field observation/experiment,directed,TRUE
+limpets,2,algae,2,1,herbivory,method,field observation/experiment,directed,TRUE
+other herbivorous gastropods,2,algae,2,1,herbivory,method,field observation/experiment,directed,TRUE
+Mytilus edulis,2,plankton,2,1,predation,method,field observation/experiment,directed,TRUE
+chitons,2,algae,2,1,herbivory,method,field observation/experiment,directed,TRUE
+Littorina,2,algae,2,1,herbivory,method,field observation/experiment,directed,TRUE
+Thais,2,acorn barnacles,2,1,predation,method,field observation/experiment,directed,TRUE
+Thais,2,Mytilus edulis,2,1,predation,method,field observation/experiment,directed,TRUE
+Seariesia,2,acorn barnacles,2,1,predation,method,field observation/experiment,directed,TRUE
+Seariesia,2,limpets,2,1,predation,method,field observation/experiment,directed,TRUE
+acorn barnacles,2,detritus,2,1,detritivore,method,field observation/experiment,directed,TRUE
+Mytilus edulis,2,detritus,2,1,detritivore,method,field observation/experiment,directed,TRUE

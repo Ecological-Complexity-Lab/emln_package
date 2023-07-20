@@ -1,0 +1,36 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+predatory mite,1,Sericothrips variabilis,1,1,predation,method,field observation
+predatory mite,1,other herbivorous thrips,1,1,predation,method,field observation
+spiders (unspecified),1,Empoasca fabae,1,1,predation,method,field observation
+spiders (unspecified),1,black alate aphid,1,1,predation,method,field observation
+Empoasca fabae,1,soybean plant,1,1,herbivory,method,field observation
+Sericothrips variabilis,1,soybean plant,1,1,herbivory,method,field observation
+other herbivorous thrips,1,soybean plant,1,1,herbivory,method,field observation
+black alate aphid,1,soybean plant,1,1,herbivory,method,field observation
+predatory mite,2,Aeolothrips sp.,2,1,predation,method,field observation
+predatory mite,2,Sericothrips variabilis,2,1,predation,method,field observation
+predatory mite,2,other herbivorous thrips,2,1,predation,method,field observation
+Orius insidiosus,2,other herbivorous thrips,2,1,predation,method,field observation
+Orius insidiosus,2,Platypena scabra,2,1,predation,method,field observation
+Orius insidiosus,2,Colias eurytheme,2,1,predation,method,field observation
+Orius insidiosus,2,soybean plant,2,1,herbivory,method,field observation
+Nabis spp.,2,Orius insidiosus,2,1,predation,method,field observation
+Nabis spp.,2,Empoasca fabae,2,1,predation,method,field observation
+Nabis spp.,2,Acrosternum hilare,2,1,predation,method,field observation
+Nabis spp.,2,soybean plant,2,1,herbivory,method,field observation
+spiders (unspecified),2,Empoasca fabae,2,1,predation,method,field observation
+spiders (unspecified),2,black alate aphid,2,1,predation,method,field observation
+Aeolothrips sp.,2,Sericothrips variabilis,2,1,predation,method,field observation
+Aeolothrips sp.,2,other herbivorous thrips,2,1,predation,method,field observation
+syrphid larvae,2,Sericothrips variabilis,2,1,predation,method,field observation
+parasitic Hymenoptera,2,black alate aphid,2,1,host-parasite,method,field observation
+parasitic Hymenoptera,2,Platypena scabra,2,1,host-parasite,method,field observation
+parasitic Hymenoptera,2,Acrosternum hilare,2,1,host-parasite,method,field observation
+Empoasca fabae,2,soybean plant,2,1,herbivory,method,field observation
+Sericothrips variabilis,2,soybean plant,2,1,herbivory,method,field observation
+other herbivorous thrips,2,soybean plant,2,1,herbivory,method,field observation
+black alate aphid,2,soybean plant,2,1,herbivory,method,field observation
+Platypena scabra,2,soybean plant,2,1,herbivory,method,field observation
+Colias eurytheme,2,soybean plant,2,1,herbivory,method,field observation
+Acrosternum hilare,2,soybean plant,2,1,herbivory,method,field observation
+Orius insidiosus,2,Sericothrips variabilis,2,1,predation,method,field observation

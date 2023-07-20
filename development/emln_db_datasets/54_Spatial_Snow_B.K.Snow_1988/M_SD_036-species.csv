@@ -1,0 +1,58 @@
+Specie,Kingdom,Role,Degree,Sum(connections strength),Networks presence
+"Carduelis chloris","Animals","Seed disperser",4,291.0000,1
+"Columba palumbus","Animals","Seed disperser",9,706.0000,5
+"Corvus corone","Animals","Seed disperser",6,64.0000,3
+"Cyanistes caeruleus","Animals","Seed disperser",5,168.0000,2
+"Erithacus rubecula","Animals","Seed disperser",27,600.0000,9
+"Fringilla coelebs","Animals","Seed disperser",2,72.0000,6
+"Fringilla montifringilla","Animals","Seed disperser",1,21.0000,1
+"Gallinula chloropus","Animals","Seed disperser",2,6.0000,1
+"Garrulus glandarius","Animals","Seed disperser",4,18.0000,4
+"Muscicapa striata","Animals","Seed disperser",2,7.0000,2
+"Parus major","Animals","Seed disperser",4,13.0000,5
+"Pica pica","Animals","Seed disperser",9,71.0000,3
+"Picus viridis","Animals","Seed disperser",1,4.0000,1
+"Poecile montanus","Animals","Seed disperser",1,1.0000,1
+"Poecile palustris","Animals","Seed disperser",4,18.0000,1
+"Pyrrhula pyrrhula","Animals","Seed disperser",11,524.0000,3
+"Streptopelia decaocto","Animals","Seed disperser",1,2.0000,1
+"Sturnus vulgaris","Animals","Seed disperser",14,4617.0000,2
+"Sylvia atricapilla","Animals","Seed disperser",23,540.0000,10
+"Sylvia borin","Animals","Seed disperser",8,32.0000,5
+"Sylvia communis","Animals","Seed disperser",3,6.0000,4
+"Sylvia curruca","Animals","Seed disperser",6,35.0000,1
+"Turdus iliacus","Animals","Seed disperser",13,1818.0000,12
+"Turdus merula","Animals","Seed disperser",28,6726.0000,13
+"Turdus philomelos","Animals","Seed disperser",25,1969.0000,10
+"Turdus pilaris","Animals","Seed disperser",10,1667.0000,6
+"Turdus torquatus","Animals","Seed disperser",2,15.0000,8
+"Turdus viscivorus","Animals","Seed disperser",17,1417.0000,9
+"Arum maculatum","Plants","Plant",2,50.0000,1
+"Bryonia dioica","Plants","Plant",9,63.0000,3
+"Cornus sanguinea","Plants","Plant",10,2289.0000,1
+"Crataegus sp1 M_SD_011","Plants","Plant",8,3658.0000,1
+"Euonymus europaeus","Plants","Plant",4,279.0000,4
+"Hedera helix","Plants","Plant",10,2612.0000,9
+"Ilex aquifolium","Plants","Plant",8,1797.0000,2
+"Juniperus communis","Plants","Plant",3,11.0000,7
+"Ligustrum vulgare","Plants","Plant",10,217.0000,1
+"Lonicera caprifolium","Plants","Plant",8,224.0000,1
+"Lonicera periclymenum","Plants","Plant",7,110.0000,5
+"Malus sylvestris","Plants","Plant",4,34.0000,1
+"Prunus avium","Plants","Plant",10,581.0000,3
+"Prunus padus","Plants","Plant",7,165.0000,4
+"Prunus spinosa","Plants","Plant",9,781.0000,7
+"Rhamnus cathartica","Plants","Plant",9,601.0000,1
+"Ribes rubrum","Plants","Plant",5,33.0000,1
+"Rosa canina","Plants","Plant",9,1097.0000,8
+"Rubus fruticosus","Plants","Plant",12,563.0000,5
+"Rubus idaeus","Plants","Plant",4,15.0000,2
+"Sambucus nigra","Plants","Plant",22,1565.0000,3
+"Solanum dulcamara","Plants","Plant",9,125.0000,3
+"Sorbus aria","Plants","Plant",17,855.0000,3
+"Sorbus aucuparia","Plants","Plant",11,754.0000,2
+"Tamus communis","Plants","Plant",5,36.0000,3
+"Taxus baccata","Plants","Plant",10,2366.0000,5
+"Viburnum lantana","Plants","Plant",7,110.0000,1
+"Viburnum opulus ","Plants","Plant",7,175.0000,2
+"Viscum album","Plants","Plant",6,262.0000,2

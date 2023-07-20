@@ -1,0 +1,287 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+Haplochromis moori,1,algae,1,1,herbivory,method,field observation and gut content
+Lanistes procerus,1,Vallisneria,1,1,herbivory,method,field observation and gut content
+Malanoides tuberculata,1,Aufwuchs on Vallisneria,1,1,herbivory,method,field observation and gut content
+other gastropods,1,Aufwuchs on Vallisneria,1,1,herbivory,method,field observation and gut content
+Tilapia melanopleura,1,Vallisneria,1,1,herbivory,method,field observation and gut content
+Tilapia shirana,1,algae,1,1,herbivory,method,field observation and gut content
+Labeo mesops,1,algae,1,1,herbivory,method,field observation and gut content
+Haplochromis chrysonotus,1,Ostracods,1,1,predation,method,field observation and gut content
+Haplochromis chrysonotus,1,Chironomid larvae,1,1,predation,method,field observation and gut content
+Haplochromis chrysonotus,1,Vallisneria,1,1,herbivory,method,field observation and gut content
+Haplochromis chrysonotus,1,algae,1,1,herbivory,method,field observation and gut content
+Cyclopoid copepods,1,algae,1,1,herbivory,method,field observation and gut content
+Barbus johnstoni,1,Baetid nymphs,1,1,predation,method,field observation and gut content
+Haplochromis johnstoni,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Tilapia saka,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+T. squamipinnis,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Barbus johnstoni,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Ostracods,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Chironomid larvae,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Caridina nilotica,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Corbicula africana,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Barbus innocens,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Haplochromis similis,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Haplochromis moori,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Tilapia shirana,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Labeo mesops,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Haplochromis chrysonotus,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Cyclopoid copepods,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Haplochromis johnstoni,1,Baetid nymphs,1,1,predation,method,field observation and gut content
+Haplochromis johnstoni,1,Ostracods,1,1,predation,method,field observation and gut content
+Haplochromis johnstoni,1,Chironomid larvae,1,1,predation,method,field observation and gut content
+Haplochromis johnstoni,1,Caridina nilotica,1,1,predation,method,field observation and gut content
+Haplochromis johnstoni,1,Corbicula africana,1,1,predation,method,field observation and gut content
+Haplochromis johnstoni,1,Malanoides tuberculata,1,1,predation,method,field observation and gut content
+Haplochromis johnstoni,1,other gastropods,1,1,predation,method,field observation and gut content
+Haplochromis johnstoni,1,terrestrial insects,1,1,predation,method,field observation and gut content
+Haplochromis johnstoni,1,Vallisneria,1,1,herbivory,method,field observation and gut content
+Haplochromis johnstoni,1,algae,1,1,herbivory,method,field observation and gut content
+Haplochromis johnstoni,1,Cyclopoid copepods,1,1,predation,method,field observation and gut content
+Barbus rhoadesii,1,various immature fishes,1,1,predation,method,field observation and gut content
+Barbus rhoadesii,1,Tilapia saka,1,1,predation,method,field observation and gut content
+Barbus rhoadesii,1,T. squamipinnis,1,1,predation,method,field observation and gut content
+Haplochromis dimidiatus,1,Engraulicypris sardella,1,1,predation,method,field observation and gut content
+Haplochromis dimidiatus,1,various immature fishes,1,1,predation,method,field observation and gut content
+Haplochromis dimidiatus,1,Baetid nymphs,1,1,predation,method,field observation and gut content
+Haplochromis dimidiatus,1,Ostracods,1,1,predation,method,field observation and gut content
+Haplochromis dimidiatus,1,Chironomid larvae,1,1,predation,method,field observation and gut content
+Haplochromis dimidiatus,1,terrestrial insects,1,1,predation,method,field observation and gut content
+Haplochromis dimidiatus,1,Vallisneria,1,1,herbivory,method,field observation and gut content
+Haplochromis dimidiatus,1,Cyclopoid copepods,1,1,predation,method,field observation and gut content
+Haplochromis rostratus,1,various immature fishes,1,1,predation,method,field observation and gut content
+Haplochromis sp.,1,various immature fishes,1,1,predation,method,field observation and gut content
+Rhamphochromis spp.,1,various immature fishes,1,1,predation,method,field observation and gut content
+Engraulicypris sardella,1,Ostracods,1,1,predation,method,field observation and gut content
+various immature fishes,1,Microcyclops nyasae,1,1,predation,method,field observation and gut content
+various immature fishes,1,Ostracods,1,1,predation,method,field observation and gut content
+Lethrinops brevis,1,Ostracods,1,1,predation,method,field observation and gut content
+Lethrinops brevis,1,Chironomid larvae,1,1,predation,method,field observation and gut content
+Tilapia saka,1,Vallisneria,1,1,herbivory,method,field observation and gut content
+T. squamipinnis,1,Vallisneria,1,1,herbivory,method,field observation and gut content
+Tilapia saka,1,algae,1,1,herbivory,method,field observation and gut content
+T. squamipinnis,1,algae,1,1,herbivory,method,field observation and gut content
+Synodontis zambesensis,1,Baetid nymphs,1,1,predation,method,field observation and gut content
+Synodontis zambesensis,1,Ostracods,1,1,predation,method,field observation and gut content
+Synodontis zambesensis,1,Chironomid larvae,1,1,predation,method,field observation and gut content
+Synodontis zambesensis,1,terrestrial insects,1,1,predation,method,field observation and gut content
+Lethrinops,1,Ostracods,1,1,predation,method,field observation and gut content
+Engraulicypris sardella,1,plankton,1,1,trophic,method,field observation and gut content
+Lethrinops,1,Chironomid larvae,1,1,predation,method,field observation and gut content
+Alestes imberi,1,Baetid nymphs,1,1,predation,method,field observation and gut content
+Alestes imberi,1,terrestrial insects,1,1,predation,method,field observation and gut content
+Microcyclops nyasae,1,Aufwuchs on Vallisneria,1,1,herbivory,method,field observation and gut content
+Lethriops furcifer,1,Chironomid larvae,1,1,predation,method,field observation and gut content
+Barbus eurystomus,1,Corbicula africana,1,1,predation,method,field observation and gut content
+Barbus eurystomus,1,Malanoides tuberculata,1,1,predation,method,field observation and gut content
+Barbus eurystomus,1,other gastropods,1,1,predation,method,field observation and gut content
+Haplocrhomis mola,1,Baetid nymphs,1,1,predation,method,field observation and gut content
+Haplocrhomis mola,1,Chironomid larvae,1,1,predation,method,field observation and gut content
+Haplocrhomis mola,1,Caridina nilotica,1,1,predation,method,field observation and gut content
+Haplocrhomis mola,1,Corbicula africana,1,1,predation,method,field observation and gut content
+Haplocrhomis mola,1,Lanistes procerus,1,1,predation,method,field observation and gut content
+Haplocrhomis mola,1,Malanoides tuberculata,1,1,predation,method,field observation and gut content
+Haplocrhomis mola,1,other gastropods,1,1,predation,method,field observation and gut content
+Barilius microcephalus,1,terrestrial insects,1,1,predation,method,field observation and gut content
+Barbus johnstoni,1,Chironomid larvae,1,1,predation,method,field observation and gut content
+Barbus johnstoni,1,Aufwuchs on Vallisneria,1,1,herbivory,method,field observation and gut content
+Barbus johnstoni,1,Vallisneria,1,1,herbivory,method,field observation and gut content
+Barbus johnstoni,1,algae,1,1,herbivory,method,field observation and gut content
+Barbus johnstoni,1,Cyclopoid copepods,1,1,predation,method,field observation and gut content
+Baetid nymphs,1,Aufwuchs on Vallisneria,1,1,herbivory,method,field observation and gut content
+Ostracods,1,algae,1,1,herbivory,method,field observation and gut content
+Chironomid larvae,1,algae,1,1,herbivory,method,field observation and gut content
+Caridina nilotica,1,algae,1,1,herbivory,method,field observation and gut content
+Corbicula africana,1,algae,1,1,herbivory,method,field observation and gut content
+Barbus innocens,1,Aufwuchs on Vallisneria,1,1,herbivory,method,field observation and gut content
+Haplochromis similis,1,Aufwuchs on Vallisneria,1,1,herbivory,method,field observation and gut content
+Haplochromis moori,1,Aufwuchs on Vallisneria,1,1,herbivory,method,field observation and gut content
+Barbus innocens,1,Vallisneria,1,1,herbivory,method,field observation and gut content
+Haplochromis similis,1,Vallisneria,1,1,herbivory,method,field observation and gut content
+Haplochromis moori,1,Vallisneria,1,1,herbivory,method,field observation and gut content
+Labeo mesops,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Haplochromis chrysonotus,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Cyclopoid copepods,1,bottom detritus,1,1,detritivore,method,field observation and gut content
+Mastacembelus shiranus,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+Bathyclarias worthingtoni,2,Hydropsychid larvae,2,1,predation,method,field observation and gut content
+Bathyclarias worthingtoni,2,Neoperla spio nymphs,2,1,predation,method,field observation and gut content
+Bathyclarias worthingtoni,2,Potamonautes lirrangensis,2,1,predation,method,field observation and gut content
+Bathyclarias worthingtoni,2,ostracods,2,1,predation,method,field observation and gut content
+Bathyclarias worthingtoni,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+Bathyclarias worthingtoni,2,Afronurus nymphs,2,1,predation,method,field observation and gut content
+Bathyclarias worthingtoni,2,terrestrial insects,2,1,predation,method,field observation and gut content
+Labidochromis vellicans,2,Hydropsychid larvae,2,1,predation,method,field observation and gut content
+Labidochromis vellicans,2,Schizopera consimilis,2,1,predation,method,field observation and gut content
+Labidochromis vellicans,2,ostracods,2,1,predation,method,field observation and gut content
+Labidochromis vellicans,2,Eubrianax larvae,2,1,predation,method,field observation and gut content
+Labidochromis vellicans,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+Labidochromis vellicans,2,Afronurus nymphs,2,1,predation,method,field observation and gut content
+Labidochromis vellicans,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Labidochromis caeruleus,2,Hydropsychid larvae,2,1,predation,method,field observation and gut content
+Labidochromis caeruleus,2,ostracods,2,1,predation,method,field observation and gut content
+Labidochromis caeruleus,2,Eubrianax larvae,2,1,predation,method,field observation and gut content
+Labidochromis caeruleus,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+Labidochromis caeruleus,2,Afronurus nymphs,2,1,predation,method,field observation and gut content
+Haplochromis euchilus,2,Hydropsychid larvae,2,1,predation,method,field observation and gut content
+Haplochromis euchilus,2,Neoperla spio nymphs,2,1,predation,method,field observation and gut content
+Haplochromis euchilus,2,Schizopera consimilis,2,1,predation,method,field observation and gut content
+Haplochromis euchilus,2,ostracods,2,1,predation,method,field observation and gut content
+Haplochromis euchilus,2,Eubrianax larvae,2,1,predation,method,field observation and gut content
+Haplochromis euchilus,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+Haplochromis euchilus,2,Afronurus nymphs,2,1,predation,method,field observation and gut content
+Haplochromis euchilus,2,terrestrial insects,2,1,predation,method,field observation and gut content
+Haplochromis ornatus,2,Hydropsychid larvae,2,1,predation,method,field observation and gut content
+Haplochromis ornatus,2,Neoperla spio nymphs,2,1,predation,method,field observation and gut content
+Haplochromis ornatus,2,Schizopera consimilis,2,1,predation,method,field observation and gut content
+Haplochromis ornatus,2,ostracods,2,1,predation,method,field observation and gut content
+Haplochromis ornatus,2,Eubrianax larvae,2,1,predation,method,field observation and gut content
+leech,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+ostracods,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Haplochromis kiwinge,2,plankton,2,1,trophic,method,field observation and gut content
+Labidochromis vellicans,2,plankton,2,1,trophic,method,field observation and gut content
+Haplochromis kiwinge,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Haplochromis kiwinge,2,terrestrial insects,2,1,predation,method,field observation and gut content
+juvenile cichlids,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Pseudotropheus zebra,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Pseudotropheus elongatus,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+P. tropheops,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+P. minutus,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+P. auratus,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+P. fuscus,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Labeotropheus fuelleborni,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+L. trewavasae,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Haplochromis guentheri,2,Schizopera consimilis,2,1,predation,method,field observation and gut content
+H. fenestratus,2,Schizopera consimilis,2,1,predation,method,field observation and gut content
+Haplochromis guentheri,2,ostracods,2,1,predation,method,field observation and gut content
+H. fenestratus,2,ostracods,2,1,predation,method,field observation and gut content
+Haplochromis guentheri,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+H. fenestratus,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+Haplochromis guentheri,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Haplochromis ornatus,2,Elmid larvae,2,1,predation,method,field observation and gut content
+Haplochromis ornatus,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+Haplochromis ornatus,2,Afronurus nymphs,2,1,predation,method,field observation and gut content
+Haplochromis ornatus,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Pseudotropheus fuscoides,2,Hydropsychid larvae,2,1,predation,method,field observation and gut content
+Pseudotropheus fuscoides,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+Pseudotropheus fuscoides,2,Afronurus nymphs,2,1,predation,method,field observation and gut content
+Pseudotropheus fuscoides,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Pseudotropheus fuscoides,2,terrestrial insects,2,-1,predation,method,field observation and gut content
+Hydropsychid larvae,2,ostracods,2,1,predation,method,field observation and gut content
+Hydropsychid larvae,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+Hydropsychid larvae,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Neoperla spio nymphs,2,Schizopera consimilis,2,1,predation,method,field observation and gut content
+Neoperla spio nymphs,2,ostracods,2,1,predation,method,field observation and gut content
+Neoperla spio nymphs,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+Neoperla spio nymphs,2,Afronurus nymphs,2,1,predation,method,field observation and gut content
+Cynotilapia afra,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+Cynotilapia afra,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Potamonautes lirrangensis,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Schizopera consimilis,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Barilius microcephalus,2,ostracods,2,1,predation,method,field observation and gut content
+Barilius microcephalus,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+Cynotilapia afra,2,plankton,2,1,trophic,method,field observation and gut content
+Barilius microcephalus,2,terrestrial insects,2,1,predation,method,field observation and gut content
+Eubrianax larvae,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Elmid larvae,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Chironomid larvae,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Afronurus nymphs,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Melanochromis melanopterus,2,Hydropsychid larvae,2,1,predation,method,field observation and gut content
+Melanochromis melanopterus,2,ostracods,2,1,predation,method,field observation and gut content
+Melanochromis melanopterus,2,Chironomid larvae,2,1,predation,method,field observation and gut content
+Melanochromis melanopterus,2,Afronurus nymphs,2,1,predation,method,field observation and gut content
+Melanochromis melanopterus,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Varicorhinus nyasensis,2,ostracods,2,1,predation,method,field observation and gut content
+Varicorhinus nyasensis,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Varicorhinus nyasensis,2,terrestrial insects,2,1,predation,method,field observation and gut content
+Barilius microcephalus,2,plankton,2,1,trophic,method,field observation and gut content
+Varicorhinus nyasensis,2,plankton,2,1,trophic,method,field observation and gut content
+Mastacembelus shiranus,2,Afronurus nymphs,2,1,predation,method,field observation and gut content
+Haplochromis pardalis,2,juvenile cichlids,2,1,predation,method,field observation and gut content
+other predatory fishes,2,juvenile cichlids,2,1,predation,method,field observation and gut content
+Haplochromis polyodon,2,juvenile cichlids,2,1,predation,method,field observation and gut content
+Haplochromis polyodon,2,Pseudotropheus zebra,2,1,predation,method,field observation and gut content
+Haplochromis kiwinge,2,juvenile cichlids,2,1,predation,method,field observation and gut content
+Haplochromis kiwinge,2,Hydropsychid larvae,2,1,predation,method,field observation and gut content
+Varicorhinus nyasensis,2,ostracods,2,1,predation,method,field observation and gut content
+Varicorhinus nyasensis,2,Aufwuchs,2,1,herbivory,method,field observation and gut content
+Varicorhinus nyasensis,2,terrestrial insects,2,1,predation,method,field observation and gut content
+Barilius microcephalus,2,plankton,2,1,trophic,method,field observation and gut content
+Varicorhinus nyasensis,2,plankton,2,1,trophic,method,field observation and gut content
+Mastacembelus shiranus,2,Afronurus nymphs,2,1,predation,method,field observation and gut content
+Serranochromis robustus,3,Baetid nymphs,3,1,predation,method,field observation and gut content
+Naucoris sp.,3,Anisopterid larvae,3,1,predation,method,field observation and gut content
+Naucoris sp.,3,Gyraulus costulatus\,3,1,predation,method,field observation and gut content
+Clarias mellandi,3,Anisopterid larvae,3,1,predation,method,field observation and gut content
+Anisopterid larvae,3,Cyclopoid copepods,3,1,predation,method,field observation and gut content
+Anisopterid larvae,3,Chironomid larvae,3,1,predation,method,field observation and gut content
+Barbus paludinosus,3,caddis larvae,3,1,predation,method,field observation and gut content
+Barbus paludinosus,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Barbus paludinosus,3,higher plants,3,1,herbivory,method,field observation and gut content
+Alestes imberi,3,terrestrial insects,3,1,predation,method,field observation and gut content
+mosquito larvae,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Cyclopoid copepods,3,Cladocera,3,1,predation,method,field observation and gut content
+Cyclopoid copepods,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Zygopterid larvae,3,Chironomid larvae,3,1,predation,method,field observation and gut content
+Zygopterid larvae,3,Baetid nymphs,3,1,predation,method,field observation and gut content
+Caridina nilotica,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Barilius microcephalus,3,Baetid nymphs,3,1,predation,method,field observation and gut content
+T. saka,3,bottom algae,3,1,herbivory,method,field observation and gut content
+T. squamipinnis,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Gyraulus costulatus,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Cladocera,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Chironomid larvae,3,bottom algae,3,1,herbivory,method,field observation and gut content
+caddis larvae,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Baetid nymphs,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Micronecta,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Segmentorbis angustus,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Limnaea sp.,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Haplochromis similis,3,bottom algae,3,1,herbivory,method,field observation and gut content
+juvenile Cichlidae,3,detritus,3,1,detritivore,method,field observation and gut content
+Barbus innocens,3,detritus,3,1,detritivore,method,field observation and gut content
+frogs,3,detritus,3,1,detritivore,method,field observation and gut content
+Barbus paludinosus,3,detritus,3,1,detritivore,method,field observation and gut content
+mosquito larvae,3,detritus,3,1,detritivore,method,field observation and gut content
+Cyclopoid copepods,3,detritus,3,1,detritivore,method,field observation and gut content
+Caridina nilotica,3,detritus,3,1,detritivore,method,field observation and gut content
+Tilapia shirana,3,detritus,3,1,detritivore,method,field observation and gut content
+T. saka,3,detritus,3,1,detritivore,method,field observation and gut content
+T. squamipinnis,3,detritus,3,1,detritivore,method,field observation and gut content
+Gyraulus costulatus,3,detritus,3,1,detritivore,method,field observation and gut content
+Cladocera,3,detritus,3,1,detritivore,method,field observation and gut content
+Chironomid larvae,3,detritus,3,1,detritivore,method,field observation and gut content
+caddis larvae,3,detritus,3,1,detritivore,method,field observation and gut content
+Baetid nymphs,3,detritus,3,1,detritivore,method,field observation and gut content
+Micronecta,3,detritus,3,1,detritivore,method,field observation and gut content
+Segmentorbis angustus,3,detritus,3,1,detritivore,method,field observation and gut content
+Limnaea sp.,3,detritus,3,1,detritivore,method,field observation and gut content
+Haplochromis similis,3,detritus,3,1,detritivore,method,field observation and gut content
+Crocodilus niloticus,3,frogs,3,1,predation,method,field observation and gut content
+Crocodilus niloticus,3,Dytiscid beetles,3,1,predation,method,field observation and gut content
+juvenile Cichlidae,3,Caridina nilotica,3,1,predation,method,field observation and gut content
+juvenile Cichlidae,3,Cladocera,3,1,predation,method,field observation and gut content
+juvenile Cichlidae,3,Chironomid larvae,3,1,predation,method,field observation and gut content
+juvenile Cichlidae,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Barbus innocens,3,Cyclopoid copepods,3,1,predation,method,field observation and gut content
+Barbus innocens,3,Cladocera,3,1,predation,method,field observation and gut content
+Barbus innocens,3,Chironomid larvae,3,1,predation,method,field observation and gut content
+Barbus innocens,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Serranochromis robustus,3,mosquito larvae,3,1,predation,method,field observation and gut content
+Serranochromis robustus,3,Cyclopoid copepods,3,1,predation,method,field observation and gut content
+Serranochromis robustus,3,Cladocera,3,1,predation,method,field observation and gut content
+Serranochromis robustus,3,Chironomid larvae,3,1,predation,method,field observation and gut content
+Serranochromis robustus,3,caddis larvae,3,1,predation,method,field observation and gut content
+Barilius microcephalus,3,terrestrial insects,3,1,predation,method,field observation and gut content
+Tilapia shirana,3,Cyclopoid copepods,3,1,predation,method,field observation and gut content
+T. saka,3,Cyclopoid copepods,3,1,predation,method,field observation and gut content
+T. squamipinnis,3,Cyclopoid copepods,3,1,predation,method,field observation and gut content
+Tilapia shirana,3,Chironomid larvae,3,1,predation,method,field observation and gut content
+T. saka,3,Chironomid larvae,3,1,predation,method,field observation and gut content
+T. squamipinnis,3,Chironomid larvae,3,1,predation,method,field observation and gut content
+Tilapia shirana,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Haplochromis similis,3,higher plants,3,1,herbivory,method,field observation and gut content
+Clarias mossambicus,3,higher plants,3,1,herbivory,method,field observation and gut content
+Clarias mossambicus,3,indet. Fishes,3,1,predation,method,field observation and gut content
+Clarias mossambicus,3,terrestrial insects,3,1,predation,method,field observation and gut content
+Gerrids,3,terrestrial insects,3,1,predation,method,field observation and gut content
+frogs,3,bottom algae,3,1,herbivory,method,field observation and gut content
+Barbus sp.,3,terrestrial insects,3,1,predation,method,field observation and gut content

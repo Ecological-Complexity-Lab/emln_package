@@ -1,0 +1,106 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,richardson spermophile (ground squirrel),taxon,taxonomy_name,Urocitellus richardsonii,taxonomy_rank,species
+2,coyote,taxon,taxonomy_name,Canis latrans,taxonomy_rank,species
+3,red-tailed hawk,taxon,taxonomy_name,Buteo jamaicensis,taxonomy_rank,species
+4,weasel,taxon,taxonomy_name,Mustelidae,taxonomy_rank,family
+5,badger,taxon,taxonomy_name,Mustelidae,taxonomy_rank,family
+6,vole (microtus),taxon,taxonomy_name,Microtus,taxonomy_rank,genus
+7,13-striped spermophile (ground squirrel),taxon,taxonomy_name,Ictidomys tridecemlineatus,taxonomy_rank,species
+8,pocket gopher (thomomys),taxon,taxonomy_name,Geomyidae,taxonomy_rank,family
+9,great horned owl,taxon,taxonomy_name,Bubo virginianus,taxonomy_rank,species
+10,insects in herb and surface stratum,taxon,taxonomy_name,Insecta,taxonomy_rank,class
+11,hemiptera,taxon,taxonomy_name,Hemiptera,taxonomy_rank,order
+12,grasshoppers,taxon,taxonomy_name,Leptopyrgota caelifera,taxonomy_rank,species
+13,spiders,taxon,taxonomy_name,Araneae,taxonomy_rank,order
+14,insects in soil stratum,taxon,taxonomy_name,Insecta,taxonomy_rank,class
+15,wire worms,taxon,taxonomy_name,Elateridae,taxonomy_rank,family
+16,cutworms,taxon,taxonomy_name,Noctuidae,taxonomy_rank,family
+17,white grubs,taxon,taxonomy_name,Coleoptera,taxonomy_rank,order
+18,meadow lark,taxon,taxonomy_name,Sturnella,taxonomy_rank,genus
+19,chipping sparrow,taxon,taxonomy_name,Spizella passerina,taxonomy_rank,species
+20,clay-colored sparrow,taxon,taxonomy_name,Spizella pallida,taxonomy_rank,species
+21,vesper sparrow,taxon,taxonomy_name,Pooecetes gramineus,taxonomy_rank,species
+22,horned lark,taxon,taxonomy_name,Eremophila alpestris,taxonomy_rank,species
+23,upland plover,taxon,taxonomy_name,Bartramia longicauda,taxonomy_rank,species
+24,crow,taxon,taxonomy_name,Corvus,taxonomy_rank,genus
+25,frog,taxon,taxonomy_name,Anura,taxonomy_rank,order
+26,garter snake,taxon,taxonomy_name,Thamnophis,taxonomy_rank,genus
+27,agropyron,taxon,taxonomy_name,Agropyron,taxonomy_rank,genus
+28,stipa,taxon,taxonomy_name,Stipa,taxonomy_rank,genus
+29,helianthus,taxon,taxonomy_name,Helianthus,taxonomy_rank,genus
+30,diptera,taxon,taxonomy_name,NA,taxonomy_rank,NA
+31,marsh hawk,taxon,taxonomy_name,NA,taxonomy_rank,NA
+32,pyrola,taxon,taxonomy_name,Pyrola,taxonomy_rank,genus
+33,aralia,taxon,taxonomy_name,Aralia,taxonomy_rank,genus
+34,baltimore oriole,taxon,taxonomy_name,Icterus galbula,taxonomy_rank,species
+35,chickadee,taxon,taxonomy_name,Poecile,taxonomy_rank,genus
+36,least flycatcher,taxon,taxonomy_name,Empidonax minimus,taxonomy_rank,species
+37,warbling vireo,taxon,taxonomy_name,Vireo gilvus,taxonomy_rank,species
+38,rosebreasted grossbeak,taxon,taxonomy_name,Pheucticus ludovicianus,taxonomy_rank,species
+39,willow thrush,taxon,taxonomy_name,Catharus fuscescens,taxonomy_rank,species
+40,fomes,taxon,taxonomy_name,Fomes,taxonomy_rank,genus
+41,hairy woodpecker,taxon,taxonomy_name,Picoides villosus,taxonomy_rank,species
+42,spiders (mature forest),taxon,taxonomy_name,Araneae,taxonomy_rank,order
+43,insects (mature forest),taxon,taxonomy_name,Insecta,taxonomy_rank,class
+44,dicera,taxon,taxonomy_name,Diceratiidae,taxonomy_rank,family
+45,saperda,taxon,taxonomy_name,Saperda,taxonomy_rank,genus
+46,red squirrel,taxon,taxonomy_name,Sciurus vulgaris,taxonomy_rank,infraspecies
+47,goshawk,taxon,taxonomy_name,Accipiter,taxonomy_rank,genus
+48,redbacked vole (evolomys),taxon,taxonomy_name,Myodes,taxonomy_rank,genus
+49,cooper's hawk,taxon,taxonomy_name,Accipiter cooperii,taxonomy_rank,species
+50,ruffed grouse,taxon,taxonomy_name,Bonasa umbellus,taxonomy_rank,species
+51,house wren,taxon,taxonomy_name,Troglodytes aedon,taxonomy_rank,species
+52,ticks,taxon,taxonomy_name,Parasitiformes,taxonomy_rank,NA
+53,snowshoe rabbit,taxon,taxonomy_name,Lepus americanus,taxonomy_rank,infraspecies
+54,red-eyed vireo,taxon,taxonomy_name,Vireo olivaceus,taxonomy_rank,species
+55,yellow warbler,taxon,taxonomy_name,Setophaga petechia,taxonomy_rank,species
+56,gold finch,taxon,taxonomy_name,Spinus tristis,taxonomy_rank,species
+57,catbird,taxon,taxonomy_name,Dumetella carolinensis,taxonomy_rank,species
+58,brown thrasher,taxon,taxonomy_name,Toxostoma rufum,taxonomy_rank,species
+59,towhee,taxon,taxonomy_name,Pipilo,taxonomy_rank,genus
+60,robin,taxon,taxonomy_name,Turdus migratorius,taxonomy_rank,species
+61,redbacked vole,taxon,taxonomy_name,Myodes,taxonomy_rank,genus
+62,franklin ground squirrel,taxon,taxonomy_name,Poliocitellus franklinii,taxonomy_rank,species
+63,insects (forest edge),taxon,taxonomy_name,Insecta,taxonomy_rank,class
+64,spiders (forest edge),taxon,taxonomy_name,Araneae,taxonomy_rank,order
+65,snails,taxon,taxonomy_name,Gastropoda,taxonomy_rank,class
+66,frogs,taxon,taxonomy_name,Anura,taxonomy_rank,order
+67,downy woodpecker,taxon,taxonomy_name,Dendrocopos pubescens,taxonomy_rank,species
+68,sharpshinned hawk,taxon,taxonomy_name,Accipiter striatus,taxonomy_rank,species
+69,populus,taxon,taxonomy_name,Populus,taxonomy_rank,genus
+70,cornus,taxon,taxonomy_name,Cornus,taxonomy_rank,genus
+71,corylus,taxon,taxonomy_name,Corylus,taxonomy_rank,genus
+72,symphoricarpos,taxon,taxonomy_name,Symphoricarpos,taxonomy_rank,genus
+73,prunus,taxon,taxonomy_name,Prunus,taxonomy_rank,genus
+74,amelanchier,taxon,taxonomy_name,Amelanchier,taxonomy_rank,genus
+75,flicker,taxon,taxonomy_name,Colaptes,taxonomy_rank,genus
+76,canker,taxon,taxonomy_name,NA,taxonomy_rank,NA
+77,insects,taxon,taxonomy_name,Insecta,taxonomy_rank,class
+78,rosebreasted grosbeak,taxon,taxonomy_name,Pheucticus ludovicianus,taxonomy_rank,species
+79,man,taxon,taxonomy_name,Homo sapiens,taxonomy_rank,species
+80,rabbit,taxon,taxonomy_name,Leporidae,taxonomy_rank,family
+81,maryland yellowthroat,taxon,taxonomy_name,Geothlypis trichas,taxonomy_rank,species
+82,songsparrow,taxon,taxonomy_name,Melospiza melodia,taxonomy_rank,species
+83,redwinged blackbird,taxon,taxonomy_name,Agelaius phoeniceus,taxonomy_rank,species
+84,bronze grackle,taxon,taxonomy_name,Quiscalus,taxonomy_rank,genus
+85,rana pipiens,taxon,taxonomy_name,Lithobates pipiens,taxonomy_rank,species
+86,skunk,taxon,taxonomy_name,Mephitidae,taxonomy_rank,family
+87,prairie vole,taxon,taxonomy_name,Microtus ochrogaster,taxonomy_rank,species
+88,pocket gophers,taxon,taxonomy_name,Geomyidae,taxonomy_rank,family
+89,ground squirrels,taxon,taxonomy_name,Marmotini,taxonomy_rank,NA
+90,clickbeetles,taxon,taxonomy_name,Elateridae,taxonomy_rank,family
+91,pryola,taxon,taxonomy_name,Pyrola,taxonomy_rank,genus
+92,salix longifolia,taxon,taxonomy_name,Salix interior,taxonomy_rank,species
+93,salix petiolaris,taxon,taxonomy_name,Salix petiolaris,taxonomy_rank,species
+94,ducks,taxon,taxonomy_name,Anatidae,taxonomy_rank,family
+95,agrostis,taxon,taxonomy_name,Agrostis,taxonomy_rank,genus
+96,coots,taxon,taxonomy_name,Fulica,taxonomy_rank,genus
+97,mice,taxon,taxonomy_name,Sphodromerus mus,taxonomy_rank,species
+98,ants,taxon,taxonomy_name,Formicidae,taxonomy_rank,family
+99,salix discolor,taxon,taxonomy_name,Salix discolor,taxonomy_rank,species
+100,fish,taxon,taxonomy_name,NA,taxonomy_rank,NA
+101,galerucella decora,taxon,taxonomy_name,NA,taxonomy_rank,NA
+102,song sparrow,taxon,taxonomy_name,Melospiza melodia,taxonomy_rank,species
+103,pontania petiolaridis,taxon,taxonomy_name,Pontania petiolaridis,taxonomy_rank,NA
+104,collembola,taxon,taxonomy_name,Collembola,taxonomy_rank,order
+105,disyonicha quinquevitata,taxon,taxonomy_name,NA,taxonomy_rank,NA

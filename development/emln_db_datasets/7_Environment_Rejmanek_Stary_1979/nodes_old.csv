@@ -1,0 +1,40 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Trioxys pallidus,taxon,taxonomy_name,Trioxys pallidus,taxonomy_rank,species
+2,T. curvicaudus,taxon,taxonomy_name,Trioxys curvicaudus,taxonomy_rank,species
+3,T. tenvicaudus,taxon,taxonomy_name,Trioxys tenuicaudus,taxonomy_rank,species
+4,Praon flavinode,taxon,taxonomy_name,Praon flavinode,taxonomy_rank,species
+5,Thelaxes dryophila,taxon,taxonomy_name,Thelaxes dryophila,taxonomy_rank,species
+6,Stomaphis quercus,taxon,taxonomy_name,Stomaphis quercus,taxonomy_rank,species
+7,Tuberculoides annulatus,taxon,taxonomy_name,Tuberculatus annulatus,taxonomy_rank,species
+8,Myzocallis castanicola,taxon,taxonomy_name,Myzocallis castanicola,taxonomy_rank,species
+9,Quercus robur,taxon,taxonomy_name,Quercus robur,taxonomy_rank,species
+10,Lysiphlebus thelaxis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+11,Aphidencyrtus aphidivorus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+12,A. quercicola,taxon,taxonomy_name,NA,taxonomy_rank,NA
+13,Protophidius wissmanii,taxon,taxonomy_name,NA,taxonomy_rank,NA
+14,Aphelinus chaonia,taxon,taxonomy_name,Aphelinus chaonia,taxonomy_rank,species
+15,Trioxys betulae,taxon,taxonomy_name,Trioxys betulae,taxonomy_rank,species
+16,T. compressicornis,taxon,taxonomy_name,Betuloxys compressicornis,taxonomy_rank,species
+17,Aphidius aquilus,taxon,taxonomy_name,Aphidius aquilus,taxonomy_rank,species
+18,Calaphidius elegans,taxon,taxonomy_name,Calaphidius elegans,taxonomy_rank,species
+19,Symydobius oblongus,taxon,taxonomy_name,Symydobius oblongus,taxonomy_rank,species
+20,Euceraphis betulae,taxon,taxonomy_name,Euceraphis betulae,taxonomy_rank,species
+21,Betulaphis quadrituberculata,taxon,taxonomy_name,Betulaphis quadrituberculata,taxonomy_rank,species
+22,Calaphis betulicola,taxon,taxonomy_name,Calaphis betulicola,taxonomy_rank,species
+23,Betulaphis brevipilosa,taxon,taxonomy_name,Betulaphis brevipilosa,taxonomy_rank,species
+24,Hamamelistes betulinus,taxon,taxonomy_name,Hamamelistes betulinus,taxonomy_rank,species
+25,Betula pendula,taxon,taxonomy_name,Betula pendula,taxonomy_rank,species
+26,Pauesia picta,taxon,taxonomy_name,Pauesia picta,taxonomy_rank,species
+27,P. jezoensis,taxon,taxonomy_name,Pauesia jezoensis,taxonomy_rank,species
+28,P. pini,taxon,taxonomy_name,Pauesia pini,taxonomy_rank,species
+29,Praon bicolor,taxon,taxonomy_name,Praon bicolor,taxonomy_rank,species
+30,Diaeretus leucopterus,taxon,taxonomy_name,Diaeretus leucopterus,taxonomy_rank,species
+31,Pauesia unilachni,taxon,taxonomy_name,Pauesia unilachni,taxonomy_rank,species
+32,Cinara pini,taxon,taxonomy_name,Cinara pini,taxonomy_rank,species
+33,C. pinea,taxon,taxonomy_name,Cinara pinea,taxonomy_rank,species
+34,Eulachnus agilis,taxon,taxonomy_name,Eulachnus agilis,taxonomy_rank,species
+35,Schizolachnus pineti,taxon,taxonomy_name,Cinara pineti,taxonomy_rank,species
+36,Pinus silvestris,taxon,taxonomy_name,Pinus sylvestris,taxonomy_rank,species
+37,P. laricia,taxon,taxonomy_name,NA,taxonomy_rank,NA
+38,T. tenuicaudus,taxon,taxonomy_name,Trioxys tenuicaudus,taxonomy_rank,species
+39,Protaphidius wissmanii,taxon,taxonomy_name,NA,taxonomy_rank,NA

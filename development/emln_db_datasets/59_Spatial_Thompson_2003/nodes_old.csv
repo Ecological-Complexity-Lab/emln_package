@@ -1,0 +1,217 @@
+node_id,node_name,type
+1,Aelosoma,organism
+2,Brachycentrus sp1 FW_012_01,organism
+3,Cambarus bartoni,organism
+4,Dicranota sp1 FW_012_01,organism
+5,Ectopria thoracica,organism
+6,Epeorus dispar,organism
+7,Glossosoma sp1 FW_012_01,organism
+8,Homoplectra sp1 FW_012_01,organism
+9,Hudsonimya sp1 FW_012_01,organism
+10,Hydropsyche sp1 FW_012_01,organism
+11,Leucrocuta sp1 FW_012_01,organism
+12,Leuctra sp1 FW_012_01,organism
+13,Lumbriculiid oligochaete,organism
+14,Parametriocnemus sp1 FW_012_01,organism
+15,Ophiogomphus sp1 FW_012_01,organism
+16,Palpomyia sp1 FW_012_01,organism
+17,Palpomyia sp2 FW_012_01,organism
+18,Promoresia sp1 FW_012_01,organism
+19,Psephenus sp1 FW_012_01,organism
+20,Soliperla sp1 FW_012_01,organism
+21,Stenelmis adult,organism
+22,Stenelmis sp1 FW_012_01,organism
+23,Suwalia sp1 FW_012_01,organism
+24,Tallaperla maria,organism
+25,Tipula abdominalis,organism
+26,Salamander,organism
+27,Cordulegaster maculata,organism
+28,Neureclipsis sp1 FW_012_01,organism
+29,Thaumalea sp1 FW_012_01,organism
+30,Chauliodes sp1 FW_012_01,organism
+31,Aeolosoma sp1 FW_012_02,organism
+32,Ajax longipes,organism
+33,Amphinemura wui,organism
+34,Anchytarsus bicolor,organism
+35,Baetis,organism
+36,Hudsonimya,organism
+37,Cricotopus,organism
+38,Dicranota,organism
+39,Eukieffidrella pseudomontana,organism
+40,Diplectrona modesta,organism
+41,Dixella,organism
+42,Dolophilodes,organism
+43,Fatigia pele,organism
+44,Hexatoma sp1 FW_012_02,organism
+45,Leuctra,organism
+46,Oligo Lumbr  Blue,organism
+47,Oligo  Lumbr  Pink,organism
+48,Ophiogomphus,organism
+49,Paraleptophelebia,organism
+50,Pericoma,organism
+51,Pilaria,organism
+52,Pentaneuri sp1 FW_012_02,organism
+53,Stenelmis,organism
+54,Tanyderid,organism
+55,Conchapelopia,organism
+56,Tipula,organism
+57,Wormaldia moesta,organism
+58,Crayfish,organism
+59,Polycentropus maculatus,organism
+60,Aoteapsyche raruraru,organism
+61,Aphrophila neozelandicus,organism
+62,Hydrobiosella stenocerca,organism
+63,Stenoperla prasinia,organism
+64,Paranephrops zelandicus,organism
+65,Salmo trutta,organism
+66,Amphipoda type purple,organism
+67,Austroperla cyrene,organism
+68,Austrosimulium australense,organism
+69,Coloburiscus humeralis,organism
+70,Cricotopus sp1 FW_013_01,organism
+71,Deleatidum lilli,organism
+72,Hudsonema amabilis,organism
+73,Hydora nitida,organism
+74,Lumbriculiid type II,organism
+75,Paracalliope fluviatalus,organism
+76,Podaena sp1 FW_013_01,organism
+77,Potamopyrgus antipodarum,organism
+78,Pycnocentria evecta,organism
+79,Rhabdomastrix sp1 FW_013_01,organism
+80,Scirtidae type broad,organism
+81,Stictocladius sp1 FW_013_01,organism
+82,Tanytarsini sp1 FW_013_01,organism
+83,Zelandobius confusus,organism
+84,Zelandoperla fenestrata,organism
+85,Cristaperla fimbria,organism
+86,Eukieflidriella brundini,organism
+87,Hydraena homolaena,organism
+88,Hydrophilidae,organism
+89,Isopoda,organism
+90,Maoridiamesia sp1 FW_013_01,organism
+91,Naonella forsythii,organism
+92,Galaxias brevipennis,organism
+93,Megaleptoperla grandis,organism
+94,Ameletopsis perscitus,organism
+95,Tiphobiosis montana,organism
+96,Aphrophila neozelandiae,organism
+97,Aspectrotanypus,organism
+98,Brundin,organism
+99,Ceratopogonid,organism
+100,Deleatidium lilli,organism
+101,Eriopterini,organism
+102,Eukiefidrella,organism
+103,Heliodidae beetle,organism
+104,Hexatomini,organism
+105,Hudsonema aliena,organism
+106,Hydora nitida l,organism
+107,Hydrobiosis frater,organism
+108,Hydrophiliid beetle,organism
+109,Megaleptoperla diminuata,organism
+110,Molophilus,organism
+111,Nannochorista philpotti,organism
+112,Naonella,organism
+113,Oeconesus,organism
+114,Oligo skinny,organism
+115,Orchymontia,organism
+116,Paralimnophila skuseii,organism
+117,Paucispinigera approximata,organism
+118,Phreatoicus prasinia,organism
+119,Pirara matakiri,organism
+120,Pycnocentrodes,organism
+121,Stictocladius,organism
+122,Stratiomyid I,organism
+123,Zelandoperla agnetis,organism
+124,Scirtid skinny,organism
+125,Costachorema xanthoptera,organism
+126,Philorheithrus agilis,organism
+127,Polyplectropus puerilis,organism
+128,Apsectrotanypus sp1 FW_013_03,organism
+129,Hydrobiosis charadera,organism
+130,Hydrobiosis parumbripennis,organism
+131,Rhabdomastix sp1 FW_013_03,organism
+132,Aphrophila neozelandica,organism
+133,Cricotopus type II,organism
+134,Deleatidium sp1 FW_013_03,organism
+135,Lumbriculiid type I,organism
+136,Lumbriculiid type III,organism
+137,Lumbriculiid type skinny,organism
+138,Lumbriculiid type smooth,organism
+139,Nothodixa campbelli,organism
+140,Nymphula nitens,organism
+141,Paracalliope sp1 FW_013_03,organism
+142,Polypedilum type I,organism
+143,Polypedilum type II,organism
+144,Tanytarsus sp1 FW_013_03,organism
+145,Tanytarsus verspertinus,organism
+146,Zelanoperla sp1 FW_013_03,organism
+147,Chironomini sp1 FW_013_03,organism
+148,Costchorema xanthoptera,organism
+149,Eukiefidrella brundini,organism
+150,Hydrochorema crassicaudatum,organism
+151,Molophilus sp1 FW_013_03,organism
+152,Orchymontia sp1 FW_013_03,organism
+153,Psychodidae,organism
+154,Scirtidae type skinny,organism
+155,Tanypodini sp1 FW_013_03,organism
+156,Zelolessica cheira,organism
+157,Stictocladius sp1 FW_013_03,organism
+158,Psilachorema bidens,organism
+159,Aoteapsyche colonica,organism
+160,Archicauliodes diversus,organism
+161,Acroperla sp1 FW_013_04,organism
+162,Aphrotenidae,organism
+163,Austrosimulium austranse,organism
+164,Barareoptera roria,organism
+165,Deleatidium sp1 FW_013_04,organism
+166,Hydora nitida larvae,organism
+167,Polypedilum sp1 FW_013_04,organism
+168,Pycnocentrodes evecta,organism
+169,Rhabdomastrix sp1 FW_013_04,organism
+170,Tanyderidae,organism
+171,Apsectrotanypus sp1 FW_013_04,organism
+172,Cricotopus sp1 FW_013_04,organism
+173,Eukieflidrella brundini,organism
+174,Helicopsyche albescens,organism
+175,Hexatomini sp1 FW_013_04,organism
+176,Molophilus sp1 FW_013_04,organism
+177,Stictocladius sp1 FW_013_04,organism
+178,Tanypodini sp1 FW_013_04,organism
+179,Tiphobiosis sp1 FW_013_04,organism
+180,Tanytarsus type blunt,organism
+181,Chironomini sp1 FW_013_04,organism
+182,Podonomus sp1 FW_013_04,organism
+183,Hydrobiosis silvicola,organism
+184,Aoteapsyche sp1 FW_013_05,organism
+185,Aphrophila noevaezelandiae,organism
+186,Austraclima jollyae,organism
+187,Orthoclad sp1 FW_013_05,organism
+188,Cricotopus II,organism
+189,Maoridiamesea,organism
+190,Eukiefiriella,organism
+191,Tanytarsini II,organism
+192,Pirara,organism
+193,Podonomus,organism
+194,Polypedellum,organism
+195,Cricotopus I,organism
+196,Tanytarsini I,organism
+197,Heliopsyche albescens,organism
+198,Hydraena homalaena Type H1,organism
+199,Hydraena homalaena Type H2,organism
+200,Hydraena orchymontia,organism
+201,Hydrobiosella sp1 FW_013_05,organism
+202,Oligochaeta type II,organism
+203,Olinga feredayi,organism
+204,Oxyethira albiceps,organism
+205,Paroxyethira eatoni,organism
+206,Scirtid sp1 FW_013_05,organism
+207,Scirtid sp2 FW_013_05,organism
+208,Scirtid sp3 FW_013_05,organism
+209,Zelandoperla sp1 FW_013_05,organism
+210,Zelandoperla sp2 FW_013_05,organism
+211,Archicaulioides diversus,organism
+212,Deleatidium sp1 FW_013_05,organism
+213,Hexatomini sp1 FW_013_05,organism
+214,Larsia I,organism
+215,Tanypodini,organism
+216,Hydrobiosid sp1 FW_013_05,organism

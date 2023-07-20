@@ -1,0 +1,48 @@
+node_id,node_name,type,attribue1,value1,attribue2,value2
+1,Azorina vidalii,plant,taxonomy_name,Azorina vidalii,taxonomy_rank,species
+2,Crithmum maritimum,plant,taxonomy_name,Crithmum maritimum,taxonomy_rank,species
+3,Beta vulgaris,plant,taxonomy_name,Beta vulgaris,taxonomy_rank,species
+4,Daucus carota,plant,taxonomy_name,Daucus carota,taxonomy_rank,species
+5,Silene vulgaris,plant,taxonomy_name,Silene vulgaris,taxonomy_rank,species
+6,Lotus corniculatus,plant,taxonomy_name,Lotus corniculatus,taxonomy_rank,species
+7,Freesia refracta,plant,taxonomy_name,Freesia refracta,taxonomy_rank,species
+8,Reseda luteola,plant,taxonomy_name,Reseda luteola,taxonomy_rank,species
+9,Halictus sp.,pollinator,taxonomy_name,Halictus,taxonomy_rank,genus
+10,Sepsis thoracica,pollinator,taxonomy_name,Micropeza thoracicum,taxonomy_rank,species
+11,Bombus ruderatus,pollinator,taxonomy_name,Bombus ruderatus,taxonomy_rank,species
+12,Colias crocea,pollinator,taxonomy_name,Colias crocea,taxonomy_rank,NA
+13,Musca domestica,pollinator,taxonomy_name,Musca domestica,taxonomy_rank,species
+14,Apis mellifera,pollinator,taxonomy_name,Apis mellifera,taxonomy_rank,species
+15,Lasius niger,pollinator,taxonomy_name,Lasius niger,taxonomy_rank,species
+16,Lucilia sericata,pollinator,taxonomy_name,Lucilia sericata,taxonomy_rank,species
+17,Eristalix tenax,pollinator,taxonomy_name,Eristalix tenax,taxonomy_rank,NA
+18,Agrotis ipsilon,pollinator,taxonomy_name,Agrotis ipsilon,taxonomy_rank,species
+19,Anothomyia pluvialis,pollinator,taxonomy_name,Anothomyia pluvialis,taxonomy_rank,NA
+20,Solidago sempervivens,plant,taxonomy_name,NA,taxonomy_rank,NA
+21,Chamomilla suaveolens,plant,taxonomy_name,NA,taxonomy_rank,NA
+22,Calliphora vemitoria,pollinator,taxonomy_name,NA,taxonomy_rank,NA
+23,Gastonia mauritiana,plant,taxonomy_name,Polyscias maraisiana,taxonomy_rank,species
+24,Dracaena concinna,plant,taxonomy_name,Dracaena concinna,taxonomy_rank,species
+25,Scaevola sericea,plant,taxonomy_name,Scaevola sericea,taxonomy_rank,species
+26,Ipomoea macrantha,plant,taxonomy_name,Ipomoea murucoides,taxonomy_rank,species
+27,Pemphis acidula,plant,taxonomy_name,Pemphis acidula,taxonomy_rank,species
+28,Hibiscus tiliaceus,plant,taxonomy_name,Talipariti tiliaceum,taxonomy_rank,species
+29,Suriana maritima,plant,taxonomy_name,Suriana maritima,taxonomy_rank,species
+30,Argusia argentea,plant,taxonomy_name,Heliotropium foertherianum,taxonomy_rank,species
+31,Thespesia populnea,plant,taxonomy_name,Thespesia populnea,taxonomy_rank,species
+32,Morinda citrifolia,plant,taxonomy_name,Morinda citrifolia,taxonomy_rank,species
+33,Leucaena leucocephala,plant,taxonomy_name,Leucaena leucocephala,taxonomy_rank,species
+34,Passiflora suberosa,plant,taxonomy_name,Passiflora suberosa,taxonomy_rank,species
+35,Turnera angustifolia,plant,taxonomy_name,Turnera angustifolia,taxonomy_rank,NA
+36,Phelsuma ornata,pollinator,taxonomy_name,Phelsuma ornata,taxonomy_rank,species
+37,Protaetia aurichalcea,pollinator,taxonomy_name,Protaetia aurichalcea,taxonomy_rank,species
+38,Leptotes pirithous,pollinator,taxonomy_name,Leptotes pirithous,taxonomy_rank,species
+39,Lucilia sp.,pollinator,taxonomy_name,Lucilia,taxonomy_rank,genus
+40,Ornidia obesa,pollinator,taxonomy_name,Ornidia obesa,taxonomy_rank,species
+41,Syrphid sp.,pollinator,taxonomy_name,Syrphid,taxonomy_rank,NA
+42,Xylocopa fenestrata,pollinator,taxonomy_name,Xylocopa fenestrata,taxonomy_rank,species
+43,Megachile sp.,pollinator,taxonomy_name,Megachile,taxonomy_rank,genus
+44,Borbo borbonica,pollinator,taxonomy_name,Borbo borbonica,taxonomy_rank,species
+45,Stachytapheta jamaicencis,plant,taxonomy_name,NA,taxonomy_rank,NA
+46,Stratiomydae sp.,pollinator,taxonomy_name,NA,taxonomy_rank,NA
+47,Phalantha phalantha,pollinator,taxonomy_name,NA,taxonomy_rank,NA

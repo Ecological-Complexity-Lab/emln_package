@@ -1,0 +1,953 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+Tubificidae sp. (Oligochaeta),1,Amorphous detritus,1,1,detritivore,method,observation
+Naididae sp. (Oligochaeta),1,Amorphous detritus,1,1,detritivore,method,observation
+Lumbricidae sp. (Oligochaeta),1,Amorphous detritus,1,1,detritivore,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),1,Amorphous detritus,1,1,detritivore,method,observation
+Angrobia sp. (Mollusca - Gastropoda),1,Amorphous detritus,1,1,detritivore,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),1,Amorphous detritus,1,1,detritivore,method,observation
+Chironomus sp. (Diptera - Chironomidae),1,Amorphous detritus,1,1,detritivore,method,observation
+Orthocladiinae sp. 1 (Chironomidae),1,Amorphous detritus,1,1,detritivore,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),1,Amorphous detritus,1,1,detritivore,method,observation
+Triplectides ciuskeus (Trichoptera - Leptoceridae),1,Amorphous detritus,1,1,detritivore,method,observation
+Helicopsychidae sp. (Trichoptera),1,Amorphous detritus,1,1,detritivore,method,observation
+Eucyclops sp. (Copepoda),1,Amorphous detritus,1,1,detritivore,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),1,Lumbricidae sp. (Oligochaeta),1,1,predation,method,observation
+Angrobia sp. (Mollusca - Gastropoda),1,Tabellaria sp.,1,1,predation,method,observation
+Tubificidae sp. (Oligochaeta),1,Dead cellular plant material,1,1,scavenger,method,observation
+Naididae sp. (Oligochaeta),1,Dead cellular plant material,1,1,scavenger,method,observation
+Lumbricidae sp. (Oligochaeta),1,Dead cellular plant material,1,1,scavenger,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),1,Dead cellular plant material,1,1,scavenger,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),1,Tetraedron sp.,1,1,herbivory,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),1,Tabellaria sp.,1,1,predation,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),1,Navicula sp.,1,1,herbivory,method,observation
+Angrobia sp. (Mollusca - Gastropoda),1,Dead cellular plant material,1,1,scavenger,method,observation
+Angrobia sp. (Mollusca - Gastropoda),1,Tetraedron sp.,1,1,herbivory,method,observation
+Angrobia sp. (Mollusca - Gastropoda),1,Navicula sp.,1,1,herbivory,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),1,Dead cellular plant material,1,1,scavenger,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),1,Tetraedron sp.,1,1,herbivory,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),1,Tabellaria sp.,1,1,predation,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),1,Navicula sp.,1,1,herbivory,method,observation
+Chironomus sp. (Diptera - Chironomidae),1,Dead cellular plant material,1,1,scavenger,method,observation
+Chironomus sp. (Diptera - Chironomidae),1,Algae spp.,1,1,herbivory,method,observation
+Chironomus sp. (Diptera - Chironomidae),1,Tetraedron sp.,1,1,herbivory,method,observation
+Chironomus sp. (Diptera - Chironomidae),1,Tabellaria sp.,1,1,predation,method,observation
+Chironomus sp. (Diptera - Chironomidae),1,Navicula sp.,1,1,herbivory,method,observation
+Paramerina sp. (Diptera - Chironomidae),1,Chironomus sp. (Diptera - Chironomidae),1,1,predation,method,observation
+Orthocladiinae sp. 1 (Chironomidae),1,Dead cellular plant material,1,1,scavenger,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),1,Dead cellular plant material,1,1,scavenger,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),1,Tetraedron sp.,1,1,herbivory,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),1,Tabellaria sp.,1,1,predation,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),1,Navicula sp.,1,1,herbivory,method,observation
+Triplectides ciuskeus (Trichoptera - Leptoceridae),1,Dead cellular plant material,1,1,scavenger,method,observation
+Helicopsychidae sp. (Trichoptera),1,Dead cellular plant material,1,1,scavenger,method,observation
+Helicopsychidae sp. (Trichoptera),1,Tetraedron sp.,1,1,herbivory,method,observation
+Helicopsychidae sp. (Trichoptera),1,Tabellaria sp.,1,1,predation,method,observation
+Helicopsychidae sp. (Trichoptera),1,Navicula sp.,1,1,herbivory,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),1,Tubificidae sp. (Oligochaeta),1,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),1,Naididae sp. (Oligochaeta),1,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),1,Chironomus sp. (Diptera - Chironomidae),1,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),1,Orthocladiinae sp. 1 (Chironomidae),1,1,predation,method,observation
+Eucyclops sp. (Copepoda),1,Dead cellular plant material,1,1,scavenger,method,observation
+Macrocyclops albidus (Copepoda),1,Eucyclops sp. (Copepoda),1,1,predation,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),2,Amorphous detritus,2,1,detritivore,method,observation
+Tubificidae sp. (Oligochaeta),2,Amorphous detritus,2,1,detritivore,method,observation
+Naididae sp. (Oligochaeta),2,Amorphous detritus,2,1,detritivore,method,observation
+Lumbricidae sp. (Oligochaeta),2,Amorphous detritus,2,1,detritivore,method,observation
+Angrobia sp. (Mollusca - Gastropoda),2,Amorphous detritus,2,1,detritivore,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),2,Amorphous detritus,2,1,detritivore,method,observation
+Chironomus sp. (Diptera - Chironomidae),2,Amorphous detritus,2,1,detritivore,method,observation
+Orthocladiinae sp. 1 (Chironomidae),2,Amorphous detritus,2,1,detritivore,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),2,Amorphous detritus,2,1,detritivore,method,observation
+Triplectides ciuskeus (Trichoptera - Leptoceridae),2,Amorphous detritus,2,1,detritivore,method,observation
+Helicopsychidae sp. (Trichoptera),2,Amorphous detritus,2,1,detritivore,method,observation
+Leptorussa darlingtoni (Trichoptera - Leptoceridae),2,Amorphous detritus,2,1,detritivore,method,observation
+Tubificidae sp. (Oligochaeta),2,Dead cellular plant material,2,1,scavenger,method,observation
+Naididae sp. (Oligochaeta),2,Dead cellular plant material,2,1,scavenger,method,observation
+Lumbricidae sp. (Oligochaeta),2,Dead cellular plant material,2,1,scavenger,method,observation
+Angrobia sp. (Mollusca - Gastropoda),2,Dead cellular plant material,2,1,scavenger,method,observation
+Angrobia sp. (Mollusca - Gastropoda),2,Tetraedron sp.,2,1,herbivory,method,observation
+Angrobia sp. (Mollusca - Gastropoda),2,Tabellaria sp.,2,1,predation,method,observation
+Angrobia sp. (Mollusca - Gastropoda),2,Navicula sp.,2,1,herbivory,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),2,Dead cellular plant material,2,1,scavenger,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),2,Tetraedron sp.,2,1,herbivory,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),2,Tabellaria sp.,2,1,predation,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),2,Navicula sp.,2,1,herbivory,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),2,Dead cellular plant material,2,1,scavenger,method,observation
+Chironomus sp. (Diptera - Chironomidae),2,Dead cellular plant material,2,1,scavenger,method,observation
+Chironomus sp. (Diptera - Chironomidae),2,Algae spp.,2,1,herbivory,method,observation
+Chironomus sp. (Diptera - Chironomidae),2,Tetraedron sp.,2,1,herbivory,method,observation
+Chironomus sp. (Diptera - Chironomidae),2,Tabellaria sp.,2,1,predation,method,observation
+Chironomus sp. (Diptera - Chironomidae),2,Navicula sp.,2,1,herbivory,method,observation
+Orthocladiinae sp. 1 (Chironomidae),2,Dead cellular plant material,2,1,scavenger,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),2,Dead cellular plant material,2,1,scavenger,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),2,Tetraedron sp.,2,1,herbivory,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),2,Tabellaria sp.,2,1,predation,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),2,Navicula sp.,2,1,herbivory,method,observation
+Triplectides ciuskeus (Trichoptera - Leptoceridae),2,Dead cellular plant material,2,1,scavenger,method,observation
+Helicopsychidae sp. (Trichoptera),2,Dead cellular plant material,2,1,scavenger,method,observation
+Helicopsychidae sp. (Trichoptera),2,Tetraedron sp.,2,1,herbivory,method,observation
+Helicopsychidae sp. (Trichoptera),2,Tabellaria sp.,2,1,predation,method,observation
+Helicopsychidae sp. (Trichoptera),2,Navicula sp.,2,1,herbivory,method,observation
+Leptorussa darlingtoni (Trichoptera - Leptoceridae),2,Dead cellular plant material,2,1,scavenger,method,observation
+Leptorussa darlingtoni (Trichoptera - Leptoceridae),2,Algae spp.,2,1,herbivory,method,observation
+Leptorussa darlingtoni (Trichoptera - Leptoceridae),2,Tetraedron sp.,2,1,herbivory,method,observation
+Leptorussa darlingtoni (Trichoptera - Leptoceridae),2,Tabellaria sp.,2,1,predation,method,observation
+Leptorussa darlingtoni (Trichoptera - Leptoceridae),2,Navicula sp.,2,1,herbivory,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),2,Tubificidae sp. (Oligochaeta),2,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),2,Naididae sp. (Oligochaeta),2,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),2,Lumbricidae sp. (Oligochaeta),2,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),2,Chironomus sp. (Diptera - Chironomidae),2,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),2,Orthocladiinae sp. 1 (Chironomidae),2,1,predation,method,observation
+Macrogyrus oblongus - adult (Chironomidae  - Gyrinidae),2,Terrestrial insects,2,1,predation,method,observation
+Tubificidae sp. (Oligochaeta),3,Amorphous detritus,3,1,detritivore,method,observation
+Naididae sp. (Oligochaeta),3,Amorphous detritus,3,1,detritivore,method,observation
+Lumbricidae sp. (Oligochaeta),3,Amorphous detritus,3,1,detritivore,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),3,Amorphous detritus,3,1,detritivore,method,observation
+Chironomus sp. (Diptera - Chironomidae),3,Amorphous detritus,3,1,detritivore,method,observation
+Orthocladiinae sp. 1 (Chironomidae),3,Amorphous detritus,3,1,detritivore,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),3,Amorphous detritus,3,1,detritivore,method,observation
+Triplectides ciuskeus (Trichoptera - Leptoceridae),3,Amorphous detritus,3,1,detritivore,method,observation
+Leptorussa darlingtoni (Trichoptera - Leptoceridae),3,Amorphous detritus,3,1,detritivore,method,observation
+Eucyclops sp. (Copepoda),3,Amorphous detritus,3,1,detritivore,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),3,Dead cellular plant material,3,1,scavenger,method,observation
+Tubificidae sp. (Oligochaeta),3,Dead cellular plant material,3,1,scavenger,method,observation
+Naididae sp. (Oligochaeta),3,Dead cellular plant material,3,1,scavenger,method,observation
+Lumbricidae sp. (Oligochaeta),3,Dead cellular plant material,3,1,scavenger,method,observation
+Angrobia sp. (Mollusca - Gastropoda),3,Dead cellular plant material,3,1,scavenger,method,observation
+Angrobia sp. (Mollusca - Gastropoda),3,Tetraedron sp.,3,1,herbivory,method,observation
+Angrobia sp. (Mollusca - Gastropoda),3,Tabellaria sp.,3,1,predation,method,observation
+Angrobia sp. (Mollusca - Gastropoda),3,Navicula sp.,3,1,herbivory,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),3,Dead cellular plant material,3,1,scavenger,method,observation
+Chironomus sp. (Diptera - Chironomidae),3,Dead cellular plant material,3,1,scavenger,method,observation
+Chironomus sp. (Diptera - Chironomidae),3,Algae spp.,3,1,herbivory,method,observation
+Angrobia sp. (Mollusca - Gastropoda),3,Amorphous detritus,3,1,detritivore,method,observation
+Chironomus sp. (Diptera - Chironomidae),3,Tetraedron sp.,3,1,herbivory,method,observation
+Chironomus sp. (Diptera - Chironomidae),3,Tabellaria sp.,3,1,predation,method,observation
+Chironomus sp. (Diptera - Chironomidae),3,Navicula sp.,3,1,herbivory,method,observation
+Paramerina sp. (Diptera - Chironomidae),3,Chironomus sp. (Diptera - Chironomidae),3,1,predation,method,observation
+Orthocladiinae sp. 1 (Chironomidae),3,Dead cellular plant material,3,1,scavenger,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),3,Tetraedron sp.,3,1,herbivory,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),3,Tabellaria sp.,3,1,predation,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),3,Navicula sp.,3,1,herbivory,method,observation
+Triplectides ciuskeus (Trichoptera - Leptoceridae),3,Dead cellular plant material,3,1,scavenger,method,observation
+Leptorussa darlingtoni (Trichoptera - Leptoceridae),3,Dead cellular plant material,3,1,scavenger,method,observation
+Leptorussa darlingtoni (Trichoptera - Leptoceridae),3,Algae spp.,3,1,herbivory,method,observation
+Leptorussa darlingtoni (Trichoptera - Leptoceridae),3,Tetraedron sp.,3,1,herbivory,method,observation
+Leptorussa darlingtoni (Trichoptera - Leptoceridae),3,Tabellaria sp.,3,1,predation,method,observation
+Leptorussa darlingtoni (Trichoptera - Leptoceridae),3,Navicula sp.,3,1,herbivory,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),3,Tubificidae sp. (Oligochaeta),3,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),3,Naididae sp. (Oligochaeta),3,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),3,Lumbricidae sp. (Oligochaeta),3,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),3,Chironomus sp. (Diptera - Chironomidae),3,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),3,Orthocladiinae sp. 1 (Chironomidae),3,1,predation,method,observation
+Macrogyrus oblongus - adult (Chironomidae  - Gyrinidae),3,Terrestrial insects,3,1,predation,method,observation
+Eucyclops sp. (Copepoda),3,Dead cellular plant material,3,1,scavenger,method,observation
+Macrocyclops albidus (Copepoda),3,Eucyclops sp. (Copepoda),3,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),3,Paramerina sp. (Diptera - Chironomidae),3,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),3,Terrestrial insects,3,1,predation,method,observation
+Tubificidae sp. (Oligochaeta),4,Amorphous detritus,4,1,detritivore,method,observation
+Naididae sp. (Oligochaeta),4,Amorphous detritus,4,1,detritivore,method,observation
+Lumbricidae sp. (Oligochaeta),4,Amorphous detritus,4,1,detritivore,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),4,Amorphous detritus,4,1,detritivore,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),4,Amorphous detritus,4,1,detritivore,method,observation
+Chironomus sp. (Diptera - Chironomidae),4,Amorphous detritus,4,1,detritivore,method,observation
+Riethia sp. (Diptera - Chironomidae),4,Amorphous detritus,4,1,detritivore,method,observation
+Austrosimulium sp. (Diptera - Chironomidae),4,Amorphous detritus,4,1,detritivore,method,observation
+Tipulidae sp. 2 (Diptera),4,Amorphous detritus,4,1,detritivore,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),4,Amorphous detritus,4,1,detritivore,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),4,Amorphous detritus,4,1,detritivore,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),4,Amorphous detritus,4,1,detritivore,method,observation
+Riekoperla rugosa (Pisces - Glossomatidae),4,Amorphous detritus,4,1,detritivore,method,observation
+Eucyclops sp. (Copepoda),4,Amorphous detritus,4,1,detritivore,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),4,Amorphous detritus,4,1,detritivore,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),4,Algae spp.,4,1,herbivory,method,observation
+Tubificidae sp. (Oligochaeta),4,Dead cellular plant material,4,1,scavenger,method,observation
+Naididae sp. (Oligochaeta),4,Dead cellular plant material,4,1,scavenger,method,observation
+Lumbricidae sp. (Oligochaeta),4,Dead cellular plant material,4,1,scavenger,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),4,Dead cellular plant material,4,1,scavenger,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),4,Algae spp.,4,1,herbivory,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),4,Tetraedron sp.,4,1,herbivory,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),4,Tabellaria sp.,4,1,predation,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),4,Navicula sp.,4,1,herbivory,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),4,Dead cellular plant material,4,1,scavenger,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),4,Algae spp.,4,1,herbivory,method,observation
+Chironomus sp. (Diptera - Chironomidae),4,Dead cellular plant material,4,1,scavenger,method,observation
+Coelopynia sp. (Diptera - Chironomidae),4,Tubificidae sp. (Oligochaeta),4,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),4,Naididae sp. (Oligochaeta),4,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),4,Lumbricidae sp. (Oligochaeta),4,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),4,Riethia sp. (Diptera - Chironomidae),4,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),4,Austrosimulium sp. (Diptera - Chironomidae),4,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),4,Koorononga pilosa (Ephemeroptera - Leptophlebiidae),4,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),4,Dead cellular plant material,4,1,scavenger,method,observation
+Riethia sp. (Diptera - Chironomidae),4,Tetraedron sp.,4,1,herbivory,method,observation
+Riethia sp. (Diptera - Chironomidae),4,Tabellaria sp.,4,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),4,Navicula sp.,4,1,herbivory,method,observation
+Austrosimulium sp. (Diptera - Chironomidae),4,Dead cellular plant material,4,1,scavenger,method,observation
+Tipulidae sp. 1 (Diptera),4,Chironomus sp. (Diptera - Chironomidae),4,1,predation,method,observation
+Tipulidae sp. 1 (Diptera),4,Riethia sp. (Diptera - Chironomidae),4,1,predation,method,observation
+Tipulidae sp. 1 (Diptera),4,Tipulidae sp. 2 (Diptera),4,1,predation,method,observation
+Tipulidae sp. 1 (Diptera),4,Triplectides truncatus (Trichoptera - Leptoceridae),4,1,predation,method,observation
+Tipulidae sp. 2 (Diptera),4,Dead cellular plant material,4,1,scavenger,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),4,Dead cellular plant material,4,1,scavenger,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),4,Dead cellular plant material,4,1,scavenger,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),4,Algae spp.,4,1,herbivory,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),4,Dead cellular plant material,4,1,scavenger,method,observation
+Riekoperla rugosa (Pisces - Glossomatidae),4,Dead cellular plant material,4,1,scavenger,method,observation
+Riekoperla rugosa (Pisces - Glossomatidae),4,Fungi,4,1,predation,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),4,Riekoperla rugosa (Pisces - Glossomatidae),4,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),4,Eucyclops sp. (Copepoda),4,1,predation,method,observation
+Eucyclops sp. (Copepoda),4,Dead cellular plant material,4,1,scavenger,method,observation
+Macrocyclops albidus (Copepoda),4,Tubificidae sp. (Oligochaeta),4,1,predation,method,observation
+Macrocyclops albidus (Copepoda),4,Naididae sp. (Oligochaeta),4,1,predation,method,observation
+Macrocyclops albidus (Copepoda),4,Lumbricidae sp. (Oligochaeta),4,1,predation,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),4,Dead cellular plant material,4,1,scavenger,method,observation
+Tubificidae sp. (Oligochaeta),5,Amorphous detritus,5,1,detritivore,method,observation
+Naididae sp. (Oligochaeta),5,Amorphous detritus,5,1,detritivore,method,observation
+Lumbricidae sp. (Oligochaeta),5,Amorphous detritus,5,1,detritivore,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),5,Amorphous detritus,5,1,detritivore,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),5,Amorphous detritus,5,1,detritivore,method,observation
+Riethia sp. (Diptera - Chironomidae),5,Amorphous detritus,5,1,detritivore,method,observation
+Austrosimulium sp. (Diptera - Chironomidae),5,Amorphous detritus,5,1,detritivore,method,observation
+Tipulidae sp. 2 (Diptera),5,Amorphous detritus,5,1,detritivore,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),5,Amorphous detritus,5,1,detritivore,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),5,Amorphous detritus,5,1,detritivore,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),5,Amorphous detritus,5,1,detritivore,method,observation
+Riekoperla rugosa (Pisces - Glossomatidae),5,Amorphous detritus,5,1,detritivore,method,observation
+Eucyclops sp. (Copepoda),5,Amorphous detritus,5,1,detritivore,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),5,Amorphous detritus,5,1,detritivore,method,observation
+Riethia sp. (Diptera - Chironomidae),5,Tetraedron sp.,5,1,herbivory,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),5,Riekoperla rugosa (Pisces - Glossomatidae),5,1,predation,method,observation
+Tubificidae sp. (Oligochaeta),5,Dead cellular plant material,5,1,scavenger,method,observation
+Naididae sp. (Oligochaeta),5,Dead cellular plant material,5,1,scavenger,method,observation
+Lumbricidae sp. (Oligochaeta),5,Dead cellular plant material,5,1,scavenger,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),5,Dead cellular plant material,5,1,scavenger,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),5,Algae spp.,5,1,herbivory,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),5,Tetraedron sp.,5,1,herbivory,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),5,Tabellaria sp.,5,1,predation,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),5,Navicula sp.,5,1,herbivory,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),5,Dead cellular plant material,5,1,scavenger,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),5,Algae spp.,5,1,herbivory,method,observation
+Coelopynia sp. (Diptera - Chironomidae),5,Tubificidae sp. (Oligochaeta),5,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),5,Naididae sp. (Oligochaeta),5,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),5,Lumbricidae sp. (Oligochaeta),5,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),5,Riethia sp. (Diptera - Chironomidae),5,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),5,Austrosimulium sp. (Diptera - Chironomidae),5,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),5,Koorononga pilosa (Ephemeroptera - Leptophlebiidae),5,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),5,Dead cellular plant material,5,1,scavenger,method,observation
+Riethia sp. (Diptera - Chironomidae),5,Tabellaria sp.,5,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),5,Navicula sp.,5,1,herbivory,method,observation
+Austrosimulium sp. (Diptera - Chironomidae),5,Dead cellular plant material,5,1,scavenger,method,observation
+Tipulidae sp. 2 (Diptera),5,Dead cellular plant material,5,1,scavenger,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),5,Dead cellular plant material,5,1,scavenger,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),5,Algae spp.,5,1,herbivory,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),5,Dead cellular plant material,5,1,scavenger,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),5,Dead cellular plant material,5,1,scavenger,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),5,Tetraedron sp.,5,1,herbivory,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),5,Tabellaria sp.,5,1,predation,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),5,Navicula sp.,5,1,herbivory,method,observation
+Riekoperla rugosa (Pisces - Glossomatidae),5,Dead cellular plant material,5,1,scavenger,method,observation
+Riekoperla rugosa (Pisces - Glossomatidae),5,Fungi,5,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),5,Eucyclops sp. (Copepoda),5,1,predation,method,observation
+Eucyclops sp. (Copepoda),5,Dead cellular plant material,5,1,scavenger,method,observation
+Macrocyclops albidus (Copepoda),5,Tubificidae sp. (Oligochaeta),5,1,predation,method,observation
+Macrocyclops albidus (Copepoda),5,Naididae sp. (Oligochaeta),5,1,predation,method,observation
+Macrocyclops albidus (Copepoda),5,Lumbricidae sp. (Oligochaeta),5,1,predation,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),5,Dead cellular plant material,5,1,scavenger,method,observation
+Tubificidae sp. (Oligochaeta),6,Amorphous detritus,6,1,detritivore,method,observation
+Naididae sp. (Oligochaeta),6,Amorphous detritus,6,1,detritivore,method,observation
+Lumbricidae sp. (Oligochaeta),6,Amorphous detritus,6,1,detritivore,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),6,Amorphous detritus,6,1,detritivore,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),6,Amorphous detritus,6,1,detritivore,method,observation
+Chironomus sp. (Diptera - Chironomidae),6,Amorphous detritus,6,1,detritivore,method,observation
+Riethia sp. (Diptera - Chironomidae),6,Amorphous detritus,6,1,detritivore,method,observation
+Austrosimulium sp. (Diptera - Chironomidae),6,Amorphous detritus,6,1,detritivore,method,observation
+Tipulidae sp. 2 (Diptera),6,Amorphous detritus,6,1,detritivore,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),6,Amorphous detritus,6,1,detritivore,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),6,Amorphous detritus,6,1,detritivore,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),6,Amorphous detritus,6,1,detritivore,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),6,Amorphous detritus,6,1,detritivore,method,observation
+Riekoperla rugosa (Pisces - Glossomatidae),6,Amorphous detritus,6,1,detritivore,method,observation
+Eucyclops sp. (Copepoda),6,Amorphous detritus,6,1,detritivore,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),6,Amorphous detritus,6,1,detritivore,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),6,Riekoperla rugosa (Pisces - Glossomatidae),6,1,predation,method,observation
+Tubificidae sp. (Oligochaeta),6,Dead cellular plant material,6,1,scavenger,method,observation
+Naididae sp. (Oligochaeta),6,Dead cellular plant material,6,1,scavenger,method,observation
+Lumbricidae sp. (Oligochaeta),6,Dead cellular plant material,6,1,scavenger,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),6,Dead cellular plant material,6,1,scavenger,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),6,Algae spp.,6,1,herbivory,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),6,Tetraedron sp.,6,1,herbivory,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),6,Tabellaria sp.,6,1,predation,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),6,Navicula sp.,6,1,herbivory,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),6,Dead cellular plant material,6,1,scavenger,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),6,Algae spp.,6,1,herbivory,method,observation
+Chironomus sp. (Diptera - Chironomidae),6,Dead cellular plant material,6,1,scavenger,method,observation
+Coelopynia sp. (Diptera - Chironomidae),6,Tubificidae sp. (Oligochaeta),6,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),6,Naididae sp. (Oligochaeta),6,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),6,Lumbricidae sp. (Oligochaeta),6,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),6,Riethia sp. (Diptera - Chironomidae),6,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),6,Austrosimulium sp. (Diptera - Chironomidae),6,1,predation,method,observation
+Coelopynia sp. (Diptera - Chironomidae),6,Koorononga pilosa (Ephemeroptera - Leptophlebiidae),6,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),6,Dead cellular plant material,6,1,scavenger,method,observation
+Riethia sp. (Diptera - Chironomidae),6,Tetraedron sp.,6,1,herbivory,method,observation
+Riethia sp. (Diptera - Chironomidae),6,Tabellaria sp.,6,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),6,Navicula sp.,6,1,herbivory,method,observation
+Austrosimulium sp. (Diptera - Chironomidae),6,Dead cellular plant material,6,1,scavenger,method,observation
+Tipulidae sp. 1 (Diptera),6,Chironomus sp. (Diptera - Chironomidae),6,1,predation,method,observation
+Tipulidae sp. 1 (Diptera),6,Riethia sp. (Diptera - Chironomidae),6,1,predation,method,observation
+Tipulidae sp. 1 (Diptera),6,Tipulidae sp. 2 (Diptera),6,1,predation,method,observation
+Tipulidae sp. 1 (Diptera),6,Triplectides truncatus (Trichoptera - Leptoceridae),6,1,predation,method,observation
+Tipulidae sp. 2 (Diptera),6,Dead cellular plant material,6,1,scavenger,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),6,Dead cellular plant material,6,1,scavenger,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),6,Algae spp.,6,1,herbivory,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),6,Dead cellular plant material,6,1,scavenger,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),6,Algae spp.,6,1,herbivory,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),6,Dead cellular plant material,6,1,scavenger,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),6,Dead cellular plant material,6,1,scavenger,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),6,Tetraedron sp.,6,1,herbivory,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),6,Tabellaria sp.,6,1,predation,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),6,Navicula sp.,6,1,herbivory,method,observation
+Riekoperla rugosa (Pisces - Glossomatidae),6,Dead cellular plant material,6,1,scavenger,method,observation
+Riekoperla rugosa (Pisces - Glossomatidae),6,Fungi,6,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),6,Eucyclops sp. (Copepoda),6,1,predation,method,observation
+Eucyclops sp. (Copepoda),6,Dead cellular plant material,6,1,scavenger,method,observation
+Macrocyclops albidus (Copepoda),6,Tubificidae sp. (Oligochaeta),6,1,predation,method,observation
+Macrocyclops albidus (Copepoda),6,Naididae sp. (Oligochaeta),6,1,predation,method,observation
+Macrocyclops albidus (Copepoda),6,Lumbricidae sp. (Oligochaeta),6,1,predation,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),6,Dead cellular plant material,6,1,scavenger,method,observation
+Tubificidae sp. (Oligochaeta),7,Amorphous detritus,7,1,detritivore,method,observation
+Naididae sp. (Oligochaeta),7,Amorphous detritus,7,1,detritivore,method,observation
+Lumbricidae sp. (Oligochaeta),7,Amorphous detritus,7,1,detritivore,method,observation
+Angrobia sp. (Mollusca - Gastropoda),7,Amorphous detritus,7,1,detritivore,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),7,Amorphous detritus,7,1,detritivore,method,observation
+Riethia sp. (Diptera - Chironomidae),7,Amorphous detritus,7,1,detritivore,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),7,Amorphous detritus,7,1,detritivore,method,observation
+Rheotanytarsus sp. (Diptera - Chironomidae),7,Amorphous detritus,7,1,detritivore,method,observation
+Parakieferiella sp. (Diptera - Chironomidae),7,Amorphous detritus,7,1,detritivore,method,observation
+Thienmaniella trivittata (Diptera - Chironomidae),7,Amorphous detritus,7,1,detritivore,method,observation
+Chironomidae sp. (Chironomidae - Diptera),7,Amorphous detritus,7,1,detritivore,method,observation
+Orthocladiinae sp. 8 (Chironomidae - Diptera),7,Amorphous detritus,7,1,detritivore,method,observation
+Tanypod sp. (Chironomidae - Diptera),7,Amorphous detritus,7,1,detritivore,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),7,Amorphous detritus,7,1,detritivore,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),7,Amorphous detritus,7,1,detritivore,method,observation
+Riekoperla rugosa (Pisces - Glossomatidae),7,Amorphous detritus,7,1,detritivore,method,observation
+Austrocerca tillyardi (Pisces - Gripopterygidae),7,Amorphous detritus,7,1,detritivore,method,observation
+Acruroperla atra (Pisces - Austroperlidae),7,Amorphous detritus,7,1,detritivore,method,observation
+Dinotoperla serricauda (Pisces - Gripopterygidae),7,Amorphous detritus,7,1,detritivore,method,observation
+Riekoperla rugosa (Pisces - Glossomatidae),7,Dead cellular plant material,7,1,scavenger,method,observation
+Tubificidae sp. (Oligochaeta),7,Dead cellular plant material,7,1,scavenger,method,observation
+Naididae sp. (Oligochaeta),7,Dead cellular plant material,7,1,scavenger,method,observation
+Lumbricidae sp. (Oligochaeta),7,Dead cellular plant material,7,1,scavenger,method,observation
+Angrobia sp. (Mollusca - Gastropoda),7,Dead cellular plant material,7,1,scavenger,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),7,Tubificidae sp. (Oligochaeta),7,1,predation,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),7,Naididae sp. (Oligochaeta),7,1,predation,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),7,Lumbricidae sp. (Oligochaeta),7,1,predation,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),7,Dead cellular plant material,7,1,scavenger,method,observation
+Paramerina sp. (Diptera - Chironomidae),7,Tubificidae sp. (Oligochaeta),7,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),7,Naididae sp. (Oligochaeta),7,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),7,Lumbricidae sp. (Oligochaeta),7,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),7,Riethia sp. (Diptera - Chironomidae),7,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),7,Cricotopus annuliventrus (Diptera - Chironomidae),7,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),7,Thienmaniella trivittata (Diptera - Chironomidae),7,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),7,Chironomidae sp. (Chironomidae - Diptera),7,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),7,Orthocladiinae sp. 8 (Chironomidae - Diptera),7,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),7,Tanypod sp. (Chironomidae - Diptera),7,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),7,Koorononga pilosa (Ephemeroptera - Leptophlebiidae),7,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),7,Dead cellular plant material,7,1,scavenger,method,observation
+Riethia sp. (Diptera - Chironomidae),7,Tetraedron sp.,7,1,herbivory,method,observation
+Riethia sp. (Diptera - Chironomidae),7,Tabellaria sp.,7,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),7,Navicula sp.,7,1,herbivory,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),7,Dead cellular plant material,7,1,scavenger,method,observation
+Rheotanytarsus sp. (Diptera - Chironomidae),7,Dead cellular plant material,7,1,scavenger,method,observation
+Parakieferiella sp. (Diptera - Chironomidae),7,Dead cellular plant material,7,1,scavenger,method,observation
+Thienmaniella trivittata (Diptera - Chironomidae),7,Dead cellular plant material,7,1,scavenger,method,observation
+Chironomidae sp. (Chironomidae - Diptera),7,Dead cellular plant material,7,1,scavenger,method,observation
+Chironomidae sp. (Chironomidae - Diptera),7,Algae spp.,7,1,herbivory,method,observation
+Orthocladiinae sp. 8 (Chironomidae - Diptera),7,Dead cellular plant material,7,1,scavenger,method,observation
+Tanypod sp. (Chironomidae - Diptera),7,Dead cellular plant material,7,1,scavenger,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),7,Dead cellular plant material,7,1,scavenger,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),7,Tetraedron sp.,7,1,herbivory,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),7,Tabellaria sp.,7,1,predation,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),7,Navicula sp.,7,1,herbivory,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),7,Dead cellular plant material,7,1,scavenger,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),7,Tubificidae sp. (Oligochaeta),7,1,predation,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),7,Naididae sp. (Oligochaeta),7,1,predation,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),7,Lumbricidae sp. (Oligochaeta),7,1,predation,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),7,Parakieferiella sp. (Diptera - Chironomidae),7,1,predation,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),7,Koorononga pilosa (Ephemeroptera - Leptophlebiidae),7,1,predation,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),7,Riekoperla rugosa (Pisces - Glossomatidae),7,1,predation,method,observation
+Austrocerca tillyardi (Pisces - Gripopterygidae),7,Dead cellular plant material,7,1,scavenger,method,observation
+Austrocerca tillyardi (Pisces - Gripopterygidae),7,Algae spp.,7,1,herbivory,method,observation
+Acruroperla atra (Pisces - Austroperlidae),7,Dead cellular plant material,7,1,scavenger,method,observation
+Dinotoperla serricauda (Pisces - Gripopterygidae),7,Dead cellular plant material,7,1,scavenger,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),7,Cricotopus annuliventrus (Diptera - Chironomidae),7,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),7,Rheotanytarsus sp. (Diptera - Chironomidae),7,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),7,Chironomidae sp. (Chironomidae - Diptera),7,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),7,Koorononga pilosa (Ephemeroptera - Leptophlebiidae),7,1,predation,method,observation
+Macrogyrus oblongus - adult (Chironomidae  - Gyrinidae),7,Terrestrial insects,7,1,predation,method,observation
+Macrocyclops albidus (Copepoda),7,Tubificidae sp. (Oligochaeta),7,1,predation,method,observation
+Macrocyclops albidus (Copepoda),7,Naididae sp. (Oligochaeta),7,1,predation,method,observation
+Macrocyclops albidus (Copepoda),7,Lumbricidae sp. (Oligochaeta),7,1,predation,method,observation
+Tanypod sp. (Chironomidae - Diptera),8,Amorphous detritus,8,1,detritivore,method,observation
+Tubificidae sp. (Oligochaeta),8,Amorphous detritus,8,1,detritivore,method,observation
+Naididae sp. (Oligochaeta),8,Amorphous detritus,8,1,detritivore,method,observation
+Lumbricidae sp. (Oligochaeta),8,Amorphous detritus,8,1,detritivore,method,observation
+Angrobia sp. (Mollusca - Gastropoda),8,Amorphous detritus,8,1,detritivore,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),8,Amorphous detritus,8,1,detritivore,method,observation
+Riethia sp. (Diptera - Chironomidae),8,Amorphous detritus,8,1,detritivore,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),8,Amorphous detritus,8,1,detritivore,method,observation
+Parakieferiella sp. (Diptera - Chironomidae),8,Amorphous detritus,8,1,detritivore,method,observation
+Thienmaniella trivittata (Diptera - Chironomidae),8,Amorphous detritus,8,1,detritivore,method,observation
+Chironomidae sp. (Chironomidae - Diptera),8,Amorphous detritus,8,1,detritivore,method,observation
+Orthocladiinae sp. 8 (Chironomidae - Diptera),8,Amorphous detritus,8,1,detritivore,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),8,Amorphous detritus,8,1,detritivore,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),8,Amorphous detritus,8,1,detritivore,method,observation
+Riekoperla rugosa (Pisces - Glossomatidae),8,Amorphous detritus,8,1,detritivore,method,observation
+Austrocerca tillyardi (Pisces - Gripopterygidae),8,Amorphous detritus,8,1,detritivore,method,observation
+Dinotoperla serricauda (Pisces - Gripopterygidae),8,Amorphous detritus,8,1,detritivore,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),8,Amorphous detritus,8,1,detritivore,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),8,Amorphous detritus,8,1,detritivore,method,observation
+Paramerina sp. (Diptera - Chironomidae),8,Tanypod sp. (Chironomidae - Diptera),8,1,predation,method,observation
+Tubificidae sp. (Oligochaeta),8,Dead cellular plant material,8,1,scavenger,method,observation
+Naididae sp. (Oligochaeta),8,Dead cellular plant material,8,1,scavenger,method,observation
+Lumbricidae sp. (Oligochaeta),8,Dead cellular plant material,8,1,scavenger,method,observation
+Angrobia sp. (Mollusca - Gastropoda),8,Dead cellular plant material,8,1,scavenger,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),8,Tubificidae sp. (Oligochaeta),8,1,predation,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),8,Naididae sp. (Oligochaeta),8,1,predation,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),8,Lumbricidae sp. (Oligochaeta),8,1,predation,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),8,Dead cellular plant material,8,1,scavenger,method,observation
+Paramerina sp. (Diptera - Chironomidae),8,Tubificidae sp. (Oligochaeta),8,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),8,Naididae sp. (Oligochaeta),8,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),8,Lumbricidae sp. (Oligochaeta),8,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),8,Riethia sp. (Diptera - Chironomidae),8,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),8,Cricotopus annuliventrus (Diptera - Chironomidae),8,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),8,Thienmaniella trivittata (Diptera - Chironomidae),8,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),8,Chironomidae sp. (Chironomidae - Diptera),8,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),8,Orthocladiinae sp. 8 (Chironomidae - Diptera),8,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),8,Koorononga pilosa (Ephemeroptera - Leptophlebiidae),8,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),8,Dead cellular plant material,8,1,scavenger,method,observation
+Riethia sp. (Diptera - Chironomidae),8,Tetraedron sp.,8,1,herbivory,method,observation
+Riethia sp. (Diptera - Chironomidae),8,Tabellaria sp.,8,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),8,Navicula sp.,8,1,herbivory,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),8,Dead cellular plant material,8,1,scavenger,method,observation
+Parakieferiella sp. (Diptera - Chironomidae),8,Dead cellular plant material,8,1,scavenger,method,observation
+Thienmaniella trivittata (Diptera - Chironomidae),8,Dead cellular plant material,8,1,scavenger,method,observation
+Chironomidae sp. (Chironomidae - Diptera),8,Dead cellular plant material,8,1,scavenger,method,observation
+Chironomidae sp. (Chironomidae - Diptera),8,Algae spp.,8,1,herbivory,method,observation
+Orthocladiinae sp. 8 (Chironomidae - Diptera),8,Dead cellular plant material,8,1,scavenger,method,observation
+Tanypod sp. (Chironomidae - Diptera),8,Dead cellular plant material,8,1,scavenger,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),8,Dead cellular plant material,8,1,scavenger,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),8,Tetraedron sp.,8,1,herbivory,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),8,Tabellaria sp.,8,1,predation,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),8,Navicula sp.,8,1,herbivory,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),8,Dead cellular plant material,8,1,scavenger,method,observation
+Riekoperla rugosa (Pisces - Glossomatidae),8,Dead cellular plant material,8,1,scavenger,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),8,Tubificidae sp. (Oligochaeta),8,1,predation,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),8,Naididae sp. (Oligochaeta),8,1,predation,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),8,Lumbricidae sp. (Oligochaeta),8,1,predation,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),8,Parakieferiella sp. (Diptera - Chironomidae),8,1,predation,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),8,Koorononga pilosa (Ephemeroptera - Leptophlebiidae),8,1,predation,method,observation
+Illiesoperla australis (Pisces - Glossomatidae),8,Riekoperla rugosa (Pisces - Glossomatidae),8,1,predation,method,observation
+Austrocerca tillyardi (Pisces - Gripopterygidae),8,Dead cellular plant material,8,1,scavenger,method,observation
+Austrocerca tillyardi (Pisces - Gripopterygidae),8,Algae spp.,8,1,herbivory,method,observation
+Acruroperla atra (Pisces - Austroperlidae),8,Dead cellular plant material,8,1,scavenger,method,observation
+Dinotoperla serricauda (Pisces - Gripopterygidae),8,Dead cellular plant material,8,1,scavenger,method,observation
+Macrogyrus oblongus - adult (Chironomidae  - Gyrinidae),8,Terrestrial insects,8,1,predation,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),8,Dead cellular plant material,8,1,scavenger,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),8,Tetraedron sp.,8,1,herbivory,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),8,Tabellaria sp.,8,1,predation,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),8,Navicula sp.,8,1,herbivory,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),8,Dead cellular plant material,8,1,scavenger,method,observation
+Acruroperla atra (Pisces - Austroperlidae),8,Amorphous detritus,8,1,detritivore,method,observation
+Tubificidae sp. (Oligochaeta),9,Amorphous detritus,9,1,detritivore,method,observation
+Naididae sp. (Oligochaeta),9,Amorphous detritus,9,1,detritivore,method,observation
+Lumbricidae sp. (Oligochaeta),9,Amorphous detritus,9,1,detritivore,method,observation
+Angrobia sp. (Mollusca - Gastropoda),9,Amorphous detritus,9,1,detritivore,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),9,Amorphous detritus,9,1,detritivore,method,observation
+Riethia sp. (Diptera - Chironomidae),9,Amorphous detritus,9,1,detritivore,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),9,Amorphous detritus,9,1,detritivore,method,observation
+Parakieferiella sp. (Diptera - Chironomidae),9,Amorphous detritus,9,1,detritivore,method,observation
+Thienmaniella trivittata (Diptera - Chironomidae),9,Amorphous detritus,9,1,detritivore,method,observation
+Chironomidae sp. (Chironomidae - Diptera),9,Amorphous detritus,9,1,detritivore,method,observation
+Orthocladiinae sp. 8 (Chironomidae - Diptera),9,Amorphous detritus,9,1,detritivore,method,observation
+Tanypod sp. (Chironomidae - Diptera),9,Amorphous detritus,9,1,detritivore,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),9,Amorphous detritus,9,1,detritivore,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),9,Amorphous detritus,9,1,detritivore,method,observation
+Austrocerca tillyardi (Pisces - Gripopterygidae),9,Amorphous detritus,9,1,detritivore,method,observation
+Acruroperla atra (Pisces - Austroperlidae),9,Amorphous detritus,9,1,detritivore,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),9,Amorphous detritus,9,1,detritivore,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),9,Amorphous detritus,9,1,detritivore,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),9,Tabellaria sp.,9,1,predation,method,observation
+Tubificidae sp. (Oligochaeta),9,Dead cellular plant material,9,1,scavenger,method,observation
+Naididae sp. (Oligochaeta),9,Dead cellular plant material,9,1,scavenger,method,observation
+Lumbricidae sp. (Oligochaeta),9,Dead cellular plant material,9,1,scavenger,method,observation
+Angrobia sp. (Mollusca - Gastropoda),9,Dead cellular plant material,9,1,scavenger,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),9,Tubificidae sp. (Oligochaeta),9,1,predation,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),9,Naididae sp. (Oligochaeta),9,1,predation,method,observation
+Glacidorbis hedleyi (Mollusca - Gastropoda),9,Lumbricidae sp. (Oligochaeta),9,1,predation,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),9,Dead cellular plant material,9,1,scavenger,method,observation
+Paramerina sp. (Diptera - Chironomidae),9,Tubificidae sp. (Oligochaeta),9,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),9,Naididae sp. (Oligochaeta),9,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),9,Lumbricidae sp. (Oligochaeta),9,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),9,Riethia sp. (Diptera - Chironomidae),9,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),9,Cricotopus annuliventrus (Diptera - Chironomidae),9,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),9,Thienmaniella trivittata (Diptera - Chironomidae),9,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),9,Chironomidae sp. (Chironomidae - Diptera),9,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),9,Orthocladiinae sp. 8 (Chironomidae - Diptera),9,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),9,Tanypod sp. (Chironomidae - Diptera),9,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),9,Koorononga pilosa (Ephemeroptera - Leptophlebiidae),9,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),9,Dead cellular plant material,9,1,scavenger,method,observation
+Riethia sp. (Diptera - Chironomidae),9,Tetraedron sp.,9,1,herbivory,method,observation
+Riethia sp. (Diptera - Chironomidae),9,Tabellaria sp.,9,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),9,Navicula sp.,9,1,herbivory,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),9,Dead cellular plant material,9,1,scavenger,method,observation
+Parakieferiella sp. (Diptera - Chironomidae),9,Dead cellular plant material,9,1,scavenger,method,observation
+Thienmaniella trivittata (Diptera - Chironomidae),9,Dead cellular plant material,9,1,scavenger,method,observation
+Chironomidae sp. (Chironomidae - Diptera),9,Dead cellular plant material,9,1,scavenger,method,observation
+Chironomidae sp. (Chironomidae - Diptera),9,Algae spp.,9,1,herbivory,method,observation
+Orthocladiinae sp. 8 (Chironomidae - Diptera),9,Dead cellular plant material,9,1,scavenger,method,observation
+Tanypod sp. (Chironomidae - Diptera),9,Dead cellular plant material,9,1,scavenger,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),9,Dead cellular plant material,9,1,scavenger,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),9,Tetraedron sp.,9,1,herbivory,method,observation
+Agapetus kimminsii (Trichoptera - Glossomatidae),9,Navicula sp.,9,1,herbivory,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),9,Dead cellular plant material,9,1,scavenger,method,observation
+Austrocerca tillyardi (Pisces - Gripopterygidae),9,Dead cellular plant material,9,1,scavenger,method,observation
+Austrocerca tillyardi (Pisces - Gripopterygidae),9,Algae spp.,9,1,herbivory,method,observation
+Acruroperla atra (Pisces - Austroperlidae),9,Dead cellular plant material,9,1,scavenger,method,observation
+Dinotoperla serricauda (Pisces - Gripopterygidae),9,Dead cellular plant material,9,1,scavenger,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),9,Dead cellular plant material,9,1,scavenger,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),9,Tetraedron sp.,9,1,herbivory,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),9,Tabellaria sp.,9,1,predation,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),9,Navicula sp.,9,1,herbivory,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),9,Dead cellular plant material,9,1,scavenger,method,observation
+Dinotoperla serricauda (Pisces - Gripopterygidae),9,Amorphous detritus,9,1,detritivore,method,observation
+nr. Halocladius sp. (Diptera - Chironomidae),10,Tabellaria sp.,10,1,predation,method,observation
+Hydra sp.,10,Ecnomus russellius (Trichoptera - Ecnomidae),10,1,predation,method,observation
+Hydra sp.,10,Eucyclops sp. (Copepoda),10,1,predation,method,observation
+Tubificidae sp. (Oligochaeta),10,Dead cellular plant material,10,1,scavenger,method,observation
+Naididae sp. (Oligochaeta),10,Dead cellular plant material,10,1,scavenger,method,observation
+Lumbricidae sp. (Oligochaeta),10,Dead cellular plant material,10,1,scavenger,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),10,Dead cellular plant material,10,1,scavenger,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),10,Tetraedron sp.,10,1,herbivory,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),10,Tabellaria sp.,10,1,predation,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),10,Navicula sp.,10,1,herbivory,method,observation
+Angrobia sp. (Mollusca - Gastropoda),10,Dead cellular plant material,10,1,scavenger,method,observation
+Angrobia sp. (Mollusca - Gastropoda),10,Algae spp.,10,1,herbivory,method,observation
+Paramerina sp. (Diptera - Chironomidae),10,Riethia sp. (Diptera - Chironomidae),10,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),10,Rheotanytarsus sp. (Diptera - Chironomidae),10,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),10,Thienmaniella trivittata (Diptera - Chironomidae),10,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),10,nr. Halocladius sp. (Diptera - Chironomidae),10,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),10,Eucyclops sp. (Copepoda),10,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),10,Dead cellular plant material,10,1,scavenger,method,observation
+Riethia sp. (Diptera - Chironomidae),10,Tetraedron sp.,10,1,herbivory,method,observation
+Riethia sp. (Diptera - Chironomidae),10,Tabellaria sp.,10,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),10,Navicula sp.,10,1,herbivory,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),10,Dead cellular plant material,10,1,scavenger,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),10,Tetraedron sp.,10,1,herbivory,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),10,Navicula sp.,10,1,herbivory,method,observation
+Rheotanytarsus sp. (Diptera - Chironomidae),10,Dead cellular plant material,10,1,scavenger,method,observation
+Parakieferiella sp. (Diptera - Chironomidae),10,Dead cellular plant material,10,1,scavenger,method,observation
+Thienmaniella trivittata (Diptera - Chironomidae),10,Dead cellular plant material,10,1,scavenger,method,observation
+Tanytarsus inextensus (Diptera - Chironomidae),10,Dead cellular plant material,10,1,scavenger,method,observation
+Tanytarsus inextensus (Diptera - Chironomidae),10,Tetraedron sp.,10,1,herbivory,method,observation
+Tanytarsus inextensus (Diptera - Chironomidae),10,Tabellaria sp.,10,1,predation,method,observation
+Tanytarsus inextensus (Diptera - Chironomidae),10,Navicula sp.,10,1,herbivory,method,observation
+nr. Halocladius sp. (Diptera - Chironomidae),10,Dead cellular plant material,10,1,scavenger,method,observation
+nr. Halocladius sp. (Diptera - Chironomidae),10,Tetraedron sp.,10,1,herbivory,method,observation
+nr. Halocladius sp. (Diptera - Chironomidae),10,Navicula sp.,10,1,herbivory,method,observation
+Stempellina sp. (Diptera - Chironomidae),10,Dead cellular plant material,10,1,scavenger,method,observation
+Chironomidae sp. (Chironomidae - Diptera),10,Dead cellular plant material,10,1,scavenger,method,observation
+Chironomidae sp. (Chironomidae - Diptera),10,Tetraedron sp.,10,1,herbivory,method,observation
+Chironomidae sp. (Chironomidae - Diptera),10,Tabellaria sp.,10,1,predation,method,observation
+Chironomidae sp. (Chironomidae - Diptera),10,Navicula sp.,10,1,herbivory,method,observation
+Tanypod sp. (Chironomidae - Diptera),10,Dead cellular plant material,10,1,scavenger,method,observation
+Eukiefferiella sp. (Chironomidae - Diptera),10,Dead cellular plant material,10,1,scavenger,method,observation
+Brillia sp. (Chironomidae - Diptera),10,Dead cellular plant material,10,1,scavenger,method,observation
+Tipulid sp. (Chironomidae - Diptera),10,Dead cellular plant material,10,1,scavenger,method,observation
+Polypedilum sp. (Chironomidae - Diptera),10,Dead cellular plant material,10,1,scavenger,method,observation
+Larsia sp. (Chironomidae - Diptera),10,Acruroperla atra (Pisces - Austroperlidae),10,1,predation,method,observation
+Ablabesmyia sp. (Chironomidae - Diptera),10,Riethia sp. (Diptera - Chironomidae),10,1,predation,method,observation
+Ablabesmyia sp. (Chironomidae - Diptera),10,Thienmaniella trivittata (Diptera - Chironomidae),10,1,predation,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),10,Dead cellular plant material,10,1,scavenger,method,observation
+Helicopsychidae sp. (Trichoptera),10,Dead cellular plant material,10,1,scavenger,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),10,Dead cellular plant material,10,1,scavenger,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),10,Algae spp.,10,1,herbivory,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),10,Tetraedron sp.,10,1,herbivory,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),10,Tabellaria sp.,10,1,predation,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),10,Riethia sp. (Diptera - Chironomidae),10,1,predation,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),10,Tanytarsus inextensus (Diptera - Chironomidae),10,1,predation,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),10,nr. Halocladius sp. (Diptera - Chironomidae),10,1,predation,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),10,Stempellina sp. (Diptera - Chironomidae),10,1,predation,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),10,Eucyclops sp. (Copepoda),10,1,predation,method,observation
+Oecetis sp. (Trichoptera - Leptoceridae),10,Tanytarsus inextensus (Diptera - Chironomidae),10,1,predation,method,observation
+Apsilochorema sp. (Trichoptera - Hydrobiosidae),10,Thienmaniella trivittata (Diptera - Chironomidae),10,1,predation,method,observation
+Apsilochorema sp. (Trichoptera - Hydrobiosidae),10,Tanytarsus inextensus (Diptera - Chironomidae),10,1,predation,method,observation
+Brillia sp. (Chironomidae - Diptera),10,Amorphous detritus,10,1,detritivore,method,observation
+Apsilochorema sp. (Trichoptera - Hydrobiosidae),10,nr. Halocladius sp. (Diptera - Chironomidae),10,1,predation,method,observation
+Apsilochorema sp. (Trichoptera - Hydrobiosidae),10,Tanypod sp. (Chironomidae - Diptera),10,1,predation,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),10,Dead cellular plant material,10,1,scavenger,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),10,Dead cellular plant material,10,1,scavenger,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),10,Tetraedron sp.,10,1,herbivory,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),10,Tabellaria sp.,10,1,predation,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),10,Navicula sp.,10,1,herbivory,method,observation
+Acruroperla atra (Pisces - Austroperlidae),10,Dead cellular plant material,10,1,scavenger,method,observation
+Acruroperla atra (Pisces - Austroperlidae),10,Algae spp.,10,1,herbivory,method,observation
+Acruroperla atra (Pisces - Austroperlidae),10,Tetraedron sp.,10,1,herbivory,method,observation
+Acruroperla atra (Pisces - Austroperlidae),10,Tabellaria sp.,10,1,predation,method,observation
+Acruroperla atra (Pisces - Austroperlidae),10,Navicula sp.,10,1,herbivory,method,observation
+Dinotoperla sp. (Pisces - Gripopterygidae),10,Dead cellular plant material,10,1,scavenger,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),10,Macrocyclops albidus (Copepoda),10,1,predation,method,observation
+Eucyclops sp. (Copepoda),10,Dead cellular plant material,10,1,scavenger,method,observation
+Macrocyclops albidus (Copepoda),10,Eukiefferiella sp. (Chironomidae - Diptera),10,1,predation,method,observation
+Macrocyclops albidus (Copepoda),10,Eucyclops sp. (Copepoda),10,1,predation,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),10,Dead cellular plant material,10,1,scavenger,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),10,Dead cellular plant material,10,1,scavenger,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),10,Algae spp.,10,1,herbivory,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),10,Dead cellular plant material,10,1,scavenger,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),10,Tetraedron sp.,10,1,herbivory,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),10,Tabellaria sp.,10,1,predation,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),10,Navicula sp.,10,1,herbivory,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Paramerina sp. (Diptera - Chironomidae),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Riethia sp. (Diptera - Chironomidae),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Cricotopus annuliventrus (Diptera - Chironomidae),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Rheotanytarsus sp. (Diptera - Chironomidae),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Parakieferiella sp. (Diptera - Chironomidae),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Tanytarsus inextensus (Diptera - Chironomidae),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Empididae sp. 1 (Diptera),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Chironomidae sp. (Chironomidae - Diptera),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Eukiefferiella sp. (Chironomidae - Diptera),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Brillia sp. (Chironomidae - Diptera),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Tipulid sp. (Chironomidae - Diptera),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Polypedilum sp. (Chironomidae - Diptera),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Helicopsychidae sp. (Trichoptera),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Tasmasia acuta (Trichoptera - Calocidae),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Leptoperla bifida (Pisces - Gripopterygidae),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Acruroperla atra (Pisces - Austroperlidae),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Dinotoperla sp. (Pisces - Gripopterygidae),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Macrogyrus oblongus (Chironomidae  - Gyrinidae),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Eucyclops sp. (Copepoda),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Afrochiltonia australis (Crustacea - Amphipoda),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Pleuroxus sp. (Crustacea - Cladocera),10,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),10,Terrestrial insects,10,1,predation,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),10,Amorphous detritus,10,1,detritivore,method,observation
+Tubificidae sp. (Oligochaeta),10,Amorphous detritus,10,1,detritivore,method,observation
+Naididae sp. (Oligochaeta),10,Amorphous detritus,10,1,detritivore,method,observation
+Lumbricidae sp. (Oligochaeta),10,Amorphous detritus,10,1,detritivore,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),10,Amorphous detritus,10,1,detritivore,method,observation
+Angrobia sp. (Mollusca - Gastropoda),10,Amorphous detritus,10,1,detritivore,method,observation
+Riethia sp. (Diptera - Chironomidae),10,Amorphous detritus,10,1,detritivore,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),10,Amorphous detritus,10,1,detritivore,method,observation
+Rheotanytarsus sp. (Diptera - Chironomidae),10,Amorphous detritus,10,1,detritivore,method,observation
+Parakieferiella sp. (Diptera - Chironomidae),10,Amorphous detritus,10,1,detritivore,method,observation
+Thienmaniella trivittata (Diptera - Chironomidae),10,Amorphous detritus,10,1,detritivore,method,observation
+Tanytarsus inextensus (Diptera - Chironomidae),10,Amorphous detritus,10,1,detritivore,method,observation
+nr. Halocladius sp. (Diptera - Chironomidae),10,Amorphous detritus,10,1,detritivore,method,observation
+Stempellina sp. (Diptera - Chironomidae),10,Amorphous detritus,10,1,detritivore,method,observation
+Chironomidae sp. (Chironomidae - Diptera),10,Amorphous detritus,10,1,detritivore,method,observation
+Tanypod sp. (Chironomidae - Diptera),10,Amorphous detritus,10,1,detritivore,method,observation
+Eukiefferiella sp. (Chironomidae - Diptera),10,Amorphous detritus,10,1,detritivore,method,observation
+Tipulid sp. (Chironomidae - Diptera),10,Amorphous detritus,10,1,detritivore,method,observation
+Polypedilum sp. (Chironomidae - Diptera),10,Amorphous detritus,10,1,detritivore,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),10,Amorphous detritus,10,1,detritivore,method,observation
+Helicopsychidae sp. (Trichoptera),10,Amorphous detritus,10,1,detritivore,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),10,Amorphous detritus,10,1,detritivore,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),10,Amorphous detritus,10,1,detritivore,method,observation
+Acruroperla atra (Pisces - Austroperlidae),10,Amorphous detritus,10,1,detritivore,method,observation
+Dinotoperla sp. (Pisces - Gripopterygidae),10,Amorphous detritus,10,1,detritivore,method,observation
+Eucyclops sp. (Copepoda),10,Amorphous detritus,10,1,detritivore,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),10,Amorphous detritus,10,1,detritivore,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),10,Amorphous detritus,10,1,detritivore,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),10,Amorphous detritus,10,1,detritivore,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),10,Navicula sp.,10,1,herbivory,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),10,Tabellaria sp.,10,1,predation,method,observation
+Tanypod sp. (Chironomidae - Diptera),11,Dead cellular plant material,11,1,scavenger,method,observation
+Brillia sp. (Chironomidae - Diptera),11,Dead cellular plant material,11,1,scavenger,method,observation
+Tipulid sp. (Chironomidae - Diptera),11,Dead cellular plant material,11,1,scavenger,method,observation
+Polypedilum sp. (Chironomidae - Diptera),11,Dead cellular plant material,11,1,scavenger,method,observation
+Ablabesmyia sp. (Chironomidae - Diptera),11,Thienmaniella trivittata (Diptera - Chironomidae),11,1,predation,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),11,Algae spp.,11,1,herbivory,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),11,Tabellaria sp.,11,1,predation,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),11,Riethia sp. (Diptera - Chironomidae),11,1,predation,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),11,Tanytarsus inextensus (Diptera - Chironomidae),11,1,predation,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),11,Eucyclops sp. (Copepoda),11,1,predation,method,observation
+Apsilochorema sp. (Trichoptera - Hydrobiosidae),11,Thienmaniella trivittata (Diptera - Chironomidae),11,1,predation,method,observation
+Apsilochorema sp. (Trichoptera - Hydrobiosidae),11,nr. Halocladius sp. (Diptera - Chironomidae),11,1,predation,method,observation
+nr. Halocladius sp. (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),11,Tetraedron sp.,11,1,herbivory,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),11,Navicula sp.,11,1,herbivory,method,observation
+Acruroperla atra (Pisces - Austroperlidae),11,Dead cellular plant material,11,1,scavenger,method,observation
+Acruroperla atra (Pisces - Austroperlidae),11,Tetraedron sp.,11,1,herbivory,method,observation
+Acruroperla atra (Pisces - Austroperlidae),11,Navicula sp.,11,1,herbivory,method,observation
+Dinotoperla sp. (Pisces - Gripopterygidae),11,Dead cellular plant material,11,1,scavenger,method,observation
+Macrogyrus oblongus - adult (Chironomidae  - Gyrinidae),11,Terrestrial insects,11,1,predation,method,observation
+Eucyclops sp. (Copepoda),11,Dead cellular plant material,11,1,scavenger,method,observation
+Macrocyclops albidus (Copepoda),11,Eucyclops sp. (Copepoda),11,1,predation,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),11,Dead cellular plant material,11,1,scavenger,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),11,Dead cellular plant material,11,1,scavenger,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),11,Tetraedron sp.,11,1,herbivory,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),11,Navicula sp.,11,1,herbivory,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Riethia sp. (Diptera - Chironomidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Rheotanytarsus sp. (Diptera - Chironomidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Tanytarsus inextensus (Diptera - Chironomidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Chironomidae sp. (Chironomidae - Diptera),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Brillia sp. (Chironomidae - Diptera),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Polypedilum sp. (Chironomidae - Diptera),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Tasmasia acuta (Trichoptera - Calocidae),11,1,predation,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),11,Thienmaniella trivittata (Diptera - Chironomidae),11,1,predation,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),11,nr. Halocladius sp. (Diptera - Chironomidae),11,1,predation,method,observation
+Oecetis sp. (Trichoptera - Leptoceridae),11,Tanytarsus inextensus (Diptera - Chironomidae),11,1,predation,method,observation
+Apsilochorema sp. (Trichoptera - Hydrobiosidae),11,Tanytarsus inextensus (Diptera - Chironomidae),11,1,predation,method,observation
+Apsilochorema sp. (Trichoptera - Hydrobiosidae),11,Tanypod sp. (Chironomidae - Diptera),11,1,predation,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),11,Dead cellular plant material,11,1,scavenger,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),11,Dead cellular plant material,11,1,scavenger,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),11,Tabellaria sp.,11,1,predation,method,observation
+Acruroperla atra (Pisces - Austroperlidae),11,Algae spp.,11,1,herbivory,method,observation
+Acruroperla atra (Pisces - Austroperlidae),11,Tabellaria sp.,11,1,predation,method,observation
+Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),11,Macrocyclops albidus (Copepoda),11,1,predation,method,observation
+Macrocyclops albidus (Copepoda),11,Eukiefferiella sp. (Chironomidae - Diptera),11,1,predation,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),11,Algae spp.,11,1,herbivory,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),11,Dead cellular plant material,11,1,scavenger,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Paramerina sp. (Diptera - Chironomidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Cricotopus annuliventrus (Diptera - Chironomidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Parakieferiella sp. (Diptera - Chironomidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Empididae sp. 1 (Diptera),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Tanypod sp. (Chironomidae - Diptera),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Tipulid sp. (Chironomidae - Diptera),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Helicopsychidae sp. (Trichoptera),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Leptoperla bifida (Pisces - Gripopterygidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Dinotoperla sp. (Pisces - Gripopterygidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Eucyclops sp. (Copepoda),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Pleuroxus sp. (Crustacea - Cladocera),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Acruroperla atra (Pisces - Austroperlidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Macrogyrus oblongus (Chironomidae  - Gyrinidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Afrochiltonia australis (Crustacea - Amphipoda),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Terrestrial insects,11,1,predation,method,observation
+Stempellina sp. (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Naididae sp. (Oligochaeta),11,Amorphous detritus,11,1,detritivore,method,observation
+Lumbricidae sp. (Oligochaeta),11,Amorphous detritus,11,1,detritivore,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),11,Amorphous detritus,11,1,detritivore,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),11,Amorphous detritus,11,1,detritivore,method,observation
+Riethia sp. (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Rheotanytarsus sp. (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Parakieferiella sp. (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Thienmaniella trivittata (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Tanytarsus inextensus (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Angrobia sp. (Mollusca - Gastropoda),11,Amorphous detritus,11,1,detritivore,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),11,Amorphous detritus,11,1,detritivore,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Tanypod sp. (Chironomidae - Diptera),11,Amorphous detritus,11,1,detritivore,method,observation
+Brillia sp. (Chironomidae - Diptera),11,Amorphous detritus,11,1,detritivore,method,observation
+Tipulid sp. (Chironomidae - Diptera),11,Amorphous detritus,11,1,detritivore,method,observation
+Polypedilum sp. (Chironomidae - Diptera),11,Amorphous detritus,11,1,detritivore,method,observation
+Chironomidae sp. (Chironomidae - Diptera),11,Amorphous detritus,11,1,detritivore,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),11,Amorphous detritus,11,1,detritivore,method,observation
+Helicopsychidae sp. (Trichoptera),11,Amorphous detritus,11,1,detritivore,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),11,Amorphous detritus,11,1,detritivore,method,observation
+Acruroperla atra (Pisces - Austroperlidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Dinotoperla sp. (Pisces - Gripopterygidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Eucyclops sp. (Copepoda),11,Amorphous detritus,11,1,detritivore,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),11,Amorphous detritus,11,1,detritivore,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),11,Amorphous detritus,11,1,detritivore,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),11,Tabellaria sp.,11,1,predation,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),11,Tabellaria sp.,11,1,predation,method,observation
+Tubificidae sp. (Oligochaeta),11,Amorphous detritus,11,1,detritivore,method,observation
+Hydra sp.,11,Ecnomus russellius (Trichoptera - Ecnomidae),11,1,predation,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),11,Tetraedron sp.,11,1,herbivory,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),11,Navicula sp.,11,1,herbivory,method,observation
+Angrobia sp. (Mollusca - Gastropoda),11,Dead cellular plant material,11,1,scavenger,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),11,Algae spp.,11,1,herbivory,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),11,Dead cellular plant material,11,1,scavenger,method,observation
+Macrocyclops albidus (Copepoda),11,Eukiefferiella sp. (Chironomidae - Diptera),11,1,predation,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),11,Algae spp.,11,1,herbivory,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),11,Dead cellular plant material,11,1,scavenger,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Paramerina sp. (Diptera - Chironomidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Cricotopus annuliventrus (Diptera - Chironomidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Parakieferiella sp. (Diptera - Chironomidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Empididae sp. 1 (Diptera),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Tanypod sp. (Chironomidae - Diptera),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Tipulid sp. (Chironomidae - Diptera),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Helicopsychidae sp. (Trichoptera),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Leptoperla bifida (Pisces - Gripopterygidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Dinotoperla sp. (Pisces - Gripopterygidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Eucyclops sp. (Copepoda),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Pleuroxus sp. (Crustacea - Cladocera),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Acruroperla atra (Pisces - Austroperlidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Macrogyrus oblongus (Chironomidae  - Gyrinidae),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Afrochiltonia australis (Crustacea - Amphipoda),11,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),11,Terrestrial insects,11,1,predation,method,observation
+Stempellina sp. (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Naididae sp. (Oligochaeta),11,Amorphous detritus,11,1,detritivore,method,observation
+Lumbricidae sp. (Oligochaeta),11,Amorphous detritus,11,1,detritivore,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),11,Amorphous detritus,11,1,detritivore,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),11,Amorphous detritus,11,1,detritivore,method,observation
+Riethia sp. (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Rheotanytarsus sp. (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Parakieferiella sp. (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Thienmaniella trivittata (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Tanytarsus inextensus (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Angrobia sp. (Mollusca - Gastropoda),11,Amorphous detritus,11,1,detritivore,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),11,Amorphous detritus,11,1,detritivore,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Tanypod sp. (Chironomidae - Diptera),11,Amorphous detritus,11,1,detritivore,method,observation
+Brillia sp. (Chironomidae - Diptera),11,Amorphous detritus,11,1,detritivore,method,observation
+Tipulid sp. (Chironomidae - Diptera),11,Amorphous detritus,11,1,detritivore,method,observation
+Polypedilum sp. (Chironomidae - Diptera),11,Amorphous detritus,11,1,detritivore,method,observation
+Chironomidae sp. (Chironomidae - Diptera),11,Amorphous detritus,11,1,detritivore,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),11,Amorphous detritus,11,1,detritivore,method,observation
+Helicopsychidae sp. (Trichoptera),11,Amorphous detritus,11,1,detritivore,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),11,Amorphous detritus,11,1,detritivore,method,observation
+Acruroperla atra (Pisces - Austroperlidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Dinotoperla sp. (Pisces - Gripopterygidae),11,Amorphous detritus,11,1,detritivore,method,observation
+Eucyclops sp. (Copepoda),11,Amorphous detritus,11,1,detritivore,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),11,Amorphous detritus,11,1,detritivore,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),11,Amorphous detritus,11,1,detritivore,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),11,Tabellaria sp.,11,1,predation,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),11,Tabellaria sp.,11,1,predation,method,observation
+Hydra sp.,12,Ecnomus russellius (Trichoptera - Ecnomidae),12,1,predation,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),12,Tetraedron sp.,12,1,herbivory,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),12,Navicula sp.,12,1,herbivory,method,observation
+Angrobia sp. (Mollusca - Gastropoda),12,Dead cellular plant material,12,1,scavenger,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),12,Algae spp.,12,1,herbivory,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),12,Dead cellular plant material,12,1,scavenger,method,observation
+Hydra sp.,12,Eucyclops sp. (Copepoda),12,1,predation,method,observation
+Tubificidae sp. (Oligochaeta),12,Dead cellular plant material,12,1,scavenger,method,observation
+Naididae sp. (Oligochaeta),12,Dead cellular plant material,12,1,scavenger,method,observation
+Lumbricidae sp. (Oligochaeta),12,Dead cellular plant material,12,1,scavenger,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),12,Dead cellular plant material,12,1,scavenger,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),12,Tabellaria sp.,12,1,predation,method,observation
+Angrobia sp. (Mollusca - Gastropoda),12,Algae spp.,12,1,herbivory,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),12,Dead cellular plant material,12,1,scavenger,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),12,Tetraedron sp.,12,1,herbivory,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),12,Navicula sp.,12,1,herbivory,method,observation
+Paramerina sp. (Diptera - Chironomidae),12,Rheotanytarsus sp. (Diptera - Chironomidae),12,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),12,nr. Halocladius sp. (Diptera - Chironomidae),12,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),12,Tetraedron sp.,12,1,herbivory,method,observation
+Riethia sp. (Diptera - Chironomidae),12,Navicula sp.,12,1,herbivory,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),12,Dead cellular plant material,12,1,scavenger,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),12,Tabellaria sp.,12,1,predation,method,observation
+Tanytarsus inextensus (Diptera - Chironomidae),12,Tetraedron sp.,12,1,herbivory,method,observation
+Tanytarsus inextensus (Diptera - Chironomidae),12,Navicula sp.,12,1,herbivory,method,observation
+nr. Halocladius sp. (Diptera - Chironomidae),12,Dead cellular plant material,12,1,scavenger,method,observation
+nr. Halocladius sp. (Diptera - Chironomidae),12,Tabellaria sp.,12,1,predation,method,observation
+Chironomidae sp. (Chironomidae - Diptera),12,Tetraedron sp.,12,1,herbivory,method,observation
+Stempellina sp. (Diptera - Chironomidae),12,Amorphous detritus,12,1,detritivore,method,observation
+Brillia sp. (Chironomidae - Diptera),12,Dead cellular plant material,12,1,scavenger,method,observation
+Polypedilum sp. (Chironomidae - Diptera),12,Dead cellular plant material,12,1,scavenger,method,observation
+Ablabesmyia sp. (Chironomidae - Diptera),12,Thienmaniella trivittata (Diptera - Chironomidae),12,1,predation,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),12,Algae spp.,12,1,herbivory,method,observation
+Paramerina sp. (Diptera - Chironomidae),12,Riethia sp. (Diptera - Chironomidae),12,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),12,Thienmaniella trivittata (Diptera - Chironomidae),12,1,predation,method,observation
+Paramerina sp. (Diptera - Chironomidae),12,Eucyclops sp. (Copepoda),12,1,predation,method,observation
+Riethia sp. (Diptera - Chironomidae),12,Dead cellular plant material,12,1,scavenger,method,observation
+Riethia sp. (Diptera - Chironomidae),12,Tabellaria sp.,12,1,predation,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),12,Tetraedron sp.,12,1,herbivory,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),12,Navicula sp.,12,1,herbivory,method,observation
+Rheotanytarsus sp. (Diptera - Chironomidae),12,Dead cellular plant material,12,1,scavenger,method,observation
+Parakieferiella sp. (Diptera - Chironomidae),12,Dead cellular plant material,12,1,scavenger,method,observation
+Thienmaniella trivittata (Diptera - Chironomidae),12,Dead cellular plant material,12,1,scavenger,method,observation
+Tanytarsus inextensus (Diptera - Chironomidae),12,Dead cellular plant material,12,1,scavenger,method,observation
+Tanytarsus inextensus (Diptera - Chironomidae),12,Tabellaria sp.,12,1,predation,method,observation
+nr. Halocladius sp. (Diptera - Chironomidae),12,Tetraedron sp.,12,1,herbivory,method,observation
+nr. Halocladius sp. (Diptera - Chironomidae),12,Navicula sp.,12,1,herbivory,method,observation
+Stempellina sp. (Diptera - Chironomidae),12,Dead cellular plant material,12,1,scavenger,method,observation
+Chironomidae sp. (Chironomidae - Diptera),12,Dead cellular plant material,12,1,scavenger,method,observation
+Chironomidae sp. (Chironomidae - Diptera),12,Tabellaria sp.,12,1,predation,method,observation
+Larsia sp. (Chironomidae - Diptera),12,Riethia sp. (Diptera - Chironomidae),12,1,predation,method,observation
+Ablabesmyia sp. (Chironomidae - Diptera),12,Tanytarsus inextensus (Diptera - Chironomidae),12,1,predation,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),12,Dead cellular plant material,12,1,scavenger,method,observation
+Helicopsychidae sp. (Trichoptera),12,Dead cellular plant material,12,1,scavenger,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),12,Dead cellular plant material,12,1,scavenger,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),12,Tetraedron sp.,12,1,herbivory,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),12,Navicula sp.,12,1,herbivory,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),12,Thienmaniella trivittata (Diptera - Chironomidae),12,1,predation,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),12,nr. Halocladius sp. (Diptera - Chironomidae),12,1,predation,method,observation
+Oecetis sp. (Trichoptera - Leptoceridae),12,Tanytarsus inextensus (Diptera - Chironomidae),12,1,predation,method,observation
+Apsilochorema sp. (Trichoptera - Hydrobiosidae),12,Tanytarsus inextensus (Diptera - Chironomidae),12,1,predation,method,observation
+Apsilochorema sp. (Trichoptera - Hydrobiosidae),12,Tanypod sp. (Chironomidae - Diptera),12,1,predation,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),12,Dead cellular plant material,12,1,scavenger,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),12,Dead cellular plant material,12,1,scavenger,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),12,Tabellaria sp.,12,1,predation,method,observation
+Acruroperla atra (Pisces - Austroperlidae),12,Algae spp.,12,1,herbivory,method,observation
+Acruroperla atra (Pisces - Austroperlidae),12,Tabellaria sp.,12,1,predation,method,observation
+Eucyclops sp. (Copepoda),12,Dead cellular plant material,12,1,scavenger,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),12,Tabellaria sp.,12,1,predation,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),12,Riethia sp. (Diptera - Chironomidae),12,1,predation,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),12,Tanytarsus inextensus (Diptera - Chironomidae),12,1,predation,method,observation
+Ecnomus russellius (Trichoptera - Ecnomidae),12,Eucyclops sp. (Copepoda),12,1,predation,method,observation
+Apsilochorema sp. (Trichoptera - Hydrobiosidae),12,Thienmaniella trivittata (Diptera - Chironomidae),12,1,predation,method,observation
+Apsilochorema sp. (Trichoptera - Hydrobiosidae),12,nr. Halocladius sp. (Diptera - Chironomidae),12,1,predation,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),12,Tetraedron sp.,12,1,herbivory,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),12,Navicula sp.,12,1,herbivory,method,observation
+Acruroperla atra (Pisces - Austroperlidae),12,Dead cellular plant material,12,1,scavenger,method,observation
+Acruroperla atra (Pisces - Austroperlidae),12,Navicula sp.,12,1,herbivory,method,observation
+Dinotoperla sp. (Pisces - Gripopterygidae),12,Dead cellular plant material,12,1,scavenger,method,observation
+Macrocyclops albidus (Copepoda),12,Eukiefferiella sp. (Chironomidae - Diptera),12,1,predation,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),12,Algae spp.,12,1,herbivory,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),12,Dead cellular plant material,12,1,scavenger,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),12,Tabellaria sp.,12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Paramerina sp. (Diptera - Chironomidae),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Cricotopus annuliventrus (Diptera - Chironomidae),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Parakieferiella sp. (Diptera - Chironomidae),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Empididae sp. 1 (Diptera),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Tanypod sp. (Chironomidae - Diptera),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Tipulid sp. (Chironomidae - Diptera),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Helicopsychidae sp. (Trichoptera),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Leptoperla bifida (Pisces - Gripopterygidae),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Dinotoperla sp. (Pisces - Gripopterygidae),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Eucyclops sp. (Copepoda),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Pleuroxus sp. (Crustacea - Cladocera),12,1,predation,method,observation
+Macrocyclops albidus (Copepoda),12,Eucyclops sp. (Copepoda),12,1,predation,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),12,Dead cellular plant material,12,1,scavenger,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),12,Dead cellular plant material,12,1,scavenger,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),12,Tetraedron sp.,12,1,herbivory,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),12,Navicula sp.,12,1,herbivory,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Riethia sp. (Diptera - Chironomidae),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Rheotanytarsus sp. (Diptera - Chironomidae),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Tanytarsus inextensus (Diptera - Chironomidae),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Chironomidae sp. (Chironomidae - Diptera),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Brillia sp. (Chironomidae - Diptera),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Polypedilum sp. (Chironomidae - Diptera),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Tasmasia acuta (Trichoptera - Calocidae),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Acruroperla atra (Pisces - Austroperlidae),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Macrogyrus oblongus (Chironomidae  - Gyrinidae),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Afrochiltonia australis (Crustacea - Amphipoda),12,1,predation,method,observation
+Galaxias olidus (Pisces - Galaxidae),12,Terrestrial insects,12,1,predation,method,observation
+Eucyclops sp. (Copepoda),12,Amorphous detritus,12,1,detritivore,method,observation
+Tubificidae sp. (Oligochaeta),12,Amorphous detritus,12,1,detritivore,method,observation
+Naididae sp. (Oligochaeta),12,Amorphous detritus,12,1,detritivore,method,observation
+Lumbricidae sp. (Oligochaeta),12,Amorphous detritus,12,1,detritivore,method,observation
+Ferrissia sp. (Mollusca - Gastropoda),12,Amorphous detritus,12,1,detritivore,method,observation
+Physastra gibbosa (Mollusca - Gastropoda),12,Amorphous detritus,12,1,detritivore,method,observation
+Angrobia sp. (Mollusca - Gastropoda),12,Amorphous detritus,12,1,detritivore,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),12,Amorphous detritus,12,1,detritivore,method,observation
+Riethia sp. (Diptera - Chironomidae),12,Amorphous detritus,12,1,detritivore,method,observation
+Rheotanytarsus sp. (Diptera - Chironomidae),12,Amorphous detritus,12,1,detritivore,method,observation
+Parakieferiella sp. (Diptera - Chironomidae),12,Amorphous detritus,12,1,detritivore,method,observation
+Thienmaniella trivittata (Diptera - Chironomidae),12,Amorphous detritus,12,1,detritivore,method,observation
+Tanytarsus inextensus (Diptera - Chironomidae),12,Amorphous detritus,12,1,detritivore,method,observation
+Chironomidae sp. (Chironomidae - Diptera),12,Amorphous detritus,12,1,detritivore,method,observation
+Triplectides truncatus (Trichoptera - Leptoceridae),12,Amorphous detritus,12,1,detritivore,method,observation
+Helicopsychidae sp. (Trichoptera),12,Amorphous detritus,12,1,detritivore,method,observation
+Tasmasia acuta (Trichoptera - Calocidae),12,Amorphous detritus,12,1,detritivore,method,observation
+Cricotopus annuliventrus (Diptera - Chironomidae),12,Amorphous detritus,12,1,detritivore,method,observation
+nr. Halocladius sp. (Diptera - Chironomidae),12,Amorphous detritus,12,1,detritivore,method,observation
+Brillia sp. (Chironomidae - Diptera),12,Amorphous detritus,12,1,detritivore,method,observation
+Tipulid sp. (Chironomidae - Diptera),12,Amorphous detritus,12,1,detritivore,method,observation
+Polypedilum sp. (Chironomidae - Diptera),12,Amorphous detritus,12,1,detritivore,method,observation
+Acruroperla atra (Pisces - Austroperlidae),12,Amorphous detritus,12,1,detritivore,method,observation
+Dinotoperla sp. (Pisces - Gripopterygidae),12,Amorphous detritus,12,1,detritivore,method,observation
+Koorononga pilosa (Ephemeroptera - Leptophlebiidae),12,Amorphous detritus,12,1,detritivore,method,observation
+Leptoperla bifida (Pisces - Gripopterygidae),12,Amorphous detritus,12,1,detritivore,method,observation
+Ilyocypris australiensis (Crustacea - Ostracoda),12,Amorphous detritus,12,1,detritivore,method,observation
+Afrochiltonia australis (Crustacea - Amphipoda),12,Amorphous detritus,12,1,detritivore,method,observation
+Pleuroxus sp. (Crustacea - Cladocera),12,Amorphous detritus,12,1,detritivore,method,observation
+Chironomidae sp. (Chironomidae - Diptera),12,Navicula sp.,12,1,herbivory,method,observation
+Sphaerium tasmanicum (Mollusca - Bivalvia),12,Tabellaria sp.,12,1,predation,method,observation
+Macrogyrus oblongus - adult (Chironomidae  - Gyrinidae),12,Terrestrial insects,12,1,predation,method,observation
+Tipulid sp. (Chironomidae - Diptera),12,Dead cellular plant material,12,1,scavenger,method,observation
+Acruroperla atra (Pisces - Austroperlidae),12,Tetraedron sp.,12,1,herbivory,method,observation

@@ -1,0 +1,810 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1,attribute2,value2
+Zooplankton,1,Phytoplankton,1,0.98,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,1,Microphytobenthos,1,0.15,predation,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,1,Microphytobenthos,1,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,1,Phytoplankton,1,0.25,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,1,Zooplankton,1,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,1,Cerastoderma edule,1,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,1,Carcinus maenas,1,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,1,Hydrobia ulvae,1,0.004,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,1,Hediste diversicolor,1,0.11,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,1,Green macroalgae,1,0.05,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,1,Melita palmata,1,0.004,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,1,Scrobicularia plana,1,0.16,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,1,Crangon crangon,1,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,1,Cyathura carinata,1,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,1,Hediste diversicolor,1,0.09,predation,method,model,weight calculation,Proportions of the consumer diet
+Hydrobia ulvae,1,Microphytobenthos,1,0.75,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,1,Carcinus maenas,1,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,1,Hediste diversicolor,1,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Zooplankton,1,Zooplankton,1,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,1,Green macroalgae,1,0.5,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,1,Phytoplankton,1,0.85,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,1,Microphytobenthos,1,0.4,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,1,Green macroalgae,1,0.04,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,1,Melita palmata,1,0.004,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,1,Scrobicularia plana,1,0.14,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,1,Crangon crangon,1,0.18,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,1,Cyathura carinata,1,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,1,Heteromastus filiformis,1,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,1,Imports,1,0.2,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,1,Zooplankton,1,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,1,Cerastoderma edule,1,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,1,Carcinus maenas,1,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,1,Hydrobia ulvae,1,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,1,Alkmaria romijni,1,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,1,Heteromastus filiformis,1,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,1,Imports,1,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,1,Alkmaria romijni,1,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,1,Heteromastus filiformis,1,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Alkmaria romijni,1,Phytoplankton,1,0.1,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,1,Phytoplankton,1,0.05,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,1,Melita palmata,1,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,1,Scrobicularia plana,1,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,1,Capitella capitata,1,0.003,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,1,Mediomastus fragilis,1,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,1,Streblospio shrubsolii,1,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,1,Cerastoderma edule,1,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,1,Hydrobia ulvae,1,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,1,Heteromastus filiformis,1,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,1,Pygospio elegans,1,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,1,Oligochaets,1,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Pygospio elegans,1,Phytoplankton,1,0.6,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,1,Detritus,1,0.35,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,1,Detritus,1,0.35,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,1,Detritus,1,0.15,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,1,Detritus,1,0.35,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,1,Detritus,1,0.1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Hydrobia ulvae,1,Detritus,1,0.25,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,1,Detritus,1,0.99,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Alkmaria romijni,1,Detritus,1,0.9,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,1,Detritus,1,0.75,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Mediomastus fragilis,1,Detritus,1,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Pygospio elegans,1,Detritus,1,0.4,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Oligochaets,1,Detritus,1,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Capitella capitata,1,Detritus,1,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Heteromastus filiformis,1,Detritus,1,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Streblospio shrubsolii,1,Detritus,1,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,1,Microphytobenthos,1,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Zooplankton,2,Phytoplankton,2,0.98,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Zooplankton,2,Zooplankton,2,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Amphithoe valida,2,Microphytobenthos,2,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Amphithoe valida,2,Green macroalgae,2,0.2,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,2,Microphytobenthos,2,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,2,Green macroalgae,2,0.2,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,2,Phytoplankton,2,0.8,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,2,Microphytobenthos,2,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,2,Phytoplankton,2,0.2,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,2,Microphytobenthos,2,0.2,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Green macroalgae,2,0.04,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Zooplankton,2,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Ampithoe valida,2,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Cerastoderma edule,2,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Melita palmata,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Scrobicularia plana,2,0.11,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Crangon crangon,2,0.14,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Hydrobia ulvae,2,0.023,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Cyathura carinata,2,0.015,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Chaetozone setosa,2,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Glycera tridactyla,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Heteromastus filiformis,2,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Mista picta,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Nemertini,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Green macroalgae,2,0.05,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Ampithoe valida,2,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Cerastoderma edule,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Carcinus maenas,2,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Hydrobia ulvae,2,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Cyathura carinata,2,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Alkmaria romijni,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Eteone flava,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Hediste diversicolor,2,0.14,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Lagis koreni,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Nephthys spp.,2,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Oligochaets,2,0.003,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Imports,2,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Haminoea hydatis,2,Green macroalgae,2,0.05,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Hydrobia ulvae,2,Microphytobenthos,2,0.45,predation,method,model,weight calculation,Proportions of the consumer diet
+Littorina littorea,2,Microphytobenthos,2,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Littorina littorea,2,Zostera noltii,2,0.2,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,2,Carcinus maenas,2,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,2,Alkmaria romijni,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,2,Glycera tridactyla,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,2,Heteromastus filiformis,2,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,2,Nemertini,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,2,Green macroalgae,2,0.2,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,2,Heteromastus filiformis,2,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Eteone flava,2,Heteromastus filiformis,2,0.15,predation,method,model,weight calculation,Proportions of the consumer diet
+Eteone flava,2,Oligochaets,2,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Ampithoe valida,2,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Cerastoderma edule,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Hydrobia ulvae,2,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Alkmaria romijni,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Chaetozone setosa,2,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Glycera tridactyla,2,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Heteromastus filiformis,2,0.09,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Mediomastus fragilis,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Nephthys spp.,2,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Nemertini,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Carcinus maenas,2,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Haminoea hydatis,2,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Littorina littorea,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Idotea chelipes,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Eteone flava,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Hediste diversicolor,2,0.17,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Lagis koreni,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Nephthys spp.,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Oligochaets,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Imports,2,0.18,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Zooplankton,2,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Melita palmata,2,5e-4,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Scrobicularia plana,2,0.16,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Crangon crangon,2,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Littorina littorea,2,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Idotea chelipes,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Chaetozone setosa,2,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Glycera tridactyla,2,0.003,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Heteromastus filiformis,2,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Mista picta,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Nemertini,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Littorina littorea,2,Green macroalgae,2,0.5,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,2,Melita palmata,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,2,Idotea chelipes,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,2,Capitella capitata,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,2,Hediste diversicolor,2,0.129,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,2,Mista picta,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,2,Oligochaets,2,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,2,Microphytobenthos,2,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,2,Zostera noltii,2,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,2,Oligochaets,2,0.15,predation,method,model,weight calculation,Proportions of the consumer diet
+Alkmaria romijni,2,Phytoplankton,2,0.1,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Eteone flava,2,Hediste diversicolor,2,0.66,predation,method,model,weight calculation,Proportions of the consumer diet
+Eteone flava,2,Streblospio shrubsolii,2,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Melita palmata,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Scrobicularia plana,2,0.14,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Idotea chelipes,2,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Capitella capitata,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Eteone flava,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Hediste diversicolor,2,0.37,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Lagis koreni,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Mista picta,2,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Streblospio shrubsolii,2,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Oligochaets,2,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Phytoplankton,2,0.05,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Microphytobenthos,2,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Cerastoderma edule,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Hydrobia ulvae,2,0.07,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Eteone flava,2,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Heteromastus filiformis,2,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Mista picta,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Nemertini,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Mista picta,2,Hediste diversicolor,2,0.7,predation,method,model,weight calculation,Proportions of the consumer diet
+Mista picta,2,Oligochaets,2,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Microphytobenthos,2,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Melita palmata,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Scrobicularia plana,2,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Capitella capitata,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Eteone flava,2,0.004,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Hediste diversicolor,2,0.45,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Mista picta,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Oligochaets,2,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Ampithoe valida,2,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Scrobicularia plana,2,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Hydrobia ulvae,2,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Cyathura carinata,2,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Eteone flava,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Hediste diversicolor,2,0.35,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Lagis koreni,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Streblospio shrubsolii,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Oligochaets,2,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Ampithoe valida,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Scrobicularia plana,2,0.069,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Chaetozone setosa,2,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Glycera tridactyla,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Mediomastus fragilis,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Nephthys spp.,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Oligochaets,2,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Mista picta,2,Heteromastus filiformis,2,0.15,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Ampithoe valida,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Cerastoderma edule,2,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Alkmaria romijni,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Chaetozone setosa,2,0.004,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Glycera tridactyla,2,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Heteromastus filiformis,2,0.09,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Nephthys spp.,2,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Zooplankton,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Cerastoderma edule,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Haminoea hydatis,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Littorina littorea,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Chaetozone setosa,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Glycera tridactyla,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Heteromastus filiformis,2,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Nephthys spp.,2,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Nemertini,2,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,2,Detritus,2,0.15,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Amphithoe valida,2,Detritus,2,0.7,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,2,Detritus,2,0.7,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,2,Detritus,2,0.1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,2,Detritus,2,0.6,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,2,Detritus,2,0.75,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,2,Detritus,2,0.4,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Alkmaria romijni,2,Detritus,2,0.9,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Chaetozone setosa,2,Detritus,2,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,2,Detritus,2,0.3,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Haminoea hydatis,2,Detritus,2,0.65,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Hydrobia ulvae,2,Detritus,2,0.55,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Littorina littorea,2,Detritus,2,0.25,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Capitella capitata,2,Detritus,2,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Eteone flava,2,Detritus,2,0.1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,2,Detritus,2,0.2,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,2,Detritus,2,0.7,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Lagis koreni,2,Detritus,2,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Streblospio shrubsolii,2,Detritus,2,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Oligochaets,2,Detritus,2,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Heteromastus filiformis,2,Detritus,2,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Mediomastus fragilis,2,Detritus,2,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Mista picta,2,Detritus,2,0.1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,2,Detritus,2,0.3,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,2,Detritus,2,0.2,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,2,Ampithoe valida,2,0.006,predation,method,model,weight calculation,Proportions of the consumer diet
+Haminoea hydatis,2,Microphytobenthos,2,0.3,predation,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,3,Detritus,3,0.75,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,3,Detritus,3,0.6,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Detritus,3,0.1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Amphithoe valida,3,Detritus,3,0.75,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,3,Detritus,3,0.1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Detritus,3,0.3,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,3,Detritus,3,0.75,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,3,Detritus,3,0.45,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Alkmaria romijni,3,Detritus,3,0.9,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Heteromastus filiformis,3,Detritus,3,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Streblospio shrubsolii,3,Detritus,3,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Hydrobia ulvae,3,Detritus,3,0.68,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Littorina littorea,3,Detritus,3,0.35,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Capitella capitata,3,Detritus,3,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,3,Detritus,3,0.74,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Lagis koreni,3,Detritus,3,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Mista picta,3,Detritus,3,0.1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Oligochaets,3,Detritus,3,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Ampithoe valida,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,3,Zostera noltii,3,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Zooplankton,3,Zooplankton,3,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Amphithoe valida,3,Green macroalgae,3,0.15,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,3,Microphytobenthos,3,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,3,Microphytobenthos,3,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,3,Phytoplankton,3,0.2,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Zooplankton,3,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Melita palmata,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Scrobicularia plana,3,0.11,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Crangon crangon,3,0.14,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Littorina littorea,3,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Idotea chelipes,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Heteromastus filiformis,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Mista picta,3,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Green macroalgae,3,0.05,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Ampithoe valida,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Cerastoderma edule,3,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Carcinus maenas,3,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Hydrobia ulvae,3,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Zooplankton,3,Phytoplankton,3,0.98,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Amphithoe valida,3,Microphytobenthos,3,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,3,Green macroalgae,3,0.15,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,3,Phytoplankton,3,0.8,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,3,Microphytobenthos,3,0.2,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Green macroalgae,3,0.04,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Cerastoderma edule,3,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Carcinus maenas,3,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Hydrobia ulvae,3,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Cyathura carinata,3,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Hediste diversicolor,3,0.26,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Lagis koreni,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Oligochaets,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Imports,3,0.18,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Zooplankton,3,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Melita palmata,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Scrobicularia plana,3,0.14,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Crangon crangon,3,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Littorina littorea,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Idotea chelipes,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Cyathura carinata,3,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Alkmaria romijni,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Hediste diversicolor,3,0.23,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Lagis koreni,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hydrobia ulvae,3,Microphytobenthos,3,0.32,predation,method,model,weight calculation,Proportions of the consumer diet
+Littorina littorea,3,Microphytobenthos,3,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Littorina littorea,3,Zostera noltii,3,0.2,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,3,Ampithoe valida,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,3,Carcinus maenas,3,0.07,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,3,Alkmaria romijni,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,3,Hediste diversicolor,3,0.161,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,3,Streblospio shrubsolii,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,3,Green macroalgae,3,0.15,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,3,Heteromastus filiformis,3,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,3,Phytoplankton,3,0.05,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,3,Ampithoe valida,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,3,Cerastoderma edule,3,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,3,Hydrobia ulvae,3,0.095,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,3,Capitella capitata,3,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,3,Mista picta,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,3,Oligochaets,3,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Mista picta,3,Capitella capitata,3,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Mista picta,3,Heteromastus filiformis,3,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Mista picta,3,Oligochaets,3,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Capitella capitata,3,0.011,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Heteromastus filiformis,3,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Oligochaets,3,0.003,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,3,Imports,3,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Littorina littorea,3,Green macroalgae,3,0.4,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,3,Melita palmata,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,3,Idotea chelipes,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,3,Capitella capitata,3,0.007,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,3,Heteromastus filiformis,3,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,3,Oligochaets,3,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,3,Microphytobenthos,3,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,3,Oligochaets,3,0.15,predation,method,model,weight calculation,Proportions of the consumer diet
+Alkmaria romijni,3,Phytoplankton,3,0.1,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,3,Microphytobenthos,3,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,3,Melita palmata,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,3,Scrobicularia plana,3,0.055,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,3,Alkmaria romijni,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,3,Heteromastus filiformis,3,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Oligochaets,3,Detritus,3,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,3,Ampithoe valida,3,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,3,Zostera noltii,3,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Zooplankton,4,Phytoplankton,4,0.98,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Zooplankton,4,Zooplankton,4,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Amphithoe valida,4,Microphytobenthos,4,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Amphithoe valida,4,Green macroalgae,4,0.2,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,4,Microphytobenthos,4,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,4,Green macroalgae,4,0.2,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,4,Phytoplankton,4,0.8,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,4,Microphytobenthos,4,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Mytilus sp.,4,Phytoplankton,4,0.8,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Mytilus sp.,4,Microphytobenthos,4,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,4,Phytoplankton,4,0.2,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,4,Microphytobenthos,4,0.2,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Green macroalgae,4,0.04,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Zooplankton,4,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Ampithoe valida,4,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Melita palmata,4,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Cerastoderma edule,4,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Mytilus sp.,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Scrobicularia plana,4,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Carcinus maenas,4,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Crangon crangon,4,0.14,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Gibulla umbilicalis,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Haminoea hydatis,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Hydrobia ulvae,4,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Littorina littorea,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Cyathura carinata,4,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Idotea chelipes,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Aonides oxycephala,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Chaetozone setosa,4,0.018,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Diopatra neapolitana,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Glycera tridactyla,4,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Hediste diversicolor,4,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Heteromastus filiformis,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Lagis koreni,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Lumbrineris impatiens,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Nephthys spp.,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Oligochaets,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Imports,4,0.18,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Green macroalgae,4,0.05,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Zooplankton,4,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Ampithoe valida,4,0.037,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Melita palmata,4,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Cerastoderma edule,4,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Mytilus sp.,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Carcinus maenas,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Crangon crangon,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Gibulla umbilicalis,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Hydrobia ulvae,4,0.07,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Littorina littorea,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Cyathura carinata,4,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Idotea chelipes,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Alkmaria romijni,4,0.003,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Aonides oxycephala,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Chaetozone setosa,4,0.013,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Diopatra neapolitana,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Eteone flava,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Glycera tridactyla,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Hediste diversicolor,4,0.09,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Heteromastus filiformis,4,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Lagis koreni,4,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Lumbrineris impatiens,4,0.015,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Nephthys spp.,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Oligochaets,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Imports,4,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Gibulla umbilicalis,4,Microphytobenthos,4,0.3,predation,method,model,weight calculation,Proportions of the consumer diet
+Gibulla umbilicalis,4,Green macroalgae,4,0.05,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Haminoea hydatis,4,Microphytobenthos,4,0.3,predation,method,model,weight calculation,Proportions of the consumer diet
+Haminoea hydatis,4,Green macroalgae,4,0.05,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Hydrobia ulvae,4,Microphytobenthos,4,0.32,predation,method,model,weight calculation,Proportions of the consumer diet
+Littorina littorea,4,Microphytobenthos,4,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Littorina littorea,4,Green macroalgae,4,0.35,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Littorina littorea,4,Zostera noltii,4,0.2,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,4,Ampithoe valida,4,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,4,Melita palmata,4,0.045,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,4,Carcinus maenas,4,0.055,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,4,Idotea chelipes,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,4,Lekanesphaera levii,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,4,Alkmaria romijni,4,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,4,Aonides oxycephala,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,4,Capitella capitata,4,0.004,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,4,Glycera tridactyla,4,0.009,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,4,Hediste diversicolor,4,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,4,Heteromastus filiformis,4,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,4,Streblospio shrubsolii,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,4,Oligochaets,4,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,4,Microphytobenthos,4,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,4,Green macroalgae,4,0.1,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,4,Zostera noltii,4,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,4,Heteromastus filiformis,4,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,4,Oligochaets,4,0.15,predation,method,model,weight calculation,Proportions of the consumer diet
+Lekanesphaera levii,4,Microphytobenthos,4,0.6,predation,method,model,weight calculation,Proportions of the consumer diet
+Alkmaria romijni,4,Phytoplankton,4,0.1,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Diopatra neapolitana,4,Ampithoe valida,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Diopatra neapolitana,4,Melita palmata,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Diopatra neapolitana,4,Cerastoderma edule,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Diopatra neapolitana,4,Scrobicularia plana,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Diopatra neapolitana,4,Hydrobia ulvae,4,0.09,predation,method,model,weight calculation,Proportions of the consumer diet
+Diopatra neapolitana,4,Aonides oxycephala,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Diopatra neapolitana,4,Chaetozone setosa,4,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Diopatra neapolitana,4,Lagis koreni,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Diopatra neapolitana,4,Streblospio shrubsolii,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Eteone flava,4,Aonides oxycephala,4,0.2,predation,method,model,weight calculation,Proportions of the consumer diet
+Eteone flava,4,Glycera tridactyla,4,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Eteone flava,4,Hediste diversicolor,4,0.15,predation,method,model,weight calculation,Proportions of the consumer diet
+Eteone flava,4,Heteromastus filiformis,4,0.2,predation,method,model,weight calculation,Proportions of the consumer diet
+Eteone flava,4,Pygospio elegans,4,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Eteone flava,4,Streblospio shrubsolii,4,0.2,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Ampithoe valida,4,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Melita palmata,4,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Cerastoderma edule,4,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Scrobicularia plana,4,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Hydrobia ulvae,4,0.095,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Alkmaria romijni,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Aonides oxycephala,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Capitella capitata,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Chaetozone setosa,4,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Diopatra neapolitana,4,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Eteone flava,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Glycera tridactyla,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Hediste diversicolor,4,0.13,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Lagis koreni,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Lumbrineris impatiens,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Nephthys spp.,4,0.003,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Pygospio elegans,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Streblospio shrubsolii,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Nemertini,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Oligochaets,4,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Phytoplankton,4,0.05,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Microphytobenthos,4,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Ampithoe valida,4,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Melita palmata,4,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Cerastoderma edule,4,0.009,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Scrobicularia plana,4,0.007,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Hydrobia ulvae,4,0.129,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Littorina littorea,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Capitella capitata,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Chaetozone setosa,4,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Glycera tridactyla,4,0.015,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Heteromastus filiformis,4,0.065,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Lagis koreni,4,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Nephthys spp.,4,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Streblospio shrubsolii,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Nemertini,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Oligochaets,4,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Microphytobenthos,4,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Zostera noltii,4,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Ampithoe valida,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Melita palmata,4,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Cerastoderma edule,4,0.034,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Scrobicularia plana,4,0.035,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Gibulla umbilicalis,4,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Haminoea hydatis,4,0.014,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Hydrobia ulvae,4,0.07,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Littorina littorea,4,0.035,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Cyathura carinata,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Idotea chelipes,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Aonides oxycephala,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Capitella capitata,4,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Chaetozone setosa,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Glycera tridactyla,4,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Hediste diversicolor,4,0.004,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Heteromastus filiformis,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Nephthys spp.,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Streblospio shrubsolii,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Nemertini,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Oligochaets,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Microphytobenthos,4,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Ampithoe valida,4,0.006,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Melita palmata,4,0.008,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Cerastoderma edule,4,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Scrobicularia plana,4,0.024,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Alkmaria romijni,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Aonides oxycephala,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Capitella capitata,4,0.012,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Chaetozone setosa,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Diopatra neapolitana,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Glycera tridactyla,4,0.024,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Hediste diversicolor,4,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Lumbrineris impatiens,4,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Nephthys spp.,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Pygospio elegans,4,Phytoplankton,4,0.6,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Zooplankton,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Ampithoe valida,4,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Melita palmata,4,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Cerastoderma edule,4,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Scrobicularia plana,4,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Gibulla umbilicalis,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Haminoea hydatis,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Hydrobia ulvae,4,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Littorina littorea,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Cyathura carinata,4,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Idotea chelipes,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Lekanesphaera levii,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Aonides oxycephala,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Chaetozone setosa,4,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Diopatra neapolitana,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Eteone flava,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Glycera tridactyla,4,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Hediste diversicolor,4,0.23,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Heteromastus filiformis,4,0.077,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Lagis koreni,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Lumbrineris impatiens,4,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Nephthys spp.,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Pygospio elegans,4,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Streblospio shrubsolii,4,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Nemertini,4,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Oligochaets,4,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Amphithoe valida,4,Detritus,4,0.7,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,4,Detritus,4,0.7,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,4,Detritus,4,0.1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Mytilus sp.,4,Detritus,4,0.1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,4,Detritus,4,0.6,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,4,Detritus,4,0.15,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Detritus,4,0.3,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Gibulla umbilicalis,4,Detritus,4,0.65,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Haminoea hydatis,4,Detritus,4,0.65,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Hydrobia ulvae,4,Detritus,4,0.68,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Littorina littorea,4,Detritus,4,0.4,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,4,Detritus,4,0.7,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,4,Detritus,4,0.5,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Lekanesphaera levii,4,Detritus,4,0.4,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Alkmaria romijni,4,Detritus,4,0.9,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Aonides oxycephala,4,Detritus,4,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Capitella capitata,4,Detritus,4,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Chaetozone setosa,4,Detritus,4,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Diopatra neapolitana,4,Detritus,4,0.8,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Eteone flava,4,Detritus,4,0.1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Detritus,4,0.3,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,4,Detritus,4,0.57,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Heteromastus filiformis,4,Detritus,4,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Lagis koreni,4,Detritus,4,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Lumbrineris impatiens,4,Detritus,4,0.6,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Detritus,4,0.55,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Pygospio elegans,4,Detritus,4,0.4,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Streblospio shrubsolii,4,Detritus,4,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,4,Detritus,4,0.2,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Oligochaets,4,Detritus,4,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,4,Scrobicularia plana,4,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Idotea chelipes,4,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Oligochaets,4,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,4,Heteromastus filiformis,4,0.09,predation,method,model,weight calculation,Proportions of the consumer diet
+Nephthys spp.,4,Heteromastus filiformis,4,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Zooplankton,5,Zooplankton,5,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,5,Green macroalgae,5,0.45,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,5,Phytoplankton,5,0.85,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,5,Microphytobenthos,5,0.4,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,5,Cerastoderma edule,5,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,5,Carcinus maenas,5,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,5,Hydrobia ulvae,5,0.008,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,5,Glycera tridactyla,5,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Green macroalgae,5,0.05,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Melita palmata,5,0.025,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Scrobicularia plana,5,0.13,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Crangon crangon,5,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Cyathura carinata,5,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Glycera tridactyla,5,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Heteromastus filiformis,5,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Oligochaets,5,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Zooplankton,5,Phytoplankton,5,0.98,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Corophium multisetosum,5,Microphytobenthos,5,0.75,predation,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,5,Microphytobenthos,5,0.15,predation,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,5,Microphytobenthos,5,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,5,Phytoplankton,5,0.3,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,5,Zooplankton,5,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,5,Melita palmata,5,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,5,Scrobicularia plana,5,0.12,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,5,Crangon crangon,5,0.14,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,5,Cyathura carinata,5,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,5,Hediste diversicolor,5,0.184,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,5,Imports,5,0.2,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Zooplankton,5,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Cerastoderma edule,5,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Carcinus maenas,5,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Hydrobia ulvae,5,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Alkmaria romijni,5,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Hediste diversicolor,5,0.155,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Streblospio shrubsolii,5,0.007,predation,method,model,weight calculation,Proportions of the consumer diet
+Hydrobia ulvae,5,Microphytobenthos,5,0.75,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,5,Carcinus maenas,5,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,5,Hediste diversicolor,5,0.045,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,5,Oligochaets,5,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Alkmaria romijni,5,Phytoplankton,5,0.1,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Glicera tridactyla,5,Melita palmata,5,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glicera tridactyla,5,Scrobicularia plana,5,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Glicera tridactyla,5,Alkmaria romijni,5,0.12,predation,method,model,weight calculation,Proportions of the consumer diet
+Glicera tridactyla,5,Glycera tridactyla,5,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Glicera tridactyla,5,Heteromastus filiformis,5,0.14,predation,method,model,weight calculation,Proportions of the consumer diet
+Glicera tridactyla,5,Oligochaets,5,0.018,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,5,Phytoplankton,5,0.05,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,5,Cerastoderma edule,5,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,5,Hydrobia ulvae,5,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,5,Alkmaria romijni,5,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,5,Heteromastus filiformis,5,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,5,Oligochaets,5,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Imports,5,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,5,Alkmaria romijni,5,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,5,Heteromastus filiformis,5,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Glicera tridactyla,5,Corophium multisetosum,5,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glicera tridactyla,5,Cerastoderma edule,5,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Glicera tridactyla,5,Hydrobia ulvae,5,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Glicera tridactyla,5,Capitella capitata,5,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Glicera tridactyla,5,Hediste diversicolor,5,0.29,predation,method,model,weight calculation,Proportions of the consumer diet
+Glicera tridactyla,5,Streblospio shrubsolii,5,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,5,Microphytobenthos,5,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,5,Scrobicularia plana,5,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,5,Cyathura carinata,5,0.004,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,5,Capitella capitata,5,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,5,Streblospio shrubsolii,5,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Corophium multisetosum,5,Detritus,5,0.25,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,5,Detritus,5,0.1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,5,Detritus,5,0.15,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,5,Detritus,5,0.4,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,5,Detritus,5,0.3,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,5,Detritus,5,0.35,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Capitella capitata,5,Detritus,5,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Heteromastus filiformis,5,Detritus,5,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Oligochaets,5,Detritus,5,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Hydrobia ulvae,5,Detritus,5,0.25,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,5,Detritus,5,0.95,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Alkmaria romijni,5,Detritus,5,0.9,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Glicera tridactyla,5,Detritus,5,0.2,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,5,Detritus,5,0.8,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Streblospio shrubsolii,5,Detritus,5,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,5,Green macroalgae,5,0.04,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,5,Corophium multisetosum,5,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Zooplankton,6,Phytoplankton,6,0.98,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Zooplankton,6,Zooplankton,6,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Amphithoe valida,6,Microphytobenthos,6,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Amphithoe valida,6,Green macroalgae,6,0.75,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,6,Microphytobenthos,6,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,6,Green macroalgae,6,0.75,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,6,Phytoplankton,6,0.85,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,6,Microphytobenthos,6,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,6,Phytoplankton,6,0.4,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,6,Microphytobenthos,6,0.4,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Green macroalgae,6,0.08,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Zooplankton,6,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Ampithoe valida,6,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Melita palmata,6,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Cerastoderma edule,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Scrobicularia plana,6,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Carcinus maenas,6,0.06,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Crangon crangon,6,0.14,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Haminoea hydatis,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Hydrobia ulvae,6,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Cyathura carinata,6,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Idotea chelipes,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Chaetozone setosa,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Glycera tridactyla,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Hediste diversicolor,6,0.095,predation,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Heteromastus filiformis,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Green macroalgae,6,0.06,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Zooplankton,6,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Ampithoe valida,6,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Cerastoderma edule,6,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Scrobicularia plana,6,0.09,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Carcinus maenas,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Crangon crangon,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Hydrobia ulvae,6,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Cyathura carinata,6,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Idotea chelipes,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Alkmaria romijni,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Chaetozone setosa,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Glycera tridactyla,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Hediste diversicolor,6,0.084,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Heteromastus filiformis,6,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Nemertini,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Oligochaets,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Imports,6,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Haminoea hydatis,6,Microphytobenthos,6,0.65,predation,method,model,weight calculation,Proportions of the consumer diet
+Haminoea hydatis,6,Green macroalgae,6,0.1,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Hydrobia ulvae,6,Microphytobenthos,6,0.75,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,6,Green macroalgae,6,0.015,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,6,Ampithoe valida,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,6,Melita palmata,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,6,Carcinus maenas,6,0.003,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,6,Alkmaria romijni,6,0.004,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,6,Hediste diversicolor,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,6,Heteromastus filiformis,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,6,Microphytobenthos,6,0.1,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,6,Green macroalgae,6,0.7,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,6,Alkmaria romijni,6,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,6,Heteromastus filiformis,6,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,6,Oligochaets,6,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Alkmaria romijni,6,Phytoplankton,6,0.1,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Ampithoe valida,6,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Melita palmata,6,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Cerastoderma edule,6,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Scrobicularia plana,6,0.08,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Haminoea hydatis,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Hydrobia ulvae,6,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Idotea chelipes,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Alkmaria romijni,6,0.095,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Capitella capitata,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Chaetozone setosa,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Glycera tridactyla,6,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Hediste diversicolor,6,0.28,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Heteromastus filiformis,6,0.11,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Pygospio elegans,6,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Streblospio shrubsolii,6,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Nemertini,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Oligochaets,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Phytoplankton,6,0.05,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Microphytobenthos,6,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Ampithoe valida,6,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Melita palmata,6,0.02,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Cerastoderma edule,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Hydrobia ulvae,6,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Capitella capitata,6,0.025,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Chaetozone setosa,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Glycera tridactyla,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Heteromastus filiformis,6,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Pygospio elegans,6,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Streblospio shrubsolii,6,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Oligochaets,6,0.001,predation,method,model,weight calculation,Proportions of the consumer diet
+Pygospio elegans,6,Phytoplankton,6,0.6,herbivory,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Zooplankton,6,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Ampithoe valida,6,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Cerastoderma edule,6,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Scrobicularia plana,6,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Haminoea hydatis,6,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Hydrobia ulvae,6,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Cyathura carinata,6,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Idotea chelipes,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Alkmaria romijni,6,0.09,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Chaetozone setosa,6,0.005,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Glycera tridactyla,6,0.002,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Hediste diversicolor,6,0.26,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Heteromastus filiformis,6,0.098,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Pygospio elegans,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Streblospio shrubsolii,6,0.01,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Nemertini,6,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Oligochaets,6,0.05,predation,method,model,weight calculation,Proportions of the consumer diet
+Amphithoe valida,6,Detritus,6,0.15,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Melita palmata,6,Detritus,6,0.15,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Cerastoderma edule,6,Detritus,6,0.1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Scrobicularia plana,6,Detritus,6,0.2,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Detritus,6,0.15,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Detritus,6,0.35,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Haminoea hydatis,6,Detritus,6,0.25,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Hydrobia ulvae,6,Detritus,6,0.25,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Cyathura carinata,6,Detritus,6,0.974,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Idotea chelipes,6,Detritus,6,0.05,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Alkmaria romijni,6,Detritus,6,0.9,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Capitella capitata,6,Detritus,6,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Chaetozone setosa,6,Detritus,6,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Glycera tridactyla,6,Detritus,6,0.2,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Detritus,6,0.65,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Heteromastus filiformis,6,Detritus,6,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Pygospio elegans,6,Detritus,6,0.4,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Streblospio shrubsolii,6,Detritus,6,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Detritus,6,0.2,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Oligochaets,6,Detritus,6,1,detritivore,method,model,weight calculation,Proportions of the consumer diet
+Carcinus maenas,6,Imports,6,0.2,predation,method,model,weight calculation,Proportions of the consumer diet
+Nemertini,6,Melita palmata,6,0.04,predation,method,model,weight calculation,Proportions of the consumer diet
+Crangon crangon,6,Melita palmata,6,0.03,predation,method,model,weight calculation,Proportions of the consumer diet
+Hediste diversicolor,6,Scrobicularia plana,6,0.058,predation,method,model,weight calculation,Proportions of the consumer diet

@@ -1,0 +1,787 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+Agnetina capitata (2.0-3.0 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),1,Soft body parts,1,1,detritivore,method,gut content
+Paracapnia angulata (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Paracapnia angulata (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Paracapnia angulata (0.1-0.2 mm HCW),1,Chitin fragments,1,1,detritivore,method,gut content
+Brachyptera fasciata (0.4-0.6 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Brachyptera fasciata (0.4-0.6 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Brachyptera fasciata (0.4-0.6 mm HCW),1,Chitin fragments,1,1,detritivore,method,gut content
+Paragnetina media (1.0-2.0 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Paragnetina media (1.0-2.0 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Paragnetina media (0.2-0.3 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Paragnetina media (0.2-0.3 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Paragnetina media (0.2-0.3 mm HCW),1,Chitin fragments,1,1,detritivore,method,gut content
+Ephemerella subvaria (0.4-0.6 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Ephemerella subvaria (0.4-0.6 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Ephemerella subvaria (0.4-0.6 mm HCW),1,Chitin fragments,1,1,detritivore,method,gut content
+Paraleptophlebia adoptiva (0.2-0.4 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Paraleptophlebia adoptiva (0.2-0.4 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Paraleptophlebia adoptiva (0.2-0.4 mm HCW),1,Chitin fragments,1,1,detritivore,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Hydropsyche sparna (0.4-0.6 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Hydropsyche sparna (0.4-0.6 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Hydropsyche sparna (0.4-0.6 mm HCW),1,Chitin fragments,1,1,detritivore,method,gut content
+Hydropsyche morosa (0.4-0.6 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Hydropsyche morosa (0.4-0.6 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Dolophilodes distinctus (0.4-0.6 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Dolophilodes distinctus (0.4-0.6 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Micrasema sp. (0.3-0.4 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Micrasema sp. (0.3-0.4 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Glossosoma nigrior (0.2-0.3 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Glossosoma nigrior (0.2-0.3 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Rhyacophila fuscula (0.2-0.4 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Rhyacophila fuscula (0.2-0.4 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Stemelmis nr. Bicarinata (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Stemelmis nr. Bicarinata (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Promoresia elegans (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Promoresia elegans (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Optioservus fastiditus (0.5-0.6 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Optioservus fastiditus (0.5-0.6 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Thienemanniella sp. (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Thienemanniella sp. (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Cricotopus sp. (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Cricotopus sp. (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),1,Chitin fragments,1,1,detritivore,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Stempellina montivaga grp. (0.2-0.3 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Stempellina montivaga grp. (0.2-0.3 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Stempellina montivaga grp. (0.2-0.3 mm HCW),1,Chitin fragments,1,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),1,Detritus,1,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),1,Microinorganic particles,1,1,detritivore,method,gut content
+Antocha sp. (1.0-2.0 mm HCW length),1,Detritus,1,1,detritivore,method,gut content
+Antocha sp. (1.0-2.0 mm HCW length),1,Microinorganic particles,1,1,detritivore,method,gut content
+Antocha sp. (3.0-4.0 mm HCW length),1,Detritus,1,1,detritivore,method,gut content
+Antocha sp. (3.0-4.0 mm HCW length),1,Microinorganic particles,1,1,detritivore,method,gut content
+Antocha sp. (4.0-5.0 mm HCW length),1,Detritus,1,1,detritivore,method,gut content
+Antocha sp. (4.0-5.0 mm HCW length),1,Microinorganic particles,1,1,detritivore,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),1,Ephemerella subvaria (0.4-0.6 mm HCW),1,1,predation,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),1,Baetis tricaudatus (0.2-0.4 mm HCW),1,1,predation,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),1,Hydropsyche sparna (0.4-0.6 mm HCW),1,1,predation,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),1,Diatoms,1,1,herbivory,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),1,Chironomids,1,1,predation,method,gut content
+Paracapnia angulata (0.1-0.2 mm HCW),1,Diatoms,1,1,herbivory,method,gut content
+Brachyptera fasciata (0.4-0.6 mm HCW),1,Diatoms,1,1,herbivory,method,gut content
+Brachyptera fasciata (0.4-0.6 mm HCW),1,Other algae,1,1,herbivory,method,gut content
+Paragnetina media (1.0-2.0 mm HCW),1,Ephemerella subvaria (0.4-0.6 mm HCW),1,1,predation,method,gut content
+Paragnetina media (1.0-2.0 mm HCW),1,Baetis tricaudatus (0.2-0.4 mm HCW),1,1,predation,method,gut content
+Paragnetina media (1.0-2.0 mm HCW),1,Diatoms,1,1,herbivory,method,gut content
+Paragnetina media (1.0-2.0 mm HCW),1,Vascular plant material,1,1,herbivory,method,gut content
+Paragnetina media (1.0-2.0 mm HCW),1,Other algae,1,1,herbivory,method,gut content
+Paragnetina media (0.2-0.3 mm HCW),1,Fungal hyphae,1,1,predation,method,gut content
+Paragnetina media (0.2-0.3 mm HCW),1,Diatoms,1,1,herbivory,method,gut content
+Paragnetina media (0.2-0.3 mm HCW),1,Vascular plant material,1,1,herbivory,method,gut content
+Ephemerella subvaria (0.4-0.6 mm HCW),1,Fungal hyphae,1,1,predation,method,gut content
+Ephemerella subvaria (0.4-0.6 mm HCW),1,Diatoms,1,1,herbivory,method,gut content
+Paraleptophlebia adoptiva (0.2-0.4 mm HCW),1,Fungal hyphae,1,1,predation,method,gut content
+Paraleptophlebia adoptiva (0.2-0.4 mm HCW),1,Diatoms,1,1,herbivory,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),1,Fungal hyphae,1,1,predation,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),1,Diatoms,1,1,herbivory,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),1,Vascular plant material,1,1,herbivory,method,gut content
+Hydropsyche sparna (0.4-0.6 mm HCW),1,Fungal hyphae,1,1,predation,method,gut content
+Hydropsyche sparna (0.4-0.6 mm HCW),1,Diatoms,1,1,herbivory,method,gut content
+Hydropsyche morosa (0.4-0.6 mm HCW),1,Fungal hyphae,1,1,predation,method,gut content
+Hydropsyche morosa (0.4-0.6 mm HCW),1,Diatoms,1,1,herbivory,method,gut content
+Hydropsyche morosa (0.4-0.6 mm HCW),1,Other algae,1,1,herbivory,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),1,Fungal hyphae,1,1,predation,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),1,Diatoms,1,1,herbivory,method,gut content
+Dolophilodes distinctus (0.4-0.6 mm HCW),1,Fungal hyphae,1,1,predation,method,gut content
+Hydropsyche sparna (0.4-0.6 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Hydropsyche sparna (0.4-0.6 mm HCW),1,Chitin fragments,1,1,detritivore,method,gut content
+Hydropsyche morosa (0.4-0.6 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Hydropsyche morosa (0.4-0.6 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Dolophilodes distinctus (0.4-0.6 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Dolophilodes distinctus (0.4-0.6 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Micrasema sp. (0.3-0.4 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Micrasema sp. (0.3-0.4 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Glossosoma nigrior (0.2-0.3 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Glossosoma nigrior (0.2-0.3 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Rhyacophila fuscula (0.2-0.4 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Rhyacophila fuscula (0.2-0.4 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Stemelmis nr. Bicarinata (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Stemelmis nr. Bicarinata (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Promoresia elegans (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Promoresia elegans (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Optioservus fastiditus (0.5-0.6 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Optioservus fastiditus (0.5-0.6 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Thienemanniella sp. (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Thienemanniella sp. (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Cricotopus sp. (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Cricotopus sp. (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),1,Chitin fragments,1,1,detritivore,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Stempellina montivaga grp. (0.2-0.3 mm HCW),1,Detritus,1,1,detritivore,method,gut content
+Stempellina montivaga grp. (0.2-0.3 mm HCW),1,Microinorganic particles,1,1,detritivore,method,gut content
+Stempellina montivaga grp. (0.2-0.3 mm HCW),1,Chitin fragments,1,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),1,Detritus,1,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),1,Microinorganic particles,1,1,detritivore,method,gut content
+Antocha sp. (1.0-2.0 mm HCW length),1,Detritus,1,1,detritivore,method,gut content
+Antocha sp. (1.0-2.0 mm HCW length),1,Microinorganic particles,1,1,detritivore,method,gut content
+Antocha sp. (3.0-4.0 mm HCW length),1,Detritus,1,1,detritivore,method,gut content
+Antocha sp. (3.0-4.0 mm HCW length),1,Microinorganic particles,1,1,detritivore,method,gut content
+Antocha sp. (4.0-5.0 mm HCW length),1,Detritus,1,1,detritivore,method,gut content
+Antocha sp. (4.0-5.0 mm HCW length),1,Microinorganic particles,1,1,detritivore,method,gut content
+Agnetina capitata (1.0-2.0 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Agnetina capitata (1.0-2.0 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Agnetina capitata (1.0-2.0 mm HCW),2,Chitin fragments,2,1,detritivore,method,gut content
+Paracapnia angulata (0.7-0.8 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Paracapnia angulata (0.7-0.8 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Paracapnia angulata (0.7-0.8 mm HCW),2,Chitin fragments,2,1,detritivore,method,gut content
+Brachyptera fasciata (0.4-0.6 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Brachyptera fasciata (0.4-0.6 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Brachyptera fasciata (0.4-0.6 mm HCW),2,Chitin fragments,2,1,detritivore,method,gut content
+Ephemerella subvaria (1.2-1.4 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Ephemerella subvaria (1.2-1.4 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Ephemerella subvaria (1.2-1.4 mm HCW),2,Chitin fragments,2,1,detritivore,method,gut content
+Paraleptophlebia adoptiva (0.4-0.6 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Paraleptophlebia adoptiva (0.4-0.6 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Baetis tricaudatus (0.4-0.6 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Baetis tricaudatus (0.4-0.6 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Hydropsyche sparna (0.0-0.2 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Hydropsyche morosa (0.6-0.8 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Hydropsyche morosa (0.6-0.8 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Dolophilodes distinctus (0.2-0.4 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Dolophilodes distinctus (0.2-0.4 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Glossosoma nigrior (0.2-0.3 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Glossosoma nigrior (0.2-0.3 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Rhyacophila fuscula (0.8-1.0 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Rhyacophila fuscula (0.8-1.0 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Rhyacophila fuscula (0.8-1.0 mm HCW),2,Chitin fragments,2,1,detritivore,method,gut content
+Rhyacophila fuscula (0.8-1.0 mm HCW),2,Soft body parts,2,1,detritivore,method,gut content
+Promoresia elegans (0.4-0.5 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Promoresia elegans (0.4-0.5 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Optioservus fastiditus (0.3-0.4 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Optioservus fastiditus (0.3-0.4 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Cricotopus sp. (0.0-0.1 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Cricotopus sp. (0.0-0.1 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Rheosmittia sp. (0.1-0.2 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Rheosmittia sp. (0.1-0.2 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),2,Detritus,2,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),2,Microinorganic particles,2,1,detritivore,method,gut content
+Antocha sp. (1.0-2.0 mm HCW length),2,Detritus,2,1,detritivore,method,gut content
+Antocha sp. (1.0-2.0 mm HCW length),2,Microinorganic particles,2,1,detritivore,method,gut content
+Antocha sp. (4.0-5.0 mm HCW length),2,Detritus,2,1,detritivore,method,gut content
+Antocha sp. (4.0-5.0 mm HCW length),2,Microinorganic particles,2,1,detritivore,method,gut content
+Agnetina capitata (1.0-2.0 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Paracapnia angulata (0.7-0.8 mm HCW),2,Fungal hyphae,2,1,herbivory,method,gut content
+Paracapnia angulata (0.7-0.8 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Brachyptera fasciata (0.4-0.6 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Ephemerella subvaria (1.2-1.4 mm HCW),2,Fungal hyphae,2,1,herbivory,method,gut content
+Ephemerella subvaria (1.2-1.4 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Paraleptophlebia adoptiva (0.4-0.6 mm HCW),2,Fungal hyphae,2,1,herbivory,method,gut content
+Paraleptophlebia adoptiva (0.4-0.6 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Baetis tricaudatus (0.4-0.6 mm HCW),2,Fungal hyphae,2,1,herbivory,method,gut content
+Baetis tricaudatus (0.4-0.6 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Hydropsyche sparna (0.0-0.2 mm HCW),2,Fungal hyphae,2,1,herbivory,method,gut content
+Hydropsyche sparna (0.0-0.2 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Hydropsyche morosa (0.6-0.8 mm HCW),2,Fungal hyphae,2,1,herbivory,method,gut content
+Hydropsyche morosa (0.6-0.8 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Hydropsyche morosa (0.6-0.8 mm HCW),2,Other algae,2,1,herbivory,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),2,Fungal hyphae,2,1,herbivory,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),2,Other algae,2,1,herbivory,method,gut content
+Dolophilodes distinctus (0.2-0.4 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Glossosoma nigrior (0.2-0.3 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Glossosoma nigrior (0.2-0.3 mm HCW),2,Vascular plant material,2,1,herbivory,method,gut content
+Rhyacophila fuscula (0.8-1.0 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Rhyacophila fuscula (0.8-1.0 mm HCW),2,Chironomids,2,1,predation,method,gut content
+Promoresia elegans (0.4-0.5 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Optioservus fastiditus (0.3-0.4 mm HCW),2,Fungal hyphae,2,1,herbivory,method,gut content
+Optioservus fastiditus (0.3-0.4 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),2,Vascular plant material,2,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),2,Fungal hyphae,2,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),2,Vascular plant material,2,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),2,Fungal hyphae,2,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),2,Vascular plant material,2,1,herbivory,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),2,Fungal hyphae,2,1,herbivory,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),2,Other algae,2,1,herbivory,method,gut content
+Rheosmittia sp. (0.1-0.2 mm HCW),2,Fungal hyphae,2,1,herbivory,method,gut content
+Rheosmittia sp. (0.1-0.2 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Rheosmittia sp. (0.1-0.2 mm HCW),2,Vascular plant material,2,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),2,Fungal hyphae,2,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),2,Fungal hyphae,2,1,herbivory,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),2,Diatoms,2,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),2,Detritus,2,1,detritivore,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),2,Microinorganic particles,2,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),2,Detritus,2,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),2,Microinorganic particles,2,1,detritivore,method,gut content
+Antocha sp. (1.0-2.0 mm HCW length),2,Detritus,2,1,detritivore,method,gut content
+Antocha sp. (1.0-2.0 mm HCW length),2,Microinorganic particles,2,1,detritivore,method,gut content
+Antocha sp. (4.0-5.0 mm HCW length),2,Detritus,2,1,detritivore,method,gut content
+Antocha sp. (4.0-5.0 mm HCW length),2,Microinorganic particles,2,1,detritivore,method,gut content
+Baetis tricaudatus (0.6-0.8 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Baetis tricaudatus (0.6-0.8 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Hydropsyche sparna (0.2-0.4 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Hydropsyche sparna (0.2-0.4 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Hydropsyche sparna (0.2-0.4 mm HCW),3,Chitin fragments,3,1,detritivore,method,gut content
+Hydropsyche morosa (0.8-1.0 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Hydropsyche morosa (0.8-1.0 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Micrasema sp. (0.3-0.4 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Micrasema sp. (0.3-0.4 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Glossosoma nigrior (0.2-0.3 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Glossosoma nigrior (0.2-0.3 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Rhyacophila fuscula (0.2-0.4 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Rhyacophila fuscula (0.2-0.4 mm HCW),3,Chitin fragments,3,1,detritivore,method,gut content
+Promoresia elegans (0.2-0.3 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Promoresia elegans (0.2-0.3 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Optioservus fastiditus (0.2-0.3 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Optioservus fastiditus (0.2-0.3 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Cricotopus sp. (0.1-0.2 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Cricotopus sp. (0.1-0.2 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),3,Detritus,3,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),3,Microinorganic particles,3,1,detritivore,method,gut content
+Antocha sp. (5.0-6.0 mm HCW length),3,Detritus,3,1,detritivore,method,gut content
+Antocha sp. (5.0-6.0 mm HCW length),3,Microinorganic particles,3,1,detritivore,method,gut content
+Paracapnia angulata (0.9-1.0 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Paracapnia angulata (0.9-1.0 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Brachyptera fasciata (0.6-0.8 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Brachyptera fasciata (0.6-0.8 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Ephemerella subvaria (1.6-1.8 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Paraleptophlebia adoptiva (0.6-0.8 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Paraleptophlebia adoptiva (0.6-0.8 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Baetis tricaudatus (0.6-0.8 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Baetis tricaudatus (0.6-0.8 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Hydropsyche sparna (0.2-0.4 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Hydropsyche sparna (0.2-0.4 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Hydropsyche morosa (0.8-1.0 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Hydropsyche morosa (0.8-1.0 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Hydropsyche morosa (0.8-1.0 mm HCW),3,Other algae,3,1,herbivory,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),3,Vascular plant material,3,1,herbivory,method,gut content
+Cheumatopsyche sp. (0.2-0.4 mm HCW),3,Other algae,3,1,herbivory,method,gut content
+Micrasema sp. (0.3-0.4 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Glossosoma nigrior (0.2-0.3 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Rhyacophila fuscula (0.2-0.4 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Promoresia elegans (0.2-0.3 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Optioservus fastiditus (0.2-0.3 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Optioservus fastiditus (0.2-0.3 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),3,Vascular plant material,3,1,herbivory,method,gut content
+Cricotopus sp. (0.1-0.2 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Cricotopus sp. (0.1-0.2 mm HCW),3,Vascular plant material,3,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),3,Vascular plant material,3,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),3,Vascular plant material,3,1,herbivory,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),3,Other algae,3,1,herbivory,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),3,Vascular plant material,3,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),3,Vascular plant material,3,1,herbivory,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),3,Fungal hyphae,3,1,herbivory,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),3,Vascular plant material,3,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),3,Fungal hyphae,3,1,herbivory,method,gut content
+Antocha sp. (5.0-6.0 mm HCW length),3,Fungal hyphae,3,1,herbivory,method,gut content
+Antocha sp. (5.0-6.0 mm HCW length),3,Diatoms,3,1,herbivory,method,gut content
+Antocha sp. (5.0-6.0 mm HCW length),3,Vascular plant material,3,1,herbivory,method,gut content
+Rhyacophila fuscula (0.2-0.4 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Ephemerella subvaria (1.6-1.8 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Paracapnia angulata (0.9-1.0 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Paracapnia angulata (0.9-1.0 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Paracapnia angulata (0.9-1.0 mm HCW),3,Chitin fragments,3,1,detritivore,method,gut content
+Brachyptera fasciata (0.6-0.8 mm HCW),3,Detritus,3,1,detritivore,method,gut content
+Brachyptera fasciata (0.6-0.8 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),3,Fungal hyphae,3,1,herbivory,method,gut content
+Antocha sp. (5.0-6.0 mm HCW length),3,Fungal hyphae,3,1,herbivory,method,gut content
+Antocha sp. (5.0-6.0 mm HCW length),3,Diatoms,3,1,herbivory,method,gut content
+Antocha sp. (5.0-6.0 mm HCW length),3,Vascular plant material,3,1,herbivory,method,gut content
+Rhyacophila fuscula (0.2-0.4 mm HCW),3,Microinorganic particles,3,1,detritivore,method,gut content
+Ephemerella subvaria (1.6-1.8 mm HCW),3,Diatoms,3,1,herbivory,method,gut content
+Brachyptera fasciata (0.2-0.4 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Brachyptera fasciata (0.2-0.4 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Paragnetina media (0.3-0.4 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Paragnetina media (0.3-0.4 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Paragnetina media (0.3-0.4 mm HCW),4,Vascular plant material,4,1,herbivory,method,gut content
+Paragnetina media (0.3-0.4 mm HCW),4,Other algae,4,1,herbivory,method,gut content
+Ephemerella subvaria (1.6-1.8 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Ephemerella subvaria (1.6-1.8 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Paraleptophlebia adoptiva (0.6-0.8 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Baetis tricaudatus (0.4-0.6 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Baetis tricaudatus (0.4-0.6 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Hydropsyche sparna (0.2-0.4 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Hydropsyche sparna (0.2-0.4 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Dolophilodes distinctus (0.0-0.2 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Dolophilodes distinctus (0.0-0.2 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Micrasema sp. (0.2-0.3 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Micrasema sp. (0.2-0.3 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Micrasema sp. (0.2-0.3 mm HCW),4,Vascular plant material,4,1,herbivory,method,gut content
+Glossosoma nigrior (0.4-0.5 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Glossosoma nigrior (0.4-0.5 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Stemelmis nr. Bicarinata (0.2-0.3 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Promoresia elegans (0.3-0.4 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Promoresia elegans (0.3-0.4 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Optioservus fastiditus (0.1-0.2 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Thienemanniella sp. (0.1-0.2 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Thienemanniella sp. (0.1-0.2 mm HCW),4,Vascular plant material,4,1,herbivory,method,gut content
+Cricotopus sp. (0.2-0.3 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Cricotopus sp. (0.2-0.3 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Cricotopus sp. (0.2-0.3 mm HCW),4,Vascular plant material,4,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),4,Vascular plant material,4,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Parametriocnemus sp. (0.2-0.3 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Rheosmittia sp. (0.1-0.2 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Rheosmittia sp. (0.1-0.2 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Rheosmittia sp. (0.1-0.2 mm HCW),4,Vascular plant material,4,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),4,Fungal hyphae,4,1,herbivory,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),4,Vascular plant material,4,1,herbivory,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),4,Diatoms,4,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),4,Fungal hyphae,4,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),4,Diatoms,4,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),4,Vascular plant material,4,1,herbivory,method,gut content
+Antocha sp. (2.0-3.0 mm HCW length),4,Fungal hyphae,4,1,herbivory,method,gut content
+Antocha sp. (2.0-3.0 mm HCW length),4,Vascular plant material,4,1,herbivory,method,gut content
+Rheosmittia sp. (0.1-0.2 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Promoresia elegans (0.3-0.4 mm HCW),4,Vascular plant material,4,1,herbivory,method,gut content
+Brachyptera fasciata (0.2-0.4 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Brachyptera fasciata (0.2-0.4 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Brachyptera fasciata (0.2-0.4 mm HCW),4,Chitin fragments,4,1,detritivore,method,gut content
+Paragnetina media (0.3-0.4 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Paragnetina media (0.3-0.4 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Paragnetina media (0.3-0.4 mm HCW),4,Chitin fragments,4,1,detritivore,method,gut content
+Ephemerella subvaria (1.6-1.8 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Ephemerella subvaria (1.6-1.8 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Paraleptophlebia adoptiva (0.6-0.8 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Paraleptophlebia adoptiva (0.6-0.8 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Baetis tricaudatus (0.4-0.6 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Baetis tricaudatus (0.4-0.6 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Hydropsyche sparna (0.2-0.4 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Hydropsyche sparna (0.2-0.4 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Hydropsyche sparna (0.2-0.4 mm HCW),4,Chitin fragments,4,1,detritivore,method,gut content
+Dolophilodes distinctus (0.0-0.2 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Dolophilodes distinctus (0.0-0.2 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Micrasema sp. (0.2-0.3 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Micrasema sp. (0.2-0.3 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Micrasema sp. (0.2-0.3 mm HCW),4,Chitin fragments,4,1,detritivore,method,gut content
+Glossosoma nigrior (0.4-0.5 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Glossosoma nigrior (0.4-0.5 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Glossosoma sp. A (0.2-0.3 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Glossosoma sp. A (0.2-0.3 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Stemelmis nr. Bicarinata (0.2-0.3 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Stemelmis nr. Bicarinata (0.2-0.3 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Promoresia elegans (0.3-0.4 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Promoresia elegans (0.3-0.4 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Optioservus fastiditus (0.1-0.2 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Optioservus fastiditus (0.1-0.2 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Thienemanniella sp. (0.1-0.2 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Thienemanniella sp. (0.1-0.2 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Cricotopus sp. (0.2-0.3 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Cricotopus sp. (0.2-0.3 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Parametriocnemus sp. (0.2-0.3 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Parametriocnemus sp. (0.2-0.3 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Parametriocnemus sp. (0.2-0.3 mm HCW),4,Chitin fragments,4,1,detritivore,method,gut content
+Rheosmittia sp. (0.1-0.2 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),4,Microinorganic particles,4,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),4,Detritus,4,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),4,Microinorganic particles,4,1,detritivore,method,gut content
+Rheosmittia sp. (0.1-0.2 mm HCW),4,Detritus,4,1,detritivore,method,gut content
+Promoresia elegans (0.3-0.4 mm HCW),4,Vascular plant material,4,1,herbivory,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),5,Ephemerella subvaria (1.0-1.2 mm HCW),5,1,predation,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),5,Baetis tricaudatus (0.2-0.4 mm HCW),5,1,predation,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),5,Chironomids,5,1,predation,method,gut content
+Paracapnia angulata (0.2-0.3 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Paragnetina media (0.4-0.5 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Paragnetina media (0.4-0.5 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Paragnetina media (0.4-0.5 mm HCW),5,Other algae,5,1,herbivory,method,gut content
+Ephemerella subvaria (1.0-1.2 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Ephemerella subvaria (1.0-1.2 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Paraleptophlebia adoptiva (0.0-0.2 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Hydropsyche sparna (1.0-1.2 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Hydropsyche sparna (1.0-1.2 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Hydropsyche sparna (1.0-1.2 mm HCW),5,Vascular plant material,5,1,herbivory,method,gut content
+Hydropsyche morosa (1.0-1.2 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Hydropsyche morosa (1.0-1.2 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Cheumatopsyche sp. (0.6-0.8 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Cheumatopsyche sp. (0.6-0.8 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Cheumatopsyche sp. (0.6-0.8 mm HCW),5,Vascular plant material,5,1,herbivory,method,gut content
+Dolophilodes distinctus (0.4-0.6 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Dolophilodes distinctus (0.4-0.6 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Glossosoma nigrior (0.1-0.2 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Rhyacophila fuscula (0.2-0.4 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Stemelmis nr. Bicarinata (0.3-0.4 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Stemelmis nr. Bicarinata (0.4-0.5 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Stemelmis nr. Bicarinata (0.4-0.5 mm HCW),5,Vascular plant material,5,1,herbivory,method,gut content
+Promoresia elegans (0.1-0.2 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Optioservus fastiditus (0.4-0.5 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Optioservus fastiditus (0.4-0.5 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Optioservus fastiditus (0.4-0.5 mm HCW),5,Vascular plant material,5,1,herbivory,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),5,Vascular plant material,5,1,herbivory,method,gut content
+Cricotopus sp. (0.1-0.2 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Cricotopus sp. (0.1-0.2 mm HCW),5,Vascular plant material,5,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),5,Vascular plant material,5,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),5,Other algae,5,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Parametriocnemus sp. (0.2-0.3 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Parametriocnemus sp. (0.2-0.3 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),5,Vascular plant material,5,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),5,Vascular plant material,5,1,herbivory,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),5,Vascular plant material,5,1,herbivory,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),5,Fungal hyphae,5,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),5,Diatoms,5,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),5,Vascular plant material,5,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),5,Detritus,5,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),5,Soft body parts,5,1,detritivore,method,gut content
+Paracapnia angulata (0.2-0.3 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Paracapnia angulata (0.2-0.3 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Paracapnia angulata (0.2-0.3 mm HCW),5,Chitin fragments,5,1,detritivore,method,gut content
+Paragnetina media (0.4-0.5 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Paragnetina media (0.4-0.5 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Ephemerella subvaria (1.0-1.2 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Ephemerella subvaria (1.0-1.2 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Paraleptophlebia adoptiva (0.0-0.2 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Paraleptophlebia adoptiva (0.0-0.2 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Hydropsyche sparna (1.0-1.2 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Hydropsyche sparna (1.0-1.2 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Hydropsyche sparna (1.0-1.2 mm HCW),5,Chitin fragments,5,1,detritivore,method,gut content
+Hydropsyche morosa (1.0-1.2 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Hydropsyche morosa (1.0-1.2 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Cheumatopsyche sp. (0.6-0.8 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Cheumatopsyche sp. (0.6-0.8 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Cheumatopsyche sp. (0.6-0.8 mm HCW),5,Chitin fragments,5,1,detritivore,method,gut content
+Dolophilodes distinctus (0.4-0.6 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Dolophilodes distinctus (0.4-0.6 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Glossosoma nigrior (0.1-0.2 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Glossosoma nigrior (0.1-0.2 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Rhyacophila fuscula (0.2-0.4 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Rhyacophila fuscula (0.2-0.4 mm HCW),5,Chitin fragments,5,1,detritivore,method,gut content
+Stemelmis nr. Bicarinata (0.3-0.4 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Stemelmis nr. Bicarinata (0.3-0.4 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Stemelmis nr. Bicarinata (0.4-0.5 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Stemelmis nr. Bicarinata (0.4-0.5 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Promoresia elegans (0.1-0.2 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Promoresia elegans (0.1-0.2 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Optioservus fastiditus (0.4-0.5 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Optioservus fastiditus (0.4-0.5 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),5,Detritus,5,1,detritivore,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),5,Microinorganic particles,5,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),5,Vascular plant material,5,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),5,Other algae,5,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Parametriocnemus sp. (0.2-0.3 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Parametriocnemus sp. (0.2-0.3 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),5,Vascular plant material,5,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),5,Vascular plant material,5,1,herbivory,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Rheotanytarsus sp. (0.1-0.2 mm HCW),5,Vascular plant material,5,1,herbivory,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),5,Diatoms,5,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),5,Fungal hyphae,5,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),5,Diatoms,5,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),5,Vascular plant material,5,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),5,Detritus,5,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),5,Fungal hyphae,5,1,herbivory,method,gut content
+Paracapnia angulata (0.2-0.3 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+Paracapnia angulata (0.2-0.3 mm HCW),6,Other algae,6,1,herbivory,method,gut content
+Paragnetina media (0.2-0.3 mm HCW),6,Other algae,6,1,herbivory,method,gut content
+Ephemerella subvaria (0.2-0.4 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+Ephemerella subvaria (0.2-0.4 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Paraleptophlebia adoptiva (0.2-0.4 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+Paraleptophlebia adoptiva (0.2-0.4 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Hydropsyche sparna (0.2-0.4 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+Hydropsyche sparna (0.2-0.4 mm HCW),6,Vascular plant material,6,1,herbivory,method,gut content
+Hydropsyche morosa (0.6-0.8 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+Hydropsyche morosa (0.6-0.8 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Hydropsyche morosa (0.6-0.8 mm HCW),6,Vascular plant material,6,1,herbivory,method,gut content
+Dolophilodes distinctus (0.0-0.2 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Dolophilodes distinctus (0.0-0.2 mm HCW),6,Other algae,6,1,herbivory,method,gut content
+Glossosoma nigrior (0.1-0.2 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Rhyacophila fuscula (0.4-0.6 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Stemelmis nr. Bicarinata (0.1-0.2 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+Stemelmis nr. Bicarinata (0.1-0.2 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Promoresia elegans (0.1-0.2 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+Promoresia elegans (0.1-0.2 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Optioservus fastiditus (0.4-0.5 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+Optioservus fastiditus (0.4-0.5 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Optioservus fastiditus (0.4-0.5 mm HCW),6,Other algae,6,1,herbivory,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),6,Vascular plant material,6,1,herbivory,method,gut content
+Cricotopus sp. (0.0-0.1 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Cricotopus sp. (0.0-0.1 mm HCW),6,Vascular plant material,6,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),6,Vascular plant material,6,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Parametriocnemus sp. (0.1-0.2 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+Parametriocnemus sp. (0.1-0.2 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Rheotanytarsus sp. (0.2-0.3 mm HCW),6,Fungal hyphae,6,1,herbivory,method,gut content
+Rheotanytarsus sp. (0.2-0.3 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Rheotanytarsus sp. (0.2-0.3 mm HCW),6,Vascular plant material,6,1,herbivory,method,gut content
+Rheotanytarsus sp. (0.2-0.3 mm HCW),6,Other algae,6,1,herbivory,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),6,Diatoms,6,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),6,Fungal hyphae,6,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),6,Vascular plant material,6,1,herbivory,method,gut content
+Antocha sp. (1.0-2.0 mm HCW length),6,Fungal hyphae,6,1,herbivory,method,gut content
+Antocha sp. (1.0-2.0 mm HCW length),6,Diatoms,6,1,herbivory,method,gut content
+Antocha sp. (1.0-2.0 mm HCW length),6,Vascular plant material,6,1,herbivory,method,gut content
+Paracapnia angulata (0.2-0.3 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Paracapnia angulata (0.2-0.3 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Paragnetina media (0.2-0.3 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Paragnetina media (0.2-0.3 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Ephemerella subvaria (0.2-0.4 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Ephemerella subvaria (0.2-0.4 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Paraleptophlebia adoptiva (0.2-0.4 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Paraleptophlebia adoptiva (0.2-0.4 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Hydropsyche sparna (0.2-0.4 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Hydropsyche sparna (0.2-0.4 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Hydropsyche morosa (0.6-0.8 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Hydropsyche morosa (0.6-0.8 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Dolophilodes distinctus (0.0-0.2 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Dolophilodes distinctus (0.0-0.2 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Glossosoma nigrior (0.1-0.2 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Glossosoma nigrior (0.1-0.2 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Rhyacophila fuscula (0.4-0.6 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Rhyacophila fuscula (0.4-0.6 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Stemelmis nr. Bicarinata (0.1-0.2 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Stemelmis nr. Bicarinata (0.1-0.2 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Promoresia elegans (0.1-0.2 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Promoresia elegans (0.1-0.2 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Optioservus fastiditus (0.4-0.5 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Optioservus fastiditus (0.4-0.5 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Cricotopus sp. (0.0-0.1 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Cricotopus sp. (0.0-0.1 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.1-0.2 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Parametriocnemus sp. (0.1-0.2 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Parametriocnemus sp. (0.1-0.2 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Tanytarsus sp. (0.1-0.2 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Rheotanytarsus sp. (0.2-0.3 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Rheotanytarsus sp. (0.2-0.3 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),6,Detritus,6,1,detritivore,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),6,Microinorganic particles,6,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),6,Detritus,6,1,detritivore,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),6,Microinorganic particles,6,1,detritivore,method,gut content
+Antocha sp. (1.0-2.0 mm HCW length),6,Detritus,6,1,detritivore,method,gut content
+Antocha sp. (1.0-2.0 mm HCW length),6,Microinorganic particles,6,1,detritivore,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Paracapnia angulata (0.4-0.5 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Paracapnia angulata (0.4-0.5 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Brachyptera fasciata (0.2-0.4 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Paragnetina media (0.2-0.3 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Paragnetina media (0.2-0.3 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Ephemerella subvaria (1.0-1.2 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Ephemerella subvaria (1.0-1.2 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Paraleptophlebia adoptiva (0.4-0.6 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Paraleptophlebia adoptiva (0.4-0.6 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Hydropsyche sparna (0.6-0.8 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Hydropsyche sparna (0.6-0.8 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Hydropsyche sparna (0.6-0.8 mm HCW),7,Vascular plant material,7,1,herbivory,method,gut content
+Cheumatopsyche sp. (0.4-0.6 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Cheumatopsyche sp. (0.4-0.6 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Cheumatopsyche sp. (0.4-0.6 mm HCW),7,Other algae,7,1,herbivory,method,gut content
+Dolophilodes distinctus (1.0-1.2 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Glossosoma nigrior (0.4-0.5 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Glossosoma nigrior (0.4-0.5 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Promoresia elegans (0.2-0.3 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Promoresia elegans (0.2-0.3 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Optioservus fastiditus (0.1-0.2 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Optioservus fastiditus (0.1-0.2 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Cricotopus sp. (0.0-0.1 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Cricotopus sp. (0.0-0.1 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Cricotopus sp. (0.0-0.1 mm HCW),7,Vascular plant material,7,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),7,Vascular plant material,7,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),7,Vascular plant material,7,1,herbivory,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),7,Vascular plant material,7,1,herbivory,method,gut content
+Tanytarsus sp. (0.0-0.1 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Tanytarsus sp. (0.0-0.1 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Tanytarsus sp. (0.0-0.1 mm HCW),7,Vascular plant material,7,1,herbivory,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),7,Diatoms,7,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),7,Fungal hyphae,7,1,herbivory,method,gut content
+Nais simplex (2.1-2.7 mm HCW length),7,Diatoms,7,1,herbivory,method,gut content
+Paraleptophlebia adoptiva (0.4-0.6 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Brachyptera fasciata (0.2-0.4 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Agnetina capitata (2.0-3.0 mm HCW),7,Soft body parts,7,1,detritivore,method,gut content
+Paracapnia angulata (0.4-0.5 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Paracapnia angulata (0.4-0.5 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Paracapnia angulata (0.4-0.5 mm HCW),7,Chitin fragments,7,1,detritivore,method,gut content
+Brachyptera fasciata (0.2-0.4 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Brachyptera fasciata (0.2-0.4 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Brachyptera fasciata (0.2-0.4 mm HCW),7,Chitin fragments,7,1,detritivore,method,gut content
+Paragnetina media (0.2-0.3 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Paragnetina media (0.2-0.3 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Paragnetina media (0.2-0.3 mm HCW),7,Chitin fragments,7,1,detritivore,method,gut content
+Ephemerella subvaria (1.0-1.2 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Ephemerella subvaria (1.0-1.2 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Paraleptophlebia adoptiva (0.4-0.6 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Baetis tricaudatus (0.2-0.4 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Hydropsyche sparna (0.6-0.8 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Hydropsyche sparna (0.6-0.8 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Hydropsyche sparna (0.6-0.8 mm HCW),7,Chitin fragments,7,1,detritivore,method,gut content
+Cheumatopsyche sp. (0.4-0.6 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Cheumatopsyche sp. (0.4-0.6 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Cheumatopsyche sp. (0.4-0.6 mm HCW),7,Chitin fragments,7,1,detritivore,method,gut content
+Dolophilodes distinctus (1.0-1.2 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Dolophilodes distinctus (1.0-1.2 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Glossosoma nigrior (0.4-0.5 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Glossosoma nigrior (0.4-0.5 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Glossosoma sp. A (0.1-0.2 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Promoresia elegans (0.2-0.3 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Promoresia elegans (0.2-0.3 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Optioservus fastiditus (0.1-0.2 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Optioservus fastiditus (0.1-0.2 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Thienemanniella sp. (0.0-0.1 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Cricotopus sp. (0.0-0.1 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Cricotopus sp. (0.0-0.1 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Eukieferiella brehmi grp. (0.0-0.1 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+E. gracei grp. (0.1-0.2 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Parametriocnemus sp. (0.0-0.1 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Rheosmittia sp. (0.0-0.1 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Tanytarsus sp. (0.0-0.1 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Tanytarsus sp. (0.0-0.1 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Rheotanytarsus sp. (0.0-0.1 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Rheotanytarsus sp. (0.0-0.1 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),7,Detritus,7,1,detritivore,method,gut content
+Stempellina montivaga grp. (0.1-0.2 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Paraleptophlebia adoptiva (0.4-0.6 mm HCW),7,Microinorganic particles,7,1,detritivore,method,gut content
+Brachyptera fasciata (0.2-0.4 mm HCW),7,Fungal hyphae,7,1,herbivory,method,gut content

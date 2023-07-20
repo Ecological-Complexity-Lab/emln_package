@@ -1,0 +1,287 @@
+node_id,node_name,type
+1,Phacelia secunda,plant
+2,Senecio bustillosianus,plant
+3,Stachys albi,plant
+4,Adesmia conferta,plant
+5,Calandrinia affinis,plant
+6,Senecio erucaeformis,plant
+7,Astragalus curvicaulis,plant
+8,Chaetanthera euphrasioides,plant
+9,Adesmia radicifolia,plant
+10,Mulinum spinosum,plant
+11,Sisyrinchium arenarium,plant
+12,Chuquiraga oppositifolia,plant
+13,Scypanthus elegans,plant
+14,Senecio francisci,plant
+15,Verbena scoparia,plant
+16,Adesmia aconcaguensis,plant
+17,Berberis empetrifolia,plant
+18,Calandrinia uspallatensis,plant
+19,Cerastium arvense,plant
+20,Haplopappus sericeus,plant
+21,Hypochoeris sp1 M_PL_001,plant
+22,Mustisia sinuata,plant
+23,Adesmia brachy,plant
+24,Alstroemeria pallida,plant
+25,Astragalus sp1 M_PL_001,plant
+26,Euphorbia portulacoides,plant
+27,Madia sativa,plant
+28,Nassauvia heterophylla,plant
+29,Perezia carthamoides,plant
+30,Sisyrinchium junceum,plant
+31,Anarthrophyllum cumingii,plant
+32,Loasa heterophylla,plant
+33,Quinchamalium chilensis,plant
+34,Sanicula graveolens,plant
+35,Sisyrinchium philippii,plant
+36,Adesmia exilis,plant
+37,Bowlesia tropaeolifolia,plant
+38,Calceolaria montana,plant
+39,Chaetanthera microphylla,plant
+40,Haplopappus chysanthemifolius,plant
+41,Leucocoryne pauciflora,plant
+42,Mustisia acerosa,plant
+43,Mustisia subulata,plant
+44,Oxalis cinerea,plant
+45,Oxalis geminata,plant
+46,Oxalis sp1 M_PL_001,plant
+47,Schizanthus grahamii,plant
+48,Senecio lithostaurus,plant
+49,Valeriana gracileps,plant
+50,Asteriscium aemocarpon,plant
+51,Berberis montana,plant
+52,Erodium cicutarium,plant
+53,Leuceria landbeckii,plant
+54,Nardophyllum lanatum,plant
+55,Rhodophiala montana,plant
+56,Trichocereus chiloensis,plant
+57,Tropaeolum sessilifolium,plant
+58,Viviania marifolia,plant
+59,Acaena pinn,plant
+60,Adesmia montana,plant
+61,Barneoudia chilensis,plant
+62,Calceolaria arac,plant
+63,Calceolaria biflora,plant
+64,Calceolaria indet,plant
+65,Cardamine nivalis,plant
+66,Clarkia tenella,plant
+67,Collomia biflora,plant
+68,Cynoglossum sp1 M_PL_001,plant
+69,Hippeastrum uni,plant
+70,Lathyrus subandinus,plant
+71,Lepidium suffruticosum,plant
+72,Leucocoryne ixioides,plant
+73,Loasa sigmoidea,plant
+74,Lupinus microcarpus,plant
+75,Malesherbia linearifolius,plant
+76,Nothoscordum andinum,plant
+77,Oenothera acaulis,plant
+78,Salpiglossus sp1 M_PL_001,plant
+79,Solanum tomatillo,plant
+80,Solenomelus sisyrinchium,plant
+81,Tetraglochin alatum,plant
+82,Tristagma sessile,plant
+83,Tropaeolum polyph,plant
+84,Tropaeolum tricolor,plant
+85,Oxalis compacta,plant
+86,Senecio sp1 M_PL_002,plant
+87,Discaria nana,plant
+88,Laretia acaulis,plant
+89,Anarthrophyllum gayanum,plant
+90,Azorella monantha,plant
+91,Loasa caespitosa,plant
+92,Nassauvia axillaris,plant
+93,Azorella bolacina,plant
+94,Chaetanthera pusilla,plant
+95,Calandrinia sericea,plant
+96,Cerastium montioides,plant
+97,Mutisia sinuata,plant
+98,Ranunculus peduncularis,plant
+99,Stenodraba stenophylla,plant
+100,Werneria pygmaea,plant
+101,Acaena pinnatifida,plant
+102,Calandrinia dianthoides,plant
+103,Calceolaria arachnoides,plant
+104,Chaetanthera apiculata,plant
+105,Erigeron andicola,plant
+106,Nassauvia pungens,plant
+107,Tristagma bivalve,plant
+108,Viola philippii,plant
+109,Azorella madreporica,plant
+110,Tropaeolum polyphyllum,plant
+111,Draba tenuis,plant
+112,Nassauvia lagascae,plant
+113,Nototriche compacta,plant
+114,Caiophora coronata,plant
+115,Draba gilliesii,plant
+116,Junellia uniflora,plant
+117,Oreopolus glacialis,plant
+118,Adesmia capitellata,plant
+119,Adesmia glomerula,plant
+120,Chaetanthera lycopodioides,plant
+121,Viola atropurpurea,plant
+122,Calandrinia caespitosa,plant
+123,Calandrinia occulta,plant
+124,Calandrinia picta,plant
+125,Chaetanthera flabellata,plant
+126,Leuceria salina,plant
+127,Nassauvia pinnigera,plant
+128,Oxalis sp1 M_PL_003,plant
+129,Pozoa coriacea,plant
+130,Valeriana radicalis,plant
+131,Viola montagnei,plant
+132,Scaeva.melanostoma,pollinator
+133,Unidentified.sp1.M_PL_001,pollinator
+134,Megachile.semirufa,pollinator
+135,Centris.cineraria,pollinator
+136,Megachile.sp1.M_PL_001,pollinator
+137,Caenohalictus.sp1.M_PL_001,pollinator
+138,Alloscirtetica.sp1.M_PL_001,pollinator
+139,Anthidium.chilensis,pollinator
+140,Bombus.dahlbomii,pollinator
+141,Megachile.sp2.M_PL_001,pollinator
+142,Anthidium.gayi,pollinator
+143,Villa.verdensis,pollinator
+144,Anthidium.decapsilum,pollinator
+145,Cadeguala.occidentalis,pollinator
+146,Alloscirtetica.rufitarsis,pollinator
+147,Truphloechus.bellus,pollinator
+148,Anthophora.incerta,pollinator
+149,Anthophora.sp1.M_PL_001,pollinator
+150,Hypodynerus.sp3.M_PL_001,pollinator
+151,Lithurgomma.wagenknechti,pollinator
+152,Ruizantheda.mutabilis,pollinator
+153,Anthidium.adriani,pollinator
+154,Colletes.aruacariae,pollinator
+155,Scaptia.atra,pollinator
+156,Svastrides.melanura,pollinator
+157,Unidentified.sp2.M_PL_001,pollinator
+158,Auca.coctei,pollinator
+159,Etcheverrius.chilensis,pollinator
+160,Villa.sp1.M_PL_001,pollinator
+161,Panur.sp1.M_PL_001,pollinator
+162,Unidentified.sp3.M_PL_001,pollinator
+163,Anthidium.funereum,pollinator
+164,Faunula.leucoglene,pollinator
+165,Ruiziella.luctuosa,pollinator
+166,Spathipalpus.philippii,pollinator
+167,Tatochila.mercedis,pollinator
+168,Eristalis.tenax,pollinator
+169,Centris.nigerrima,pollinator
+170,Alloscirtetica.gayi,pollinator
+171,Euryglostromyia.philippii,pollinator
+172,Mesonychium.gayi,pollinator
+173,Pseudolucia.chilensis,pollinator
+174,Chilicola.sp2.M_PL_001,pollinator
+175,Villa.hypoxantha,pollinator
+176,Habromyia.lipoflava,pollinator
+177,Hypodynerus.sp2.M_PL_001,pollinator
+178,Unidentified.sp8.M_PL_001,pollinator
+179,Phulia.nymphula,pollinator
+180,Prosopochaeta.sp1.M_PL_001,pollinator
+181,Unidentified.sp10.M_PL_001,pollinator
+182,Unidentified.sp11.M_PL_001,pollinator
+183,Hypodynerus.sp1.M_PL_001,pollinator
+184,Andinus.venustus,pollinator
+185,Chilicola.sp1.M_PL_001,pollinator
+186,Tatochila.sp1.M_PL_001,pollinator
+187,Colletes.fulvipes,pollinator
+188,Colletes.sp1.M_PL_001,pollinator
+189,Lyophlaeba.lugubris,pollinator
+190,Villa.semifuscata,pollinator
+191,Villa.flavicura,pollinator
+192,Villa.arenarus,pollinator
+193,Villa.gayi,pollinator
+194,Xanthocolletes.sicheli,pollinator
+195,Xanthocolletes.incahuasi,pollinator
+196,Caupolicana.dimidiata,pollinator
+197,Villa.guttapennis,pollinator
+198,Caenohalictus.sp2.M_PL_001,pollinator
+199,Caenohalictus.sp3.M_PL_001,pollinator
+200,Tapinotaspis.caerulea,pollinator
+201,Tapinotaspis.herbsti,pollinator
+202,Coelioxys.sp1.M_PL_001,pollinator
+203,Unidentified.sp5.M_PL_001,pollinator
+204,Unidentified.sp7.M_PL_001,pollinator
+205,Hypsochila.wagenknechti,pollinator
+206,Chaetodemoticus.chilensis,pollinator
+207,Villa.durvillei,pollinator
+208,Chilimelissa.sp1.M_PL_001,pollinator
+209,Liphanthus.sabulosus,pollinator
+210,Unidentified.sp4.M_PL_001,pollinator
+211,Unidentified.sp13.M_PL_001,pollinator
+212,Unidentified.sp14.M_PL_001,pollinator
+213,Yramea.lathonoides,pollinator
+214,Unidentified.sp18.M_PL_001,pollinator
+215,Isepeolus.niveiventris,pollinator
+216,Unidentified.sp16.M_PL_001,pollinator
+217,Unidentified.sp9.M_PL_001,pollinator
+218,Corynurus.sp1.M_PL_001,pollinator
+219,Dialictus.sp1.M_PL_001,pollinator
+220,Hemicolletes.ruizii,pollinator
+221,Dasybasis.sp1.M_PL_001,pollinator
+222,Vibrissomyia.sp1.M_PL_001,pollinator
+223,Elaphroptera.relicta,pollinator
+224,Prosopochaeta.caliginosa,pollinator
+225,Xanthocolletes.sp1.M_PL_001,pollinator
+226,Unidentified.sp6.M_PL_001,pollinator
+227,Unidentified.sp15.M_PL_001,pollinator
+228,Unidentified.sp12.M_PL_001,pollinator
+229,Liphanthus.sp1.M_PL_001,pollinator
+230,Liphanthus.sp2.M_PL_001,pollinator
+231,Centris.sp1.M_PL_001,pollinator
+232,Unidentified.sp17.M_PL_001,pollinator
+233,Unidentified.sp2.M_PL_002,pollinator
+234,Caenohalictus.sp1.M_PL_002,pollinator
+235,Hypodynerus.sp1.M_PL_002,pollinator
+236,Villa.sp1.M_PL_002,pollinator
+237,Megachile.sp1.M_PL_002,pollinator
+238,Chilicola.sp1.M_PL_002,pollinator
+239,Hypodynerus.sp3.M_PL_002,pollinator
+240,Unidentified.sp11.M_PL_002,pollinator
+241,Unidentified.sp1.M_PL_002,pollinator
+242,Scaeva.melanostom,pollinator
+243,Unidentified.sp4.M_PL_002,pollinator
+244,Prosopochaeta.sp1.M_PL_002,pollinator
+245,Hypodynerus.sp2.M_PL_002,pollinator
+246,Unidentified.sp9.M_PL_002,pollinator
+247,Unidentified.sp14.M_PL_002,pollinator
+248,Unidentified.sp16.M_PL_002,pollinator
+249,Yramea.modesta,pollinator
+250,Megachile.sp2.M_PL_002,pollinator
+251,Unidentified.sp7.M_PL_002,pollinator
+252,Unidentified.sp3.M_PL_002,pollinator
+253,Unidentified.sp5.M_PL_002,pollinator
+254,Unidentified.sp10.M_PL_002,pollinator
+255,Alloscirtetica.sp1.M_PL_002,pollinator
+256,Gayella.reedi,pollinator
+257,Colletes.sp1.M_PL_002,pollinator
+258,Unidentified.sp6.M_PL_002,pollinator
+259,Vibrissomyia.sp1.M_PL_002,pollinator
+260,Dasybasis.sp1.M_PL_002,pollinator
+261,Villa.arenari,pollinator
+262,Ateloglutus.sp1.M_PL_002,pollinator
+263,Megachile.sp3.M_PL_002,pollinator
+264,Unidentified.sp12.M_PL_002,pollinator
+265,Anthidium.sp1.M_PL_002,pollinator
+266,Megachile.sp4.M_PL_002,pollinator
+267,Megachile.sp5.M_PL_002,pollinator
+268,Unidentified.sp13.M_PL_002,pollinator
+269,Tatochila.sp1.M_PL_002,pollinator
+270,Unidentified.sp8.M_PL_002,pollinator
+271,Centris.cana,pollinator
+272,Unidentified.sp15.M_PL_002,pollinator
+273,Anthidium.sp1.M_PL_003,pollinator
+274,Cynthia.terpsichore,pollinator
+275,Megachile.sp1.M_PL_003,pollinator
+276,Anthidium.espinosai,pollinator
+277,Unidentified.sp1.M_PL_003,pollinator
+278,Unidentified.sp2.M_PL_003,pollinator
+279,Dasybasis.sp1.M_PL_003,pollinator
+280,Unidentified.sp3.M_PL_003,pollinator
+281,Unidentified.sp4.M_PL_003,pollinator
+282,Unidentified.sp6.M_PL_003,pollinator
+283,Unidentified.sp7.M_PL_003,pollinator
+284,Vibrissomyia.sp1.M_PL_003,pollinator
+285,Villa.sp1.M_PL_003,pollinator
+286,Unidentified.sp5.M_PL_003,pollinator

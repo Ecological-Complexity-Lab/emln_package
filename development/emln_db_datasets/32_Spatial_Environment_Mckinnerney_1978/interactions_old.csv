@@ -1,0 +1,152 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+Taenipoda equus,1,carcass,1,1,scavenger,method,field observation
+Pogonomyrmex desertorum,1,carcass,1,1,scavenger,method,field observation
+Lasioglossum morilli,1,carcass,1,1,scavenger,method,field observation
+Dialictus microlepiodes,1,carcass,1,1,scavenger,method,field observation
+Dialictus sp.,1,carcass,1,1,scavenger,method,field observation
+Saprinus discoidalis,2,C. macellaria larvae,2,1,predation,method,field observation
+Saprinus discoidalis,2,S. utilis larvae,2,1,predation,method,field observation
+Saprinus discoidalis,2,O. ochripyga larvae,2,1,predation,method,field observation
+Dermestes vulpinus,2,carcass,2,1,scavenger,method,field observation
+Eleodes hispilabris,2,carcass,2,1,scavenger,method,field observation
+Trox scutellaris,2,carcass,2,1,scavenger,method,field observation
+T. nodosus,2,carcass,2,1,scavenger,method,field observation
+T. suberosus,2,carcass,2,1,scavenger,method,field observation
+Euxesta sp.,2,carcass,2,1,scavenger,method,field observation
+Coenosia sp.,2,carcass,2,1,scavenger,method,field observation
+Cochliomyia macellaria,2,carcass,2,1,scavenger,method,field observation
+Sarcophaga utilis,2,carcass,2,1,scavenger,method,field observation
+Oxysarcodexia ochripyga,2,carcass,2,1,scavenger,method,field observation
+C. macellaria larvae,2,carcass,2,1,scavenger,method,field observation
+S. utilis larvae,2,carcass,2,1,scavenger,method,field observation
+O. ochripyga larvae,2,carcass,2,1,scavenger,method,field observation
+Idiasta sp.,2,C. macellaria larvae,2,1,predation,method,field observation
+Idiasta sp.,2,O. ochripyga larvae,2,1,predation,method,field observation
+Pogonomyrmex apache,2,Cochliomyia macellaria,2,1,predation,method,field observation
+Pogonomyrmex apache,2,C. macellaria larvae,2,1,predation,method,field observation
+Pogonomyrmex apache,2,S. utilis larvae,2,1,predation,method,field observation
+Pogonomyrmex apache,2,O. ochripyga larvae,2,1,predation,method,field observation
+Pogonomyrmex apache,2,carcass,2,1,scavenger,method,field observation
+Myrmecocystus mimicus,2,Cochliomyia macellaria,2,1,predation,method,field observation
+Myrmecocystus mimicus,2,C. macellaria larvae,2,1,predation,method,field observation
+Myrmecocystus mimicus,2,S. utilis larvae,2,1,predation,method,field observation
+Myrmecocystus mimicus,2,O. ochripyga larvae,2,1,predation,method,field observation
+Myrmecocystus mimicus,2,carcass,2,1,scavenger,method,field observation
+Solenopsis xyloni,2,Cochliomyia macellaria,2,1,predation,method,field observation
+Solenopsis xyloni,2,C. macellaria larvae,2,1,predation,method,field observation
+Solenopsis xyloni,2,S. utilis larvae,2,1,predation,method,field observation
+Solenopsis xyloni,2,O. ochripyga larvae,2,1,predation,method,field observation
+Solenopsis xyloni,2,carcass,2,1,scavenger,method,field observation
+Iridomyrmex pruinosum,2,Cochliomyia macellaria,2,1,predation,method,field observation
+Iridomyrmex pruinosum,2,C. macellaria larvae,2,1,predation,method,field observation
+Iridomyrmex pruinosum,2,S. utilis larvae,2,1,predation,method,field observation
+Iridomyrmex pruinosum,2,O. ochripyga larvae,2,1,predation,method,field observation
+Iridomyrmex pruinosum,2,carcass,2,1,scavenger,method,field observation
+Canis latrans,2,carcass,2,1,scavenger,method,field observation
+Idiasta sp.,2,S. utilis larvae,2,1,predation,method,field observation
+Pogonomyrmex apache,3,carcass,3,1,scavenger,method,field observation
+Myrmecocystus mimicus,3,carcass,3,1,scavenger,method,field observation
+Saprinus sp.,4,O. ochripyga larvae,4,1,predation,method,field observation
+S. pennsylvanicus,4,O. ochripyga larvae,4,1,predation,method,field observation
+Eleodes hispilabris,4,carcass,4,1,scavenger,method,field observation
+Boreocanthon lecontei,4,carcass,4,1,scavenger,method,field observation
+Trox scutellaris,4,carcass,4,1,scavenger,method,field observation
+Euxesta sp.,4,carcass,4,1,scavenger,method,field observation
+Oxysarcodexia ochripyga,4,carcass,4,1,scavenger,method,field observation
+O. ochripyga larvae,4,carcass,4,1,scavenger,method,field observation
+Pogonomyrmex desertorum,4,O. ochripyga larvae,4,1,predation,method,field observation
+Pogonomyrmex desertorum,4,carcass,4,1,scavenger,method,field observation
+P. rugosus,4,O. ochripyga larvae,4,1,predation,method,field observation
+P. rugosus,4,carcass,4,1,scavenger,method,field observation
+Conomyrma insana,4,O. ochripyga larvae,4,1,predation,method,field observation
+Conomyrma insana,4,carcass,4,1,scavenger,method,field observation
+Solenopsis xyloni,4,O. ochripyga larvae,4,1,predation,method,field observation
+Solenopsis xyloni,4,carcass,4,1,scavenger,method,field observation
+Pheidole sp.,4,O. ochripyga larvae,4,1,predation,method,field observation
+Pheidole sp.,4,carcass,4,1,scavenger,method,field observation
+Iridomyrmex pruinosum,4,O. ochripyga larvae,4,1,predation,method,field observation
+Iridomyrmex pruinosum,4,carcass,4,1,scavenger,method,field observation
+Canis latrans,4,carcass,4,1,scavenger,method,field observation
+Cathartes aura,4,carcass,4,1,scavenger,method,field observation
+Urocyon cinereoargenteus,4,carcass,4,1,scavenger,method,field observation
+Saprinus sp.,5,Cochliomyia macellaria larvae,5,1,predation,method,field observation
+Saprinus sp.,5,O. ochripyga larvae,5,1,predation,method,field observation
+S. pennsylvanicus,5,Cochliomyia macellaria larvae,5,1,predation,method,field observation
+S. pennsylvanicus,5,O. ochripyga larvae,5,1,predation,method,field observation
+Boreocanthon lecontei,5,carcass,5,1,scavenger,method,field observation
+Trox scutellaris,5,carcass,5,1,scavenger,method,field observation
+Cochliomyia macellaria larvae,5,carcass,5,1,scavenger,method,field observation
+Oxysarcodexia ochripyga,5,carcass,5,1,scavenger,method,field observation
+O. ochripyga larvae,5,carcass,5,1,scavenger,method,field observation
+Sinea complexa,6,Saprinus discoidalis,6,1,predation,method,field observation
+Sinea complexa,6,S. pennsylvanicus,6,1,predation,method,field observation
+Sinea complexa,6,Silpha truncata,6,1,predation,method,field observation
+Sinea complexa,6,S. truncata larvae,6,1,predation,method,field observation
+Sinea complexa,6,Dermestes vulpinus,6,1,predation,method,field observation
+Sinea complexa,6,Necrobia rufipes,6,1,predation,method,field observation
+Sinea complexa,6,Eleodes entricatus,6,1,predation,method,field observation
+Sinea complexa,6,Trox punctatus,6,1,predation,method,field observation
+Sinea complexa,6,Proctacanthella leucopogon,6,1,predation,method,field observation
+Sinea complexa,6,Euxesta sp.,6,1,predation,method,field observation
+Sinea complexa,6,Piophila sp.,6,1,predation,method,field observation
+Sinea complexa,6,Musca domestica,6,1,predation,method,field observation
+Sinea complexa,6,Cochliomyia macellaria,6,1,predation,method,field observation
+Sinea complexa,6,C. macellaria larvae,6,1,predation,method,field observation
+Sinea complexa,6,Phaenicia sericata,6,1,predation,method,field observation
+Sinea complexa,6,P. sericata larvae,6,1,predation,method,field observation
+Sinea complexa,6,Oxysarcodexia ochripyga,6,1,predation,method,field observation
+Sinea complexa,6,O. ochripyga larvae,6,1,predation,method,field observation
+Sinea complexa,6,Goniochaeta plagiodes,6,1,predation,method,field observation
+Sinea complexa,6,Pogonomyrmex desertorum,6,1,predation,method,field observation
+Sinea complexa,6,Solenopsis xyloni,6,1,predation,method,field observation
+Saprinus discoidalis,6,C. macellaria larvae,6,1,predation,method,field observation
+Saprinus discoidalis,6,P. sericata larvae,6,1,predation,method,field observation
+Saprinus discoidalis,6,O. ochripyga larvae,6,1,predation,method,field observation
+S. pennsylvanicus,6,C. macellaria larvae,6,1,predation,method,field observation
+S. pennsylvanicus,6,P. sericata larvae,6,1,predation,method,field observation
+S. pennsylvanicus,6,O. ochripyga larvae,6,1,predation,method,field observation
+Silpha truncata,6,C. macellaria larvae,6,1,predation,method,field observation
+Silpha truncata,6,P. sericata larvae,6,1,predation,method,field observation
+Silpha truncata,6,O. ochripyga larvae,6,1,predation,method,field observation
+S. truncata larvae,6,carcass,6,1,scavenger,method,field observation
+Dermestes vulpinus,6,carcass,6,1,scavenger,method,field observation
+Necrobia rufipes,6,Dermestes vulpinus,6,1,predation,method,field observation
+Eleodes entricatus,6,carcass,6,1,scavenger,method,field observation
+Trox punctatus,6,carcass,6,1,scavenger,method,field observation
+Proctacanthella leucopogon,6,Euxesta sp.,6,1,predation,method,field observation
+Proctacanthella leucopogon,6,Piophila sp.,6,1,predation,method,field observation
+Proctacanthella leucopogon,6,Musca domestica,6,1,predation,method,field observation
+Proctacanthella leucopogon,6,Cochliomyia macellaria,6,1,predation,method,field observation
+Proctacanthella leucopogon,6,C. macellaria larvae,6,1,predation,method,field observation
+Proctacanthella leucopogon,6,Phaenicia sericata,6,1,predation,method,field observation
+Proctacanthella leucopogon,6,P. sericata larvae,6,1,predation,method,field observation
+Proctacanthella leucopogon,6,Oxysarcodexia ochripyga,6,1,predation,method,field observation
+Proctacanthella leucopogon,6,O. ochripyga larvae,6,1,predation,method,field observation
+Proctacanthella leucopogon,6,Goniochaeta plagiodes,6,1,predation,method,field observation
+Euxesta sp.,6,carcass,6,1,scavenger,method,field observation
+Piophila sp.,6,carcass,6,1,scavenger,method,field observation
+Musca domestica,6,carcass,6,1,scavenger,method,field observation
+Cochliomyia macellaria,6,carcass,6,1,scavenger,method,field observation
+C. macellaria larvae,6,carcass,6,1,scavenger,method,field observation
+Phaenicia sericata,6,carcass,6,1,scavenger,method,field observation
+P. sericata larvae,6,carcass,6,1,scavenger,method,field observation
+Oxysarcodexia ochripyga,6,carcass,6,1,scavenger,method,field observation
+O. ochripyga larvae,6,carcass,6,1,scavenger,method,field observation
+Goniochaeta plagiodes,6,S. truncata larvae,6,1,predation,method,field observation
+Pogonomyrmex desertorum,6,Cochliomyia macellaria,6,1,predation,method,field observation
+Pogonomyrmex desertorum,6,C. macellaria larvae,6,1,predation,method,field observation
+Pogonomyrmex desertorum,6,Phaenicia sericata,6,1,predation,method,field observation
+Pogonomyrmex desertorum,6,P. sericata larvae,6,1,predation,method,field observation
+Pogonomyrmex desertorum,6,O. ochripyga larvae,6,1,predation,method,field observation
+Pogonomyrmex desertorum,6,carcass,6,1,scavenger,method,field observation
+Solenopsis xyloni,6,Cochliomyia macellaria,6,1,predation,method,field observation
+Solenopsis xyloni,6,C. macellaria larvae,6,1,predation,method,field observation
+Solenopsis xyloni,6,Phaenicia sericata,6,1,predation,method,field observation
+Solenopsis xyloni,6,P. sericata larvae,6,1,predation,method,field observation
+Solenopsis xyloni,6,O. ochripyga larvae,6,1,predation,method,field observation
+Solenopsis xyloni,6,carcass,6,1,scavenger,method,field observation
+Nomia tetrazonata,6,carcass,6,1,scavenger,method,field observation
+Lasioglossum morilli,6,carcass,6,1,scavenger,method,field observation
+Dialictus microlepiodes,6,carcass,6,1,scavenger,method,field observation
+Dialictus sp.,6,carcass,6,1,scavenger,method,field observation
+Silpha truncata,6,carcass,6,1,scavenger,method,field observation

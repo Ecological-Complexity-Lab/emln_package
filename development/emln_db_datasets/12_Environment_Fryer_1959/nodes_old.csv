@@ -1,0 +1,104 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Baetid nymphs,taxon,taxonomy_name,Baetidae,taxonomy_rank,family
+2,Ostracods,taxon,taxonomy_name,Ostracoda,taxonomy_rank,class
+3,Chironomid larvae,taxon,taxonomy_name,Chironomidae,taxonomy_rank,family
+4,Caridina nilotica,taxon,taxonomy_name,Caridina nilotica,taxonomy_rank,species
+5,Corbicula africana,taxon,taxonomy_name,Corbicula fluminalis africana,taxonomy_rank,infraspecies
+6,Malanoides tuberculata,taxon,taxonomy_name,Melanoides tuberculata,taxonomy_rank,species
+7,other gastropods,taxon,taxonomy_name,Gastropoda,taxonomy_rank,class
+8,Vallisneria,taxon,taxonomy_name,Vallisneria,taxonomy_rank,genus
+9,algae,taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+10,Cyclopoid copepods,taxon,taxonomy_name,Cyclopoida,taxonomy_rank,order
+11,Tilapia saka,taxon,taxonomy_name,Oreochromis saka,taxonomy_rank,species
+12,bottom detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+13,T. squamipinnis,taxon,taxonomy_name,Oreochromis squamipinnis,taxonomy_rank,species
+14,Engraulicypris sardella,taxon,taxonomy_name,Engraulicypris sardella,taxonomy_rank,species
+15,plankton,taxon,taxonomy_name,Plankton,taxonomy_rank,NA
+16,Microcyclops nyasae,taxon,taxonomy_name,Microcyclops nyasae,taxonomy_rank,species
+17,Aufwuchs on Vallisneria,taxon,taxonomy_name,NA,taxonomy_rank,NA
+18,Lanistes procerus,taxon,taxonomy_name,Lanistes ovum,taxonomy_rank,species
+19,Haplochromis johnstoni,taxon,taxonomy_name,Placidochromis johnstoni,taxonomy_rank,species
+20,Barbus rhoadesii,taxon,taxonomy_name,Enteromius litamba,taxonomy_rank,species
+21,Haplochromis sp.,taxon,taxonomy_name,Haplochromis,taxonomy_rank,genus
+22,Rhamphochromis spp.,taxon,taxonomy_name,Rhamphochromis,taxonomy_rank,genus
+23,Synodontis zambesensis,taxon,taxonomy_name,Synodontis zambesensis,taxonomy_rank,species
+24,Lethrinops,taxon,taxonomy_name,Lethrinops,taxonomy_rank,genus
+25,Alestes imberi,taxon,taxonomy_name,Brycinus imberi,taxonomy_rank,species
+26,Lethriops furcifer,taxon,taxonomy_name,Lethrinops furcifer,taxonomy_rank,species
+27,Barbus eurystomus,taxon,taxonomy_name,Labeobarbus johnstonii,taxonomy_rank,species
+28,Haplocrhomis mola,taxon,taxonomy_name,Mylochromis mola,taxonomy_rank,species
+29,Barilius microcephalus,taxon,taxonomy_name,Opsaridium microcephalum,taxonomy_rank,species
+30,Barbus innocens,taxon,taxonomy_name,Enteromius innocens,taxonomy_rank,species
+31,Haplochromis similis,taxon,taxonomy_name,Protomelas similis,taxonomy_rank,species
+32,Tilapia melanopleura,taxon,taxonomy_name,Oreochromis aureus,taxonomy_rank,species
+33,Tilapia shirana,taxon,taxonomy_name,Oreochromis shiranus,taxonomy_rank,species
+34,Labeo mesops,taxon,taxonomy_name,Labeo mesops,taxonomy_rank,species
+35,Haplochromis chrysonotus,taxon,taxonomy_name,Copadichromis chrysonotus,taxonomy_rank,species
+36,various immature fishes,taxon,taxonomy_name,NA,taxonomy_rank,NA
+37,terrestrial insects,taxon,taxonomy_name,NA,taxonomy_rank,NA
+38,Haplochromis dimidiatus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+39,Haplochromis rostratus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+40,Lethrinops brevis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+41,Barbus johnstoni,taxon,taxonomy_name,NA,taxonomy_rank,NA
+42,Haplochromis moori,taxon,taxonomy_name,NA,taxonomy_rank,NA
+43,juvenile cichlids,taxon,taxonomy_name,Cichlidae,taxonomy_rank,family
+44,Pseudotropheus zebra,taxon,taxonomy_name,Maylandia zebra,taxonomy_rank,species
+45,Hydropsychid larvae,taxon,taxonomy_name,Hydropsychidae,taxonomy_rank,family
+46,Afronurus nymphs,taxon,taxonomy_name,Afronurus,taxonomy_rank,genus
+47,Schizopera consimilis,taxon,taxonomy_name,Schizopera consimilis,taxonomy_rank,species
+48,ostracods,taxon,taxonomy_name,Ostracoda,taxonomy_rank,class
+49,Neoperla spio nymphs,taxon,taxonomy_name,Neoperla spio,taxonomy_rank,species
+50,Potamonautes lirrangensis,taxon,taxonomy_name,Potamonautes lirrangensis,taxonomy_rank,species
+51,Eubrianax larvae,taxon,taxonomy_name,Eubrianax,taxonomy_rank,genus
+52,Elmid larvae,taxon,taxonomy_name,Elmidae,taxonomy_rank,family
+53,Haplochromis kiwinge,taxon,taxonomy_name,Dimidiochromis kiwinge,taxonomy_rank,species
+54,Pseudotropheus elongatus,taxon,taxonomy_name,Pseudotropheus elongatus,taxonomy_rank,species
+55,P. tropheops,taxon,taxonomy_name,Tropheops tropheops,taxonomy_rank,species
+56,P. minutus,taxon,taxonomy_name,Pseudotropheus minutus,taxonomy_rank,species
+57,P. auratus,taxon,taxonomy_name,Melanochromis auratus,taxonomy_rank,species
+58,P. fuscus,taxon,taxonomy_name,Pseudotropheus fuscus,taxonomy_rank,species
+59,Labeotropheus fuelleborni,taxon,taxonomy_name,Labeotropheus fuelleborni,taxonomy_rank,species
+60,L. trewavasae,taxon,taxonomy_name,Labeotropheus trewavasae,taxonomy_rank,species
+61,H. fenestratus,taxon,taxonomy_name,Protomelas fenestratus,taxonomy_rank,species
+62,Mastacembelus shiranus,taxon,taxonomy_name,Mastacembelus shiranus,taxonomy_rank,species
+63,Bathyclarias worthingtoni,taxon,taxonomy_name,Bathyclarias worthingtoni,taxonomy_rank,species
+64,Labidochromis vellicans,taxon,taxonomy_name,Labidochromis vellicans,taxonomy_rank,species
+65,Labidochromis caeruleus,taxon,taxonomy_name,Labidochromis caeruleus,taxonomy_rank,species
+66,Haplochromis euchilus,taxon,taxonomy_name,Cheilochromis euchilus,taxonomy_rank,species
+67,Haplochromis ornatus,taxon,taxonomy_name,Eclectochromis ornatus,taxonomy_rank,species
+68,Pseudotropheus fuscoides,taxon,taxonomy_name,Pseudotropheus fuscoides,taxonomy_rank,species
+69,Cynotilapia afra,taxon,taxonomy_name,Cynotilapia afra,taxonomy_rank,species
+70,leech,taxon,taxonomy_name,Hippocrepinella hirudinea,taxonomy_rank,species
+71,Melanochromis melanopterus,taxon,taxonomy_name,Melanochromis melanopterus,taxonomy_rank,species
+72,Aufwuchs,taxon,taxonomy_name,NA,taxonomy_rank,NA
+73,other predatory fishes,taxon,taxonomy_name,NA,taxonomy_rank,NA
+74,Haplochromis pardalis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+75,Haplochromis polyodon,taxon,taxonomy_name,NA,taxonomy_rank,NA
+76,Haplochromis guentheri,taxon,taxonomy_name,NA,taxonomy_rank,NA
+77,Varicorhinus nyasensis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+78,frogs,taxon,taxonomy_name,Anura,taxonomy_rank,order
+79,Dytiscid beetles,taxon,taxonomy_name,Dytiscidae,taxonomy_rank,family
+80,Cladocera,taxon,taxonomy_name,Dilar nevadensis,taxonomy_rank,species
+81,bottom algae,taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+82,mosquito larvae,taxon,taxonomy_name,Culicidae,taxonomy_rank,family
+83,caddis larvae,taxon,taxonomy_name,Trichoptera,taxonomy_rank,order
+84,Anisopterid larvae,taxon,taxonomy_name,Anisoptera,taxonomy_rank,genus
+85,Gyraulus costulatus\,taxon,taxonomy_name,Gyraulus costulatus,taxonomy_rank,species
+86,Crocodilus niloticus,taxon,taxonomy_name,Crocodylus niloticus,taxonomy_rank,species
+87,juvenile Cichlidae,taxon,taxonomy_name,Cichlidae,taxonomy_rank,family
+88,Serranochromis robustus,taxon,taxonomy_name,Serranochromis robustus,taxonomy_rank,species
+89,Naucoris sp.,taxon,taxonomy_name,Pelocoris femoratus,taxonomy_rank,species
+90,Barbus paludinosus,taxon,taxonomy_name,Barbus paludinosus,taxonomy_rank,species
+91,Zygopterid larvae,taxon,taxonomy_name,Aeschnophlebia longistigma,taxonomy_rank,species
+92,T. saka,taxon,taxonomy_name,Oreochromis saka,taxonomy_rank,species
+93,Gyraulus costulatus,taxon,taxonomy_name,Gyraulus costulatus,taxonomy_rank,species
+94,Micronecta,taxon,taxonomy_name,Micronecta,taxonomy_rank,NA
+95,Barbus sp.,taxon,taxonomy_name,Barbus,taxonomy_rank,genus
+96,Limnaea sp.,taxon,taxonomy_name,Lymnaea,taxonomy_rank,genus
+97,Clarias mossambicus,taxon,taxonomy_name,Clarias mossambicus,taxonomy_rank,NA
+98,Gerrids,taxon,taxonomy_name,Gerreidae,taxonomy_rank,family
+99,detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+100,higher plants,taxon,taxonomy_name,NA,taxonomy_rank,NA
+101,indet. Fishes,taxon,taxonomy_name,NA,taxonomy_rank,NA
+102,Clarias mellandi,taxon,taxonomy_name,NA,taxonomy_rank,NA
+103,Segmentorbis angustus,taxon,taxonomy_name,NA,taxonomy_rank,NA

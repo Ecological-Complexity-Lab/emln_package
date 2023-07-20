@@ -1,0 +1,40 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Market squid,taxon,taxonomy_name,Doryteuthis opalescens,taxonomy_rank,species
+2,Spiny dogfish,taxon,taxonomy_name,Squalus acanthias,taxonomy_rank,species
+3,Coho salmon adult,taxon,taxonomy_name,Oncorhynchus kisutch,taxonomy_rank,species
+4,Chinook salmon adult,taxon,taxonomy_name,Oncorhynchus tshawytscha,taxonomy_rank,species
+5,Steelhead trout,taxon,taxonomy_name,Oncorhynchus mykiss,taxonomy_rank,species
+6,Sablefish,taxon,taxonomy_name,Anoplopoma fimbria,taxonomy_rank,species
+7,Northern anchovy,taxon,taxonomy_name,Engraulis mordax,taxonomy_rank,species
+8,Coho salmon juvenile,taxon,taxonomy_name,Oncorhynchus kisutch,taxonomy_rank,species
+9,Chinook salmon juvenile,taxon,taxonomy_name,Oncorhynchus tshawytscha,taxonomy_rank,species
+10,Cutthroat trout,taxon,taxonomy_name,Oncorhynchus clarkii,taxonomy_rank,species
+11,American shad,taxon,taxonomy_name,Alosa sapidissima,taxonomy_rank,species
+12,Cnidarians Hydromedusae,taxon,taxonomy_name,Hydromedusae,taxonomy_rank,NA
+13,Pteropods Limacina helicina,taxon,taxonomy_name,Limacina helicina,taxonomy_rank,species
+14,Clionidae,taxon,taxonomy_name,Clionidae,taxonomy_rank,family
+15,Cephalopods Loligo opalescens,taxon,taxonomy_name,Cephalopod,taxonomy_rank,NA
+16,Copepods Neocalanus cristatus,taxon,taxonomy_name,Neocalanus cristatus,taxonomy_rank,species
+17,N. plumchrus,taxon,taxonomy_name,Neocalanus plumchrus,taxonomy_rank,species
+18,CIRR,taxon,taxonomy_name,Cirriphyllum brandegeei,taxonomy_rank,NA
+19,Amphipods,taxon,taxonomy_name,Amphipoda,taxonomy_rank,order
+20,Ephausiids,taxon,taxonomy_name,Euphausiacea,taxonomy_rank,order
+21,Decapods,taxon,taxonomy_name,Decapoda,taxonomy_rank,order
+22,Insects,taxon,taxonomy_name,Insecta,taxonomy_rank,class
+23,Chaetognaths,taxon,taxonomy_name,Chaetognatha,taxonomy_rank,phylum
+24,Clupeids,taxon,taxonomy_name,Clupeidae,taxonomy_rank,family
+25,Scorpaenids,taxon,taxonomy_name,Scorpaenidae,taxonomy_rank,family
+26,Pleuronectids,taxon,taxonomy_name,Pleuronectidae,taxonomy_rank,family
+27,Other fishes,taxon,taxonomy_name,NA,taxonomy_rank,NA
+28,Scyphomedusae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+29,Thaliacians,taxon,taxonomy_name,NA,taxonomy_rank,NA
+30,Chum salmon juvenile,taxon,taxonomy_name,Oncorhynchus keta,taxonomy_rank,species
+31,Black rockfish,taxon,taxonomy_name,Sebastes melanops,taxonomy_rank,species
+32,Jack mackerel,taxon,taxonomy_name,Trachurus,taxonomy_rank,genus
+33,Pacific herring,taxon,taxonomy_name,Clupea pallasii,taxonomy_rank,species
+34,Pacific mackerel,taxon,taxonomy_name,Scomber japonicus,taxonomy_rank,species
+35,Ctenophores Beroe sp.,taxon,taxonomy_name,Beroe,taxonomy_rank,genus
+36,Pacific hake,taxon,taxonomy_name,Merluccius productus,taxonomy_rank,species
+37,Sockeye Salmon juvenile,taxon,taxonomy_name,Oncorhynchus nerka,taxonomy_rank,species
+38,Polychaetes Tomopteris sp.,taxon,taxonomy_name,Tomopteris,taxonomy_rank,genus
+39,Pelagagobia sp.,taxon,taxonomy_name,NA,taxonomy_rank,NA

@@ -1,0 +1,372 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+Entomobrya ligate,1,fungi,1,1,herbivory,method,field observation/experiment
+Lepidocyrtus cyaneus,1,fungi,1,1,herbivory,method,field observation/experiment
+Isotoma sensibilis,1,fungi,1,1,herbivory,method,field observation/experiment
+Pseudistoma sensibilis,1,fungi,1,1,herbivory,method,field observation/experiment
+Parcoblatta sp.,1,fungi,1,1,herbivory,method,field observation/experiment
+Tachyta nana,1,Entomobrya ligate,1,1,predation,method,field observation/experiment
+Tachyta nana,1,Lepidocyrtus cyaneus,1,1,predation,method,field observation/experiment
+Tachyta nana,1,Isotoma sensibilis,1,1,predation,method,field observation/experiment
+Tachyta nana,1,Pseudistoma sensibilis,1,1,predation,method,field observation/experiment
+Tachyta nana,1,Uropoda sp.,1,1,predation,method,field observation/experiment
+Tachyta nana,1,Discopoma sp.,1,1,predation,method,field observation/experiment
+Tachyta nana,1,Pergamasus sp.,1,1,predation,method,field observation/experiment
+Tachyta nana,1,Megisthanus sp.,1,1,predation,method,field observation/experiment
+Tachyta nana,1,Dendrolaelops sp.,1,1,predation,method,field observation/experiment
+Canosoma crassus,1,fungi,1,1,herbivory,method,field observation/experiment
+Thoracophorus costalis,1,fungi,1,1,herbivory,method,field observation/experiment
+Acritus exiguus,1,fungi,1,1,herbivory,method,field observation/experiment
+Chariessa pilosa,1,Lepidocyrtus cyaneus,1,1,predation,method,field observation/experiment
+Chariessa pilosa,1,Pseudistoma sensibilis,1,1,predation,method,field observation/experiment
+Chariessa pilosa,1,Silvanus embellis,1,1,predation,method,field observation/experiment
+Chariessa pilosa,1,S. planatus,1,1,predation,method,field observation/experiment
+Chariessa pilosa,1,Brontes dubius larvae,1,1,predation,method,field observation/experiment
+Chariessa pilosa,1,Megaselia sp. larvae,1,1,predation,method,field observation/experiment
+Chariessa pilosa,1,Lonchaea sp. larvae,1,1,predation,method,field observation/experiment
+Chariessa pilosa,1,tachinid larvae,1,1,predation,method,field observation/experiment
+Alaus oculatus larvae,1,Romaleum atomarium larvae,1,1,predation,method,field observation/experiment
+Melanopus sp. larvae,1,fungi,1,1,herbivory,method,field observation/experiment
+Chrysobothris femorata larvae,1,phloem (Quercus spp.),1,1,herbivory,method,field observation/experiment
+Agrilus sp. larvae,1,phloem (Quercus spp.),1,1,herbivory,method,field observation/experiment
+Silvanus embellis,1,fungi,1,1,herbivory,method,field observation/experiment
+S. planatus,1,fungi,1,1,herbivory,method,field observation/experiment
+Brontes dubius larvae,1,fungi,1,1,herbivory,method,field observation/experiment
+Megalodacne fasciata,1,fungi,1,1,herbivory,method,field observation/experiment
+Xylotrechus colonus larvae,1,phloem (Quercus spp.),1,1,herbivory,method,field observation/experiment
+Romaleum atomarium larvae,1,phloem (Quercus spp.),1,1,herbivory,method,field observation/experiment
+Neoclytus scutellaris larvae,1,phloem (Quercus spp.),1,1,herbivory,method,field observation/experiment
+Graphisurus fasciatus larvae,1,phloem (Quercus spp.),1,1,herbivory,method,field observation/experiment
+Orthotomicus coelatus,1,phloem (Quercus spp.),1,1,herbivory,method,field observation/experiment
+Megaselia sp. larvae,1,Lonchaea sp. larvae,1,1,predation,method,field observation/experiment
+Megaselia sp. larvae,1,tachinid larvae,1,1,predation,method,field observation/experiment
+Lonchaea sp. larvae,1,fungi,1,1,herbivory,method,field observation/experiment
+tachinid larvae,1,Romaleum atomarium larvae,1,1,host-parasite,method,field observation/experiment
+Tremex columba larvae,1,sapwood,1,1,herbivory,method,field observation/experiment
+Atanycolus simplex,1,Chrysobothris femorata larvae,1,1,host-parasite,method,field observation/experiment
+Sparhius floridanus,1,Chrysobothris femorata larvae,1,1,host-parasite,method,field observation/experiment
+Camponotus herculeanus,1,various larvae (unspecified),1,1,scavenger,method,field observation/experiment
+Crematogaster lineolata,1,various larvae (unspecified),1,1,scavenger,method,field observation/experiment
+Leptothorax curvispinosus,1,various larvae (unspecified),1,1,scavenger,method,field observation/experiment
+Ponera coarcta,1,various larvae (unspecified),1,1,scavenger,method,field observation/experiment
+Proceratium croceum,1,various larvae (unspecified),1,1,scavenger,method,field observation/experiment
+Linotaenia bidens,1,various larvae (unspecified),1,1,predation,method,field observation/experiment
+Geophilus varians,1,various larvae (unspecified),1,1,predation,method,field observation/experiment
+Chthonius spinosus,1,various larvae (unspecified),1,1,predation,method,field observation/experiment
+C. longipalpus,1,various larvae (unspecified),1,1,predation,method,field observation/experiment
+Uropoda sp.,1,fungi,1,1,herbivory,method,field observation/experiment
+Discopoma sp.,1,fungi,1,1,herbivory,method,field observation/experiment
+Pergamasus sp.,1,various larvae (unspecified),1,1,predation,method,field observation/experiment
+Megisthanus sp.,1,various larvae (unspecified),1,1,predation,method,field observation/experiment
+Dendrolaelops sp.,1,various larvae (unspecified),1,1,predation,method,field observation/experiment
+fungi,1,phloem (Quercus spp.),1,1,herbivory,method,field observation/experiment
+fungi,1,sapwood,1,1,herbivory,method,field observation/experiment
+Entomobrya ligate,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Entomobrya ligate,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Isotoma sensibilis,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Isotoma sensibilis,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Neosmithurus clavatus,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Reticulitermes flavipes,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Parcoblatta sp.,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Tachyta nana,2,Entomobrya ligate,2,1,predation,method,field observation/experiment
+Tachyta nana,2,Isotoma sensibilis,2,1,predation,method,field observation/experiment
+Tachyta nana,2,Neosmithurus clavatus,2,1,predation,method,field observation/experiment
+Tachyta nana,2,Podothrombium sp.,2,1,predation,method,field observation/experiment
+Tachyta nana,2,Allothrombium pulvinus,2,1,predation,method,field observation/experiment
+Tachyta nana,2,Zetes sp.,2,1,predation,method,field observation/experiment
+Tachyta nana,2,Schelorabates sp.,2,1,predation,method,field observation/experiment
+Tachyta nana,2,Pergamasus sp.,2,1,predation,method,field observation/experiment
+Tachyta nana,2,Megisthanus sp.,2,1,predation,method,field observation/experiment
+Canosoma crassus,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Staphylinus violacens,2,various larvae,2,1,predation,method,field observation/experiment
+Coproporus ventriculus,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Trachysectus confluentus,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Actium sp.,2,Podothrombium sp.,2,1,predation,method,field observation/experiment
+Actium sp.,2,Allothrombium pulvinus,2,1,predation,method,field observation/experiment
+Actium sp.,2,Zetes sp.,2,1,predation,method,field observation/experiment
+Actium sp.,2,Schelorabates sp.,2,1,predation,method,field observation/experiment
+Actium sp.,2,Pergamasus sp.,2,1,predation,method,field observation/experiment
+Actium sp.,2,Megisthanus sp.,2,1,predation,method,field observation/experiment
+Epierus regularis,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Epierus sp.,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Platysoma lecontei,2,mycetophilid larvae (undet.),2,1,predation,method,field observation/experiment
+Platysoma lecontei,2,cecidomyid larvae (undet.),2,1,predation,method,field observation/experiment
+Platysoma lecontei,2,dolicopodid larvae (undet.),2,1,predation,method,field observation/experiment
+Dendroides bicolor larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Dendroides bicolor larvae,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Elater nigricollis larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Orthostethus infuscatus larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Deltometopus amoenicornis larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Alaus oculatus larvae,2,Pseudolucanus capreole larvae,2,1,predation,method,field observation/experiment
+Alaus oculatus larvae,2,Polymoecus brevipes larvae,2,1,predation,method,field observation/experiment
+Alaus oculatus larvae,2,Derobrachus brunneus larvae,2,1,predation,method,field observation/experiment
+Elaterinae larvae (undet.),2,rotting wood,2,1,herbivory,method,field observation/experiment
+Rhysodes americanus,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Brontes dubius larvae,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Megalodacne fasciata,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Triplax thoracica,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+mycetyphagid (undet.),2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Hymenorus sp.,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Platydema subcostatum,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+P. ruficorne,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+P. ruficolle,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Uloma imberbis,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Dioedus punctatus,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Scotobates carcaratus larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Xylopinus saperdoides,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Alobates pennsylvanicus larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Meracantha contracta larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Strongylium crenatum larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Synchroa punctata larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Synchroa punctata larvae,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Pseudolucanus capreole larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Platycerus quercus,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Ceruchus piceus,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Dorcus (brevis?),2,rotting wood,2,1,herbivory,method,field observation/experiment
+Polymoecus brevipes larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Cloetus globosus,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Trichiotinus bidens larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Phileurus valgus larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Passalus cornutus,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Derobrachus brunneus larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Leptura proxima larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Eupsalis minuta,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Scolecocampa liburna larvae,2,rotting wood,2,1,herbivory,method,field observation/experiment
+mycetophilid larvae (undet.),2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+cecidomyid larvae (undet.),2,microorganisms,2,1,predation,method,field observation/experiment
+dolicopodid larvae (undet.),2,microorganisms,2,1,predation,method,field observation/experiment
+Augochlora pura,2,pollen (undet.),2,1,herbivory,method,field observation/experiment
+Camponotus herculeanus,2,various larvae,2,1,scavenger,method,field observation/experiment
+Crematogaster lineolata,2,various larvae,2,1,scavenger,method,field observation/experiment
+Leptothorax curvispinosus,2,various larvae,2,1,scavenger,method,field observation/experiment
+Ponera coarcta,2,various larvae,2,1,scavenger,method,field observation/experiment
+Proceratium croceum,2,various larvae,2,1,scavenger,method,field observation/experiment
+Pheidole sp.,2,various larvae,2,1,scavenger,method,field observation/experiment
+lumbricid (undet.),2,rotting wood,2,1,herbivory,method,field observation/experiment
+Strobilops aena,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Strobilops aena,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Polygyra fallax,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Polygyra fallax,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+P. tridentata,2,rotting wood,2,1,herbivory,method,field observation/experiment
+P. tridentata,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+P. thyroideus,2,rotting wood,2,1,herbivory,method,field observation/experiment
+P. thyroideus,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Zonitoides arboreus,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Zonitoides arboreus,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Euconulus chersinus,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Euconulus chersinus,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Retinella indentata,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Retinella indentata,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Philomycus carolinensis,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Philomycus carolinensis,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Cambala annulata,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Fontaria coriacea,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Polydesmus serratus,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Spirostephon lactarium,2,rotting wood,2,1,herbivory,method,field observation/experiment
+Scolopendra viridis,2,various larvae,2,1,predation,method,field observation/experiment
+Cryptops hyalina,2,various larvae,2,1,predation,method,field observation/experiment
+Otocryptops sexspinosus,2,various larvae,2,1,predation,method,field observation/experiment
+Bothropolys multidentatus,2,various larvae,2,1,predation,method,field observation/experiment
+Chelanops dentatus,2,various larvae,2,1,predation,method,field observation/experiment
+Podothrombium sp.,2,various larvae,2,1,predation,method,field observation/experiment
+Allothrombium pulvinus,2,various larvae,2,1,predation,method,field observation/experiment
+Zetes sp.,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Schelorabates sp.,2,fungi (red rot),2,1,herbivory,method,field observation/experiment
+Pergamasus sp.,2,various larvae,2,1,predation,method,field observation/experiment
+Megisthanus sp.,2,various larvae,2,1,predation,method,field observation/experiment
+fungi (red rot),2,rotting wood,2,1,herbivory,method,field observation/experiment
+Temnochila virescens,3,Chrysobothris sp. larvae,3,1,predation,method,field observation/experiment
+Temnochila virescens,3,Platypus flavicornis,3,1,predation,method,field observation/experiment
+Temnochila virescens,3,Ips grandicollis,3,1,predation,method,field observation/experiment
+Temnochila virescens,3,I. calligraphus,3,1,predation,method,field observation/experiment
+Temnochila virescens,3,Xyleborus fitchi,3,1,predation,method,field observation/experiment
+Temnochila virescens,3,Orthotomicus coelatus,3,1,predation,method,field observation/experiment
+Temnochila virescens,3,Pithyophthorus annectens,3,1,predation,method,field observation/experiment
+Temnochila virescens,3,P. pullus,3,1,predation,method,field observation/experiment
+Temnochila virescens,3,Dendroctonus valens,3,1,predation,method,field observation/experiment
+Temnochila virescens,3,D. tenebrans,3,1,predation,method,field observation/experiment
+Rhizophagus cylindricus,3,Callidium antennatum larvae,3,1,predation,method,field observation/experiment
+Rhizophagus cylindricus,3,Platypus flavicornis,3,1,predation,method,field observation/experiment
+Rhizophagus cylindricus,3,Ips grandicollis,3,1,predation,method,field observation/experiment
+Rhizophagus cylindricus,3,I. calligraphus,3,1,predation,method,field observation/experiment
+Rhizophagus cylindricus,3,Xyleborus fitchi,3,1,predation,method,field observation/experiment
+Rhizophagus cylindricus,3,Orthotomicus coelatus,3,1,predation,method,field observation/experiment
+Rhizophagus cylindricus,3,Pithyophthorus annectens,3,1,predation,method,field observation/experiment
+Rhizophagus cylindricus,3,P. pullus,3,1,predation,method,field observation/experiment
+Rhizophagus cylindricus,3,Dendroctonus valens,3,1,predation,method,field observation/experiment
+Rhizophagus cylindricus,3,D. tenebrans,3,1,predation,method,field observation/experiment
+Brontes dubius,3,fungi,3,1,herbivory,method,field observation/experiment
+Mycetophagus pini,3,fungi,3,1,herbivory,method,field observation/experiment
+Colopterus semitectus,3,fungi,3,1,herbivory,method,field observation/experiment
+Stelidota geminata,3,fungi,3,1,herbivory,method,field observation/experiment
+Bolitotherus cornutus,3,fungi,3,1,herbivory,method,field observation/experiment
+Platydema flavipes,3,fungi,3,1,herbivory,method,field observation/experiment
+Stephanopachys rugosus larvae,3,sapwood,3,1,herbivory,method,field observation/experiment
+Asemum moestum larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Asemum moestum larvae,3,sapwood,3,1,herbivory,method,field observation/experiment
+Rhagium lineatum larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Xylotrechus sagittatus larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Callidium antennatum larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Acanthocinus obsoletus larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+A. nodosus larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Eupogonius tomentosus larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Monochammus titillator larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Rhyncolus sp.,3,fungi,3,1,herbivory,method,field observation/experiment
+Cossonus corticola,3,fungi,3,1,herbivory,method,field observation/experiment
+Pissodes memorensis larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Pachylobins picivorus larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Hylobius pales larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Platypus flavicornis,3,fungi,3,1,herbivory,method,field observation/experiment
+Ips grandicollis,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+I. calligraphus,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Xyleborus fitchi,3,fungi,3,1,herbivory,method,field observation/experiment
+Orthotomicus coelatus,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Pithyophthorus annectens,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+P. pullus,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Dendroctonus valens,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+D. tenebrans,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Sciara coprophila larvae,3,dead cerambycid,3,1,predation,method,field observation/experiment
+Xylophagus fasciatus larvae,3,Rhagium lineatum larvae,3,1,predation,method,field observation/experiment
+Lonchaea sp. larvae,3,fungi,3,1,herbivory,method,field observation/experiment
+Theresia monohammi larvae,3,Monochammus titillator larvae,3,1,host-parasite,method,field observation/experiment
+Sarcophaga sp. larvae,3,Monochammus titillator larvae,3,1,host-parasite,method,field observation/experiment
+Sirex nigricornia larvae,3,sapwood,3,1,herbivory,method,field observation/experiment
+Orussus sp. larvae,3,Chalcophora sp. larvae,3,1,host-parasite,method,field observation/experiment
+Orussus sp. larvae,3,Chrysobothris sp. larvae,3,1,host-parasite,method,field observation/experiment
+Coeloides pissodis larvae,3,Pissodes memorensis larvae,3,1,host-parasite,method,field observation/experiment
+Camponotus herculeanus,3,various larvae (unsp.),3,1,scavenger,method,field observation/experiment
+Leptinothorax curvispinosus,3,various larvae (unsp.),3,1,scavenger,method,field observation/experiment
+Ponera coarctata,3,various larvae (unsp.),3,1,scavenger,method,field observation/experiment
+Lasius umbratus,3,various larvae (unsp.),3,1,scavenger,method,field observation/experiment
+uropodid sp.,3,fungi,3,1,herbivory,method,field observation/experiment
+Parasitus sp,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Dendrolaelaps sp.,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Pergamasus sp.,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Geophilus varians,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Linotaenia bidens,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Cryptops hyalina,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Bothropolys multidentatus,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Chelanops oblongus,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+C. virginnae,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Chelifer cancroides,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+chironomid larvae,3,fungi,3,1,herbivory,method,field observation/experiment
+cecidomyid larvae,3,fungi,3,1,herbivory,method,field observation/experiment
+dolicopodid larvae,3,fungi,3,1,herbivory,method,field observation/experiment
+fungi,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+fungi,3,sapwood,3,1,herbivory,method,field observation/experiment
+Boros unicolor larvae,3,fungi,3,1,herbivory,method,field observation/experiment
+Entomobrya corticola,3,fungi,3,1,herbivory,method,field observation/experiment
+E. ligata,3,fungi,3,1,herbivory,method,field observation/experiment
+Entomobrya sp.,3,fungi,3,1,herbivory,method,field observation/experiment
+Pseudachorutes sp.,3,fungi,3,1,herbivory,method,field observation/experiment
+Isotoma sensibilis,3,fungi,3,1,herbivory,method,field observation/experiment
+Tomocera flavescens,3,fungi,3,1,herbivory,method,field observation/experiment
+Parcoblatta sp.,3,fungi,3,1,herbivory,method,field observation/experiment
+heteropteran (undet.),3,Ips grandicollis,3,1,predation,method,field observation/experiment
+heteropteran (undet.),3,I. calligraphus,3,1,predation,method,field observation/experiment
+heteropteran (undet.),3,Xyleborus fitchi,3,1,predation,method,field observation/experiment
+heteropteran (undet.),3,Orthotomicus coelatus,3,1,predation,method,field observation/experiment
+heteropteran (undet.),3,Pithyophthorus annectens,3,1,predation,method,field observation/experiment
+heteropteran (undet.),3,P. pullus,3,1,predation,method,field observation/experiment
+heteropteran (undet.),3,Dendroctonus valens,3,1,predation,method,field observation/experiment
+heteropteran (undet.),3,D. tenebrans,3,1,predation,method,field observation/experiment
+Epiptera sp.,3,fungi,3,1,herbivory,method,field observation/experiment
+Tachymenis flavicauda,3,Entomobrya corticola,3,1,predation,method,field observation/experiment
+Tachymenis flavicauda,3,E. ligata,3,1,predation,method,field observation/experiment
+Tachymenis flavicauda,3,Entomobrya sp.,3,1,predation,method,field observation/experiment
+Tachymenis flavicauda,3,Pseudachorutes sp.,3,1,predation,method,field observation/experiment
+Xylotrechus sagittatus larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Callidium antennatum larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Acanthocinus obsoletus larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+A. nodosus larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Eupogonius tomentosus larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Monochammus titillator larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Rhyncolus sp.,3,fungi,3,1,herbivory,method,field observation/experiment
+Cossonus corticola,3,fungi,3,1,herbivory,method,field observation/experiment
+Pissodes memorensis larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Pachylobins picivorus larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Hylobius pales larvae,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Platypus flavicornis,3,fungi,3,1,herbivory,method,field observation/experiment
+Ips grandicollis,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+I. calligraphus,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Xyleborus fitchi,3,fungi,3,1,herbivory,method,field observation/experiment
+Orthotomicus coelatus,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Pithyophthorus annectens,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+P. pullus,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Dendroctonus valens,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+D. tenebrans,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+Sciara coprophila larvae,3,dead cerambycid,3,1,predation,method,field observation/experiment
+Xylophagus fasciatus larvae,3,Rhagium lineatum larvae,3,1,predation,method,field observation/experiment
+Lonchaea sp. larvae,3,fungi,3,1,herbivory,method,field observation/experiment
+Theresia monohammi larvae,3,Monochammus titillator larvae,3,1,host-parasite,method,field observation/experiment
+Sarcophaga sp. larvae,3,Monochammus titillator larvae,3,1,host-parasite,method,field observation/experiment
+Sirex nigricornia larvae,3,sapwood,3,1,herbivory,method,field observation/experiment
+Orussus sp. larvae,3,Chalcophora sp. larvae,3,1,host-parasite,method,field observation/experiment
+Orussus sp. larvae,3,Chrysobothris sp. larvae,3,1,host-parasite,method,field observation/experiment
+Coeloides pissodis larvae,3,Pissodes memorensis larvae,3,1,host-parasite,method,field observation/experiment
+Camponotus herculeanus,3,various larvae (unsp.),3,1,scavenger,method,field observation/experiment
+Leptinothorax curvispinosus,3,various larvae (unsp.),3,1,scavenger,method,field observation/experiment
+Ponera coarctata,3,various larvae (unsp.),3,1,scavenger,method,field observation/experiment
+Lasius umbratus,3,various larvae (unsp.),3,1,scavenger,method,field observation/experiment
+uropodid sp.,3,fungi,3,1,herbivory,method,field observation/experiment
+Parasitus sp,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Dendrolaelaps sp.,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Pergamasus sp.,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Geophilus varians,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Linotaenia bidens,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Cryptops hyalina,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Bothropolys multidentatus,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Chelanops oblongus,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+C. virginnae,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+Chelifer cancroides,3,various larvae (unsp.),3,1,predation,method,field observation/experiment
+chironomid larvae,3,fungi,3,1,herbivory,method,field observation/experiment
+cecidomyid larvae,3,fungi,3,1,herbivory,method,field observation/experiment
+dolicopodid larvae,3,fungi,3,1,herbivory,method,field observation/experiment
+fungi,3,phloem (Pinus spp.),3,1,herbivory,method,field observation/experiment
+fungi,3,sapwood,3,1,herbivory,method,field observation/experiment
+Entomobrya ligata,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Entomobrya ligata,4,fungi,4,1,herbivory,method,field observation/experiment
+E. corticola,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+E. corticola,4,fungi,4,1,herbivory,method,field observation/experiment
+Entomobrya sp.,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Entomobrya sp.,4,fungi,4,1,herbivory,method,field observation/experiment
+Isotoma sensibilis,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Isotoma sensibilis,4,fungi,4,1,herbivory,method,field observation/experiment
+Parcoblatta sp.,4,fungi,4,1,herbivory,method,field observation/experiment
+Tachymenis flavicauda,4,Entomobrya ligata,4,1,predation,method,field observation/experiment
+Tachymenis flavicauda,4,E. corticola,4,1,predation,method,field observation/experiment
+Tachymenis flavicauda,4,Entomobrya sp.,4,1,predation,method,field observation/experiment
+Tachymenis flavicauda,4,Isotoma sensibilis,4,1,predation,method,field observation/experiment
+Platysoma lecontei,4,chironomid larvae,4,1,predation,method,field observation/experiment
+Platysoma lecontei,4,cecidomyid larvae,4,1,predation,method,field observation/experiment
+Platysoma lecontei,4,dolicopodid larvae,4,1,predation,method,field observation/experiment
+Alaus myops larvae,4,Derobrachus brunneus larvae,4,1,predation,method,field observation/experiment
+Alaus myops larvae,4,Leptura sp. larvae,4,1,predation,method,field observation/experiment
+Orthostethus infuscatus larvae,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Melanotus sp. larvae,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Elater verticinus,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Uloma punctulata,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Xylopinus rufipes larvae,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Scotobates calcaratus larvae,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Passalus cornutus,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Pseudolucanus capreolus larvae,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Derobrachus brunneus larvae,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Leptura sp. larvae,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+chironomid larvae,4,fungi,4,1,herbivory,method,field observation/experiment
+cecidomyid larvae,4,fungi,4,1,herbivory,method,field observation/experiment
+dolicopodid larvae,4,fungi,4,1,herbivory,method,field observation/experiment
+Leptinothorax curvispinosus,4,various larvae (unspecified),4,1,scavenger,method,field observation/experiment
+Ponera coarctata,4,various larvae (unspecified),4,1,scavenger,method,field observation/experiment
+lumbricid (undet.),4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Polygyra thyriodes,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Polygyra thyriodes,4,fungi,4,1,herbivory,method,field observation/experiment
+Zonitoides arboreus,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Zonitoides arboreus,4,fungi,4,1,herbivory,method,field observation/experiment
+Philomycus carolinensis,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Philomycus carolinensis,4,fungi,4,1,herbivory,method,field observation/experiment
+Cambala annulata,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Fontaria coriacen,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Polydesmus serratus,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment
+Geophilus varians,4,various larvae (unspecified),4,1,predation,method,field observation/experiment
+Linotaenia bidens,4,various larvae (unspecified),4,1,predation,method,field observation/experiment
+Uropoda sp.,4,fungi,4,1,herbivory,method,field observation/experiment
+fungi,4,rotting wood (Pinus spp.),4,1,herbivory,method,field observation/experiment

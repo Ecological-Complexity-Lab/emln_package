@@ -1,0 +1,62 @@
+node_from,layer_from,node_to,layer_to,weight,type
+micro-,1,benthic algae,1,1,trophic
+meio-benthos,1,benthic algae,1,1,trophic
+micro-,1,detritus,1,1,trophic
+meio-benthos,1,detritus,1,1,trophic
+zooplankton,1,detritus,1,1,trophic
+insects,1,detritus,1,1,trophic
+zooplankton,1,phytoplankton,1,1,trophic
+insects,1,phytoplankton,1,1,trophic
+Macrobranchium,1,benthic algae,1,1,trophic
+fishes (type 1),1,micro-,1,1,trophic
+fishes (type 1),1,meio-benthos,1,1,trophic
+fishes (type 1),1,zooplankton,1,1,trophic
+fishes (type 1),1,insects,1,1,trophic
+fishes (type 1),1,Macrobranchium,1,1,trophic
+fishes (type 2),1,detritus,1,1,trophic
+fishes (type 2),1,zooplankton,1,1,trophic
+fishes (type 2),1,insects,1,1,trophic
+fishes (type 2),1,Macrobranchium,1,1,trophic
+fishes (type 2),1,fishes (type 1),1,1,trophic
+fishes (type 3),1,Macrobranchium,1,1,trophic
+fishes (type 3),1,fishes (type 1),1,1,trophic
+fishes (type 3),1,fishes (type 2),1,1,trophic
+Macrobranchium,1,meio-benthos,1,1,trophic
+Macrobranchium,1,detritus,1,1,trophic
+Macrobranchium,1,micro-,1,1,trophic
+fishes (type 1),1,detritus,1,1,trophic
+fishes (type 1),1,phytoplankton,1,1,trophic
+fishes (type 1),2,mollusks,2,1,trophic
+fishes (type 1),2,zooplankton,2,1,trophic
+fishes (type 1),2,insects,2,1,trophic
+fishes (type 1),2,Callinectes,2,1,trophic
+fishes (type 1),2,Penaeus,2,1,trophic
+fishes (type 2),2,detritus,2,1,trophic
+fishes (type 2),2,mollusks,2,1,trophic
+fishes (type 2),2,insects,2,1,trophic
+fishes (type 2),2,fishes (type 1),2,1,trophic
+fishes (type 3),2,fishes (type 1),2,1,trophic
+fishes (type 3),2,fishes (type 2),2,1,trophic
+fishes (type 1),2,micro-,2,1,trophic
+micro-,2,benthic algae,2,1,trophic
+meio-benthos,2,benthic algae,2,1,trophic
+micro-,2,detritus,2,1,trophic
+meio-benthos,2,detritus,2,1,trophic
+mollusks,2,benthic algae,2,1,trophic
+mollusks,2,detritus,2,1,trophic
+mollusks,2,phytoplankton,2,1,trophic
+zooplankton,2,detritus,2,1,trophic
+zooplankton,2,phytoplankton,2,1,trophic
+insects,2,detritus,2,1,trophic
+insects,2,phytoplankton,2,1,trophic
+Callinectes,2,benthic algae,2,1,trophic
+Callinectes,2,micro-,2,1,trophic
+Callinectes,2,meio-benthos,2,1,trophic
+Callinectes,2,mollusks,2,1,trophic
+Penaeus,2,benthic algae,2,1,trophic
+Penaeus,2,detritus,2,1,trophic
+Penaeus,2,micro-,2,1,trophic
+Penaeus,2,meio-benthos,2,1,trophic
+fishes (type 1),2,detritus,2,1,trophic
+fishes (type 1),2,phytoplankton,2,1,trophic
+fishes (type 1),2,meio-benthos,2,1,trophic

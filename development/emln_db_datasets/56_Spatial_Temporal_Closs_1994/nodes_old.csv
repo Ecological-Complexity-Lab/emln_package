@@ -1,0 +1,69 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Tubificidae sp. (Oligochaeta),taxon,taxonomy_name,Tubificidae,taxonomy_rank,NA
+2,Naididae sp. (Oligochaeta),taxon,taxonomy_name,Naididae,taxonomy_rank,family
+3,Lumbricidae sp. (Oligochaeta),taxon,taxonomy_name,Lumbricidae,taxonomy_rank,family
+4,Ferrissia sp. (Mollusca - Gastropoda),taxon,taxonomy_name,Ferrissia,taxonomy_rank,genus
+5,Physastra gibbosa (Mollusca - Gastropoda),taxon,taxonomy_name,Physastra gibbosa,taxonomy_rank,NA
+6,Chironomus sp. (Diptera - Chironomidae),taxon,taxonomy_name,Chironomus,taxonomy_rank,genus
+7,Paramerina sp. (Diptera - Chironomidae),taxon,taxonomy_name,Paramerina,taxonomy_rank,genus
+8,Orthocladiinae sp. 1 (Chironomidae),taxon,taxonomy_name,Orthocladiinae,taxonomy_rank,NA
+9,Triplectides truncatus (Trichoptera - Leptoceridae),taxon,taxonomy_name,Triplectides truncatus,taxonomy_rank,species
+10,Helicopsychidae sp. (Trichoptera),taxon,taxonomy_name,Helicopsychidae,taxonomy_rank,family
+11,Eucyclops sp. (Copepoda),taxon,taxonomy_name,Eucyclops,taxonomy_rank,genus
+12,Macrocyclops albidus (Copepoda),taxon,taxonomy_name,Macrocyclops albidus,taxonomy_rank,NA
+13,Tetraedron sp.,taxon,taxonomy_name,Tetraedron,taxonomy_rank,genus
+14,Tabellaria sp.,taxon,taxonomy_name,Tabellaria,taxonomy_rank,genus
+15,Navicula sp.,taxon,taxonomy_name,Navicula,taxonomy_rank,genus
+16,Algae spp.,taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+17,Amorphous detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+18,Angrobia sp. (Mollusca - Gastropoda),taxon,taxonomy_name,NA,taxonomy_rank,NA
+19,Triplectides ciuskeus (Trichoptera - Leptoceridae),taxon,taxonomy_name,NA,taxonomy_rank,NA
+20,Necterosoma penicillatus - adult (Chironomidae - Dytiscidae),taxon,taxonomy_name,NA,taxonomy_rank,NA
+21,Dead cellular plant material,taxon,taxonomy_name,NA,taxonomy_rank,NA
+22,Sphaerium tasmanicum (Mollusca - Bivalvia),taxon,taxonomy_name,Sphaerium tasmanicum,taxonomy_rank,species
+23,Leptorussa darlingtoni (Trichoptera - Leptoceridae),taxon,taxonomy_name,Leptorussa darlingtoni,taxonomy_rank,species
+24,Macrogyrus oblongus - adult (Chironomidae  - Gyrinidae),taxon,taxonomy_name,Macrogyrus oblongus,taxonomy_rank,NA
+25,Terrestrial insects,taxon,taxonomy_name,NA,taxonomy_rank,NA
+26,Galaxias olidus (Pisces - Galaxidae),taxon,taxonomy_name,Galaxias olidus,taxonomy_rank,species
+27,Glacidorbis hedleyi (Mollusca - Gastropoda),taxon,taxonomy_name,Glacidorbis hedleyi,taxonomy_rank,species
+28,Coelopynia sp. (Diptera - Chironomidae),taxon,taxonomy_name,Coelopynia,taxonomy_rank,genus
+29,Riethia sp. (Diptera - Chironomidae),taxon,taxonomy_name,Riethia,taxonomy_rank,genus
+30,Austrosimulium sp. (Diptera - Chironomidae),taxon,taxonomy_name,Austrosimulium,taxonomy_rank,genus
+31,Tipulidae sp. 1 (Diptera),taxon,taxonomy_name,Tipulidae,taxonomy_rank,family
+32,Tipulidae sp. 2 (Diptera),taxon,taxonomy_name,Tipulidae,taxonomy_rank,family
+33,Riekoperla rugosa (Pisces - Glossomatidae),taxon,taxonomy_name,Riekoperla rugosa,taxonomy_rank,species
+34,Illiesoperla australis (Pisces - Glossomatidae),taxon,taxonomy_name,Illiesoperla australis,taxonomy_rank,species
+35,Ilyocypris australiensis (Crustacea - Ostracoda),taxon,taxonomy_name,Ilyocypris australiensis,taxonomy_rank,NA
+36,Fungi,taxon,taxonomy_name,NA,taxonomy_rank,NA
+37,Agapetus kimminsii (Trichoptera - Glossomatidae),taxon,taxonomy_name,NA,taxonomy_rank,NA
+38,Koorononga pilosa (Ephemeroptera - Leptophlebiidae),taxon,taxonomy_name,NA,taxonomy_rank,NA
+39,Leptoperla bifida (Pisces - Gripopterygidae),taxon,taxonomy_name,Leptoperla bifida,taxonomy_rank,species
+40,Rheotanytarsus sp. (Diptera - Chironomidae),taxon,taxonomy_name,Rheotanytarsus,taxonomy_rank,genus
+41,Parakieferiella sp. (Diptera - Chironomidae),taxon,taxonomy_name,Parakieferiella,taxonomy_rank,NA
+42,Chironomidae sp. (Chironomidae - Diptera),taxon,taxonomy_name,Chironomidae,taxonomy_rank,family
+43,Orthocladiinae sp. 8 (Chironomidae - Diptera),taxon,taxonomy_name,Orthocladiinae,taxonomy_rank,NA
+44,Tanypod sp. (Chironomidae - Diptera),taxon,taxonomy_name,Tanypod,taxonomy_rank,NA
+45,Acruroperla atra (Pisces - Austroperlidae),taxon,taxonomy_name,Acruroperla atra,taxonomy_rank,species
+46,Dinotoperla serricauda (Pisces - Gripopterygidae),taxon,taxonomy_name,Dinotoperla serricauda,taxonomy_rank,species
+47,Cricotopus annuliventrus (Diptera - Chironomidae),taxon,taxonomy_name,NA,taxonomy_rank,NA
+48,Thienmaniella trivittata (Diptera - Chironomidae),taxon,taxonomy_name,NA,taxonomy_rank,NA
+49,Austrocerca tillyardi (Pisces - Gripopterygidae),taxon,taxonomy_name,NA,taxonomy_rank,NA
+50,Afrochiltonia australis (Crustacea - Amphipoda),taxon,taxonomy_name,Afrochiltonia australis,taxonomy_rank,NA
+51,Hydra sp.,taxon,taxonomy_name,Hydra,taxonomy_rank,genus
+52,nr. Halocladius sp. (Diptera - Chironomidae),taxon,taxonomy_name,Halocladius,taxonomy_rank,genus
+53,Stempellina sp. (Diptera - Chironomidae),taxon,taxonomy_name,Stempellina,taxonomy_rank,genus
+54,Eukiefferiella sp. (Chironomidae - Diptera),taxon,taxonomy_name,Eukiefferiella,taxonomy_rank,genus
+55,Brillia sp. (Chironomidae - Diptera),taxon,taxonomy_name,Brillia,taxonomy_rank,genus
+56,Tipulid sp. (Chironomidae - Diptera),taxon,taxonomy_name,Tipulid,taxonomy_rank,NA
+57,Polypedilum sp. (Chironomidae - Diptera),taxon,taxonomy_name,Polypedilum,taxonomy_rank,genus
+58,Larsia sp. (Chironomidae - Diptera),taxon,taxonomy_name,Larsia,taxonomy_rank,genus
+59,Ablabesmyia sp. (Chironomidae - Diptera),taxon,taxonomy_name,Ablabesmyia,taxonomy_rank,genus
+60,Ecnomus russellius (Trichoptera - Ecnomidae),taxon,taxonomy_name,Ecnomus russellius,taxonomy_rank,species
+61,Oecetis sp. (Trichoptera - Leptoceridae),taxon,taxonomy_name,Oecetis,taxonomy_rank,genus
+62,Apsilochorema sp. (Trichoptera - Hydrobiosidae),taxon,taxonomy_name,Apsilochorema,taxonomy_rank,genus
+63,Dinotoperla sp. (Pisces - Gripopterygidae),taxon,taxonomy_name,Dinotoperla,taxonomy_rank,genus
+64,Pleuroxus sp. (Crustacea - Cladocera),taxon,taxonomy_name,Pleuroxus,taxonomy_rank,genus
+65,Empididae sp. 1 (Diptera),taxon,taxonomy_name,Empididae,taxonomy_rank,family
+66,Macrogyrus oblongus (Chironomidae  - Gyrinidae),taxon,taxonomy_name,Macrogyrus oblongus,taxonomy_rank,NA
+67,Tanytarsus inextensus (Diptera - Chironomidae),taxon,taxonomy_name,NA,taxonomy_rank,NA
+68,Tasmasia acuta (Trichoptera - Calocidae),taxon,taxonomy_name,NA,taxonomy_rank,NA

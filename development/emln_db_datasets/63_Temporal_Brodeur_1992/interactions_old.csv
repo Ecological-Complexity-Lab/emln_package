@@ -1,0 +1,384 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+Market squid,1,Clionidae,1,0.1,trophic,method,observation
+Sablefish,1,Cnidarians Hydromedusae,1,14.4,trophic,method,observation
+Spiny dogfish,1,Cnidarians Hydromedusae,1,50.2,trophic,method,observation
+Spiny dogfish,1,Scyphomedusae,1,50.2,trophic,method,observation
+Coho salmon adult,1,Scyphomedusae,1,15.1,trophic,method,observation
+Chinook salmon adult,1,Cnidarians Hydromedusae,1,0.4,trophic,method,observation
+Chinook salmon adult,1,Scyphomedusae,1,0.4,trophic,method,observation
+Steelhead trout,1,Cnidarians Hydromedusae,1,0.7,trophic,method,observation
+Steelhead trout,1,Scyphomedusae,1,0.7,trophic,method,observation
+Sablefish,1,Scyphomedusae,1,14.4,trophic,method,observation
+Market squid,1,Pteropods Limacina helicina,1,0.1,trophic,method,observation
+Northern anchovy,1,Clionidae,1,45,trophic,method,observation
+Coho salmon juvenile,1,Pteropods Limacina helicina,1,5.4,trophic,method,observation
+Coho salmon juvenile,1,Clionidae,1,5.4,trophic,method,observation
+Coho salmon adult,1,Pteropods Limacina helicina,1,0.2,trophic,method,observation
+Coho salmon adult,1,Clionidae,1,0.2,trophic,method,observation
+Chinook salmon juvenile,1,Pteropods Limacina helicina,1,0.5,trophic,method,observation
+Chinook salmon juvenile,1,Clionidae,1,0.5,trophic,method,observation
+Cutthroat trout,1,Pteropods Limacina helicina,1,0.2,trophic,method,observation
+Cutthroat trout,1,Clionidae,1,0.2,trophic,method,observation
+Sablefish,1,Pteropods Limacina helicina,1,7.2,trophic,method,observation
+Sablefish,1,Clionidae,1,7.2,trophic,method,observation
+Northern anchovy,1,Cephalopods Loligo opalescens,1,0.5,trophic,method,observation
+Coho salmon juvenile,1,Cephalopods Loligo opalescens,1,0.2,trophic,method,observation
+Coho salmon adult,1,Cephalopods Loligo opalescens,1,3.7,trophic,method,observation
+Chinook salmon juvenile,1,Cephalopods Loligo opalescens,1,1.09,trophic,method,observation
+Steelhead trout,1,Cephalopods Loligo opalescens,1,1.2,trophic,method,observation
+Market squid,1,Copepods Neocalanus cristatus,1,5.3,trophic,method,observation
+Market squid,1,N. plumchrus,1,5.3,trophic,method,observation
+American shad,1,Copepods Neocalanus cristatus,1,61.2,trophic,method,observation
+American shad,1,N. plumchrus,1,61.2,trophic,method,observation
+Northern anchovy,1,Copepods Neocalanus cristatus,1,13.1,trophic,method,observation
+Northern anchovy,1,N. plumchrus,1,13.1,trophic,method,observation
+Coho salmon juvenile,1,Copepods Neocalanus cristatus,1,0.3,trophic,method,observation
+Coho salmon juvenile,1,N. plumchrus,1,0.3,trophic,method,observation
+Chinook salmon juvenile,1,Copepods Neocalanus cristatus,1,0.1,trophic,method,observation
+Chinook salmon juvenile,1,N. plumchrus,1,0.1,trophic,method,observation
+Steelhead trout,1,Copepods Neocalanus cristatus,1,0.1,trophic,method,observation
+Steelhead trout,1,N. plumchrus,1,0.1,trophic,method,observation
+Steelhead trout,1,CIRR,1,11,trophic,method,observation
+Northern anchovy,1,Amphipods,1,0.7,trophic,method,observation
+Coho salmon juvenile,1,Amphipods,1,0.6,trophic,method,observation
+Chinook salmon juvenile,1,Amphipods,1,0.1,trophic,method,observation
+Steelhead trout,1,Amphipods,1,2.3,trophic,method,observation
+Market squid,1,Ephausiids,1,4,trophic,method,observation
+Spiny dogfish,1,Ephausiids,1,0.2,trophic,method,observation
+American shad,1,Ephausiids,1,38.5,trophic,method,observation
+Northern anchovy,1,Ephausiids,1,33,trophic,method,observation
+Coho salmon juvenile,1,Ephausiids,1,5.8,trophic,method,observation
+Chinook salmon juvenile,1,Ephausiids,1,2.6,trophic,method,observation
+Steelhead trout,1,Ephausiids,1,17.2,trophic,method,observation
+Sablefish,1,Ephausiids,1,3.6,trophic,method,observation
+Market squid,1,Decapods,1,8.3,trophic,method,observation
+American shad,1,Decapods,1,0.3,trophic,method,observation
+Northern anchovy,1,Decapods,1,6.5,trophic,method,observation
+Coho salmon juvenile,1,Decapods,1,1.01,trophic,method,observation
+Coho salmon adult,1,Decapods,1,9.9,trophic,method,observation
+Chinook salmon juvenile,1,Decapods,1,5.2,trophic,method,observation
+Steelhead trout,1,Decapods,1,5.9,trophic,method,observation
+Sablefish,1,Decapods,1,11.7,trophic,method,observation
+Coho salmon juvenile,1,Insects,1,0.2,trophic,method,observation
+Chinook salmon juvenile,1,Insects,1,0.3,trophic,method,observation
+Steelhead trout,1,Insects,1,0.3,trophic,method,observation
+Market squid,1,Chaetognaths,1,67,trophic,method,observation
+Sablefish,1,Thaliacians,1,8.3,trophic,method,observation
+Spiny dogfish,1,Clupeids,1,19.1,trophic,method,observation
+Coho salmon juvenile,1,Clupeids,1,2.1,trophic,method,observation
+Coho salmon adult,1,Clupeids,1,70.4,trophic,method,observation
+Chinook salmon juvenile,1,Clupeids,1,9.9,trophic,method,observation
+Chinook salmon adult,1,Clupeids,1,98.2,trophic,method,observation
+Cutthroat trout,1,Clupeids,1,59.9,trophic,method,observation
+Market squid,1,Scorpaenids,1,1,trophic,method,observation
+Coho salmon juvenile,1,Scorpaenids,1,41.3,trophic,method,observation
+Coho salmon adult,1,Scorpaenids,1,0.8,trophic,method,observation
+Chinook salmon juvenile,1,Scorpaenids,1,21.4,trophic,method,observation
+Chinook salmon adult,1,Scorpaenids,1,0.2,trophic,method,observation
+Cutthroat trout,1,Scorpaenids,1,14.3,trophic,method,observation
+Steelhead trout,1,Scorpaenids,1,41.3,trophic,method,observation
+Sablefish,1,Scorpaenids,1,34.8,trophic,method,observation
+Coho salmon juvenile,1,Pleuronectids,1,2.4,trophic,method,observation
+Chinook salmon juvenile,1,Pleuronectids,1,7.1,trophic,method,observation
+Steelhead trout,1,Pleuronectids,1,2.4,trophic,method,observation
+Market squid,1,Other fishes,1,13.2,trophic,method,observation
+Spiny dogfish,1,Other fishes,1,26.7,trophic,method,observation
+Northern anchovy,1,Other fishes,1,0.9,trophic,method,observation
+Coho salmon juvenile,1,Other fishes,1,31.6,trophic,method,observation
+Chinook salmon juvenile,1,Other fishes,1,41.8,trophic,method,observation
+Chinook salmon adult,1,Other fishes,1,1.1,trophic,method,observation
+Cutthroat trout,1,Other fishes,1,25,trophic,method,observation
+Steelhead trout,1,Other fishes,1,17.6,trophic,method,observation
+Sablefish,1,Other fishes,1,19.9,trophic,method,observation
+Market squid,1,Cnidarians Hydromedusae,1,1.1,trophic,method,observation
+Northern anchovy,1,Pteropods Limacina helicina,1,45,trophic,method,observation
+Spiny dogfish,1,Pleuronectids,1,3.8,trophic,method,observation
+Coho salmon adult,1,Cnidarians Hydromedusae,1,15.1,trophic,method,observation
+Market squid,1,Scyphomedusae,1,1.1,trophic,method,observation
+Cutthroat trout,1,Ephausiids,1,0.4,trophic,method,observation
+Spiny dogfish,2,Clupeids,2,19.3,trophic,method,observation
+Spiny dogfish,2,Ctenophores Beroe sp.,2,0.4,trophic,method,observation
+Chum salmon juvenile,2,Ctenophores Beroe sp.,2,0.6,trophic,method,observation
+Coho salmon adult,2,Ctenophores Beroe sp.,2,0.1,trophic,method,observation
+Chinook salmon adult,2,Ctenophores Beroe sp.,2,0.1,trophic,method,observation
+Sablefish,2,Ctenophores Beroe sp.,2,0.3,trophic,method,observation
+Coho salmon juvenile,2,Pteropods Limacina helicina,2,0.6,trophic,method,observation
+Coho salmon juvenile,2,Clionidae,2,0.6,trophic,method,observation
+Coho salmon adult,2,Pteropods Limacina helicina,2,0.1,trophic,method,observation
+Coho salmon adult,2,Clionidae,2,0.1,trophic,method,observation
+Chinook salmon juvenile,2,Pteropods Limacina helicina,2,1,trophic,method,observation
+Chinook salmon juvenile,2,Clionidae,2,1,trophic,method,observation
+Chinook salmon adult,2,Pteropods Limacina helicina,2,0.1,trophic,method,observation
+Chinook salmon adult,2,Clionidae,2,0.1,trophic,method,observation
+Jack mackerel,2,Pteropods Limacina helicina,2,1.3,trophic,method,observation
+Jack mackerel,2,Clionidae,2,1.3,trophic,method,observation
+Sablefish,2,Pteropods Limacina helicina,2,0.7,trophic,method,observation
+Sablefish,2,Clionidae,2,0.7,trophic,method,observation
+Chinook salmon juvenile,2,Cephalopods Loligo opalescens,2,0.7,trophic,method,observation
+Chinook salmon adult,2,Cephalopods Loligo opalescens,2,1.6,trophic,method,observation
+Black rockfish,2,Cephalopods Loligo opalescens,2,0.1,trophic,method,observation
+Pacific herring,2,Copepods Neocalanus cristatus,2,19.2,trophic,method,observation
+Pacific herring,2,N. plumchrus,2,19.2,trophic,method,observation
+Chum salmon juvenile,2,Copepods Neocalanus cristatus,2,5.9,trophic,method,observation
+Chum salmon juvenile,2,N. plumchrus,2,5.9,trophic,method,observation
+Coho salmon juvenile,2,Copepods Neocalanus cristatus,2,0.7,trophic,method,observation
+Coho salmon juvenile,2,N. plumchrus,2,0.7,trophic,method,observation
+Chinook salmon juvenile,2,Copepods Neocalanus cristatus,2,0.5,trophic,method,observation
+Chinook salmon juvenile,2,N. plumchrus,2,0.5,trophic,method,observation
+Jack mackerel,2,N. plumchrus,2,0.6,trophic,method,observation
+Pacific mackerel,2,Copepods Neocalanus cristatus,2,0.8,trophic,method,observation
+Pacific mackerel,2,N. plumchrus,2,0.8,trophic,method,observation
+Pacific herring,2,Amphipods,2,11.1,trophic,method,observation
+Chum salmon juvenile,2,Amphipods,2,1.5,trophic,method,observation
+Coho salmon juvenile,2,Amphipods,2,2,trophic,method,observation
+Chinook salmon juvenile,2,Amphipods,2,0.2,trophic,method,observation
+Jack mackerel,2,Amphipods,2,3.8,trophic,method,observation
+Pacific mackerel,2,Amphipods,2,0.1,trophic,method,observation
+Sablefish,2,Amphipods,2,6.7,trophic,method,observation
+Spiny dogfish,2,Ephausiids,2,2.3,trophic,method,observation
+Pacific herring,2,Ephausiids,2,68.5,trophic,method,observation
+Chum salmon juvenile,2,Ephausiids,2,19,trophic,method,observation
+Coho salmon juvenile,2,Ephausiids,2,3,trophic,method,observation
+Coho salmon adult,2,Ephausiids,2,0.6,trophic,method,observation
+Chinook salmon juvenile,2,Ephausiids,2,1.1,trophic,method,observation
+Chinook salmon adult,2,Ephausiids,2,13.9,trophic,method,observation
+Jack mackerel,2,Ephausiids,2,90.8,trophic,method,observation
+Pacific mackerel,2,Ephausiids,2,88.9,trophic,method,observation
+Black rockfish,2,Ephausiids,2,3.3,trophic,method,observation
+Sablefish,2,Ephausiids,2,5.5,trophic,method,observation
+Chum salmon juvenile,2,Decapods,2,1.2,trophic,method,observation
+Coho salmon juvenile,2,Decapods,2,13.6,trophic,method,observation
+Coho salmon adult,2,Decapods,2,55.5,trophic,method,observation
+Chinook salmon juvenile,2,Decapods,2,10.4,trophic,method,observation
+Chinook salmon adult,2,Decapods,2,3.6,trophic,method,observation
+Cutthroat trout,2,Decapods,2,3.7,trophic,method,observation
+Jack mackerel,2,Decapods,2,3.1,trophic,method,observation
+Pacific mackerel,2,Decapods,2,0.7,trophic,method,observation
+Black rockfish,2,Decapods,2,18.1,trophic,method,observation
+Sablefish,2,Decapods,2,3.9,trophic,method,observation
+Chum salmon juvenile,2,Insects,2,0.9,trophic,method,observation
+Coho salmon juvenile,2,Insects,2,0.2,trophic,method,observation
+Cutthroat trout,2,Insects,2,0.3,trophic,method,observation
+Chum salmon juvenile,2,Chaetognaths,2,55.3,trophic,method,observation
+Coho salmon juvenile,2,Thaliacians,2,0.6,trophic,method,observation
+Pacific mackerel,2,Thaliacians,2,7.3,trophic,method,observation
+Sablefish,2,Thaliacians,2,76.1,trophic,method,observation
+Chum salmon juvenile,2,Clupeids,2,10.4,trophic,method,observation
+Coho salmon juvenile,2,Clupeids,2,2.2,trophic,method,observation
+Coho salmon adult,2,Clupeids,2,36,trophic,method,observation
+Chinook salmon juvenile,2,Clupeids,2,0.9,trophic,method,observation
+Chinook salmon adult,2,Clupeids,2,30.6,trophic,method,observation
+Cutthroat trout,2,Clupeids,2,2,trophic,method,observation
+Black rockfish,2,Clupeids,2,41.9,trophic,method,observation
+Chum salmon juvenile,2,Scorpaenids,2,0.3,trophic,method,observation
+Coho salmon juvenile,2,Scorpaenids,2,26.5,trophic,method,observation
+Chinook salmon juvenile,2,Scorpaenids,2,20.7,trophic,method,observation
+Chinook salmon adult,2,Scorpaenids,2,7.3,trophic,method,observation
+Cutthroat trout,2,Scorpaenids,2,45.7,trophic,method,observation
+Pacific mackerel,2,Scorpaenids,2,1.1,trophic,method,observation
+Spiny dogfish,2,Pleuronectids,2,31.2,trophic,method,observation
+Coho salmon juvenile,2,Pleuronectids,2,6.3,trophic,method,observation
+Coho salmon adult,2,Pleuronectids,2,0.4,trophic,method,observation
+Chinook salmon juvenile,2,Pleuronectids,2,26.6,trophic,method,observation
+Chinook salmon adult,2,Pleuronectids,2,7.5,trophic,method,observation
+Pacific mackerel,2,Pleuronectids,2,0.2,trophic,method,observation
+Spiny dogfish,2,Other fishes,2,46.8,trophic,method,observation
+Pacific herring,2,Other fishes,2,1.2,trophic,method,observation
+Chum salmon juvenile,2,Other fishes,2,4.3,trophic,method,observation
+Coho salmon juvenile,2,Other fishes,2,43.6,trophic,method,observation
+Coho salmon adult,2,Other fishes,2,7.1,trophic,method,observation
+Chinook salmon juvenile,2,Other fishes,2,38.7,trophic,method,observation
+Chinook salmon adult,2,Other fishes,2,35,trophic,method,observation
+Cutthroat trout,2,Other fishes,2,48.3,trophic,method,observation
+Jack mackerel,2,Other fishes,2,0.4,trophic,method,observation
+Pacific mackerel,2,Other fishes,2,0.9,trophic,method,observation
+Black rockfish,2,Other fishes,2,23.1,trophic,method,observation
+Jack mackerel,2,Copepods Neocalanus cristatus,2,0.6,trophic,method,observation
+Sablefish,2,Other fishes,2,6.7,trophic,method,observation
+Black rockfish,2,Ctenophores Beroe sp.,2,13.3,trophic,method,observation
+Coho salmon adult,3,Ephausiids,3,45.2,trophic,method,observation
+Chinook salmon juvenile,3,Ephausiids,3,1.6,trophic,method,observation
+Chinook salmon adult,3,Ephausiids,3,5.5,trophic,method,observation
+Pacific hake,3,Ephausiids,3,97.7,trophic,method,observation
+Jack mackerel,3,Ephausiids,3,79.2,trophic,method,observation
+Pacific mackerel,3,Ephausiids,3,29.6,trophic,method,observation
+Black rockfish,3,Ephausiids,3,47.5,trophic,method,observation
+Sablefish,3,Ephausiids,3,56.9,trophic,method,observation
+Market squid,3,Decapods,3,37,trophic,method,observation
+Spiny dogfish,3,Decapods,3,0.3,trophic,method,observation
+Coho salmon juvenile,3,Decapods,3,11.6,trophic,method,observation
+Coho salmon adult,3,Decapods,3,20.4,trophic,method,observation
+Chinook salmon adult,3,Amphipods,3,0.1,trophic,method,observation
+Market squid,3,Cnidarians Hydromedusae,3,22.2,trophic,method,observation
+Market squid,3,Scyphomedusae,3,22.2,trophic,method,observation
+Spiny dogfish,3,Cnidarians Hydromedusae,3,2.5,trophic,method,observation
+Spiny dogfish,3,Scyphomedusae,3,2.5,trophic,method,observation
+Pacific mackerel,3,Cnidarians Hydromedusae,3,3.7,trophic,method,observation
+Pacific mackerel,3,Scyphomedusae,3,3.7,trophic,method,observation
+Black rockfish,3,Cnidarians Hydromedusae,3,2.1,trophic,method,observation
+Black rockfish,3,Scyphomedusae,3,2.1,trophic,method,observation
+Sablefish,3,Cnidarians Hydromedusae,3,19.3,trophic,method,observation
+Sablefish,3,Scyphomedusae,3,19.3,trophic,method,observation
+Pacific mackerel,3,Ctenophores Beroe sp.,3,0.6,trophic,method,observation
+Black rockfish,3,Ctenophores Beroe sp.,3,7.1,trophic,method,observation
+Market squid,3,Cephalopods Loligo opalescens,3,1.9,trophic,method,observation
+Coho salmon juvenile,3,Cephalopods Loligo opalescens,3,0.1,trophic,method,observation
+Coho salmon adult,3,Cephalopods Loligo opalescens,3,3.7,trophic,method,observation
+Chinook salmon juvenile,3,Cephalopods Loligo opalescens,3,1.2,trophic,method,observation
+Chinook salmon adult,3,Cephalopods Loligo opalescens,3,0.8,trophic,method,observation
+Jack mackerel,3,Cephalopods Loligo opalescens,3,0.9,trophic,method,observation
+Coho salmon juvenile,3,Copepods Neocalanus cristatus,3,0.5,trophic,method,observation
+Coho salmon juvenile,3,N. plumchrus,3,0.5,trophic,method,observation
+Chinook salmon juvenile,3,Copepods Neocalanus cristatus,3,3.5,trophic,method,observation
+Chinook salmon juvenile,3,N. plumchrus,3,3.5,trophic,method,observation
+Jack mackerel,3,Copepods Neocalanus cristatus,3,0.2,trophic,method,observation
+Jack mackerel,3,N. plumchrus,3,0.2,trophic,method,observation
+Pacific mackerel,3,Copepods Neocalanus cristatus,3,34.3,trophic,method,observation
+Pacific mackerel,3,N. plumchrus,3,34.3,trophic,method,observation
+Black rockfish,3,Copepods Neocalanus cristatus,3,1.1,trophic,method,observation
+Black rockfish,3,N. plumchrus,3,1.1,trophic,method,observation
+Market squid,3,Amphipods,3,1.9,trophic,method,observation
+Coho salmon juvenile,3,Amphipods,3,1.7,trophic,method,observation
+Coho salmon adult,3,Amphipods,3,0.2,trophic,method,observation
+Chinook salmon juvenile,3,Amphipods,3,0.5,trophic,method,observation
+Jack mackerel,3,Amphipods,3,0.2,trophic,method,observation
+Pacific mackerel,3,Amphipods,3,1.1,trophic,method,observation
+Black rockfish,3,Amphipods,3,1,trophic,method,observation
+Sablefish,3,Amphipods,3,1.4,trophic,method,observation
+Market squid,3,Ephausiids,3,5.6,trophic,method,observation
+Spiny dogfish,3,Ephausiids,3,33.4,trophic,method,observation
+Coho salmon juvenile,3,Ephausiids,3,8.5,trophic,method,observation
+Chinook salmon juvenile,3,Decapods,3,5.9,trophic,method,observation
+Chinook salmon adult,3,Decapods,3,24,trophic,method,observation
+Pacific hake,3,Decapods,3,1.5,trophic,method,observation
+Jack mackerel,3,Decapods,3,7.6,trophic,method,observation
+Pacific mackerel,3,Decapods,3,15.5,trophic,method,observation
+Black rockfish,3,Decapods,3,24.9,trophic,method,observation
+Sablefish,3,Decapods,3,19.3,trophic,method,observation
+Coho salmon juvenile,3,Insects,3,14.3,trophic,method,observation
+Coho salmon adult,3,Insects,3,1.4,trophic,method,observation
+Chinook salmon juvenile,3,Insects,3,0.4,trophic,method,observation
+Chinook salmon juvenile,3,Chaetognaths,3,0.1,trophic,method,observation
+Jack mackerel,3,Chaetognaths,3,0.3,trophic,method,observation
+Coho salmon juvenile,3,Clupeids,3,0.7,trophic,method,observation
+Coho salmon adult,3,Clupeids,3,21.6,trophic,method,observation
+Chinook salmon juvenile,3,Clupeids,3,2.3,trophic,method,observation
+Chinook salmon adult,3,Clupeids,3,52,trophic,method,observation
+Coho salmon juvenile,3,Scorpaenids,3,30.5,trophic,method,observation
+Chinook salmon juvenile,3,Scorpaenids,3,35,trophic,method,observation
+Chinook salmon adult,3,Scorpaenids,3,10.1,trophic,method,observation
+Jack mackerel,3,Scorpaenids,3,0.2,trophic,method,observation
+Spiny dogfish,3,Pleuronectids,3,23,trophic,method,observation
+Coho salmon juvenile,3,Pleuronectids,3,0.8,trophic,method,observation
+Chinook salmon juvenile,3,Pleuronectids,3,9.8,trophic,method,observation
+Jack mackerel,3,Pleuronectids,3,6,trophic,method,observation
+Black rockfish,3,Pleuronectids,3,0.5,trophic,method,observation
+Market squid,3,Other fishes,3,31.4,trophic,method,observation
+Spiny dogfish,3,Other fishes,3,40.7,trophic,method,observation
+Coho salmon juvenile,3,Other fishes,3,32.1,trophic,method,observation
+Coho salmon adult,3,Other fishes,3,7.4,trophic,method,observation
+Chinook salmon adult,3,Other fishes,3,7.5,trophic,method,observation
+Pacific hake,3,Other fishes,3,0.7,trophic,method,observation
+Jack mackerel,3,Other fishes,3,5.2,trophic,method,observation
+Pacific mackerel,3,Other fishes,3,15.2,trophic,method,observation
+Black rockfish,3,Other fishes,3,15.8,trophic,method,observation
+Sablefish,3,Other fishes,3,3,trophic,method,observation
+Chinook salmon juvenile,3,Other fishes,3,39.7,trophic,method,observation
+Spiny dogfish,4,Ephausiids,4,0.1,trophic,method,observation
+Sockeye Salmon juvenile,4,Polychaetes Tomopteris sp.,4,1.3,trophic,method,observation
+Sockeye Salmon juvenile,4,Pelagagobia sp.,4,1.3,trophic,method,observation
+Coho salmon juvenile,4,Polychaetes Tomopteris sp.,4,0.2,trophic,method,observation
+Coho salmon juvenile,4,Pelagagobia sp.,4,0.2,trophic,method,observation
+Sockeye Salmon juvenile,4,Pteropods Limacina helicina,4,3.2,trophic,method,observation
+Sockeye Salmon juvenile,4,Clionidae,4,3.2,trophic,method,observation
+Coho salmon juvenile,4,Pteropods Limacina helicina,4,0.3,trophic,method,observation
+Coho salmon juvenile,4,Clionidae,4,0.3,trophic,method,observation
+Coho salmon adult,4,Pteropods Limacina helicina,4,0.3,trophic,method,observation
+Coho salmon adult,4,Clionidae,4,0.3,trophic,method,observation
+Chinook salmon juvenile,4,Pteropods Limacina helicina,4,0.2,trophic,method,observation
+Chinook salmon juvenile,4,Clionidae,4,0.2,trophic,method,observation
+Chinook salmon adult,4,Pteropods Limacina helicina,4,0.2,trophic,method,observation
+Chinook salmon adult,4,Clionidae,4,0.2,trophic,method,observation
+Jack mackerel,4,Pteropods Limacina helicina,4,1,trophic,method,observation
+Jack mackerel,4,Clionidae,4,1,trophic,method,observation
+Black rockfish,4,Pteropods Limacina helicina,4,0.2,trophic,method,observation
+Black rockfish,4,Clionidae,4,0.2,trophic,method,observation
+Spiny dogfish,4,Cephalopods Loligo opalescens,4,0.3,trophic,method,observation
+Coho salmon adult,4,Cephalopods Loligo opalescens,4,3.2,trophic,method,observation
+Chinook salmon juvenile,4,Cephalopods Loligo opalescens,4,0.5,trophic,method,observation
+Chinook salmon adult,4,Cephalopods Loligo opalescens,4,0.6,trophic,method,observation
+Sockeye Salmon juvenile,4,Copepods Neocalanus cristatus,4,4.9,trophic,method,observation
+Sockeye Salmon juvenile,4,N. plumchrus,4,4.9,trophic,method,observation
+Chum salmon juvenile,4,Copepods Neocalanus cristatus,4,34.6,trophic,method,observation
+Chum salmon juvenile,4,N. plumchrus,4,34.6,trophic,method,observation
+Coho salmon juvenile,4,Copepods Neocalanus cristatus,4,0.9,trophic,method,observation
+Coho salmon juvenile,4,N. plumchrus,4,0.9,trophic,method,observation
+Pacific herring,4,Amphipods,4,4.1,trophic,method,observation
+Sockeye Salmon juvenile,4,Amphipods,4,4.6,trophic,method,observation
+Chum salmon juvenile,4,Amphipods,4,6.9,trophic,method,observation
+Coho salmon juvenile,4,Amphipods,4,3.3,trophic,method,observation
+Coho salmon adult,4,Amphipods,4,0.1,trophic,method,observation
+Chinook salmon juvenile,4,Amphipods,4,0.1,trophic,method,observation
+Cutthroat trout,4,Amphipods,4,0.1,trophic,method,observation
+Steelhead trout,4,Amphipods,4,2.6,trophic,method,observation
+Pacific hake,4,Amphipods,4,0.3,trophic,method,observation
+Jack mackerel,4,Amphipods,4,0.1,trophic,method,observation
+Pacific herring,4,Ephausiids,4,95.5,trophic,method,observation
+Sockeye Salmon juvenile,4,Ephausiids,4,15.5,trophic,method,observation
+Chum salmon juvenile,4,Ephausiids,4,48.8,trophic,method,observation
+Coho salmon juvenile,4,Ephausiids,4,13.8,trophic,method,observation
+Coho salmon adult,4,Ephausiids,4,59.8,trophic,method,observation
+Chinook salmon juvenile,4,Ephausiids,4,9,trophic,method,observation
+Chinook salmon adult,4,Ephausiids,4,46.7,trophic,method,observation
+Cutthroat trout,4,Ephausiids,4,1.3,trophic,method,observation
+Steelhead trout,4,Ephausiids,4,61.7,trophic,method,observation
+Pacific hake,4,Ephausiids,4,23.7,trophic,method,observation
+Jack mackerel,4,Ephausiids,4,14.1,trophic,method,observation
+Black rockfish,4,Ephausiids,4,74.4,trophic,method,observation
+Pacific herring,4,Decapods,4,0.4,trophic,method,observation
+Sockeye Salmon juvenile,4,Decapods,4,1.2,trophic,method,observation
+Chum salmon juvenile,4,Decapods,4,8.9,trophic,method,observation
+Coho salmon juvenile,4,Decapods,4,5.3,trophic,method,observation
+Coho salmon adult,4,Decapods,4,5.8,trophic,method,observation
+Chinook salmon juvenile,4,Decapods,4,3.1,trophic,method,observation
+Cutthroat trout,4,Decapods,4,0.4,trophic,method,observation
+Steelhead trout,4,Decapods,4,1.2,trophic,method,observation
+Pacific hake,4,Decapods,4,0.3,trophic,method,observation
+Black rockfish,4,Decapods,4,10.4,trophic,method,observation
+Coho salmon juvenile,4,Insects,4,0.3,trophic,method,observation
+Cutthroat trout,4,Insects,4,0.3,trophic,method,observation
+Spiny dogfish,4,Clupeids,4,1,trophic,method,observation
+Sockeye Salmon juvenile,4,Clupeids,4,4.3,trophic,method,observation
+Coho salmon juvenile,4,Clupeids,4,6.7,trophic,method,observation
+Coho salmon adult,4,Clupeids,4,23.1,trophic,method,observation
+Chinook salmon juvenile,4,Clupeids,4,23.4,trophic,method,observation
+Chinook salmon adult,4,Clupeids,4,31.8,trophic,method,observation
+Cutthroat trout,4,Clupeids,4,1,trophic,method,observation
+Steelhead trout,4,Clupeids,4,2.8,trophic,method,observation
+Pacific hake,4,Clupeids,4,55.4,trophic,method,observation
+Jack mackerel,4,Clupeids,4,70.6,trophic,method,observation
+Coho salmon juvenile,4,Scorpaenids,4,14.5,trophic,method,observation
+Coho salmon adult,4,Scorpaenids,4,5.2,trophic,method,observation
+Chinook salmon juvenile,4,Scorpaenids,4,23.9,trophic,method,observation
+Chinook salmon adult,4,Scorpaenids,4,0.5,trophic,method,observation
+Cutthroat trout,4,Scorpaenids,4,13.2,trophic,method,observation
+Steelhead trout,4,Scorpaenids,4,4.6,trophic,method,observation
+Pacific hake,4,Scorpaenids,4,0.4,trophic,method,observation
+Jack mackerel,4,Scorpaenids,4,0.7,trophic,method,observation
+Black rockfish,4,Scorpaenids,4,1.7,trophic,method,observation
+Spiny dogfish,4,Pleuronectids,4,12.3,trophic,method,observation
+Coho salmon juvenile,4,Pleuronectids,4,1,trophic,method,observation
+Chinook salmon juvenile,4,Pleuronectids,4,2.5,trophic,method,observation
+Black rockfish,4,Pleuronectids,4,2,trophic,method,observation
+Spiny dogfish,4,Other fishes,4,86.3,trophic,method,observation
+Sockeye Salmon juvenile,4,Other fishes,4,65,trophic,method,observation
+Coho salmon juvenile,4,Other fishes,4,54.2,trophic,method,observation
+Coho salmon adult,4,Other fishes,4,2.6,trophic,method,observation
+Chinook salmon juvenile,4,Other fishes,4,37.2,trophic,method,observation
+Chinook salmon adult,4,Other fishes,4,19.6,trophic,method,observation
+Cutthroat trout,4,Other fishes,4,83.8,trophic,method,observation
+Steelhead trout,4,Other fishes,4,27.1,trophic,method,observation
+Pacific hake,4,Other fishes,4,19.9,trophic,method,observation
+Jack mackerel,4,Other fishes,4,13.6,trophic,method,observation
+Black rockfish,4,Other fishes,4,11.3,trophic,method,observation
+Chinook salmon adult,4,Decapods,4,0.6,trophic,method,observation

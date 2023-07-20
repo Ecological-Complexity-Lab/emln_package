@@ -1,0 +1,17 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,algae,taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+2,clay and bacteria,taxon,taxonomy_name,Bacteria,taxonomy_rank,genus
+3,Fabrea,taxon,taxonomy_name,Fabrea salina,taxonomy_rank,species
+4,Hexarthra,taxon,taxonomy_name,Hexarthra fennica,taxonomy_rank,species
+5,Turbellaria,taxon,taxonomy_name,Turbellaria,taxonomy_rank,NA
+6,nematods,taxon,taxonomy_name,Nematoda,taxonomy_rank,phylum
+7,Moina,taxon,taxonomy_name,Moina,taxonomy_rank,genus
+8,Cletocamptus,taxon,taxonomy_name,Cletocamptus retrogressus,taxonomy_rank,species
+9,Arctodisptomus,taxon,taxonomy_name,Arctodiaptomus salinus,taxonomy_rank,species
+10,detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+11,Branchinectella,taxon,taxonomy_name,Branchinectella media,taxonomy_rank,species
+12,Agabus,taxon,taxonomy_name,Agabus nebulosus,taxonomy_rank,species
+13,Diptera,taxon,taxonomy_name,NA,taxonomy_rank,NA
+14,Candela,taxon,taxonomy_name,NA,taxonomy_rank,NA
+15,microbial mat,taxon,taxonomy_name,NA,taxonomy_rank,NA
+16,Nematods,taxon,taxonomy_name,Nematoda,taxonomy_rank,phylum

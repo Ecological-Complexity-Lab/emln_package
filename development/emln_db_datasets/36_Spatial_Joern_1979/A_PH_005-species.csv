@@ -1,0 +1,79 @@
+Specie,Kingdom,Role,Degree,Sum(connections strength),Networks presence
+"Acrolophitus variegatus","Animals","Herbivore",5,5.0000,1
+"Ageneotettix deorum","Animals","Herbivore",6,6.0000,2
+"Arphia aberrans","Animals","Herbivore",4,4.0000,1
+"Arphia crassa","Animals","Herbivore",3,3.0000,2
+"Aulocara femoratum","Animals","Herbivore",5,5.0000,2
+"Cibolacris parviceps","Animals","Herbivore",12,12.0000,1
+"Eritettix variabilis","Animals","Herbivore",3,3.0000,2
+"Hadrotettix trifasciatus","Animals","Herbivore",17,17.0000,1
+"Heliaula rufa","Animals","Herbivore",6,6.0000,1
+"Hesperotettix viridis","Animals","Herbivore",7,7.0000,1
+"Leprus cyaneus","Animals","Herbivore",6,6.0000,2
+"Melanoplus arizonae","Animals","Herbivore",12,12.0000,2
+"Melanoplus desultorius","Animals","Herbivore",23,23.0000,2
+"Melanoplus gladstoni","Animals","Herbivore",10,10.0000,2
+"Mermiria bivittata","Animals","Herbivore",3,3.0000,1
+"Opeia obscura","Animals","Herbivore",3,3.0000,2
+"Parapomala wyomingensis","Animals","Herbivore",2,2.0000,1
+"Pedioscirtetes maculipennis","Animals","Herbivore",6,6.0000,1
+"Phoetaliotes nebrascensis","Animals","Herbivore",6,6.0000,2
+"Psoloessa texana","Animals","Herbivore",5,5.0000,2
+"Syrbula fuscovittata","Animals","Herbivore",2,2.0000,2
+"Trachyrachys aspera","Animals","Herbivore",2,2.0000,1
+"Trimerotropis pallidipennis","Animals","Herbivore",20,20.0000,2
+"Xanthippus corallipes","Animals","Herbivore",5,5.0000,1
+"Acacia constricta","Plants","Plant",1,1.0000,1
+"Allionia incarnata","Plants","Plant",4,4.0000,1
+"Argythamnia neomexicana","Plants","Plant",2,2.0000,1
+"Aristida writgii","Plants","Plant",1,1.0000,1
+"Asclepius sp1 A_PH_005","Plants","Plant",1,1.0000,1
+"Bouteloua curtipendula","Plants","Plant",2,2.0000,2
+"Bouteloua gracilis","Plants","Plant",17,17.0000,2
+"Bouteloua hirsuta","Plants","Plant",13,13.0000,2
+"Buchloe dactyloides","Plants","Plant",8,8.0000,2
+"Buddleja scordioides","Plants","Plant",1,1.0000,1
+"Calyophus hartwegii","Plants","Plant",1,1.0000,2
+"Cassia roemeriana","Plants","Plant",1,1.0000,1
+"Castilleja sp1 A_PH_005","Plants","Plant",1,1.0000,1
+"Choenopodium sp1 A_PH_005","Plants","Plant",2,2.0000,1
+"Convolvulus equitans","Plants","Plant",1,1.0000,2
+"Croton pottsii","Plants","Plant",10,10.0000,2
+"Cryptantha mexicana","Plants","Plant",5,5.0000,2
+"Dalea greggii","Plants","Plant",2,2.0000,1
+"Dyssodia acerosa","Plants","Plant",1,1.0000,1
+"Eragrostis intermedia","Plants","Plant",4,4.0000,2
+"Gaillardia pinnatifida","Plants","Plant",3,3.0000,1
+"Gilia rigidula","Plants","Plant",3,3.0000,1
+"Guara coccinea","Plants","Plant",1,1.0000,1
+"Hilaria mutica","Plants","Plant",2,2.0000,1
+"Iva ambrosiaefolia","Plants","Plant",3,3.0000,1
+"Lepidium lasiocarpum","Plants","Plant",2,2.0000,1
+"Leptaloma cognata","Plants","Plant",1,1.0000,2
+"Lesquerella fendleri","Plants","Plant",4,4.0000,1
+"Machaeranthera scabrella","Plants","Plant",1,1.0000,2
+"Muhlenbergia sp1 A_PH_005","Plants","Plant",2,2.0000,1
+"Polygala longa","Plants","Plant",6,6.0000,2
+"Scleropogon brevifolius","Plants","Plant",2,2.0000,2
+"Setaria leucopila","Plants","Plant",1,1.0000,2
+"Sida filicaulis","Plants","Plant",1,1.0000,1
+"Sporobolus sp1 A_PH_005","Plants","Plant",3,3.0000,1
+"Tidestromia lanuginosa","Plants","Plant",2,2.0000,1
+"Unidentified sp1 A_PH_005","Plants","Plant",2,2.0000,1
+"Unidentified sp10 A_PH_005","Plants","Plant",1,1.0000,1
+"Unidentified sp11 A_PH_005","Plants","Plant",6,6.0000,1
+"Unidentified sp12 A_PH_005","Plants","Plant",5,5.0000,1
+"Unidentified sp13 A_PH_005","Plants","Plant",2,2.0000,1
+"Unidentified sp14 A_PH_005","Plants","Plant",3,3.0000,1
+"Unidentified sp15 A_PH_005","Plants","Plant",1,1.0000,1
+"Unidentified sp2 A_PH_005","Plants","Plant",2,2.0000,1
+"Unidentified sp3 A_PH_005","Plants","Plant",1,1.0000,1
+"Unidentified sp4 A_PH_005","Plants","Plant",5,5.0000,1
+"Unidentified sp5 A_PH_005","Plants","Plant",11,11.0000,1
+"Unidentified sp6 A_PH_005","Plants","Plant",4,4.0000,1
+"Unidentified sp7 A_PH_005","Plants","Plant",1,1.0000,1
+"Unidentified sp8 A_PH_005","Plants","Plant",4,4.0000,1
+"Unidentified sp9 A_PH_005","Plants","Plant",1,1.0000,1
+"Verbena wrightii","Plants","Plant",2,2.0000,2
+"Xanthocephalum texanum","Plants","Plant",6,6.0000,2
+"Zinnia grandiflora","Plants","Plant",1,1.0000,2

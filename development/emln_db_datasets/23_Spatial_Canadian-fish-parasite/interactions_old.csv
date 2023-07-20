@@ -1,0 +1,1709 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+Catostomus catostomus,1,Anonchohaptor_anomalus,1,83.3,host-parasite,category,prevalence
+Catostomus catostomus,1,Diplostomum_spathaceum (L),1,83.3,host-parasite,category,prevalence
+Catostomus catostomus,1,Glaridacris_catostomi,1,83.3,host-parasite,category,prevalence
+Catostomus catostomus,1,Cystidicola_farionis,1,16.7,host-parasite,category,prevalence
+Coregonus clupeaformis,1,Discocotyle_sagittata,1,79.4,host-parasite,category,prevalence
+Coregonus clupeaformis,1,Crepidostomum_farionis,1,42.9,host-parasite,category,prevalence
+Coregonus clupeaformis,1,Diplostomum_spathaceum (L),1,96.8,host-parasite,category,prevalence
+Coregonus clupeaformis,1,Tetracotyle_sp. (L),1,84.1,host-parasite,category,prevalence
+Coregonus clupeaformis,1,Cyathocephalus_truncatus,1,34.9,host-parasite,category,prevalence
+Coregonus clupeaformis,1,Diphyllobothrium_sp. (L),1,47.6,host-parasite,category,prevalence
+Coregonus clupeaformis,1,Eubothrium_salvelini,1,12.7,host-parasite,category,prevalence
+Coregonus clupeaformis,1,Proteocephalus_tumidocollus,1,80.9,host-parasite,category,prevalence
+Coregonus clupeaformis,1,Triaenophorus_crassus (L),1,96.8,host-parasite,category,prevalence
+Coregonus clupeaformis,1,Cystidicola_farionis,1,76.2,host-parasite,category,prevalence
+Coregonus clupeaformis,1,Raphidascaris_acus (L),1,9.5,host-parasite,category,prevalence
+Coregonus clupeaformis,1,Neoechinorhynchus_tumidus,1,95.2,host-parasite,category,prevalence
+Coregonus clupeaformis,1,Piscicola_milneri,1,1.6,host-parasite,category,prevalence
+Coregonus clupeaformis,1,Salmincola_extensus,1,4.8,host-parasite,category,prevalence
+Cottus cognatus,1,Dactylogyrus_buddi,1,95.1,host-parasite,category,prevalence
+Cottus cognatus,1,Crepidostomum_farionis,1,31.1,host-parasite,category,prevalence
+Cottus cognatus,1,Diplostomum_spathaceum (L),1,98.4,host-parasite,category,prevalence
+Cottus cognatus,1,Heterophyid_meta (L),1,3.3,host-parasite,category,prevalence
+Cottus cognatus,1,Neascus_sp. (L),1,91.8,host-parasite,category,prevalence
+Cottus cognatus,1,Proteocephalus_tumidocollus,1,19.7,host-parasite,category,prevalence
+Cottus cognatus,1,Schistocephalus_solidus (L),1,8.2,host-parasite,category,prevalence
+Cottus cognatus,1,Neoechinorhynchus_tumidus,1,34.4,host-parasite,category,prevalence
+Esox lucius,1,Tetraonchus_monenteron,1,100,host-parasite,category,prevalence
+Esox lucius,1,Allocreadium_isosporum,1,7.1,host-parasite,category,prevalence
+Esox lucius,1,Crepidostomum_farionis,1,7.1,host-parasite,category,prevalence
+Esox lucius,1,Diplostomum_spathaceum (L),1,7.1,host-parasite,category,prevalence
+Esox lucius,1,Proteocephalus_tumidocollus,1,28.6,host-parasite,category,prevalence
+Esox lucius,1,Triaenophorus_crassus,1,64.3,host-parasite,category,prevalence
+Esox lucius,1,Raphidascaris_acus,1,57.1,host-parasite,category,prevalence
+Esox lucius,1,Neoechinorhynchus_tumidus,1,7.1,host-parasite,category,prevalence
+Esox lucius,1,Piscicola_milneri,1,7.1,host-parasite,category,prevalence
+Prosopium cylindraceum,1,Discocotyle_sagittata,1,56.1,host-parasite,category,prevalence
+Prosopium cylindraceum,1,Tetraonchus_variabilis,1,54.4,host-parasite,category,prevalence
+Prosopium cylindraceum,1,Crepidostomum_farionis,1,86,host-parasite,category,prevalence
+Prosopium cylindraceum,1,Diplostomum_spathaceum (L),1,94.7,host-parasite,category,prevalence
+Prosopium cylindraceum,1,Tetracotyle_sp. (L),1,73.7,host-parasite,category,prevalence
+Prosopium cylindraceum,1,Cyathocephalus_truncatus,1,1.8,host-parasite,category,prevalence
+Prosopium cylindraceum,1,Diphyllobothrium_sp. (L),1,5.3,host-parasite,category,prevalence
+Prosopium cylindraceum,1,Eubothrium_salvelini,1,3.5,host-parasite,category,prevalence
+Prosopium cylindraceum,1,Proteocephalus_tumidocollus,1,26.3,host-parasite,category,prevalence
+Prosopium cylindraceum,1,Triaenophorus_crassus (L),1,5.3,host-parasite,category,prevalence
+Prosopium cylindraceum,1,Capillaria_salvelini,1,1.8,host-parasite,category,prevalence
+Prosopium cylindraceum,1,Cystidicola_farionis,1,42.1,host-parasite,category,prevalence
+Prosopium cylindraceum,1,Neoechinorhynchus_tumidus,1,86,host-parasite,category,prevalence
+Prosopium cylindraceum,1,Piscicola_milneri,1,3.5,host-parasite,category,prevalence
+Salvelinus namaycush,1,Discocotyle_sagittata,1,1.6,host-parasite,category,prevalence
+Salvelinus namaycush,1,Crepidostomum_farionis,1,90.2,host-parasite,category,prevalence
+Salvelinus namaycush,1,Diplostomum_spathaceum (L),1,100,host-parasite,category,prevalence
+Salvelinus namaycush,1,Tetracotyle_sp. (L),1,80.3,host-parasite,category,prevalence
+Salvelinus namaycush,1,Cyathocephalus_truncatus,1,21.3,host-parasite,category,prevalence
+Salvelinus namaycush,1,Diphyllobothrium_sp. (L),1,44.3,host-parasite,category,prevalence
+Salvelinus namaycush,1,Eubothrium_salvelini,1,95.1,host-parasite,category,prevalence
+Salvelinus namaycush,1,Proteocephalus_tumidocollus,1,100,host-parasite,category,prevalence
+Salvelinus namaycush,1,Triaenophorus_crassus (L),1,22.9,host-parasite,category,prevalence
+Salvelinus namaycush,1,Capillaria_salvelini,1,21.3,host-parasite,category,prevalence
+Salvelinus namaycush,1,Cystidicola_farionis,1,82,host-parasite,category,prevalence
+Salvelinus namaycush,1,Neoechinorhynchus_tumidus,1,50.8,host-parasite,category,prevalence
+Salvelinus namaycush,1,Piscicola_milneri,1,6.6,host-parasite,category,prevalence
+Salvelinus namaycush,1,Salmincola_edwardsii,1,44.3,host-parasite,category,prevalence
+Thymallus arcticus,1,Discocotyle_sagittata,1,20.5,host-parasite,category,prevalence
+Thymallus arcticus,1,Tetraonchus_borealis,1,88.6,host-parasite,category,prevalence
+Thymallus arcticus,1,Allocreadium_isosporum,1,95.5,host-parasite,category,prevalence
+Thymallus arcticus,1,Crepidostomum_farionis,1,95.5,host-parasite,category,prevalence
+Thymallus arcticus,1,Diplostomum_spathaceum (L),1,86.4,host-parasite,category,prevalence
+Thymallus arcticus,1,Tetracotyle_sp. (L),1,13.6,host-parasite,category,prevalence
+Thymallus arcticus,1,Diphyllobothrium_sp. (L),1,18.2,host-parasite,category,prevalence
+Thymallus arcticus,1,Eubothrium_salvelini,1,15.9,host-parasite,category,prevalence
+Thymallus arcticus,1,Proteocephalus_tumidocollus,1,27.3,host-parasite,category,prevalence
+Thymallus arcticus,1,Triaenophorus_crassus (L),1,40.9,host-parasite,category,prevalence
+Thymallus arcticus,1,Capillaria_salvelini,1,2.3,host-parasite,category,prevalence
+Thymallus arcticus,1,Cystidicola_farionis,1,11.4,host-parasite,category,prevalence
+Thymallus arcticus,1,Raphidascaris_acus (L),1,18.2,host-parasite,category,prevalence
+Thymallus arcticus,1,Neoechinorhynchus_tumidus,1,18.2,host-parasite,category,prevalence
+Thymallus arcticus,1,Salmincola_thymalli,1,34.1,host-parasite,category,prevalence
+Coregonus artedii,2,Parasite genus_Parasite species,2,1,host-parasite,category,prevalence
+Coregonus artedii,2,Discocotyle_sagittata,2,20.9,host-parasite,category,prevalence
+Coregonus artedii,2,Cotylurus_erraticus (L),2,1.1,host-parasite,category,prevalence
+Coregonus artedii,2,Crepidostomum_farionis,2,1.6,host-parasite,category,prevalence
+Coregonus artedii,2,Cyathocephalus_truncatus,2,7.8,host-parasite,category,prevalence
+Coregonus artedii,2,Diphyllobothrium_sp. (L),2,1.2,host-parasite,category,prevalence
+Coregonus artedii,2,Triaenophorus_crassus (L),2,0.7,host-parasite,category,prevalence
+Coregonus artedii,2,Proteocephalus_filicollis,2,20.3,host-parasite,category,prevalence
+Coregonus artedii,2,Philonema_agubernaculum,2,0.9,host-parasite,category,prevalence
+Coregonus artedii,2,Cystidicola_farionis,2,1.5,host-parasite,category,prevalence
+Coregonus artedii,2,Metechinorhynchus_salmonis,2,32.4,host-parasite,category,prevalence
+Coregonus artedii,2,Pomphorhynchus_bulbocolli,2,2,host-parasite,category,prevalence
+Coregonus artedii,2,Ergasilus_auritus,2,25.1,host-parasite,category,prevalence
+Coregonus artedii,2,Ergasilus_nerkae,2,35.3,host-parasite,category,prevalence
+Coregonus artedii,2,Salmincola_extensus,2,0.1,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Parasite genus_Parasite species,2,2,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Discocotyle_sagittata,2,65.3,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Diplostomum_spathaceum (L),2,1.4,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Cotylurus_erraticus (L),2,48.7,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Crepidostomum_farionis,2,0.2,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Phyllodistomum_coregoni,2,1.9,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Cyathocephalus_truncatus,2,72.8,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Diphyllobothrium_sp. (L),2,0.1,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Proteocephalus_exiguus,2,14.3,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Cystidicola_farionis,2,76.1,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Metechinorhynchus_salmonis,2,99.5,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Pomphorhynchus_bulbocolli,2,1,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Ergasilus_auritus,2,1.2,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Ergasilus_nerkae,2,5.1,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Salmincola_extensus,2,30.9,host-parasite,category,prevalence
+Coregonus clupeaformis,2,Salmincola_extumescens,2,26.3,host-parasite,category,prevalence
+Salvelinus namaycush,2,Parasite genus_Parasite species,2,3,host-parasite,category,prevalence
+Salvelinus namaycush,2,Diplostomum_spathaceum (L),2,5.7,host-parasite,category,prevalence
+Salvelinus namaycush,2,Eubothrium_salvelini,2,100,host-parasite,category,prevalence
+Salvelinus namaycush,2,Triaenophorus_nodulosus (L),2,5.7,host-parasite,category,prevalence
+Salvelinus namaycush,2,Raphidascaris_acus (L),2,8.6,host-parasite,category,prevalence
+Salvelinus namaycush,2,Metechinorhynchus_salmonis,2,100,host-parasite,category,prevalence
+Salvelinus namaycush,2,Pomphorhynchus_bulbocolli,2,5.7,host-parasite,category,prevalence
+Salvelinus namaycush,2,Ergasilus_auritus,2,5.7,host-parasite,category,prevalence
+Salvelinus namaycush,2,Ergasilus_nerkae,2,2.9,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Parasite genus_Parasite species,2,4,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Discocotyle_sagittata,2,0.3,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Crepidostomum_farionis,2,10.5,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Cyathocephalus_truncatus,2,0.7,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Eubothrium_salvelini,2,2.4,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Diphyllobothrium_sp. (L),2,5.5,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Schistocephalus_solidus (L),2,0.3,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Triaenophorus_nodulosus (L),2,3.1,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Philonema_agubernaculum,2,16.8,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Cystidicola_farionis,2,4.8,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Neoechinorhynchus_strigosus,2,0.7,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Metechinorhynchus_salmonis,2,99.4,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Pomphorhynchus_bulbocolli,2,6.5,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Ergasilus_auritus,2,17.2,host-parasite,category,prevalence
+Oncorhynchus kisutch,2,Ergasilus_nerkae,2,38.1,host-parasite,category,prevalence
+Esox lucius,2,Parasite genus_Parasite species,2,5,host-parasite,category,prevalence
+Esox lucius,2,Schistocephalus_solidus (L),2,1.6,host-parasite,category,prevalence
+Esox lucius,2,Triaenophorus_crassus,2,3.2,host-parasite,category,prevalence
+Esox lucius,2,Triaenophorus_nodulosus,2,90.3,host-parasite,category,prevalence
+Esox lucius,2,Proteocephalus_pinguis,2,1.6,host-parasite,category,prevalence
+Esox lucius,2,Raphidascaris_acus,2,3.2,host-parasite,category,prevalence
+Esox lucius,2,Neoechinorhynchus_strigosus,2,1.6,host-parasite,category,prevalence
+Esox lucius,2,Metechinorhynchus_salmonis,2,83.9,host-parasite,category,prevalence
+Catostomus catostomus,2,Parasite genus_Parasite species,2,6,host-parasite,category,prevalence
+Catostomus catostomus,2,Glaridacris_sp.,2,50,host-parasite,category,prevalence
+Catostomus catostomus,2,Rhabdochona_cascadilla,2,58.3,host-parasite,category,prevalence
+Catostomus catostomus,2,Metechinorhynchus_salmonis,2,83.3,host-parasite,category,prevalence
+Catostomus catostomus,2,Ergasilus_sp. A,2,11.1,host-parasite,category,prevalence
+Catostomus commersoni,2,Parasite genus_Parasite species,2,7,host-parasite,category,prevalence
+Catostomus commersoni,2,Lissorchis_attenuatum,2,13.8,host-parasite,category,prevalence
+Catostomus commersoni,2,Glaridacris_sp.,2,5.6,host-parasite,category,prevalence
+Catostomus commersoni,2,Hunterella_nodulosa,2,5.6,host-parasite,category,prevalence
+Catostomus commersoni,2,Rhabdochona_cascadilla,2,8.3,host-parasite,category,prevalence
+Catostomus commersoni,2,Neoechinorhynchus_strigosus,2,13.8,host-parasite,category,prevalence
+Catostomus commersoni,2,Metechinorhynchus_salmonis,2,8.3,host-parasite,category,prevalence
+Catostomus commersoni,2,Pomphorhynchus_bulbocolli,2,100,host-parasite,category,prevalence
+Catostomus commersoni,2,Ergasilus_sp. A,2,11.1,host-parasite,category,prevalence
+Lota lota,2,Parasite genus_Parasite species,2,8,host-parasite,category,prevalence
+Lota lota,2,Cyathocephalus_truncatus,2,6.9,host-parasite,category,prevalence
+Lota lota,2,Eubothrium_rugosum,2,79.3,host-parasite,category,prevalence
+Lota lota,2,Triaenophorus_nodulosus (L),2,6.4,host-parasite,category,prevalence
+Lota lota,2,Haplonema_hamulatum,2,5.2,host-parasite,category,prevalence
+Lota lota,2,Metechinorhynchus_salmonis,2,100,host-parasite,category,prevalence
+Lota lota,2,Cystobranchus_verrilli,2,3.4,host-parasite,category,prevalence
+Pungitius pungitius,2,Parasite genus_Parasite species,2,9,host-parasite,category,prevalence
+Pungitius pungitius,2,Gyrodactylus_sp.,2,59.1,host-parasite,category,prevalence
+Pungitius pungitius,2,Diplostomum_spathaceum (L),2,74.7,host-parasite,category,prevalence
+Pungitius pungitius,2,Apatemon_gracilis (L),2,11,host-parasite,category,prevalence
+Pungitius pungitius,2,Cotylurus_erraticus (L),2,45.6,host-parasite,category,prevalence
+Pungitius pungitius,2,Bunodera_luciopercae,2,4.3,host-parasite,category,prevalence
+Pungitius pungitius,2,Schistocephalus_solidus (L),2,31.6,host-parasite,category,prevalence
+Pungitius pungitius,2,Triaenophorus_nodulosus (L),2,11.8,host-parasite,category,prevalence
+Pungitius pungitius,2,Proteocephalus_filicollis,2,11.7,host-parasite,category,prevalence
+Pungitius pungitius,2,Raphidascaris_acus (L),2,0.2,host-parasite,category,prevalence
+Pungitius pungitius,2,Metechinorhynchus_salmonis,2,19,host-parasite,category,prevalence
+Pungitius pungitius,2,Pomphorhynchus_bulbocolli,2,0.6,host-parasite,category,prevalence
+Pungitius pungitius,2,Ergasilus_auritus,2,13.3,host-parasite,category,prevalence
+Stizostedion vitreum,2,Parasite genus_Parasite species,2,10,host-parasite,category,prevalence
+Stizostedion vitreum,2,Bothriocephalus_cuspidatus,2,75,host-parasite,category,prevalence
+Stizostedion vitreum,2,Proteocephalus_sp. A,2,50,host-parasite,category,prevalence
+Stizostedion vitreum,2,Metechinorhynchus_salmonis,2,66.7,host-parasite,category,prevalence
+Salvelinus namaycush,3,Diplostomulum_sp. (L),3,57.1,host-parasite,category,prevalence
+Salvelinus namaycush,3,Eubothrium_salvelini,3,100,host-parasite,category,prevalence
+Salvelinus namaycush,3,Proteocephalus_parallacticus,3,57.1,host-parasite,category,prevalence
+Salvelinus namaycush,3,Triaenophorus_crassus (L),3,28.6,host-parasite,category,prevalence
+Salvelinus namaycush,3,Cystidicola_cristivomeri,3,100,host-parasite,category,prevalence
+Salvelinus namaycush,3,Metechinorhynchus_salmonis,3,85.7,host-parasite,category,prevalence
+Salvelinus namaycush,3,Salmincola_siscowet,3,57.1,host-parasite,category,prevalence
+Coregonus clupeaformis,3,Discocotyle_sagittata,3,20,host-parasite,category,prevalence
+Coregonus clupeaformis,3,Diplostomulum_sp. (L),3,13.3,host-parasite,category,prevalence
+Coregonus clupeaformis,3,Phyllodistomum_coregoni,3,60,host-parasite,category,prevalence
+Coregonus clupeaformis,3,Tetracotyle_intermedia (L),3,80,host-parasite,category,prevalence
+Coregonus clupeaformis,3,Cyathocephalus_truncatus,3,100,host-parasite,category,prevalence
+Coregonus clupeaformis,3,Diphyllobothrium_sp. (L),3,33.3,host-parasite,category,prevalence
+Coregonus clupeaformis,3,Proteocephalus_exiguus,3,13.3,host-parasite,category,prevalence
+Coregonus clupeaformis,3,Proteocephalus_laruei,3,26.7,host-parasite,category,prevalence
+Coregonus clupeaformis,3,Triaenophorus_crassus (L),3,53.3,host-parasite,category,prevalence
+Coregonus clupeaformis,3,Cystidicola_stigmatura,3,46.7,host-parasite,category,prevalence
+Coregonus clupeaformis,3,Metechinorhynchus_lateralis,3,20,host-parasite,category,prevalence
+Coregonus clupeaformis,3,Metechinorhynchus_salmonis,3,60,host-parasite,category,prevalence
+Coregonus clupeaformis,3,Neoechinorhynchus_tumidum,3,6.7,host-parasite,category,prevalence
+Coregonus clupeaformis,3,Achtheres_corpulentus,3,6.7,host-parasite,category,prevalence
+Coregonus artedii,3,Discocotyle_sagittata,3,42.3,host-parasite,category,prevalence
+Coregonus artedii,3,Diplostomulum_sp. (L),3,17.3,host-parasite,category,prevalence
+Coregonus artedii,3,Phyllodistomum_sp.,3,17.3,host-parasite,category,prevalence
+Coregonus artedii,3,Tetracotyle_intermedia (L),3,9.6,host-parasite,category,prevalence
+Coregonus artedii,3,Cyathocephalus_truncatus,3,19.2,host-parasite,category,prevalence
+Coregonus artedii,3,Diphyllobothrium_sp. (L),3,23.1,host-parasite,category,prevalence
+Coregonus artedii,3,Proteocephalus_exiguus,3,34.6,host-parasite,category,prevalence
+Coregonus artedii,3,Proteocephalus_laruei,3,5.8,host-parasite,category,prevalence
+Coregonus artedii,3,Triaenophorus_crassus (L),3,32.7,host-parasite,category,prevalence
+Coregonus artedii,3,Cystidicola_stigmatura,3,15.4,host-parasite,category,prevalence
+Coregonus artedii,3,Spinitectus_gracilis,3,7.7,host-parasite,category,prevalence
+Coregonus artedii,3,Metechinorhynchus_salmonis,3,28.8,host-parasite,category,prevalence
+Coregonus artedii,3,Neoechinorhynchus_tumidum,3,13.5,host-parasite,category,prevalence
+Coregonus artedii,3,Ergasilus_sp.,3,5.8,host-parasite,category,prevalence
+Coregonus artedii,3,Argulus_canadensis,3,23.1,host-parasite,category,prevalence
+Esox lucius,3,Tetraonchus_monenteron,3,69.6,host-parasite,category,prevalence
+Esox lucius,3,Azygia_angusticauda,3,26.1,host-parasite,category,prevalence
+Esox lucius,3,Azygia_longa,3,8.7,host-parasite,category,prevalence
+Esox lucius,3,Clinostomum_marginatum (L),3,13,host-parasite,category,prevalence
+Esox lucius,3,Diplostomulum_sp. (L),3,30.4,host-parasite,category,prevalence
+Esox lucius,3,Posthodiplostomum_minimum (L),3,8.7,host-parasite,category,prevalence
+Esox lucius,3,Tetracotyle_sp. (L),3,17.4,host-parasite,category,prevalence
+Esox lucius,3,Uvulifer_ambloplitis (L),3,8.7,host-parasite,category,prevalence
+Esox lucius,3,Proteocephalus_pinguis,3,86.9,host-parasite,category,prevalence
+Esox lucius,3,Triaenophorus_crassus,3,69.6,host-parasite,category,prevalence
+Esox lucius,3,Triaenophorus_nodulosus,3,47.8,host-parasite,category,prevalence
+Esox lucius,3,Contracaecum_brachyurum,3,95.7,host-parasite,category,prevalence
+Esox lucius,3,Leptorhynchoides_thecatus,3,17.4,host-parasite,category,prevalence
+Esox lucius,3,Metechinorhynchus_salmonis,3,39.1,host-parasite,category,prevalence
+Esox lucius,3,Neoechinorhynchus_tenellum,3,21.7,host-parasite,category,prevalence
+Esox lucius,3,Illinobdella_sp.,3,17.4,host-parasite,category,prevalence
+Carpiodes cyprinus,3,Anonchohaptor_anomalum,3,20,host-parasite,category,prevalence
+Carpiodes cyprinus,3,Triganodistomum_attenuatum,3,60,host-parasite,category,prevalence
+Carpiodes cyprinus,3,Glaridacris_confusus,3,40,host-parasite,category,prevalence
+Carpiodes cyprinus,3,Pomphorhynchus_bulbocolli,3,40,host-parasite,category,prevalence
+Catostomus commersoni,3,Acolpenteron_catostomi,3,25.5,host-parasite,category,prevalence
+Catostomus commersoni,3,Anonchohaptor_anomalum,3,7.8,host-parasite,category,prevalence
+Catostomus commersoni,3,Gyrodactylus_spathulatus,3,7.8,host-parasite,category,prevalence
+Catostomus commersoni,3,Octomacrum_lanceatum,3,11.8,host-parasite,category,prevalence
+Catostomus commersoni,3,Pellucidhaptor_nasalis,3,11.8,host-parasite,category,prevalence
+Catostomus commersoni,3,Pseudomurraytrema_copulatum,3,13.7,host-parasite,category,prevalence
+Catostomus commersoni,3,Allocreadium_lobatum,3,3.9,host-parasite,category,prevalence
+Catostomus commersoni,3,Crepidostomum_cooperi,3,11.8,host-parasite,category,prevalence
+Catostomus commersoni,3,Diplostomum_flexicaudum (L),3,23.5,host-parasite,category,prevalence
+Catostomus commersoni,3,Neascus_sp. (L),3,7.8,host-parasite,category,prevalence
+Catostomus commersoni,3,Phyllodistomum_lysteri,3,27.5,host-parasite,category,prevalence
+Catostomus commersoni,3,Plagioporus_sinitsini,3,5.9,host-parasite,category,prevalence
+Catostomus commersoni,3,Tetracotyle_sp. (L),3,7.8,host-parasite,category,prevalence
+Catostomus commersoni,3,Glaridacris_catostomi,3,13.7,host-parasite,category,prevalence
+Catostomus commersoni,3,Glaridacris_intermedius,3,5.9,host-parasite,category,prevalence
+Catostomus commersoni,3,Hunterella_nodulosa,3,9.8,host-parasite,category,prevalence
+Catostomus commersoni,3,Ligula_intestinalis (L),3,23.5,host-parasite,category,prevalence
+Catostomus commersoni,3,Triaenophorus_nodulosus (L),3,13.7,host-parasite,category,prevalence
+Catostomus commersoni,3,Camallanus_oxycephalus,3,7.8,host-parasite,category,prevalence
+Catostomus commersoni,3,Contracaecum_sp. (L),3,7.8,host-parasite,category,prevalence
+Catostomus commersoni,3,Spiroxys_sp (L),3,7.8,host-parasite,category,prevalence
+Catostomus commersoni,3,Leptorhynchoides_thecatus,3,13.7,host-parasite,category,prevalence
+Catostomus commersoni,3,Neoechinorhynchus_crassus,3,13.7,host-parasite,category,prevalence
+Catostomus commersoni,3,Neoechinorhynchus_cristatus,3,15.7,host-parasite,category,prevalence
+Catostomus commersoni,3,Neoechinorhynchus_strigosus,3,3.9,host-parasite,category,prevalence
+Catostomus commersoni,3,Octospinifer_macilentus,3,3.9,host-parasite,category,prevalence
+Catostomus commersoni,3,Pomphorhynchus_bulbocolli,3,31.4,host-parasite,category,prevalence
+Catostomus commersoni,3,Actinobdella_triannulata,3,19.6,host-parasite,category,prevalence
+Catostomus commersoni,3,Ergasilus_caeruleus,3,15.7,host-parasite,category,prevalence
+Catostomus commersoni,3,Argulus_catostomi,3,3.9,host-parasite,category,prevalence
+Moxostoma anisurum,3,Anonchohaptor_anomalum,3,100,host-parasite,category,prevalence
+Moxostoma anisurum,3,Gyrodactylus_spathulatus,3,100,host-parasite,category,prevalence
+Moxostoma anisurum,3,Pseudomurraytrema_copulatum,3,100,host-parasite,category,prevalence
+Moxostoma anisurum,3,Pseudomurraytrema_sp.,3,100,host-parasite,category,prevalence
+Moxostoma anisurum,3,Diplostomum_flexicaudum (L),3,67.7,host-parasite,category,prevalence
+Moxostoma anisurum,3,Neascus_sp. (L),3,16.7,host-parasite,category,prevalence
+Moxostoma anisurum,3,Sanguinicola_sp.,3,66.7,host-parasite,category,prevalence
+Moxostoma anisurum,3,Triganodistomum_attenuatum,3,16.7,host-parasite,category,prevalence
+Moxostoma anisurum,3,Biacetabulum_infrequens,3,33.3,host-parasite,category,prevalence
+Moxostoma anisurum,3,Triaenophorus_crassus (L),3,50,host-parasite,category,prevalence
+Moxostoma anisurum,3,Contracaecum_brachyurum (L),3,16.7,host-parasite,category,prevalence
+Moxostoma anisurum,3,Spinitectus_gracilis,3,16.7,host-parasite,category,prevalence
+Moxostoma anisurum,3,Leptorhynchoides_thecatus,3,16.7,host-parasite,category,prevalence
+Moxostoma anisurum,3,Ergasilus_caeruleus,3,16.7,host-parasite,category,prevalence
+Chrosomus neogaeus,3,Cleidodiscus_brachus,3,81.8,host-parasite,category,prevalence
+Chrosomus neogaeus,3,Octomacrum_semotili,3,81.8,host-parasite,category,prevalence
+Chrosomus neogaeus,3,Neascus_sp. (L),3,9.1,host-parasite,category,prevalence
+Chrosomus neogaeus,3,Posthodiplostomum_minimum (L),3,9.1,host-parasite,category,prevalence
+Chrosomus neogaeus,3,Tetracotyle_sp. (L),3,9.1,host-parasite,category,prevalence
+Couesius plumbeus,3,Dactylogyrus_mylocheilus,3,40,host-parasite,category,prevalence
+Couesius plumbeus,3,Octomacrum_sp.,3,40,host-parasite,category,prevalence
+Couesius plumbeus,3,Diplostomulum_sp. (L),3,60,host-parasite,category,prevalence
+Couesius plumbeus,3,Neascus_sp. (L),3,60,host-parasite,category,prevalence
+Notropis anogenus,3,Gyrodactylus_sp.,3,50,host-parasite,category,prevalence
+Notropis anogenus,3,Diplostomulum_sp. (L),3,25,host-parasite,category,prevalence
+Notropis anogenus,3,Neascus_sp. (L),3,25,host-parasite,category,prevalence
+Notropis anogenus,3,Rhabdochona_cascadilla,3,12.5,host-parasite,category,prevalence
+Notropis anogenus,3,Leptorhynchoides_thecatus,3,12.5,host-parasite,category,prevalence
+Notropis atherinoides,3,Diplostomulum_sp. (L),3,22.2,host-parasite,category,prevalence
+Notropis atherinoides,3,Bothriocephalus_cuspidatus,3,22.2,host-parasite,category,prevalence
+Notropis atherinoides,3,Proteocephalus_pearsei,3,22.2,host-parasite,category,prevalence
+Notropis atherinoides,3,Contracaecum_brachyurum,3,22.2,host-parasite,category,prevalence
+Notropis atherinoides,3,Neoechinorhynchus_sp.,3,22.2,host-parasite,category,prevalence
+Notropis hudsonius,3,Dactylogyrus_sp.,3,16,host-parasite,category,prevalence
+Notropis hudsonius,3,Clinostomum_marginatum (L),3,4,host-parasite,category,prevalence
+Notropis hudsonius,3,Diplostomulum_sp. (L),3,16,host-parasite,category,prevalence
+Notropis hudsonius,3,Neascus_sp. (L),3,52,host-parasite,category,prevalence
+Notropis hudsonius,3,Posthodiplostomum_minimum (L),3,16,host-parasite,category,prevalence
+Notropis hudsonius,3,Tetracotyle_sp. (L),3,20,host-parasite,category,prevalence
+Notropis hudsonius,3,Ligula_intestinalis (L),3,16,host-parasite,category,prevalence
+Notropis hudsonius,3,Contracaecum_sp. (L),3,16,host-parasite,category,prevalence
+Notropis hudsonius,3,Rhabdochona_cascadilla,3,8,host-parasite,category,prevalence
+Notropis hudsonius,3,Neoechinorhynchus_sp.,3,12,host-parasite,category,prevalence
+Notropis hudsonius,3,Ergasilus_sp.,3,12,host-parasite,category,prevalence
+Notropis hudsonius,3,Argulus_canadensis,3,4,host-parasite,category,prevalence
+Pimephales notatus,3,Dactylogyrus_bifurcatus,3,45,host-parasite,category,prevalence
+Pimephales notatus,3,Clinostomum_marginatum (L),3,10,host-parasite,category,prevalence
+Pimephales notatus,3,Diplostomulum_sp. (L),3,25,host-parasite,category,prevalence
+Pimephales notatus,3,Posthodiplostomum_minimum (L),3,25,host-parasite,category,prevalence
+Pimephales notatus,3,Sanguinicola_sp.,3,30,host-parasite,category,prevalence
+Pimephales notatus,3,Tetracotyle_sp. (L),3,55,host-parasite,category,prevalence
+Pimephales notatus,3,Ligula_intestinalis (L),3,20,host-parasite,category,prevalence
+Pimephales notatus,3,Neoechinorhynchus_sp.,3,30,host-parasite,category,prevalence
+Pimephales promelas,3,Dactylogyrus_sp.,3,100,host-parasite,category,prevalence
+Pimephales promelas,3,Allocreadium_lobatum,3,16.7,host-parasite,category,prevalence
+Pimephales promelas,3,Diplostomulum_sp. (L),3,33.3,host-parasite,category,prevalence
+Pimephales promelas,3,Neascus_sp. (L),3,33.3,host-parasite,category,prevalence
+Pimephales promelas,3,Posthodiplostomum_minimum (L),3,50,host-parasite,category,prevalence
+Pimephales promelas,3,Sanguinicola_sp.,3,33.3,host-parasite,category,prevalence
+Pimephales promelas,3,Biacetabulum_sp.,3,16.7,host-parasite,category,prevalence
+Semotilus margarita,3,Octomacrum_semotili,3,60,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Cleidodiscus_pricei,3,100,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Allocreadium_ictaluri,3,5,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Alloglossidium_geminus,3,10,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Azygia_angusticauda,3,25,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Clinostomum_marginatum (L),3,30,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Crepidostomum_ictaluri,3,25,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Diplostomulum_sp. (L),3,30,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Phyllodistomum_staffordi,3,25,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Tetracotyle_sp. (L),3,55,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Bothriocephalus_cuspidatus,3,10,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Corallobothrium_fimbriatum,3,65,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Proteocephalus_ambloplitis (L),3,70,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Contracaecum_sp. (L),3,30,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Spinitectus_gracilis,3,20,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Leptorhynchoides_thecatus,3,85,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Metechinorhynchus_salmonis,3,10,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Pomphorhynchus_bulbocolli,3,15,host-parasite,category,prevalence
+Ictalurus nebulosus,3,Ergasilus_versicolor,3,30,host-parasite,category,prevalence
+Noturus gyrinus,3,Gyrodactylus_sp.,3,27.3,host-parasite,category,prevalence
+Noturus gyrinus,3,Alloglossidium_corti,3,27.3,host-parasite,category,prevalence
+Noturus gyrinus,3,Crepidostomum_cornutum,3,18.2,host-parasite,category,prevalence
+Noturus gyrinus,3,Corallobothrium_fimbriatum,3,90.9,host-parasite,category,prevalence
+Noturus gyrinus,3,Leptorhynchoides_thecatus,3,54.5,host-parasite,category,prevalence
+Noturus gyrinus,3,Pomphorhynchus_bulbocolli,3,27.3,host-parasite,category,prevalence
+Lota lota,3,Azygia_angusticauda,3,23.5,host-parasite,category,prevalence
+Lota lota,3,Diplostomulum_sp. (L),3,41.2,host-parasite,category,prevalence
+Lota lota,3,Tetracotyle_sp. (L),3,52.9,host-parasite,category,prevalence
+Lota lota,3,Eubothrium_rugosum,3,82.3,host-parasite,category,prevalence
+Lota lota,3,Triaenophorus_nodulosus (L),3,11.8,host-parasite,category,prevalence
+Lota lota,3,Camallanus_oxycephalus,3,11.8,host-parasite,category,prevalence
+Lota lota,3,Capillaria_bakeri,3,17.6,host-parasite,category,prevalence
+Lota lota,3,Contracaecum_brachyurum,3,52.9,host-parasite,category,prevalence
+Lota lota,3,Dichelyne_cotylophora,3,17.6,host-parasite,category,prevalence
+Lota lota,3,Rhabdochona_cascadilla,3,23.5,host-parasite,category,prevalence
+Lota lota,3,Spinitectus_gracilis,3,11.8,host-parasite,category,prevalence
+Lota lota,3,Leptorhynchoides_thecatus,3,41.2,host-parasite,category,prevalence
+Lota lota,3,Metechinorhynchus_salmonis,3,70.6,host-parasite,category,prevalence
+Lota lota,3,Pomphorhynchus_bulbocolli,3,17.6,host-parasite,category,prevalence
+Lota lota,3,Piscicola_punctata,3,17.6,host-parasite,category,prevalence
+Lota lota,3,Ergasilus_osburni,3,35.3,host-parasite,category,prevalence
+Culaea inconstans,3,Dactylogyrus_eucaliae,3,35.3,host-parasite,category,prevalence
+Culaea inconstans,3,Gyrodactylus_eucaliae,3,23.5,host-parasite,category,prevalence
+Culaea inconstans,3,Bunoderina_eucaliae,3,29.4,host-parasite,category,prevalence
+Culaea inconstans,3,Diplostomum_baeri (L),3,23.5,host-parasite,category,prevalence
+Culaea inconstans,3,Neascus_sp. (L),3,23.5,host-parasite,category,prevalence
+Culaea inconstans,3,Tetracotyle_sp. (L),3,17.6,host-parasite,category,prevalence
+Culaea inconstans,3,Proteocephalus_ambloplitis (L),3,17.6,host-parasite,category,prevalence
+Culaea inconstans,3,Camallanus_oxycephalus,3,23.5,host-parasite,category,prevalence
+Culaea inconstans,3,Leptorhynchoides_thecatus,3,17.6,host-parasite,category,prevalence
+Culaea inconstans,3,Neoechinorhynchus_rutili,3,11.8,host-parasite,category,prevalence
+Percopsis omiscomaycus,3,Gyrodactylus_sp.,3,76.9,host-parasite,category,prevalence
+Percopsis omiscomaycus,3,Crepidostomum_isostomum,3,30.8,host-parasite,category,prevalence
+Percopsis omiscomaycus,3,Diplostomulum_sp. (L),3,92.3,host-parasite,category,prevalence
+Percopsis omiscomaycus,3,Tetracotyle_sp. (L),3,100,host-parasite,category,prevalence
+Percopsis omiscomaycus,3,Bothriocephalus_formosus,3,23.1,host-parasite,category,prevalence
+Percopsis omiscomaycus,3,Triaenophorus_stizostedionis (L),3,15.4,host-parasite,category,prevalence
+Percopsis omiscomaycus,3,Contracaecum_brachyurum,3,15.4,host-parasite,category,prevalence
+Percopsis omiscomaycus,3,Spinitectus_gracilis,3,15.4,host-parasite,category,prevalence
+Percopsis omiscomaycus,3,Argulus_versicolor,3,15.4,host-parasite,category,prevalence
+Ambloplites rupestris,3,Gyrodactylus_sp.,3,65,host-parasite,category,prevalence
+Ambloplites rupestris,3,Azygia_angusticauda,3,30,host-parasite,category,prevalence
+Ambloplites rupestris,3,Clinostomum_marginatum (L),3,40,host-parasite,category,prevalence
+Ambloplites rupestris,3,Crepidostomum_cornutum,3,35,host-parasite,category,prevalence
+Ambloplites rupestris,3,Cryptogonimus_chilli,3,40,host-parasite,category,prevalence
+Ambloplites rupestris,3,Diplostomulum_sp. (L),3,35,host-parasite,category,prevalence
+Ambloplites rupestris,3,Tetracotyle_sp. (L),3,25,host-parasite,category,prevalence
+Ambloplites rupestris,3,Bothriocephalus_claviceps,3,30,host-parasite,category,prevalence
+Ambloplites rupestris,3,Proteocephalus_ambloplitis (L),3,20,host-parasite,category,prevalence
+Ambloplites rupestris,3,Capillaria_catenata,3,10,host-parasite,category,prevalence
+Ambloplites rupestris,3,Contracaecum_brachyurum (L),3,20,host-parasite,category,prevalence
+Ambloplites rupestris,3,Rhabdochona_cascadilla,3,25,host-parasite,category,prevalence
+Ambloplites rupestris,3,Spinitectus_carolini,3,15,host-parasite,category,prevalence
+Ambloplites rupestris,3,Leptorhynchoides_thecatus,3,50,host-parasite,category,prevalence
+Ambloplites rupestris,3,Neoechinorhynchus_cylindratus,3,20,host-parasite,category,prevalence
+Ambloplites rupestris,3,Achtheres_micropteri,3,5,host-parasite,category,prevalence
+Ambloplites rupestris,3,Ergasilus_caeruleus,3,35,host-parasite,category,prevalence
+Ambloplites rupestris,3,Ergasilus_centrarchidarum,3,35,host-parasite,category,prevalence
+Lepomis gibbosus,3,Gyrodactylus_macrochiri,3,12.5,host-parasite,category,prevalence
+Lepomis gibbosus,3,Azygia_angusticauda,3,18.8,host-parasite,category,prevalence
+Lepomis gibbosus,3,Clinostomum_marginatum (L),3,37.5,host-parasite,category,prevalence
+Lepomis gibbosus,3,Crepidostomum_cooperi,3,37.5,host-parasite,category,prevalence
+Lepomis gibbosus,3,Diplostomum_scheuringi,3,50,host-parasite,category,prevalence
+Lepomis gibbosus,3,Diplostomulum_sp. (L),3,50,host-parasite,category,prevalence
+Lepomis gibbosus,3,Neascus_sp. (L),3,25,host-parasite,category,prevalence
+Lepomis gibbosus,3,Posthodiplostomum_minimum (L),3,37.5,host-parasite,category,prevalence
+Lepomis gibbosus,3,Tetracotyle_sp. (L),3,75,host-parasite,category,prevalence
+Lepomis gibbosus,3,Bothriocephalus_claviceps,3,12.5,host-parasite,category,prevalence
+Lepomis gibbosus,3,Proteocephalus_ambloplitis (L),3,75,host-parasite,category,prevalence
+Lepomis gibbosus,3,Triaenophorus_nodulosus (L),3,25,host-parasite,category,prevalence
+Lepomis gibbosus,3,Contracaecum_sp. (L),3,25,host-parasite,category,prevalence
+Lepomis gibbosus,3,Leptorhynchoides_thecatus,3,25,host-parasite,category,prevalence
+Micropterus dolomieui,3,Actinocleidus_fusiformis,3,73,host-parasite,category,prevalence
+Micropterus dolomieui,3,Cleidodiscus_banghami,3,73,host-parasite,category,prevalence
+Micropterus dolomieui,3,Azygia_angusticauda,3,5.4,host-parasite,category,prevalence
+Micropterus dolomieui,3,Caecincola_parvus,3,8.1,host-parasite,category,prevalence
+Micropterus dolomieui,3,Clinostomum_marginatum (L),3,27,host-parasite,category,prevalence
+Micropterus dolomieui,3,Crepidostomum_cooperi,3,32.4,host-parasite,category,prevalence
+Micropterus dolomieui,3,Diplostomulum_sp. (L),3,32.4,host-parasite,category,prevalence
+Micropterus dolomieui,3,Microphallus_opacus,3,16.2,host-parasite,category,prevalence
+Micropterus dolomieui,3,Neochasmus_umbellus,3,5.4,host-parasite,category,prevalence
+Micropterus dolomieui,3,Tetracotyle_sp. (L),3,18.9,host-parasite,category,prevalence
+Micropterus dolomieui,3,Uvulifer_ambloplitis (L),3,21.6,host-parasite,category,prevalence
+Micropterus dolomieui,3,Proteocephalus_ambloplitis,3,64.9,host-parasite,category,prevalence
+Micropterus dolomieui,3,Proteocephalus_fluviatilis,3,16.2,host-parasite,category,prevalence
+Micropterus dolomieui,3,Camallanus_oxycephalus,3,21.6,host-parasite,category,prevalence
+Micropterus dolomieui,3,Contracaecum_sp. (L),3,27,host-parasite,category,prevalence
+Micropterus dolomieui,3,Philometra_sp.,3,2.7,host-parasite,category,prevalence
+Micropterus dolomieui,3,Leptorhynchoides_thecatus,3,81.1,host-parasite,category,prevalence
+Micropterus dolomieui,3,Neoechinorhynchus_cylindratus,3,86.5,host-parasite,category,prevalence
+Micropterus dolomieui,3,Ergasilus_caeruleus,3,21.6,host-parasite,category,prevalence
+Micropterus dolomieui,3,Ergasilus_centrarchidarum,3,32.4,host-parasite,category,prevalence
+Pomoxis nigromaculatus,3,Cleidodiscus_capax,3,20,host-parasite,category,prevalence
+Pomoxis nigromaculatus,3,Diplostomum_scheuringi,3,7.5,host-parasite,category,prevalence
+Pomoxis nigromaculatus,3,Diplostomulum_sp. (L),3,5,host-parasite,category,prevalence
+Pomoxis nigromaculatus,3,Neascus_sp. (L),3,10,host-parasite,category,prevalence
+Pomoxis nigromaculatus,3,Posthodiplostomum_minimum (L),3,2.5,host-parasite,category,prevalence
+Pomoxis nigromaculatus,3,Tetracotyle_sp. (L),3,7.5,host-parasite,category,prevalence
+Pomoxis nigromaculatus,3,Bothriocephalus_sp.,3,7.5,host-parasite,category,prevalence
+Pomoxis nigromaculatus,3,Proteocephalus_ambloplitis (L),3,20,host-parasite,category,prevalence
+Pomoxis nigromaculatus,3,Proteocephalus_pearsei,3,7.5,host-parasite,category,prevalence
+Pomoxis nigromaculatus,3,Spinitectus_gracilis,3,5,host-parasite,category,prevalence
+Pomoxis nigromaculatus,3,Leptorhynchoides_thecatus,3,17.5,host-parasite,category,prevalence
+Pomoxis nigromaculatus,3,Ergasilus_caeruleus,3,20,host-parasite,category,prevalence
+Perca flavescens,3,Cleidodiscus_adspectus,3,40.3,host-parasite,category,prevalence
+Perca flavescens,3,Apophallus_itascensis (L),3,34.3,host-parasite,category,prevalence
+Perca flavescens,3,Bunodera_sacculata,3,4.5,host-parasite,category,prevalence
+Perca flavescens,3,Centrovarium_lobotes,3,3,host-parasite,category,prevalence
+Perca flavescens,3,Clinostomum_marginatum (L),3,6,host-parasite,category,prevalence
+Perca flavescens,3,Crassiphiala_bulboglossa,3,13.4,host-parasite,category,prevalence
+Perca flavescens,3,Diplostomum_scheuringi,3,25.4,host-parasite,category,prevalence
+Perca flavescens,3,Diplostomulum_sp. (L),3,37.3,host-parasite,category,prevalence
+Perca flavescens,3,Phyllodistomum_superbum,3,26.9,host-parasite,category,prevalence
+Perca flavescens,3,Tetracotyle_sp. (L),3,22.4,host-parasite,category,prevalence
+Perca flavescens,3,Bothriocephalus_cuspidatus,3,9,host-parasite,category,prevalence
+Perca flavescens,3,Cyathocephalus_truncatus,3,9,host-parasite,category,prevalence
+Perca flavescens,3,Proteocephalus_ambloplitis (L),3,23.9,host-parasite,category,prevalence
+Perca flavescens,3,Proteocephalus_pearsei,3,17.9,host-parasite,category,prevalence
+Perca flavescens,3,Triaenophorus_nodulosus (L),3,17.9,host-parasite,category,prevalence
+Perca flavescens,3,Camallanus_oxycephalus,3,11.9,host-parasite,category,prevalence
+Perca flavescens,3,Contracaecum_sp. (L),3,9,host-parasite,category,prevalence
+Perca flavescens,3,Dichelyne_cotylophora,3,13.4,host-parasite,category,prevalence
+Perca flavescens,3,Eustrongylides_sp. (L),3,1.5,host-parasite,category,prevalence
+Perca flavescens,3,Philometra_cylindracea,3,7.5,host-parasite,category,prevalence
+Perca flavescens,3,Philometra_sp.,3,1.5,host-parasite,category,prevalence
+Perca flavescens,3,Spinitectus_gracilis,3,10.4,host-parasite,category,prevalence
+Perca flavescens,3,Leptorhynchoides_thecatus,3,26.9,host-parasite,category,prevalence
+Perca flavescens,3,Illinobdella_sp.,3,7.5,host-parasite,category,prevalence
+Perca flavescens,3,Ergasilus_caeruleus,3,31.3,host-parasite,category,prevalence
+Perca flavescens,3,Argulus_canadensis,3,9,host-parasite,category,prevalence
+Stizostedion canadense,3,Cleidodiscus_aculeatus,3,83.3,host-parasite,category,prevalence
+Stizostedion canadense,3,Bucephalus_pusillus,3,22.2,host-parasite,category,prevalence
+Stizostedion canadense,3,Centrovarium_lobotes,3,44.4,host-parasite,category,prevalence
+Stizostedion canadense,3,Clinostomum_marginatum (L),3,33.3,host-parasite,category,prevalence
+Stizostedion canadense,3,Diplostomulum_sp. (L),3,33.3,host-parasite,category,prevalence
+Stizostedion canadense,3,Neascus_sp. (L),3,44.4,host-parasite,category,prevalence
+Stizostedion canadense,3,Phyllodistomum_superbum,3,55.6,host-parasite,category,prevalence
+Stizostedion canadense,3,Tetracotyle_sp. (L),3,55.6,host-parasite,category,prevalence
+Stizostedion canadense,3,Bothriocephalus_cuspidatus,3,83.3,host-parasite,category,prevalence
+Stizostedion canadense,3,Proteocephalus_ambloplitis (L),3,44.4,host-parasite,category,prevalence
+Stizostedion canadense,3,Proteocephalus_stizostethi,3,33.3,host-parasite,category,prevalence
+Stizostedion canadense,3,Triaenophorus_nodulosus (L),3,22.2,host-parasite,category,prevalence
+Stizostedion canadense,3,Camallanus_oxycephalus,3,11.1,host-parasite,category,prevalence
+Stizostedion canadense,3,Contracaecum_brachyurum,3,33.3,host-parasite,category,prevalence
+Stizostedion canadense,3,Eustrongylides_sp. (L),3,5.6,host-parasite,category,prevalence
+Stizostedion canadense,3,Metechinorhynchus_salmonis,3,44.4,host-parasite,category,prevalence
+Stizostedion canadense,3,Neoechinorhynchus_tenellum,3,83.3,host-parasite,category,prevalence
+Stizostedion canadense,3,Illinobdella_moorei,3,66.7,host-parasite,category,prevalence
+Stizostedion canadense,3,Ergasilus_caeruleus,3,88.9,host-parasite,category,prevalence
+Stizostedion canadense,3,Argulus_appendiculosus,3,27.8,host-parasite,category,prevalence
+Stizostedion vitreum,3,Cleidodiscus_aculeatus,3,55.2,host-parasite,category,prevalence
+Stizostedion vitreum,3,Azygia_angusticauda,3,13.8,host-parasite,category,prevalence
+Stizostedion vitreum,3,Bunodera_sacculata,3,20.7,host-parasite,category,prevalence
+Stizostedion vitreum,3,Clinostomum_marginatum (L),3,13.8,host-parasite,category,prevalence
+Stizostedion vitreum,3,Diplostomum_scheuringi,3,13.8,host-parasite,category,prevalence
+Stizostedion vitreum,3,Diplostomulum_sp. (L),3,17.2,host-parasite,category,prevalence
+Stizostedion vitreum,3,Phyllodistomum_superbum,3,34.5,host-parasite,category,prevalence
+Stizostedion vitreum,3,Tetracotyle_sp. (L),3,48.3,host-parasite,category,prevalence
+Stizostedion vitreum,3,Bothriocephalus_cuspidatus,3,100,host-parasite,category,prevalence
+Stizostedion vitreum,3,Proteocephalus_ambloplitis (L),3,37.9,host-parasite,category,prevalence
+Stizostedion vitreum,3,Proteocephalus_stizostethi,3,27.6,host-parasite,category,prevalence
+Stizostedion vitreum,3,Triaenophorus_stizostedionis,3,20.7,host-parasite,category,prevalence
+Stizostedion vitreum,3,Contracaecum_brachyurum,3,55.2,host-parasite,category,prevalence
+Stizostedion vitreum,3,Eustrongylides_sp. (L),3,6.9,host-parasite,category,prevalence
+Stizostedion vitreum,3,Metechinorhynchus_salmonis,3,41.4,host-parasite,category,prevalence
+Stizostedion vitreum,3,Neoechinorhynchus_tenellum,3,79.3,host-parasite,category,prevalence
+Stizostedion vitreum,3,Illinobdella_moorei,3,62.1,host-parasite,category,prevalence
+Stizostedion vitreum,3,Ergasilus_caeruleus,3,100,host-parasite,category,prevalence
+Stizostedion vitreum,3,Ergasilus_centrarchidarum,3,37.9,host-parasite,category,prevalence
+Stizostedion vitreum,3,Argulus_canadensis,3,24.1,host-parasite,category,prevalence
+Stizostedion vitreum,3,Argulus_versicolor,3,17.2,host-parasite,category,prevalence
+Etheostoma exile,3,Gyrodactylus_sp.,3,43.8,host-parasite,category,prevalence
+Etheostoma exile,3,Apophallus_itascensis (L),3,25,host-parasite,category,prevalence
+Etheostoma exile,3,Azygia_angusticauda,3,12.5,host-parasite,category,prevalence
+Etheostoma exile,3,Diplostomulum_sp. (L),3,37.5,host-parasite,category,prevalence
+Etheostoma exile,3,Neascus_sp. (L),3,18.8,host-parasite,category,prevalence
+Etheostoma exile,3,Tetracotyle_sp. (L),3,37.5,host-parasite,category,prevalence
+Etheostoma exile,3,Bothriocephalus_formosus,3,18.8,host-parasite,category,prevalence
+Etheostoma exile,3,Camallanus_oxycephalus,3,18.8,host-parasite,category,prevalence
+Etheostoma exile,3,Contracaecum_sp. (L),3,18.8,host-parasite,category,prevalence
+Etheostoma exile,3,Rhabdochona_cascadilla,3,31.3,host-parasite,category,prevalence
+Etheostoma exile,3,Leptorhynchoides_thecatus (L),3,43.8,host-parasite,category,prevalence
+Etheostoma exile,3,Argulus_catostomi,3,25,host-parasite,category,prevalence
+Etheostoma nigrum,3,Gyrodactylus_sp.,3,79.2,host-parasite,category,prevalence
+Etheostoma nigrum,3,Apophallus_itascensis (L),3,16.7,host-parasite,category,prevalence
+Etheostoma nigrum,3,Azygia_angusticauda,3,12.5,host-parasite,category,prevalence
+Etheostoma nigrum,3,Clinostomum_marginatum (L),3,25,host-parasite,category,prevalence
+Etheostoma nigrum,3,Diplostomulum_sp. (L),3,41.7,host-parasite,category,prevalence
+Etheostoma nigrum,3,Tetracotyle_sp. (L),3,66.7,host-parasite,category,prevalence
+Etheostoma nigrum,3,Contracaecum_sp. (L),3,20.8,host-parasite,category,prevalence
+Etheostoma nigrum,3,Rhabdochona_cascadilla,3,16.7,host-parasite,category,prevalence
+Etheostoma nigrum,3,Leptorhynchoides_thecatus,3,45.8,host-parasite,category,prevalence
+Etheostoma nigrum,3,Argulus_catostomi,3,12.5,host-parasite,category,prevalence
+Percina caprodes,3,Cleidodiscus_malleus,3,42.9,host-parasite,category,prevalence
+Percina caprodes,3,Crepidostomum_isostomum,3,22.9,host-parasite,category,prevalence
+Percina caprodes,3,Diplostomum_scheuringi,3,14.3,host-parasite,category,prevalence
+Percina caprodes,3,Diplostomulum_sp. (L),3,14.3,host-parasite,category,prevalence
+Percina caprodes,3,Neascus_sp. (L),3,11.4,host-parasite,category,prevalence
+Percina caprodes,3,Posthodiplostomum_minimum (L),3,14.3,host-parasite,category,prevalence
+Percina caprodes,3,Bothriocephalus_formosus,3,20,host-parasite,category,prevalence
+Percina caprodes,3,Camallanus_oxycephalus,3,14.3,host-parasite,category,prevalence
+Percina caprodes,3,Contracaecum_sp. (L),3,34.3,host-parasite,category,prevalence
+Percina caprodes,3,Leptorhynchoides_thecatus,3,22.9,host-parasite,category,prevalence
+Percina caprodes,3,Pomphorhynchus_bulbocolli,3,5.7,host-parasite,category,prevalence
+Percina caprodes,3,Piscicola_punctata,3,28.6,host-parasite,category,prevalence
+Percina caprodes,3,Ergasilus_caeruleus,3,8.6,host-parasite,category,prevalence
+Cottus bairdi,3,Dactylogyrus_sp.,3,80,host-parasite,category,prevalence
+Cottus bairdi,3,Gyrodactylus_bairdi,3,40,host-parasite,category,prevalence
+Cottus bairdi,3,Diplostomulum_sp. (L),3,80,host-parasite,category,prevalence
+Cottus bairdi,3,Phyllodistomum_undulans,3,40,host-parasite,category,prevalence
+Cottus bairdi,3,Tetracotyle_sp. (L),3,100,host-parasite,category,prevalence
+Cottus bairdi,3,Proteocephalus_ambloplitis (L),3,40,host-parasite,category,prevalence
+Cottus bairdi,3,Schistocephalus_solidus (L),3,30,host-parasite,category,prevalence
+Cottus bairdi,3,Camallanus_oxycephalus,3,50,host-parasite,category,prevalence
+Cottus bairdi,3,Contracaecum_sp. (L),3,40,host-parasite,category,prevalence
+Cottus bairdi,3,Rhabdochona_cascadilla,3,60,host-parasite,category,prevalence
+Cottus bairdi,3,Metechinorhynchus_salmonis,3,40,host-parasite,category,prevalence
+Cottus bairdi,3,Neoechinorhynchus_rutili,3,20,host-parasite,category,prevalence
+Catostomus catostomus,4,Acolpenteron_catostomi,4,4.1,host-parasite,category,prevalence
+Catostomus catostomus,4,Anoncohaptor_anomalum,4,2,host-parasite,category,prevalence
+Catostomus catostomus,4,Pseudomurraytrema_copulata,4,6.1,host-parasite,category,prevalence
+Catostomus catostomus,4,Diplostomum_sp.2 (L),4,2,host-parasite,category,prevalence
+Catostomus catostomus,4,Neascus_sp. (L),4,6.1,host-parasite,category,prevalence
+Catostomus catostomus,4,Tetracotyle_sp. (L),4,6.1,host-parasite,category,prevalence
+Catostomus catostomus,4,Glaridacris_catostomi,4,24.5,host-parasite,category,prevalence
+Catostomus catostomus,4,Philometroides_huronensis,4,10.2,host-parasite,category,prevalence
+Catostomus catostomus,4,Neoechinorhynchus_cristatus,4,14.3,host-parasite,category,prevalence
+Catostomus macrocheilus,4,Acolpenteron_catostomi,4,2.3,host-parasite,category,prevalence
+Catostomus macrocheilus,4,Pseudomurraytrema_copulata,4,25.6,host-parasite,category,prevalence
+Catostomus macrocheilus,4,Diplostomum_sp.2 (L),4,2.3,host-parasite,category,prevalence
+Catostomus macrocheilus,4,Tetracotyle_sp. (L),4,7,host-parasite,category,prevalence
+Catostomus macrocheilus,4,Rhabdochona_zacconis,4,9.3,host-parasite,category,prevalence
+Catostomus macrocheilus,4,Neoechinorhynchus_cristatus,4,20.9,host-parasite,category,prevalence
+Catostomus macrocheilus,4,Octospinifer_macilentus,4,16.3,host-parasite,category,prevalence
+Cottus asper,4,Proteocephalus_sp.,4,10.5,host-parasite,category,prevalence
+Cottus cognatus,4,Diplostomum_sp.2 (L),4,4.3,host-parasite,category,prevalence
+Cottus cognatus,4,Tetracotyle_sp. (L),4,8.7,host-parasite,category,prevalence
+Cottus cognatus,4,Rhabdochona_cotti,4,26.1,host-parasite,category,prevalence
+Lota lota,4,Crepidostomum_farionis,4,22.2,host-parasite,category,prevalence
+Lota lota,4,Hysterothylacium_brachyurum,4,44.4,host-parasite,category,prevalence
+Lota lota,4,Eustrongylides_sp. (L),4,22.2,host-parasite,category,prevalence
+Lota lota,4,Haplonema_hamatulum,4,22.2,host-parasite,category,prevalence
+Mylocheilus caurinus,4,Octomacrum_micronfibulum,4,4.5,host-parasite,category,prevalence
+Mylocheilus caurinus,4,Allocreadium_isosporum,4,27.3,host-parasite,category,prevalence
+Mylocheilus caurinus,4,Diplostomum_sp.1 (L),4,72.7,host-parasite,category,prevalence
+Mylocheilus caurinus,4,Tetracotyle_sp. (L),4,13.6,host-parasite,category,prevalence
+Mylocheilus caurinus,4,Proteocephalus_sp.,4,13.6,host-parasite,category,prevalence
+Mylocheilus caurinus,4,Ligula_intestinalis (L),4,4.5,host-parasite,category,prevalence
+Mylocheilus caurinus,4,Rhabdochona_cascadilla,4,9.1,host-parasite,category,prevalence
+Mylocheilus caurinus,4,Ergasilus_nerkae,4,13.6,host-parasite,category,prevalence
+Oncorhynchus nerka,4,Crepidostomum_farionis,4,5.6,host-parasite,category,prevalence
+Oncorhynchus nerka,4,Tetracotyle_sp. (L),4,5.6,host-parasite,category,prevalence
+Oncorhynchus nerka,4,Proteocephalus_sp.,4,5.6,host-parasite,category,prevalence
+Oncorhynchus nerka,4,Diphyllobothrium_sp. (L),4,22.2,host-parasite,category,prevalence
+Oncorhynchus nerka,4,Philonema_sp.,4,5.6,host-parasite,category,prevalence
+Oncorhynchus nerka,4,Rhabdochona_kisutchi,4,5.6,host-parasite,category,prevalence
+Oncorhynchus nerka,4,Neoechinorhynchus_rutili,4,5.6,host-parasite,category,prevalence
+Oncorhynchus nerka,4,Ergasilus_nerkae,4,38.9,host-parasite,category,prevalence
+Oncorhynchus tshawytscha,4,Octomacrum_lanceatum,4,1.8,host-parasite,category,prevalence
+Oncorhynchus tshawytscha,4,Crepidostomum_farionis,4,1.8,host-parasite,category,prevalence
+Oncorhynchus tshawytscha,4,Brachyphallus_crenatus,4,3.5,host-parasite,category,prevalence
+Oncorhynchus tshawytscha,4,Genolinea_oncorhynchi,4,1.8,host-parasite,category,prevalence
+Oncorhynchus tshawytscha,4,Lampritrema_miescheri,4,1.8,host-parasite,category,prevalence
+Oncorhynchus tshawytscha,4,Neascus_sp. (L),4,1.8,host-parasite,category,prevalence
+Oncorhynchus tshawytscha,4,Eubothrium_salvelini,4,10.5,host-parasite,category,prevalence
+Oncorhynchus tshawytscha,4,Phyllobothrium_sp. (L),4,3.5,host-parasite,category,prevalence
+Oncorhynchus tshawytscha,4,Philonema_oncorhynchi,4,1.8,host-parasite,category,prevalence
+Oncorhynchus tshawytscha,4,Salmincola_californiensis,4,1.8,host-parasite,category,prevalence
+Prosopium williamsoni,4,Tetraonchus_variabilis,4,20.7,host-parasite,category,prevalence
+Prosopium williamsoni,4,Crepidostomum_farionis,4,5.5,host-parasite,category,prevalence
+Prosopium williamsoni,4,Diplostomum_sp.1 (L),4,0.7,host-parasite,category,prevalence
+Prosopium williamsoni,4,Diplostomum_sp.2 (L),4,3.4,host-parasite,category,prevalence
+Prosopium williamsoni,4,Tetracotyle_sp. (L),4,4.8,host-parasite,category,prevalence
+Prosopium williamsoni,4,Proteocephalus_sp.,4,2.1,host-parasite,category,prevalence
+Prosopium williamsoni,4,Diphyllobothrium_sp. (L),4,4.8,host-parasite,category,prevalence
+Prosopium williamsoni,4,Eubothrium_salvelini,4,2.1,host-parasite,category,prevalence
+Prosopium williamsoni,4,Eustrongylides_sp. (L),4,3.4,host-parasite,category,prevalence
+Prosopium williamsoni,4,Philonema_agubernaculum,4,1.4,host-parasite,category,prevalence
+Prosopium williamsoni,4,Philonema_sp.,4,4.1,host-parasite,category,prevalence
+Prosopium williamsoni,4,Haplonema_hamatulum,4,2.1,host-parasite,category,prevalence
+Prosopium williamsoni,4,Rhabdochona_kisutchi,4,0.7,host-parasite,category,prevalence
+Prosopium williamsoni,4,Rhabdochona_milleri,4,2.8,host-parasite,category,prevalence
+Prosopium williamsoni,4,Neoechinorhynchus_rutili,4,3.4,host-parasite,category,prevalence
+Prosopium williamsoni,4,Salmincola_edwardsii,4,0.7,host-parasite,category,prevalence
+Prosopium williamsoni,4,Salmincola_extensus,4,1.4,host-parasite,category,prevalence
+Prosopium williamsoni,4,Salmincola_thymalli,4,9.7,host-parasite,category,prevalence
+Ptychocheilus oregonensis,4,Tetracotyle_sp. (L),4,35,host-parasite,category,prevalence
+Ptychocheilus oregonensis,4,Proteocephalus_ptychocheilus,4,50,host-parasite,category,prevalence
+Ptychocheilus oregonensis,4,Bothriocephalus_opsariichthydis,4,35,host-parasite,category,prevalence
+Ptychocheilus oregonensis,4,Eustrongylides_sp. (L),4,10,host-parasite,category,prevalence
+Richardsonius balteatus,4,Diplostomum_sp.2 (L),4,10,host-parasite,category,prevalence
+Richardsonius balteatus,4,Tetracotyle_sp. (L),4,25,host-parasite,category,prevalence
+Richardsonius balteatus,4,Rhabdochona_cascadilla,4,5,host-parasite,category,prevalence
+Salmo gairdneri,4,Bunodera_luciopercae,4,3.1,host-parasite,category,prevalence
+Salmo gairdneri,4,Crepidostomum_farionis,4,24.5,host-parasite,category,prevalence
+Salmo gairdneri,4,Phyllodistomum_sp.,4,1,host-parasite,category,prevalence
+Salmo gairdneri,4,Diplostomum_sp.1 (L),4,3.1,host-parasite,category,prevalence
+Salmo gairdneri,4,Diplostomum_sp.2 (L),4,1,host-parasite,category,prevalence
+Salmo gairdneri,4,Tetracotyle_sp. (L),4,6.1,host-parasite,category,prevalence
+Salmo gairdneri,4,Proteocephalus_tumidocollus,4,10.2,host-parasite,category,prevalence
+Salmo gairdneri,4,Diphyllobothrium_sp. (L),4,2,host-parasite,category,prevalence
+Salmo gairdneri,4,Eubothrium_salvelini,4,1,host-parasite,category,prevalence
+Salmo gairdneri,4,Eustrongylides_sp. (L),4,1,host-parasite,category,prevalence
+Salmo gairdneri,4,Philonema_agubernaculum,4,1,host-parasite,category,prevalence
+Salmo gairdneri,4,Philonema_sp.,4,7.1,host-parasite,category,prevalence
+Salmo gairdneri,4,Haplonema_hamatulum,4,3.1,host-parasite,category,prevalence
+Salmo gairdneri,4,Cystidicoloides_tenuissima,4,6.1,host-parasite,category,prevalence
+Salmo gairdneri,4,Rhabdochona_kisutchi,4,14.3,host-parasite,category,prevalence
+Salmo gairdneri,4,Neoechinorhynchus_rutili,4,2,host-parasite,category,prevalence
+Salmo gairdneri,4,Salmincola_californiensis,4,11.2,host-parasite,category,prevalence
+Salvelinus malma,4,Tetraonchus_alaskensis,4,5.9,host-parasite,category,prevalence
+Salvelinus malma,4,Crepidostomum_farionis,4,25.9,host-parasite,category,prevalence
+Salvelinus malma,4,Diplostomum_sp.2 (L),4,2.4,host-parasite,category,prevalence
+Salvelinus malma,4,Tetracotyle_sp. (L),4,4.7,host-parasite,category,prevalence
+Salvelinus malma,4,Proteocephalus_salmonidicola,4,12.9,host-parasite,category,prevalence
+Salvelinus malma,4,Proteocephalus_sp.,4,2.4,host-parasite,category,prevalence
+Salvelinus malma,4,Eubothrium_salvelini,4,44.7,host-parasite,category,prevalence
+Salvelinus malma,4,Eustrongylides_sp. (L),4,3.5,host-parasite,category,prevalence
+Salvelinus malma,4,Philonema_sp.,4,1.2,host-parasite,category,prevalence
+Salvelinus malma,4,Cystidicola_farionis,4,1.2,host-parasite,category,prevalence
+Salvelinus malma,4,Cystidicoloides_tenuissima,4,4.7,host-parasite,category,prevalence
+Salvelinus malma,4,Rhabdochona_canadensis,4,1.2,host-parasite,category,prevalence
+Salvelinus malma,4,Rhabdochona_kisutchi,4,18.8,host-parasite,category,prevalence
+Salvelinus malma,4,Neoechinorhynchus_rutili,4,9.4,host-parasite,category,prevalence
+Salvelinus malma,4,Salmincola_edwardsii,4,30.6,host-parasite,category,prevalence
+Salvelinus namaycush,4,Phyllodistomum_sp.,4,7.7,host-parasite,category,prevalence
+Salvelinus namaycush,4,Diplostomum_sp.2 (L),4,38.5,host-parasite,category,prevalence
+Salvelinus namaycush,4,Tetracotyle_sp. (L),4,7.7,host-parasite,category,prevalence
+Salvelinus namaycush,4,Diphyllobothrium_sp. (L),4,15.4,host-parasite,category,prevalence
+Salvelinus namaycush,4,Eubothrium_salvelini,4,100,host-parasite,category,prevalence
+Salvelinus namaycush,4,Neoechinorhynchus_rutili,4,23.1,host-parasite,category,prevalence
+Salvelinus namaycush,4,Salmincola_edwardsii,4,53.8,host-parasite,category,prevalence
+Catostomus catostomus,5,Acolpenteron_catostomi,5,5.9,host-parasite,category,prevalence
+Catostomus catostomus,5,Anoncohaptor_anomalum,5,2,host-parasite,category,prevalence
+Catostomus catostomus,5,Pseudomurraytrema_copulata,5,9.8,host-parasite,category,prevalence
+Catostomus catostomus,5,Tetracotyle_sp. (L),5,2,host-parasite,category,prevalence
+Catostomus catostomus,5,Glaridacris_catostomi,5,9.8,host-parasite,category,prevalence
+Catostomus catostomus,5,Monobothrium_sp.,5,2,host-parasite,category,prevalence
+Catostomus catostomus,5,Philometroides_huronensis,5,2,host-parasite,category,prevalence
+Catostomus catostomus,5,Neoechinorhynchus_cristatus,5,15.7,host-parasite,category,prevalence
+Catostomus catostomus,5,Octospinifer_macilentus,5,3.9,host-parasite,category,prevalence
+Catostomus commersoni,5,Anoncohaptor_anomalum,5,13.6,host-parasite,category,prevalence
+Catostomus commersoni,5,Pseudomurraytrema_copulata,5,36.4,host-parasite,category,prevalence
+Catostomus commersoni,5,Tetracotyle_sp. (L),5,18.2,host-parasite,category,prevalence
+Catostomus commersoni,5,Glaridacris_catostomi,5,4.5,host-parasite,category,prevalence
+Catostomus commersoni,5,Hunterella_nodulosa,5,31.8,host-parasite,category,prevalence
+Catostomus commersoni,5,Monobothrium_sp.,5,4.5,host-parasite,category,prevalence
+Catostomus commersoni,5,Philometroides_huronensis,5,4.8,host-parasite,category,prevalence
+Catostomus commersoni,5,Neoechinorhynchus_cristatus,5,18.2,host-parasite,category,prevalence
+Catostomus commersoni,5,Octospinifer_macilentus,5,4.5,host-parasite,category,prevalence
+Catostomus commersoni,5,Pomphorhynchus_bulbocolli,5,27.3,host-parasite,category,prevalence
+Catostomus commersoni,5,Ergasilus_nerkae,5,4.5,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Acolpenteron_catostomi,5,4.1,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Anoncohaptor_anomalum,5,4.1,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Pseudomurraytrema_copulata,5,57.1,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Octomacrum_lanceatus,5,2,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Diplostomum_sp.2 (L),5,2,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Tetracotyle_sp. (L),5,4.1,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Glaridacris_sp.,5,2,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Glaridacris_vogei,5,4.1,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Hunterella_nodulosa,5,2,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Philometroides_huronensis,5,12.2,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Rhabdochona_zacconis,5,16.3,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Neoechinorhynchus_cristatus,5,67.3,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Octospinifer_macilentus,5,10.2,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Pomphorhynchus_bulbocolli,5,18.4,host-parasite,category,prevalence
+Catostomus macrocheilus,5,Ergasilus_nerkae,5,18.4,host-parasite,category,prevalence
+Coregonus clupeaformis,5,Crepidostomum_farionis,5,3.5,host-parasite,category,prevalence
+Coregonus clupeaformis,5,Diplostomum_sp.1 (L),5,1.2,host-parasite,category,prevalence
+Coregonus clupeaformis,5,Diplostomum_sp.2 (L),5,5.8,host-parasite,category,prevalence
+Coregonus clupeaformis,5,Tetracotyle_sp. (L),5,5.8,host-parasite,category,prevalence
+Coregonus clupeaformis,5,Proteocephalus_sp.,5,2.3,host-parasite,category,prevalence
+Coregonus clupeaformis,5,Diphyllobothrium_sp. (L),5,11.6,host-parasite,category,prevalence
+Coregonus clupeaformis,5,Philonema_sp.,5,1.2,host-parasite,category,prevalence
+Coregonus clupeaformis,5,Neoechinorhynchus_rutili,5,3.5,host-parasite,category,prevalence
+Coregonus clupeaformis,5,Pomphorhynchus_bulbocolli,5,1.2,host-parasite,category,prevalence
+Coregonus clupeaformis,5,Ergasilus_nerkae,5,11.6,host-parasite,category,prevalence
+Cottus cognatus,5,Crepidostomum_farionis,5,3.4,host-parasite,category,prevalence
+Cottus cognatus,5,Diplostomum_sp.2 (L),5,3.4,host-parasite,category,prevalence
+Cottus cognatus,5,Tetracotyle_sp. (L),5,3.4,host-parasite,category,prevalence
+Cottus cognatus,5,Ligula_intestinalis (L),5,3.4,host-parasite,category,prevalence
+Cottus cognatus,5,Eustrongylides_sp. (L),5,3.4,host-parasite,category,prevalence
+Cottus cognatus,5,Rhabdochona_cotti,5,10.3,host-parasite,category,prevalence
+Lota lota,5,Crepidostomum_farionis,5,14.3,host-parasite,category,prevalence
+Lota lota,5,Diplostomum_sp.2 (L),5,14.3,host-parasite,category,prevalence
+Lota lota,5,Hysterothylacium_brachyurum,5,14.3,host-parasite,category,prevalence
+Lota lota,5,Haplonema_hamatulum,5,57.1,host-parasite,category,prevalence
+Lota lota,5,Neoechinorhynchus_rutili,5,14.3,host-parasite,category,prevalence
+Mylocheilus caurinus,5,Allocreadium_isosporum,5,14.3,host-parasite,category,prevalence
+Mylocheilus caurinus,5,Diplostomum_sp.1 (L),5,42.9,host-parasite,category,prevalence
+Mylocheilus caurinus,5,Bothriocephalus_opsariichthydis,5,14.3,host-parasite,category,prevalence
+Mylocheilus caurinus,5,Eustrongylides_sp. (L),5,14.3,host-parasite,category,prevalence
+Mylocheilus caurinus,5,Ergasilus_nerkae,5,14.3,host-parasite,category,prevalence
+Oncorhynchus nerka,5,Crepidostomum_farionis,5,5.8,host-parasite,category,prevalence
+Oncorhynchus nerka,5,Phyllodistomum_sp.,5,13.5,host-parasite,category,prevalence
+Oncorhynchus nerka,5,Diplostomum_sp.2 (L),5,13.5,host-parasite,category,prevalence
+Oncorhynchus nerka,5,Tetracotyle_sp. (L),5,1.9,host-parasite,category,prevalence
+Oncorhynchus nerka,5,Proteocephalus_sp.,5,5.8,host-parasite,category,prevalence
+Oncorhynchus nerka,5,Diphyllobothrium_sp. (L),5,71.1,host-parasite,category,prevalence
+Oncorhynchus nerka,5,Eubothrium_salvelini,5,7.7,host-parasite,category,prevalence
+Oncorhynchus nerka,5,Philonema_sp.,5,1.9,host-parasite,category,prevalence
+Oncorhynchus nerka,5,Neoechinorhynchus_rutili,5,90.4,host-parasite,category,prevalence
+Prosopium coulteri,5,Neoechinorhynchus_rutili,5,20,host-parasite,category,prevalence
+Prosopium williamsoni,5,Tetraonchus_variabilis,5,19.6,host-parasite,category,prevalence
+Prosopium williamsoni,5,Crepidostomum_farionis,5,2,host-parasite,category,prevalence
+Prosopium williamsoni,5,Diplostomum_sp.2 (L),5,2,host-parasite,category,prevalence
+Prosopium williamsoni,5,Tetracotyle_sp. (L),5,1.3,host-parasite,category,prevalence
+Prosopium williamsoni,5,Proteocephalus_sp.,5,5.2,host-parasite,category,prevalence
+Prosopium williamsoni,5,Diphyllobothrium_sp. (L),5,3.3,host-parasite,category,prevalence
+Prosopium williamsoni,5,Eubothrium_salvelini,5,0.7,host-parasite,category,prevalence
+Prosopium williamsoni,5,Eustrongylides_sp. (L),5,3.9,host-parasite,category,prevalence
+Prosopium williamsoni,5,Philonema_agubernaculum,5,2.6,host-parasite,category,prevalence
+Prosopium williamsoni,5,Philonema_sp.,5,1.3,host-parasite,category,prevalence
+Prosopium williamsoni,5,Truttaedacnitis_truttae,5,9.8,host-parasite,category,prevalence
+Prosopium williamsoni,5,Cystidicola_farionis,5,5.9,host-parasite,category,prevalence
+Prosopium williamsoni,5,Neoechinorhynchus_rutili,5,6.5,host-parasite,category,prevalence
+Prosopium williamsoni,5,Pomphorhynchus_bulbocolli,5,0.7,host-parasite,category,prevalence
+Prosopium williamsoni,5,Salmincola_thymalli,5,9.8,host-parasite,category,prevalence
+Ptychocheilus oregonensis,5,Allocreadium_isosporum,5,3,host-parasite,category,prevalence
+Ptychocheilus oregonensis,5,Diplostomum_sp.1 (L),5,3,host-parasite,category,prevalence
+Ptychocheilus oregonensis,5,Diplostomum_sp.2 (L),5,6.1,host-parasite,category,prevalence
+Ptychocheilus oregonensis,5,Neascus_sp (L),5,3,host-parasite,category,prevalence
+Ptychocheilus oregonensis,5,Tetracotyle_sp. (L),5,36.4,host-parasite,category,prevalence
+Ptychocheilus oregonensis,5,Proteocephalus_ptychocheilus,5,60.6,host-parasite,category,prevalence
+Ptychocheilus oregonensis,5,Bothriocephalus_opsariichthydis,5,48.5,host-parasite,category,prevalence
+Ptychocheilus oregonensis,5,Raphidascaris_acus,5,6.1,host-parasite,category,prevalence
+Ptychocheilus oregonensis,5,Rhabdochona_cascadilla,5,3,host-parasite,category,prevalence
+Ptychocheilus oregonensis,5,Pomphorhynchus_bulbocolli,5,3,host-parasite,category,prevalence
+Ptychocheilus oregonensis,5,Ergasilus_nerkae,5,15.2,host-parasite,category,prevalence
+Rhinichthys cataractae,5,Tetracotyle_sp. (L),5,5,host-parasite,category,prevalence
+Rhinichthys cataractae,5,Rhabdochona_milleri,5,15,host-parasite,category,prevalence
+Richardsonius balteatus,5,Pellucidhaptor_pellucidhaptor,5,10,host-parasite,category,prevalence
+Richardsonius balteatus,5,Diplostomum_sp.1 (L),5,10,host-parasite,category,prevalence
+Richardsonius balteatus,5,Diplostomum_sp.2 (L),5,10,host-parasite,category,prevalence
+Richardsonius balteatus,5,Tetracotyle_sp. (L),5,20,host-parasite,category,prevalence
+Richardsonius balteatus,5,Ligula_intestinalis (L),5,15,host-parasite,category,prevalence
+Richardsonius balteatus,5,Rhabdochona_cascadilla,5,5,host-parasite,category,prevalence
+Richardsonius balteatus,5,Neoechinorhynchus_cylindratus,5,45,host-parasite,category,prevalence
+Richardsonius balteatus,5,Neoechinorhynchus_rutili,5,15,host-parasite,category,prevalence
+Salmo gairdneri,5,Bunodera_luciopercae,5,8,host-parasite,category,prevalence
+Salmo gairdneri,5,Crepidostomum_farionis,5,28,host-parasite,category,prevalence
+Salmo gairdneri,5,Phyllodistomum_sp.,5,4,host-parasite,category,prevalence
+Salmo gairdneri,5,Diplostomum_sp.2 (L),5,4,host-parasite,category,prevalence
+Salmo gairdneri,5,Tetracotyle_sp. (L),5,1,host-parasite,category,prevalence
+Salmo gairdneri,5,Proteocephalus_tumidocollus,5,17,host-parasite,category,prevalence
+Salmo gairdneri,5,Diphyllobothrium_sp. (L),5,1,host-parasite,category,prevalence
+Salmo gairdneri,5,Eubothrium_salvelini,5,3,host-parasite,category,prevalence
+Salmo gairdneri,5,Philonema_agubernaculum,5,3,host-parasite,category,prevalence
+Salmo gairdneri,5,Philonema_sp.,5,3,host-parasite,category,prevalence
+Salmo gairdneri,5,Truttaedacnitis_truttae,5,3,host-parasite,category,prevalence
+Salmo gairdneri,5,Cystidicoloides_tenuissima,5,5,host-parasite,category,prevalence
+Salmo gairdneri,5,Neoechinorhynchus_rutili,5,21,host-parasite,category,prevalence
+Salmo gairdneri,5,Pomphorhynchus_bulbocolli,5,1,host-parasite,category,prevalence
+Salmo gairdneri,5,Ergasilus_nerkae,5,1,host-parasite,category,prevalence
+Salmo gairdneri,5,Salmincola_californiensis,5,12,host-parasite,category,prevalence
+Salvelinus malma,5,Crepidostomum_farionis,5,14.9,host-parasite,category,prevalence
+Salvelinus malma,5,Diplostomum_sp.2 (L),5,7.9,host-parasite,category,prevalence
+Salvelinus malma,5,Tetracotyle_sp. (L),5,1,host-parasite,category,prevalence
+Salvelinus malma,5,Proteocephalus_salmonidicola,5,5.9,host-parasite,category,prevalence
+Salvelinus malma,5,Proteocephalus_sp.,5,4,host-parasite,category,prevalence
+Salvelinus malma,5,Diphyllobothrium_sp. (L),5,1,host-parasite,category,prevalence
+Salvelinus malma,5,Eubothrium_salvelini,5,39.6,host-parasite,category,prevalence
+Salvelinus malma,5,Hysterothylacium_brachyurum,5,2,host-parasite,category,prevalence
+Salvelinus malma,5,Eustrongylides_sp. (L),5,3,host-parasite,category,prevalence
+Salvelinus malma,5,Philonema_sp.,5,4,host-parasite,category,prevalence
+Salvelinus malma,5,Haplonema_hamatulum,5,2,host-parasite,category,prevalence
+Salvelinus malma,5,Truttaedacnitis_truttae,5,5.9,host-parasite,category,prevalence
+Salvelinus malma,5,Cystidicola_farionis,5,5.9,host-parasite,category,prevalence
+Salvelinus malma,5,Rhabdochona_canadensis,5,1,host-parasite,category,prevalence
+Salvelinus malma,5,Rhabdochona_kisutchi,5,5.9,host-parasite,category,prevalence
+Salvelinus malma,5,Neoechinorhynchus_rutili,5,47.5,host-parasite,category,prevalence
+Salvelinus malma,5,Salmincola_edwardsii,5,3,host-parasite,category,prevalence
+Salvelinus namaycush,5,Diplostomum_sp.2 (L),5,45.8,host-parasite,category,prevalence
+Salvelinus namaycush,5,Tetracotyle_sp. (L),5,12.5,host-parasite,category,prevalence
+Salvelinus namaycush,5,Diphyllobothrium_sp. (L),5,8.3,host-parasite,category,prevalence
+Salvelinus namaycush,5,Eubothrium_salvelini,5,37.5,host-parasite,category,prevalence
+Salvelinus namaycush,5,Truttaedacnitis_truttae,5,8.3,host-parasite,category,prevalence
+Salvelinus namaycush,5,Cystidicola_farionis,5,12.5,host-parasite,category,prevalence
+Salvelinus namaycush,5,Neoechinorhynchus_rutili,5,50,host-parasite,category,prevalence
+Salvelinus namaycush,5,Salmincola_californiensis,5,37.5,host-parasite,category,prevalence
+Salvelinus namaycush,5,Salmincola_edwardsii,5,37.5,host-parasite,category,prevalence
+Thymallus arcticus,5,Tetraonchus_borealis,5,34,host-parasite,category,prevalence
+Thymallus arcticus,5,Crepidostomum_farionis,5,14,host-parasite,category,prevalence
+Thymallus arcticus,5,Tetracotyle_sp. (L),5,1,host-parasite,category,prevalence
+Thymallus arcticus,5,Diphyllobothrium_sp. (L),5,2,host-parasite,category,prevalence
+Thymallus arcticus,5,Philonema_sp.,5,1,host-parasite,category,prevalence
+Thymallus arcticus,5,Cystidicoloides_tenuissima,5,1,host-parasite,category,prevalence
+Thymallus arcticus,5,Neoechinorhynchus_rutili,5,13,host-parasite,category,prevalence
+Thymallus arcticus,5,Ergasilus_nerkae,5,1,host-parasite,category,prevalence
+Thymallus arcticus,5,Salmincola_thymalli,5,45,host-parasite,category,prevalence
+Osmerus mordax,6,Diplostomulum_sp. (L),6,94,host-parasite,category,prevalence
+Osmerus mordax,6,Philometra_sp. (L),6,2,host-parasite,category,prevalence
+Osmerus mordax,6,Spinitectus_gracilis (L),6,4,host-parasite,category,prevalence
+Osmerus mordax,6,Echinorhynchus_salmonis,6,72,host-parasite,category,prevalence
+Osmerus mordax,6,Echinorhynchus_salmonis (L),6,32,host-parasite,category,prevalence
+Osmerus mordax,6,Pomphorhynchus_bulbocolli (L),6,2,host-parasite,category,prevalence
+Coregonus artedi,6,Discocotyle_salmonis,6,11.4,host-parasite,category,prevalence
+Coregonus artedi,6,Diplostomulum_sp. (L),6,60.8,host-parasite,category,prevalence
+Coregonus artedi,6,Abothrium_crassum,6,3.8,host-parasite,category,prevalence
+Coregonus artedi,6,Diphyllobothrium_sp. (L),6,68.4,host-parasite,category,prevalence
+Coregonus artedi,6,Triaenophorus_crassus (L),6,77.2,host-parasite,category,prevalence
+Coregonus artedi,6,Proteocephalus_exiguus,6,11.4,host-parasite,category,prevalence
+Coregonus artedi,6,Proteocephalus_laruei,6,89.9,host-parasite,category,prevalence
+Coregonus artedi,6,Philometra_sp. (L),6,6.3,host-parasite,category,prevalence
+Coregonus artedi,6,Cystidicola_stigmatura,6,3.8,host-parasite,category,prevalence
+Coregonus artedi,6,Echinorhynchus_salmonis,6,5.1,host-parasite,category,prevalence
+Coregonus artedi,6,Echinorhynchus_salmonis (L),6,7.6,host-parasite,category,prevalence
+Coregonus artedi,6,Salmincola_inermis,6,24.1,host-parasite,category,prevalence
+Coregonus artedi,6,Salmincola_wisconsinsensis,6,13.9,host-parasite,category,prevalence
+Coregonus artedi,6,Argulus_sp.,6,5.1,host-parasite,category,prevalence
+Coregonus hoyi,6,Discocotyle_salmonis,6,10.6,host-parasite,category,prevalence
+Coregonus hoyi,6,Diplostomulum_sp. (L),6,51.1,host-parasite,category,prevalence
+Coregonus hoyi,6,Diphyllobothrium_sp. (L),6,55.3,host-parasite,category,prevalence
+Coregonus hoyi,6,Triaenophorus_crassus (L),6,36.2,host-parasite,category,prevalence
+Coregonus hoyi,6,Proteocephalus_exiguus,6,27.7,host-parasite,category,prevalence
+Coregonus hoyi,6,Proteocephalus_laruei,6,68.1,host-parasite,category,prevalence
+Coregonus hoyi,6,Cystidicola_stigmatura,6,8.5,host-parasite,category,prevalence
+Coregonus hoyi,6,Echinorhynchus_leidyi,6,8.5,host-parasite,category,prevalence
+Coregonus hoyi,6,Echinorhynchus_salmonis,6,38.3,host-parasite,category,prevalence
+Coregonus hoyi,6,Salmincola_wisconsinsensis,6,2.1,host-parasite,category,prevalence
+Coregonus clupeaformis,6,Diplostomulum_sp. (L),6,70.7,host-parasite,category,prevalence
+Coregonus clupeaformis,6,Cyathocephalus_americanus,6,40.4,host-parasite,category,prevalence
+Coregonus clupeaformis,6,Diphyllobothrium_sp. (L),6,1,host-parasite,category,prevalence
+Coregonus clupeaformis,6,Triaenophorus_crassus (L),6,18.2,host-parasite,category,prevalence
+Coregonus clupeaformis,6,Proteocephalus_exiguus,6,64.6,host-parasite,category,prevalence
+Coregonus clupeaformis,6,Proteocephalus_laruei,6,2,host-parasite,category,prevalence
+Coregonus clupeaformis,6,Philometra_sp. (L),6,1,host-parasite,category,prevalence
+Coregonus clupeaformis,6,Cystidicola_stigmatura,6,13.1,host-parasite,category,prevalence
+Coregonus clupeaformis,6,Spinitectus_gracilis (L),6,8.1,host-parasite,category,prevalence
+Coregonus clupeaformis,6,Echinorhynchus_salmonis,6,68.7,host-parasite,category,prevalence
+Coregonus clupeaformis,6,Achtheres_corpulentus,6,2,host-parasite,category,prevalence
+Prosopium cylindraceum,6,Discocotyle_salmonis,6,4.5,host-parasite,category,prevalence
+Prosopium cylindraceum,6,Crepidostomum_farionis,6,27.3,host-parasite,category,prevalence
+Prosopium cylindraceum,6,Diplostomulum_sp. (L),6,95.5,host-parasite,category,prevalence
+Prosopium cylindraceum,6,Proteocephalus_exiguus,6,18.2,host-parasite,category,prevalence
+Prosopium cylindraceum,6,Philometra_sp. (L),6,4.5,host-parasite,category,prevalence
+Prosopium cylindraceum,6,Cystidicola_stigmatura,6,4.5,host-parasite,category,prevalence
+Prosopium cylindraceum,6,Echinorhynchus_salmonis,6,22.7,host-parasite,category,prevalence
+Prosopium cylindraceum,6,Neoechinorhynchus_tumidus,6,9.1,host-parasite,category,prevalence
+Prosopium cylindraceum,6,Achtheres_coregoni,6,4.5,host-parasite,category,prevalence
+Prosopium cylindraceum,6,Salmincola_sp.,6,36.4,host-parasite,category,prevalence
+Oncorhynchus mykiss,6,Diplostomulum_sp. (L),6,6.7,host-parasite,category,prevalence
+Oncorhynchus mykiss,6,Abothrium_crassum,6,13.3,host-parasite,category,prevalence
+Oncorhynchus mykiss,6,Diphyllobothrium_sp. (L),6,13.3,host-parasite,category,prevalence
+Oncorhynchus mykiss,6,Metabronema_salvelini,6,40,host-parasite,category,prevalence
+Oncorhynchus mykiss,6,Echinorhynchus_leidyi,6,13.3,host-parasite,category,prevalence
+Oncorhynchus mykiss,6,Echinorhynchus_salmonis,6,33.3,host-parasite,category,prevalence
+Salvelinus fontinalis,6,Diplostomulum_sp. (L),6,15.4,host-parasite,category,prevalence
+Salvelinus fontinalis,6,Posthodiplostomum_minimum (L),6,7.7,host-parasite,category,prevalence
+Salvelinus fontinalis,6,Metabronema_salvelini,6,69.2,host-parasite,category,prevalence
+Salvelinus namaycush,6,Diplostomulum_sp. (L),6,38.9,host-parasite,category,prevalence
+Salvelinus namaycush,6,Eubothrium_salvelini,6,100,host-parasite,category,prevalence
+Salvelinus namaycush,6,Echinorhynchus_leidyi,6,16.7,host-parasite,category,prevalence
+Salvelinus namaycush,6,Echinorhynchus_salmonis,6,83.3,host-parasite,category,prevalence
+Catostomus commersoni,6,Octomacrum_lanceatum,6,2.6,host-parasite,category,prevalence
+Catostomus commersoni,6,Triganodistomum_attenuatum,6,2.6,host-parasite,category,prevalence
+Catostomus commersoni,6,Plagioporus_sinitsini,6,0.7,host-parasite,category,prevalence
+Catostomus commersoni,6,Neascus_sp. (L),6,14.5,host-parasite,category,prevalence
+Catostomus commersoni,6,Diplostomum_flexicaudum (L),6,81.6,host-parasite,category,prevalence
+Catostomus commersoni,6,Glaridacris_catostomi,6,34.2,host-parasite,category,prevalence
+Catostomus commersoni,6,Ligula_intestinalis (L),6,2.6,host-parasite,category,prevalence
+Catostomus commersoni,6,Hepaticola_bakeri,6,1.3,host-parasite,category,prevalence
+Catostomus commersoni,6,Echinorhynchus_leidyi,6,0.7,host-parasite,category,prevalence
+Catostomus commersoni,6,Echinorhynchus_salmonis,6,2.6,host-parasite,category,prevalence
+Catostomus commersoni,6,Neoechinorhynchus_strigosus,6,6.6,host-parasite,category,prevalence
+Catostomus commersoni,6,Neoechinorhynchus_crassus,6,34.2,host-parasite,category,prevalence
+Catostomus commersoni,6,Octospinifer_macilentus,6,3.9,host-parasite,category,prevalence
+Catostomus commersoni,6,Pomphorhynchus_bulbocolli,6,59.9,host-parasite,category,prevalence
+Catostomus commersoni,6,Actinobdella_triannulata,6,6.6,host-parasite,category,prevalence
+Catostomus commersoni,6,Ergasilus_caeruleus,6,6.6,host-parasite,category,prevalence
+Catostomus catostomus,6,Triganodistomum_simeri,6,15.4,host-parasite,category,prevalence
+Catostomus catostomus,6,Diplostomum_flexicaudum (L),6,89.7,host-parasite,category,prevalence
+Catostomus catostomus,6,Posthodiplostomum_minimum (L),6,2.6,host-parasite,category,prevalence
+Catostomus catostomus,6,Triaenophorus_crassus (L),6,2.6,host-parasite,category,prevalence
+Catostomus catostomus,6,Echinorhynchus_leidyi,6,2.6,host-parasite,category,prevalence
+Catostomus catostomus,6,Echinorhynchus_salmonis,6,38.5,host-parasite,category,prevalence
+Catostomus catostomus,6,Leptorhynchoides_thecatus,6,2.6,host-parasite,category,prevalence
+Catostomus catostomus,6,Neoechinorhynchus_strigosus,6,17.9,host-parasite,category,prevalence
+Catostomus catostomus,6,Neoechinorhynchus_crassus,6,38.5,host-parasite,category,prevalence
+Catostomus catostomus,6,Actinobdella_triannulata,6,2.6,host-parasite,category,prevalence
+Catostomus catostomus,6,Ergasilus_caeruleus,6,41,host-parasite,category,prevalence
+Semotilus atromaculatus,6,Allocreadium_lobatum,6,38.2,host-parasite,category,prevalence
+Semotilus atromaculatus,6,Neascus_sp. (L),6,14.7,host-parasite,category,prevalence
+Semotilus atromaculatus,6,Diplostomulum_sp. (L),6,67.6,host-parasite,category,prevalence
+Semotilus atromaculatus,6,Posthodiplostomum_minimum (L),6,76.5,host-parasite,category,prevalence
+Semotilus atromaculatus,6,Rhabdochona_cascadilla,6,2.9,host-parasite,category,prevalence
+Rhinichthys cataractae,6,Posthodiplostomum_minimum (L),6,100,host-parasite,category,prevalence
+Chrosomus eos,6,Tetracotyle_sp. (L),6,5.9,host-parasite,category,prevalence
+Chrosomus eos,6,Diplostomulum_sp. (L),6,23.5,host-parasite,category,prevalence
+Chrosomus eos,6,Posthodiplostomum_minimum (L),6,17.6,host-parasite,category,prevalence
+Notropis atherinoides,6,Posthodiplostomum_minimum (L),6,100,host-parasite,category,prevalence
+Notropis cornutus,6,Allocreadium_lobatum,6,16.7,host-parasite,category,prevalence
+Notropis cornutus,6,Lebouria_cooperi,6,16.7,host-parasite,category,prevalence
+Notropis cornutus,6,Neascus_sp. (L),6,16.7,host-parasite,category,prevalence
+Notropis cornutus,6,Posthodiplostomum_minimum (L),6,66.7,host-parasite,category,prevalence
+Notropis cornutus,6,Rhabdochona_cascadilla,6,50,host-parasite,category,prevalence
+Notropis hudsonius,6,Bucephalus_sp.,6,1,host-parasite,category,prevalence
+Notropis hudsonius,6,Allocreadium_lobatum,6,9,host-parasite,category,prevalence
+Notropis hudsonius,6,Lebouria_cooperi,6,4,host-parasite,category,prevalence
+Notropis hudsonius,6,Tetracotyle_sp. (L),6,1,host-parasite,category,prevalence
+Notropis hudsonius,6,Neascus_sp. (L),6,15,host-parasite,category,prevalence
+Notropis hudsonius,6,Diplostomulum_sp. (L),6,60,host-parasite,category,prevalence
+Notropis hudsonius,6,Posthodiplostomum_minimum (L),6,80,host-parasite,category,prevalence
+Notropis hudsonius,6,Ligula_intestinalis (L),6,3,host-parasite,category,prevalence
+Notropis hudsonius,6,Rhabdochona_cascadilla,6,19,host-parasite,category,prevalence
+Notropis hudsonius,6,Spinitectus_gracilis (L),6,1,host-parasite,category,prevalence
+Notropis hudsonius,6,Echinorhynchus_salmonis,6,1,host-parasite,category,prevalence
+Notropis hudsonius,6,Leptorhynchoides_thecatus,6,1,host-parasite,category,prevalence
+Notropis hudsonius,6,Neoechinorhynchus_rutili,6,23,host-parasite,category,prevalence
+Notropis hudsonius,6,Pomphorhynchus_bulbocolli (L),6,11,host-parasite,category,prevalence
+Notropis volucellus,6,Centrovarium_lobotes (L),6,9.1,host-parasite,category,prevalence
+Notropis volucellus,6,Diplostomulum_sp. (L),6,63.6,host-parasite,category,prevalence
+Notropis volucellus,6,Posthodiplostomum_minimum (L),6,90.9,host-parasite,category,prevalence
+Notropis heterolepis,6,Neascus_sp. (L),6,4,host-parasite,category,prevalence
+Notropis heterolepis,6,Diplostomulum_sp. (L),6,32,host-parasite,category,prevalence
+Notropis heterolepis,6,Posthodiplostomum_minimum (L),6,52,host-parasite,category,prevalence
+Notropis heterolepis,6,Spiroxys_sp. (L),6,8,host-parasite,category,prevalence
+Pimephales notatus,6,Centrovarium_lobotes (L),6,35.3,host-parasite,category,prevalence
+Pimephales notatus,6,Neascus_sp. (L),6,11.8,host-parasite,category,prevalence
+Pimephales notatus,6,Diplostomulum_sp. (L),6,58.8,host-parasite,category,prevalence
+Pimephales notatus,6,Posthodiplostomum_minimum (L),6,82.4,host-parasite,category,prevalence
+Pimephales notatus,6,Rhabdochona_cascadilla,6,5.9,host-parasite,category,prevalence
+Ictalurus nebulosus,6,Acetodextra_amiuri,6,42.9,host-parasite,category,prevalence
+Ictalurus nebulosus,6,Azygia_angusticauda,6,7.1,host-parasite,category,prevalence
+Ictalurus nebulosus,6,Microphallus_opacus,6,7.1,host-parasite,category,prevalence
+Ictalurus nebulosus,6,Crepidostomum_ictaluri,6,50,host-parasite,category,prevalence
+Ictalurus nebulosus,6,Centrovarium_lobotes,6,7.1,host-parasite,category,prevalence
+Ictalurus nebulosus,6,Diplostomulum_sp. (L),6,85.7,host-parasite,category,prevalence
+Ictalurus nebulosus,6,Corallobothrium_fimbriatum,6,71.4,host-parasite,category,prevalence
+Ictalurus nebulosus,6,Dichelyne_robusta,6,28.6,host-parasite,category,prevalence
+Ictalurus nebulosus,6,Spinitectus_gracilis,6,14.3,host-parasite,category,prevalence
+Ictalurus nebulosus,6,Pomphorhynchus_bulbocolli (L),6,7.1,host-parasite,category,prevalence
+Esox lucius,6,Azygia_longa,6,3,host-parasite,category,prevalence
+Esox lucius,6,Diplostomulum_sp. (L),6,39.4,host-parasite,category,prevalence
+Esox lucius,6,Triaenophorus_crassus,6,48.5,host-parasite,category,prevalence
+Esox lucius,6,Proteocephalus_pinguis,6,90.9,host-parasite,category,prevalence
+Esox lucius,6,Contracaecum_brachyurum,6,53,host-parasite,category,prevalence
+Esox lucius,6,Echinorhynchus_salmonis,6,21.1,host-parasite,category,prevalence
+Esox lucius,6,Leptorhynchoides_thecatus,6,24.2,host-parasite,category,prevalence
+Esox lucius,6,Neoechinorhynchus_cylindratus,6,22.7,host-parasite,category,prevalence
+Esox lucius,6,Neoechinorhynchus_rutili,6,3,host-parasite,category,prevalence
+Esox lucius,6,Pomphorhynchus_bulbocolli,6,1.5,host-parasite,category,prevalence
+Percopsis omiscomaycus,6,Crepidostomum_isostomum,6,68.4,host-parasite,category,prevalence
+Percopsis omiscomaycus,6,Tetracotyle_sp. (L),6,36.8,host-parasite,category,prevalence
+Percopsis omiscomaycus,6,Neascus_sp. (L),6,10.5,host-parasite,category,prevalence
+Percopsis omiscomaycus,6,Diplostomulum_sp. (L),6,78.9,host-parasite,category,prevalence
+Percopsis omiscomaycus,6,Posthodiplostomum_minimum (L),6,10.5,host-parasite,category,prevalence
+Percopsis omiscomaycus,6,Bothriocephalus_formosus,6,15.8,host-parasite,category,prevalence
+Percopsis omiscomaycus,6,Contracaecum_brachyurum,6,5.3,host-parasite,category,prevalence
+Percopsis omiscomaycus,6,Spinitectus_gracilis,6,5.3,host-parasite,category,prevalence
+Percopsis omiscomaycus,6,Echinorhynchus_salmonis,6,26.3,host-parasite,category,prevalence
+Percopsis omiscomaycus,6,Neoechinorhynchus_sp.,6,5.3,host-parasite,category,prevalence
+Percopsis omiscomaycus,6,Pomphorhynchus_bulbocolli (L),6,10.5,host-parasite,category,prevalence
+Percopsis omiscomaycus,6,Ergasilus_caeruleus,6,36.8,host-parasite,category,prevalence
+Percopsis omiscomaycus,6,Argulus_sp.,6,5.3,host-parasite,category,prevalence
+Perca flavescens,6,Bucephalus_elegans,6,1.5,host-parasite,category,prevalence
+Perca flavescens,6,Bunodera_sacculata,6,21.9,host-parasite,category,prevalence
+Perca flavescens,6,Azygia_angusticauda,6,2,host-parasite,category,prevalence
+Perca flavescens,6,Crepidostomum_cooperi,6,42.3,host-parasite,category,prevalence
+Perca flavescens,6,Clinostomum_marginatum (L),6,10,host-parasite,category,prevalence
+Perca flavescens,6,Tetracotyle_sp. (L),6,1,host-parasite,category,prevalence
+Perca flavescens,6,Neascus_sp. (L),6,20.9,host-parasite,category,prevalence
+Perca flavescens,6,Diplostomulum_sp. (L),6,68.2,host-parasite,category,prevalence
+Perca flavescens,6,Posthodiplostomum_minimum (L),6,3.5,host-parasite,category,prevalence
+Perca flavescens,6,Bothriocephalus_sp.,6,14.4,host-parasite,category,prevalence
+Perca flavescens,6,Proteocephalus_ambloplitis,6,7,host-parasite,category,prevalence
+Perca flavescens,6,Proteocephalus_pearsei,6,33.3,host-parasite,category,prevalence
+Perca flavescens,6,Philometra_cylindracea (L),6,1,host-parasite,category,prevalence
+Perca flavescens,6,Dichelyne_cotylophora,6,54.7,host-parasite,category,prevalence
+Perca flavescens,6,Rhabdochona_sp.,6,6,host-parasite,category,prevalence
+Perca flavescens,6,Spiroxys_sp. (L),6,0.5,host-parasite,category,prevalence
+Perca flavescens,6,Spinitectus_gracilis,6,4,host-parasite,category,prevalence
+Perca flavescens,6,Echinorhynchus_salmonis,6,3.5,host-parasite,category,prevalence
+Perca flavescens,6,Leptorhynchoides_thecatus,6,11,host-parasite,category,prevalence
+Perca flavescens,6,Neoechinorhynchus_cylindratus,6,3,host-parasite,category,prevalence
+Perca flavescens,6,Neoechinorhynchus_rutili,6,5.5,host-parasite,category,prevalence
+Perca flavescens,6,Pomphorhynchus_bulbocolli,6,1,host-parasite,category,prevalence
+Perca flavescens,6,Pomphorhynchus_bulbocolli (L),6,0.5,host-parasite,category,prevalence
+Perca flavescens,6,Illinobdella_alba,6,0.5,host-parasite,category,prevalence
+Perca flavescens,6,Illinobdella_moorei,6,3,host-parasite,category,prevalence
+Perca flavescens,6,Ergasilus_caeruleus,6,7.5,host-parasite,category,prevalence
+Stizostedion vitreum,6,Bucephalopsis_pusilla,6,9.8,host-parasite,category,prevalence
+Stizostedion vitreum,6,Neascus_sp. (L),6,14.6,host-parasite,category,prevalence
+Stizostedion vitreum,6,Diplostomulum_sp. (L),6,68.3,host-parasite,category,prevalence
+Stizostedion vitreum,6,Bothriocephalus_cuspidatus,6,51.2,host-parasite,category,prevalence
+Stizostedion vitreum,6,Triaenophorus_stizostedionis,6,4.9,host-parasite,category,prevalence
+Stizostedion vitreum,6,Proteocephalus_stizostethi,6,24.4,host-parasite,category,prevalence
+Stizostedion vitreum,6,Contracaecum_brachyurum,6,2.4,host-parasite,category,prevalence
+Stizostedion vitreum,6,Dichelyne_cotylophora,6,9.8,host-parasite,category,prevalence
+Stizostedion vitreum,6,Spinitectus_sp.,6,2.4,host-parasite,category,prevalence
+Stizostedion vitreum,6,Leptorhynchoides_thecatus,6,26.8,host-parasite,category,prevalence
+Stizostedion vitreum,6,Neoechinorhynchus_cylindratus,6,36.6,host-parasite,category,prevalence
+Stizostedion vitreum,6,Ergasilus_caeruleus,6,24.4,host-parasite,category,prevalence
+Etheostoma nigrum,6,Lebouria_cooperi,6,2.6,host-parasite,category,prevalence
+Etheostoma nigrum,6,Crepidostomum_isostomum,6,33.3,host-parasite,category,prevalence
+Etheostoma nigrum,6,Tetracotyle_sp. (L),6,53.8,host-parasite,category,prevalence
+Etheostoma nigrum,6,Neascus_sp. (L),6,17.9,host-parasite,category,prevalence
+Etheostoma nigrum,6,Diplostomulum_sp. (L),6,5.1,host-parasite,category,prevalence
+Etheostoma nigrum,6,Posthodiplostomum_minimum (L),6,10.3,host-parasite,category,prevalence
+Etheostoma nigrum,6,Bothriocephalus_formosus,6,51.3,host-parasite,category,prevalence
+Etheostoma nigrum,6,Dichelyne_sp.,6,2.6,host-parasite,category,prevalence
+Etheostoma nigrum,6,Rhabdochona_cascadilla,6,2.6,host-parasite,category,prevalence
+Etheostoma nigrum,6,Spiroxys_sp. (L),6,5.1,host-parasite,category,prevalence
+Etheostoma nigrum,6,Leptorhynchoides_thecatus,6,2.6,host-parasite,category,prevalence
+Etheostoma nigrum,6,Neoechinorhynchus_cylindratus,6,2.6,host-parasite,category,prevalence
+Etheostoma nigrum,6,Illinobdella_sp.,6,2.6,host-parasite,category,prevalence
+Etheostoma exile,6,Azygia_angusticauda,6,40,host-parasite,category,prevalence
+Etheostoma exile,6,Tetracotyle_sp. (L),6,20,host-parasite,category,prevalence
+Etheostoma exile,6,Posthodiplostomum_minimum (L),6,40,host-parasite,category,prevalence
+Etheostoma exile,6,Bothriocephalus_formosus,6,20,host-parasite,category,prevalence
+Etheostoma exile,6,Rhabdochona_cascadilla,6,20,host-parasite,category,prevalence
+Etheostoma exile,6,Illinobdella_sp.,6,20,host-parasite,category,prevalence
+Micropterus dolomieui,6,Azygia_angusticauda,6,3.2,host-parasite,category,prevalence
+Micropterus dolomieui,6,Microphallus_opacus,6,7.7,host-parasite,category,prevalence
+Micropterus dolomieui,6,Crepidostomum_cooperi,6,0.5,host-parasite,category,prevalence
+Micropterus dolomieui,6,Crepidostomum_cornutum,6,42.5,host-parasite,category,prevalence
+Micropterus dolomieui,6,Cryptogonimus_chyli,6,42.5,host-parasite,category,prevalence
+Micropterus dolomieui,6,Clinostomum_marginatum (L),6,10.4,host-parasite,category,prevalence
+Micropterus dolomieui,6,Rhipidocotyle_papillosa,6,0.5,host-parasite,category,prevalence
+Micropterus dolomieui,6,Neascus_sp. (L),6,0.5,host-parasite,category,prevalence
+Micropterus dolomieui,6,Diplostomulum_sp. (L),6,27.1,host-parasite,category,prevalence
+Micropterus dolomieui,6,Posthodiplostomum_minimum (L),6,34.4,host-parasite,category,prevalence
+Micropterus dolomieui,6,Proteocephalus_ambloplitis,6,64.8,host-parasite,category,prevalence
+Micropterus dolomieui,6,Camallanus_oxycephalus,6,0.5,host-parasite,category,prevalence
+Micropterus dolomieui,6,Contracaecum_brachyurum,6,9,host-parasite,category,prevalence
+Micropterus dolomieui,6,Dichelyne_cotylophora,6,13.1,host-parasite,category,prevalence
+Micropterus dolomieui,6,Spinitectus_carolini,6,50.7,host-parasite,category,prevalence
+Micropterus dolomieui,6,Spinitectus_gracilis (L),6,0.5,host-parasite,category,prevalence
+Micropterus dolomieui,6,Echinorhynchus_salmonis,6,8.1,host-parasite,category,prevalence
+Micropterus dolomieui,6,Leptorhynchoides_thecatus,6,81.4,host-parasite,category,prevalence
+Micropterus dolomieui,6,Neoechinorhynchus_cylindratus,6,62.9,host-parasite,category,prevalence
+Micropterus dolomieui,6,Neoechinorhynchus_rutili,6,0.9,host-parasite,category,prevalence
+Micropterus dolomieui,6,Pomphorhynchus_bulbocolli,6,1.4,host-parasite,category,prevalence
+Micropterus dolomieui,6,Illinobdella_sp.,6,0.5,host-parasite,category,prevalence
+Micropterus dolomieui,6,Achtheres_micropteri,6,27.1,host-parasite,category,prevalence
+Micropterus dolomieui,6,Ergasilus_caeruleus,6,0.9,host-parasite,category,prevalence
+Micropterus salmoides,6,Caecincola_parvulus,6,100,host-parasite,category,prevalence
+Micropterus salmoides,6,Azygia_angusticauda,6,40,host-parasite,category,prevalence
+Micropterus salmoides,6,Microphallus_opacus,6,20,host-parasite,category,prevalence
+Micropterus salmoides,6,Crepidostomum_cornutum,6,60,host-parasite,category,prevalence
+Micropterus salmoides,6,Diplostomulum_sp. (L),6,40,host-parasite,category,prevalence
+Micropterus salmoides,6,Proteocephalus_ambloplitis,6,20,host-parasite,category,prevalence
+Micropterus salmoides,6,Contracaecum_brachyurum,6,40,host-parasite,category,prevalence
+Micropterus salmoides,6,Dichelyne_cotylophora,6,20,host-parasite,category,prevalence
+Micropterus salmoides,6,Spinitectus_carolini,6,20,host-parasite,category,prevalence
+Micropterus salmoides,6,Echinorhynchus_salmonis,6,20,host-parasite,category,prevalence
+Micropterus salmoides,6,Leptorhynchoides_thecatus,6,40,host-parasite,category,prevalence
+Micropterus salmoides,6,Neoechinorhynchus_cylindratus,6,100,host-parasite,category,prevalence
+Lepomis gibbosus,6,Azygia_angusticauda,6,1.8,host-parasite,category,prevalence
+Lepomis gibbosus,6,Protometra_macrostoma,6,1.8,host-parasite,category,prevalence
+Lepomis gibbosus,6,Crepidostomum_cooperi,6,1.8,host-parasite,category,prevalence
+Lepomis gibbosus,6,Crepidostomum_cornutum,6,14.5,host-parasite,category,prevalence
+Lepomis gibbosus,6,Clinostomum_marginatum (L),6,27.3,host-parasite,category,prevalence
+Lepomis gibbosus,6,Neascus_sp. (L),6,89.1,host-parasite,category,prevalence
+Lepomis gibbosus,6,Diplostomulum_sp. (L),6,25.5,host-parasite,category,prevalence
+Lepomis gibbosus,6,Posthodiplostomum_minimum (L),6,94.5,host-parasite,category,prevalence
+Lepomis gibbosus,6,Bothriocephalus_claviceps,6,1.8,host-parasite,category,prevalence
+Lepomis gibbosus,6,Proteocephalus_ambloplitis,6,63.6,host-parasite,category,prevalence
+Lepomis gibbosus,6,Proteocephalus_pearsei,6,1.8,host-parasite,category,prevalence
+Lepomis gibbosus,6,Spinitectus_carolini,6,1.8,host-parasite,category,prevalence
+Lepomis gibbosus,6,Echinorhynchus_salmonis,6,1.8,host-parasite,category,prevalence
+Lepomis gibbosus,6,Leptorhynchoides_thecatus,6,10.9,host-parasite,category,prevalence
+Lepomis gibbosus,6,Neoechinorhynchus_cylindratus,6,3.6,host-parasite,category,prevalence
+Lepomis gibbosus,6,Ergasilus_caeruleus,6,1.8,host-parasite,category,prevalence
+Ambloplites rupestris,6,Azygia_angusticauda,6,4.3,host-parasite,category,prevalence
+Ambloplites rupestris,6,Microphallus_opacus,6,1.7,host-parasite,category,prevalence
+Ambloplites rupestris,6,Protometra_macrostoma,6,0.9,host-parasite,category,prevalence
+Ambloplites rupestris,6,Crepidostomum_cooperi,6,0.9,host-parasite,category,prevalence
+Ambloplites rupestris,6,Crepidostomum_cornutum,6,58.6,host-parasite,category,prevalence
+Ambloplites rupestris,6,Cryptogonimus_chyli,6,63.8,host-parasite,category,prevalence
+Ambloplites rupestris,6,Clinostomum_marginatum (L),6,8.6,host-parasite,category,prevalence
+Ambloplites rupestris,6,Neascus_sp. (L),6,10.3,host-parasite,category,prevalence
+Ambloplites rupestris,6,Diplostomulum_sp. (L),6,86.2,host-parasite,category,prevalence
+Ambloplites rupestris,6,Posthodiplostomum_minimum (L),6,86.2,host-parasite,category,prevalence
+Ambloplites rupestris,6,Bothriocephalus_claviceps,6,0.9,host-parasite,category,prevalence
+Ambloplites rupestris,6,Proteocephalus_ambloplitis,6,25.9,host-parasite,category,prevalence
+Ambloplites rupestris,6,Proteocephalus_pearsei,6,0.9,host-parasite,category,prevalence
+Ambloplites rupestris,6,Camallanus_oxycephalus,6,0.9,host-parasite,category,prevalence
+Ambloplites rupestris,6,Contracaecum_brachyurum,6,0.9,host-parasite,category,prevalence
+Ambloplites rupestris,6,Dichelyne_cotylophora,6,0.9,host-parasite,category,prevalence
+Ambloplites rupestris,6,Spinitectus_carolini,6,81,host-parasite,category,prevalence
+Ambloplites rupestris,6,Echinorhynchus_salmonis,6,0.9,host-parasite,category,prevalence
+Ambloplites rupestris,6,Leptorhynchoides_thecatus,6,28.4,host-parasite,category,prevalence
+Ambloplites rupestris,6,Neoechinorhynchus_cylindratus,6,40.5,host-parasite,category,prevalence
+Ambloplites rupestris,6,Pomphorhynchus_bulbocolli,6,2.6,host-parasite,category,prevalence
+Ambloplites rupestris,6,Illinobdella_moorei,6,2.6,host-parasite,category,prevalence
+Ambloplites rupestris,6,Achtheres_ambloplitis,6,3.4,host-parasite,category,prevalence
+Ambloplites rupestris,6,Ergasilus_caeruleus,6,2.6,host-parasite,category,prevalence
+Lota lota,6,Diplostomulum_sp. (L),6,80.9,host-parasite,category,prevalence
+Lota lota,6,Abothrium_crassum,6,95.2,host-parasite,category,prevalence
+Lota lota,6,Bothriocephalus_sp.,6,14.3,host-parasite,category,prevalence
+Lota lota,6,Proteocephalus_pearsei,6,4.8,host-parasite,category,prevalence
+Lota lota,6,Haplonema_hamulatum,6,38.1,host-parasite,category,prevalence
+Lota lota,6,Spinitectus_gracilis,6,4.8,host-parasite,category,prevalence
+Lota lota,6,Echinorhynchus_leidyi,6,14.3,host-parasite,category,prevalence
+Lota lota,6,Echinorhynchus_salmonis,6,90.5,host-parasite,category,prevalence
+Lota lota,6,Neoechinorhynchus_cylindratus,6,9.5,host-parasite,category,prevalence
+Lota lota,6,Neoechinorhynchus_rutili,6,4.8,host-parasite,category,prevalence
+Lota lota,6,Pomphorhynchus_bulbocolli,6,4.8,host-parasite,category,prevalence
+Culaea inconstans,6,Bunoderina_eucaliae,6,73.5,host-parasite,category,prevalence
+Culaea inconstans,6,Neascus_sp. (L),6,14.7,host-parasite,category,prevalence
+Culaea inconstans,6,Diplostomulum_sp. (L),6,2.9,host-parasite,category,prevalence
+Culaea inconstans,6,Posthodiplostomum_minimum (L),6,2.9,host-parasite,category,prevalence
+Culaea inconstans,6,Neoechinorhynchus_rutili,6,44.1,host-parasite,category,prevalence
+Cottus bairdi,6,Tetracotyle_sp. (L),6,75,host-parasite,category,prevalence
+Cottus bairdi,6,Diplostomulum_sp. (L),6,37.5,host-parasite,category,prevalence
+Salmo salar,7,Discocotyle_sagittata,7,20,host-parasite,category,prevalence
+Salmo salar,7,Crepidostomum_cooperi,7,20,host-parasite,category,prevalence
+Salmo salar,7,Phyllodistomum_lachancei,7,20,host-parasite,category,prevalence
+Salmo salar,7,Eubothrium_salvelini,7,100,host-parasite,category,prevalence
+Salmo salar,7,Diphyllobothrium_sp. (L),7,20,host-parasite,category,prevalence
+Salmo salar,7,Proteocephalus_sp.2,7,20,host-parasite,category,prevalence
+Salmo salar,7,Salmincola_extumescens,7,20,host-parasite,category,prevalence
+Salvelinus fontinalis,7,Discocotyle_sagittata,7,4,host-parasite,category,prevalence
+Salvelinus fontinalis,7,Crepidostomum_farionis,7,60,host-parasite,category,prevalence
+Salvelinus fontinalis,7,Phyllodistomum_lachancei,7,72,host-parasite,category,prevalence
+Salvelinus fontinalis,7,Eubothrium_salvelini,7,65,host-parasite,category,prevalence
+Salvelinus fontinalis,7,Diphyllobothrium_sp. (L),7,3,host-parasite,category,prevalence
+Salvelinus fontinalis,7,Proteocephalus_tumidocollus,7,1,host-parasite,category,prevalence
+Salvelinus fontinalis,7,Proteocephalus_sp.1,7,6,host-parasite,category,prevalence
+Salvelinus fontinalis,7,Proteocephalus_sp.2,7,12,host-parasite,category,prevalence
+Salvelinus fontinalis,7,Raphidascaris_sp.,7,7,host-parasite,category,prevalence
+Salvelinus fontinalis,7,Capillaria_salvelini,7,4,host-parasite,category,prevalence
+Salvelinus fontinalis,7,Metabronema_salvelini,7,3,host-parasite,category,prevalence
+Salvelinus fontinalis,7,Metechinorhynchus_lateralis,7,3,host-parasite,category,prevalence
+Salvelinus fontinalis,7,Salmincola_edwardsii,7,37,host-parasite,category,prevalence
+Salvelinus namaycush,7,Tetraonchus_monenteron,7,3,host-parasite,category,prevalence
+Salvelinus namaycush,7,Crepidostomum_farionis,7,9,host-parasite,category,prevalence
+Salvelinus namaycush,7,Crepidostomum_cooperi,7,3,host-parasite,category,prevalence
+Salvelinus namaycush,7,Phyllodistomum_lachancei,7,16,host-parasite,category,prevalence
+Salvelinus namaycush,7,Triaenophorus_crassus (L),7,13,host-parasite,category,prevalence
+Salvelinus namaycush,7,Eubothrium_salvelini,7,56,host-parasite,category,prevalence
+Salvelinus namaycush,7,Diphyllobothrium_sp. (L),7,44,host-parasite,category,prevalence
+Salvelinus namaycush,7,Proteocephalus_tumidocollus,7,25,host-parasite,category,prevalence
+Salvelinus namaycush,7,Proteocephalus_sp.1,7,9,host-parasite,category,prevalence
+Salvelinus namaycush,7,Proteocephalus_sp.2,7,53,host-parasite,category,prevalence
+Salvelinus namaycush,7,Raphidascaris_sp.,7,9,host-parasite,category,prevalence
+Salvelinus namaycush,7,Capillaria_salvelini,7,59,host-parasite,category,prevalence
+Salvelinus namaycush,7,Salmincola_siscowet,7,3,host-parasite,category,prevalence
+Coregonus clupeaformis,7,Discocotyle_sagittata,7,18,host-parasite,category,prevalence
+Coregonus clupeaformis,7,Crepidostomum_farionis,7,5,host-parasite,category,prevalence
+Coregonus clupeaformis,7,Crepidostomum_cooperi,7,3,host-parasite,category,prevalence
+Coregonus clupeaformis,7,Phyllodistomum_coregoni,7,21,host-parasite,category,prevalence
+Coregonus clupeaformis,7,Triaenophorus_crassus (L),7,16,host-parasite,category,prevalence
+Coregonus clupeaformis,7,Diphyllobothrium_sp. (L),7,5,host-parasite,category,prevalence
+Coregonus clupeaformis,7,Proteocephalus_tumidocollus,7,47,host-parasite,category,prevalence
+Coregonus clupeaformis,7,Proteocephalus_sp.1,7,5,host-parasite,category,prevalence
+Coregonus clupeaformis,7,Proteocephalus_sp.2,7,3,host-parasite,category,prevalence
+Coregonus clupeaformis,7,Raphidascaris_sp.,7,1,host-parasite,category,prevalence
+Coregonus clupeaformis,7,Capillaria_salvelini,7,20,host-parasite,category,prevalence
+Coregonus clupeaformis,7,Salmincola_extumescens,7,9,host-parasite,category,prevalence
+Coregonus clupeaformis,7,Salmincola_coregonorum,7,1,host-parasite,category,prevalence
+Esox lucius,7,Tetraonchus_monenteron,7,84,host-parasite,category,prevalence
+Esox lucius,7,Triaenophorus_crassus,7,64,host-parasite,category,prevalence
+Esox lucius,7,Proteocephalus_pinguis,7,76,host-parasite,category,prevalence
+Esox lucius,7,Raphidascaris_canadensis,7,51,host-parasite,category,prevalence
+Esox lucius,7,Metechinorhynchus_lateralis,7,1,host-parasite,category,prevalence
+Catostomus catostomus,7,Neoechinorhynchus_crassus,7,57,host-parasite,category,prevalence
+Catostomus catostomus,7,Ergasilus_caeruleus,7,7,host-parasite,category,prevalence
+Catostomus catostomus,8,Anonchohaptor_anomalus,8,83.3,host-parasite,category,intensity
+Catostomus catostomus,8,Diplostomum_spathaceum (L),8,83.3,host-parasite,category,intensity
+Catostomus catostomus,8,Glaridacris_catostomi,8,83.3,host-parasite,category,intensity
+Catostomus catostomus,8,Cystidicola_farionis,8,16.7,host-parasite,category,intensity
+Coregonus clupeaformis,8,Discocotyle_sagittata,8,79.4,host-parasite,category,intensity
+Coregonus clupeaformis,8,Crepidostomum_farionis,8,42.9,host-parasite,category,intensity
+Coregonus clupeaformis,8,Diplostomum_spathaceum (L),8,96.8,host-parasite,category,intensity
+Coregonus clupeaformis,8,Tetracotyle_sp. (L),8,84.1,host-parasite,category,intensity
+Coregonus clupeaformis,8,Cyathocephalus_truncatus,8,34.9,host-parasite,category,intensity
+Coregonus clupeaformis,8,Diphyllobothrium_sp. (L),8,47.6,host-parasite,category,intensity
+Coregonus clupeaformis,8,Eubothrium_salvelini,8,12.7,host-parasite,category,intensity
+Coregonus clupeaformis,8,Proteocephalus_tumidocollus,8,80.9,host-parasite,category,intensity
+Coregonus clupeaformis,8,Triaenophorus_crassus (L),8,96.8,host-parasite,category,intensity
+Coregonus clupeaformis,8,Cystidicola_farionis,8,76.2,host-parasite,category,intensity
+Coregonus clupeaformis,8,Raphidascaris_acus (L),8,9.5,host-parasite,category,intensity
+Coregonus clupeaformis,8,Neoechinorhynchus_tumidus,8,95.2,host-parasite,category,intensity
+Coregonus clupeaformis,8,Piscicola_milneri,8,1.6,host-parasite,category,intensity
+Coregonus clupeaformis,8,Salmincola_extensus,8,4.8,host-parasite,category,intensity
+Cottus cognatus,8,Dactylogyrus_buddi,8,95.1,host-parasite,category,intensity
+Cottus cognatus,8,Crepidostomum_farionis,8,31.1,host-parasite,category,intensity
+Cottus cognatus,8,Diplostomum_spathaceum (L),8,98.4,host-parasite,category,intensity
+Cottus cognatus,8,Heterophyid_meta (L),8,3.3,host-parasite,category,intensity
+Cottus cognatus,8,Neascus_sp. (L),8,91.8,host-parasite,category,intensity
+Cottus cognatus,8,Proteocephalus_tumidocollus,8,19.7,host-parasite,category,intensity
+Cottus cognatus,8,Schistocephalus_solidus (L),8,8.2,host-parasite,category,intensity
+Cottus cognatus,8,Neoechinorhynchus_tumidus,8,34.4,host-parasite,category,intensity
+Esox lucius,8,Tetraonchus_monenteron,8,100,host-parasite,category,intensity
+Esox lucius,8,Allocreadium_isosporum,8,7.1,host-parasite,category,intensity
+Esox lucius,8,Crepidostomum_farionis,8,7.1,host-parasite,category,intensity
+Esox lucius,8,Diplostomum_spathaceum (L),8,7.1,host-parasite,category,intensity
+Esox lucius,8,Proteocephalus_tumidocollus,8,28.6,host-parasite,category,intensity
+Esox lucius,8,Triaenophorus_crassus,8,64.3,host-parasite,category,intensity
+Esox lucius,8,Raphidascaris_acus,8,57.1,host-parasite,category,intensity
+Esox lucius,8,Neoechinorhynchus_tumidus,8,7.1,host-parasite,category,intensity
+Esox lucius,8,Piscicola_milneri,8,7.1,host-parasite,category,intensity
+Prosopium cylindraceum,8,Discocotyle_sagittata,8,56.1,host-parasite,category,intensity
+Prosopium cylindraceum,8,Tetraonchus_variabilis,8,54.4,host-parasite,category,intensity
+Prosopium cylindraceum,8,Crepidostomum_farionis,8,86,host-parasite,category,intensity
+Prosopium cylindraceum,8,Diplostomum_spathaceum (L),8,94.7,host-parasite,category,intensity
+Prosopium cylindraceum,8,Tetracotyle_sp. (L),8,73.7,host-parasite,category,intensity
+Prosopium cylindraceum,8,Cyathocephalus_truncatus,8,1.8,host-parasite,category,intensity
+Prosopium cylindraceum,8,Diphyllobothrium_sp. (L),8,5.3,host-parasite,category,intensity
+Prosopium cylindraceum,8,Eubothrium_salvelini,8,3.5,host-parasite,category,intensity
+Prosopium cylindraceum,8,Proteocephalus_tumidocollus,8,26.3,host-parasite,category,intensity
+Prosopium cylindraceum,8,Triaenophorus_crassus (L),8,5.3,host-parasite,category,intensity
+Prosopium cylindraceum,8,Capillaria_salvelini,8,1.8,host-parasite,category,intensity
+Prosopium cylindraceum,8,Cystidicola_farionis,8,42.1,host-parasite,category,intensity
+Prosopium cylindraceum,8,Neoechinorhynchus_tumidus,8,86,host-parasite,category,intensity
+Prosopium cylindraceum,8,Piscicola_milneri,8,3.5,host-parasite,category,intensity
+Salvelinus namaycush,8,Discocotyle_sagittata,8,1.6,host-parasite,category,intensity
+Salvelinus namaycush,8,Crepidostomum_farionis,8,90.2,host-parasite,category,intensity
+Salvelinus namaycush,8,Diplostomum_spathaceum (L),8,100,host-parasite,category,intensity
+Salvelinus namaycush,8,Tetracotyle_sp. (L),8,80.3,host-parasite,category,intensity
+Salvelinus namaycush,8,Cyathocephalus_truncatus,8,21.3,host-parasite,category,intensity
+Salvelinus namaycush,8,Diphyllobothrium_sp. (L),8,44.3,host-parasite,category,intensity
+Salvelinus namaycush,8,Eubothrium_salvelini,8,95.1,host-parasite,category,intensity
+Salvelinus namaycush,8,Proteocephalus_tumidocollus,8,100,host-parasite,category,intensity
+Salvelinus namaycush,8,Triaenophorus_crassus (L),8,22.9,host-parasite,category,intensity
+Salvelinus namaycush,8,Capillaria_salvelini,8,21.3,host-parasite,category,intensity
+Salvelinus namaycush,8,Cystidicola_farionis,8,82,host-parasite,category,intensity
+Salvelinus namaycush,8,Neoechinorhynchus_tumidus,8,50.8,host-parasite,category,intensity
+Salvelinus namaycush,8,Piscicola_milneri,8,6.6,host-parasite,category,intensity
+Salvelinus namaycush,8,Salmincola_edwardsii,8,44.3,host-parasite,category,intensity
+Thymallus arcticus,8,Discocotyle_sagittata,8,20.5,host-parasite,category,intensity
+Thymallus arcticus,8,Tetraonchus_borealis,8,88.6,host-parasite,category,intensity
+Thymallus arcticus,8,Allocreadium_isosporum,8,95.5,host-parasite,category,intensity
+Thymallus arcticus,8,Crepidostomum_farionis,8,95.5,host-parasite,category,intensity
+Thymallus arcticus,8,Diplostomum_spathaceum (L),8,86.4,host-parasite,category,intensity
+Thymallus arcticus,8,Tetracotyle_sp. (L),8,13.6,host-parasite,category,intensity
+Thymallus arcticus,8,Diphyllobothrium_sp. (L),8,18.2,host-parasite,category,intensity
+Thymallus arcticus,8,Eubothrium_salvelini,8,15.9,host-parasite,category,intensity
+Thymallus arcticus,8,Proteocephalus_tumidocollus,8,27.3,host-parasite,category,intensity
+Thymallus arcticus,8,Triaenophorus_crassus (L),8,40.9,host-parasite,category,intensity
+Thymallus arcticus,8,Capillaria_salvelini,8,2.3,host-parasite,category,intensity
+Thymallus arcticus,8,Cystidicola_farionis,8,11.4,host-parasite,category,intensity
+Thymallus arcticus,8,Raphidascaris_acus (L),8,18.2,host-parasite,category,intensity
+Thymallus arcticus,8,Neoechinorhynchus_tumidus,8,18.2,host-parasite,category,intensity
+Thymallus arcticus,8,Salmincola_thymalli,8,34.1,host-parasite,category,intensity
+Coregonus artedii,9,Parasite genus_Parasite species,9,1,host-parasite,category,intensity
+Coregonus artedii,9,Discocotyle_sagittata,9,20.9,host-parasite,category,intensity
+Coregonus artedii,9,Cotylurus_erraticus (L),9,1.1,host-parasite,category,intensity
+Coregonus artedii,9,Crepidostomum_farionis,9,1.6,host-parasite,category,intensity
+Coregonus artedii,9,Cyathocephalus_truncatus,9,7.8,host-parasite,category,intensity
+Coregonus artedii,9,Diphyllobothrium_sp. (L),9,1.2,host-parasite,category,intensity
+Coregonus artedii,9,Triaenophorus_crassus (L),9,0.7,host-parasite,category,intensity
+Coregonus artedii,9,Proteocephalus_filicollis,9,20.3,host-parasite,category,intensity
+Coregonus artedii,9,Philonema_agubernaculum,9,0.9,host-parasite,category,intensity
+Coregonus artedii,9,Cystidicola_farionis,9,1.5,host-parasite,category,intensity
+Coregonus artedii,9,Metechinorhynchus_salmonis,9,32.4,host-parasite,category,intensity
+Coregonus artedii,9,Pomphorhynchus_bulbocolli,9,2,host-parasite,category,intensity
+Coregonus artedii,9,Ergasilus_auritus,9,25.1,host-parasite,category,intensity
+Coregonus artedii,9,Ergasilus_nerkae,9,35.3,host-parasite,category,intensity
+Coregonus artedii,9,Salmincola_extensus,9,0.1,host-parasite,category,intensity
+Coregonus clupeaformis,9,Parasite genus_Parasite species,9,2,host-parasite,category,intensity
+Coregonus clupeaformis,9,Discocotyle_sagittata,9,65.3,host-parasite,category,intensity
+Coregonus clupeaformis,9,Diplostomum_spathaceum (L),9,1.4,host-parasite,category,intensity
+Coregonus clupeaformis,9,Cotylurus_erraticus (L),9,48.7,host-parasite,category,intensity
+Coregonus clupeaformis,9,Crepidostomum_farionis,9,0.2,host-parasite,category,intensity
+Coregonus clupeaformis,9,Phyllodistomum_coregoni,9,1.9,host-parasite,category,intensity
+Coregonus clupeaformis,9,Cyathocephalus_truncatus,9,72.8,host-parasite,category,intensity
+Coregonus clupeaformis,9,Diphyllobothrium_sp. (L),9,0.1,host-parasite,category,intensity
+Coregonus clupeaformis,9,Proteocephalus_exiguus,9,14.3,host-parasite,category,intensity
+Coregonus clupeaformis,9,Cystidicola_farionis,9,76.1,host-parasite,category,intensity
+Coregonus clupeaformis,9,Metechinorhynchus_salmonis,9,99.5,host-parasite,category,intensity
+Coregonus clupeaformis,9,Pomphorhynchus_bulbocolli,9,1,host-parasite,category,intensity
+Coregonus clupeaformis,9,Ergasilus_auritus,9,1.2,host-parasite,category,intensity
+Coregonus clupeaformis,9,Ergasilus_nerkae,9,5.1,host-parasite,category,intensity
+Coregonus clupeaformis,9,Salmincola_extensus,9,30.9,host-parasite,category,intensity
+Coregonus clupeaformis,9,Salmincola_extumescens,9,26.3,host-parasite,category,intensity
+Salvelinus namaycush,9,Parasite genus_Parasite species,9,3,host-parasite,category,intensity
+Salvelinus namaycush,9,Diplostomum_spathaceum (L),9,5.7,host-parasite,category,intensity
+Salvelinus namaycush,9,Eubothrium_salvelini,9,100,host-parasite,category,intensity
+Salvelinus namaycush,9,Triaenophorus_nodulosus (L),9,5.7,host-parasite,category,intensity
+Salvelinus namaycush,9,Raphidascaris_acus (L),9,8.6,host-parasite,category,intensity
+Salvelinus namaycush,9,Metechinorhynchus_salmonis,9,100,host-parasite,category,intensity
+Salvelinus namaycush,9,Pomphorhynchus_bulbocolli,9,5.7,host-parasite,category,intensity
+Salvelinus namaycush,9,Ergasilus_auritus,9,5.7,host-parasite,category,intensity
+Salvelinus namaycush,9,Ergasilus_nerkae,9,2.9,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Parasite genus_Parasite species,9,4,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Discocotyle_sagittata,9,0.3,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Crepidostomum_farionis,9,10.5,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Cyathocephalus_truncatus,9,0.7,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Eubothrium_salvelini,9,2.4,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Diphyllobothrium_sp. (L),9,5.5,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Schistocephalus_solidus (L),9,0.3,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Triaenophorus_nodulosus (L),9,3.1,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Philonema_agubernaculum,9,16.8,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Cystidicola_farionis,9,4.8,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Neoechinorhynchus_strigosus,9,0.7,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Metechinorhynchus_salmonis,9,99.4,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Pomphorhynchus_bulbocolli,9,6.5,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Ergasilus_auritus,9,17.2,host-parasite,category,intensity
+Oncorhynchus kisutch,9,Ergasilus_nerkae,9,38.1,host-parasite,category,intensity
+Esox lucius,9,Parasite genus_Parasite species,9,5,host-parasite,category,intensity
+Esox lucius,9,Schistocephalus_solidus (L),9,1.6,host-parasite,category,intensity
+Esox lucius,9,Triaenophorus_crassus,9,3.2,host-parasite,category,intensity
+Esox lucius,9,Triaenophorus_nodulosus,9,90.3,host-parasite,category,intensity
+Esox lucius,9,Proteocephalus_pinguis,9,1.6,host-parasite,category,intensity
+Esox lucius,9,Raphidascaris_acus,9,3.2,host-parasite,category,intensity
+Esox lucius,9,Neoechinorhynchus_strigosus,9,1.6,host-parasite,category,intensity
+Esox lucius,9,Metechinorhynchus_salmonis,9,83.9,host-parasite,category,intensity
+Catostomus catostomus,9,Parasite genus_Parasite species,9,6,host-parasite,category,intensity
+Catostomus catostomus,9,Glaridacris_sp.,9,50,host-parasite,category,intensity
+Catostomus catostomus,9,Rhabdochona_cascadilla,9,58.3,host-parasite,category,intensity
+Catostomus catostomus,9,Metechinorhynchus_salmonis,9,83.3,host-parasite,category,intensity
+Catostomus catostomus,9,Ergasilus_sp. A,9,11.1,host-parasite,category,intensity
+Catostomus commersoni,9,Parasite genus_Parasite species,9,7,host-parasite,category,intensity
+Catostomus commersoni,9,Lissorchis_attenuatum,9,13.8,host-parasite,category,intensity
+Catostomus commersoni,9,Glaridacris_sp.,9,5.6,host-parasite,category,intensity
+Catostomus commersoni,9,Hunterella_nodulosa,9,5.6,host-parasite,category,intensity
+Catostomus commersoni,9,Rhabdochona_cascadilla,9,8.3,host-parasite,category,intensity
+Catostomus commersoni,9,Neoechinorhynchus_strigosus,9,13.8,host-parasite,category,intensity
+Catostomus commersoni,9,Metechinorhynchus_salmonis,9,8.3,host-parasite,category,intensity
+Catostomus commersoni,9,Pomphorhynchus_bulbocolli,9,100,host-parasite,category,intensity
+Catostomus commersoni,9,Ergasilus_sp. A,9,11.1,host-parasite,category,intensity
+Lota lota,9,Parasite genus_Parasite species,9,8,host-parasite,category,intensity
+Lota lota,9,Cyathocephalus_truncatus,9,6.9,host-parasite,category,intensity
+Lota lota,9,Eubothrium_rugosum,9,79.3,host-parasite,category,intensity
+Lota lota,9,Triaenophorus_nodulosus (L),9,6.4,host-parasite,category,intensity
+Lota lota,9,Haplonema_hamulatum,9,5.2,host-parasite,category,intensity
+Lota lota,9,Metechinorhynchus_salmonis,9,100,host-parasite,category,intensity
+Lota lota,9,Cystobranchus_verrilli,9,3.4,host-parasite,category,intensity
+Pungitius pungitius,9,Parasite genus_Parasite species,9,9,host-parasite,category,intensity
+Pungitius pungitius,9,Gyrodactylus_sp.,9,59.1,host-parasite,category,intensity
+Pungitius pungitius,9,Diplostomum_spathaceum (L),9,74.7,host-parasite,category,intensity
+Pungitius pungitius,9,Apatemon_gracilis (L),9,11,host-parasite,category,intensity
+Pungitius pungitius,9,Cotylurus_erraticus (L),9,45.6,host-parasite,category,intensity
+Pungitius pungitius,9,Bunodera_luciopercae,9,4.3,host-parasite,category,intensity
+Pungitius pungitius,9,Schistocephalus_solidus (L),9,31.6,host-parasite,category,intensity
+Pungitius pungitius,9,Triaenophorus_nodulosus (L),9,11.8,host-parasite,category,intensity
+Pungitius pungitius,9,Proteocephalus_filicollis,9,11.7,host-parasite,category,intensity
+Pungitius pungitius,9,Raphidascaris_acus (L),9,0.2,host-parasite,category,intensity
+Pungitius pungitius,9,Metechinorhynchus_salmonis,9,19,host-parasite,category,intensity
+Pungitius pungitius,9,Pomphorhynchus_bulbocolli,9,0.6,host-parasite,category,intensity
+Pungitius pungitius,9,Ergasilus_auritus,9,13.3,host-parasite,category,intensity
+Stizostedion vitreum,9,Parasite genus_Parasite species,9,10,host-parasite,category,intensity
+Stizostedion vitreum,9,Bothriocephalus_cuspidatus,9,75,host-parasite,category,intensity
+Stizostedion vitreum,9,Proteocephalus_sp. A,9,50,host-parasite,category,intensity
+Stizostedion vitreum,9,Metechinorhynchus_salmonis,9,66.7,host-parasite,category,intensity
+Catostomus catostomus,10,Acolpenteron_catostomi,10,4.1,host-parasite,category,intensity
+Catostomus catostomus,10,Anoncohaptor_anomalum,10,2,host-parasite,category,intensity
+Catostomus catostomus,10,Pseudomurraytrema_copulata,10,6.1,host-parasite,category,intensity
+Catostomus catostomus,10,Diplostomum_sp.2 (L),10,2,host-parasite,category,intensity
+Catostomus catostomus,10,Neascus_sp. (L),10,6.1,host-parasite,category,intensity
+Catostomus catostomus,10,Tetracotyle_sp. (L),10,6.1,host-parasite,category,intensity
+Catostomus catostomus,10,Glaridacris_catostomi,10,24.5,host-parasite,category,intensity
+Catostomus catostomus,10,Philometroides_huronensis,10,10.2,host-parasite,category,intensity
+Catostomus catostomus,10,Neoechinorhynchus_cristatus,10,14.3,host-parasite,category,intensity
+Catostomus macrocheilus,10,Acolpenteron_catostomi,10,2.3,host-parasite,category,intensity
+Catostomus macrocheilus,10,Pseudomurraytrema_copulata,10,25.6,host-parasite,category,intensity
+Catostomus macrocheilus,10,Diplostomum_sp.2 (L),10,2.3,host-parasite,category,intensity
+Catostomus macrocheilus,10,Tetracotyle_sp. (L),10,7,host-parasite,category,intensity
+Catostomus macrocheilus,10,Rhabdochona_zacconis,10,9.3,host-parasite,category,intensity
+Catostomus macrocheilus,10,Neoechinorhynchus_cristatus,10,20.9,host-parasite,category,intensity
+Catostomus macrocheilus,10,Octospinifer_macilentus,10,16.3,host-parasite,category,intensity
+Cottus asper,10,Proteocephalus_sp.,10,10.5,host-parasite,category,intensity
+Cottus cognatus,10,Diplostomum_sp.2 (L),10,4.3,host-parasite,category,intensity
+Cottus cognatus,10,Tetracotyle_sp. (L),10,8.7,host-parasite,category,intensity
+Cottus cognatus,10,Rhabdochona_cotti,10,26.1,host-parasite,category,intensity
+Lota lota,10,Crepidostomum_farionis,10,22.2,host-parasite,category,intensity
+Lota lota,10,Hysterothylacium_brachyurum,10,44.4,host-parasite,category,intensity
+Lota lota,10,Eustrongylides_sp. (L),10,22.2,host-parasite,category,intensity
+Lota lota,10,Haplonema_hamatulum,10,22.2,host-parasite,category,intensity
+Mylocheilus caurinus,10,Octomacrum_micronfibulum,10,4.5,host-parasite,category,intensity
+Mylocheilus caurinus,10,Allocreadium_isosporum,10,27.3,host-parasite,category,intensity
+Mylocheilus caurinus,10,Diplostomum_sp.1 (L),10,72.7,host-parasite,category,intensity
+Mylocheilus caurinus,10,Tetracotyle_sp. (L),10,13.6,host-parasite,category,intensity
+Mylocheilus caurinus,10,Proteocephalus_sp.,10,13.6,host-parasite,category,intensity
+Mylocheilus caurinus,10,Ligula_intestinalis (L),10,4.5,host-parasite,category,intensity
+Mylocheilus caurinus,10,Rhabdochona_cascadilla,10,9.1,host-parasite,category,intensity
+Mylocheilus caurinus,10,Ergasilus_nerkae,10,13.6,host-parasite,category,intensity
+Oncorhynchus nerka,10,Crepidostomum_farionis,10,5.6,host-parasite,category,intensity
+Oncorhynchus nerka,10,Tetracotyle_sp. (L),10,5.6,host-parasite,category,intensity
+Oncorhynchus nerka,10,Proteocephalus_sp.,10,5.6,host-parasite,category,intensity
+Oncorhynchus nerka,10,Diphyllobothrium_sp. (L),10,22.2,host-parasite,category,intensity
+Oncorhynchus nerka,10,Philonema_sp.,10,5.6,host-parasite,category,intensity
+Oncorhynchus nerka,10,Rhabdochona_kisutchi,10,5.6,host-parasite,category,intensity
+Oncorhynchus nerka,10,Neoechinorhynchus_rutili,10,5.6,host-parasite,category,intensity
+Oncorhynchus nerka,10,Ergasilus_nerkae,10,38.9,host-parasite,category,intensity
+Oncorhynchus tshawytscha,10,Octomacrum_lanceatum,10,1.8,host-parasite,category,intensity
+Oncorhynchus tshawytscha,10,Crepidostomum_farionis,10,1.8,host-parasite,category,intensity
+Oncorhynchus tshawytscha,10,Brachyphallus_crenatus,10,3.5,host-parasite,category,intensity
+Oncorhynchus tshawytscha,10,Genolinea_oncorhynchi,10,1.8,host-parasite,category,intensity
+Oncorhynchus tshawytscha,10,Lampritrema_miescheri,10,1.8,host-parasite,category,intensity
+Oncorhynchus tshawytscha,10,Neascus_sp. (L),10,1.8,host-parasite,category,intensity
+Oncorhynchus tshawytscha,10,Eubothrium_salvelini,10,10.5,host-parasite,category,intensity
+Oncorhynchus tshawytscha,10,Phyllobothrium_sp. (L),10,3.5,host-parasite,category,intensity
+Oncorhynchus tshawytscha,10,Philonema_oncorhynchi,10,1.8,host-parasite,category,intensity
+Oncorhynchus tshawytscha,10,Salmincola_californiensis,10,1.8,host-parasite,category,intensity
+Prosopium williamsoni,10,Tetraonchus_variabilis,10,20.7,host-parasite,category,intensity
+Prosopium williamsoni,10,Crepidostomum_farionis,10,5.5,host-parasite,category,intensity
+Prosopium williamsoni,10,Diplostomum_sp.1 (L),10,0.7,host-parasite,category,intensity
+Prosopium williamsoni,10,Diplostomum_sp.2 (L),10,3.4,host-parasite,category,intensity
+Prosopium williamsoni,10,Tetracotyle_sp. (L),10,4.8,host-parasite,category,intensity
+Prosopium williamsoni,10,Proteocephalus_sp.,10,2.1,host-parasite,category,intensity
+Prosopium williamsoni,10,Diphyllobothrium_sp. (L),10,4.8,host-parasite,category,intensity
+Prosopium williamsoni,10,Eubothrium_salvelini,10,2.1,host-parasite,category,intensity
+Prosopium williamsoni,10,Eustrongylides_sp. (L),10,3.4,host-parasite,category,intensity
+Prosopium williamsoni,10,Philonema_agubernaculum,10,1.4,host-parasite,category,intensity
+Prosopium williamsoni,10,Philonema_sp.,10,4.1,host-parasite,category,intensity
+Prosopium williamsoni,10,Haplonema_hamatulum,10,2.1,host-parasite,category,intensity
+Prosopium williamsoni,10,Rhabdochona_kisutchi,10,0.7,host-parasite,category,intensity
+Prosopium williamsoni,10,Rhabdochona_milleri,10,2.8,host-parasite,category,intensity
+Prosopium williamsoni,10,Neoechinorhynchus_rutili,10,3.4,host-parasite,category,intensity
+Prosopium williamsoni,10,Salmincola_edwardsii,10,0.7,host-parasite,category,intensity
+Prosopium williamsoni,10,Salmincola_extensus,10,1.4,host-parasite,category,intensity
+Prosopium williamsoni,10,Salmincola_thymalli,10,9.7,host-parasite,category,intensity
+Ptychocheilus oregonensis,10,Tetracotyle_sp. (L),10,35,host-parasite,category,intensity
+Ptychocheilus oregonensis,10,Proteocephalus_ptychocheilus,10,50,host-parasite,category,intensity
+Ptychocheilus oregonensis,10,Bothriocephalus_opsariichthydis,10,35,host-parasite,category,intensity
+Ptychocheilus oregonensis,10,Eustrongylides_sp. (L),10,10,host-parasite,category,intensity
+Richardsonius balteatus,10,Diplostomum_sp.2 (L),10,10,host-parasite,category,intensity
+Richardsonius balteatus,10,Tetracotyle_sp. (L),10,25,host-parasite,category,intensity
+Richardsonius balteatus,10,Rhabdochona_cascadilla,10,5,host-parasite,category,intensity
+Salmo gairdneri,10,Bunodera_luciopercae,10,3.1,host-parasite,category,intensity
+Salmo gairdneri,10,Crepidostomum_farionis,10,24.5,host-parasite,category,intensity
+Salmo gairdneri,10,Phyllodistomum_sp.,10,1,host-parasite,category,intensity
+Salmo gairdneri,10,Diplostomum_sp.1 (L),10,3.1,host-parasite,category,intensity
+Salmo gairdneri,10,Diplostomum_sp.2 (L),10,1,host-parasite,category,intensity
+Salmo gairdneri,10,Tetracotyle_sp. (L),10,6.1,host-parasite,category,intensity
+Salmo gairdneri,10,Proteocephalus_tumidocollus,10,10.2,host-parasite,category,intensity
+Salmo gairdneri,10,Diphyllobothrium_sp. (L),10,2,host-parasite,category,intensity
+Salmo gairdneri,10,Eubothrium_salvelini,10,1,host-parasite,category,intensity
+Salmo gairdneri,10,Eustrongylides_sp. (L),10,1,host-parasite,category,intensity
+Salmo gairdneri,10,Philonema_agubernaculum,10,1,host-parasite,category,intensity
+Salmo gairdneri,10,Philonema_sp.,10,7.1,host-parasite,category,intensity
+Salmo gairdneri,10,Haplonema_hamatulum,10,3.1,host-parasite,category,intensity
+Salmo gairdneri,10,Cystidicoloides_tenuissima,10,6.1,host-parasite,category,intensity
+Salmo gairdneri,10,Rhabdochona_kisutchi,10,14.3,host-parasite,category,intensity
+Salmo gairdneri,10,Neoechinorhynchus_rutili,10,2,host-parasite,category,intensity
+Salmo gairdneri,10,Salmincola_californiensis,10,11.2,host-parasite,category,intensity
+Salvelinus malma,10,Tetraonchus_alaskensis,10,5.9,host-parasite,category,intensity
+Salvelinus malma,10,Crepidostomum_farionis,10,25.9,host-parasite,category,intensity
+Salvelinus malma,10,Diplostomum_sp.2 (L),10,2.4,host-parasite,category,intensity
+Salvelinus malma,10,Tetracotyle_sp. (L),10,4.7,host-parasite,category,intensity
+Salvelinus malma,10,Proteocephalus_salmonidicola,10,12.9,host-parasite,category,intensity
+Salvelinus malma,10,Proteocephalus_sp.,10,2.4,host-parasite,category,intensity
+Salvelinus malma,10,Eubothrium_salvelini,10,44.7,host-parasite,category,intensity
+Salvelinus malma,10,Eustrongylides_sp. (L),10,3.5,host-parasite,category,intensity
+Salvelinus malma,10,Philonema_sp.,10,1.2,host-parasite,category,intensity
+Salvelinus malma,10,Cystidicola_farionis,10,1.2,host-parasite,category,intensity
+Salvelinus malma,10,Cystidicoloides_tenuissima,10,4.7,host-parasite,category,intensity
+Salvelinus malma,10,Rhabdochona_canadensis,10,1.2,host-parasite,category,intensity
+Salvelinus malma,10,Rhabdochona_kisutchi,10,18.8,host-parasite,category,intensity
+Salvelinus malma,10,Neoechinorhynchus_rutili,10,9.4,host-parasite,category,intensity
+Salvelinus malma,10,Salmincola_edwardsii,10,30.6,host-parasite,category,intensity
+Salvelinus namaycush,10,Phyllodistomum_sp.,10,7.7,host-parasite,category,intensity
+Salvelinus namaycush,10,Diplostomum_sp.2 (L),10,38.5,host-parasite,category,intensity
+Salvelinus namaycush,10,Tetracotyle_sp. (L),10,7.7,host-parasite,category,intensity
+Salvelinus namaycush,10,Diphyllobothrium_sp. (L),10,15.4,host-parasite,category,intensity
+Salvelinus namaycush,10,Eubothrium_salvelini,10,100,host-parasite,category,intensity
+Salvelinus namaycush,10,Neoechinorhynchus_rutili,10,23.1,host-parasite,category,intensity
+Salvelinus namaycush,10,Salmincola_edwardsii,10,53.8,host-parasite,category,intensity
+Catostomus catostomus,11,Acolpenteron_catostomi,11,5.9,host-parasite,category,intensity
+Catostomus catostomus,11,Anoncohaptor_anomalum,11,2,host-parasite,category,intensity
+Catostomus catostomus,11,Pseudomurraytrema_copulata,11,9.8,host-parasite,category,intensity
+Catostomus catostomus,11,Tetracotyle_sp. (L),11,2,host-parasite,category,intensity
+Catostomus catostomus,11,Glaridacris_catostomi,11,9.8,host-parasite,category,intensity
+Catostomus catostomus,11,Monobothrium_sp.,11,2,host-parasite,category,intensity
+Catostomus catostomus,11,Philometroides_huronensis,11,2,host-parasite,category,intensity
+Catostomus catostomus,11,Neoechinorhynchus_cristatus,11,15.7,host-parasite,category,intensity
+Catostomus catostomus,11,Octospinifer_macilentus,11,3.9,host-parasite,category,intensity
+Catostomus commersoni,11,Anoncohaptor_anomalum,11,13.6,host-parasite,category,intensity
+Catostomus commersoni,11,Pseudomurraytrema_copulata,11,36.4,host-parasite,category,intensity
+Catostomus commersoni,11,Tetracotyle_sp. (L),11,18.2,host-parasite,category,intensity
+Catostomus commersoni,11,Glaridacris_catostomi,11,4.5,host-parasite,category,intensity
+Catostomus commersoni,11,Hunterella_nodulosa,11,31.8,host-parasite,category,intensity
+Catostomus commersoni,11,Monobothrium_sp.,11,4.5,host-parasite,category,intensity
+Catostomus commersoni,11,Philometroides_huronensis,11,4.8,host-parasite,category,intensity
+Catostomus commersoni,11,Neoechinorhynchus_cristatus,11,18.2,host-parasite,category,intensity
+Catostomus commersoni,11,Octospinifer_macilentus,11,4.5,host-parasite,category,intensity
+Catostomus commersoni,11,Pomphorhynchus_bulbocolli,11,27.3,host-parasite,category,intensity
+Catostomus commersoni,11,Ergasilus_nerkae,11,4.5,host-parasite,category,intensity
+Catostomus macrocheilus,11,Acolpenteron_catostomi,11,4.1,host-parasite,category,intensity
+Catostomus macrocheilus,11,Anoncohaptor_anomalum,11,4.1,host-parasite,category,intensity
+Catostomus macrocheilus,11,Pseudomurraytrema_copulata,11,57.1,host-parasite,category,intensity
+Catostomus macrocheilus,11,Octomacrum_lanceatus,11,2,host-parasite,category,intensity
+Catostomus macrocheilus,11,Diplostomum_sp.2 (L),11,2,host-parasite,category,intensity
+Catostomus macrocheilus,11,Tetracotyle_sp. (L),11,4.1,host-parasite,category,intensity
+Catostomus macrocheilus,11,Glaridacris_sp.,11,2,host-parasite,category,intensity
+Catostomus macrocheilus,11,Glaridacris_vogei,11,4.1,host-parasite,category,intensity
+Catostomus macrocheilus,11,Hunterella_nodulosa,11,2,host-parasite,category,intensity
+Catostomus macrocheilus,11,Philometroides_huronensis,11,12.2,host-parasite,category,intensity
+Catostomus macrocheilus,11,Rhabdochona_zacconis,11,16.3,host-parasite,category,intensity
+Catostomus macrocheilus,11,Neoechinorhynchus_cristatus,11,67.3,host-parasite,category,intensity
+Catostomus macrocheilus,11,Octospinifer_macilentus,11,10.2,host-parasite,category,intensity
+Catostomus macrocheilus,11,Pomphorhynchus_bulbocolli,11,18.4,host-parasite,category,intensity
+Catostomus macrocheilus,11,Ergasilus_nerkae,11,18.4,host-parasite,category,intensity
+Coregonus clupeaformis,11,Crepidostomum_farionis,11,3.5,host-parasite,category,intensity
+Coregonus clupeaformis,11,Diplostomum_sp.1 (L),11,1.2,host-parasite,category,intensity
+Coregonus clupeaformis,11,Diplostomum_sp.2 (L),11,5.8,host-parasite,category,intensity
+Coregonus clupeaformis,11,Tetracotyle_sp. (L),11,5.8,host-parasite,category,intensity
+Coregonus clupeaformis,11,Proteocephalus_sp.,11,2.3,host-parasite,category,intensity
+Coregonus clupeaformis,11,Diphyllobothrium_sp. (L),11,11.6,host-parasite,category,intensity
+Coregonus clupeaformis,11,Philonema_sp.,11,1.2,host-parasite,category,intensity
+Coregonus clupeaformis,11,Neoechinorhynchus_rutili,11,3.5,host-parasite,category,intensity
+Coregonus clupeaformis,11,Pomphorhynchus_bulbocolli,11,1.2,host-parasite,category,intensity
+Coregonus clupeaformis,11,Ergasilus_nerkae,11,11.6,host-parasite,category,intensity
+Cottus cognatus,11,Crepidostomum_farionis,11,3.4,host-parasite,category,intensity
+Cottus cognatus,11,Diplostomum_sp.2 (L),11,3.4,host-parasite,category,intensity
+Cottus cognatus,11,Tetracotyle_sp. (L),11,3.4,host-parasite,category,intensity
+Cottus cognatus,11,Ligula_intestinalis (L),11,3.4,host-parasite,category,intensity
+Cottus cognatus,11,Eustrongylides_sp. (L),11,3.4,host-parasite,category,intensity
+Cottus cognatus,11,Rhabdochona_cotti,11,10.3,host-parasite,category,intensity
+Lota lota,11,Crepidostomum_farionis,11,14.3,host-parasite,category,intensity
+Lota lota,11,Diplostomum_sp.2 (L),11,14.3,host-parasite,category,intensity
+Lota lota,11,Hysterothylacium_brachyurum,11,14.3,host-parasite,category,intensity
+Lota lota,11,Haplonema_hamatulum,11,57.1,host-parasite,category,intensity
+Lota lota,11,Neoechinorhynchus_rutili,11,14.3,host-parasite,category,intensity
+Mylocheilus caurinus,11,Allocreadium_isosporum,11,14.3,host-parasite,category,intensity
+Mylocheilus caurinus,11,Diplostomum_sp.1 (L),11,42.9,host-parasite,category,intensity
+Mylocheilus caurinus,11,Bothriocephalus_opsariichthydis,11,14.3,host-parasite,category,intensity
+Mylocheilus caurinus,11,Eustrongylides_sp. (L),11,14.3,host-parasite,category,intensity
+Mylocheilus caurinus,11,Ergasilus_nerkae,11,14.3,host-parasite,category,intensity
+Oncorhynchus nerka,11,Crepidostomum_farionis,11,5.8,host-parasite,category,intensity
+Oncorhynchus nerka,11,Phyllodistomum_sp.,11,13.5,host-parasite,category,intensity
+Oncorhynchus nerka,11,Diplostomum_sp.2 (L),11,13.5,host-parasite,category,intensity
+Oncorhynchus nerka,11,Tetracotyle_sp. (L),11,1.9,host-parasite,category,intensity
+Oncorhynchus nerka,11,Proteocephalus_sp.,11,5.8,host-parasite,category,intensity
+Oncorhynchus nerka,11,Diphyllobothrium_sp. (L),11,71.1,host-parasite,category,intensity
+Oncorhynchus nerka,11,Eubothrium_salvelini,11,7.7,host-parasite,category,intensity
+Oncorhynchus nerka,11,Philonema_sp.,11,1.9,host-parasite,category,intensity
+Oncorhynchus nerka,11,Neoechinorhynchus_rutili,11,90.4,host-parasite,category,intensity
+Prosopium coulteri,11,Neoechinorhynchus_rutili,11,20,host-parasite,category,intensity
+Prosopium williamsoni,11,Tetraonchus_variabilis,11,19.6,host-parasite,category,intensity
+Prosopium williamsoni,11,Crepidostomum_farionis,11,2,host-parasite,category,intensity
+Prosopium williamsoni,11,Diplostomum_sp.2 (L),11,2,host-parasite,category,intensity
+Prosopium williamsoni,11,Tetracotyle_sp. (L),11,1.3,host-parasite,category,intensity
+Prosopium williamsoni,11,Proteocephalus_sp.,11,5.2,host-parasite,category,intensity
+Prosopium williamsoni,11,Diphyllobothrium_sp. (L),11,3.3,host-parasite,category,intensity
+Prosopium williamsoni,11,Eubothrium_salvelini,11,0.7,host-parasite,category,intensity
+Prosopium williamsoni,11,Eustrongylides_sp. (L),11,3.9,host-parasite,category,intensity
+Prosopium williamsoni,11,Philonema_agubernaculum,11,2.6,host-parasite,category,intensity
+Prosopium williamsoni,11,Philonema_sp.,11,1.3,host-parasite,category,intensity
+Prosopium williamsoni,11,Truttaedacnitis_truttae,11,9.8,host-parasite,category,intensity
+Prosopium williamsoni,11,Cystidicola_farionis,11,5.9,host-parasite,category,intensity
+Prosopium williamsoni,11,Neoechinorhynchus_rutili,11,6.5,host-parasite,category,intensity
+Prosopium williamsoni,11,Pomphorhynchus_bulbocolli,11,0.7,host-parasite,category,intensity
+Prosopium williamsoni,11,Salmincola_thymalli,11,9.8,host-parasite,category,intensity
+Ptychocheilus oregonensis,11,Allocreadium_isosporum,11,3,host-parasite,category,intensity
+Ptychocheilus oregonensis,11,Diplostomum_sp.1 (L),11,3,host-parasite,category,intensity
+Ptychocheilus oregonensis,11,Diplostomum_sp.2 (L),11,6.1,host-parasite,category,intensity
+Ptychocheilus oregonensis,11,Neascus_sp (L),11,3,host-parasite,category,intensity
+Ptychocheilus oregonensis,11,Tetracotyle_sp. (L),11,36.4,host-parasite,category,intensity
+Ptychocheilus oregonensis,11,Proteocephalus_ptychocheilus,11,60.6,host-parasite,category,intensity
+Ptychocheilus oregonensis,11,Bothriocephalus_opsariichthydis,11,48.5,host-parasite,category,intensity
+Ptychocheilus oregonensis,11,Raphidascaris_acus,11,6.1,host-parasite,category,intensity
+Ptychocheilus oregonensis,11,Rhabdochona_cascadilla,11,3,host-parasite,category,intensity
+Ptychocheilus oregonensis,11,Pomphorhynchus_bulbocolli,11,3,host-parasite,category,intensity
+Ptychocheilus oregonensis,11,Ergasilus_nerkae,11,15.2,host-parasite,category,intensity
+Rhinichthys cataractae,11,Tetracotyle_sp. (L),11,5,host-parasite,category,intensity
+Rhinichthys cataractae,11,Rhabdochona_milleri,11,15,host-parasite,category,intensity
+Richardsonius balteatus,11,Pellucidhaptor_pellucidhaptor,11,10,host-parasite,category,intensity
+Richardsonius balteatus,11,Diplostomum_sp.1 (L),11,10,host-parasite,category,intensity
+Richardsonius balteatus,11,Diplostomum_sp.2 (L),11,10,host-parasite,category,intensity
+Richardsonius balteatus,11,Tetracotyle_sp. (L),11,20,host-parasite,category,intensity
+Richardsonius balteatus,11,Ligula_intestinalis (L),11,15,host-parasite,category,intensity
+Richardsonius balteatus,11,Rhabdochona_cascadilla,11,5,host-parasite,category,intensity
+Richardsonius balteatus,11,Neoechinorhynchus_cylindratus,11,45,host-parasite,category,intensity
+Richardsonius balteatus,11,Neoechinorhynchus_rutili,11,15,host-parasite,category,intensity
+Salmo gairdneri,11,Bunodera_luciopercae,11,8,host-parasite,category,intensity
+Salmo gairdneri,11,Crepidostomum_farionis,11,28,host-parasite,category,intensity
+Salmo gairdneri,11,Phyllodistomum_sp.,11,4,host-parasite,category,intensity
+Salmo gairdneri,11,Diplostomum_sp.2 (L),11,4,host-parasite,category,intensity
+Salmo gairdneri,11,Tetracotyle_sp. (L),11,1,host-parasite,category,intensity
+Salmo gairdneri,11,Proteocephalus_tumidocollus,11,17,host-parasite,category,intensity
+Salmo gairdneri,11,Diphyllobothrium_sp. (L),11,1,host-parasite,category,intensity
+Salmo gairdneri,11,Eubothrium_salvelini,11,3,host-parasite,category,intensity
+Salmo gairdneri,11,Philonema_agubernaculum,11,3,host-parasite,category,intensity
+Salmo gairdneri,11,Philonema_sp.,11,3,host-parasite,category,intensity
+Salmo gairdneri,11,Truttaedacnitis_truttae,11,3,host-parasite,category,intensity
+Salmo gairdneri,11,Cystidicoloides_tenuissima,11,5,host-parasite,category,intensity
+Salmo gairdneri,11,Neoechinorhynchus_rutili,11,21,host-parasite,category,intensity
+Salmo gairdneri,11,Pomphorhynchus_bulbocolli,11,1,host-parasite,category,intensity
+Salmo gairdneri,11,Ergasilus_nerkae,11,1,host-parasite,category,intensity
+Salmo gairdneri,11,Salmincola_californiensis,11,12,host-parasite,category,intensity
+Salvelinus malma,11,Crepidostomum_farionis,11,14.9,host-parasite,category,intensity
+Salvelinus malma,11,Diplostomum_sp.2 (L),11,7.9,host-parasite,category,intensity
+Salvelinus malma,11,Tetracotyle_sp. (L),11,1,host-parasite,category,intensity
+Salvelinus malma,11,Proteocephalus_salmonidicola,11,5.9,host-parasite,category,intensity
+Salvelinus malma,11,Proteocephalus_sp.,11,4,host-parasite,category,intensity
+Salvelinus malma,11,Diphyllobothrium_sp. (L),11,1,host-parasite,category,intensity
+Salvelinus malma,11,Eubothrium_salvelini,11,39.6,host-parasite,category,intensity
+Salvelinus malma,11,Hysterothylacium_brachyurum,11,2,host-parasite,category,intensity
+Salvelinus malma,11,Eustrongylides_sp. (L),11,3,host-parasite,category,intensity
+Salvelinus malma,11,Philonema_sp.,11,4,host-parasite,category,intensity
+Salvelinus malma,11,Haplonema_hamatulum,11,2,host-parasite,category,intensity
+Salvelinus malma,11,Truttaedacnitis_truttae,11,5.9,host-parasite,category,intensity
+Salvelinus malma,11,Cystidicola_farionis,11,5.9,host-parasite,category,intensity
+Salvelinus malma,11,Rhabdochona_canadensis,11,1,host-parasite,category,intensity
+Salvelinus malma,11,Rhabdochona_kisutchi,11,5.9,host-parasite,category,intensity
+Salvelinus malma,11,Neoechinorhynchus_rutili,11,47.5,host-parasite,category,intensity
+Salvelinus malma,11,Salmincola_edwardsii,11,3,host-parasite,category,intensity
+Salvelinus namaycush,11,Diplostomum_sp.2 (L),11,45.8,host-parasite,category,intensity
+Salvelinus namaycush,11,Tetracotyle_sp. (L),11,12.5,host-parasite,category,intensity
+Salvelinus namaycush,11,Diphyllobothrium_sp. (L),11,8.3,host-parasite,category,intensity
+Salvelinus namaycush,11,Eubothrium_salvelini,11,37.5,host-parasite,category,intensity
+Salvelinus namaycush,11,Truttaedacnitis_truttae,11,8.3,host-parasite,category,intensity
+Salvelinus namaycush,11,Cystidicola_farionis,11,12.5,host-parasite,category,intensity
+Salvelinus namaycush,11,Neoechinorhynchus_rutili,11,50,host-parasite,category,intensity
+Salvelinus namaycush,11,Salmincola_californiensis,11,37.5,host-parasite,category,intensity
+Salvelinus namaycush,11,Salmincola_edwardsii,11,37.5,host-parasite,category,intensity
+Thymallus arcticus,11,Tetraonchus_borealis,11,34,host-parasite,category,intensity
+Thymallus arcticus,11,Crepidostomum_farionis,11,14,host-parasite,category,intensity
+Thymallus arcticus,11,Tetracotyle_sp. (L),11,1,host-parasite,category,intensity
+Thymallus arcticus,11,Diphyllobothrium_sp. (L),11,2,host-parasite,category,intensity
+Thymallus arcticus,11,Philonema_sp.,11,1,host-parasite,category,intensity
+Thymallus arcticus,11,Cystidicoloides_tenuissima,11,1,host-parasite,category,intensity
+Thymallus arcticus,11,Neoechinorhynchus_rutili,11,13,host-parasite,category,intensity
+Thymallus arcticus,11,Ergasilus_nerkae,11,1,host-parasite,category,intensity
+Thymallus arcticus,11,Salmincola_thymalli,11,45,host-parasite,category,intensity
+Salmo salar,12,Discocotyle_sagittata,12,20,host-parasite,category,intensity
+Salmo salar,12,Crepidostomum_cooperi,12,20,host-parasite,category,intensity
+Salmo salar,12,Phyllodistomum_lachancei,12,20,host-parasite,category,intensity
+Salmo salar,12,Eubothrium_salvelini,12,100,host-parasite,category,intensity
+Salmo salar,12,Diphyllobothrium_sp. (L),12,20,host-parasite,category,intensity
+Salmo salar,12,Proteocephalus_sp.2,12,20,host-parasite,category,intensity
+Salmo salar,12,Salmincola_extumescens,12,20,host-parasite,category,intensity
+Salvelinus fontinalis,12,Discocotyle_sagittata,12,4,host-parasite,category,intensity
+Salvelinus fontinalis,12,Crepidostomum_farionis,12,60,host-parasite,category,intensity
+Salvelinus fontinalis,12,Phyllodistomum_lachancei,12,72,host-parasite,category,intensity
+Salvelinus fontinalis,12,Eubothrium_salvelini,12,65,host-parasite,category,intensity
+Salvelinus fontinalis,12,Diphyllobothrium_sp. (L),12,3,host-parasite,category,intensity
+Salvelinus fontinalis,12,Proteocephalus_tumidocollus,12,1,host-parasite,category,intensity
+Salvelinus fontinalis,12,Proteocephalus_sp.1,12,6,host-parasite,category,intensity
+Salvelinus fontinalis,12,Proteocephalus_sp.2,12,12,host-parasite,category,intensity
+Salvelinus fontinalis,12,Raphidascaris_sp.,12,7,host-parasite,category,intensity
+Salvelinus fontinalis,12,Capillaria_salvelini,12,4,host-parasite,category,intensity
+Salvelinus fontinalis,12,Metabronema_salvelini,12,3,host-parasite,category,intensity
+Salvelinus fontinalis,12,Metechinorhynchus_lateralis,12,3,host-parasite,category,intensity
+Salvelinus fontinalis,12,Salmincola_edwardsii,12,37,host-parasite,category,intensity
+Salvelinus namaycush,12,Tetraonchus_monenteron,12,3,host-parasite,category,intensity
+Salvelinus namaycush,12,Crepidostomum_farionis,12,9,host-parasite,category,intensity
+Salvelinus namaycush,12,Crepidostomum_cooperi,12,3,host-parasite,category,intensity
+Salvelinus namaycush,12,Phyllodistomum_lachancei,12,16,host-parasite,category,intensity
+Salvelinus namaycush,12,Triaenophorus_crassus (L),12,13,host-parasite,category,intensity
+Salvelinus namaycush,12,Eubothrium_salvelini,12,56,host-parasite,category,intensity
+Salvelinus namaycush,12,Diphyllobothrium_sp. (L),12,44,host-parasite,category,intensity
+Salvelinus namaycush,12,Proteocephalus_tumidocollus,12,25,host-parasite,category,intensity
+Salvelinus namaycush,12,Proteocephalus_sp.1,12,9,host-parasite,category,intensity
+Salvelinus namaycush,12,Proteocephalus_sp.2,12,53,host-parasite,category,intensity
+Salvelinus namaycush,12,Raphidascaris_sp.,12,9,host-parasite,category,intensity
+Salvelinus namaycush,12,Capillaria_salvelini,12,59,host-parasite,category,intensity
+Salvelinus namaycush,12,Salmincola_siscowet,12,3,host-parasite,category,intensity
+Coregonus clupeaformis,12,Discocotyle_sagittata,12,18,host-parasite,category,intensity
+Coregonus clupeaformis,12,Crepidostomum_farionis,12,5,host-parasite,category,intensity
+Coregonus clupeaformis,12,Crepidostomum_cooperi,12,3,host-parasite,category,intensity
+Coregonus clupeaformis,12,Phyllodistomum_coregoni,12,21,host-parasite,category,intensity
+Coregonus clupeaformis,12,Triaenophorus_crassus (L),12,16,host-parasite,category,intensity
+Coregonus clupeaformis,12,Diphyllobothrium_sp. (L),12,5,host-parasite,category,intensity
+Coregonus clupeaformis,12,Proteocephalus_tumidocollus,12,47,host-parasite,category,intensity
+Coregonus clupeaformis,12,Proteocephalus_sp.1,12,5,host-parasite,category,intensity
+Coregonus clupeaformis,12,Proteocephalus_sp.2,12,3,host-parasite,category,intensity
+Coregonus clupeaformis,12,Raphidascaris_sp.,12,1,host-parasite,category,intensity
+Coregonus clupeaformis,12,Capillaria_salvelini,12,20,host-parasite,category,intensity
+Coregonus clupeaformis,12,Salmincola_extumescens,12,9,host-parasite,category,intensity
+Coregonus clupeaformis,12,Salmincola_coregonorum,12,1,host-parasite,category,intensity
+Esox lucius,12,Tetraonchus_monenteron,12,84,host-parasite,category,intensity
+Esox lucius,12,Triaenophorus_crassus,12,64,host-parasite,category,intensity
+Esox lucius,12,Proteocephalus_pinguis,12,76,host-parasite,category,intensity
+Esox lucius,12,Raphidascaris_canadensis,12,51,host-parasite,category,intensity
+Esox lucius,12,Metechinorhynchus_lateralis,12,1,host-parasite,category,intensity
+Catostomus catostomus,12,Neoechinorhynchus_crassus,12,57,host-parasite,category,intensity
+Catostomus catostomus,12,Ergasilus_caeruleus,12,7,host-parasite,category,intensity

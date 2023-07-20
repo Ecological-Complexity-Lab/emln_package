@@ -1,0 +1,121 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+A. longimana,1,Diatoms,1,1,herbivory,method,observation
+A. longimana,1,Macroalgae,1,1,herbivory,method,observation
+A. longimana,1,Unid. Macrophytes,1,1,herbivory,method,observation
+A. valida,1,Unid. Macrophytes,1,1,herbivory,method,observation
+C. penantis,1,Dinoflagellates,1,1,herbivory,method,observation
+Cymadusa,1,Macroalgae,1,1,herbivory,method,observation
+Gammarus,1,Dinoflagellates,1,1,herbivory,method,observation
+Gammarus,1,Unid. Macrophytes,1,1,herbivory,method,observation
+Palaemonetes vulgaris,1,Gammaridean amphipods,1,1,predation,method,observation
+Palaemonetes vulgaris,1,Crustacean Parts,1,1,predation,method,observation
+Sygnathus fuscus,1,Gammaridean amphipods,1,1,predation,method,observation
+Blue crab,1,Diatoms,1,1,herbivory,method,observation
+Blue crab,1,Bivalves,1,1,predation,method,observation
+A. longimana,1,Detritus,1,1,detritivore,method,observation
+Hippolyte,1,Sediment,1,1,detritivore,method,observation
+A. longimana,1,Nematodes,1,1,predation,method,observation
+Blue crab,1,Barnacles,1,1,predation,method,observation
+A. longimana,1,Sediment,1,1,detritivore,method,observation
+A. valida,1,Detritus,1,1,detritivore,method,observation
+A. valida,1,Sediment,1,1,detritivore,method,observation
+C. penantis,1,Detritus,1,1,detritivore,method,observation
+C. penantis,1,Sediment,1,1,detritivore,method,observation
+Crangon,1,Detritus,1,1,detritivore,method,observation
+Crangon,1,Sediment,1,1,detritivore,method,observation
+Cymadusa,1,Detritus,1,1,detritivore,method,observation
+Cymadusa,1,Sediment,1,1,detritivore,method,observation
+Gammarus,1,Detritus,1,1,detritivore,method,observation
+Gammarus,1,Sediment,1,1,detritivore,method,observation
+Hippolyte,1,Detritus,1,1,detritivore,method,observation
+Idotea,1,Detritus,1,1,detritivore,method,observation
+Idotea,1,Sediment,1,1,detritivore,method,observation
+Palaemonetes vulgaris,1,Detritus,1,1,detritivore,method,observation
+Palaemonetes vulgaris,1,Sediment,1,1,detritivore,method,observation
+Blue crab,1,Sediment,1,1,detritivore,method,observation
+A. longimana,2,Diatoms,2,1,herbivory,method,observation
+Cymadusa,2,Unid. Macrophytes,2,1,herbivory,method,observation
+Elasmopus,2,Unid. Macrophytes,2,1,herbivory,method,observation
+Elasmopus,2,Crustacean Parts,2,1,predation,method,observation
+Hippolyte,2,Crustacean Parts,2,1,predation,method,observation
+P. vulgaris,2,Foraminifera,2,1,predation,method,observation
+P. vulgaris,2,Erichsonella,2,1,predation,method,observation
+P. vulgaris,2,Diatoms,2,1,herbivory,method,observation
+P. vulgaris,2,Ostracods,2,1,predation,method,observation
+P. vulgaris,2,Crustacean Parts,2,1,predation,method,observation
+Penaid,2,Polychaetes,2,1,predation,method,observation
+Sygnathus fuscus,2,Erichsonella,2,1,predation,method,observation
+Sygnathus fuscus,2,Gammaridean amphipods,2,1,predation,method,observation
+Sygnathus fuscus,2,Copepods,2,1,predation,method,observation
+Sygnathus floridae,2,Gammaridean amphipods,2,1,predation,method,observation
+Sygnathus floridae,2,Crepidulids,2,1,predation,method,observation
+Sygnathus floridae,2,Caprellid amphipods,2,1,predation,method,observation
+Gobiesoma bosci,2,Erichsonella,2,1,predation,method,observation
+Gobiesoma bosci,2,Gammaridean amphipods,2,1,predation,method,observation
+Gobiesoma bosci,2,Polychates,2,1,predation,method,observation
+Gobiesoma bosci,2,Crepidulids,2,1,predation,method,observation
+Gobiesoma bosci,2,Caprellid amphipods,2,1,predation,method,observation
+Gobiesox strumosus,2,Gammaridean amphipods,2,1,predation,method,observation
+Gobiesox strumosus,2,Ostracods 1,2,1,predation,method,observation
+A. longimana,2,Unid. Macrophytes,2,1,herbivory,method,observation
+Erichsonella,2,Macroalgae,2,1,herbivory,method,observation
+A. longimana,2,Detritus,2,1,detritivore,method,observation
+A. longimana,2,Sediment,2,1,detritivore,method,observation
+Cymadusa,2,Detritus,2,1,detritivore,method,observation
+Cymadusa,2,Sediment,2,1,detritivore,method,observation
+Elasmopus,2,Detritus,2,1,detritivore,method,observation
+Elasmopus,2,Sediment,2,1,detritivore,method,observation
+Erichsonella,2,Detritus,2,1,detritivore,method,observation
+Erichsonella,2,Sediment,2,1,detritivore,method,observation
+Hippolyte,2,Detritus,2,1,detritivore,method,observation
+Hippolyte,2,Sediment,2,1,detritivore,method,observation
+P. vulgaris,2,Detritus,2,1,detritivore,method,observation
+P. vulgaris,2,Sediment,2,1,detritivore,method,observation
+Penaid,2,Detritus,2,1,detritivore,method,observation
+Penaid,2,Sediment,2,1,detritivore,method,observation
+Gobiesoma bosci,2,Sediment,2,1,detritivore,method,observation
+Caprella penantis,3,Unid. Protista,3,1,predation,method,observation
+Ampithoe longimana,3,Dinoflagellates,3,1,herbivory,method,observation
+Ampithoe longimana,3,Macroalgae,3,1,herbivory,method,observation
+Ampithoe longimana,3,Diatoms,3,1,herbivory,method,observation
+Caprella penantis,3,Dinoflagellates,3,1,herbivory,method,observation
+Caprella penantis,3,Diatoms,3,1,herbivory,method,observation
+Crangon,3,Macroalgae,3,1,herbivory,method,observation
+Crangon,3,Polychaete,3,1,predation,method,observation
+Cymadusa compta,3,Dinoflagellates,3,1,herbivory,method,observation
+Cymadusa compta,3,Macroalgae,3,1,herbivory,method,observation
+Cymadusa compta,3,Diatoms,3,1,herbivory,method,observation
+Cymadusa compta,3,Zostera,3,1,predation,method,observation
+Cymadusa compta,3,Unid. Bacteria,3,1,predation,method,observation
+Erichsonella attenuata,3,Dinoflagellates,3,1,herbivory,method,observation
+Erichsonella attenuata,3,Macroalgae,3,1,herbivory,method,observation
+Erichsonella attenuata,3,Diatoms,3,1,herbivory,method,observation
+Erichsonella attenuata,3,Zostera,3,1,predation,method,observation
+Gammarus mucronatus,3,Dinoflagellates,3,1,herbivory,method,observation
+Gammarus mucronatus,3,Zostera,3,1,predation,method,observation
+Idotea balthica,3,Crustacean Parts,3,1,predation,method,observation
+Idotea balthica,3,Dinoflagellates,3,1,herbivory,method,observation
+Idotea balthica,3,Macroalgae,3,1,herbivory,method,observation
+Idotea balthica,3,Zostera,3,1,predation,method,observation
+Palaemonetes,3,Ostracods,3,1,predation,method,observation
+Sygnathus fuscus,3,Gammaridean amphipods,3,1,predation,method,observation
+Sygnathus fuscus,3,Copepods,3,1,predation,method,observation
+Callinectes sapidus,3,Polychates,3,1,predation,method,observation
+Ampithoe longimana,3,Detritus,3,1,detritivore,method,observation
+Gammarus mucronatus,3,Sediment,3,1,detritivore,method,observation
+Ampithoe longimana,3,Sediment,3,1,detritivore,method,observation
+Ampithoe valida,3,Detritus,3,1,detritivore,method,observation
+Ampithoe valida,3,Sediment,3,1,detritivore,method,observation
+Caprella penantis,3,Detritus,3,1,detritivore,method,observation
+Caprella penantis,3,Sediment,3,1,detritivore,method,observation
+Crangon,3,Detritus,3,1,detritivore,method,observation
+Crangon,3,Sediment,3,1,detritivore,method,observation
+Cymadusa compta,3,Detritus,3,1,detritivore,method,observation
+Cymadusa compta,3,Sediment,3,1,detritivore,method,observation
+Erichsonella attenuata,3,Detritus,3,1,detritivore,method,observation
+Erichsonella attenuata,3,Sediment,3,1,detritivore,method,observation
+Gammarus mucronatus,3,Detritus,3,1,detritivore,method,observation
+Idotea balthica,3,Detritus,3,1,detritivore,method,observation
+Idotea balthica,3,Sediment,3,1,detritivore,method,observation
+Palaemonetes,3,Detritus,3,1,detritivore,method,observation
+Callinectes sapidus,3,Sediment,3,1,detritivore,method,observation

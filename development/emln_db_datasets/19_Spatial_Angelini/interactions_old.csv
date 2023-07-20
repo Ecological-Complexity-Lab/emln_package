@@ -1,0 +1,224 @@
+node_from,layer_from,node_to,layer_to,weight,type
+Zooplankton,1,Phytoplankton,1,0.5,trophic
+Hypostomus.sp.,1,Phytoplankton,1,0.2,trophic
+Pimelodus.maculatus,1,Phytoplankton,1,0.05,trophic
+Schizodon.borellii,1,Phytoplankton,1,0.3,trophic
+Loricariichthys.platymetopon,1,Phytoplankton,1,0.1,trophic
+Prochilodus.lineatus,1,Phytoplankton,1,0.15,trophic
+Cyphocharax.modesta,1,Phytoplankton,1,0.35,trophic
+Steindachnerina.insculpta,1,Phytoplankton,1,0.35,trophic
+Schizodon.altoparanae,1,Phytoplankton,1,0.3,trophic
+Hypophthalmus.edentatus,1,Phytoplankton,1,0.3,trophic
+Leporinus.friderici,1,Phytoplankton,1,0.05,trophic
+Leporinus.obtusidens,1,Phytoplankton,1,0.05,trophic
+Pterodoras.granulosus,1,Phytoplankton,1,0.1,trophic
+Astyanax.altiparanae,1,Phytoplankton,1,0.1,trophic
+Other.benthos.feeders,1,Phytoplankton,1,0.05,trophic
+Other.detritus.feeders,1,Phytoplankton,1,0.1,trophic
+Other.omnivores,1,Phytoplankton,1,0.1,trophic
+Insects,1,Aquatic macrophytes,1,0.3,trophic
+Pimelodus.maculatus,1,Aquatic macrophytes,1,0.05,trophic
+Schizodon.borellii,1,Aquatic macrophytes,1,0.7,trophic
+Schizodon.altoparanae,1,Aquatic macrophytes,1,0.7,trophic
+Hoplosternum.littorale,1,Aquatic macrophytes,1,0.1,trophic
+Leporinus.friderici,1,Aquatic macrophytes,1,0.3,trophic
+Leporinus.obtusidens,1,Aquatic macrophytes,1,0.3,trophic
+Parauchenipterus.galeatus,1,Aquatic macrophytes,1,0.4,trophic
+Pterodoras.granulosus,1,Aquatic macrophytes,1,0.5,trophic
+Astyanax.altiparanae,1,Aquatic macrophytes,1,0.2,trophic
+Brycon.orbignyanus,1,Aquatic macrophytes,1,0.3,trophic
+Other.benthos.feeders,1,Aquatic macrophytes,1,0.1,trophic
+Other.insectivores,1,Aquatic macrophytes,1,0.2,trophic
+Other.omnivores,1,Aquatic macrophytes,1,0.15,trophic
+Benthos,1,Periphyton,1,0.5,trophic
+Iheringichthys.labrosus,1,Periphyton,1,0.1,trophic
+Other.omnivores,1,Periphyton,1,0.1,trophic
+Pimelodus.maculatus,1,Benthos,1,0.25,trophic
+Loricariichthys.platymetopon,1,Benthos,1,0.1,trophic
+Prochilodus.lineatus,1,Benthos,1,0.15,trophic
+Cyphocharax.modesta,1,Benthos,1,0.1,trophic
+Steindachnerina.insculpta,1,Benthos,1,0.1,trophic
+Iheringichthys.labrosus,1,Benthos,1,0.35,trophic
+Hoplosternum.littorale,1,Benthos,1,0.2,trophic
+Leporinus.friderici,1,Benthos,1,0.05,trophic
+Leporinus.obtusidens,1,Benthos,1,0.05,trophic
+Pterodoras.granulosus,1,Benthos,1,0.1,trophic
+Other.benthos.feeders,1,Benthos,1,0.35,trophic
+Other.detritus.feeders,1,Benthos,1,0.1,trophic
+Other.omnivores,1,Benthos,1,0.15,trophic
+Pimelodus.maculatus,1,Insects,1,0.1,trophic
+Loricariichthys.platymetopon,1,Insects,1,0.2,trophic
+Iheringichthys.labrosus,1,Insects,1,0.2,trophic
+Trachydoras.paraguayensis,1,Insects,1,0.15,trophic
+Hoplosternum.littorale,1,Insects,1,0.2,trophic
+Leporinus.friderici,1,Insects,1,0.2,trophic
+Leporinus.obtusidens,1,Insects,1,0.2,trophic
+Parauchenipterus.galeatus,1,Insects,1,0.6,trophic
+Pterodoras.granulosus,1,Insects,1,0.1,trophic
+Astyanax.altiparanae,1,Insects,1,0.3,trophic
+Auchenipterus.nuchalis,1,Insects,1,0.7,trophic
+Brycon.orbignyanus,1,Insects,1,0.55,trophic
+Other.benthos.feeders,1,Insects,1,0.1,trophic
+Other.detritus.feeders,1,Insects,1,0.1,trophic
+Other.insectivores,1,Insects,1,0.6,trophic
+Other.omnivores,1,Insects,1,0.3,trophic
+Pimelodus.maculatus,1,Zooplankton,1,0.1,trophic
+Iheringichthys.labrosus,1,Zooplankton,1,0.1,trophic
+Hypophthalmus.edentatus,1,Zooplankton,1,0.7,trophic
+Trachydoras.paraguayensis,1,Zooplankton,1,0.3,trophic
+Hoplosternum.littorale,1,Zooplankton,1,0.2,trophic
+Pterodoras.granulosus,1,Zooplankton,1,0.1,trophic
+Astyanax.altiparanae,1,Zooplankton,1,0.1,trophic
+Auchenipterus.nuchalis,1,Zooplankton,1,0.2,trophic
+Other.benthos.feeders,1,Zooplankton,1,0.1,trophic
+Other.insectivores,1,Zooplankton,1,0.1,trophic
+Other.omnivores,1,Zooplankton,1,0.1,trophic
+Salminus.brasiliensis,1,Hypostomus sp.,1,0.2,trophic
+Hemisorubin.platyrhynchos,1,Pimelodus maculatus,1,0.25,trophic
+Acestrorhyncus.lacustris,1,Schizodon borellii,1,0.1,trophic
+Other.piscivores,1,Schizodon borellii,1,0.1,trophic
+Salminus.brasiliensis,1,Loricariichthys platymetopon,1,0.15,trophic
+Hoplias.malabaricus,1,Prochilodus lineatus,1,0.2,trophic
+Plagioscion.squamosissimus,1,Prochilodus lineatus,1,0.3,trophic
+Rhaphiodon.vulpinus,1,Prochilodus lineatus,1,0.2,trophic
+Serrasalmus.marginatus,1,Prochilodus lineatus,1,0.1,trophic
+Salminus.brasiliensis,1,Prochilodus lineatus,1,0.15,trophic
+Serrasalmus.spilopleura,1,Prochilodus lineatus,1,0.1,trophic
+Other.piscivores,1,Prochilodus lineatus,1,0.2,trophic
+Acestrorhyncus.lacustris,1,Cyphocharax modesta,1,0.1,trophic
+Hemisorubin.platyrhynchos,1,Steindachnerina insculpta,1,0.2,trophic
+Acestrorhyncus.lacustris,1,Iheringichthys labrosus,1,0.2,trophic
+Salminus.brasiliensis,1,Schizodon altoparanae,1,0.1,trophic
+Serrasalmus.marginatus,1,Hypophthalmus edentatus,1,0.1,trophic
+Serrasalmus.spilopleura,1,Hypophthalmus edentatus,1,0.1,trophic
+Other.piscivores,1,Hypophthalmus edentatus,1,0.1,trophic
+Pimelodus.maculatus,1,Trachydoras paraguayensis,1,0.1,trophic
+Pseudoplatystoma.corruscans,1,Hoplosternum littorale,1,0.3,trophic
+Pimelodus.maculatus,1,Leporinus friderici,1,0.05,trophic
+Plagioscion.squamosissimus,1,Leporinus friderici,1,0.1,trophic
+Astyanax.altiparanae,1,Leporinus obtusidens,1,0.1,trophic
+Hoplias.malabaricus,1,Leporinus obtusidens,1,0.2,trophic
+Pseudoplatystoma.corruscans,1,Leporinus obtusidens,1,0.1,trophic
+Plagioscion.squamosissimus,1,Parauchenipterus galeatus,1,0.15,trophic
+Rhaphiodon.vulpinus,1,Parauchenipterus galeatus,1,0.2,trophic
+Hoplias.malabaricus,1,Pterodoras granulosus,1,0.2,trophic
+Serrasalmus.marginatus,1,Pterodoras granulosus,1,0.1,trophic
+Serrasalmus.spilopleura,1,Pterodoras granulosus,1,0.1,trophic
+Pimelodus.maculatus,1,Astyanax altiparanae,1,0.1,trophic
+Leporinus.friderici,1,Astyanax altiparanae,1,0.1,trophic
+Leporinus.obtusidens,1,Astyanax altiparanae,1,0.1,trophic
+Brycon.orbignyanus,1,Astyanax altiparanae,1,0.1,trophic
+Acestrorhyncus.lacustris,1,Astyanax altiparanae,1,0.2,trophic
+Plagioscion.squamosissimus,1,Astyanax altiparanae,1,0.15,trophic
+Pseudoplatystoma.corruscans,1,Astyanax altiparanae,1,0.2,trophic
+Rhaphiodon.vulpinus,1,Astyanax altiparanae,1,0.2,trophic
+Serrasalmus.marginatus,1,Astyanax altiparanae,1,0.1,trophic
+Hemisorubin.platyrhynchos,1,Astyanax altiparanae,1,0.15,trophic
+Salminus.brasiliensis,1,Astyanax altiparanae,1,0.1,trophic
+Serrasalmus.spilopleura,1,Astyanax altiparanae,1,0.1,trophic
+Other.insectivores,1,Astyanax altiparanae,1,0.1,trophic
+Other.piscivores,1,Astyanax altiparanae,1,0.2,trophic
+Acestrorhyncus.lacustris,1,Auchenipterus nuchalis,1,0.1,trophic
+Pseudoplatystoma.corruscans,1,Auchenipterus nuchalis,1,0.1,trophic
+Serrasalmus.spilopleura,1,Auchenipterus nuchalis,1,0.1,trophic
+Rhaphiodon.vulpinus,1,Brycon orbignyanus,1,0.1,trophic
+Hemisorubin.platyrhynchos,1,Brycon orbignyanus,1,0.1,trophic
+Hoplias.malabaricus,1,Acestrorhyncus lacustris,1,0.1,trophic
+Rhaphiodon.vulpinus,1,Acestrorhyncus lacustris,1,0.1,trophic
+Hoplias.malabaricus,1,Hoplias malabaricus,1,0.2,trophic
+Salminus.brasiliensis,1,Hoplias malabaricus,1,0.2,trophic
+Serrasalmus.marginatus,1,Plagioscion squamosissimus,1,0.1,trophic
+Serrasalmus.spilopleura,1,Plagioscion squamosissimus,1,0.2,trophic
+Serrasalmus.marginatus,1,Pseudoplatystoma corruscans,1,0.05,trophic
+Other.piscivores,1,Pseudoplatystoma corruscans,1,0.05,trophic
+Rhaphiodon.vulpinus,1,Rhaphiodon vulpinus,1,0.1,trophic
+Pimelodus.maculatus,1,Serrasalmus marginatus,1,0.05,trophic
+Plagioscion.squamosissimus,1,Serrasalmus marginatus,1,0.1,trophic
+Pseudoplatystoma.corruscans,1,Serrasalmus marginatus,1,0.1,trophic
+Serrasalmus.marginatus,1,Serrasalmus marginatus,1,0.1,trophic
+Hemisorubin.platyrhynchos,1,Serrasalmus marginatus,1,0.1,trophic
+Pseudoplatystoma.corruscans,1,Hemisorubin platyrhynchos,1,0.1,trophic
+Other.piscivores,1,Salminus brasiliensis,1,0.05,trophic
+Plagioscion.squamosissimus,1,Serrasalmus spilopleura,1,0.1,trophic
+Auchenipterus.nuchalis,1,Other benthos feeders,1,0.1,trophic
+Rhaphiodon.vulpinus,1,Other benthos feeders,1,0.1,trophic
+Serrasalmus.marginatus,1,Other benthos feeders,1,0.1,trophic
+Serrasalmus.spilopleura,1,Other benthos feeders,1,0.1,trophic
+Acestrorhyncus.lacustris,1,Other detritus feeders,1,0.1,trophic
+Serrasalmus.marginatus,1,Other detritus feeders,1,0.1,trophic
+Hemisorubin.platyrhynchos,1,Other detritus feeders,1,0.1,trophic
+Serrasalmus.spilopleura,1,Other detritus feeders,1,0.1,trophic
+Pimelodus.maculatus,1,Other insectivores,1,0.05,trophic
+Brycon.orbignyanus,1,Other insectivores,1,0.05,trophic
+Acestrorhyncus.lacustris,1,Other insectivores,1,0.1,trophic
+Hoplias.malabaricus,1,Other insectivores,1,0.1,trophic
+Plagioscion.squamosissimus,1,Other insectivores,1,0.1,trophic
+Serrasalmus.marginatus,1,Other insectivores,1,0.1,trophic
+Hemisorubin.platyrhynchos,1,Other insectivores,1,0.1,trophic
+Pseudoplatystoma.corruscans,1,Other piscivores,1,0.1,trophic
+Other.piscivores,1,Other piscivores,1,0.1,trophic
+Leporinus.friderici,1,Other omnivores,1,0.1,trophic
+Leporinus.obtusidens,1,Other omnivores,1,0.1,trophic
+Astyanax.altiparanae,1,Other omnivores,1,0.1,trophic
+Acestrorhyncus.lacustris,1,Other omnivores,1,0.1,trophic
+Serrasalmus.marginatus,1,Other omnivores,1,0.05,trophic
+Salminus.brasiliensis,1,Other omnivores,1,0.1,trophic
+Serrasalmus.spilopleura,1,Other omnivores,1,0.1,trophic
+Other.piscivores,1,Other omnivores,1,0.2,trophic
+Benthos,1,Detritus,1,0.5,trophic
+Insects,1,Detritus,1,0.7,trophic
+Zooplankton,1,Detritus,1,0.5,trophic
+Hypostomus.sp.,1,Detritus,1,0.8,trophic
+Pimelodus.maculatus,1,Detritus,1,0.1,trophic
+Loricariichthys.platymetopon,1,Detritus,1,0.6,trophic
+Prochilodus.lineatus,1,Detritus,1,0.7,trophic
+Cyphocharax.modesta,1,Detritus,1,0.55,trophic
+Steindachnerina.insculpta,1,Detritus,1,0.55,trophic
+Iheringichthys.labrosus,1,Detritus,1,0.25,trophic
+Trachydoras.paraguayensis,1,Detritus,1,0.55,trophic
+Hoplosternum.littorale,1,Detritus,1,0.3,trophic
+Leporinus.friderici,1,Detritus,1,0.2,trophic
+Leporinus.obtusidens,1,Detritus,1,0.2,trophic
+Pterodoras.granulosus,1,Detritus,1,0.1,trophic
+Astyanax.altiparanae,1,Detritus,1,0.1,trophic
+Other.benthos.feeders,1,Detritus,1,0.3,trophic
+Other.detritus.feeders,1,Detritus,1,0.7,trophic
+Other.omnivores,1,Detritus,1,0.1,trophic
+Zooplanckton,2,Phytoplankton,2,0.4,trophic
+Astyanax.fasciatus,2,Phytoplankton,2,0.001,trophic
+Astyanax.altiparanae,2,Phytoplankton,2,0.02,trophic
+Leporinus.friderici,2,Phytoplankton,2,0.004,trophic
+Terrestrial.Invertebrates,2,Macrophytes,2,0.2,trophic
+Astyanax.fasciatus,2,Macrophytes,2,0.5,trophic
+Astyanax.altiparanae,2,Macrophytes,2,0.1,trophic
+Brycon.nattereri,2,Macrophytes,2,0.036,trophic
+Leporinus.friderici,2,Macrophytes,2,0.1,trophic
+Hoplias.malabaricus,2,Macrophytes,2,0.007,trophic
+Astyanax.fasciatus,2,Terrestrial Invertebrates,2,0.192,trophic
+Astyanax.altiparanae,2,Terrestrial Invertebrates,2,0.85,trophic
+Brycon.nattereri,2,Terrestrial Invertebrates,2,0.742,trophic
+Leporinus.friderici,2,Terrestrial Invertebrates,2,0.634,trophic
+Hoplias.malabaricus,2,Terrestrial Invertebrates,2,0.361,trophic
+Salminus.hilarii,2,Terrestrial Invertebrates,2,0.025,trophic
+Hoplias.malabaricus,2,Astyanax fasciatus,2,0.1,trophic
+Salminus.hilarii,2,Astyanax fasciatus,2,0.06,trophic
+Hoplias.malabaricus,2,Astyanax altiparanae,2,0.5,trophic
+Salminus.hilarii,2,Astyanax altiparanae,2,0.74,trophic
+Salminus.hilarii,2,Brycon nattereri,2,0.115,trophic
+Salminus.hilarii,2,Leporinus friderici,2,0.05,trophic
+Salminus.hilarii,2,Hypostomus strigaticeps,2,0.01,trophic
+Hoplias.malabaricus,2,Hoplias malabaricus,2,0.03,trophic
+Astyanax.fasciatus,2,Detritus Animal,2,0.307,trophic
+Astyanax.altiparanae,2,Detritus Animal,2,6e-4,trophic
+Brycon.nattereri,2,Detritus Animal,2,0.001,trophic
+Leporinus.friderici,2,Detritus Animal,2,0.01,trophic
+Hoplias.malabaricus,2,Detritus Animal,2,0.001,trophic
+Zooplanckton,2,Detritus,2,0.6,trophic
+Terrestrial.Invertebrates,2,Detritus,2,0.3,trophic
+Brycon.nattereri,2,Detritus,2,0.003,trophic
+Hypostomus.strigaticeps,2,Detritus,2,1,trophic
+Hoplias.malabaricus,2,Detritus,2,0.001,trophic
+Terrestrial.Invertebrates,2,Import,2,0.5,trophic
+Astyanax.altiparanae,2,Import,2,0.029,trophic
+Brycon.nattereri,2,Import,2,0.219,trophic
+Leporinus.friderici,2,Import,2,0.252,trophic

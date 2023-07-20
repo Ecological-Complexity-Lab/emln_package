@@ -1,0 +1,151 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+bacteria,1,older organic debris,1,1,scavenger,method,literature
+Anoetidae sp. 2,1,bacteria,1,1,predation,method,literature
+protozoa,1,older organic debris,1,1,scavenger,method,literature
+Misumenops nepenthicola,1,Culex curtipalpis,1,1,predation,method,literature
+Toxorhynchites klossi,1,Tripteroides tenax,1,1,predation,method,literature
+Nepenthosyrphus sp.,1,recently drowned insects,1,1,scavenger,method,literature
+Dasyhelea nepenthicola,1,protozoa,1,1,predation,method,literature
+Culex curtipalpis,1,bacteria,1,1,predation,method,literature
+C. lucaris,1,bacteria,1,1,predation,method,literature
+Toxorhynchites klossi,1,T. bambusa,1,1,predation,method,literature
+Toxorhynchites klossi,1,Culex curtipalpis,1,1,predation,method,literature
+Toxorhynchites klossi,1,C. lucaris,1,1,predation,method,literature
+Lestodiplosis syringopais,1,Megaselia sp. (?nepenthina),1,1,predation,method,literature
+Dasyhelea nepenthicola,1,older organic debris,1,1,scavenger,method,literature
+Anoetidae sp. 1,1,older organic debris,1,1,scavenger,method,literature
+Anoetidae sp. 2,1,protozoa,1,1,predation,method,literature
+Anoetidae sp. 2,1,older organic debris,1,1,scavenger,method,literature
+Lestodiplosis syringopais,1,Endonepenthia schuitemakeri,1,1,predation,method,literature
+Lestodiplosis syringopais,1,Dasyhelea nepenthicola,1,1,predation,method,literature
+Megaselia sp. (?nepenthina),1,recently drowned insects,1,1,scavenger,method,literature
+Endonepenthia schuitemakeri,1,recently drowned insects,1,1,scavenger,method,literature
+Tripteroides tenax,1,bacteria,1,1,predation,method,literature
+Tripteroides tenax,1,protozoa,1,1,predation,method,literature
+Tripteroides tenax,1,recently drowned insects,1,1,scavenger,method,literature
+T. bambusa,1,bacteria,1,1,predation,method,literature
+T. bambusa,1,protozoa,1,1,predation,method,literature
+T. bambusa,1,recently drowned insects,1,1,scavenger,method,literature
+Dasyhelea nepenthicola,1,bacteria,1,1,predation,method,literature
+Pierretia urceola,1,recently drowned insects,1,1,scavenger,method,literature
+Culex curtipalpis,1,protozoa,1,1,predation,method,literature
+C. lucaris,1,protozoa,1,1,predation,method,literature
+Anoetidae sp. 1,1,bacteria,1,1,predation,method,literature
+Anoetidae sp. 1,1,protozoa,1,1,predation,method,literature
+bacteria,1,recently drowned insects,1,1,scavenger,method,literature
+protozoa,1,recently drowned insects,1,1,scavenger,method,literature
+Misumenops nepenthicola,1,C. lucaris,1,1,predation,method,literature
+Misumenops nepenthicola,1,live insects,1,1,predation,method,literature
+Encyrtid (near Tachinaephagus),1,Endonepenthia schuitemakeri,1,1,predation,method,literature
+Misumenops nepenthicola,1,Lestodiplosis syringopais,1,1,predation,method,literature
+Misumenops nepenthicola,1,Megaselia sp. (?nepenthina),1,1,predation,method,literature
+Misumenops nepenthicola,1,Endonepenthia schuitemakeri,1,1,predation,method,literature
+Misumenops nepenthicola,1,Tripteroides tenax,1,1,predation,method,literature
+Misumenops nepenthicola,1,T. bambusa,1,1,predation,method,literature
+Misumenops nepenthicola,1,Dasyhelea nepenthicola,1,1,predation,method,literature
+Uranotaenia nivipleura,2,recently drowned insects,2,1,scavenger,method,literature
+Trybliographa sp.,2,Megaselia deningi,2,1,predation,method,literature
+Megaselia deningi,2,recently drowned insects,2,1,scavenger,method,literature
+Tripteroides dofleini,2,bacteria,2,1,predation,method,literature
+Tripteroides dofleini,2,protozoa,2,1,predation,method,literature
+Tripteroides dofleini,2,recently drowned insects,2,1,scavenger,method,literature
+Uranotaenia nivipleura,2,bacteria,2,1,predation,method,literature
+Zwickia guentheri,2,bacteria,2,1,predation,method,literature
+Zwickia guentheri,2,protozoa,2,1,predation,method,literature
+Zwickia guentheri,2,older organic debris,2,1,scavenger,method,literature
+bacteria,2,recently drowned insects,2,1,scavenger,method,literature
+bacteria,2,older organic debris,2,1,scavenger,method,literature
+protozoa,2,older organic debris,2,1,scavenger,method,literature
+Uranotaenia nivipleura,2,protozoa,2,1,predation,method,literature
+protozoa,2,recently drowned insects,2,1,scavenger,method,literature
+Theridion sp.,3,Chloropid (unspecified),3,1,predation,method,literature
+Theridion sp.,3,Uranotaenia belkini,3,1,predation,method,literature
+Theridion sp.,3,U. bosseri,3,1,predation,method,literature
+Theridion sp.,3,U. brunhesi,3,1,predation,method,literature
+Theridion sp.,3,U. damasei,3,1,predation,method,literature
+Theridion sp.,3,live insects,3,1,predation,method,literature
+Chloropid (unspecified),3,recently drowned insects,3,1,scavenger,method,literature
+Uranotaenia belkini,3,bacteria,3,1,predation,method,literature
+Uranotaenia belkini,3,protozoa,3,1,predation,method,literature
+Uranotaenia belkini,3,recently drowned insects,3,1,scavenger,method,literature
+U. bosseri,3,bacteria,3,1,predation,method,literature
+U. bosseri,3,protozoa,3,1,predation,method,literature
+U. bosseri,3,recently drowned insects,3,1,scavenger,method,literature
+U. brunhesi,3,bacteria,3,1,predation,method,literature
+U. brunhesi,3,protozoa,3,1,predation,method,literature
+U. brunhesi,3,recently drowned insects,3,1,scavenger,method,literature
+U. damasei,3,bacteria,3,1,predation,method,literature
+U. damasei,3,protozoa,3,1,predation,method,literature
+U. damasei,3,recently drowned insects,3,1,scavenger,method,literature
+Creutzeria sp.,3,bacteria,3,1,predation,method,literature
+Creutzeria sp.,3,protozoa,3,1,predation,method,literature
+Creutzeria sp.,3,older organic debris,3,1,scavenger,method,literature
+bacteria,3,recently drowned insects,3,1,scavenger,method,literature
+protozoa,3,recently drowned insects,3,1,scavenger,method,literature
+bacteria,3,older organic debris,3,1,scavenger,method,literature
+protozoa,3,older organic debris,3,1,scavenger,method,literature
+Uranotaenia nepenthes,4,bacteria,4,1,predation,method,literature
+Uranotaenia nepenthes,4,protozoa,4,1,predation,method,literature
+Uranotaenia nepenthes,4,recently drowned insects,4,1,scavenger,method,literature
+Creutzeria seychellensis,4,bacteria,4,1,predation,method,literature
+Creutzeria seychellensis,4,protozoa,4,1,predation,method,literature
+Creutzeria seychellensis,4,older organic debris,4,1,scavenger,method,literature
+bacteria,4,recently drowned insects,4,1,scavenger,method,literature
+protozoa,4,recently drowned insects,4,1,scavenger,method,literature
+bacteria,4,older organic debris,4,1,scavenger,method,literature
+protozoa,4,older organic debris,4,1,scavenger,method,literature
+Xenoplatyura beaveri,5,Tripteroides tenax,5,1,predation,method,literature
+Dasyhelea ampullariae,5,older organic debris,5,1,scavenger,method,literature
+C. hewitti,5,protozoa,5,1,predation,method,literature
+Anoetidae sp. 2,5,older organic debris,5,1,scavenger,method,literature
+Xenoplatyura beaveri,5,C. hewitti,5,1,predation,method,literature
+Uranotaenia moultoni,5,bacteria,5,1,predation,method,literature
+Culex acutipalus,5,bacteria,5,1,predation,method,literature
+Tripteroides tenax,5,protozoa,5,1,predation,method,literature
+Xenoplatyura beaveri,5,T. nepenthis,5,1,predation,method,literature
+Xenoplatyura beaveri,5,T. bambusa,5,1,predation,method,literature
+Xenoplatyura beaveri,5,Dasyhelea ampullariae,5,1,predation,method,literature
+Xenoplatyura beaveri,5,D. nepenthicola,5,1,predation,method,literature
+Xenoplatyura beaveri,5,live insects,5,1,predation,method,literature
+Corethrella calathicola,5,Uranotaenia moultoni,5,1,predation,method,literature
+Corethrella calathicola,5,Tripteroides tenax,5,1,predation,method,literature
+Corethrella calathicola,5,T. nepenthis,5,1,predation,method,literature
+Corethrella calathicola,5,T. bambusa,5,1,predation,method,literature
+Corethrella calathicola,5,Dasyhelea ampullariae,5,1,predation,method,literature
+Corethrella calathicola,5,D. nepenthicola,5,1,predation,method,literature
+Corethrella calathicola,5,Culex acutipalus,5,1,predation,method,literature
+Corethrella calathicola,5,C. navalis,5,1,predation,method,literature
+Corethrella calathicola,5,C. hewitti,5,1,predation,method,literature
+Uranotaenia moultoni,5,protozoa,5,1,predation,method,literature
+Uranotaenia moultoni,5,recently drowned insects,5,1,scavenger,method,literature
+Tripteroides tenax,5,bacteria,5,1,predation,method,literature
+Tripteroides tenax,5,recently drowned insects,5,1,scavenger,method,literature
+T. nepenthis,5,bacteria,5,1,predation,method,literature
+T. nepenthis,5,protozoa,5,1,predation,method,literature
+T. nepenthis,5,recently drowned insects,5,1,scavenger,method,literature
+T. bambusa,5,bacteria,5,1,predation,method,literature
+T. bambusa,5,recently drowned insects,5,1,scavenger,method,literature
+Dasyhelea ampullariae,5,bacteria,5,1,predation,method,literature
+Dasyhelea ampullariae,5,protozoa,5,1,predation,method,literature
+D. nepenthicola,5,bacteria,5,1,predation,method,literature
+D. nepenthicola,5,protozoa,5,1,predation,method,literature
+D. nepenthicola,5,older organic debris,5,1,scavenger,method,literature
+Nepenthomyia malayana,5,recently drowned insects,5,1,scavenger,method,literature
+Culex acutipalus,5,protozoa,5,1,predation,method,literature
+C. navalis,5,bacteria,5,1,predation,method,literature
+C. navalis,5,protozoa,5,1,predation,method,literature
+C. hewitti,5,bacteria,5,1,predation,method,literature
+Anoetidae sp. 1,5,bacteria,5,1,predation,method,literature
+Anoetidae sp. 1,5,protozoa,5,1,predation,method,literature
+Anoetidae sp. 1,5,older organic debris,5,1,scavenger,method,literature
+Anoetidae sp. 2,5,bacteria,5,1,predation,method,literature
+Anoetidae sp. 2,5,protozoa,5,1,predation,method,literature
+bacteria,5,recently drowned insects,5,1,scavenger,method,literature
+protozoa,5,recently drowned insects,5,1,scavenger,method,literature
+bacteria,5,older organic debris,5,1,scavenger,method,literature
+protozoa,5,older organic debris,5,1,scavenger,method,literature
+T. bambusa,5,protozoa,5,1,predation,method,literature
+Xenoplatyura beaveri,5,Corethrella calathicola,5,1,predation,method,literature
+Xenoplatyura beaveri,5,Uranotaenia moultoni,5,1,predation,method,literature
+Xenoplatyura beaveri,5,Culex acutipalus,5,1,predation,method,literature
+Xenoplatyura beaveri,5,C. navalis,5,1,predation,method,literature

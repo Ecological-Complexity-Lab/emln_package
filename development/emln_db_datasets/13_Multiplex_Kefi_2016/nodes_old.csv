@@ -1,0 +1,107 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2,attribute3,value3,attribute4,value4,attribute5,value5,attribute6,value6,attribute7,value7,attribute8,value8,attribute9,value9
+1,acanthina monodon,Predator,code,1,body_mass,8,sessile/mobile,M,cluster,4,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Mollusca,subphyllum,Gastropoda
+2,acanthocyclus gayi,Predator,code,2,body_mass,6.01,sessile/mobile,M,cluster,1,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Arthropoda,subphyllum,Crustacae
+3,acanthocyclus hassleri,Predator,code,3,body_mass,6.65,sessile/mobile,M,cluster,1,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Arthropoda,subphyllum,Crustacae
+4,acanthopleura echinata,Herbivore,code,4,body_mass,5.1,sessile/mobile,M,cluster,7,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Polyplacophora
+5,chaetopleura peruviana,Herbivore,code,5,body_mass,0.18,sessile/mobile,M,cluster,7,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Polyplacophora
+6,chiton  cummingsi,Herbivore,code,6,body_mass,8.23,sessile/mobile,M,cluster,7,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Polyplacophora
+7,chiton  granosus,Herbivore,code,7,body_mass,2.3,sessile/mobile,M,cluster,7,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Mollusca,subphyllum,Polyplacophora
+8,chiton  latus,Herbivore,code,8,body_mass,0.06,sessile/mobile,M,cluster,7,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Mollusca,subphyllum,Polyplacophora
+9,lottia  orbignyi,Herbivore,code,9,body_mass,0.02,sessile/mobile,M,cluster,9,shore_height,"high, mid",shoreHt_C_Ordinal,2.5,shoreHt_C_Breadth,2,phyllum,Mollusca,subphyllum,Gastropoda
+10,concholepas concholepas,Predator,code,10,body_mass,2.3,sessile/mobile,M,cluster,1,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Mollusca,subphyllum,Gastropoda
+11,enoplochiton  niger,Herbivore,code,11,body_mass,6,sessile/mobile,M,cluster,7,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Polyplacophora
+12,fissurella  costata,Herbivore,code,12,body_mass,49.03,sessile/mobile,M,cluster,7,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Gastropoda
+13,fissurella  crassa,Herbivore,code,13,body_mass,15.2,sessile/mobile,M,cluster,7,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Mollusca,subphyllum,Gastropoda
+14,fissurella  cummingi,Herbivore,code,14,body_mass,18,sessile/mobile,M,cluster,14,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Gastropoda
+15,fissurella  limbata,Herbivore,code,15,body_mass,16.45,sessile/mobile,M,cluster,7,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Gastropoda
+16,fissurella  maxima,Herbivore,code,16,body_mass,11,sessile/mobile,M,cluster,14,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Gastropoda
+17,fissurella  picta,Herbivore,code,17,body_mass,15,sessile/mobile,M,cluster,14,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Gastropoda
+18,fissurella  puhlcra,Herbivore,code,18,body_mass,15,sessile/mobile,M,cluster,14,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Gastropoda
+19,heliaster helianthus,Predator,code,19,body_mass,173.46,sessile/mobile,M,cluster,1,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Echinodermata,subphyllum,Asteroidea
+20,scurria  araucana,Herbivore,code,20,body_mass,0.02,sessile/mobile,M,cluster,9,shore_height,"high, mid, low",shoreHt_C_Ordinal,2,shoreHt_C_Breadth,3,phyllum,Mollusca,subphyllum,Gastropoda
+21,scurria  ceciliana,Herbivore,code,22,body_mass,0.045,sessile/mobile,M,cluster,9,shore_height,"high, mid",shoreHt_C_Ordinal,2.5,shoreHt_C_Breadth,2,phyllum,Mollusca,subphyllum,Gastropoda
+22,scurria  plana,Herbivore,code,25,body_mass,0.03,sessile/mobile,M,cluster,9,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Gastropoda
+23,scurria scurra,Herbivore,code,26,body_mass,1.27,sessile/mobile,M,cluster,9,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Gastropoda
+24,scurria variabilis,Herbivore,code,27,body_mass,0.3,sessile/mobile,M,cluster,9,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Mollusca,subphyllum,Gastropoda
+25,scurria viridula,Herbivore,code,28,body_mass,1.84,sessile/mobile,M,cluster,9,shore_height,"high, mid, low",shoreHt_C_Ordinal,2,shoreHt_C_Breadth,3,phyllum,Mollusca,subphyllum,Gastropoda
+26,scurria zebrina,Herbivore,code,29,body_mass,2.97,sessile/mobile,M,cluster,14,shore_height,"high, mid",shoreHt_C_Ordinal,2.5,shoreHt_C_Breadth,2,phyllum,Mollusca,subphyllum,Gastropoda
+27,siphonaria lesoni,Herbivore,code,30,body_mass,0.018,sessile/mobile,M,cluster,14,shore_height,"high, mid",shoreHt_C_Ordinal,2.5,shoreHt_C_Breadth,2,phyllum,Mollusca,subphyllum,Gastropoda
+28,stichaster striatus,Omnivore,code,31,body_mass,8.7,sessile/mobile,M,cluster,1,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Echinodermata,subphyllum,Asteroidea
+29,tegula atra,Herbivore,code,32,body_mass,1,sessile/mobile,M,cluster,9,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Gastropoda
+30,Tonicia lineolata,Herbivore,code,33,body_mass,6.14,sessile/mobile,M,cluster,14,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Polyplacophora
+31,tonicia  chilensis,Herbivore,code,34,body_mass,6.14,sessile/mobile,M,cluster,14,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Polyplacophora
+32,tonicia  elegans,Herbivore,code,35,body_mass,6.14,sessile/mobile,M,cluster,14,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Polyplacophora
+33,adenocystis utricularis,Corticated,code,36,body_mass,4,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Phaeophyta
+34,ahnfeltiopsis spp.,Corticated,code,37,body_mass,5.65,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+35,anthotoe spp.,Scavenger,code,38,body_mass,10,sessile/mobile,S,cluster,2,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Cnidaria,subphyllum,Anthozoa
+36,austromegabalanus psittacus,FilterFeeder,code,39,body_mass,0.95,sessile/mobile,S,cluster,13,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Arthropoda,subphyllum,Crustacae
+37,balanus laevis,FilterFeeder,code,40,body_mass,0.05,sessile/mobile,S,cluster,6,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Arthropoda,subphyllum,Crustacae
+38,benthic_diatoms,Ephemeral,code,41,body_mass,0.002,sessile/mobile,S,cluster,3,shore_height,"high, mid, low",shoreHt_C_Ordinal,2,shoreHt_C_Breadth,3,phyllum,Algae,subphyllum,Bacillariophacea
+39,brachidontes granulata,FilterFeeder,code,42,body_mass,0.08,sessile/mobile,S,cluster,4,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Mollusca,subphyllum,Bivalvia
+40,bryopsis_spp,Ephemeral,code,43,body_mass,0.25,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Chaetophyta
+41,bunodactis spp.,Scavenger,code,44,body_mass,12,sessile/mobile,S,cluster,2,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Cnidaria,subphyllum,Anthozoa
+42,centroceras spp.,Ephemeral,code,45,body_mass,1.87,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+43,ceramium spp.,Ephemeral,code,46,body_mass,1.26,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+44,chaetomorpha_spp,Ephemeral,code,47,body_mass,5.88,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Chaetophyta
+45,chondrus  canaliculatus,Corticated,code,48,body_mass,0.68,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+46,cladophora spp.,Ephemeral,code,49,body_mass,3.5,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Chaetophyta
+47,codium dimorpha,Corticated,code,50,body_mass,0.65,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Chaetophyta
+48,colpomenia phaeodactyla,Corticated,code,51,body_mass,0.5,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Phaeophyta
+49,colpomenia sinuosa,Corticated,code,52,body_mass,0.5,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Phaeophyta
+50,corallina offcinalis var. chilensis,Articulated,code,53,body_mass,1.37,sessile/mobile,S,cluster,13,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+51,durvillaea antarctica,Kelp,code,54,body_mass,10,sessile/mobile,S,cluster,12,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Algae,subphyllum,Phaeophyta
+52,ectocarpus silicosus,Ephemeral,code,55,body_mass,1,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Phaeophyta
+53,enteromorpha compressa,Ephemeral,code,56,body_mass,0.41,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Chaetophyta
+54,gelidium rex,Corticated,code,57,body_mass,3.92,sessile/mobile,S,cluster,12,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Algae,subphyllum,Rhodophyta
+55,gelidium spp.,Corticated,code,58,body_mass,3,sessile/mobile,S,cluster,6,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+56,glossophora kunthii,Corticated,code,59,body_mass,7.88,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+57,grateloupia,Corticated,code,60,body_mass,10.31,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+58,gymnogongrus furcellatus,Corticated,code,61,body_mass,5.2,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+59,halopteris funicularis,Ephemeral,code,62,body_mass,1.5,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Chaetophyta
+60,hildenbrandia lecanelieri,Crustose,code,63,body_mass,0.07,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+61,Oulactis concinnata,Scavenger,code,64,body_mass,11,sessile/mobile,S,cluster,8,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Cnidaria,subphyllum,Anthozoa
+62,jhelius cirratus,FilterFeeder,code,65,body_mass,0.05,sessile/mobile,S,cluster,10,shore_height,"high, mid",shoreHt_C_Ordinal,2.5,shoreHt_C_Breadth,2,phyllum,Arthropoda,subphyllum,Crustacae
+63,laurencia chilensis,Corticated,code,66,body_mass,3.01,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+64,lessonia nigrescens,Kelp,code,67,body_mass,15,sessile/mobile,S,cluster,6,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Algae,subphyllum,Phaeophyta
+65,lithothamnion spp.,Crustose,code,68,body_mass,0.04,sessile/mobile,S,cluster,6,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+66,mazzaella laminarioides,Corticated,code,70,body_mass,3.86,sessile/mobile,S,cluster,10,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+67,montemaria horridula,Corticated,code,71,body_mass,0.14,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+68,nothobalanus flosculus,FilterFeeder,code,72,body_mass,0.05,sessile/mobile,S,cluster,6,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Arthropoda,subphyllum,Crustacae
+69,nothochthamalus scabrosus,FilterFeeder,code,73,body_mass,0.05,sessile/mobile,S,cluster,10,shore_height,"high, mid",shoreHt_C_Ordinal,2.5,shoreHt_C_Breadth,2,phyllum,Arthropoda,subphyllum,Crustacae
+70,nothogenia,Corticated,code,74,body_mass,2.24,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+71,parantheopsis,Scavenger,code,75,body_mass,10,sessile/mobile,S,cluster,2,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Cnidaria,subphyllum,Anthozoa
+72,perumytilus purpuratus,FilterFeeder,code,76,body_mass,2.52,sessile/mobile,S,cluster,5,shore_height,mid,shoreHt_C_Ordinal,2,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Bivalvia
+73,petalonia fascia,Corticated,code,77,body_mass,2,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Phaeophyta
+74,petroglossum spp.,Corticated,code,78,body_mass,5,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+75,peysonella spp.,Corticated,code,79,body_mass,0.05,sessile/mobile,S,cluster,10,shore_height,"high, mid, low",shoreHt_C_Ordinal,2,shoreHt_C_Breadth,3,phyllum,Algae,subphyllum,Rhodophyta
+76,phragmatopoma spp.,FilterFeeder,code,80,body_mass,2.5,sessile/mobile,S,cluster,13,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Annelida,subphyllum,Polychaeta
+77,phymactis spp.,Scavenger,code,81,body_mass,11.91,sessile/mobile,S,cluster,2,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Cnidaria,subphyllum,Anthozoa
+78,plocamium cartilageneum,Corticated,code,82,body_mass,5,sessile/mobile,S,cluster,12,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Algae,subphyllum,Rhodophyta
+79,polysiphonia_spp,Ephemeral,code,83,body_mass,0.88,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+80,pyropia spp,Ephemeral,code,84,body_mass,1.21,sessile/mobile,S,cluster,10,shore_height,high,shoreHt_C_Ordinal,3,shoreHt_C_Breadth,1,phyllum,Algae,subphyllum,Rhodophyta
+81,prionitis spp,Corticated,code,85,body_mass,2.8,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+82,pyura chilensis,FilterFeeder,code,86,body_mass,2.91,sessile/mobile,S,cluster,13,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Chordata,subphyllum,Ascidiacea
+83,ralfsia californica,Crustose,code,87,body_mass,0.05,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Phaeophyta
+84,Rhizoclonium ambiguum,Ephemeral,code,88,body_mass,1.3,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Chaetophyta
+85,Gastroclonium cyclindricum,Corticated,code,89,body_mass,2,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+86,rhodymenia sp,Corticated,code,90,body_mass,2.47,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+87,sarcothalia,Corticated,code,91,body_mass,2.5,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+88,schottera nicaensis,Corticated,code,92,body_mass,2.53,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+89,schyzimenia doryophora,Corticated,code,93,body_mass,3,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+90,scythosiphon lomentaria,Ephemeral,code,94,body_mass,1.5,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+91,semimytilus algosus,FilterFeeder,code,95,body_mass,0.04,sessile/mobile,S,cluster,5,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Mollusca,subphyllum,Bivalvia
+92,trematocarpus,Corticated,code,96,body_mass,3.33,sessile/mobile,S,cluster,12,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Rhodophyta
+93,ulva rigida,Ephemeral,code,97,body_mass,2.33,sessile/mobile,S,cluster,11,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Algae,subphyllum,Chaetophyta
+94,ulvella spp.,Ephemeral,code,98,body_mass,0.002,sessile/mobile,S,cluster,11,shore_height,"high, mid, low",shoreHt_C_Ordinal,2,shoreHt_C_Breadth,3,phyllum,Algae,subphyllum,Chaetophyta
+95,plankton,Plankton,code,99,body_mass,1e-5,sessile/mobile,NA,cluster,4,shore_height,"high, mid, low",shoreHt_C_Ordinal,2,shoreHt_C_Breadth,3,phyllum,NA,subphyllum,NA
+96,gulls,Predators,code,100,body_mass,500,sessile/mobile,M,cluster,1,shore_height,"high, mid, low",shoreHt_C_Ordinal,2,shoreHt_C_Breadth,3,phyllum,Chordata,subphyllum,Aves
+97,cinclodes nigrofumosus,Predators,code,101,body_mass,280,sessile/mobile,M,cluster,1,shore_height,"high, mid, low",shoreHt_C_Ordinal,2,shoreHt_C_Breadth,3,phyllum,Chordata,subphyllum,Aves
+98,Echinolittorina peruviana,Herbivore,code,102,body_mass,0.0129,sessile/mobile,M,cluster,4,shore_height,high,shoreHt_C_Ordinal,3,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Gastropoda
+99,austrolittorina araucana,Herbivore,code,103,body_mass,0.0068,sessile/mobile,M,cluster,4,shore_height,high,shoreHt_C_Ordinal,3,shoreHt_C_Breadth,1,phyllum,Mollusca,subphyllum,Gastropoda
+100,onchidella sp.,Herbivore,code,104,body_mass,0.0077,sessile/mobile,M,cluster,4,shore_height,"high, mid, low",shoreHt_C_Ordinal,2,shoreHt_C_Breadth,3,phyllum,Mollusca,subphyllum,Gastropoda
+101,Allelopetrolisthes punctatus,FilterFeeder,code,105,body_mass,2,sessile/mobile,M,cluster,4,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Arthropoda,subphyllum,Crustacae
+102,petrolisthes spinifrons,FilterFeeder,code,106,body_mass,2,sessile/mobile,M,cluster,4,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Arthropoda,subphyllum,Crustacae
+103,petrolisthes angulosus,FilterFeeder,code,107,body_mass,2,sessile/mobile,M,cluster,4,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Arthropoda,subphyllum,Crustacae
+104,petrolisthes tuberculatus,FilterFeeder,code,108,body_mass,2,sessile/mobile,M,cluster,4,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Arthropoda,subphyllum,Crustacae
+105,petrolisthes tuberculosus,FilterFeeder,code,109,body_mass,2,sessile/mobile,M,cluster,4,shore_height,low,shoreHt_C_Ordinal,1,shoreHt_C_Breadth,1,phyllum,Arthropoda,subphyllum,Crustacae
+106,trimusculus peruvianus,Herbivore,code,110,body_mass,1,sessile/mobile,M,cluster,4,shore_height,"mid, low",shoreHt_C_Ordinal,1.5,shoreHt_C_Breadth,2,phyllum,Mollusca,subphyllum,Gastropoda

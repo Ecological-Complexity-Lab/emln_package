@@ -1,0 +1,684 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+Baetis,1,Synedra ulna,1,1,herbivory,method,gut content
+Baetis,1,vascular plant,1,1,herbivory,method,gut content
+Chelifera,1,Achnanthes spp.,1,1,herbivory,method,gut content
+Chelifera,1,bryophyte,1,1,herbivory,method,gut content
+Chelifera,1,Cocconeis sp.,1,1,herbivory,method,gut content
+Chelifera,1,Cymbella spp.,1,1,herbivory,method,gut content
+Chelifera,1,Diatoma spp.,1,1,herbivory,method,gut content
+Chelifera,1,Didymosphenia geminata,1,1,herbivory,method,gut content
+Chelifera,1,Fragilaria vaucheriae,1,1,herbivory,method,gut content
+Chelifera,1,Gomphonema angustatum,1,1,herbivory,method,gut content
+Chelifera,1,Hannaea arcus,1,1,herbivory,method,gut content
+Chelifera,1,Meridion circulare,1,1,herbivory,method,gut content
+Chelifera,1,Navicula radiosa v. tenella,1,1,herbivory,method,gut content
+Chelifera,1,Staurosirella leptostauron,1,1,herbivory,method,gut content
+Chelifera,1,vascular plant,1,1,herbivory,method,gut content
+Chelifera,1,Zapada,1,1,predation,method,gut content
+Cinclus mexicanus,1,Ecclisiomyia,1,1,predation,method,gut content
+Cinclus mexicanus,1,Isoperla,1,1,predation,method,gut content
+Cinclus mexicanus,1,Prosimulium,1,1,predation,method,gut content
+Cinclus mexicanus,1,Salvelinus malma,1,1,predation,method,gut content
+Corynoneura,1,bryophyte,1,1,herbivory,method,gut content
+Ecclisiomyia,1,Achnanthes spp.,1,1,herbivory,method,gut content
+Ecclisiomyia,1,Cocconeis sp.,1,1,herbivory,method,gut content
+Ecclisiomyia,1,Diatoma spp.,1,1,herbivory,method,gut content
+Ecclisiomyia,1,Gomphonema angustatum,1,1,herbivory,method,gut content
+Ecclisiomyia,1,Staurosirella leptostauron,1,1,herbivory,method,gut content
+Eukiefferiella,1,bryophyte,1,1,herbivory,method,gut content
+Eukiefferiella,1,vascular plant,1,1,herbivory,method,gut content
+Isoperla,1,Achnanthes spp.,1,1,herbivory,method,gut content
+Isoperla,1,Baetis,1,1,predation,method,gut content
+Isoperla,1,bryophyte,1,1,herbivory,method,gut content
+Isoperla,1,Chlorophyta filament,1,1,herbivory,method,gut content
+Isoperla,1,Cocconeis sp.,1,1,herbivory,method,gut content
+Isoperla,1,Cymbella spp.,1,1,herbivory,method,gut content
+Isoperla,1,Diatoma spp.,1,1,herbivory,method,gut content
+Isoperla,1,Eukiefferiella,1,1,predation,method,gut content
+Isoperla,1,Fragilaria vaucheriae,1,1,herbivory,method,gut content
+Isoperla,1,Gomphonema angustatum,1,1,herbivory,method,gut content
+Isoperla,1,Hydrurus foetidus,1,1,herbivory,method,gut content
+Isoperla,1,Isoperla,1,1,predation,method,gut content
+Isoperla,1,Meridion circulare,1,1,herbivory,method,gut content
+Isoperla,1,Navicula radiosa v. tenella,1,1,herbivory,method,gut content
+Isoperla,1,Orthocladiinae,1,1,predation,method,gut content
+Isoperla,1,Prosimulium,1,1,predation,method,gut content
+Isoperla,1,Rheocricotopus,1,1,predation,method,gut content
+Isoperla,1,Staurosirella leptostauron,1,1,herbivory,method,gut content
+Isoperla,1,Synedra ulna,1,1,herbivory,method,gut content
+Isoperla,1,Tanytarsini,1,1,predation,method,gut content
+Isoperla,1,Thienemanniella,1,1,predation,method,gut content
+Isoperla,1,Zapada,1,1,predation,method,gut content
+Micropsectra,1,Achnanthes spp.,1,1,herbivory,method,gut content
+Micropsectra,1,Amphora ovalis,1,1,herbivory,method,gut content
+Micropsectra,1,bryophyte,1,1,herbivory,method,gut content
+Micropsectra,1,Cocconeis sp.,1,1,herbivory,method,gut content
+Micropsectra,1,Cymbella spp.,1,1,herbivory,method,gut content
+Micropsectra,1,Diatoma spp.,1,1,herbivory,method,gut content
+Micropsectra,1,Fragilaria vaucheriae,1,1,herbivory,method,gut content
+Micropsectra,1,Gomphonema angustatum,1,1,herbivory,method,gut content
+Micropsectra,1,Meridion circulare,1,1,herbivory,method,gut content
+Micropsectra,1,Navicula radiosa v. tenella,1,1,herbivory,method,gut content
+Micropsectra,1,Staurosirella leptostauron,1,1,herbivory,method,gut content
+Micropsectra,1,Synedra ulna,1,1,herbivory,method,gut content
+Oligochaeta,1,Achnanthes spp.,1,1,herbivory,method,gut content
+Oligochaeta,1,Amphora ovalis,1,1,herbivory,method,gut content
+Oligochaeta,1,bryophyte,1,1,herbivory,method,gut content
+Oligochaeta,1,Chlorophyta filament,1,1,herbivory,method,gut content
+Oligochaeta,1,Cocconeis sp.,1,1,herbivory,method,gut content
+Oligochaeta,1,Cymbella spp.,1,1,herbivory,method,gut content
+Oligochaeta,1,Diatoma spp.,1,1,herbivory,method,gut content
+Oligochaeta,1,Fragilaria vaucheriae,1,1,herbivory,method,gut content
+Oligochaeta,1,Gomphonema angustatum,1,1,herbivory,method,gut content
+Oligochaeta,1,Hannaea arcus,1,1,herbivory,method,gut content
+Oligochaeta,1,Meridion circulare,1,1,herbivory,method,gut content
+Oligochaeta,1,Navicula radiosa v. tenella,1,1,herbivory,method,gut content
+Oligochaeta,1,Staurosirella leptostauron,1,1,herbivory,method,gut content
+Oligochaeta,1,Synedra ulna,1,1,herbivory,method,gut content
+Oligochaeta,1,vascular plant,1,1,herbivory,method,gut content
+Oreogeton,1,Achnanthes spp.,1,1,herbivory,method,gut content
+Oreogeton,1,bryophyte,1,1,herbivory,method,gut content
+Oreogeton,1,Cocconeis sp.,1,1,herbivory,method,gut content
+Oreogeton,1,Cymbella spp.,1,1,herbivory,method,gut content
+Oreogeton,1,Diatoma spp.,1,1,herbivory,method,gut content
+Oreogeton,1,Fragilaria vaucheriae,1,1,herbivory,method,gut content
+Oreogeton,1,Gomphonema angustatum,1,1,herbivory,method,gut content
+Orthocladiinae,1,Achnanthes spp.,1,1,herbivory,method,gut content
+Orthocladiinae,1,Amphora ovalis,1,1,herbivory,method,gut content
+Orthocladiinae,1,bryophyte,1,1,herbivory,method,gut content
+Orthocladiinae,1,Chlorophyta filament,1,1,herbivory,method,gut content
+Orthocladiinae,1,Cocconeis sp.,1,1,herbivory,method,gut content
+Orthocladiinae,1,Cymbella spp.,1,1,herbivory,method,gut content
+Orthocladiinae,1,Diatoma spp.,1,1,herbivory,method,gut content
+Orthocladiinae,1,Eunotia sp.,1,1,herbivory,method,gut content
+Orthocladiinae,1,Fragilaria vaucheriae,1,1,herbivory,method,gut content
+Orthocladiinae,1,Gomphonema angustatum,1,1,herbivory,method,gut content
+Orthocladiinae,1,Hannaea arcus,1,1,herbivory,method,gut content
+Orthocladiinae,1,Hydrurus foetidus,1,1,herbivory,method,gut content
+Orthocladiinae,1,Meridion circulare,1,1,herbivory,method,gut content
+Orthocladiinae,1,Navicula radiosa v. tenella,1,1,herbivory,method,gut content
+Orthocladiinae,1,Staurosirella leptostauron,1,1,herbivory,method,gut content
+Orthocladiinae,1,Synedra ulna,1,1,herbivory,method,gut content
+Orthocladiinae,1,vascular plant,1,1,herbivory,method,gut content
+Pagastia,1,Achnanthes spp.,1,1,herbivory,method,gut content
+Pagastia,1,Amphora ovalis,1,1,herbivory,method,gut content
+Pagastia,1,bryophyte,1,1,herbivory,method,gut content
+Pagastia,1,Cocconeis sp.,1,1,herbivory,method,gut content
+Pagastia,1,Cymbella spp.,1,1,herbivory,method,gut content
+Pagastia,1,Diatoma spp.,1,1,herbivory,method,gut content
+Pagastia,1,Fragilaria vaucheriae,1,1,herbivory,method,gut content
+Pagastia,1,Gomphonema angustatum,1,1,herbivory,method,gut content
+Pagastia,1,Meridion circulare,1,1,herbivory,method,gut content
+Pagastia,1,Navicula radiosa v. tenella,1,1,herbivory,method,gut content
+Pagastia,1,Staurosirella leptostauron,1,1,herbivory,method,gut content
+Pagastia,1,Synedra ulna,1,1,herbivory,method,gut content
+Pagastia,1,vascular plant,1,1,herbivory,method,gut content
+Prosimulium,1,Achnanthes spp.,1,1,herbivory,method,gut content
+Prosimulium,1,bryophyte,1,1,herbivory,method,gut content
+Prosimulium,1,Cocconeis sp.,1,1,herbivory,method,gut content
+Prosimulium,1,Cymbella spp.,1,1,herbivory,method,gut content
+Prosimulium,1,Diatoma spp.,1,1,herbivory,method,gut content
+Prosimulium,1,Fragilaria vaucheriae,1,1,herbivory,method,gut content
+Prosimulium,1,Gomphonema angustatum,1,1,herbivory,method,gut content
+Prosimulium,1,Hannaea arcus,1,1,herbivory,method,gut content
+Prosimulium,1,Meridion circulare,1,1,herbivory,method,gut content
+Prosimulium,1,Staurosirella leptostauron,1,1,herbivory,method,gut content
+Rheocricotopus,1,Achnanthes spp.,1,1,herbivory,method,gut content
+Rheocricotopus,1,bryophyte,1,1,herbivory,method,gut content
+Rheocricotopus,1,Cocconeis sp.,1,1,herbivory,method,gut content
+Rheocricotopus,1,Cymbella spp.,1,1,herbivory,method,gut content
+Rheocricotopus,1,Diatoma spp.,1,1,herbivory,method,gut content
+Rheocricotopus,1,Eunotia sp.,1,1,herbivory,method,gut content
+Rheocricotopus,1,Fragilaria vaucheriae,1,1,herbivory,method,gut content
+Rheocricotopus,1,Gomphonema angustatum,1,1,herbivory,method,gut content
+Rheocricotopus,1,Hannaea arcus,1,1,herbivory,method,gut content
+Rheocricotopus,1,Meridion circulare,1,1,herbivory,method,gut content
+Rheocricotopus,1,Navicula radiosa v. tenella,1,1,herbivory,method,gut content
+Rheocricotopus,1,Staurosirella leptostauron,1,1,herbivory,method,gut content
+Rheocricotopus,1,Synedra ulna,1,1,herbivory,method,gut content
+Rheocricotopus,1,vascular plant,1,1,herbivory,method,gut content
+Salvelinus malma,1,Acarina,1,1,predation,method,gut content
+Salvelinus malma,1,Baetis,1,1,predation,method,gut content
+Salvelinus malma,1,Ceratopogonidae,1,1,predation,method,gut content
+Salvelinus malma,1,Chelifera,1,1,predation,method,gut content
+Salvelinus malma,1,Diamesa,1,1,predation,method,gut content
+Salvelinus malma,1,Dixa,1,1,predation,method,gut content
+Salvelinus malma,1,Eukiefferiella,1,1,predation,method,gut content
+Salvelinus malma,1,Isoperla,1,1,predation,method,gut content
+Salvelinus malma,1,Micropsectra,1,1,predation,method,gut content
+Salvelinus malma,1,Oreogeton,1,1,predation,method,gut content
+Salvelinus malma,1,Orthocladiinae,1,1,predation,method,gut content
+Salvelinus malma,1,Pagastia,1,1,predation,method,gut content
+Salvelinus malma,1,Pericoma,1,1,predation,method,gut content
+Salvelinus malma,1,Rheocricotopus,1,1,predation,method,gut content
+Salvelinus malma,1,Tipula,1,1,predation,method,gut content
+Salvelinus malma,1,winged aquatic adult,1,1,predation,method,gut content
+Salvelinus malma,1,Zapada,1,1,predation,method,gut content
+Zapada,1,Achnanthes spp.,1,1,herbivory,method,gut content
+Zapada,1,bryophyte,1,1,herbivory,method,gut content
+Zapada,1,Cocconeis sp.,1,1,herbivory,method,gut content
+Zapada,1,Cymbella spp.,1,1,herbivory,method,gut content
+Zapada,1,Diatoma spp.,1,1,herbivory,method,gut content
+Zapada,1,Didymosphenia geminata,1,1,herbivory,method,gut content
+Zapada,1,Fragilaria vaucheriae,1,1,herbivory,method,gut content
+Zapada,1,Navicula radiosa v. tenella,1,1,herbivory,method,gut content
+Zapada,1,Staurosirella leptostauron,1,1,herbivory,method,gut content
+Zapada,1,vascular plant,1,1,herbivory,method,gut content
+Baetis,1,Achnanthes spp.,1,1,herbivory,method,gut content
+Cinclus mexicanus,1,Baetis,1,1,predation,method,gut content
+Oreogeton,1,Navicula radiosa v. tenella,1,1,herbivory,method,gut content
+Salvelinus malma,1,terrestrial insects,1,1,predation,method,gut content
+Baetis,1,amorphous detritus,1,1,detritivore,method,gut content
+Chelifera,1,amorphous detritus,1,1,detritivore,method,gut content
+Corynoneura,1,amorphous detritus,1,1,detritivore,method,gut content
+Ecclisiomyia,1,amorphous detritus,1,1,detritivore,method,gut content
+Eukiefferiella,1,amorphous detritus,1,1,detritivore,method,gut content
+Isoperla,1,amorphous detritus,1,1,detritivore,method,gut content
+Micropsectra,1,amorphous detritus,1,1,detritivore,method,gut content
+Oligochaeta,1,amorphous detritus,1,1,detritivore,method,gut content
+Oreogeton,1,amorphous detritus,1,1,detritivore,method,gut content
+Orthocladiinae,1,amorphous detritus,1,1,detritivore,method,gut content
+Pagastia,1,amorphous detritus,1,1,detritivore,method,gut content
+Prosimulium,1,amorphous detritus,1,1,detritivore,method,gut content
+Rheocricotopus,1,amorphous detritus,1,1,detritivore,method,gut content
+Zapada,1,amorphous detritus,1,1,detritivore,method,gut content
+Baetis,1,Amphora ovalis,1,1,herbivory,method,gut content
+Baetis,1,bryophyte,1,1,herbivory,method,gut content
+Baetis,1,Cocconeis sp.,1,1,herbivory,method,gut content
+Baetis,1,Cymbella spp.,1,1,herbivory,method,gut content
+Baetis,1,Diatoma spp.,1,1,herbivory,method,gut content
+Baetis,1,Fragilaria vaucheriae,1,1,herbivory,method,gut content
+Baetis,1,Gomphonema angustatum,1,1,herbivory,method,gut content
+Baetis,1,Meridion circulare,1,1,herbivory,method,gut content
+Baetis,1,Navicula radiosa v. tenella,1,1,herbivory,method,gut content
+Baetis,1,Staurosirella leptostauron,1,1,herbivory,method,gut content
+Baetis,2,Achnanthes spp.,2,1,herbivory,method,gut content
+Baetis,2,bryophyte,2,1,herbivory,method,gut content
+Baetis,2,Chlorophyta filament,2,1,herbivory,method,gut content
+Baetis,2,Cocconeis sp.,2,1,herbivory,method,gut content
+Baetis,2,Cymbella spp.,2,1,herbivory,method,gut content
+Baetis,2,Diatoma spp.,2,1,herbivory,method,gut content
+Baetis,2,Didymosphenia geminata,2,1,herbivory,method,gut content
+Baetis,2,Fragilaria vaucheriae,2,1,herbivory,method,gut content
+Baetis,2,Gomphonema angustatum,2,1,herbivory,method,gut content
+Baetis,2,Hannaea arcus,2,1,herbivory,method,gut content
+Baetis,2,Meridion circulare,2,1,herbivory,method,gut content
+Baetis,2,Navicula radiosa v. tenella,2,1,herbivory,method,gut content
+Baetis,2,Staurosirella leptostauron,2,1,herbivory,method,gut content
+Chloroperlidae,2,bryophyte,2,1,herbivory,method,gut content
+Chloroperlidae,2,Chironomidae,2,1,predation,method,gut content
+Chloroperlidae,2,Chlorophyta filament,2,1,herbivory,method,gut content
+Chloroperlidae,2,Cocconeis sp.,2,1,herbivory,method,gut content
+Chloroperlidae,2,Cymbella spp.,2,1,herbivory,method,gut content
+Chloroperlidae,2,Diatoma spp.,2,1,herbivory,method,gut content
+Chloroperlidae,2,Didymosphenia geminata,2,1,herbivory,method,gut content
+Chloroperlidae,2,Fragilaria vaucheriae,2,1,herbivory,method,gut content
+Chloroperlidae,2,Gomphonema angustatum,2,1,herbivory,method,gut content
+Chloroperlidae,2,Hannaea arcus,2,1,herbivory,method,gut content
+Chloroperlidae,2,Meridion circulare,2,1,herbivory,method,gut content
+Cinygmula,2,Achnanthes spp.,2,1,herbivory,method,gut content
+Cinygmula,2,Cymbella spp.,2,1,herbivory,method,gut content
+Cinygmula,2,Fragilaria vaucheriae,2,1,herbivory,method,gut content
+Cinygmula,2,Gomphonema angustatum,2,1,herbivory,method,gut content
+Diamesa,2,Achnanthes spp.,2,1,herbivory,method,gut content
+Diamesa,2,Amphora ovalis,2,1,herbivory,method,gut content
+Diamesa,2,Diatoma spp.,2,1,herbivory,method,gut content
+Diamesa,2,Hannaea arcus,2,1,herbivory,method,gut content
+Diamesa,2,Synedra ulna,2,1,herbivory,method,gut content
+Ecclisiomyia,2,Cocconeis sp.,2,1,herbivory,method,gut content
+Oligochaeta,2,Cocconeis sp.,2,1,herbivory,method,gut content
+Oligochaeta,2,Gomphonema angustatum,2,1,herbivory,method,gut content
+Oligochaeta,2,Synedra ulna,2,1,herbivory,method,gut content
+Oreogeton,2,Chlorophyta filament,2,1,herbivory,method,gut content
+Oreogeton,2,Didymosphenia geminata,2,1,herbivory,method,gut content
+Oreogeton,2,Meridion circulare,2,1,herbivory,method,gut content
+Orthocladiinae,2,Diatoma spp.,2,1,herbivory,method,gut content
+Orthocladiinae,2,Hannaea arcus,2,1,herbivory,method,gut content
+Pagastia,2,Cymbella spp.,2,1,herbivory,method,gut content
+Pagastia,2,Gomphonema angustatum,2,1,herbivory,method,gut content
+Pagastia,2,Navicula radiosa v. tenella,2,1,herbivory,method,gut content
+Prosimulium,2,Chlorophyta filament,2,1,herbivory,method,gut content
+Prosimulium,2,Diatoma spp.,2,1,herbivory,method,gut content
+Prosimulium,2,Meridion circulare,2,1,herbivory,method,gut content
+Rheocricotopus,2,Diatoma spp.,2,1,herbivory,method,gut content
+Rheocricotopus,2,Hydrurus foetidus,2,1,herbivory,method,gut content
+Salvelinus malma,2,Cinygmula,2,1,predation,method,gut content
+Salvelinus malma,2,Oreogeton,2,1,predation,method,gut content
+Salvelinus malma,2,terrestrial insects,2,1,predation,method,gut content
+Zapada,2,Cymbella spp.,2,1,herbivory,method,gut content
+Zapada,2,Hannaea arcus,2,1,herbivory,method,gut content
+Diamesa,2,Chlorophyta filament,2,1,herbivory,method,gut content
+Diamesa,2,Didymosphenia geminata,2,1,herbivory,method,gut content
+Diamesa,2,Hydrurus foetidus,2,1,herbivory,method,gut content
+Diamesa,2,vascular plant,2,1,herbivory,method,gut content
+Ecclisiomyia,2,Diatoma spp.,2,1,herbivory,method,gut content
+Eukiefferiella,2,bryophyte,2,1,herbivory,method,gut content
+Oligochaeta,2,Cymbella spp.,2,1,herbivory,method,gut content
+Oligochaeta,2,Hannaea arcus,2,1,herbivory,method,gut content
+Oreogeton,2,Achnanthes spp.,2,1,herbivory,method,gut content
+Oreogeton,2,Cocconeis sp.,2,1,herbivory,method,gut content
+Oreogeton,2,Fragilaria vaucheriae,2,1,herbivory,method,gut content
+Oreogeton,2,Navicula radiosa v. tenella,2,1,herbivory,method,gut content
+Orthocladiinae,2,Chlorophyta filament,2,1,herbivory,method,gut content
+Orthocladiinae,2,Didymosphenia geminata,2,1,herbivory,method,gut content
+Orthocladiinae,2,Hydrurus foetidus,2,1,herbivory,method,gut content
+Pagastia,2,bryophyte,2,1,herbivory,method,gut content
+Pagastia,2,Diatoma spp.,2,1,herbivory,method,gut content
+Pagastia,2,Hannaea arcus,2,1,herbivory,method,gut content
+Prosimulium,2,Achnanthes spp.,2,1,herbivory,method,gut content
+Prosimulium,2,Cocconeis sp.,2,1,herbivory,method,gut content
+Prosimulium,2,Fragilaria vaucheriae,2,1,herbivory,method,gut content
+Prosimulium,2,Navicula radiosa v. tenella,2,1,herbivory,method,gut content
+Rheocricotopus,2,bryophyte,2,1,herbivory,method,gut content
+Rheocricotopus,2,Fragilaria vaucheriae,2,1,herbivory,method,gut content
+Rheocricotopus,2,Meridion circulare,2,1,herbivory,method,gut content
+Salvelinus malma,2,Diamesa,2,1,predation,method,gut content
+Salvelinus malma,2,Orthocladiinae,2,1,predation,method,gut content
+Salvelinus malma,2,winged aquatic adult,2,1,predation,method,gut content
+Zapada,2,bryophyte,2,1,herbivory,method,gut content
+Zapada,2,Diatoma spp.,2,1,herbivory,method,gut content
+Zapada,2,Meridion circulare,2,1,herbivory,method,gut content
+Diamesa,2,Cocconeis sp.,2,1,herbivory,method,gut content
+Diamesa,2,Fragilaria vaucheriae,2,1,herbivory,method,gut content
+Diamesa,2,Meridion circulare,2,1,herbivory,method,gut content
+Ecclisiomyia,2,Achnanthes spp.,2,1,herbivory,method,gut content
+Ecclisiomyia,2,Fragilaria vaucheriae,2,1,herbivory,method,gut content
+Oligochaeta,2,Achnanthes spp.,2,1,herbivory,method,gut content
+Oligochaeta,2,Diatoma spp.,2,1,herbivory,method,gut content
+Oligochaeta,2,Meridion circulare,2,1,herbivory,method,gut content
+Oreogeton,2,Cymbella spp.,2,1,herbivory,method,gut content
+Oreogeton,2,Gomphonema angustatum,2,1,herbivory,method,gut content
+Oreogeton,2,Prosimulium,2,1,predation,method,gut content
+Orthocladiinae,2,Cocconeis sp.,2,1,herbivory,method,gut content
+Orthocladiinae,2,Fragilaria vaucheriae,2,1,herbivory,method,gut content
+Orthocladiinae,2,Meridion circulare,2,1,herbivory,method,gut content
+Pagastia,2,Chlorophyta filament,2,1,herbivory,method,gut content
+Pagastia,2,Didymosphenia geminata,2,1,herbivory,method,gut content
+Pagastia,2,Hydrurus foetidus,2,1,herbivory,method,gut content
+Prosimulium,2,Cymbella spp.,2,1,herbivory,method,gut content
+Prosimulium,2,Gomphonema angustatum,2,1,herbivory,method,gut content
+Prosimulium,2,vascular plant,2,1,herbivory,method,gut content
+Rheocricotopus,2,Cocconeis sp.,2,1,herbivory,method,gut content
+Rheocricotopus,2,Gomphonema angustatum,2,1,herbivory,method,gut content
+Salvelinus malma,2,Acarina,2,1,predation,method,gut content
+Salvelinus malma,2,Eukiefferiella,2,1,predation,method,gut content
+Salvelinus malma,2,Pagastia,2,1,predation,method,gut content
+Salvelinus malma,2,Zapada,2,1,predation,method,gut content
+Zapada,2,Chlorophyta filament,2,1,herbivory,method,gut content
+Zapada,2,Fragilaria vaucheriae,2,1,herbivory,method,gut content
+Zapada,2,vascular plant,2,1,herbivory,method,gut content
+Diamesa,2,Cymbella spp.,2,1,herbivory,method,gut content
+Diamesa,2,Gomphonema angustatum,2,1,herbivory,method,gut content
+Diamesa,2,Navicula radiosa v. tenella,2,1,herbivory,method,gut content
+Oligochaeta,2,Fragilaria vaucheriae,2,1,herbivory,method,gut content
+Oligochaeta,2,Navicula radiosa v. tenella,2,1,herbivory,method,gut content
+Oreogeton,2,Chironomidae,2,1,predation,method,gut content
+Oreogeton,2,Diatoma spp.,2,1,herbivory,method,gut content
+Oreogeton,2,Hannaea arcus,2,1,herbivory,method,gut content
+Orthocladiinae,2,Achnanthes spp.,2,1,herbivory,method,gut content
+Orthocladiinae,2,Cymbella spp.,2,1,herbivory,method,gut content
+Orthocladiinae,2,Gomphonema angustatum,2,1,herbivory,method,gut content
+Pagastia,2,Achnanthes spp.,2,1,herbivory,method,gut content
+Pagastia,2,Cocconeis sp.,2,1,herbivory,method,gut content
+Pagastia,2,Fragilaria vaucheriae,2,1,herbivory,method,gut content
+Pagastia,2,Meridion circulare,2,1,herbivory,method,gut content
+Prosimulium,2,bryophyte,2,1,herbivory,method,gut content
+Prosimulium,2,Diamesa,2,1,predation,method,gut content
+Prosimulium,2,Hannaea arcus,2,1,herbivory,method,gut content
+Rheocricotopus,2,Achnanthes spp.,2,1,herbivory,method,gut content
+Rheocricotopus,2,Cymbella spp.,2,1,herbivory,method,gut content
+Rheocricotopus,2,Hannaea arcus,2,1,herbivory,method,gut content
+Salvelinus malma,2,Baetis,2,1,predation,method,gut content
+Salvelinus malma,2,Isoperla,2,1,predation,method,gut content
+Salvelinus malma,2,Prosimulium,2,1,predation,method,gut content
+Zapada,2,Achnanthes spp.,2,1,herbivory,method,gut content
+Zapada,2,Cocconeis sp.,2,1,herbivory,method,gut content
+Zapada,2,Gomphonema angustatum,2,1,herbivory,method,gut content
+Ecclisiomyia,2,Staurosirella leptostauron,2,1,herbivory,method,gut content
+Baetis,2,amorphous detritus,2,1,detritivore,method,gut content
+Chloroperlidae,2,amorphous detritus,2,1,detritivore,method,gut content
+Cinygmula,2,amorphous detritus,2,1,detritivore,method,gut content
+Corynoneura,2,amorphous detritus,2,1,detritivore,method,gut content
+Diamesa,2,amorphous detritus,2,1,detritivore,method,gut content
+Eukiefferiella,2,amorphous detritus,2,1,detritivore,method,gut content
+Orthocladiinae,2,amorphous detritus,2,1,detritivore,method,gut content
+Pagastia,2,amorphous detritus,2,1,detritivore,method,gut content
+Rheocricotopus,2,amorphous detritus,2,1,detritivore,method,gut content
+Zapada,2,amorphous detritus,2,1,detritivore,method,gut content
+Oreogeton,2,amorphous detritus,2,1,detritivore,method,gut content
+Prosimulium,2,amorphous detritus,2,1,detritivore,method,gut content
+Ecclisiomyia,2,amorphous detritus,2,1,detritivore,method,gut content
+Oligochaeta,2,amorphous detritus,2,1,detritivore,method,gut content
+Baetis,3,Gomphonema angustatum,3,1,herbivory,method,gut content
+Baetis,3,Synedra ulna,3,1,herbivory,method,gut content
+Chelifera,3,bryophyte,3,1,herbivory,method,gut content
+Chelifera,3,Diatoma spp.,3,1,herbivory,method,gut content
+Chelifera,3,vascular plant,3,1,herbivory,method,gut content
+Cinclus mexicanus,3,Prosimulium,3,1,predation,method,gut content
+Corynoneura,3,bryophyte,3,1,herbivory,method,gut content
+Ecclisiomyia,3,Achnanthes spp.,3,1,herbivory,method,gut content
+Ecclisiomyia,3,Cocconeis sp.,3,1,herbivory,method,gut content
+Ecclisiomyia,3,Fragilaria vaucheriae,3,1,herbivory,method,gut content
+Ecclisiomyia,3,Orthocladiinae,3,1,predation,method,gut content
+Eukiefferiella,3,Achnanthes spp.,3,1,herbivory,method,gut content
+Eukiefferiella,3,Cymbella spp.,3,1,herbivory,method,gut content
+Eukiefferiella,3,Gomphonema angustatum,3,1,herbivory,method,gut content
+Eukiefferiella,3,vascular plant,3,1,herbivory,method,gut content
+Isoperla,3,Baetis,3,1,predation,method,gut content
+Isoperla,3,Cymbella spp.,3,1,herbivory,method,gut content
+Isoperla,3,Gomphonema angustatum,3,1,herbivory,method,gut content
+Isoperla,3,Orthocladiinae,3,1,predation,method,gut content
+Isoperla,3,Zapada,3,1,predation,method,gut content
+Oligochaeta,3,bryophyte,3,1,herbivory,method,gut content
+Oligochaeta,3,Fragilaria vaucheriae,3,1,herbivory,method,gut content
+Oligochaeta,3,Navicula radiosa v. tenella,3,1,herbivory,method,gut content
+Oligochaeta,3,vascular plant,3,1,herbivory,method,gut content
+Oreogeton,3,Diatoma spp.,3,1,herbivory,method,gut content
+Baetis,3,Achnanthes spp.,3,1,herbivory,method,gut content
+Baetis,3,Cymbella spp.,3,1,herbivory,method,gut content
+Baetis,3,Meridion circulare,3,1,herbivory,method,gut content
+Baetis,3,vascular plant,3,1,herbivory,method,gut content
+Chelifera,3,Chlorophyta filament,3,1,herbivory,method,gut content
+Chelifera,3,Fragilaria vaucheriae,3,1,herbivory,method,gut content
+Cinclus mexicanus,3,Baetis,3,1,predation,method,gut content
+Cinclus mexicanus,3,Salvelinus malma,3,1,predation,method,gut content
+Corynoneura,3,Cymbella spp.,3,1,herbivory,method,gut content
+Ecclisiomyia,3,Cymbella spp.,3,1,herbivory,method,gut content
+Ecclisiomyia,3,Gomphonema angustatum,3,1,herbivory,method,gut content
+Ecclisiomyia,3,Staurosirella leptostauron,3,1,herbivory,method,gut content
+Eukiefferiella,3,Meridion circulare,3,1,herbivory,method,gut content
+Isoperla,3,Achnanthes spp.,3,1,herbivory,method,gut content
+Isoperla,3,bryophyte,3,1,herbivory,method,gut content
+Isoperla,3,Diatoma spp.,3,1,herbivory,method,gut content
+Isoperla,3,Isoperla,3,1,predation,method,gut content
+Isoperla,3,Staurosirella leptostauron,3,1,herbivory,method,gut content
+Oligochaeta,3,Achnanthes spp.,3,1,herbivory,method,gut content
+Oligochaeta,3,Cocconeis sp.,3,1,herbivory,method,gut content
+Oligochaeta,3,Gomphonema angustatum,3,1,herbivory,method,gut content
+Oligochaeta,3,Nitschia sp.,3,1,predation,method,gut content
+Oreogeton,3,bryophyte,3,1,herbivory,method,gut content
+Oreogeton,3,Fragilaria vaucheriae,3,1,herbivory,method,gut content
+Baetis,3,Diatoma spp.,3,1,herbivory,method,gut content
+Baetis,3,Navicula radiosa v. tenella,3,1,herbivory,method,gut content
+Chelifera,3,Achnanthes spp.,3,1,herbivory,method,gut content
+Chelifera,3,Cocconeis sp.,3,1,herbivory,method,gut content
+Chelifera,3,Hydrurus foetidus,3,1,herbivory,method,gut content
+Cinclus mexicanus,3,Ecclisiomyia,3,1,predation,method,gut content
+Corynoneura,3,Achnanthes spp.,3,1,herbivory,method,gut content
+Corynoneura,3,Diatoma spp.,3,1,herbivory,method,gut content
+Ecclisiomyia,3,bryophyte,3,1,herbivory,method,gut content
+Ecclisiomyia,3,Diatoma spp.,3,1,herbivory,method,gut content
+Ecclisiomyia,3,Meridion circulare,3,1,herbivory,method,gut content
+Ecclisiomyia,3,vascular plant,3,1,herbivory,method,gut content
+Eukiefferiella,3,bryophyte,3,1,herbivory,method,gut content
+Eukiefferiella,3,Eukiefferiella,3,1,predation,method,gut content
+Eukiefferiella,3,Navicula radiosa v. tenella,3,1,herbivory,method,gut content
+Isoperla,3,Cocconeis sp.,3,1,herbivory,method,gut content
+Isoperla,3,Eukiefferiella,3,1,predation,method,gut content
+Isoperla,3,Meridion circulare,3,1,herbivory,method,gut content
+Isoperla,3,Synedra ulna,3,1,herbivory,method,gut content
+Oligochaeta,3,Cymbella spp.,3,1,herbivory,method,gut content
+Oligochaeta,3,Hannaea arcus,3,1,herbivory,method,gut content
+Oligochaeta,3,Staurosirella leptostauron,3,1,herbivory,method,gut content
+Oreogeton,3,Cocconeis sp.,3,1,herbivory,method,gut content
+Oreogeton,3,vascular plant,3,1,herbivory,method,gut content
+Baetis,3,bryophyte,3,1,herbivory,method,gut content
+Baetis,3,Fragilaria vaucheriae,3,1,herbivory,method,gut content
+Baetis,3,Staurosirella leptostauron,3,1,herbivory,method,gut content
+Chelifera,3,Cymbella spp.,3,1,herbivory,method,gut content
+Chelifera,3,Staurosirella leptostauron,3,1,herbivory,method,gut content
+Cinclus mexicanus,3,Isoperla,3,1,predation,method,gut content
+Corynoneura,3,Hydrurus foetidus,3,1,herbivory,method,gut content
+Ecclisiomyia,3,Chironomidae pupa,3,1,predation,method,gut content
+Ecclisiomyia,3,Eukiefferiella,3,1,predation,method,gut content
+Ecclisiomyia,3,Navicula radiosa v. tenella,3,1,herbivory,method,gut content
+Ecclisiomyia,3,Zapada,3,1,predation,method,gut content
+Eukiefferiella,3,Cocconeis sp.,3,1,herbivory,method,gut content
+Eukiefferiella,3,Fragilaria vaucheriae,3,1,herbivory,method,gut content
+Eukiefferiella,3,Staurosirella leptostauron,3,1,herbivory,method,gut content
+Isoperla,3,Amphora ovalis,3,1,herbivory,method,gut content
+Isoperla,3,Corynoneura,3,1,predation,method,gut content
+Isoperla,3,Fragilaria vaucheriae,3,1,herbivory,method,gut content
+Isoperla,3,Navicula radiosa v. tenella,3,1,herbivory,method,gut content
+Isoperla,3,Thienemanniella,3,1,predation,method,gut content
+Oligochaeta,3,Amphora ovalis,3,1,herbivory,method,gut content
+Oligochaeta,3,Diatoma spp.,3,1,herbivory,method,gut content
+Oligochaeta,3,Meridion circulare,3,1,herbivory,method,gut content
+Oligochaeta,3,Synedra ulna,3,1,herbivory,method,gut content
+Oreogeton,3,Corynoneura,3,1,predation,method,gut content
+Orthocladiinae,3,Achnanthes spp.,3,1,herbivory,method,gut content
+Orthocladiinae,3,Cocconeis sp.,3,1,herbivory,method,gut content
+Orthocladiinae,3,Diatoma spp.,3,1,herbivory,method,gut content
+Orthocladiinae,3,Hydrurus foetidus,3,1,herbivory,method,gut content
+Orthocladiinae,3,Synedra ulna,3,1,herbivory,method,gut content
+Pagastia,3,bryophyte,3,1,herbivory,method,gut content
+Pagastia,3,Diatoma spp.,3,1,herbivory,method,gut content
+Pagastia,3,Navicula radiosa v. tenella,3,1,herbivory,method,gut content
+Prosimulium,3,Cymbella spp.,3,1,herbivory,method,gut content
+Prosimulium,3,Gomphonema angustatum,3,1,herbivory,method,gut content
+Prosimulium,3,Navicula radiosa v. tenella,3,1,herbivory,method,gut content
+Salvelinus malma,3,Acarina,3,1,predation,method,gut content
+Salvelinus malma,3,Diamesa,3,1,predation,method,gut content
+Salvelinus malma,3,Oligochaeta,3,1,predation,method,gut content
+Salvelinus malma,3,Pagastia,3,1,predation,method,gut content
+Salvelinus malma,3,winged aquatic adult,3,1,predation,method,gut content
+Zapada,3,bryophyte,3,1,herbivory,method,gut content
+Zapada,3,Didymosphenia geminata,3,1,herbivory,method,gut content
+Zapada,3,Meridion circulare,3,1,herbivory,method,gut content
+Orthocladiinae,3,Fragilaria vaucheriae,3,1,herbivory,method,gut content
+Orthocladiinae,3,Meridion circulare,3,1,herbivory,method,gut content
+Orthocladiinae,3,vascular plant,3,1,herbivory,method,gut content
+Pagastia,3,Chironomidae pupa,3,1,predation,method,gut content
+Pagastia,3,Fragilaria vaucheriae,3,1,herbivory,method,gut content
+Pagastia,3,Staurosirella leptostauron,3,1,herbivory,method,gut content
+Prosimulium,3,Amphora ovalis,3,1,herbivory,method,gut content
+Prosimulium,3,Diatoma spp.,3,1,herbivory,method,gut content
+Prosimulium,3,Hannaea arcus,3,1,herbivory,method,gut content
+Prosimulium,3,Staurosirella leptostauron,3,1,herbivory,method,gut content
+Salvelinus malma,3,Baetis,3,1,predation,method,gut content
+Salvelinus malma,3,Ecclisiomyia,3,1,predation,method,gut content
+Salvelinus malma,3,Oreogeton,3,1,predation,method,gut content
+Salvelinus malma,3,Prosimulium,3,1,predation,method,gut content
+Salvelinus malma,3,Zapada,3,1,predation,method,gut content
+Zapada,3,Cocconeis sp.,3,1,herbivory,method,gut content
+Zapada,3,Fragilaria vaucheriae,3,1,herbivory,method,gut content
+Zapada,3,Navicula radiosa v. tenella,3,1,herbivory,method,gut content
+Pagastia,3,Cymbella spp.,3,1,herbivory,method,gut content
+Pagastia,3,Hydrurus foetidus,3,1,herbivory,method,gut content
+Prosimulium,3,Achnanthes spp.,3,1,herbivory,method,gut content
+Prosimulium,3,Cocconeis sp.,3,1,herbivory,method,gut content
+Prosimulium,3,Fragilaria vaucheriae,3,1,herbivory,method,gut content
+Prosimulium,3,Meridion circulare,3,1,herbivory,method,gut content
+Prosimulium,3,vascular plant,3,1,herbivory,method,gut content
+Salvelinus malma,3,Chelifera,3,1,predation,method,gut content
+Salvelinus malma,3,Isoperla,3,1,predation,method,gut content
+Salvelinus malma,3,Ostrocoda,3,1,predation,method,gut content
+Salvelinus malma,3,terrestrial insects,3,1,predation,method,gut content
+Zapada,3,Diatoma spp.,3,1,herbivory,method,gut content
+Zapada,3,Hydrurus foetidus,3,1,herbivory,method,gut content
+Orthocladiinae,3,Gomphonema angustatum,3,1,herbivory,method,gut content
+Orthocladiinae,3,Navicula radiosa v. tenella,3,1,herbivory,method,gut content
+Pagastia,3,Achnanthes spp.,3,1,herbivory,method,gut content
+Pagastia,3,Gomphonema angustatum,3,1,herbivory,method,gut content
+Pagastia,3,vascular plant,3,1,herbivory,method,gut content
+Prosimulium,3,bryophyte,3,1,herbivory,method,gut content
+Prosimulium,3,Didymosphenia geminata,3,1,herbivory,method,gut content
+Prosimulium,3,Hydrurus foetidus,3,1,herbivory,method,gut content
+Prosimulium,3,Synedra ulna,3,1,herbivory,method,gut content
+Salvelinus malma,3,Ceratopogonidae,3,1,predation,method,gut content
+Salvelinus malma,3,Eukiefferiella,3,1,predation,method,gut content
+Salvelinus malma,3,Orthocladiinae,3,1,predation,method,gut content
+Salvelinus malma,3,Rheocricotopus,3,1,predation,method,gut content
+Zapada,3,Achnanthes spp.,3,1,herbivory,method,gut content
+Zapada,3,Cymbella spp.,3,1,herbivory,method,gut content
+Zapada,3,Gomphonema angustatum,3,1,herbivory,method,gut content
+Zapada,3,Staurosirella leptostauron,3,1,herbivory,method,gut content
+Baetis,3,Cocconeis sp.,3,1,herbivory,method,gut content
+Eukiefferiella,3,Diatoma spp.,3,1,herbivory,method,gut content
+Pagastia,3,Cocconeis sp.,3,1,herbivory,method,gut content
+Orthocladiinae,3,amorphous detritus,3,1,detritivore,method,gut content
+Ecclisiomyia,3,amorphous detritus,3,1,detritivore,method,gut content
+Eukiefferiella,3,amorphous detritus,3,1,detritivore,method,gut content
+Baetis,3,amorphous detritus,3,1,detritivore,method,gut content
+Isoperla,3,amorphous detritus,3,1,detritivore,method,gut content
+Oligochaeta,3,amorphous detritus,3,1,detritivore,method,gut content
+Chelifera,3,amorphous detritus,3,1,detritivore,method,gut content
+Corynoneura,3,amorphous detritus,3,1,detritivore,method,gut content
+Prosimulium,3,amorphous detritus,3,1,detritivore,method,gut content
+Zapada,3,amorphous detritus,3,1,detritivore,method,gut content
+Orthocladiinae,3,Hannaea arcus,3,1,herbivory,method,gut content
+Orthocladiinae,3,Amphora ovalis,3,1,herbivory,method,gut content
+Orthocladiinae,3,bryophyte,3,1,herbivory,method,gut content
+Pagastia,3,amorphous detritus,3,1,detritivore,method,gut content
+Orthocladiinae,3,Cymbella spp.,3,1,herbivory,method,gut content
+Orthocladiinae,3,Staurosirella leptostauron,3,1,herbivory,method,gut content
+Baetis,4,Achnanthes spp.,4,1,herbivory,method,gut content
+Baetis,4,Hannaea arcus,4,1,herbivory,method,gut content
+Chloroperlidae,4,Diamesa,4,1,predation,method,gut content
+Chloroperlidae,4,Hannaea arcus,4,1,herbivory,method,gut content
+Cinygmula,4,Achnanthes spp.,4,1,herbivory,method,gut content
+Cinygmula,4,Cocconeis sp.,4,1,herbivory,method,gut content
+Cinygmula,4,Fragilaria vaucheriae,4,1,herbivory,method,gut content
+Cinygmula,4,Navicula radiosa v. tenella,4,1,herbivory,method,gut content
+Diamesa,4,Chlorophyta filament,4,1,herbivory,method,gut content
+Diamesa,4,Didymosphenia geminata,4,1,herbivory,method,gut content
+Diamesa,4,Hydrurus foetidus,4,1,herbivory,method,gut content
+Gymnopais,4,Cocconeis sp.,4,1,herbivory,method,gut content
+Gymnopais,4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Gymnopais,4,Navicula radiosa v. tenella,4,1,herbivory,method,gut content
+Oligochaeta,4,Cocconeis sp.,4,1,herbivory,method,gut content
+Oligochaeta,4,Fragilaria vaucheriae,4,1,herbivory,method,gut content
+Oligochaeta,4,Navicula radiosa v. tenella,4,1,herbivory,method,gut content
+Oreogeton,4,Chlorophyta filament,4,1,herbivory,method,gut content
+Oreogeton,4,Fragilaria vaucheriae,4,1,herbivory,method,gut content
+Oreogeton,4,Meridion circulare,4,1,herbivory,method,gut content
+Orthocladiinae,4,Chlorophyta filament,4,1,herbivory,method,gut content
+Orthocladiinae,4,Fragilaria vaucheriae,4,1,herbivory,method,gut content
+Orthocladiinae,4,Meridion circulare,4,1,herbivory,method,gut content
+Pagastia,4,Cocconeis sp.,4,1,herbivory,method,gut content
+Pagastia,4,Fragilaria vaucheriae,4,1,herbivory,method,gut content
+Pagastia,4,Meridion circulare,4,1,herbivory,method,gut content
+Prosimulium,4,Chlorophyta filament,4,1,herbivory,method,gut content
+Prosimulium,4,Hannaea arcus,4,1,herbivory,method,gut content
+Salvelinus malma,4,Eukiefferiella,4,1,predation,method,gut content
+Salvelinus malma,4,Pagastia,4,1,predation,method,gut content
+Salvelinus malma,4,Tipula,4,1,predation,method,gut content
+Zapada,4,Cymbella spp.,4,1,herbivory,method,gut content
+Zapada,4,Fragilaria vaucheriae,4,1,herbivory,method,gut content
+Zapada,4,Navicula radiosa v. tenella,4,1,herbivory,method,gut content
+Baetis,4,Eunotia sp.,4,1,herbivory,method,gut content
+Baetis,4,Meridion circulare,4,1,herbivory,method,gut content
+Chloroperlidae,4,bryophyte,4,1,herbivory,method,gut content
+Chloroperlidae,4,Didymosphenia geminata,4,1,herbivory,method,gut content
+Chloroperlidae,4,Hydrurus foetidus,4,1,herbivory,method,gut content
+Cinygmula,4,Cymbella spp.,4,1,herbivory,method,gut content
+Cinygmula,4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Cinygmula,4,vascular plant,4,1,herbivory,method,gut content
+Diamesa,4,Cocconeis sp.,4,1,herbivory,method,gut content
+Diamesa,4,Fragilaria vaucheriae,4,1,herbivory,method,gut content
+Diamesa,4,Meridion circulare,4,1,herbivory,method,gut content
+Eukiefferiella,4,Orthocladiinae,4,1,predation,method,gut content
+Gymnopais,4,Cymbella spp.,4,1,herbivory,method,gut content
+Gymnopais,4,Hannaea arcus,4,1,herbivory,method,gut content
+Oligochaeta,4,Achnanthes spp.,4,1,herbivory,method,gut content
+Oligochaeta,4,Cymbella spp.,4,1,herbivory,method,gut content
+Oligochaeta,4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Oreogeton,4,Cymbella spp.,4,1,herbivory,method,gut content
+Oreogeton,4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Orthocladiinae,4,Achnanthes spp.,4,1,herbivory,method,gut content
+Orthocladiinae,4,Cocconeis sp.,4,1,herbivory,method,gut content
+Orthocladiinae,4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Pagastia,4,Achnanthes spp.,4,1,herbivory,method,gut content
+Pagastia,4,Cymbella spp.,4,1,herbivory,method,gut content
+Pagastia,4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Pagastia,4,vascular plant,4,1,herbivory,method,gut content
+Prosimulium,4,Cymbella spp.,4,1,herbivory,method,gut content
+Salvelinus malma,4,Acarina,4,1,predation,method,gut content
+Salvelinus malma,4,Isoperla,4,1,predation,method,gut content
+Salvelinus malma,4,Prosimulium,4,1,predation,method,gut content
+Salvelinus malma,4,winged aquatic adult,4,1,predation,method,gut content
+Zapada,4,bryophyte,4,1,herbivory,method,gut content
+Zapada,4,Diamesa,4,1,predation,method,gut content
+Zapada,4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Zapada,4,vascular plant,4,1,herbivory,method,gut content
+Baetis,4,Cymbella spp.,4,1,herbivory,method,gut content
+Baetis,4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Chloroperlidae,4,Achnanthes spp.,4,1,herbivory,method,gut content
+Chloroperlidae,4,Cocconeis sp.,4,1,herbivory,method,gut content
+Chloroperlidae,4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Chloroperlidae,4,Orthocladiinae,4,1,predation,method,gut content
+Cinygmula,4,Chlorophyta filament,4,1,herbivory,method,gut content
+Cinygmula,4,Didymosphenia geminata,4,1,herbivory,method,gut content
+Cinygmula,4,Meridion circulare,4,1,herbivory,method,gut content
+Diamesa,4,Diatoma heimale,4,1,herbivory,method,gut content
+Diamesa,4,Hannaea arcus,4,1,herbivory,method,gut content
+Diamesa,4,vascular plant,4,1,herbivory,method,gut content
+Gymnopais,4,Fragilaria vaucheriae,4,1,herbivory,method,gut content
+Gymnopais,4,Meridion circulare,4,1,herbivory,method,gut content
+Oligochaeta,4,bryophyte,4,1,herbivory,method,gut content
+Oligochaeta,4,Didymosphenia geminata,4,1,herbivory,method,gut content
+Oligochaeta,4,Meridion circulare,4,1,herbivory,method,gut content
+Oreogeton,4,Chironomidae,4,1,predation,method,gut content
+Oreogeton,4,Didymosphenia geminata,4,1,herbivory,method,gut content
+Oreogeton,4,Hydrurus foetidus,4,1,herbivory,method,gut content
+Orthocladiinae,4,Amphora ovalis,4,1,herbivory,method,gut content
+Orthocladiinae,4,Didymosphenia geminata,4,1,herbivory,method,gut content
+Orthocladiinae,4,Hydrurus foetidus,4,1,herbivory,method,gut content
+Pagastia,4,Chlorophyta filament,4,1,herbivory,method,gut content
+Pagastia,4,Didymosphenia geminata,4,1,herbivory,method,gut content
+Pagastia,4,Hydrurus foetidus,4,1,herbivory,method,gut content
+Prosimulium,4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Salvelinus malma,4,Diamesa,4,1,predation,method,gut content
+Salvelinus malma,4,Orthocladiinae,4,1,predation,method,gut content
+Salvelinus malma,4,terrestrial insects,4,1,predation,method,gut content
+Zapada,4,Achnanthes spp.,4,1,herbivory,method,gut content
+Zapada,4,Cocconeis sp.,4,1,herbivory,method,gut content
+Zapada,4,Didymosphenia geminata,4,1,herbivory,method,gut content
+Zapada,4,Meridion circulare,4,1,herbivory,method,gut content
+Baetis,4,Cocconeis sp.,4,1,herbivory,method,gut content
+Baetis,4,Fragilaria vaucheriae,4,1,herbivory,method,gut content
+Baetis,4,Navicula radiosa v. tenella,4,1,herbivory,method,gut content
+Chloroperlidae,4,Chlorophyta filament,4,1,herbivory,method,gut content
+Chloroperlidae,4,Fragilaria vaucheriae,4,1,herbivory,method,gut content
+Chloroperlidae,4,Meridion circulare,4,1,herbivory,method,gut content
+Cinygmula,4,bryophyte,4,1,herbivory,method,gut content
+Cinygmula,4,Diatoma heimale,4,1,herbivory,method,gut content
+Cinygmula,4,Hannaea arcus,4,1,herbivory,method,gut content
+Diamesa,4,Achnanthes spp.,4,1,herbivory,method,gut content
+Diamesa,4,Cymbella spp.,4,1,herbivory,method,gut content
+Diamesa,4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Diamesa,4,Navicula radiosa v. tenella,4,1,herbivory,method,gut content
+Gymnopais,4,Achnanthes spp.,4,1,herbivory,method,gut content
+Gymnopais,4,Diatoma heimale,4,1,herbivory,method,gut content
+Gymnopais,4,Hydrurus foetidus,4,1,herbivory,method,gut content
+Oligochaeta,4,Diatoma heimale,4,1,herbivory,method,gut content
+Oligochaeta,4,Hannaea arcus,4,1,herbivory,method,gut content
+Oreogeton,4,Diatoma heimale,4,1,herbivory,method,gut content
+Oreogeton,4,Hannaea arcus,4,1,herbivory,method,gut content
+Orthocladiinae,4,Cymbella spp.,4,1,herbivory,method,gut content
+Orthocladiinae,4,Hannaea arcus,4,1,herbivory,method,gut content
+Pagastia,4,Diatoma heimale,4,1,herbivory,method,gut content
+Pagastia,4,Hannaea arcus,4,1,herbivory,method,gut content
+Prosimulium,4,Achnanthes spp.,4,1,herbivory,method,gut content
+Prosimulium,4,Fragilaria vaucheriae,4,1,herbivory,method,gut content
+Salvelinus malma,4,Baetis,4,1,predation,method,gut content
+Salvelinus malma,4,Oreogeton,4,1,predation,method,gut content
+Salvelinus malma,4,Rheocricotopus,4,1,predation,method,gut content
+Salvelinus malma,4,Zapada,4,1,predation,method,gut content
+Zapada,4,Chlorophyta filament,4,1,herbivory,method,gut content
+Zapada,4,Diatoma heimale,4,1,herbivory,method,gut content
+Zapada,4,Hannaea arcus,4,1,herbivory,method,gut content
+Baetis,4,Didymosphenia geminata,4,1,herbivory,method,gut content
+Oreogeton,4,Achnanthes spp.,4,1,herbivory,method,gut content
+Chloroperlidae,4,amorphous detritus,4,1,detritivore,method,gut content
+Eukiefferiella,4,amorphous detritus,4,1,detritivore,method,gut content
+Zapada,4,amorphous detritus,4,1,detritivore,method,gut content
+Baetis,4,amorphous detritus,4,1,detritivore,method,gut content
+Cinygmula,4,amorphous detritus,4,1,detritivore,method,gut content
+Diamesa,4,amorphous detritus,4,1,detritivore,method,gut content
+Gymnopais,4,amorphous detritus,4,1,detritivore,method,gut content
+Prosimulium,4,amorphous detritus,4,1,detritivore,method,gut content
+Oligochaeta,4,amorphous detritus,4,1,detritivore,method,gut content
+Oreogeton,4,amorphous detritus,4,1,detritivore,method,gut content
+Orthocladiinae,4,amorphous detritus,4,1,detritivore,method,gut content
+Pagastia,4,amorphous detritus,4,1,detritivore,method,gut content

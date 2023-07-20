@@ -1,0 +1,1996 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+Aphrophila spp.,1,Plant material,1,4,herbivory,method,gut content
+Aphrophila spp.,1,Cocconeis placentula,1,1,herbivory,method,gut content
+Aphrophila spp.,1,Gomphonema angustatum,1,2,herbivory,method,gut content
+Aphrophila spp.,1,Gomphonema sp. 3,1,1,herbivory,method,gut content
+Aphrophila spp.,1,Synedra ulna,1,4,herbivory,method,gut content
+Austroperla cyrene,1,Plant material,1,4,herbivory,method,gut content
+Austroperla cyrene,1,Cocconeis placentula,1,3,herbivory,method,gut content
+Austroperla cyrene,1,Gomphonema angustatum,1,3,herbivory,method,gut content
+Austroperla cyrene,1,Rhoicosphenia curvata,1,3,herbivory,method,gut content
+Austroperla cyrene,1,Synedra ulna,1,2,herbivory,method,gut content
+Austrosimulium australense,1,Plant material,1,4,herbivory,method,gut content
+Austrosimulium australense,1,Aucalosira,1,2,herbivory,method,gut content
+Austrosimulium australense,1,Diatoma heimale,1,1,herbivory,method,gut content
+Austrosimulium australense,1,Gomphonema angustatum,1,2,herbivory,method,gut content
+Austrosimulium australense,1,Navicula avenacea,1,3,herbivory,method,gut content
+Austrosimulium australense,1,Surirella elegans,1,1,herbivory,method,gut content
+Costachorema xanthoptera,1,Oligochaeta type II,1,3,predation,method,gut content
+Cricotopus sp. I (Cranston),1,Plant material,1,3,herbivory,method,gut content
+Cricotopus sp. I (Cranston),1,Aucalosira,1,1,herbivory,method,gut content
+Cricotopus sp. I (Cranston),1,Gomphonema angustatum,1,2,herbivory,method,gut content
+Cricotopus sp. I (Cranston),1,Rhoicosphenia curvata,1,3,herbivory,method,gut content
+Cricotopus sp. I (Cranston),1,Synedra ulna,1,2,herbivory,method,gut content
+Cricotopus II,1,Plant material,1,3,herbivory,method,gut content
+Cricotopus II,1,Aucalosira,1,1,herbivory,method,gut content
+Cricotopus II,1,Gomphonema angustatum,1,2,herbivory,method,gut content
+Cricotopus II,1,Rhoicosphenia curvata,1,3,herbivory,method,gut content
+Cricotopus II,1,Synedra ulna,1,2,herbivory,method,gut content
+Cricotopus sp. III,1,Plant material,1,3,herbivory,method,gut content
+Cricotopus sp. III,1,Aucalosira,1,2,herbivory,method,gut content
+Cricotopus sp. III,1,Gomphonema angustatum,1,3,herbivory,method,gut content
+Cricotopus sp. III,1,Rhoicosphenia curvata,1,2,herbivory,method,gut content
+Deleatidium,1,Achnanthes linearis,1,2,herbivory,method,gut content
+Deleatidium,1,Blue green algae,1,1,herbivory,method,gut content
+Deleatidium,1,Fragilaria vaucheriae,1,3,herbivory,method,gut content
+Deleatidium,1,Gomphoneis herculeana,1,1,herbivory,method,gut content
+Deleatidium,1,Gomphonema sp. 4,1,1,herbivory,method,gut content
+Deleatidium,1,Unknown green algal cells,1,1,herbivory,method,gut content
+Deleatidium,1,Rhoicosphenia curvata,1,3,herbivory,method,gut content
+Eukiefidriella,1,Aucalosira,1,1,herbivory,method,gut content
+Eukiefidriella,1,Navicula avenacea,1,1,herbivory,method,gut content
+Helicopsyche albescens (Tillyard),1,Aucalosira,1,1,herbivory,method,gut content
+Hudsonema amabilis,1,Plant material,1,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),1,Aucalosira,1,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),1,Gomphonema sp. 3,1,2,herbivory,method,gut content
+Aphrophila spp.,1,Achnanthes minutissima,1,2,herbivory,method,gut content
+Aphrophila spp.,1,Frustulia rhomboides,1,2,predation,method,gut content
+Aphrophila spp.,1,gomclev,1,1,predation,method,gut content
+Aphrophila spp.,1,Navicula avenacea,1,4,herbivory,method,gut content
+Austroperla cyrene,1,Achnanthes linearis,1,3,herbivory,method,gut content
+Austroperla cyrene,1,Navicula avenacea,1,3,herbivory,method,gut content
+Austroperla cyrene,1,surova,1,2,predation,method,gut content
+Austrosimulium australense,1,Achnanthes minutissima,1,1,herbivory,method,gut content
+Austrosimulium australense,1,Blue green algae,1,1,herbivory,method,gut content
+Austrosimulium australense,1,Frustulia rhomboides,1,2,predation,method,gut content
+Austrosimulium australense,1,Gomphonema sp. 3,1,1,herbivory,method,gut content
+Austrosimulium australense,1,Rhoicosphenia curvata,1,3,herbivory,method,gut content
+Austrosimulium australense,1,Synedra ulna,1,3,herbivory,method,gut content
+Coloburiscus humeralis (Walker),1,Aucalosira,1,1,herbivory,method,gut content
+Cricotopus sp. I (Cranston),1,Achnanthes minutissima,1,1,herbivory,method,gut content
+Cricotopus sp. I (Cranston),1,Gomphoneis herculeana,1,1,herbivory,method,gut content
+Cricotopus sp. I (Cranston),1,Navicula avenacea,1,1,herbivory,method,gut content
+Cricotopus sp. I (Cranston),1,Surirella elegans,1,1,herbivory,method,gut content
+Cricotopus II,1,Achnanthes minutissima,1,1,herbivory,method,gut content
+Cricotopus II,1,Gomphoneis herculeana,1,1,herbivory,method,gut content
+Cricotopus II,1,Navicula avenacea,1,1,herbivory,method,gut content
+Cricotopus II,1,Surirella elegans,1,1,herbivory,method,gut content
+Cricotopus sp. III,1,Achnanthes minutissima,1,1,herbivory,method,gut content
+Cricotopus sp. III,1,Fragilaria vaucheriae,1,2,herbivory,method,gut content
+Cricotopus sp. III,1,Navicula avenacea,1,2,herbivory,method,gut content
+Cricotopus sp. III,1,Synedra ulna,1,1,herbivory,method,gut content
+Deleatidium,1,Achnanthes minutissima,1,4,herbivory,method,gut content
+Deleatidium,1,Cocconeis placentula,1,1,herbivory,method,gut content
+Deleatidium,1,frustv,1,1,predation,method,gut content
+Deleatidium,1,Gomphonema angustatum,1,4,herbivory,method,gut content
+Deleatidium,1,Gomphonema sp. 3,1,3,herbivory,method,gut content
+Deleatidium,1,Navicula avenacea,1,3,herbivory,method,gut content
+Deleatidium,1,Synedra ulna,1,3,herbivory,method,gut content
+Eukiefidriella,1,Plant material,1,2,herbivory,method,gut content
+Eukiefidriella,1,Gomphonema angustatum,1,1,herbivory,method,gut content
+Eukiefidriella,1,Synedra ulna,1,2,herbivory,method,gut content
+Helicopsyche albescens (Tillyard),1,Plant material,1,3,herbivory,method,gut content
+Hudsonema amabilis,1,Aucalosira,1,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),1,Achnanthes linearis,1,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),1,Gomphonema angustatum,1,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),1,Rhoicosphenia curvata,1,3,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),1,Oligochaeta lumbr blue,1,3,predation,method,gut content
+Hydrobiosis parumbripennis,1,Maoridiamesa spp.,1,3,predation,method,gut content
+Hydrobiosis parumbripennis,1,Pirara matakiri (Boothroyd and Cranston),1,3,predation,method,gut content
+Oligochaeta lumbriculiid purple,1,Aucalosira,1,1,herbivory,method,gut content
+Oligochaeta lumbriculiid purple,1,Cocconeis placentula,1,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),1,Surirella elegans,1,2,herbivory,method,gut content
+Hydrobiosis parumbripennis,1,Terrestrial invertebrates,1,3,predation,method,gut content
+Hydrobiosis parumbripennis,1,Oligochaeta type II,1,3,predation,method,gut content
+Hydrobiosis parumbripennis,1,Zelandoperla fenestrata (McLellan),1,3,predation,method,gut content
+Oligochaeta lumbriculiid purple,1,Plant material,1,3,herbivory,method,gut content
+Oligochaeta lumbriculiid purple,1,Blue green algae,1,1,herbivory,method,gut content
+Oligochaeta lumbriculiid purple,1,Gomphonema angustatum,1,2,herbivory,method,gut content
+Oligochaeta lumbriculiid purple,1,Navicula avenacea,1,1,herbivory,method,gut content
+Oligochaeta lumbriculiid white,1,Aucalosira,1,1,herbivory,method,gut content
+Oligochaeta lumbriculiid white,1,Cocconeis placentula,1,1,herbivory,method,gut content
+Oligochaeta lumbriculiid white,1,pras,1,1,predation,method,gut content
+Maoridiamesa spp.,1,Fungi,1,1,herbivory,method,gut content
+Maoridiamesa spp.,1,Aucalosira,1,2,herbivory,method,gut content
+Maoridiamesa spp.,1,Cocconeis placentula,1,1,herbivory,method,gut content
+Maoridiamesa spp.,1,Navicula avenacea,1,3,herbivory,method,gut content
+Maoridiamesa spp.,1,Surirella elegans,1,2,herbivory,method,gut content
+Megaleptoperla grandis (Newman),1,Plant material,1,3,herbivory,method,gut content
+Megaleptoperla grandis (Newman),1,Diatoma heimale,1,1,herbivory,method,gut content
+Megaleptoperla grandis (Newman),1,Navicula avenacea,1,3,herbivory,method,gut content
+Megaleptoperla grandis (Newman),1,Nitzschia palea,1,1,herbivory,method,gut content
+Megaleptoperla grandis (Newman),1,Synedra ulna,1,3,herbivory,method,gut content
+Nannochorista,1,Aucalosira,1,1,herbivory,method,gut content
+Naonella,1,Plant material,1,3,herbivory,method,gut content
+Naonella,1,Gomphonema angustatum,1,1,herbivory,method,gut content
+Naonella,1,Navicula avenacea,1,1,herbivory,method,gut content
+nymph,1,Aucalosira,1,2,herbivory,method,gut content
+nymph,1,Synedra ulna,1,2,herbivory,method,gut content
+Oligochaeta lumbr blue,1,Aucalosira,1,2,herbivory,method,gut content
+Oligochaeta lumbr blue,1,Rhoicosphenia curvata,1,3,herbivory,method,gut content
+Oligochaeta type II,1,Plant material,1,3,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,1,Plant material,1,3,herbivory,method,gut content
+Oligochaeta type 'weak/long',1,Plant material,1,3,herbivory,method,gut content
+Orthocladiinae unknown spp. 1,1,Navicula avenacea,1,3,herbivory,method,gut content
+Orthocladiinae unknown spp. 1,1,Synedra ulna,1,3,herbivory,method,gut content
+Orthocladiinae unknown spp. 2,1,Navicula avenacea,1,3,herbivory,method,gut content
+Orthocladiinae unknown spp. 2,1,Synedra ulna,1,3,herbivory,method,gut content
+Oxyethira albiceps (McLachlan),1,Plant material,1,3,herbivory,method,gut content
+phrea,1,Audouniella,1,1,herbivory,method,gut content
+phrea,1,Gomphoneis herculeana,1,1,herbivory,method,gut content
+phrea,1,Rhoicosphenia curvata,1,3,herbivory,method,gut content
+phrea,1,Surirella elegans,1,1,herbivory,method,gut content
+Paralimnophila skusei (Hutton),1,Plant material,1,3,herbivory,method,gut content
+Paratanytarsus spp.,1,Plant material,1,1,herbivory,method,gut content
+Paratanytarsus spp.,1,Aucalosira,1,1,herbivory,method,gut content
+Paratanytarsus spp.,1,Synedra ulna,1,3,herbivory,method,gut content
+Pirara matakiri (Boothroyd and Cranston),1,Plant material,1,2,herbivory,method,gut content
+Pirara matakiri (Boothroyd and Cranston),1,Achnanthes minutissima,1,2,herbivory,method,gut content
+Pirara matakiri (Boothroyd and Cranston),1,Gomphonema angustatum,1,2,herbivory,method,gut content
+Psilochorema bidens (McFarlane),1,Oligochaeta type II,1,3,predation,method,gut content
+Pycnocentria spp.,1,Plant material,1,3,herbivory,method,gut content
+Stenoperla prasinia,1,Achnanthes linearis,1,3,herbivory,method,gut content
+Oligochaeta lumbriculiid purple,1,gomclev,1,1,predation,method,gut content
+Oligochaeta lumbriculiid purple,1,Synedra ulna,1,3,herbivory,method,gut content
+Oligochaeta lumbriculiid white,1,Plant material,1,3,herbivory,method,gut content
+Oligochaeta lumbriculiid white,1,Blue green algae,1,2,herbivory,method,gut content
+Oligochaeta lumbriculiid white,1,Gomphonema angustatum,1,2,herbivory,method,gut content
+Oligochaeta lumbriculiid white,1,Synedra ulna,1,2,herbivory,method,gut content
+Maoridiamesa spp.,1,Plant material,1,3,herbivory,method,gut content
+Maoridiamesa spp.,1,Achnanthes minutissima,1,3,herbivory,method,gut content
+Maoridiamesa spp.,1,Blue green algae,1,1,herbivory,method,gut content
+Maoridiamesa spp.,1,gomclev,1,1,predation,method,gut content
+Maoridiamesa spp.,1,Rhoicosphenia curvata,1,3,herbivory,method,gut content
+Maoridiamesa spp.,1,Synedra ulna,1,4,herbivory,method,gut content
+Megaleptoperla grandis (Newman),1,Achnanthes linearis,1,2,herbivory,method,gut content
+Megaleptoperla grandis (Newman),1,Gomphonema angustatum,1,3,herbivory,method,gut content
+Megaleptoperla grandis (Newman),1,Nitzschia linearis,1,3,herbivory,method,gut content
+Megaleptoperla grandis (Newman),1,Rhoicosphenia curvata,1,2,herbivory,method,gut content
+Naonella,1,Aucalosira,1,2,herbivory,method,gut content
+Naonella,1,Gomphonema subclavatum,1,1,herbivory,method,gut content
+nymph,1,Plant material,1,3,herbivory,method,gut content
+nymph,1,Navicula avenacea,1,1,herbivory,method,gut content
+Oligochaeta lumbr blue,1,Achnanthes minutissima,1,2,herbivory,method,gut content
+Oligochaeta lumbr blue,1,Navicula avenacea,1,2,herbivory,method,gut content
+Orthocladiinae unknown spp. 1,1,Surirella elegans,1,3,herbivory,method,gut content
+Orthocladiinae unknown spp. 2,1,Surirella elegans,1,3,herbivory,method,gut content
+Oxyethira albiceps (McLachlan),1,Aucalosira,1,1,herbivory,method,gut content
+phrea,1,Plant material,1,3,herbivory,method,gut content
+phrea,1,Frustulia rhomboides,1,1,predation,method,gut content
+phrea,1,Navicula avenacea,1,2,herbivory,method,gut content
+phrea,1,Sphaerium spp.,1,1,predation,method,gut content
+phrea,1,Synedra ulna,1,3,herbivory,method,gut content
+Paratanytarsus spp.,1,Fungi,1,1,herbivory,method,gut content
+Paratanytarsus spp.,1,Surirella elegans,1,1,herbivory,method,gut content
+Pirara matakiri (Boothroyd and Cranston),1,Achnanthes linearis,1,2,herbivory,method,gut content
+Pirara matakiri (Boothroyd and Cranston),1,Aucalosira,1,2,herbivory,method,gut content
+Pirara matakiri (Boothroyd and Cranston),1,Rhoicosphenia curvata,1,1,herbivory,method,gut content
+Psilochorema bidens (McFarlane),1,Deleatidium,1,3,predation,method,gut content
+Pycnocentria spp.,1,Aucalosira,1,1,herbivory,method,gut content
+Rhabdomastrix sp.,1,Plant material,1,4,herbivory,method,gut content
+Stenoperla prasinia,1,Plant material,1,3,herbivory,method,gut content
+Stenoperla prasinia,1,Achnanthes minutissima,1,2,herbivory,method,gut content
+Stenoperla prasinia,1,Cocconeis placentula,1,2,herbivory,method,gut content
+Stenoperla prasinia,1,Gomphonema sp. 3,1,3,herbivory,method,gut content
+Stenoperla prasinia,1,Navicula avenacea,1,3,herbivory,method,gut content
+Stenoperla prasinia,1,Synedra ulna,1,1,herbivory,method,gut content
+Stictoclcaius,1,Aucalosira,1,1,herbivory,method,gut content
+Paranephrops zealandicus (White),1,Pycnocentria spp.,1,3,predation,method,gut content
+Salmo trutta,1,Ameletopsis perscitus (Eaton),1,3,predation,method,gut content
+Salmo trutta,1,Austroperla cyrene,1,3,predation,method,gut content
+Salmo trutta,1,Cricotopus sp. III,1,3,predation,method,gut content
+Salmo trutta,1,Eukiefidriella,1,3,predation,method,gut content
+Salmo trutta,1,Hudsonema amabilis,1,3,predation,method,gut content
+Salmo trutta,1,Hydrobiosella stenocerca (Tillyard),1,4,predation,method,gut content
+Salmo trutta,1,Maoridiamesa spp.,1,5,predation,method,gut content
+Salmo trutta,1,phrea,1,4,predation,method,gut content
+Salmo trutta,1,Pycnocentria spp.,1,5,predation,method,gut content
+Salmo trutta,1,Tanytarsus verspertinus,1,3,predation,method,gut content
+Salmo trutta,1,Zelandoperla fenestrata (McLellan),1,5,predation,method,gut content
+Stictoclcaius,1,Rhoicosphenia curvata,1,1,herbivory,method,gut content
+Tanytarsus verspertinus,1,Aucalosira,1,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),1,Plant material,1,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),1,Achnanthes linearis,1,2,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),1,Aucalosira,1,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),1,Diatoma elongatum,1,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),1,Gomphonema intricatum,1,2,predation,method,gut content
+Zelandobius spp. nr confusus (Hare),1,Nitzschia palea,1,2,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Achnanthes inflata,1,1,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Achnanthes minutissima,1,3,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Cocconeis placentula,1,2,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Fragilaria vaucheriae,1,2,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Gomphonema angustatum,1,4,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Gomphonema parvulum,1,2,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Rhoicosphenia curvata,1,3,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Synedra rumpens,1,1,herbivory,method,gut content
+Paranephrops zealandicus (White),1,phrea,1,3,predation,method,gut content
+Salmo trutta,1,Terrestrial invertebrates,1,4,predation,method,gut content
+Salmo trutta,1,Aphrophila spp.,1,3,predation,method,gut content
+Salmo trutta,1,Austrosimulium australense,1,3,predation,method,gut content
+Salmo trutta,1,Deleatidium,1,4,predation,method,gut content
+Salmo trutta,1,Helicopsyche albescens (Tillyard),1,3,predation,method,gut content
+Salmo trutta,1,Hydora nitida (larva) (Broun),1,4,predation,method,gut content
+Salmo trutta,1,Hydrobiosis parumbripennis,1,3,predation,method,gut content
+Salmo trutta,1,Oxyethira albiceps (McLachlan),1,3,predation,method,gut content
+Salmo trutta,1,Potamopyrgus antipodarum (Gray),1,4,predation,method,gut content
+Salmo trutta,1,Stenoperla prasinia,1,3,predation,method,gut content
+Salmo trutta,1,Zelandobius spp. nr confusus (Hare),1,3,predation,method,gut content
+Salmo trutta,1,Paranephrops zealandicus (White),1,3,predation,method,gut content
+Austroperla cyrene,1,Fragilaria vaucheriae,1,1,herbivory,method,gut content
+Oligochaeta lumbr blue,1,Plant material,1,3,herbivory,method,gut content
+Stictoclcaius,1,Plant material,1,3,herbivory,method,gut content
+Ameletopsis perscitus (Eaton),1,Unidentified detritus,1,2,detritivore,method,gut content
+Coloburiscus humeralis (Walker),1,Unidentified detritus,1,3,detritivore,method,gut content
+Eukiefidriella,1,Unidentified detritus,1,3,detritivore,method,gut content
+Helicopsyche albescens (Tillyard),1,Unidentified detritus,1,3,detritivore,method,gut content
+Hydora nitida (larva) (Broun),1,Unidentified detritus,1,3,detritivore,method,gut content
+Aphrophila spp.,1,Unidentified detritus,1,3,detritivore,method,gut content
+Austroperla cyrene,1,Unidentified detritus,1,3,detritivore,method,gut content
+Austrosimulium australense,1,Unidentified detritus,1,3,detritivore,method,gut content
+Cricotopus sp. I (Cranston),1,Unidentified detritus,1,3,detritivore,method,gut content
+Cricotopus II,1,Unidentified detritus,1,3,detritivore,method,gut content
+Cricotopus sp. III,1,Unidentified detritus,1,3,detritivore,method,gut content
+Hudsonema amabilis,1,Unidentified detritus,1,3,detritivore,method,gut content
+Oligochaeta lumbriculiid purple,1,Unidentified detritus,1,3,detritivore,method,gut content
+Oligochaeta lumbriculiid white,1,Unidentified detritus,1,3,detritivore,method,gut content
+Maoridiamesa spp.,1,Unidentified detritus,1,3,detritivore,method,gut content
+phrea,1,Unidentified detritus,1,3,detritivore,method,gut content
+Potamopyrgus antipodarum (Gray),1,Unidentified detritus,1,3,detritivore,method,gut content
+Rhabdomastrix sp.,1,Unidentified detritus,1,3,detritivore,method,gut content
+Stenoperla prasinia,1,Unidentified detritus,1,3,detritivore,method,gut content
+Nannochorista,1,Unidentified detritus,1,3,detritivore,method,gut content
+Naonella,1,Unidentified detritus,1,3,detritivore,method,gut content
+Oligochaeta lumbr blue,1,Unidentified detritus,1,3,detritivore,method,gut content
+Oligochaeta type II,1,Unidentified detritus,1,3,detritivore,method,gut content
+Oligochaeta lumbriculiid pink,1,Unidentified detritus,1,3,detritivore,method,gut content
+Oligochaeta type 'weak/long',1,Unidentified detritus,1,3,detritivore,method,gut content
+Orthocladiinae unknown spp. 1,1,Unidentified detritus,1,3,detritivore,method,gut content
+Orthocladiinae unknown spp. 2,1,Unidentified detritus,1,3,detritivore,method,gut content
+Oxyethira albiceps (McLachlan),1,Unidentified detritus,1,3,detritivore,method,gut content
+Paratanytarsus spp.,1,Unidentified detritus,1,3,detritivore,method,gut content
+Pirara matakiri (Boothroyd and Cranston),1,Unidentified detritus,1,3,detritivore,method,gut content
+Pycnocentria spp.,1,Unidentified detritus,1,3,detritivore,method,gut content
+Zelandoperla fenestrata (McLellan),1,Unidentified detritus,1,3,detritivore,method,gut content
+Paranephrops zealandicus (White),1,Unidentified detritus,1,3,detritivore,method,gut content
+Stenoperla prasinia,1,Blue green algae,1,1,herbivory,method,gut content
+Stenoperla prasinia,1,Gomphonema angustatum,1,3,herbivory,method,gut content
+Stenoperla prasinia,1,Gomphonema truncatum,1,2,herbivory,method,gut content
+Stenoperla prasinia,1,Rhoicosphenia curvata,1,3,herbivory,method,gut content
+Stictoclcaius,1,Unidentified detritus,1,3,detritivore,method,gut content
+Tanytarsus verspertinus,1,Unidentified detritus,1,3,detritivore,method,gut content
+Zelandobius spp. nr confusus (Hare),1,Unidentified detritus,1,3,detritivore,method,gut content
+Stictoclcaius,1,Achnanthes linearis,1,1,herbivory,method,gut content
+Stictoclcaius,1,Gomphonema intricatum,1,1,predation,method,gut content
+Zelandobius spp. nr confusus (Hare),1,Achnanthes inflata,1,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),1,Achnanthes minutissima,1,2,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),1,Cocconeis placentula,1,2,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),1,Gomphonema angustatum,1,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),1,Navicula avenacea,1,2,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),1,Synedra ulna,1,3,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Plant material,1,3,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Achnanthes linearis,1,3,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Aucalosira,1,2,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Diatoma heimale,1,1,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Gomphoneis herculeana,1,1,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Gomphonema intricatum,1,1,predation,method,gut content
+Zelandoperla fenestrata (McLellan),1,Navicula avenacea,1,4,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Surirella elegans,1,3,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),1,Synedra ulna,1,2,herbivory,method,gut content
+Paranephrops zealandicus (White),1,Plant material,1,3,herbivory,method,gut content
+Apsectrotanypus spp.,2,Pinnularia mesoleptus,2,2,herbivory,method,gut content
+Apsectrotanypus spp.,2,Unknown green algal cells,2,1,herbivory,method,gut content
+Austroperla cyrene,2,Achnanthes linearis,2,3,herbivory,method,gut content
+Austroperla cyrene,2,Cocconeis placentula,2,3,herbivory,method,gut content
+Austroperla cyrene,2,Fragilaria vaucheriae,2,2,herbivory,method,gut content
+Chironomous zelandicus (Hudson),2,Plant material,2,3,herbivory,method,gut content
+Chironomous zelandicus (Hudson),2,Pinnularia mesoleptus,2,3,herbivory,method,gut content
+Costachorema xanthoptera,2,Deleatidium,2,3,predation,method,gut content
+Apsectrotanypus spp.,2,Surirella tenera,2,3,herbivory,method,gut content
+Apsectrotanypus spp.,2,Deleatidium,2,1,predation,method,gut content
+Austroperla cyrene,2,Plant material,2,4,herbivory,method,gut content
+Austroperla cyrene,2,Aucalosira,2,1,herbivory,method,gut content
+Austroperla cyrene,2,Eunotia pectinalis,2,1,predation,method,gut content
+Chironomous zelandicus (Hudson),2,Navicula avenacea,2,3,herbivory,method,gut content
+Chironomous zelandicus (Hudson),2,Surirella tenera,2,3,herbivory,method,gut content
+Costachorema xanthoptera,2,Oligochaeta type II,2,3,predation,method,gut content
+Cricotopus II,2,Plant material,2,3,herbivory,method,gut content
+Cricotopus sp. III,2,Plant material,2,3,herbivory,method,gut content
+Cristaperla,2,Achnanthes linearis,2,1,herbivory,method,gut content
+Deleatidium,2,Plant material,2,1,herbivory,method,gut content
+Deleatidium,2,Diatoma heimale,2,1,herbivory,method,gut content
+Cricotopus sp. III,2,Aucalosira,2,1,herbivory,method,gut content
+Cristaperla,2,Plant material,2,1,herbivory,method,gut content
+Deleatidium,2,Achnanthes linearis,2,2,herbivory,method,gut content
+Deleatidium,2,Eunotia pectinalis,2,2,predation,method,gut content
+Deleatidium,2,Gomphonema angustatum,2,1,herbivory,method,gut content
+Deleatidium,2,Navicula avenacea,2,3,herbivory,method,gut content
+Deleatidium,2,Ulothrix,2,1,herbivory,method,gut content
+Hydora l,2,Plant material,2,3,herbivory,method,gut content
+Hydora l,2,Achnanthes minutissima,2,1,herbivory,method,gut content
+Hydora l,2,Fragilaria vaucheriae,2,1,herbivory,method,gut content
+Hydora l,2,Gomphonema new sp.,2,1,herbivory,method,gut content
+Hydora l,2,Stauroneis,2,1,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,2,Aucalosira,2,1,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,2,Fragilaria vaucheriae,2,2,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,2,Pinnularia mesoleptus,2,3,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,2,Surirella elegans,2,2,herbivory,method,gut content
+Nannochorista,2,Oligochaeta type I,2,3,predation,method,gut content
+Nannochorista,2,Tanytarsus sp. I,2,3,predation,method,gut content
+Neozephlebia scita (Walker),2,Plant material,2,3,herbivory,method,gut content
+Neozephlebia scita (Walker),2,Gomphoneis herculeana,2,1,herbivory,method,gut content
+Neozephlebia scita (Walker),2,Navicula dicephala,2,1,herbivory,method,gut content
+Neozephlebia scita (Walker),2,Synedra ulna,2,1,herbivory,method,gut content
+Oligochaeta type I,2,Navicula avenacea,2,2,herbivory,method,gut content
+Oligochaeta type II,2,Fragilaria vaucheriae,2,1,herbivory,method,gut content
+Oligochaeta type II,2,Surirella elegans,2,1,herbivory,method,gut content
+Oligochaeta type 'weak/long',2,Plant material,2,3,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),2,Eunotia pectinalis,2,1,predation,method,gut content
+Paucispinigera approximata (Freeman),2,Achnanthes linearis,2,1,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),2,Cristaperla,2,3,predation,method,gut content
+Polyplectropus puerilis (McLachlan),2,Oligochaeta type II,2,4,predation,method,gut content
+Potamopyrgus antipodarum (Gray),2,Achnanthes linearis,2,4,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),2,Aucalosira,2,1,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),2,Fragilaria vaucheriae,2,4,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),2,Navicula placentula,2,1,predation,method,gut content
+Rhabdomastrix sp.,2,Plant material,2,3,herbivory,method,gut content
+Sphaerium spp.,2,Navicula avenacea,2,1,herbivory,method,gut content
+Tanytarsus sp. I,2,Cymbella aspera,2,2,herbivory,method,gut content
+Tanytarsus sp. I,2,fungi,2,1,herbivory,method,gut content
+Tanytarsus sp. I,2,Navicula avenacea,2,3,herbivory,method,gut content
+Tanytarsus sp. I,2,Stauroneis,2,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),2,Achnanthes linearis,2,1,herbivory,method,gut content
+Zelandotipula sp.,2,Blue green algae,2,1,herbivory,method,gut content
+Zelandotipula sp.,2,Melosira varians,2,2,herbivory,method,gut content
+Deleatidium,2,Gomphoneis herculeana,2,1,herbivory,method,gut content
+Deleatidium,2,Gomphonema new sp.,2,1,herbivory,method,gut content
+Deleatidium,2,Rhoicosphenia curvata,2,1,herbivory,method,gut content
+Deleatidium,2,redalg,2,5,herbivory,method,gut content
+Hydora l,2,Achnanthes linearis,2,3,herbivory,method,gut content
+Hydora l,2,Eunotia pectinalis,2,1,predation,method,gut content
+Hydora l,2,Gomphonema angustatum,2,3,herbivory,method,gut content
+Hydora l,2,Pinnularia mesoleptus,2,3,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,2,Plant material,2,4,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,2,Eunotia pectinalis,2,3,predation,method,gut content
+Oligochaeta lumbriculiid pink,2,Gomphoneis herculeana,2,1,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,2,Pinnularia gibba,2,1,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,2,Pinnularia viridis,2,3,herbivory,method,gut content
+Mischoderus sp.,2,Plant material,2,4,herbivory,method,gut content
+Nannochorista,2,Cricotopus sp. III,2,3,predation,method,gut content
+Nannochorista,2,Oligochaeta type 'weak/long',2,3,predation,method,gut content
+Neozephlebia scita (Walker),2,Aucalosira,2,1,herbivory,method,gut content
+Neozephlebia scita (Walker),2,Navicula avenacea,2,3,herbivory,method,gut content
+Neozephlebia scita (Walker),2,Pinnularia gibba,2,1,herbivory,method,gut content
+Neozephlebia scita (Walker),2,redalg,2,5,herbivory,method,gut content
+Oligochaeta type I,2,Plant material,2,3,herbivory,method,gut content
+Oligochaeta type I,2,Stauroneis,2,1,herbivory,method,gut content
+Oligochaeta type II,2,Plant material,2,3,herbivory,method,gut content
+Oligochaeta type II,2,Pinnularia mesoleptus,2,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),2,Plant material,2,4,herbivory,method,gut content
+Paralimnophila skusei (Hutton),2,Plant material,2,1,herbivory,method,gut content
+Paucispinigera approximata (Freeman),2,Plant material,2,3,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),2,Terrestrial invertebrates,2,3,predation,method,gut content
+Polyplectropus puerilis (McLachlan),2,Deleatidium,2,3,predation,method,gut content
+Potamopyrgus antipodarum (Gray),2,Achnanthes minutissima,2,3,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),2,Eunotia pectinalis,2,3,predation,method,gut content
+Potamopyrgus antipodarum (Gray),2,Navicula avenacea,2,3,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),2,Rhoicosphenia curvata,2,2,herbivory,method,gut content
+Stenoperla prasina (Newman),2,Terrestrial invertebrates,2,4,predation,method,gut content
+Stictocladius spp.,2,fungi,2,1,herbivory,method,gut content
+Tanytarsus sp. I,2,Plant material,2,3,herbivory,method,gut content
+Tanytarsus sp. I,2,Eunotia pectinalis,2,2,predation,method,gut content
+Tanytarsus sp. I,2,Gomphonema sp. 3,2,2,herbivory,method,gut content
+Tanytarsus sp. I,2,Pinnularia mesoleptus,2,2,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),2,Plant material,2,3,herbivory,method,gut content
+Zelandotipula sp.,2,Plant material,2,5,herbivory,method,gut content
+Zelandotipula sp.,2,Fragilaria vaucheriae,2,4,herbivory,method,gut content
+Zelandotipula sp.,2,Navicula avenacea,2,2,herbivory,method,gut content
+Zelandotipula sp.,2,Surirella linearis,2,1,predation,method,gut content
+Paranephrops zealandicus (White),2,Plant material,2,4,herbivory,method,gut content
+Paranephrops zealandicus (White),2,Cricotopus II,2,3,predation,method,gut content
+Paranephrops zealandicus (White),2,Polyplectropus puerilis (McLachlan),2,4,predation,method,gut content
+Paranephrops zealandicus (White),2,Stenoperla prasina (Newman),2,3,predation,method,gut content
+Zelandotipula sp.,2,Pinnularia mesoleptus,2,2,herbivory,method,gut content
+Paranephrops zealandicus (White),2,Apsectrotanypus spp.,2,3,predation,method,gut content
+Paranephrops zealandicus (White),2,Oxyethira albiceps (McLachlan),2,3,predation,method,gut content
+Paranephrops zealandicus (White),2,Sphaerium spp.,2,3,predation,method,gut content
+Paranephrops zealandicus (White),2,Stictocladius spp.,2,3,predation,method,gut content
+galeld,2,Terrestrial invertebrates,2,3,predation,method,gut content
+galeld,2,Neozephlebia scita (Walker),2,3,predation,method,gut content
+galeld,2,galeld,2,3,predation,method,gut content
+galeld,2,Eriopterini sp. 1,2,3,predation,method,gut content
+galeld,2,Paradixa sp.,2,3,predation,method,gut content
+Oligochaeta lumbriculiid pink,2,Gomphonema angustatum,2,1,herbivory,method,gut content
+Tanytarsus sp. I,2,Surirella tenera,2,3,herbivory,method,gut content
+Austroperla cyrene,2,Unidentified detritus,2,4,detritivore,method,gut content
+Cricotopus II,2,Unidentified detritus,2,3,detritivore,method,gut content
+Apsectrotanypus spp.,2,Unidentified detritus,2,3,detritivore,method,gut content
+Chironomous zelandicus (Hudson),2,Unidentified detritus,2,3,detritivore,method,gut content
+Cristaperla,2,Unidentified detritus,2,3,detritivore,method,gut content
+Cricotopus sp. III,2,Unidentified detritus,2,3,detritivore,method,gut content
+Deleatidium,2,Unidentified detritus,2,4,detritivore,method,gut content
+Eriopterini sp. 1,2,Unidentified detritus,2,2,detritivore,method,gut content
+Oligochaeta lumbriculiid pink,2,Unidentified detritus,2,4,detritivore,method,gut content
+Muscid sp.,2,Unidentified detritus,2,3,detritivore,method,gut content
+Oligochaeta type I,2,Unidentified detritus,2,3,detritivore,method,gut content
+Oligochaeta type II,2,Unidentified detritus,2,3,detritivore,method,gut content
+Paracalliope fluviatilis (Thomson),2,Unidentified detritus,2,3,detritivore,method,gut content
+Paralimnophila skusei (Hutton),2,Unidentified detritus,2,2,detritivore,method,gut content
+Paucispinigera approximata (Freeman),2,Unidentified detritus,2,3,detritivore,method,gut content
+Pycnocentrodes spp.,2,Unidentified detritus,2,3,detritivore,method,gut content
+Stictocladius spp.,2,Unidentified detritus,2,3,detritivore,method,gut content
+Tanytarsus sp. I,2,Unidentified detritus,2,3,detritivore,method,gut content
+Zelandobius spp. nr confusus (Hare),2,Unidentified detritus,2,3,detritivore,method,gut content
+Hydora l,2,Unidentified detritus,2,3,detritivore,method,gut content
+Homolaena sp. Type I,2,Unidentified detritus,2,2,detritivore,method,gut content
+Neozephlebia scita (Walker),2,Unidentified detritus,2,3,detritivore,method,gut content
+Oligochaeta type 'weak/long',2,Unidentified detritus,2,3,detritivore,method,gut content
+Oxyethira albiceps (McLachlan),2,Unidentified detritus,2,3,detritivore,method,gut content
+Paradixa sp.,2,Unidentified detritus,2,3,detritivore,method,gut content
+Potamopyrgus antipodarum (Gray),2,Unidentified detritus,2,3,detritivore,method,gut content
+Rhabdomastrix sp.,2,Unidentified detritus,2,3,detritivore,method,gut content
+Sphaerium spp.,2,Unidentified detritus,2,3,detritivore,method,gut content
+Paranephrops zealandicus (White),2,Unidentified detritus,2,4,detritivore,method,gut content
+galeld,2,Unidentified detritus,2,3,detritivore,method,gut content
+Potamopyrgus antipodarum (Gray),3,Navicula avenacea,3,3,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),3,Gyrosigma,3,1,predation,method,gut content
+Oligochaeta lumbr blue,3,Unidentified detritus,3,3,detritivore,method,gut content
+Oligochaeta type II,3,Unidentified detritus,3,3,detritivore,method,gut content
+Paracalliope fluviatilis (Thomson),3,Unidentified detritus,3,2,detritivore,method,gut content
+Neozephlebia,3,Plant material,3,3,herbivory,method,gut content
+Neozephlebia,3,Fragilaria vaucheriae,3,3,herbivory,method,gut content
+Neozephlebia,3,Navicula avenacea,3,1,herbivory,method,gut content
+Neozephlebia,3,Gomphoneis herculeana,3,1,herbivory,method,gut content
+Oligochaeta lumbr blue,3,Eunotia pectinalis,3,1,predation,method,gut content
+Oligochaeta lumbr blue,3,Blue green algae,3,2,herbivory,method,gut content
+phrea,3,Eunotia pectinalis,3,1,predation,method,gut content
+Paradixa sp.,3,Plant material,3,3,herbivory,method,gut content
+Paradixa sp.,3,Cocconeis placentula,3,1,herbivory,method,gut content
+Paucispinigera approximata (Freeman),3,Plant material,3,2,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),3,Fragilaria vaucheriae,3,5,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),3,Pinnularia viridis,3,1,herbivory,method,gut content
+Rhabdomastrix sp.,3,Fragilaria vaucheriae,3,1,herbivory,method,gut content
+Sphaerium,3,Cocconeis placentula,3,2,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),3,Achnanthes linearis,3,1,herbivory,method,gut content
+Paranephrops zealandicus (White),3,Terrestrial invertebrates,3,3,predation,method,gut content
+Paranephrops zealandicus (White),3,Hydrobiosis parumbripennis,3,3,predation,method,gut content
+Paranephrops zealandicus (White),3,Polyplectropus puerilis (McLachlan),3,3,predation,method,gut content
+Paranephrops zealandicus (White),3,galeld,3,3,predation,method,gut content
+galeld,3,Aspectrotanypus,3,3,predation,method,gut content
+phrea,3,Unidentified detritus,3,3,detritivore,method,gut content
+Potamopyrgus antipodarum (Gray),3,Unidentified detritus,3,3,detritivore,method,gut content
+Rhabdomastrix sp.,3,Unidentified detritus,3,3,detritivore,method,gut content
+Aspectrotanypus,3,Plant material,3,3,herbivory,method,gut content
+Austroperla cyrene,3,Plant material,3,4,herbivory,method,gut content
+Austrosimulium,3,Fragilaria vaucheriae,3,2,herbivory,method,gut content
+Austrosimulium,3,Navicula avenacea,3,2,herbivory,method,gut content
+Austrosimulium,3,Synedra ulna,3,2,herbivory,method,gut content
+Austrosimulium,3,Gomphonema sp. 3,3,1,herbivory,method,gut content
+Deleatidium,3,Plant material,3,2,herbivory,method,gut content
+Deleatidium,3,Achnanthes minutissima,3,1,herbivory,method,gut content
+Deleatidium,3,Achnanthes linearis,3,1,herbivory,method,gut content
+Deleatidium,3,Rhoicosphenia curvata,3,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),3,Eunotia pectinalis,3,2,predation,method,gut content
+Hydora nitida (larva) (Broun),3,Gomphonema new sp.,3,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),3,Achnanthes linearis,3,2,herbivory,method,gut content
+Hydrobiosis parumbripennis,3,Oligochaeta type II,3,3,predation,method,gut content
+Mischoderus sp.,3,Plant material,3,3,herbivory,method,gut content
+Mischoderus sp.,3,Fragilaria vaucheriae,3,2,herbivory,method,gut content
+Nannochorista,3,Oligochaeta type II,3,3,predation,method,gut content
+Naonella,3,Plant material,3,2,herbivory,method,gut content
+Austroperla cyrene,3,Blue green algae,3,4,herbivory,method,gut content
+Austrosimulium,3,Plant material,3,3,herbivory,method,gut content
+Austrosimulium,3,Cocconeis placentula,3,1,herbivory,method,gut content
+Austrosimulium,3,Gomphonema sp. 4,3,1,herbivory,method,gut content
+Austrosimulium,3,Surirella elegans,3,1,herbivory,method,gut content
+Deleatidium,3,Eunotia pectinalis,3,3,predation,method,gut content
+Deleatidium,3,Fragilaria vaucheriae,3,4,herbivory,method,gut content
+Deleatidium,3,Gomphonema angustatum,3,1,herbivory,method,gut content
+Deleatidium,3,Pinnularia viridis,3,1,herbivory,method,gut content
+Hexatomini,3,Plant material,3,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),3,Plant material,3,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),3,Achnanthes minutissima,3,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),3,Fragilaria vaucheriae,3,4,herbivory,method,gut content
+Hydrobiosis parumbripennis,3,Neozephlebia,3,3,predation,method,gut content
+Mischoderus sp.,3,Eunotia pectinalis,3,1,predation,method,gut content
+Neozephlebia,3,Gomphonema new sp.,3,1,herbivory,method,gut content
+galeld,3,Deleatidium,3,3,predation,method,gut content
+galeld,3,Neozephlebia,3,3,predation,method,gut content
+galeld,3,Paucispinigera approximata (Freeman),3,3,predation,method,gut content
+Neozephlebia,3,Achnanthes linearis,3,3,herbivory,method,gut content
+Neozephlebia,3,Blue green algae,3,1,herbivory,method,gut content
+Neozephlebia,3,Diatoma heimale,3,1,herbivory,method,gut content
+Oligochaeta lumbr blue,3,Plant material,3,3,herbivory,method,gut content
+Oligochaeta lumbr blue,3,Fragilaria vaucheriae,3,2,herbivory,method,gut content
+Oligochaeta lumbr blue,3,Calothrix,3,1,herbivory,method,gut content
+Oligochaeta type II,3,Plant material,3,3,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),3,Plant material,3,3,herbivory,method,gut content
+phrea,3,Plant material,3,3,herbivory,method,gut content
+Paradixa sp.,3,Achnanthes linearis,3,1,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),3,Oligochaeta type II,3,3,predation,method,gut content
+Potamopyrgus antipodarum (Gray),3,Plant material,3,3,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),3,Achnanthes linearis,3,4,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),3,Cocconeis placentula,3,5,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),3,Stauroneis,3,1,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),3,Gomphonema intricaturm,3,1,herbivory,method,gut content
+Rhabdomastrix sp.,3,Plant material,3,3,herbivory,method,gut content
+Sphaerium,3,Navicula avenacea,3,2,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),3,Plant material,3,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),3,Navicula unk. Sp. A,3,1,herbivory,method,gut content
+Paranephrops zealandicus (White),3,Plant material,3,3,herbivory,method,gut content
+Paranephrops zealandicus (White),3,Deleatidium,3,3,predation,method,gut content
+Paranephrops zealandicus (White),3,Naonella,3,3,predation,method,gut content
+Paranephrops zealandicus (White),3,Potamopyrgus antipodarum (Gray),3,3,predation,method,gut content
+galeld,3,Terrestrial invertebrates,3,3,predation,method,gut content
+galeld,3,Austrosimulium,3,4,predation,method,gut content
+galeld,3,Naonella,3,4,predation,method,gut content
+galeld,3,Paradixa sp.,3,4,predation,method,gut content
+galeld,3,Potamopyrgus antipodarum (Gray),3,3,predation,method,gut content
+Zelandobius spp. nr confusus (Hare),3,Unidentified detritus,3,3,detritivore,method,gut content
+Paranephrops zealandicus (White),3,Unidentified detritus,3,3,detritivore,method,gut content
+Mischoderus sp.,3,Blue green algae,3,1,herbivory,method,gut content
+Austrosimulium,3,Unidentified detritus,3,3,detritivore,method,gut content
+Hexatomini,3,Unidentified detritus,3,3,detritivore,method,gut content
+Hydora nitida (larva) (Broun),3,Unidentified detritus,3,3,detritivore,method,gut content
+galeld,3,Terrestrial invertebrates,3,3,predation,method,gut content
+galeld,3,Austrosimulium,3,4,predation,method,gut content
+galeld,3,Naonella,3,4,predation,method,gut content
+galeld,3,Paradixa sp.,3,4,predation,method,gut content
+galeld,3,Potamopyrgus antipodarum (Gray),3,3,predation,method,gut content
+Zelandobius spp. nr confusus (Hare),3,Unidentified detritus,3,3,detritivore,method,gut content
+Paranephrops zealandicus (White),3,Unidentified detritus,3,3,detritivore,method,gut content
+Mischoderus sp.,3,Blue green algae,3,1,herbivory,method,gut content
+Acroperla,4,Plant material,4,3,herbivory,method,gut content
+Acroperla,4,Navicula avenacea,4,3,herbivory,method,gut content
+Acroperla,4,Cocconeis placentula,4,2,herbivory,method,gut content
+Acroperla,4,Achnanthes linearis,4,1,herbivory,method,gut content
+Acroperla,4,Naonella,4,3,predation,method,gut content
+Aphrophila spp.,4,Plant material,4,5,herbivory,method,gut content
+Aphrophila spp.,4,Fragilaria vaucheriae,4,1,herbivory,method,gut content
+Aphrophila spp.,4,Navicula avenacea,4,5,herbivory,method,gut content
+Aphrophila spp.,4,Gomphoneis herculeana,4,1,herbivory,method,gut content
+Aphrophila spp.,4,Frustulia rhomboides,4,1,predation,method,gut content
+Aphrophila spp.,4,Cocconeis placentula,4,4,herbivory,method,gut content
+Aphrophila spp.,4,Blue green algae,4,1,herbivory,method,gut content
+Aphrophila spp.,4,Achnanthes linearis,4,1,herbivory,method,gut content
+Aphrophila spp.,4,Synedra ulna,4,3,herbivory,method,gut content
+Aphrophila spp.,4,Rhoicosphenia curvata,4,3,herbivory,method,gut content
+Aphrophila spp.,4,Surirella elegans,4,2,herbivory,method,gut content
+Aphrophila spp.,4,Cymbella kappi,4,1,herbivory,method,gut content
+Austroperla cyrene,4,Plant material,4,4,herbivory,method,gut content
+Austrosimulium,4,Aucalosira,4,2,herbivory,method,gut content
+Austrosimulium,4,Navicula avenacea,4,3,herbivory,method,gut content
+Austrosimulium,4,Gomphoneis herculeana,4,1,herbivory,method,gut content
+Austrosimulium,4,Frustulia rhomboides,4,1,predation,method,gut content
+Austrosimulium,4,Cocconeis placentula,4,1,herbivory,method,gut content
+Austrosimulium,4,Achnanthes linearis,4,1,herbivory,method,gut content
+Coloburiscus,4,Navicula avenacea,4,4,herbivory,method,gut content
+Coloburiscus,4,Nitzschia acicularis,4,1,predation,method,gut content
+Cricotopus II,4,Plant material,4,3,herbivory,method,gut content
+Cricotopus II,4,Gomphoneis herculeana,4,1,herbivory,method,gut content
+Cristaperla,4,Plant material,4,3,herbivory,method,gut content
+Deleatidium,4,Plant material,4,3,herbivory,method,gut content
+Deleatidium,4,Gomphoneis herculeana,4,2,herbivory,method,gut content
+Deleatidium,4,Cocconeis placentula,4,4,herbivory,method,gut content
+Deleatidium,4,Achnanthes linearis,4,2,herbivory,method,gut content
+Deleatidium,4,Calothrix,4,1,herbivory,method,gut content
+Deleatidium,4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Deleatidium,4,Gomphonema sp. 3,4,1,herbivory,method,gut content
+Hudsonema amabilis,4,Navicula avenacea,4,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),4,Plant material,4,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),4,Cocconeis placentula,4,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),4,Rhoicosphenia curvata,4,4,herbivory,method,gut content
+Hydora nitida (larva) (Broun),4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Plant material,4,3,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Navicula avenacea,4,3,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Frustulia rhomboides,4,1,predation,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Blue green algae,4,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Synedra ulna,4,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Surirella elegans,4,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Gomphonema new sp.,4,1,herbivory,method,gut content
+Hydrobiosis parumbripennis,4,Cricotopus II,4,3,predation,method,gut content
+Hydrobiosis parumbripennis,4,Oligochaeta type II,4,3,predation,method,gut content
+Nannochorista,4,Navicula avenacea,4,2,herbivory,method,gut content
+Naonella,4,Frustulia rhomboides,4,1,predation,method,gut content
+Neozephlebia,4,Plant material,4,3,herbivory,method,gut content
+Neozephlebia,4,Gomphoneis herculeana,4,1,herbivory,method,gut content
+Neozephlebia,4,Microspora,4,1,herbivory,method,gut content
+Neurchorema,4,Deleatidium,4,3,predation,method,gut content
+Oligochaeta type II,4,Aucalosira,4,1,herbivory,method,gut content
+Oligochaeta type II,4,Frustulia rhomboides,4,1,predation,method,gut content
+Oligochaeta type III,4,Navicula avenacea,4,3,herbivory,method,gut content
+Oligochaeta type III,4,Synedra ulna,4,1,herbivory,method,gut content
+Aphrophila spp.,4,Melosira varians,4,1,herbivory,method,gut content
+Aphrophila spp.,4,Achnanthes minutissima,4,3,herbivory,method,gut content
+Austroperla cyrene,4,Cocconeis placentula,4,2,herbivory,method,gut content
+Austroperla cyrene,4,Achnanthes linearis,4,1,herbivory,method,gut content
+Austrosimulium,4,Plant material,4,3,herbivory,method,gut content
+Austrosimulium,4,Fragilaria vaucheriae,4,3,herbivory,method,gut content
+Austrosimulium,4,Audouniella,4,1,herbivory,method,gut content
+Austrosimulium,4,Navicula placentula,4,1,predation,method,gut content
+Austrosimulium,4,Batrachospermum,4,2,herbivory,method,gut content
+Austrosimulium,4,Blue green algae,4,2,herbivory,method,gut content
+Austrosimulium,4,Synedra ulna,4,1,herbivory,method,gut content
+Coloburiscus,4,Plant material,4,3,herbivory,method,gut content
+Coloburiscus,4,Blue green algae,4,2,herbivory,method,gut content
+Cricotopus II,4,Navicula avenacea,4,5,herbivory,method,gut content
+Cricotopus II,4,Achnanthes linearis,4,1,herbivory,method,gut content
+Cristaperla,4,Cricotopus II,4,3,predation,method,gut content
+Deleatidium,4,Navicula avenacea,4,3,herbivory,method,gut content
+Deleatidium,4,Frustulia rhomboides,4,1,predation,method,gut content
+Deleatidium,4,Blue green algae,4,3,herbivory,method,gut content
+Deleatidium,4,Synedra ulna,4,1,herbivory,method,gut content
+Deleatidium,4,Rhoicosphenia curvata,4,1,herbivory,method,gut content
+Deleatidium,4,Surirella elegans,4,1,herbivory,method,gut content
+Deleatidium,4,Stauroneis,4,1,herbivory,method,gut content
+Deleatidium,4,Diatoma heimale,4,1,herbivory,method,gut content
+Eukiefidriella,4,Plant material,4,3,herbivory,method,gut content
+Hexatomini,4,Plant material,4,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),4,Gomphoneis herculeana,4,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),4,Achnanthes linearis,4,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),4,Surirella elegans,4,2,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Fragilaria vaucheriae,4,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Gomphoneis herculeana,4,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Cocconeis placentula,4,2,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Achnanthes linearis,4,2,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Rhoicosphenia curvata,4,2,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Gomphonema tennuellum,4,1,herbivory,method,gut content
+Hydrobiosis parumbripennis,4,Deleatidium,4,3,predation,method,gut content
+Nannochorista,4,Plant material,4,3,herbivory,method,gut content
+Nannochorista,4,Gloecustis (grn alg),4,3,herbivory,method,gut content
+Naonella,4,Plant material,4,1,herbivory,method,gut content
+Neozephlebia,4,Navicula avenacea,4,1,herbivory,method,gut content
+Salmo trutta,4,Deleatidium,4,4,predation,method,gut content
+Salmo trutta,4,Nannochorista,4,4,predation,method,gut content
+Salmo trutta,4,Neozephlebia,4,3,predation,method,gut content
+Salmo trutta,4,phrea,4,4,predation,method,gut content
+Salmo trutta,4,Potamopyrgus antipodarum (Gray),4,3,predation,method,gut content
+Salmo trutta,4,Pseudooeconesus,4,4,predation,method,gut content
+Salmo trutta,4,Pycnocentria spp.,4,3,predation,method,gut content
+Cricotopus II,4,Synedra ulna,4,4,herbivory,method,gut content
+Hydrobiosis parumbripennis,4,Oligochaeta type III,4,3,predation,method,gut content
+Potamopyrgus antipodarum (Gray),4,Plant material,4,3,herbivory,method,gut content
+Acroperla,4,Unidentified detritus,4,3,detritivore,method,gut content
+Aphrophila spp.,4,Unidentified detritus,4,5,detritivore,method,gut content
+Austrosimulium,4,Unidentified detritus,4,3,detritivore,method,gut content
+Coloburiscus,4,Unidentified detritus,4,4,detritivore,method,gut content
+Eukiefidriella,4,Unidentified detritus,4,3,detritivore,method,gut content
+Hexatomini,4,Unidentified detritus,4,3,detritivore,method,gut content
+Hudsonema aliena,4,Unidentified detritus,4,3,detritivore,method,gut content
+Nannochorista,4,Unidentified detritus,4,3,detritivore,method,gut content
+Naonella,4,Unidentified detritus,4,3,detritivore,method,gut content
+Neurchorema,4,Unidentified detritus,4,1,detritivore,method,gut content
+Oligo four chaetae,4,Unidentified detritus,4,3,detritivore,method,gut content
+Oligochaeta type II,4,Unidentified detritus,4,4,detritivore,method,gut content
+Oligochaeta type III,4,Unidentified detritus,4,4,detritivore,method,gut content
+Austroperla cyrene,4,Unidentified detritus,4,2,detritivore,method,gut content
+Cricotopus II,4,Unidentified detritus,4,2,detritivore,method,gut content
+Cristaperla,4,Unidentified detritus,4,1,detritivore,method,gut content
+Deleatidium,4,Unidentified detritus,4,3,detritivore,method,gut content
+Hudsonema amabilis,4,Unidentified detritus,4,3,detritivore,method,gut content
+Hydora nitida (larva) (Broun),4,Unidentified detritus,4,3,detritivore,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Unidentified detritus,4,4,detritivore,method,gut content
+Hydrobiosis parumbripennis,4,Unidentified detritus,4,4,detritivore,method,gut content
+Neozephlebia,4,Unidentified detritus,4,3,detritivore,method,gut content
+Oligochaeta nr 'Aelosoma sp.',4,Unidentified detritus,4,3,detritivore,method,gut content
+Paracalliope purple,4,Unidentified detritus,4,3,detritivore,method,gut content
+phrea,4,Unidentified detritus,4,3,detritivore,method,gut content
+Potamopyrgus antipodarum (Gray),4,Unidentified detritus,4,3,detritivore,method,gut content
+Pycnocentria,4,Unidentified detritus,4,2,detritivore,method,gut content
+Sphaerium,4,Unidentified detritus,4,3,detritivore,method,gut content
+Tanyderidae,4,Unidentified detritus,4,3,detritivore,method,gut content
+Paucispinigera approximata,4,Unidentified detritus,4,3,detritivore,method,gut content
+Plectrocnemia,4,Unidentified detritus,4,3,detritivore,method,gut content
+Pseudooeconesus,4,Unidentified detritus,4,2,detritivore,method,gut content
+Scritid brd,4,Unidentified detritus,4,3,detritivore,method,gut content
+Stictocaldius,4,Unidentified detritus,4,3,detritivore,method,gut content
+Stictocladius III,4,Unidentified detritus,4,2,detritivore,method,gut content
+Tanytarsus verspertinus,4,Unidentified detritus,4,3,detritivore,method,gut content
+Acroperla,4,Plant material,4,3,herbivory,method,gut content
+Acroperla,4,Navicula avenacea,4,3,herbivory,method,gut content
+Acroperla,4,Cocconeis placentula,4,2,herbivory,method,gut content
+Acroperla,4,Achnanthes linearis,4,1,herbivory,method,gut content
+Acroperla,4,Naonella,4,3,predation,method,gut content
+Aphrophila spp.,4,Plant material,4,5,herbivory,method,gut content
+Aphrophila spp.,4,Fragilaria vaucheriae,4,1,herbivory,method,gut content
+Aphrophila spp.,4,Navicula avenacea,4,5,herbivory,method,gut content
+Aphrophila spp.,4,Gomphoneis herculeana,4,1,herbivory,method,gut content
+Aphrophila spp.,4,Frustulia rhomboides,4,1,predation,method,gut content
+Aphrophila spp.,4,Cocconeis placentula,4,4,herbivory,method,gut content
+Aphrophila spp.,4,Blue green algae,4,1,herbivory,method,gut content
+Aphrophila spp.,4,Achnanthes linearis,4,1,herbivory,method,gut content
+Aphrophila spp.,4,Synedra ulna,4,3,herbivory,method,gut content
+Aphrophila spp.,4,Rhoicosphenia curvata,4,3,herbivory,method,gut content
+Aphrophila spp.,4,Surirella elegans,4,2,herbivory,method,gut content
+Aphrophila spp.,4,Cymbella kappi,4,1,herbivory,method,gut content
+Austroperla cyrene,4,Plant material,4,4,herbivory,method,gut content
+Austrosimulium,4,Aucalosira,4,2,herbivory,method,gut content
+Austrosimulium,4,Navicula avenacea,4,3,herbivory,method,gut content
+Austrosimulium,4,Gomphoneis herculeana,4,1,herbivory,method,gut content
+Austrosimulium,4,Frustulia rhomboides,4,1,predation,method,gut content
+Austrosimulium,4,Cocconeis placentula,4,1,herbivory,method,gut content
+Austrosimulium,4,Achnanthes linearis,4,1,herbivory,method,gut content
+Coloburiscus,4,Navicula avenacea,4,4,herbivory,method,gut content
+Coloburiscus,4,Nitzschia acicularis,4,1,predation,method,gut content
+Cricotopus II,4,Plant material,4,3,herbivory,method,gut content
+Cricotopus II,4,Gomphoneis herculeana,4,1,herbivory,method,gut content
+Cristaperla,4,Plant material,4,3,herbivory,method,gut content
+Deleatidium,4,Plant material,4,3,herbivory,method,gut content
+Deleatidium,4,Gomphoneis herculeana,4,2,herbivory,method,gut content
+Deleatidium,4,Cocconeis placentula,4,4,herbivory,method,gut content
+Deleatidium,4,Achnanthes linearis,4,2,herbivory,method,gut content
+Deleatidium,4,Calothrix,4,1,herbivory,method,gut content
+Deleatidium,4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Deleatidium,4,Gomphonema sp. 3,4,1,herbivory,method,gut content
+Hudsonema amabilis,4,Navicula avenacea,4,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),4,Plant material,4,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),4,Cocconeis placentula,4,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),4,Rhoicosphenia curvata,4,4,herbivory,method,gut content
+Hydora nitida (larva) (Broun),4,Gomphonema angustatum,4,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Plant material,4,3,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Navicula avenacea,4,3,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Frustulia rhomboides,4,1,predation,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Blue green algae,4,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Synedra ulna,4,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Surirella elegans,4,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Gomphonema new sp.,4,1,herbivory,method,gut content
+Hydrobiosis parumbripennis,4,Cricotopus II,4,3,predation,method,gut content
+Hydrobiosis parumbripennis,4,Oligochaeta type II,4,3,predation,method,gut content
+Nannochorista,4,Navicula avenacea,4,2,herbivory,method,gut content
+Naonella,4,Frustulia rhomboides,4,1,predation,method,gut content
+Neozephlebia,4,Plant material,4,3,herbivory,method,gut content
+Neozephlebia,4,Gomphoneis herculeana,4,1,herbivory,method,gut content
+Oligochaeta type III,4,Unidentified detritus,4,4,detritivore,method,gut content
+Austroperla cyrene,4,Unidentified detritus,4,2,detritivore,method,gut content
+Cricotopus II,4,Unidentified detritus,4,2,detritivore,method,gut content
+Cristaperla,4,Unidentified detritus,4,1,detritivore,method,gut content
+Deleatidium,4,Unidentified detritus,4,3,detritivore,method,gut content
+Hudsonema amabilis,4,Unidentified detritus,4,3,detritivore,method,gut content
+Hydora nitida (larva) (Broun),4,Unidentified detritus,4,3,detritivore,method,gut content
+Hydrobiosella stenocerca (Tillyard),4,Unidentified detritus,4,4,detritivore,method,gut content
+Hydrobiosis parumbripennis,4,Unidentified detritus,4,4,detritivore,method,gut content
+Neozephlebia,4,Unidentified detritus,4,3,detritivore,method,gut content
+Oligochaeta nr 'Aelosoma sp.',4,Unidentified detritus,4,3,detritivore,method,gut content
+Paracalliope purple,4,Unidentified detritus,4,3,detritivore,method,gut content
+phrea,4,Unidentified detritus,4,3,detritivore,method,gut content
+Potamopyrgus antipodarum (Gray),4,Unidentified detritus,4,3,detritivore,method,gut content
+Pycnocentria,4,Unidentified detritus,4,2,detritivore,method,gut content
+Sphaerium,4,Unidentified detritus,4,3,detritivore,method,gut content
+Tanyderidae,4,Unidentified detritus,4,3,detritivore,method,gut content
+Paucispinigera approximata,4,Unidentified detritus,4,3,detritivore,method,gut content
+Plectrocnemia,4,Unidentified detritus,4,3,detritivore,method,gut content
+Pseudooeconesus,4,Unidentified detritus,4,2,detritivore,method,gut content
+Scritid brd,4,Unidentified detritus,4,3,detritivore,method,gut content
+Stictocaldius,4,Unidentified detritus,4,3,detritivore,method,gut content
+Stictocladius III,4,Unidentified detritus,4,2,detritivore,method,gut content
+Tanytarsus verspertinus,4,Unidentified detritus,4,3,detritivore,method,gut content
+Aphrophila spp.,5,Achnanthes inflata,5,3,herbivory,method,gut content
+Aphrophila spp.,5,Cymbella kappi,5,3,herbivory,method,gut content
+Aphrophila spp.,5,Gomphonema tennuellum,5,5,herbivory,method,gut content
+Aphrophila spp.,5,Gomphonema new sp.,5,1,herbivory,method,gut content
+Austroperla cyrene,5,Achnanthes inflata,5,5,herbivory,method,gut content
+Austroperla cyrene,5,Cymbella kappi,5,3,herbivory,method,gut content
+Austroperla cyrene,5,Navicula avenacea,5,1,herbivory,method,gut content
+Costachorema xanthoptera,5,Oligochaeta type II,5,3,predation,method,gut content
+Coloburiscus humeralis (Walker),5,Achnanthes inflata,5,2,herbivory,method,gut content
+Cricotopus II,5,Plant material,5,3,herbivory,method,gut content
+Cricotopus II,5,Achnanthes linearis,5,1,herbivory,method,gut content
+Cricotopus II,5,gomaff,5,1,predation,method,gut content
+Cricotopus II,5,Gomphonema parvulum,5,1,herbivory,method,gut content
+Cricotopus sp. III,5,Achnanthes inflata,5,3,herbivory,method,gut content
+Deleatidium spp,5,Achnanthes inflata,5,5,herbivory,method,gut content
+Deleatidium spp,5,Cocconeis placentula,5,2,herbivory,method,gut content
+Deleatidium spp,5,Gomphonema parvulum,5,2,herbivory,method,gut content
+Aphrophila spp.,5,Plant material,5,4,herbivory,method,gut content
+Aphrophila spp.,5,Aucalosira,5,1,herbivory,method,gut content
+Aphrophila spp.,5,Fragilaria vaucheriae,5,1,herbivory,method,gut content
+Aphrophila spp.,5,Unknown green algal cells,5,1,herbivory,method,gut content
+Austroperla cyrene,5,Plant material,5,5,herbivory,method,gut content
+Austroperla cyrene,5,Aucalosira,5,2,herbivory,method,gut content
+Austroperla cyrene,5,Gomphonema parvulum,5,1,herbivory,method,gut content
+Austroperla cyrene,5,Navicula cryptocephala,5,1,herbivory,method,gut content
+Coloburiscus humeralis (Walker),5,Plant material,5,3,herbivory,method,gut content
+Coloburiscus humeralis (Walker),5,Fragilaria vaucheriae,5,2,herbivory,method,gut content
+Cricotopus II,5,Achnanthes inflata,5,3,herbivory,method,gut content
+Cricotopus II,5,Gomphoneis herculeana,5,1,herbivory,method,gut content
+Cricotopus II,5,Gomphonema intricaturm,5,1,herbivory,method,gut content
+Deleatidium spp,5,Plant material,5,3,herbivory,method,gut content
+Deleatidium spp,5,Aucalosira,5,4,herbivory,method,gut content
+Deleatidium spp,5,Cymbella kappi,5,3,herbivory,method,gut content
+Deleatidium spp,5,Gomphonema intricaturm,5,4,herbivory,method,gut content
+Deleatidium spp,5,Gomphonema tennuellum,5,1,herbivory,method,gut content
+Deleatidium spp,5,Tabellaria fenestrata,5,1,predation,method,gut content
+Eukiefiriella,5,Plant material,5,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),5,Achnanthes inflata,5,5,herbivory,method,gut content
+Hydora nitida (larva) (Broun),5,Cymbella kappi,5,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),5,Gomphonema intricaturm,5,5,herbivory,method,gut content
+Hydora nitida (larva) (Broun),5,Gomphonema tennuellum,5,4,herbivory,method,gut content
+Hydora nitida (larva) (Broun),5,Pinnularia borealis,5,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),5,Rhoicosphenia curvata,5,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),5,Synedra rumpens,5,1,herbivory,method,gut content
+Hydrophilid unknown sp.,5,Synedra ulna,5,1,herbivory,method,gut content
+Molophilus sp.,5,Achnanthes inflata,5,2,herbivory,method,gut content
+Nannochorista,5,Achnanthes inflata,5,3,herbivory,method,gut content
+Nannochorista,5,Aucalosira,5,1,herbivory,method,gut content
+Nannochorista,5,Oligochaeta lumbr blue,5,1,predation,method,gut content
+Oligochaeta lumbr blue,5,Pinnularia borealis,5,1,herbivory,method,gut content
+Oligochaeta type II,5,Achnanthes linearis,5,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),5,Plant material,5,4,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),5,Fragilaria vaucheriae,5,3,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),5,Gomphonema parvulum,5,1,herbivory,method,gut content
+Paucispinigera approximata (Freeman),5,Plant material,5,2,herbivory,method,gut content
+Paucispinigera approximata (Freeman),5,Fragilaria vaucheriae,5,2,herbivory,method,gut content
+Philorheithrus agilis (Hudson),5,Oligochaeta type II,5,3,predation,method,gut content
+phrea,5,Achnanthes inflata,5,3,herbivory,method,gut content
+phrea,5,Achnanthes minutissima,5,1,herbivory,method,gut content
+phrea,5,Calothrix,5,1,herbivory,method,gut content
+phrea,5,Cymbella kappi,5,2,herbivory,method,gut content
+phrea,5,Frustulia rhomboides,5,1,predation,method,gut content
+Podonomous spp.,5,Aucalosira,5,1,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),5,Terrestrial invertebrates,5,3,predation,method,gut content
+Pseudoeconesus sp.,5,Achnanthes inflata,5,5,herbivory,method,gut content
+Pseudoeconesus sp.,5,Fragilaria vaucheriae,5,3,herbivory,method,gut content
+Psilochorema bidens (McFarlane),5,Oligochaeta lumbr blue,5,3,predation,method,gut content
+Pycnocentrodes spp.,5,Aucalosira,5,3,herbivory,method,gut content
+Pycnocentria spp.,5,Achnanthes inflata,5,3,herbivory,method,gut content
+Scirtid sp. (larvae) broad type.,5,Aucalosira,5,1,herbivory,method,gut content
+Scirtid sp. (larvae) broad type.,5,Gomphonema sp. 3,5,3,herbivory,method,gut content
+Sphaerium spp.,5,Plant material,5,2,herbivory,method,gut content
+Sphaerium spp.,5,Achnanthes inflata,5,3,herbivory,method,gut content
+Sphaerium spp.,5,Fragilaria vaucheriae,5,2,herbivory,method,gut content
+Sphaerium spp.,5,Gomphonema tennuellum,5,2,herbivory,method,gut content
+Stenoperla prasina (Newman),5,Oligochaeta lumbr blue,5,3,predation,method,gut content
+Zelandoperla fenestrata (McLellan),5,Plant material,5,4,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),5,Cocconeis placentula,5,2,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),5,Tabellaria fenestrata,5,1,predation,method,gut content
+Zelolessica cheira (McFarlane),5,Plant material,5,3,herbivory,method,gut content
+Deleatidium spp,5,Pinnularia borealis,5,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),5,Aucalosira,5,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),5,fungi,5,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),5,Gomphonema parvulum,5,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),5,Nitzschia dissipata,5,2,predation,method,gut content
+Hydora nitida (larva) (Broun),5,Pinnularia viridis,5,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),5,Stigeoclonium,5,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),5,Surirella elegans,5,3,herbivory,method,gut content
+Molophilus sp.,5,Plant material,5,4,herbivory,method,gut content
+Molophilus sp.,5,Achnanthes minutissima,5,1,herbivory,method,gut content
+Nannochorista,5,Plant material,5,2,herbivory,method,gut content
+Nannochorista,5,Achnanthes linearis,5,1,herbivory,method,gut content
+Nannochorista,5,Achnanthes minutissima,5,1,herbivory,method,gut content
+Nannochorista,5,Blue green algae,5,1,herbivory,method,gut content
+Oligochaeta lumbr blue,5,Plant material,5,3,herbivory,method,gut content
+Oligochaeta lumbr blue,5,Tabellaria floccculosa,5,1,predation,method,gut content
+Oligochaeta type II,5,Plant material,5,4,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),5,Achnanthes inflata,5,4,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),5,Aucalosira,5,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),5,Frustulia rhomboides,5,1,predation,method,gut content
+Paracalliope fluviatilis (Thomson),5,Gomphonema sp. 3,5,2,herbivory,method,gut content
+Paucispinigera approximata (Freeman),5,Achnanthes inflata,5,3,herbivory,method,gut content
+Paucispinigera approximata (Freeman),5,gomaff,5,1,predation,method,gut content
+phrea,5,Plant material,5,1,herbivory,method,gut content
+phrea,5,Aucalosira,5,2,herbivory,method,gut content
+phrea,5,Cocconeis placentula,5,2,herbivory,method,gut content
+phrea,5,Fragilaria vaucheriae,5,1,herbivory,method,gut content
+phrea,5,fungi,5,1,herbivory,method,gut content
+Podonomous spp.,5,Plant material,5,3,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),5,Plant material,5,1,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),5,Oligochaeta type II,5,4,predation,method,gut content
+Potamopyrgus antipodarum (Gray),5,Plant material,5,2,herbivory,method,gut content
+Pseudoeconesus sp.,5,Plant material,5,5,herbivory,method,gut content
+Pseudoeconesus sp.,5,Aucalosira,5,2,herbivory,method,gut content
+Pseudoeconesus sp.,5,Frustulia rhomboides,5,1,predation,method,gut content
+Psilochorema bidens (McFarlane),5,Oligochaeta type II,5,3,predation,method,gut content
+Pycnocentrodes spp.,5,Plant material,5,3,herbivory,method,gut content
+Pycnocentria spp.,5,Plant material,5,3,herbivory,method,gut content
+Pycnocentria spp.,5,Aucalosira,5,3,herbivory,method,gut content
+Scirtid sp. (larvae) broad type.,5,Plant material,5,3,herbivory,method,gut content
+Scirtid sp. (larvae) broad type.,5,Gomphonema intricaturm,5,1,herbivory,method,gut content
+Sphaerium spp.,5,Cymbella kappi,5,1,herbivory,method,gut content
+Sphaerium spp.,5,Gomphonema parvulum,5,1,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),5,Achnanthes inflata,5,5,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),5,Cymbella kappi,5,3,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),5,Fragilaria vaucheriae,5,1,herbivory,method,gut content
+Zelandoperla fenestrata (McLellan),5,Gomphonema sp. 3,5,1,herbivory,method,gut content
+Zelolessica cheira (McFarlane),5,Achnanthes inflata,5,3,herbivory,method,gut content
+Zelolessica cheira (McFarlane),5,Fragilaria vaucheriae,5,3,herbivory,method,gut content
+Salmo trutta,5,Plant material,5,4,herbivory,method,gut content
+Salmo trutta,5,Cricotopus sp. I (Cranston),5,3,predation,method,gut content
+Salmo trutta,5,Deleatidium spp,5,3,predation,method,gut content
+Salmo trutta,5,Nannochorista,5,3,predation,method,gut content
+Salmo trutta,5,Naonella,5,3,predation,method,gut content
+Salmo trutta,5,Oligochaeta type II,5,3,predation,method,gut content
+Salmo trutta,5,Polyplectropus puerilis (McLachlan),5,4,predation,method,gut content
+Salmo trutta,5,Pycnocentria spp.,5,3,predation,method,gut content
+Salmo trutta,5,Zelandoperla fenestrata (McLellan),5,3,predation,method,gut content
+Salmo trutta,5,Salmo trutta,5,3,predation,method,gut content
+Zelolessica cheira (McFarlane),5,Aucalosira,5,2,herbivory,method,gut content
+Zelolessica cheira (McFarlane),5,Gomphonema intricaturm,5,3,herbivory,method,gut content
+Zelolessica cheira (McFarlane),5,Gomphonema tennuellum,5,1,herbivory,method,gut content
+Salmo trutta,5,Coloburiscus humeralis (Walker),5,3,predation,method,gut content
+Salmo trutta,5,Cricotopus II,5,3,predation,method,gut content
+Salmo trutta,5,Cricotopus sp. III,5,3,predation,method,gut content
+Salmo trutta,5,Hydora nitida (larva) (Broun),5,3,predation,method,gut content
+Salmo trutta,5,Oligochaeta lumbr blue,5,3,predation,method,gut content
+Salmo trutta,5,Paracalliope fluviatilis (Thomson),5,4,predation,method,gut content
+Salmo trutta,5,Potamopyrgus antipodarum (Gray),5,4,predation,method,gut content
+Salmo trutta,5,Pseudoeconesus sp.,5,4,predation,method,gut content
+Salmo trutta,5,Scirtid sp. (larvae) broad type.,5,3,predation,method,gut content
+Salmo trutta,5,Zelolessica cheira (McFarlane),5,3,predation,method,gut content
+Zelandoperla fenestrata (McLellan),5,gomaff,5,1,predation,method,gut content
+Aphrophila spp.,5,Unidentified detritus,5,3,detritivore,method,gut content
+Aspectrotanypus,5,Unidentified detritus,5,3,detritivore,method,gut content
+Cricotopus sp. I (Cranston),5,Unidentified detritus,5,3,detritivore,method,gut content
+Deleatidium spp,5,Unidentified detritus,5,3,detritivore,method,gut content
+Coloburiscus humeralis (Walker),5,Unidentified detritus,5,4,detritivore,method,gut content
+Cricotopus II,5,Unidentified detritus,5,3,detritivore,method,gut content
+Cricotopus sp. III,5,Unidentified detritus,5,3,detritivore,method,gut content
+Molophilus sp.,5,Unidentified detritus,5,4,detritivore,method,gut content
+Nannochorista,5,Unidentified detritus,5,3,detritivore,method,gut content
+Oligochaeta lumbr blue,5,Unidentified detritus,5,4,detritivore,method,gut content
+Oligochaeta type II,5,Unidentified detritus,5,3,detritivore,method,gut content
+Paralimnophila skusei (Hutton),5,Unidentified detritus,5,3,detritivore,method,gut content
+Podonomous spp.,5,Unidentified detritus,5,3,detritivore,method,gut content
+Potamopyrgus antipodarum (Gray),5,Unidentified detritus,5,3,detritivore,method,gut content
+Pseudoeconesus sp.,5,Unidentified detritus,5,3,detritivore,method,gut content
+Pycnocentrodes spp.,5,Unidentified detritus,5,4,detritivore,method,gut content
+Scirtid sp. (larvae) broad type.,5,Unidentified detritus,5,4,detritivore,method,gut content
+Eukiefiriella,5,Unidentified detritus,5,4,detritivore,method,gut content
+Hydora nitida (larva) (Broun),5,Unidentified detritus,5,3,detritivore,method,gut content
+Hydrophilid unknown sp.,5,Unidentified detritus,5,2,detritivore,method,gut content
+Maoridiamesa spp.,5,Unidentified detritus,5,3,detritivore,method,gut content
+Naonella,5,Unidentified detritus,5,4,detritivore,method,gut content
+Paracalliope fluviatilis (Thomson),5,Unidentified detritus,5,3,detritivore,method,gut content
+Paucispinigera approximata (Freeman),5,Unidentified detritus,5,3,detritivore,method,gut content
+Pycnocentria spp.,5,Unidentified detritus,5,1,detritivore,method,gut content
+Sphaerium spp.,5,Unidentified detritus,5,3,detritivore,method,gut content
+Zelandoperla fenestrata (McLellan),5,Unidentified detritus,5,4,detritivore,method,gut content
+Zelolessica cheira (McFarlane),5,Unidentified detritus,5,3,detritivore,method,gut content
+Aphrophila spp.,6,Plant material,6,3,herbivory,method,gut content
+Aphrophila spp.,6,Achnanthes inflata,6,4,herbivory,method,gut content
+Aphrophila spp.,6,Achnanthes linearis,6,3,herbivory,method,gut content
+Aphrophila spp.,6,Aucalosira,6,1,herbivory,method,gut content
+Aphrophila spp.,6,Blue green algae,6,3,herbivory,method,gut content
+Aphrophila spp.,6,Cocconeis placentula,6,3,herbivory,method,gut content
+Aphrophila spp.,6,Cymbella aspera,6,2,herbivory,method,gut content
+Aphrophila spp.,6,Fragilaria vaucheriae,6,3,herbivory,method,gut content
+Aphrophila spp.,6,frustv,6,1,predation,method,gut content
+Aphrophila spp.,6,fungii,6,1,herbivory,method,gut content
+Aphrophila spp.,6,Gomphonema sp. 3,6,3,herbivory,method,gut content
+Aphrophila spp.,6,Gomphonema angustatum,6,1,herbivory,method,gut content
+Austroperla cyrene,6,Achnanthes inflata,6,3,herbivory,method,gut content
+Austroperla cyrene,6,Blue green algae,6,2,herbivory,method,gut content
+Austrosimulium australense,6,Plant material,6,3,herbivory,method,gut content
+Austrosimulium australense,6,Terrestrial invertebrates,6,3,predation,method,gut content
+Austrosimulium australense,6,Achnanthes minutissima,6,3,herbivory,method,gut content
+Costachorema xanthoptera,6,Austrosimulium australense,6,3,predation,method,gut content
+Costachorema xanthoptera,6,Cricotopus II,6,3,predation,method,gut content
+Costachorema xanthoptera,6,Oligochaeta lumbr blue,6,3,predation,method,gut content
+Costachorema xanthoptera,6,Paratanytarsus spp.,6,3,predation,method,gut content
+Cricotopus II,6,Plant material,6,3,herbivory,method,gut content
+Cricotopus II,6,Cocconeis placentula,6,3,herbivory,method,gut content
+Cricotopus sp. III,6,Plant material,6,3,herbivory,method,gut content
+Cricotopus sp. III,6,Cocconeis placentula,6,3,herbivory,method,gut content
+Cristaperla fimbriae,6,Plant material,6,3,herbivory,method,gut content
+Deleatidium lilli,6,Plant material,6,3,herbivory,method,gut content
+Deleatidium lilli,6,Blue green algae,6,1,herbivory,method,gut content
+Deleatidium lilli,6,Cocconeis placentula,6,2,herbivory,method,gut content
+Deleatidium lilli,6,Cymbella aspera,6,3,herbivory,method,gut content
+Deleatidium lilli,6,Cymbella kappi,6,3,herbivory,method,gut content
+Deleatidium lilli,6,Fragilaria vaucheriae,6,3,herbivory,method,gut content
+Deleatidium lilli,6,frustv,6,1,predation,method,gut content
+Deleatidium lilli,6,fungii,6,3,herbivory,method,gut content
+Deleatidium lilli,6,Navicula avenacea,6,3,herbivory,method,gut content
+Deleatidium lilli,6,Surirella elegans,6,1,herbivory,method,gut content
+Eukiefidrella,6,Plant material,6,3,herbivory,method,gut content
+Gyraulus corinna,6,Plant material,6,3,herbivory,method,gut content
+Gyraulus corinna,6,Cocconeis placentula,6,1,herbivory,method,gut content
+Gyraulus sp.,6,Plant material,6,3,herbivory,method,gut content
+Hudsonema amabilis (McLachlan),6,Plant material,6,4,herbivory,method,gut content
+Hudsonema amabilis (McLachlan),6,Achnanthes inflata,6,3,herbivory,method,gut content
+Hudsonema amabilis (McLachlan),6,Cocconeis placentula,6,3,herbivory,method,gut content
+Hudsonema amabilis (McLachlan),6,Gomphoneis herculeana,6,3,herbivory,method,gut content
+Hudsonema amabilis (McLachlan),6,Austrosimulium australense,6,1,predation,method,gut content
+Hudsonema amabilis (McLachlan),6,Eukiefiriella,6,3,predation,method,gut content
+Hydora nitida (adult) (Broun),6,Plant material,6,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),6,Plant material,6,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),6,Achnanthes inflata,6,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),6,Cocconeis placentula,6,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),6,Cymbella aspera,6,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),6,Cymbella kappi,6,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),6,fungii,6,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),6,Unknown green algal cells,6,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),6,Navicula avenacea,6,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),6,Nitzschia linearis,6,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),6,Pinnularia viridis,6,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),6,Rhoicosphenia curvata,6,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),6,Plant material,6,3,herbivory,method,gut content
+Maoridiamesa spp.,6,Plant material,6,3,herbivory,method,gut content
+Maoridiamesa spp.,6,Achnanthes inflata,6,3,herbivory,method,gut content
+Maoridiamesa spp.,6,Achnanthes linearis,6,1,herbivory,method,gut content
+Maoridiamesa spp.,6,Achnanthes minutissima,6,3,herbivory,method,gut content
+Maoridiamesa spp.,6,Audouniella,6,2,herbivory,method,gut content
+Maoridiamesa spp.,6,Blue green algae,6,3,herbivory,method,gut content
+Maoridiamesa spp.,6,Cocconeis placentula,6,3,herbivory,method,gut content
+Maoridiamesa spp.,6,Cymbella aspera,6,3,herbivory,method,gut content
+Maoridiamesa spp.,6,Cymbella kappi,6,1,herbivory,method,gut content
+Maoridiamesa spp.,6,Fragilaria vaucheriae,6,1,herbivory,method,gut content
+Maoridiamesa spp.,6,Frustulia rhomboides,6,1,predation,method,gut content
+Maoridiamesa spp.,6,frustv,6,1,predation,method,gut content
+Megaleptoperla grandis (Newman),6,Achnanthes inflata,6,1,herbivory,method,gut content
+Naonella forsythii,6,Plant material,6,1,herbivory,method,gut content
+Oligochaeta lumbr blue,6,Plant material,6,3,herbivory,method,gut content
+Oligochaeta lumbr blue,6,Achnanthes linearis,6,1,herbivory,method,gut content
+Olinga feredayi (McLachlan),6,Plant material,6,3,herbivory,method,gut content
+Oxyethira albiceps (McLachlan),6,fungii,6,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),6,Plant material,6,3,herbivory,method,gut content
+phrea,6,Plant material,6,3,herbivory,method,gut content
+Paraleptamphobus subterraneus (Chilton),6,Plant material,6,3,herbivory,method,gut content
+Paralimnophila skusei (Hutton),6,Plant material,6,3,herbivory,method,gut content
+Paratanytarsus spp.,6,Plant material,6,3,herbivory,method,gut content
+Paratanytarsus spp.,6,Achnanthes inflata,6,3,herbivory,method,gut content
+Paratanytarsus spp.,6,Achnanthes linearis,6,2,herbivory,method,gut content
+Paratanytarsus spp.,6,Achnanthes minutissima,6,2,herbivory,method,gut content
+Paratanytarsus spp.,6,Aucalosira,6,2,herbivory,method,gut content
+Pirara matakiri (Boothroyd and Cranston),6,Plant material,6,2,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),6,Plant material,6,3,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),6,Cocconeis placentula,6,1,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),6,Cymbella aspera,6,2,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),6,fungii,6,1,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),6,Gomphoneis herculeana,6,1,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),6,Gomphonema sp. 3,6,1,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),6,Surirella elegans,6,2,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),6,Synedra rumpens,6,1,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),6,Synedra ulna,6,1,herbivory,method,gut content
+Psilochorema bidens (McFarlane),6,Oligochaeta lumbr blue,6,1,predation,method,gut content
+Stenoperla prasinia,6,Cricotopus II,6,3,predation,method,gut content
+Stenoperla prasinia,6,Eukiefiriella,6,3,predation,method,gut content
+Stenoperla prasinia,6,Maoridiamesa spp.,6,3,predation,method,gut content
+Stenoperla prasinia,6,Naonella forsythii,6,3,predation,method,gut content
+Stictocladius,6,Plant material,6,3,herbivory,method,gut content
+Stictocladius,6,Achnanthes inflata,6,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),6,Plant material,6,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),6,Cocconeis placentula,6,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),6,Cymbella aspera,6,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),6,fungii,6,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),6,Gomphonema sp. 3,6,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),6,Navicula avenacea,6,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),6,Synedra rumpens,6,1,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),6,Plant material,6,3,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),6,Achnanthes inflata,6,1,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),6,Cocconeis placentula,6,1,herbivory,method,gut content
+Paranephrops zealandicus (White),6,Plant material,6,3,herbivory,method,gut content
+Paranephrops zealandicus (White),6,Paranephrops zealandicus (White),6,3,predation,method,gut content
+Salmo trutta,6,Terrestrial invertebrates,6,3,predation,method,gut content
+Salmo trutta,6,Aphrophila spp.,6,3,predation,method,gut content
+Salmo trutta,6,Austroperla cyrene,6,3,predation,method,gut content
+Salmo trutta,6,Cricotopus II,6,3,predation,method,gut content
+Salmo trutta,6,Cricotopus sp. III,6,3,predation,method,gut content
+Salmo trutta,6,Deleatidium spp,6,5,predation,method,gut content
+Salmo trutta,6,Eukiefiriella,6,3,predation,method,gut content
+Salmo trutta,6,Hudsonema amabilis (McLachlan),6,3,predation,method,gut content
+Salmo trutta,6,Hydora nitida (larva) (Broun),6,3,predation,method,gut content
+Salmo trutta,6,Hydrobiosella stenocerca (Tillyard),6,3,predation,method,gut content
+Salmo trutta,6,Maoridiamesa spp.,6,3,predation,method,gut content
+Salmo trutta,6,Oxyethira albiceps (McLachlan),6,3,predation,method,gut content
+Salmo trutta,6,Paracalliope fluviatilis (Thomson),6,3,predation,method,gut content
+Salmo trutta,6,phrea,6,4,predation,method,gut content
+Salmo trutta,6,Potamopyrgus antipodarum (Gray),6,3,predation,method,gut content
+Salmo trutta,6,Pycnocentrodes spp.,6,5,predation,method,gut content
+Salmo trutta,6,Stenoperla prasinia,6,3,predation,method,gut content
+Salmo trutta,6,Zelandobius spp. nr confusus (Hare),6,3,predation,method,gut content
+Salmo trutta,6,Zelandoperla agnetis (McLellan),6,5,predation,method,gut content
+Aphrophila spp.,6,Achnanthes minutissima,6,3,herbivory,method,gut content
+Megaleptoperla grandis (Newman),6,Plant material,6,1,herbivory,method,gut content
+Aphrophila spp.,6,Unidentified detritus,6,3,detritivore,method,gut content
+Austroperla cyrene,6,Unidentified detritus,6,3,detritivore,method,gut content
+Austrosimulium australense,6,Unidentified detritus,6,3,detritivore,method,gut content
+Cricotopus II,6,Unidentified detritus,6,2,detritivore,method,gut content
+Cricotopus sp. III,6,Unidentified detritus,6,2,detritivore,method,gut content
+Cristaperla fimbriae,6,Unidentified detritus,6,3,detritivore,method,gut content
+Eukiefidrella,6,Unidentified detritus,6,3,detritivore,method,gut content
+Gyraulus corinna,6,Unidentified detritus,6,3,detritivore,method,gut content
+Gyraulus sp.,6,Unidentified detritus,6,3,detritivore,method,gut content
+Helicopsyche albescens (Tillyard),6,Unidentified detritus,6,3,detritivore,method,gut content
+Hydora nitida (adult) (Broun),6,Unidentified detritus,6,3,detritivore,method,gut content
+Hydora nitida (larva) (Broun),6,Unidentified detritus,6,3,detritivore,method,gut content
+Hydrobiosella stenocerca (Tillyard),6,Unidentified detritus,6,3,detritivore,method,gut content
+Maoridiamesa spp.,6,Unidentified detritus,6,3,detritivore,method,gut content
+Megaleptoperla grandis (Newman),6,Unidentified detritus,6,3,detritivore,method,gut content
+Naonella forsythii,6,Unidentified detritus,6,3,detritivore,method,gut content
+Oligochaeta lumbr blue,6,Unidentified detritus,6,3,detritivore,method,gut content
+Olinga feredayi (McLachlan),6,Unidentified detritus,6,3,detritivore,method,gut content
+Orthocladiinae unknown spp.,6,Unidentified detritus,6,1,detritivore,method,gut content
+Oxyethira albiceps (McLachlan),6,Unidentified detritus,6,3,detritivore,method,gut content
+Paracalliope fluviatilis (Thomson),6,Unidentified detritus,6,3,detritivore,method,gut content
+phrea,6,Unidentified detritus,6,3,detritivore,method,gut content
+Paraleptamphobus subterraneus (Chilton),6,Unidentified detritus,6,3,detritivore,method,gut content
+Paralimnophila skusei (Hutton),6,Unidentified detritus,6,3,detritivore,method,gut content
+Paratanytarsus spp.,6,Unidentified detritus,6,3,detritivore,method,gut content
+Pirara matakiri (Boothroyd and Cranston),6,Unidentified detritus,6,3,detritivore,method,gut content
+Potamopyrgus antipodarum (Gray),6,Unidentified detritus,6,3,detritivore,method,gut content
+Pycnocentrodes spp.,6,Unidentified detritus,6,3,detritivore,method,gut content
+Rhabdomastrix sp.,6,Unidentified detritus,6,3,detritivore,method,gut content
+Stictocladius,6,Unidentified detritus,6,3,detritivore,method,gut content
+Zelandobius spp. nr confusus (Hare),6,Unidentified detritus,6,3,detritivore,method,gut content
+Zelandoperla agnetis (McLellan),6,Unidentified detritus,6,3,detritivore,method,gut content
+Paranephrops zealandicus (White),6,Unidentified detritus,6,3,detritivore,method,gut content
+Austroperla cyrene,7,Plant material,7,3,herbivory,method,gut content
+Austroperla cyrene,7,Navicula avenacea,7,1,herbivory,method,gut content
+Austrosimulium australense,7,Plant material,7,2,herbivory,method,gut content
+Austrosimulium australense,7,Rhoicosphenia curvata,7,1,herbivory,method,gut content
+Cricotopus sp. I (Cranston),7,Rhoicosphenia curvata,7,1,herbivory,method,gut content
+Cristaperla,7,Rhoicosphenia curvata,7,3,herbivory,method,gut content
+Cristaperla,7,Navicula avenacea,7,3,herbivory,method,gut content
+Cristaperla,7,Calothrix,7,1,herbivory,method,gut content
+Deleatidium spp,7,Plant material,7,4,herbivory,method,gut content
+Deleatidium spp,7,Rhoicosphenia curvata,7,4,herbivory,method,gut content
+Deleatidium spp,7,Surirella elegans,7,2,herbivory,method,gut content
+Deleatidium spp,7,Achnanthes linearis,7,3,herbivory,method,gut content
+Deleatidium spp,7,Cocconeis placentula,7,3,herbivory,method,gut content
+Deleatidium spp,7,Navicula avenacea,7,4,herbivory,method,gut content
+Deleatidium spp,7,Achnanthes minutissima,7,1,herbivory,method,gut content
+Helicopsyche albescens (Tillyard),7,Rhoicosphenia curvata,7,2,herbivory,method,gut content
+Helicopsyche albescens (Tillyard),7,Cocconeis placentula,7,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),7,Plant material,7,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),7,Rhoicosphenia curvata,7,5,herbivory,method,gut content
+Hydora nitida (larva) (Broun),7,Surirella elegans,7,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),7,Achnanthes linearis,7,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),7,Cocconeis placentula,7,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),7,Achnanthes minutissima,7,1,herbivory,method,gut content
+Hydrophilid unknown sp.,7,Plant material,7,3,herbivory,method,gut content
+Hydrophilid unknown sp.,7,Rhoicosphenia curvata,7,2,herbivory,method,gut content
+Maoridiamesa spp.,7,Plant material,7,3,herbivory,method,gut content
+Maoridiamesa spp.,7,Cocconeis placentula,7,3,herbivory,method,gut content
+Mischoderus sp.,7,Plant material,7,4,herbivory,method,gut content
+Molophilus sp.,7,Plant material,7,3,herbivory,method,gut content
+Nannochorista,7,Paracalliope fluviatilis (Thomson),7,3,predation,method,gut content
+Naonella,7,Plant material,7,3,herbivory,method,gut content
+Neozephlebia,7,Plant material,7,3,herbivory,method,gut content
+Neozephlebia,7,Rhoicosphenia curvata,7,4,herbivory,method,gut content
+Neozephlebia,7,Surirella elegans,7,2,herbivory,method,gut content
+Neozephlebia,7,Achnanthes linearis,7,2,herbivory,method,gut content
+Neozephlebia,7,Cocconeis placentula,7,2,herbivory,method,gut content
+Neozephlebia,7,gomclev,7,2,predation,method,gut content
+Neozephlebia,7,Navicula avenacea,7,4,herbivory,method,gut content
+Neozephlebia,7,Cymbella tumida,7,2,predation,method,gut content
+Neozephlebia,7,Blue green algae,7,2,herbivory,method,gut content
+Neozephlebia,7,Frustulia rhomboides,7,2,predation,method,gut content
+Neozephlebia,7,Achnanthes minutissima,7,2,herbivory,method,gut content
+Neozephlebia,7,Pinnularia sp (large),7,2,herbivory,method,gut content
+Neozephlebia,7,Fragilaria vaucheriae,7,2,herbivory,method,gut content
+Neozephlebia,7,Gomphonema intricaturm,7,1,herbivory,method,gut content
+Neozephlebia,7,Gomphonema truncatum,7,1,herbivory,method,gut content
+Neozephlebia,7,Synedra ulna,7,1,herbivory,method,gut content
+Neurchorema,7,Terrestrial invertebrates,7,3,predation,method,gut content
+Neurchorema,7,Deleatidium spp,7,3,predation,method,gut content
+Neurchorema,7,Oligo four chaetae,7,3,predation,method,gut content
+Neurchorema,7,Oligochaeta lumbr blue,7,3,predation,method,gut content
+Neurchorema,7,phrea,7,3,predation,method,gut content
+Oligo four chaetae,7,Achnanthes linearis,7,2,herbivory,method,gut content
+Oligochaeta lumbr blue,7,Plant material,7,4,herbivory,method,gut content
+Oligochaeta lumbr blue,7,Achnanthes linearis,7,2,herbivory,method,gut content
+Oligochaeta lumbr blue,7,Blue green algae,7,3,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),7,Plant material,7,3,herbivory,method,gut content
+phrea,7,Plant material,7,3,herbivory,method,gut content
+phrea,7,Rhoicosphenia curvata,7,4,herbivory,method,gut content
+phrea,7,Achnanthes linearis,7,1,herbivory,method,gut content
+phrea,7,Navicula avenacea,7,3,herbivory,method,gut content
+phrea,7,Fragilaria vaucheriae,7,1,herbivory,method,gut content
+phrea,7,Stauroneis,7,1,herbivory,method,gut content
+Paradixa sp.,7,Plant material,7,2,herbivory,method,gut content
+Paradixa sp.,7,Fungi,7,1,herbivory,method,gut content
+Paralimnophila skusei (Hutton),7,Plant material,7,3,herbivory,method,gut content
+Paratanytarsus spp.,7,Plant material,7,3,herbivory,method,gut content
+Paratanytarsus spp.,7,Fungi,7,1,herbivory,method,gut content
+Paratanytarsus spp.,7,Rhoicosphenia curvata,7,1,herbivory,method,gut content
+Paucispinigera approximata (Freeman),7,Plant material,7,3,herbivory,method,gut content
+Paucispinigera approximata (Freeman),7,Fungi,7,1,herbivory,method,gut content
+Paucispinigera approximata (Freeman),7,Rhoicosphenia curvata,7,2,herbivory,method,gut content
+Paucispinigera approximata (Freeman),7,Navicula avenacea,7,2,herbivory,method,gut content
+Pirara matakiri (Boothroyd and Cranston),7,Plant material,7,3,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),7,Rhoicosphenia curvata,7,3,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),7,Cocconeis placentula,7,3,herbivory,method,gut content
+Pseudoeconesus sp.,7,Plant material,7,4,herbivory,method,gut content
+Pseudoeconesus sp.,7,Rhoicosphenia curvata,7,4,herbivory,method,gut content
+Pseudoeconesus sp.,7,Cymbella tumida,7,1,predation,method,gut content
+Pycnocentria spp.,7,Plant material,7,3,herbivory,method,gut content
+Pycnocentria spp.,7,Cocconeis placentula,7,1,herbivory,method,gut content
+Pycnocentria spp.,7,gomclev,7,1,predation,method,gut content
+Scritid brd,7,Plant material,7,3,herbivory,method,gut content
+Stenoperla prasinia,7,Paracalliope fluviatilis (Thomson),7,3,predation,method,gut content
+Stictocladius spp.,7,Plant material,7,3,herbivory,method,gut content
+Stictocladius spp.,7,Fungi,7,3,herbivory,method,gut content
+Stictocladius spp.,7,Achnanthes linearis,7,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),7,Plant material,7,4,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),7,Rhoicosphenia curvata,7,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),7,Achnanthes linearis,7,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),7,Cocconeis placentula,7,3,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),7,Plant material,7,4,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),7,Fungi,7,1,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),7,Rhoicosphenia curvata,7,5,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),7,Surirella elegans,7,1,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),7,Achnanthes linearis,7,3,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),7,Cocconeis placentula,7,4,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),7,Navicula avenacea,7,5,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),7,Frustulia rhomboides,7,3,predation,method,gut content
+Paranephrops zealandicus (White),7,Plant material,7,3,herbivory,method,gut content
+Paranephrops zealandicus (White),7,galgol,7,3,predation,method,gut content
+galgol,7,Plant material,7,3,herbivory,method,gut content
+galgol,7,Terrestrial invertebrates,7,3,predation,method,gut content
+galgol,7,Cricotopus sp. I (Cranston),7,3,predation,method,gut content
+galgol,7,Deleatidium spp,7,4,predation,method,gut content
+galgol,7,Hydrophilid unknown sp.,7,3,predation,method,gut content
+galgol,7,Nannochorista,7,3,predation,method,gut content
+galgol,7,Oligochaeta lumbr blue,7,3,predation,method,gut content
+galgol,7,Paracalliope fluviatilis (Thomson),7,3,predation,method,gut content
+galgol,7,phrea,7,3,predation,method,gut content
+galgol,7,Scritid brd,7,3,predation,method,gut content
+galgol,7,Stenoperla prasinia,7,3,predation,method,gut content
+galgol,7,Zelandoperla agnetis (McLellan),7,3,predation,method,gut content
+Cristaperla,7,Plant material,7,3,herbivory,method,gut content
+Paucispinigera approximata (Freeman),7,Synedra ulna,7,1,herbivory,method,gut content
+Austroperla cyrene,7,Unidentified detritus,7,3,detritivore,method,gut content
+Austrosimulium australense,7,Unidentified detritus,7,2,detritivore,method,gut content
+Cricotopus sp. I (Cranston),7,Unidentified detritus,7,3,detritivore,method,gut content
+Cristaperla,7,Unidentified detritus,7,3,detritivore,method,gut content
+Helicopsyche albescens (Tillyard),7,Unidentified detritus,7,3,detritivore,method,gut content
+Hydora nitida (adult) (Broun),7,Unidentified detritus,7,2,detritivore,method,gut content
+Hydora nitida (larva) (Broun),7,Unidentified detritus,7,3,detritivore,method,gut content
+Hydrophilid unknown sp.,7,Unidentified detritus,7,3,detritivore,method,gut content
+Maoridiamesa spp.,7,Unidentified detritus,7,3,detritivore,method,gut content
+Mischoderus sp.,7,Unidentified detritus,7,3,detritivore,method,gut content
+Molophilus sp.,7,Unidentified detritus,7,3,detritivore,method,gut content
+Naonella,7,Unidentified detritus,7,3,detritivore,method,gut content
+Neozephlebia,7,Unidentified detritus,7,3,detritivore,method,gut content
+Oligo four chaetae,7,Unidentified detritus,7,4,detritivore,method,gut content
+Oligochaeta lumbr blue,7,Unidentified detritus,7,4,detritivore,method,gut content
+phrea,7,Unidentified detritus,7,3,detritivore,method,gut content
+Paradixa sp.,7,Unidentified detritus,7,2,detritivore,method,gut content
+Paralimnophila skusei (Hutton),7,Unidentified detritus,7,3,detritivore,method,gut content
+Paratanytarsus spp.,7,Unidentified detritus,7,3,detritivore,method,gut content
+Paucispinigera approximata (Freeman),7,Unidentified detritus,7,3,detritivore,method,gut content
+Pirara matakiri (Boothroyd and Cranston),7,Unidentified detritus,7,3,detritivore,method,gut content
+Pseudoeconesus sp.,7,Unidentified detritus,7,4,detritivore,method,gut content
+Scritid brd,7,Unidentified detritus,7,4,detritivore,method,gut content
+Stictocladius spp.,7,Unidentified detritus,7,3,detritivore,method,gut content
+Tanytarsus spp. (other),7,Unidentified detritus,7,3,detritivore,method,gut content
+Zelandoperla agnetis (McLellan),7,Unidentified detritus,7,3,detritivore,method,gut content
+Paranephrops zealandicus (White),7,Unidentified detritus,7,3,detritivore,method,gut content
+Aphrophila spp.,8,Achnanthes linearis,8,1,herbivory,method,gut content
+Aphrophila spp.,8,Diatoma heimale,8,3,herbivory,method,gut content
+Aphrophila spp.,8,frustv,8,3,predation,method,gut content
+Aphrophila spp.,8,Gomphonema sp. 3,8,1,herbivory,method,gut content
+Aphrophila spp.,8,Navicula unk. Sp. A,8,1,herbivory,method,gut content
+Austroclima jollyae (Towns and Peters),8,Aucalosira,8,1,herbivory,method,gut content
+Austroclima jollyae (Towns and Peters),8,Fragilaria vaucheriae,8,1,herbivory,method,gut content
+Austroclima jollyae (Towns and Peters),8,Gomphonema sp. 3,8,1,herbivory,method,gut content
+Aphrophila spp.,8,Plant material,8,4,herbivory,method,gut content
+Aphrophila spp.,8,Cocconeis placentula,8,1,herbivory,method,gut content
+Aphrophila spp.,8,Fragilaria vaucheriae,8,3,herbivory,method,gut content
+Aphrophila spp.,8,fungii,8,1,herbivory,method,gut content
+Aphrophila spp.,8,Melosira varians,8,2,herbivory,method,gut content
+Aphrophila spp.,8,Synedra ulna,8,5,herbivory,method,gut content
+Austroclima jollyae (Towns and Peters),8,Plant material,8,3,herbivory,method,gut content
+Austroclima jollyae (Towns and Peters),8,Cymbella mulleri,8,1,herbivory,method,gut content
+Austroclima jollyae (Towns and Peters),8,fungii,8,1,herbivory,method,gut content
+Austroclima jollyae (Towns and Peters),8,Melosira varians,8,1,herbivory,method,gut content
+Chironomous zelandicus (Hudson),8,Plant material,8,3,herbivory,method,gut content
+Chironomous zelandicus (Hudson),8,Eunotia serpentina,8,1,herbivory,method,gut content
+Chironomous zelandicus (Hudson),8,Gomphonema sp. 3,8,2,herbivory,method,gut content
+Chironomous zelandicus (Hudson),8,Melosira varians,8,3,herbivory,method,gut content
+Chironomous zelandicus (Hudson),8,Navicula mutica,8,1,herbivory,method,gut content
+Chironomous zelandicus (Hudson),8,Achnanthes linearis,8,1,herbivory,method,gut content
+Chironomous zelandicus (Hudson),8,Frustulia rhomboides,8,1,predation,method,gut content
+Chironomous zelandicus (Hudson),8,Gomphonema intricaturm,8,1,herbivory,method,gut content
+Chironomous zelandicus (Hudson),8,Navicula avenacea,8,2,herbivory,method,gut content
+Chironomous zelandicus (Hudson),8,Pinnularia viridis,8,1,herbivory,method,gut content
+Chironomous zelandicus (Hudson),8,Synedra ulna,8,4,herbivory,method,gut content
+Cricotopus sp. II (Cranston),8,Plant material,8,2,herbivory,method,gut content
+Cricotopus sp. II (Cranston),8,Cocconeis placentula,8,2,herbivory,method,gut content
+Cricotopus sp. II (Cranston),8,fungii,8,1,herbivory,method,gut content
+Cricotopus sp. II (Cranston),8,Microspora,8,3,herbivory,method,gut content
+Cricotopus sp. II (Cranston),8,Navicula dicephala,8,1,herbivory,method,gut content
+Cricotopus sp. II (Cranston),8,Synedra ulna,8,3,herbivory,method,gut content
+Cricotopus sp. III,8,Plant material,8,3,herbivory,method,gut content
+Cristaperla fimbriae,8,Achnanthes linearis,8,1,herbivory,method,gut content
+Cristaperla fimbriae,8,Diatoma heimale,8,3,herbivory,method,gut content
+Cristaperla fimbriae,8,Melosira varians,8,1,herbivory,method,gut content
+Cristaperla fimbriae,8,Navicula avenacea,8,1,herbivory,method,gut content
+Cristaperla fimbriae,8,Synedra ulna,8,3,herbivory,method,gut content
+Deleatidium lilli,8,Plant material,8,3,herbivory,method,gut content
+Deleatidium lilli,8,Aucalosira,8,1,herbivory,method,gut content
+Deleatidium lilli,8,Diatoma heimale,8,1,herbivory,method,gut content
+Deleatidium lilli,8,fungii,8,1,herbivory,method,gut content
+Deleatidium lilli,8,Gomphonema parvulum,8,1,herbivory,method,gut content
+Deleatidium lilli,8,Microspora,8,1,herbivory,method,gut content
+Deleatidium lilli,8,Synedra ulna,8,5,herbivory,method,gut content
+Eriopterini sp. 1,8,Plant material,8,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),8,Achnanthes linearis,8,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),8,Cymbella mulleri,8,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),8,fungii,8,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),8,Gomphoneis herculeana,8,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),8,Navicula unk. Sp. A,8,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),8,Surirella elegans,8,1,herbivory,method,gut content
+Lobodiamesini campbelli (Pagast.),8,Achnanthes linearis,8,1,herbivory,method,gut content
+Megaleptoperla diminuta (Newman),8,Plant material,8,3,herbivory,method,gut content
+Muscid sp.,8,fungii,8,2,herbivory,method,gut content
+Nannochorista philpotti (Tillyard),8,Oligo smooth,8,2,predation,method,gut content
+Neozephlebia scita (Walker),8,Plant material,8,3,herbivory,method,gut content
+Oligochaeta type II,8,Plant material,8,3,herbivory,method,gut content
+Oligochaeta type II,8,Gomphonema intricaturm,8,1,herbivory,method,gut content
+Oligo smooth,8,Achnanthes linearis,8,2,herbivory,method,gut content
+Oligo smooth,8,Audouniella,8,2,herbivory,method,gut content
+Oligo smooth,8,Cocconeis placentula,8,2,herbivory,method,gut content
+Oligo smooth,8,Cymbella kappi,8,1,herbivory,method,gut content
+Oligo smooth,8,Fragilaria vaucheriae,8,2,herbivory,method,gut content
+Oligo smooth,8,Microspora,8,4,herbivory,method,gut content
+Oligo smooth,8,Navicula cryptocephala,8,2,herbivory,method,gut content
+Oligo smooth,8,Surirella elegans,8,2,herbivory,method,gut content
+Oxyethira albiceps (McLachlan),8,Cocconeis placentula,8,1,herbivory,method,gut content
+Chironomous zelandicus (Hudson),8,Surirella elegans,8,1,herbivory,method,gut content
+Cricotopus sp. II (Cranston),8,Achnanthes linearis,8,1,herbivory,method,gut content
+Cricotopus sp. II (Cranston),8,Fragilaria vaucheriae,8,3,herbivory,method,gut content
+Cricotopus sp. II (Cranston),8,Melosira varians,8,1,herbivory,method,gut content
+Cricotopus sp. II (Cranston),8,Navicula avenacea,8,1,herbivory,method,gut content
+Cricotopus sp. II (Cranston),8,Pinnularia viridis,8,1,herbivory,method,gut content
+Cricotopus sp. III,8,Synedra ulna,8,3,herbivory,method,gut content
+Cristaperla fimbriae,8,Plant material,8,3,herbivory,method,gut content
+Cristaperla fimbriae,8,Cymbella aspera,8,1,herbivory,method,gut content
+Cristaperla fimbriae,8,fungii,8,1,herbivory,method,gut content
+Cristaperla fimbriae,8,Microspora,8,2,herbivory,method,gut content
+Cristaperla fimbriae,8,Rhoicosphenia curvata,8,1,herbivory,method,gut content
+Deleatidium lilli,8,Achnanthes linearis,8,2,herbivory,method,gut content
+Deleatidium lilli,8,Cocconeis placentula,8,1,herbivory,method,gut content
+Deleatidium lilli,8,Eunotia pectinalis,8,1,predation,method,gut content
+Deleatidium lilli,8,Gomphonema intricaturm,8,1,herbivory,method,gut content
+Deleatidium lilli,8,Melosira varians,8,3,herbivory,method,gut content
+Deleatidium lilli,8,Navicula avenacea,8,2,herbivory,method,gut content
+Deleatidium lilli,8,Surirella sp.,8,1,herbivory,method,gut content
+Eriopterini sp. 1,8,Synedra ulna,8,3,herbivory,method,gut content
+Hexatomini spp.,8,Plant material,8,3,herbivory,method,gut content
+Hudsonema aliena (McLachlan),8,Microspora,8,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),8,Plant material,8,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),8,Cocconeis placentula,8,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),8,Eunotia pectinalis,8,3,predation,method,gut content
+Hydora nitida (larva) (Broun),8,Gomphonema sp. 3,8,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),8,Microspora,8,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),8,Rhoicosphenia curvata,8,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),8,Synedra ulna,8,3,herbivory,method,gut content
+Megaleptoperla diminuta (Newman),8,Synedra ulna,8,3,herbivory,method,gut content
+Muscid sp.,8,Plant material,8,5,herbivory,method,gut content
+Oligochaeta type II,8,Fragilaria vaucheriae,8,1,herbivory,method,gut content
+Oligochaeta type II,8,Synedra ulna,8,3,herbivory,method,gut content
+Oligo smooth,8,Plant material,8,4,herbivory,method,gut content
+Oligo smooth,8,Aucalosira,8,2,herbivory,method,gut content
+Oligo smooth,8,Blue green algae,8,1,herbivory,method,gut content
+Oligo smooth,8,Cymbella cistula,8,1,herbivory,method,gut content
+Oligo smooth,8,Diatoma heimale,8,2,herbivory,method,gut content
+Oligo smooth,8,Melosira varians,8,2,herbivory,method,gut content
+Oligo smooth,8,Navicula avenacea,8,2,herbivory,method,gut content
+Oligo smooth,8,Oedogonium,8,3,predation,method,gut content
+Oligo smooth,8,Synedra ulna,8,5,herbivory,method,gut content
+Oxyethira albiceps (McLachlan),8,Plant material,8,2,herbivory,method,gut content
+Oxyethira albiceps (McLachlan),8,Diatoma heimale,8,3,herbivory,method,gut content
+Oxyethira albiceps (McLachlan),8,Navicula avenacea,8,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),8,Diatoma heimale,8,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),8,Synedra ulna,8,3,herbivory,method,gut content
+Oxyethira albiceps (McLachlan),8,Fragilaria vaucheriae,8,2,herbivory,method,gut content
+Oxyethira albiceps (McLachlan),8,Melosira varians,8,2,herbivory,method,gut content
+Oxyethira albiceps (McLachlan),8,Synedra ulna,8,4,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),8,Plant material,8,3,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),8,Navicula avenacea,8,1,herbivory,method,gut content
+Paucispinigera approximata (Freeman),8,Plant material,8,3,herbivory,method,gut content
+Paucispinigera approximata (Freeman),8,Synedra ulna,8,3,herbivory,method,gut content
+Podonomous spp.,8,Plant material,8,3,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),8,Fragilaria vaucheriae,8,2,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),8,Melosira varians,8,2,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),8,Oligochaeta type II,8,4,predation,method,gut content
+Potamopyrgus antipodarum (Gray),8,Plant material,8,3,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),8,Microspora,8,1,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),8,Synedra ulna,8,3,herbivory,method,gut content
+Spaniocerca zelandica (Tillyard),8,fungii,8,1,herbivory,method,gut content
+Tabanid sp.,8,Plant material,8,2,herbivory,method,gut content
+Mischoderus sp.,8,Plant material,8,4,herbivory,method,gut content
+Mischoderus sp.,8,fungii,8,3,herbivory,method,gut content
+Tanytarsus spp. (other),8,Fragilaria vaucheriae,8,1,herbivory,method,gut content
+Tanytarsus spp. (other),8,Melosira varians,8,2,herbivory,method,gut content
+Tanytarsus spp. (other),8,Navicula avenacea,8,2,herbivory,method,gut content
+Tanytarsus spp. (other),8,Tabellaria fenestrata,8,1,predation,method,gut content
+Tanytarsus sp. II,8,Plant material,8,3,herbivory,method,gut content
+Tanytarsus sp. II,8,Synedra ulna,8,3,herbivory,method,gut content
+Paucispinigera approximata (Freeman),8,fungii,8,1,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),8,Plant material,8,3,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),8,fungii,8,2,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),8,Synedra ulna,8,2,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),8,fungii,8,2,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),8,Navicula avenacea,8,1,herbivory,method,gut content
+Spaniocerca zelandica (Tillyard),8,Plant material,8,3,herbivory,method,gut content
+Mischoderus sp.,8,Blue green algae,8,1,herbivory,method,gut content
+Tanypodini spp.,8,Oligochaeta type II,8,1,predation,method,gut content
+Tanytarsus spp. (other),8,Plant material,8,3,herbivory,method,gut content
+Tanytarsus spp. (other),8,fungii,8,2,herbivory,method,gut content
+Tanytarsus spp. (other),8,Microspora,8,1,herbivory,method,gut content
+Tanytarsus spp. (other),8,Synedra ulna,8,3,herbivory,method,gut content
+Tanytarsus sp. II,8,Achnanthes linearis,8,1,herbivory,method,gut content
+Deleatidium lilli,8,Surirella elegans,8,3,herbivory,method,gut content
+Oxyethira albiceps (McLachlan),8,fungii,8,1,herbivory,method,gut content
+Austroclima jollyae (Towns and Peters),8,Unidentified detritus,8,3,detritivore,method,gut content
+Chironomous zelandicus (Hudson),8,Unidentified detritus,8,4,detritivore,method,gut content
+Cristaperla fimbriae,8,Unidentified detritus,8,3,detritivore,method,gut content
+Hexatomini spp.,8,Unidentified detritus,8,2,detritivore,method,gut content
+Hudsonema aliena (McLachlan),8,Unidentified detritus,8,3,detritivore,method,gut content
+Hydora nitida (larva) (Broun),8,Unidentified detritus,8,4,detritivore,method,gut content
+Hydrophilid unknown sp.,8,Unidentified detritus,8,3,detritivore,method,gut content
+Muscid sp.,8,Unidentified detritus,8,3,detritivore,method,gut content
+Oligo smooth,8,Unidentified detritus,8,4,detritivore,method,gut content
+Oxyethira albiceps (McLachlan),8,Unidentified detritus,8,3,detritivore,method,gut content
+Cricotopus sp. II (Cranston),8,Unidentified detritus,8,3,detritivore,method,gut content
+Cricotopus sp. III,8,Unidentified detritus,8,3,detritivore,method,gut content
+Deleatidium lilli,8,Unidentified detritus,8,3,detritivore,method,gut content
+Eriopterini sp. 1,8,Unidentified detritus,8,3,detritivore,method,gut content
+Lobodiamesini campbelli (Pagast.),8,Unidentified detritus,8,3,detritivore,method,gut content
+Megaleptoperla diminuta (Newman),8,Unidentified detritus,8,3,detritivore,method,gut content
+Nannochorista philpotti (Tillyard),8,Unidentified detritus,8,3,detritivore,method,gut content
+Neozephlebia scita (Walker),8,Unidentified detritus,8,3,detritivore,method,gut content
+Oligochaeta type II,8,Unidentified detritus,8,3,detritivore,method,gut content
+Paracalliope fluviatilis (Thomson),8,Unidentified detritus,8,3,detritivore,method,gut content
+Parochlus sp.,8,Unidentified detritus,8,3,detritivore,method,gut content
+Spaniocerca zelandica (Tillyard),8,Unidentified detritus,8,3,detritivore,method,gut content
+Tanytarsus spp. (other),8,Unidentified detritus,8,3,detritivore,method,gut content
+Paucispinigera approximata (Freeman),8,Unidentified detritus,8,3,detritivore,method,gut content
+Podonomous spp.,8,Unidentified detritus,8,3,detritivore,method,gut content
+Potamopyrgus antipodarum (Gray),8,Unidentified detritus,8,3,detritivore,method,gut content
+Rhabdomastrix sp.,8,Unidentified detritus,8,3,detritivore,method,gut content
+Tabanid sp.,8,Unidentified detritus,8,4,detritivore,method,gut content
+Mischoderus sp.,8,Unidentified detritus,8,3,detritivore,method,gut content
+Tanytarsus sp. II,8,Unidentified detritus,8,3,detritivore,method,gut content
+Ameletopsis perscitus (Eaton),9,Deleatidium spp,9,3,predation,method,gut content
+Ameletopsis perscitus (Eaton),9,Neozephlebia,9,3,predation,method,gut content
+Austroperla cyrene,9,fungii,9,3,herbivory,method,gut content
+Chironomous zelandicus (Hudson),9,Achnanthes linearis,9,3,herbivory,method,gut content
+Chironomous zelandicus (Hudson),9,Calothrix,9,1,herbivory,method,gut content
+Chironomous zelandicus (Hudson),9,Epithemia sorex,9,1,herbivory,method,gut content
+Chironomous zelandicus (Hudson),9,Fragilaria vaucheriae,9,3,herbivory,method,gut content
+Chironomous zelandicus (Hudson),9,fungii,9,1,herbivory,method,gut content
+Chironomous zelandicus (Hudson),9,Pinnularia borealis,9,1,herbivory,method,gut content
+Chironomous zelandicus (Hudson),9,Synedra ulna,9,4,herbivory,method,gut content
+Costachorema xanthoptera,9,Naonella,9,3,predation,method,gut content
+Costachorema xanthoptera,9,Polyplectropus puerilis (McLachlan),9,3,predation,method,gut content
+Cricotopus II,9,Plant material,9,3,herbivory,method,gut content
+Cricotopus II,9,Fragilaria vaucheriae,9,1,herbivory,method,gut content
+Cricotopus II,9,Surirella elegans,9,1,herbivory,method,gut content
+Cristaperla fimbriae,9,Plant material,9,3,herbivory,method,gut content
+Deleatidium spp,9,Achnanthes linearis,9,3,herbivory,method,gut content
+Deleatidium spp,9,Cocconeis placentula,9,4,herbivory,method,gut content
+Deleatidium spp,9,Gomphonema subclavatum,9,2,herbivory,method,gut content
+Hexatomini spp.,9,Plant material,9,3,herbivory,method,gut content
+Hexatomini spp.,9,Oligochaeta type II,9,3,predation,method,gut content
+Hudsonema amabilis,9,Plant material,9,3,herbivory,method,gut content
+Hudsonema amabilis,9,Cymbella kappi,9,2,herbivory,method,gut content
+Hudsonema amabilis,9,Fragilaria vaucheriae,9,3,herbivory,method,gut content
+Hudsonema amabilis,9,Navicula avenacea,9,3,herbivory,method,gut content
+Hudsonema amabilis,9,Navicula unk. Sp. A,9,1,herbivory,method,gut content
+Ameletopsis perscitus (Eaton),9,Naonella,9,3,predation,method,gut content
+Aphrophila spp.,9,Plant material,9,3,herbivory,method,gut content
+Aspectrotanypus,9,Plant material,9,3,herbivory,method,gut content
+Austroperla cyrene,9,Plant material,9,4,herbivory,method,gut content
+Chironomous zelandicus (Hudson),9,Plant material,9,3,herbivory,method,gut content
+Chironomous zelandicus (Hudson),9,Blue green algae,9,3,herbivory,method,gut content
+Chironomous zelandicus (Hudson),9,Cocconeis placentula,9,4,herbivory,method,gut content
+Chironomous zelandicus (Hudson),9,Eunotia pectinalis,9,1,predation,method,gut content
+Chironomous zelandicus (Hudson),9,Frustulia rhomboides,9,2,predation,method,gut content
+Chironomous zelandicus (Hudson),9,Navicula avenacea,9,2,herbivory,method,gut content
+Chironomous zelandicus (Hudson),9,Surirella elegans,9,1,herbivory,method,gut content
+Costachorema xanthoptera,9,Cricotopus II,9,3,predation,method,gut content
+Costachorema xanthoptera,9,Oligochaeta type II,9,3,predation,method,gut content
+Cricotopus II,9,Blue green algae,9,1,herbivory,method,gut content
+Cricotopus II,9,Navicula avenacea,9,2,herbivory,method,gut content
+Cricotopus II,9,Synedra ulna,9,4,herbivory,method,gut content
+Cristaperla fimbriae,9,Gomphonema new sp.,9,1,herbivory,method,gut content
+Deleatidium spp,9,Plant material,9,3,herbivory,method,gut content
+Deleatidium spp,9,Calothrix,9,2,herbivory,method,gut content
+Deleatidium spp,9,Fragilaria vaucheriae,9,2,herbivory,method,gut content
+Deleatidium spp,9,Meridion circulare,9,1,herbivory,method,gut content
+Hexatomini spp.,9,Oligochaeta lumbr blue,9,3,predation,method,gut content
+Hexatomini spp.,9,Oligo smooth,9,3,predation,method,gut content
+Hudsonema amabilis,9,Achnanthes linearis,9,1,herbivory,method,gut content
+Hudsonema amabilis,9,Epithemia turgida,9,1,predation,method,gut content
+Hudsonema amabilis,9,Gomphonema new sp.,9,1,herbivory,method,gut content
+Hudsonema amabilis,9,Navicula rhynchocephala,9,1,predation,method,gut content
+Hudsonema amabilis,9,Stauroneis,9,1,herbivory,method,gut content
+Hydora nitida (adult) (Broun),9,Plant material,9,3,herbivory,method,gut content
+Hydora nitida (adult) (Broun),9,Encyonema,9,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),9,Plant material,9,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),9,Encyonema,9,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),9,Plant material,9,2,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),9,Fragilaria vaucheriae,9,1,herbivory,method,gut content
+Hydora nitida (adult) (Broun),9,Diatoma heimale,9,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),9,Diatoma heimale,9,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),9,Achnanthes linearis,9,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),9,Gomphoneis herculeana,9,1,herbivory,method,gut content
+Hydrophilid unknown sp.,9,fungii,9,1,herbivory,method,gut content
+Nannochorista,9,Plant material,9,3,herbivory,method,gut content
+Naonella,9,Plant material,9,3,herbivory,method,gut content
+Neozephlebia,9,Plant material,9,3,herbivory,method,gut content
+Neozephlebia,9,Blue green algae,9,1,herbivory,method,gut content
+Neozephlebia,9,Cymbella kappi,9,1,herbivory,method,gut content
+Neozephlebia,9,Melosira varians,9,2,herbivory,method,gut content
+Neozephlebia,9,Navicula avenacea,9,2,herbivory,method,gut content
+Oligochaeta type II,9,Plant material,9,2,herbivory,method,gut content
+Oligochaeta type II,9,Cocconeis placentula,9,1,herbivory,method,gut content
+Oligochaeta type II,9,Gomphoneis herculeana,9,1,herbivory,method,gut content
+Oligo smooth,9,Plant material,9,3,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),9,Cocconeis placentula,9,1,herbivory,method,gut content
+Paralimnophila skusei (Hutton),9,Plant material,9,3,herbivory,method,gut content
+Paucispinigera approximata (Freeman),9,Cocconeis placentula,9,1,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),9,Terrestrial invertebrates,9,3,predation,method,gut content
+Polyplectropus puerilis (McLachlan),9,Oligochaeta type II,9,3,predation,method,gut content
+Polyplectropus puerilis (McLachlan),9,Spaniocerca zelandica (Tillyard),9,1,predation,method,gut content
+Pycnocentria spp.,9,Achnanthes linearis,9,1,herbivory,method,gut content
+Pycnocentria spp.,9,Fragilaria vaucheriae,9,1,herbivory,method,gut content
+Spaniocerca zelandica (Tillyard),9,Navicula mutica,9,1,herbivory,method,gut content
+Stenoperla prasinia,9,Oligochaeta type II,9,3,predation,method,gut content
+Tabanid sp.,9,Plant material,9,2,herbivory,method,gut content
+Tanytarsus spp. (other),9,Plant material,9,3,herbivory,method,gut content
+Tanytarsus sp. II,9,Fragilaria vaucheriae,9,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),9,Plant material,9,4,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),9,Rhoicosphenia curvata,9,3,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),9,Achnanthes linearis,9,1,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),9,Gomphonema new sp.,9,1,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),9,Navicula placentula,9,1,predation,method,gut content
+Paranephrops zealandicus (White),9,Plant material,9,3,herbivory,method,gut content
+Paranephrops zealandicus (White),9,Oligo smooth,9,3,predation,method,gut content
+Paranephrops zealandicus (White),9,Spaniocerca zelandica (Tillyard),9,3,predation,method,gut content
+Hydrobiosella stenocerca (Tillyard),9,Navicula avenacea,9,1,herbivory,method,gut content
+Hydrophilid unknown sp.,9,Plant material,9,3,herbivory,method,gut content
+Neozephlebia,9,Achnanthes linearis,9,3,herbivory,method,gut content
+Neozephlebia,9,Cocconeis placentula,9,1,herbivory,method,gut content
+Neozephlebia,9,Fragilaria vaucheriae,9,1,herbivory,method,gut content
+Neozephlebia,9,Meridion circulare,9,1,herbivory,method,gut content
+Neozephlebia,9,Synedra ulna,9,2,herbivory,method,gut content
+Oligochaeta type II,9,Calothrix,9,1,herbivory,method,gut content
+Oligochaeta type II,9,Fragilaria vaucheriae,9,1,herbivory,method,gut content
+Oligo smooth,9,Eunotia pectinalis,9,1,predation,method,gut content
+Paracalliope fluviatilis (Thomson),9,Plant material,9,3,herbivory,method,gut content
+Paralimnophila skusei (Hutton),9,Synedra ulna,9,3,herbivory,method,gut content
+Paucispinigera approximata (Freeman),9,Plant material,9,3,herbivory,method,gut content
+Paucispinigera approximata (Freeman),9,Synedra ulna,9,3,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),9,Oligochaeta lumbr blue,9,3,predation,method,gut content
+Polyplectropus puerilis (McLachlan),9,Oligo smooth,9,3,predation,method,gut content
+Pycnocentria spp.,9,Plant material,9,3,herbivory,method,gut content
+Pycnocentria spp.,9,Cocconeis placentula,9,1,herbivory,method,gut content
+Pycnocentria spp.,9,fungii,9,3,herbivory,method,gut content
+Spaniocerca zelandica (Tillyard),9,Plant material,9,4,herbivory,method,gut content
+Stenoperla prasinia,9,Oligochaeta lumbr blue,9,3,predation,method,gut content
+Stenoperla prasinia,9,Oligo smooth,9,3,predation,method,gut content
+Zelandobius spp. nr confusus (Hare),9,Meridion circulare,9,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),9,Oligochaeta lumbr blue,9,1,predation,method,gut content
+Zelandoperla agnetis (McLellan),9,Plant material,9,3,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),9,Cocconeis placentula,9,2,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),9,Navicula mutica,9,1,herbivory,method,gut content
+Paranephrops zealandicus (White),9,Cricotopus II,9,3,predation,method,gut content
+Paranephrops zealandicus (White),9,Oligochaeta type II,9,3,predation,method,gut content
+Paranephrops zealandicus (White),9,Paracalliope fluviatilis (Thomson),9,3,predation,method,gut content
+Paranephrops zealandicus (White),9,Zelandoperla agnetis (McLellan),9,3,predation,method,gut content
+Ameletopsis perscitus (Eaton),9,Oligochaeta lumbr blue,9,1,predation,method,gut content
+Paranephrops zealandicus (White),9,Deleatidium spp,9,3,predation,method,gut content
+Aphrophila spp.,9,Unidentified detritus,9,3,detritivore,method,gut content
+Aspectrotanypus,9,Unidentified detritus,9,3,detritivore,method,gut content
+Austroperla cyrene,9,Unidentified detritus,9,3,detritivore,method,gut content
+Cricotopus sp. III,9,Unidentified detritus,9,3,detritivore,method,gut content
+Deleatidium spp,9,Unidentified detritus,9,3,detritivore,method,gut content
+Cricotopus II,9,Unidentified detritus,9,4,detritivore,method,gut content
+Cristaperla fimbriae,9,Unidentified detritus,9,3,detritivore,method,gut content
+Hydora nitida (adult) (Broun),9,Unidentified detritus,9,3,detritivore,method,gut content
+Hydora nitida (larva) (Broun),9,Unidentified detritus,9,3,detritivore,method,gut content
+Hydrobiosella stenocerca (Tillyard),9,Unidentified detritus,9,3,detritivore,method,gut content
+Hydrophilid unknown sp.,9,Unidentified detritus,9,3,detritivore,method,gut content
+Oligochaeta lumbr blue,9,Unidentified detritus,9,3,detritivore,method,gut content
+Paracalliope fluviatilis (Thomson),9,Unidentified detritus,9,3,detritivore,method,gut content
+Paucispinigera approximata (Freeman),9,Unidentified detritus,9,3,detritivore,method,gut content
+Spaniocerca zelandica (Tillyard),9,Unidentified detritus,9,3,detritivore,method,gut content
+Stictoclcaius,9,Unidentified detritus,9,3,detritivore,method,gut content
+Zelandoperla agnetis (McLellan),9,Unidentified detritus,9,3,detritivore,method,gut content
+Nannochorista,9,Unidentified detritus,9,3,detritivore,method,gut content
+Naonella,9,Unidentified detritus,9,3,detritivore,method,gut content
+Neozephlebia,9,Unidentified detritus,9,3,detritivore,method,gut content
+Oligochaeta type II,9,Unidentified detritus,9,3,detritivore,method,gut content
+Oligo smooth,9,Unidentified detritus,9,4,detritivore,method,gut content
+Paralimnophila skusei (Hutton),9,Unidentified detritus,9,3,detritivore,method,gut content
+Tabanid sp.,9,Unidentified detritus,9,2,detritivore,method,gut content
+Tanytarsus spp. (other),9,Unidentified detritus,9,3,detritivore,method,gut content
+Tanytarsus sp. II,9,Unidentified detritus,9,3,detritivore,method,gut content
+Zelandobius spp. nr confusus (Hare),9,Unidentified detritus,9,3,detritivore,method,gut content
+Paranephrops zealandicus (White),9,Unidentified detritus,9,3,detritivore,method,gut content
+Cricotopus II,10,Unidentified detritus,10,3,detritivore,method,gut content
+Cristaperla,10,Unidentified detritus,10,3,detritivore,method,gut content
+Eukiefidriella,10,Unidentified detritus,10,3,detritivore,method,gut content
+Hexatomini,10,Unidentified detritus,10,3,detritivore,method,gut content
+Hydora nitida (larva) (Broun),10,Unidentified detritus,10,3,detritivore,method,gut content
+Hydrobiosella stenocerca (Tillyard),10,Unidentified detritus,10,3,detritivore,method,gut content
+Hydrophilid unknown sp.,10,Unidentified detritus,10,3,detritivore,method,gut content
+Naonella,10,Unidentified detritus,10,3,detritivore,method,gut content
+Neozephlebia,10,Unidentified detritus,10,3,detritivore,method,gut content
+phrea,10,Unidentified detritus,10,3,detritivore,method,gut content
+Paucispinigera approximata (Freeman),10,Unidentified detritus,10,3,detritivore,method,gut content
+Stictoclcaius,10,Unidentified detritus,10,3,detritivore,method,gut content
+Paranephrops zealandicus (White),10,Unidentified detritus,10,4,detritivore,method,gut content
+Oligochaeta lumbr blue,10,Unidentified detritus,10,3,detritivore,method,gut content
+Paralimnophila skusei (Hutton),10,Unidentified detritus,10,2,detritivore,method,gut content
+Scritid brd,10,Unidentified detritus,10,3,detritivore,method,gut content
+Tanytarsus spp. (other),10,Unidentified detritus,10,3,detritivore,method,gut content
+Austroclima jollyae (Towns and Peters),10,Plant material,10,5,herbivory,method,gut content
+Austroclima jollyae (Towns and Peters),10,Achnanthes linearis,10,2,herbivory,method,gut content
+Austroclima jollyae (Towns and Peters),10,fungii,10,1,herbivory,method,gut content
+Austroclima jollyae (Towns and Peters),10,Navicula avenacea,10,2,herbivory,method,gut content
+Austroclima jollyae (Towns and Peters),10,Rhoicosphenia curvata,10,2,herbivory,method,gut content
+Austroclima jollyae (Towns and Peters),10,phrea,10,1,predation,method,gut content
+Cricotopus II,10,Rhoicosphenia curvata,10,3,herbivory,method,gut content
+Cristaperla,10,Plant material,10,3,herbivory,method,gut content
+Cristaperla,10,Rhoicosphenia curvata,10,1,herbivory,method,gut content
+Deleatidium,10,Plant material,10,3,herbivory,method,gut content
+Deleatidium,10,Achnanthes linearis,10,2,herbivory,method,gut content
+Deleatidium,10,Cocconeis placentula,10,3,herbivory,method,gut content
+Deleatidium,10,Navicula avenacea,10,3,herbivory,method,gut content
+Deleatidium,10,Rhoicosphenia curvata,10,5,herbivory,method,gut content
+Hexatomini,10,Plant material,10,3,herbivory,method,gut content
+Homolaena sp. Type I,10,Plant material,10,1,herbivory,method,gut content
+Homolaena sp. Type I,10,fungii,10,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),10,Plant material,10,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),10,Cocconeis placentula,10,1,herbivory,method,gut content
+Hydora nitida (larva) (Broun),10,Rhoicosphenia curvata,10,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),10,Surirella elegans,10,2,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),10,Plant material,10,3,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),10,Navicula avenacea,10,1,herbivory,method,gut content
+Neozephlebia,10,Rhoicosphenia curvata,10,5,herbivory,method,gut content
+Neurchorema,10,Paucispinigera approximata (Freeman),10,3,predation,method,gut content
+Oligochaeta lumbr blue,10,Plant material,10,3,herbivory,method,gut content
+phrea,10,Achnanthes linearis,10,1,herbivory,method,gut content
+phrea,10,Blue green algae,10,1,herbivory,method,gut content
+phrea,10,Navicula avenacea,10,3,herbivory,method,gut content
+phrea,10,Surirella elegans,10,1,herbivory,method,gut content
+Paralimnophila skusei (Hutton),10,Plant material,10,1,herbivory,method,gut content
+Paucispinigera approximata (Freeman),10,Rhoicosphenia curvata,10,1,herbivory,method,gut content
+Scritid brd,10,Plant material,10,3,herbivory,method,gut content
+Scritid brd,10,Surirella elegans,10,1,herbivory,method,gut content
+Stictoclcaius,10,Blue green algae,10,1,herbivory,method,gut content
+Tanytarsus spp. (other),10,Plant material,10,3,herbivory,method,gut content
+Tanytarsus spp. (other),10,Cocconeis placentula,10,1,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),10,Plant material,10,3,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),10,Blue green algae,10,1,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),10,Navicula avenacea,10,5,herbivory,method,gut content
+Paranephrops zealandicus (White),10,Blue green algae,10,2,herbivory,method,gut content
+Paranephrops zealandicus (White),10,Cricotopus II,10,3,predation,method,gut content
+Paranephrops zealandicus (White),10,Deleatidium,10,3,predation,method,gut content
+Paranephrops zealandicus (White),10,galgol,10,3,predation,method,gut content
+galgol,10,Cricotopus II,10,3,predation,method,gut content
+galgol,10,Eukiefidriella,10,3,predation,method,gut content
+galgol,10,Naonella,10,3,predation,method,gut content
+galgol,10,Oligochaeta lumbr blue,10,3,predation,method,gut content
+galgol,10,Paucispinigera approximata (Freeman),10,3,predation,method,gut content
+galgol,10,Zelandoperla agnetis (McLellan),10,3,predation,method,gut content
+Hydrobiosella stenocerca (Tillyard),10,Achnanthes linearis,10,1,herbivory,method,gut content
+Hydrobiosella stenocerca (Tillyard),10,Rhoicosphenia curvata,10,3,herbivory,method,gut content
+Hydrophilid unknown sp.,10,Rhoicosphenia curvata,10,2,herbivory,method,gut content
+Molophilus sp.,10,Plant material,10,4,herbivory,method,gut content
+Naonella,10,fungii,10,1,herbivory,method,gut content
+Neozephlebia,10,Achnanthes minutissima,10,3,herbivory,method,gut content
+Neurchorema,10,Terrestrial invertebrates,10,3,predation,method,gut content
+Nothodixa sp.,10,Plant material,10,4,herbivory,method,gut content
+Oligochaeta lumbr blue,10,Achnanthes linearis,10,1,herbivory,method,gut content
+Oligochaeta lumbr blue,10,Rhoicosphenia curvata,10,1,herbivory,method,gut content
+phrea,10,Plant material,10,3,herbivory,method,gut content
+phrea,10,Achnanthes minutissima,10,2,herbivory,method,gut content
+phrea,10,Calothrix,10,3,herbivory,method,gut content
+phrea,10,Cocconeis placentula,10,2,herbivory,method,gut content
+phrea,10,Rhoicosphenia curvata,10,3,herbivory,method,gut content
+Paucispinigera approximata (Freeman),10,fungii,10,1,herbivory,method,gut content
+Scritid brd,10,fungii,10,1,herbivory,method,gut content
+Scritid brd,10,Rhoicosphenia curvata,10,3,herbivory,method,gut content
+Stenoperla prasinia,10,Oligochaeta lumbr blue,10,3,predation,method,gut content
+Stictoclcaius,10,Plant material,10,2,herbivory,method,gut content
+Tanytarsus spp. (other),10,Blue green algae,10,1,herbivory,method,gut content
+Tanytarsus spp. (other),10,Rhoicosphenia curvata,10,1,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),10,Achnanthes linearis,10,1,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),10,Cocconeis placentula,10,3,herbivory,method,gut content
+Zelandoperla agnetis (McLellan),10,Rhoicosphenia curvata,10,5,herbivory,method,gut content
+Paranephrops zealandicus (White),10,Plant material,10,4,herbivory,method,gut content
+Paranephrops zealandicus (White),10,Rhoicosphenia curvata,10,1,herbivory,method,gut content
+Paranephrops zealandicus (White),10,phrea,10,3,predation,method,gut content
+galgol,10,Terrestrial invertebrates,10,4,predation,method,gut content
+galgol,10,Deleatidium,10,4,predation,method,gut content
+galgol,10,Hydrobiosella stenocerca (Tillyard),10,4,predation,method,gut content
+galgol,10,Nothodixa sp.,10,3,predation,method,gut content
+galgol,10,phrea,10,3,predation,method,gut content
+Paralimnophila skusei (Hutton),10,Unidentified detritus,10,2,detritivore,method,gut content
+Scritid brd,10,Unidentified detritus,10,3,detritivore,method,gut content
+Tanytarsus spp. (other),10,Unidentified detritus,10,3,detritivore,method,gut content
+Aphrophila spp.,11,Achnanthes linearis,11,1,herbivory,method,gut content
+Austrosimulium australense,11,Achnanthes linearis,11,3,herbivory,method,gut content
+Austrosimulium australense,11,Cymbella aspera,11,2,herbivory,method,gut content
+Austrosimulium australense,11,Eunotia pectinalis,11,2,predation,method,gut content
+Austrosimulium australense,11,fungii,11,1,herbivory,method,gut content
+Austrosimulium australense,11,Gomphoneis herculeana,11,2,herbivory,method,gut content
+Austrosimulium australense,11,Meridion circulare,11,4,herbivory,method,gut content
+Chironomous zelandicus (Hudson),11,Calothrix,11,2,herbivory,method,gut content
+Chironomous zelandicus (Hudson),11,Fragilaria vaucheriae,11,2,herbivory,method,gut content
+Chironomous zelandicus (Hudson),11,Melosira varians,11,3,herbivory,method,gut content
+Chironomous zelandicus (Hudson),11,Navicula rhynchocephala,11,2,predation,method,gut content
+Cricotopus II,11,Diatoma heimale,11,3,herbivory,method,gut content
+Cricotopus II,11,Surirella elegans,11,3,herbivory,method,gut content
+Cristaperla fimbriae,11,Plant material,11,3,herbivory,method,gut content
+Cristaperla fimbriae,11,Synedra ulna,11,3,herbivory,method,gut content
+Deleatidium spp,11,Rhoicosphenia curvata,11,1,herbivory,method,gut content
+Nannochorista,11,Diatoma heimale,11,3,herbivory,method,gut content
+Nannochorista,11,Melosira varians,11,2,herbivory,method,gut content
+Oligochaeta lumbr blue,11,Diatoma heimale,11,3,herbivory,method,gut content
+Oligochaeta lumbr blue,11,Meridion circulare,11,1,herbivory,method,gut content
+Oligochaeta lumbr blue,11,Synedra ulna,11,3,herbivory,method,gut content
+Oligochaeta type II,11,Plant material,11,3,herbivory,method,gut content
+Oligochaeta type II,11,Synedra ulna,11,3,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,11,Plant material,11,3,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,11,Fragilaria vaucheriae,11,2,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,11,fungii,11,1,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,11,Pinnularia sp (large),11,1,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,11,Synedra ulna,11,3,herbivory,method,gut content
+Oligo smooth,11,Plant material,11,3,herbivory,method,gut content
+Oligo smooth,11,Diatoma heimale,11,3,herbivory,method,gut content
+Oligo smooth,11,fungii,11,1,herbivory,method,gut content
+Oligo smooth,11,Pinnularia sp (large),11,1,herbivory,method,gut content
+Oligo smooth,11,Synedra ulna,11,3,herbivory,method,gut content
+Oxyethira albiceps (McLachlan),11,Diatoma heimale,11,3,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),11,Plant material,11,3,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),11,Blue green algae,11,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),11,Diatoma heimale,11,3,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),11,Gomphonema sp. 4,11,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),11,Meridion circulare,11,2,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),11,Navicula avenacea,11,1,herbivory,method,gut content
+Aphrophila spp.,11,Plant material,11,3,herbivory,method,gut content
+Aphrophila spp.,11,Fragilaria vaucheriae,11,3,herbivory,method,gut content
+Aphrophila spp.,11,Synedra ulna,11,2,herbivory,method,gut content
+Austrosimulium australense,11,Cocconeis placentula,11,1,herbivory,method,gut content
+Austrosimulium australense,11,Diatoma heimale,11,4,herbivory,method,gut content
+Austrosimulium australense,11,Fragilaria vaucheriae,11,2,herbivory,method,gut content
+Austrosimulium australense,11,Gomphonema angustatum,11,2,herbivory,method,gut content
+Austrosimulium australense,11,Melosira varians,11,2,herbivory,method,gut content
+Austrosimulium australense,11,Navicula avenacea,11,1,herbivory,method,gut content
+Austrosimulium australense,11,Pinnularia borealis,11,2,herbivory,method,gut content
+Austrosimulium australense,11,Synedra ulna,11,3,herbivory,method,gut content
+Chironomous zelandicus (Hudson),11,Cymbella aspera,11,2,herbivory,method,gut content
+Chironomous zelandicus (Hudson),11,Gomphonema sp. 3,11,2,herbivory,method,gut content
+Chironomous zelandicus (Hudson),11,Navicula avenacea,11,2,herbivory,method,gut content
+Chironomous zelandicus (Hudson),11,Synedra ulna,11,3,herbivory,method,gut content
+Cricotopus II,11,Achnanthes linearis,11,3,herbivory,method,gut content
+Cricotopus II,11,Fragilaria vaucheriae,11,3,herbivory,method,gut content
+Cristaperla fimbriae,11,Surirella elegans,11,1,herbivory,method,gut content
+Nannochorista,11,Plant material,11,3,herbivory,method,gut content
+Nannochorista,11,Oligochaeta lumbr blue,11,3,predation,method,gut content
+Oligochaeta lumbr blue,11,Blue green algae,11,1,herbivory,method,gut content
+Oligochaeta lumbr blue,11,Melosira varians,11,2,herbivory,method,gut content
+Oligochaeta type II,11,Diatoma heimale,11,3,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,11,Cymbella mulleri,11,1,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,11,Diatoma heimale,11,3,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,11,Melosira varians,11,2,herbivory,method,gut content
+Oligochaeta lumbriculiid pink,11,Surirella elegans,11,1,herbivory,method,gut content
+Oligo smooth,11,Cymbella mulleri,11,1,herbivory,method,gut content
+Oligo smooth,11,Fragilaria vaucheriae,11,2,herbivory,method,gut content
+Oligo smooth,11,Melosira varians,11,2,herbivory,method,gut content
+Oligo smooth,11,Surirella elegans,11,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),11,Achnanthes minutissima,11,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),11,Closterium,11,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),11,Fragilaria vaucheriae,11,2,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),11,Gomphoneis herculeana,11,2,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),11,Microspora,11,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),11,Nitzschia sp.,11,3,predation,method,gut content
+Paucispinigera approximata,11,Diatoma heimale,11,1,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),11,Diatoma heimale,11,3,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),11,Unknown green algal cells,11,1,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),11,Synedra ulna,11,1,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),11,Achnanthes linearis,11,1,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),11,Calothrix,11,1,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),11,Diatoma heimale,11,3,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),11,Fragilaria vaucheriae,11,2,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),11,Gomphonema sp. 3,11,3,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),11,Meridion circulare,11,2,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),11,Synedra ulna,11,1,herbivory,method,gut content
+Stratiomyid spp.,11,Plant material,11,3,herbivory,method,gut content
+Tanypodini spp.,11,Paucispinigera approximata,11,3,predation,method,gut content
+Zelandobius spp. nr confusus (Hare),11,Plant material,11,3,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),11,Pleaurotaenium sp.,11,1,predation,method,gut content
+Paracalliope fluviatilis (Thomson),11,Synedra ulna,11,1,herbivory,method,gut content
+Paucispinigera approximata,11,Plant material,11,3,herbivory,method,gut content
+Paucispinigera approximata,11,fungii,11,2,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),11,Plant material,11,2,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),11,Gomphonema new sp.,11,1,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),11,Oligochaeta type II,11,3,predation,method,gut content
+Potamopyrgus antipodarum (Gray),11,Plant material,11,2,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),11,Cocconeis placentula,11,1,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),11,Eunotia pectinalis,11,1,predation,method,gut content
+Potamopyrgus antipodarum (Gray),11,fungii,11,3,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),11,gomcle,11,1,predation,method,gut content
+Potamopyrgus antipodarum (Gray),11,Navicula avenacea,11,1,herbivory,method,gut content
+Stratiomyid spp.,11,Gomphonema angustatum,11,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),11,Fragilaria vaucheriae,11,2,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),11,Synedra ulna,11,2,herbivory,method,gut content
+Austrosimulium australense,11,Surirella elegans,11,1,herbivory,method,gut content
+Oligochaeta lumbr blue,11,Microspora,11,1,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),11,Nitzschia sp.,11,2,predation,method,gut content
+Aphrophila spp.,11,Unidentified detritus,11,3,detritivore,method,gut content
+Aspectrotanypus,11,Unidentified detritus,11,3,detritivore,method,gut content
+Cricotopus II,11,Unidentified detritus,11,3,detritivore,method,gut content
+Nannochorista,11,Unidentified detritus,11,3,detritivore,method,gut content
+Oligochaeta lumbr blue,11,Unidentified detritus,11,3,detritivore,method,gut content
+Austroperla cyrene,11,Unidentified detritus,11,2,detritivore,method,gut content
+Cristaperla fimbriae,11,Unidentified detritus,11,3,detritivore,method,gut content
+Deleatidium spp,11,Unidentified detritus,11,3,detritivore,method,gut content
+Hydora nitida (larva) (Broun),11,Unidentified detritus,11,3,detritivore,method,gut content
+Oligochaeta type II,11,Unidentified detritus,11,3,detritivore,method,gut content
+Oligochaeta lumbriculiid pink,11,Unidentified detritus,11,3,detritivore,method,gut content
+Oligo smooth,11,Unidentified detritus,11,3,detritivore,method,gut content
+Oxyethira albiceps (McLachlan),11,Unidentified detritus,11,3,detritivore,method,gut content
+Paracalliope fluviatilis (Thomson),11,Unidentified detritus,11,3,detritivore,method,gut content
+Paucispinigera approximata,11,Unidentified detritus,11,3,detritivore,method,gut content
+Polyplectropus puerilis (McLachlan),11,Unidentified detritus,11,2,detritivore,method,gut content
+Potamopyrgus antipodarum (Gray),11,Unidentified detritus,11,3,detritivore,method,gut content
+Stratiomyid spp.,11,Unidentified detritus,11,3,detritivore,method,gut content
+Zelandobius spp. nr confusus (Hare),11,Unidentified detritus,11,3,detritivore,method,gut content
+Aphrophila spp.,12,Gomphonema parvulum,12,2,herbivory,method,gut content
+Aphrophila spp.,12,Navicula dicephala,12,1,herbivory,method,gut content
+Aphrophila spp.,12,Surirella elegans,12,1,herbivory,method,gut content
+Austroperla cyrene,12,Synedra ulna,12,3,herbivory,method,gut content
+Cricotopus II,12,Plant material,12,3,herbivory,method,gut content
+Cricotopus II,12,Gomphoneis herculeana,12,2,herbivory,method,gut content
+Cricotopus II,12,Synedra ulna,12,3,herbivory,method,gut content
+Cristaperla fimbriae,12,Plant material,12,3,herbivory,method,gut content
+Cristaperla fimbriae,12,Oligochaeta type II,12,2,predation,method,gut content
+Deleatidium spp,12,Plant material,12,2,herbivory,method,gut content
+Deleatidium spp,12,Achnanthes minutissima,12,1,herbivory,method,gut content
+Deleatidium spp,12,Fragilaria vaucheriae,12,1,herbivory,method,gut content
+Deleatidium spp,12,Gomphonema angustatum,12,1,herbivory,method,gut content
+Deleatidium spp,12,Gomphonema parvulum,12,3,herbivory,method,gut content
+Deleatidium spp,12,Navicula mutica,12,1,herbivory,method,gut content
+Deleatidium spp,12,Surirella elegans,12,1,herbivory,method,gut content
+Hudsonema amabilis (McLachlan),12,Achnanthes linearis,12,2,herbivory,method,gut content
+Hudsonema amabilis (McLachlan),12,Navicula avenacea,12,2,herbivory,method,gut content
+Hydora nitida (larva) (Broun),12,Achnanthes linearis,12,3,herbivory,method,gut content
+Hydora nitida (larva) (Broun),12,Frustulia rhomboides,12,3,predation,method,gut content
+Hydora nitida (larva) (Broun),12,Gomphonema parvulum,12,4,herbivory,method,gut content
+Oligochaeta lumbriculiid peacock,12,Plant material,12,4,herbivory,method,gut content
+Oligochaeta lumbriculiid peacock,12,Synedra ulna,12,2,herbivory,method,gut content
+Oligochaeta lumbr blue,12,Gomphonema angustatum,12,2,herbivory,method,gut content
+Oligochaeta lumbr blue,12,Synedra ulna,12,2,herbivory,method,gut content
+Oligochaeta type II,12,Plant material,12,2,herbivory,method,gut content
+Oligo smooth,12,Terrestrial invertebrates,12,3,predation,method,gut content
+Oligo smooth,12,Cocconeis placentula,12,1,herbivory,method,gut content
+Oligo smooth,12,Fragilaria vaucheriae,12,1,herbivory,method,gut content
+Oligo smooth,12,Gomphonema angustatum,12,1,herbivory,method,gut content
+Oligo smooth,12,Navicula avenacea,12,1,herbivory,method,gut content
+Oligo smooth,12,Surirella striatula,12,1,predation,method,gut content
+Paracalliope fluviatilis (Thomson),12,Plant material,12,3,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),12,Cocconeis placentula,12,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),12,Frustulia rhomboides,12,3,predation,method,gut content
+Paracalliope fluviatilis (Thomson),12,gomnew,12,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),12,Navicula cryptocephala,12,1,herbivory,method,gut content
+Paucispinigera approximata (Freeman),12,Terrestrial invertebrates,12,3,predation,method,gut content
+Paucispinigera approximata (Freeman),12,Gomphoneis herculeana,12,1,herbivory,method,gut content
+Paucispinigera approximata (Freeman),12,Synedra ulna,12,2,herbivory,method,gut content
+Podonomous spp.,12,Plant material,12,3,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),12,redalg,12,2,herbivory,method,gut content
+Pseudoeconesus sp.,12,Plant material,12,4,herbivory,method,gut content
+Spaniocerca zelandica (Tillyard),12,fungi,12,2,herbivory,method,gut content
+Stenoperla prasinia,12,Cristaperla fimbriae,12,3,predation,method,gut content
+Stenoperla prasinia,12,Hudsonema amabilis (McLachlan),12,3,predation,method,gut content
+Mischoderus sp.,12,Terrestrial invertebrates,12,3,predation,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Plant material,12,4,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Fragilaria vaucheriae,12,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,fungi,12,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,gomnew,12,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Melosira varians,12,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Navicula mutica,12,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Synedra ulna,12,5,herbivory,method,gut content
+Paranephrops zealandicus (White),12,Navicula avenacea,12,1,herbivory,method,gut content
+Paranephrops zealandicus (White),12,Deleatidium spp,12,5,predation,method,gut content
+Paranephrops zealandicus (White),12,Oligochaeta type II,12,1,predation,method,gut content
+Paranephrops zealandicus (White),12,Stenoperla prasinia,12,3,predation,method,gut content
+Oligo smooth,12,Gomphonema parvulum,12,1,herbivory,method,gut content
+Oligo smooth,12,Pinnularia viridis,12,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),12,Achnanthes linearis,12,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),12,Fragilaria vaucheriae,12,2,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),12,Gomphonema intricaturm,12,2,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),12,Navicula avenacea,12,3,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),12,Synedra ulna,12,4,herbivory,method,gut content
+Paralimnophila skusei (Hutton),12,Gomphonema new sp.,12,1,herbivory,method,gut content
+Paucispinigera approximata (Freeman),12,Plant material,12,3,herbivory,method,gut content
+Paucispinigera approximata (Freeman),12,Fragilaria vaucheriae,12,3,herbivory,method,gut content
+Paucispinigera approximata (Freeman),12,Navicula avenacea,12,2,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),12,Oligochaeta type II,12,3,predation,method,gut content
+Potamopyrgus antipodarum (Gray),12,Cocconeis placentula,12,2,herbivory,method,gut content
+Pseudoeconesus sp.,12,Frustulia rhomboides,12,2,predation,method,gut content
+Rhabdomastrix sp.,12,Plant material,12,2,herbivory,method,gut content
+Spaniocerca zelandica (Tillyard),12,Plant material,12,2,herbivory,method,gut content
+Stenoperla prasinia,12,Terrestrial invertebrates,12,3,predation,method,gut content
+Stenoperla prasinia,12,Deleatidium spp,12,3,predation,method,gut content
+Mischoderus sp.,12,Plant material,12,3,herbivory,method,gut content
+Mischoderus sp.,12,Navicula dicephala,12,1,herbivory,method,gut content
+Tanytarsus spp. (other),12,Plant material,12,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Achnanthes linearis,12,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Cocconeis placentula,12,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Frustulia rhomboides,12,4,predation,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Gomphonema parvulum,12,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Navicula avenacea,12,4,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Surirella elegans,12,1,herbivory,method,gut content
+Paranephrops zealandicus (White),12,fungi,12,1,herbivory,method,gut content
+Paranephrops zealandicus (White),12,Cricotopus II,12,3,predation,method,gut content
+Paranephrops zealandicus (White),12,Nannochorista,12,3,predation,method,gut content
+Paranephrops zealandicus (White),12,Polyplectropus puerilis (McLachlan),12,3,predation,method,gut content
+Paranephrops zealandicus (White),12,Plant material,12,3,herbivory,method,gut content
+Hydora nitida (adult) (Broun),12,Unidentified detritus,12,3,detritivore,method,gut content
+Cricotopus II,12,Unidentified detritus,12,3,detritivore,method,gut content
+Cristaperla fimbriae,12,Unidentified detritus,12,3,detritivore,method,gut content
+Deleatidium spp,12,Unidentified detritus,12,3,detritivore,method,gut content
+Oligochaeta lumbriculiid peacock,12,Unidentified detritus,12,5,detritivore,method,gut content
+Oligochaeta type II,12,Unidentified detritus,12,3,detritivore,method,gut content
+Aphrophila spp.,12,Unidentified detritus,12,3,detritivore,method,gut content
+Aspectrotanypus,12,Unidentified detritus,12,3,detritivore,method,gut content
+Hudsonema amabilis (McLachlan),12,Unidentified detritus,12,3,detritivore,method,gut content
+Hydora nitida (larva) (Broun),12,Unidentified detritus,12,3,detritivore,method,gut content
+Paucispinigera approximata (Freeman),12,Synedra ulna,12,2,herbivory,method,gut content
+Podonomous spp.,12,Plant material,12,3,herbivory,method,gut content
+Potamopyrgus antipodarum (Gray),12,redalg,12,2,herbivory,method,gut content
+Pseudoeconesus sp.,12,Plant material,12,4,herbivory,method,gut content
+Spaniocerca zelandica (Tillyard),12,fungi,12,2,herbivory,method,gut content
+Stenoperla prasinia,12,Cristaperla fimbriae,12,3,predation,method,gut content
+Stenoperla prasinia,12,Hudsonema amabilis (McLachlan),12,3,predation,method,gut content
+Mischoderus sp.,12,Terrestrial invertebrates,12,3,predation,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Plant material,12,4,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Fragilaria vaucheriae,12,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,fungi,12,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,gomnew,12,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Melosira varians,12,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Navicula mutica,12,1,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Synedra ulna,12,5,herbivory,method,gut content
+Paranephrops zealandicus (White),12,Navicula avenacea,12,1,herbivory,method,gut content
+Paranephrops zealandicus (White),12,Deleatidium spp,12,5,predation,method,gut content
+Paranephrops zealandicus (White),12,Oligochaeta type II,12,1,predation,method,gut content
+Paranephrops zealandicus (White),12,Stenoperla prasinia,12,3,predation,method,gut content
+Oligo smooth,12,Gomphonema parvulum,12,1,herbivory,method,gut content
+Oligo smooth,12,Pinnularia viridis,12,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),12,Achnanthes linearis,12,1,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),12,Fragilaria vaucheriae,12,2,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),12,Gomphonema intricaturm,12,2,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),12,Navicula avenacea,12,3,herbivory,method,gut content
+Paracalliope fluviatilis (Thomson),12,Synedra ulna,12,4,herbivory,method,gut content
+Paralimnophila skusei (Hutton),12,Gomphonema new sp.,12,1,herbivory,method,gut content
+Paucispinigera approximata (Freeman),12,Plant material,12,3,herbivory,method,gut content
+Paucispinigera approximata (Freeman),12,Fragilaria vaucheriae,12,3,herbivory,method,gut content
+Paucispinigera approximata (Freeman),12,Navicula avenacea,12,2,herbivory,method,gut content
+Polyplectropus puerilis (McLachlan),12,Oligochaeta type II,12,3,predation,method,gut content
+Potamopyrgus antipodarum (Gray),12,Cocconeis placentula,12,2,herbivory,method,gut content
+Pseudoeconesus sp.,12,Frustulia rhomboides,12,2,predation,method,gut content
+Rhabdomastrix sp.,12,Plant material,12,2,herbivory,method,gut content
+Spaniocerca zelandica (Tillyard),12,Plant material,12,2,herbivory,method,gut content
+Stenoperla prasinia,12,Terrestrial invertebrates,12,3,predation,method,gut content
+Stenoperla prasinia,12,Deleatidium spp,12,3,predation,method,gut content
+Mischoderus sp.,12,Plant material,12,3,herbivory,method,gut content
+Mischoderus sp.,12,Navicula dicephala,12,1,herbivory,method,gut content
+Tanytarsus spp. (other),12,Plant material,12,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Achnanthes linearis,12,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Cocconeis placentula,12,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Frustulia rhomboides,12,4,predation,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Gomphonema parvulum,12,3,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Navicula avenacea,12,4,herbivory,method,gut content
+Zelandobius spp. nr confusus (Hare),12,Surirella elegans,12,1,herbivory,method,gut content
+Paranephrops zealandicus (White),12,fungi,12,1,herbivory,method,gut content
+Paranephrops zealandicus (White),12,Cricotopus II,12,3,predation,method,gut content
+Paranephrops zealandicus (White),12,Nannochorista,12,3,predation,method,gut content
+Paranephrops zealandicus (White),12,Polyplectropus puerilis (McLachlan),12,3,predation,method,gut content
+Paranephrops zealandicus (White),12,Plant material,12,3,herbivory,method,gut content

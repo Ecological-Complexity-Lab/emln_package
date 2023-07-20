@@ -1,0 +1,84 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,Fundulus,taxon,taxonomy_name,Fundulus,taxonomy_rank,genus
+2,Chalina,taxon,taxonomy_name,Haliclona algicola,taxonomy_rank,species
+3,Mytilus,taxon,taxonomy_name,Mytilus,taxonomy_rank,genus
+4,Gemma,taxon,taxonomy_name,Gemma,taxonomy_rank,genus
+5,Abietinaria,taxon,taxonomy_name,Abietinaria,taxonomy_rank,genus
+6,Sertularia,taxon,taxonomy_name,Sertularia,taxonomy_rank,genus
+7,Metridium,taxon,taxonomy_name,Metridium,taxonomy_rank,genus
+8,Lichenophora,taxon,taxonomy_name,Coelostemma lichenophora,taxonomy_rank,species
+9,isopods,taxon,taxonomy_name,Isopods,taxonomy_rank,NA
+10,Gammarus,taxon,taxonomy_name,Gammarus,taxonomy_rank,genus
+11,Caprella,taxon,taxonomy_name,Caprella,taxonomy_rank,genus
+12,Littorina littorea,taxon,taxonomy_name,Littorina littorea,taxonomy_rank,species
+13,Strongylocentrotus,taxon,taxonomy_name,Strongylocentrotus,taxonomy_rank,genus
+14,Crago,taxon,taxonomy_name,Crangon franciscorum,taxonomy_rank,species
+15,Scomber,taxon,taxonomy_name,Scomber,taxonomy_rank,genus
+16,Clupea,taxon,taxonomy_name,Clupea,taxonomy_rank,genus
+17,Loligo,taxon,taxonomy_name,Loligo,taxonomy_rank,genus
+18,Pagurus,taxon,taxonomy_name,Pagurus,taxonomy_rank,genus
+19,Cancer,taxon,taxonomy_name,Cancer,taxonomy_rank,genus
+20,Polinices,taxon,taxonomy_name,Polinices,taxonomy_rank,genus
+21,Limulus,taxon,taxonomy_name,Limulus,taxonomy_rank,genus
+22,Raja,taxon,taxonomy_name,Raja,taxonomy_rank,genus
+23,Asterias,taxon,taxonomy_name,Asterias,taxonomy_rank,genus
+24,Pomatomus,taxon,taxonomy_name,Pomatomus,taxonomy_rank,genus
+25,Myoxocephalus,taxon,taxonomy_name,Myoxocephalus,taxonomy_rank,genus
+26,Phoca,taxon,taxonomy_name,Phoca,taxonomy_rank,genus
+27,Sterna,taxon,taxonomy_name,Sterna,taxonomy_rank,genus
+28,plankton,taxon,taxonomy_name,Plankton,taxonomy_rank,NA
+29,detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+30,organic debris,taxon,taxonomy_name,NA,taxonomy_rank,NA
+31,fish fry,taxon,taxonomy_name,NA,taxonomy_rank,NA
+32,macroalgae,taxon,taxonomy_name,NA,taxonomy_rank,NA
+33,annelids,taxon,taxonomy_name,NA,taxonomy_rank,NA
+34,Poronatus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+35,organic matter in mud,taxon,taxonomy_name,NA,taxonomy_rank,NA
+36,Melampus,taxon,taxonomy_name,Melampus,taxonomy_rank,genus
+37,L. saxatilis,taxon,taxonomy_name,Littorina saxatilis,taxonomy_rank,species
+38,Orchestia,taxon,taxonomy_name,Orchestia,taxonomy_rank,genus
+39,Philoscia,taxon,taxonomy_name,Philoscia,taxonomy_rank,genus
+40,Anurida,taxon,taxonomy_name,Anurida,taxonomy_rank,genus
+41,Cylisticus,taxon,taxonomy_name,Cylisticus,taxonomy_rank,genus
+42,Corvus,taxon,taxonomy_name,Corvus,taxonomy_rank,genus
+43,algae,taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+44,marsh insects,taxon,taxonomy_name,NA,taxonomy_rank,NA
+45,marsh spiders,taxon,taxonomy_name,NA,taxonomy_rank,NA
+46,Pisobia,taxon,taxonomy_name,NA,taxonomy_rank,NA
+47,song birds,taxon,taxonomy_name,NA,taxonomy_rank,NA
+48,Spartina patena,taxon,taxonomy_name,NA,taxonomy_rank,NA
+49,Acmaea,taxon,taxonomy_name,Acmaea,taxonomy_rank,genus
+50,Crepidula,taxon,taxonomy_name,Crepidula,taxonomy_rank,genus
+51,L. obtusata,taxon,taxonomy_name,Littorina obtusata,taxonomy_rank,species
+52,Balanus,taxon,taxonomy_name,Balanus,taxonomy_rank,genus
+53,Obelia,taxon,taxonomy_name,Obelia,taxonomy_rank,genus
+54,Clava,taxon,taxonomy_name,Clava,taxonomy_rank,genus
+55,Spirorbis,taxon,taxonomy_name,Spirorbis,taxonomy_rank,genus
+56,Thais,taxon,taxonomy_name,Thais,taxonomy_rank,genus
+57,Tautogolabrus,taxon,taxonomy_name,Tautogolabrus,taxonomy_rank,genus
+58,Ascophyllum,taxon,taxonomy_name,Ascophyllum,taxonomy_rank,genus
+59,Fucus,taxon,taxonomy_name,Fucus,taxonomy_rank,genus
+60,Ulva,taxon,taxonomy_name,Ulva,taxonomy_rank,genus
+61,other algae,taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+62,Carcinides,taxon,taxonomy_name,NA,taxonomy_rank,NA
+63,suspended detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+64,Brachidontes,taxon,taxonomy_name,Brachidontes,taxonomy_rank,genus
+65,spiders,taxon,taxonomy_name,Spiders,taxonomy_rank,NA
+66,Butorides,taxon,taxonomy_name,Butorides,taxonomy_rank,genus
+67,Spartina glabra,taxon,taxonomy_name,NA,taxonomy_rank,NA
+68,Lumbrinereis,taxon,taxonomy_name,Lumbrineris aberrans,taxonomy_rank,species
+69,Clymenella,taxon,taxonomy_name,Clymenella,taxonomy_rank,genus
+70,Talorchestia,taxon,taxonomy_name,Talorchestia,taxonomy_rank,genus
+71,Mya,taxon,taxonomy_name,Mya,taxonomy_rank,genus
+72,Ensis,taxon,taxonomy_name,Ensis,taxonomy_rank,genus
+73,Macoma,taxon,taxonomy_name,Macoma,taxonomy_rank,genus
+74,Solemya,taxon,taxonomy_name,Solemya,taxonomy_rank,genus
+75,Onoba,taxon,taxonomy_name,Onoba,taxonomy_rank,genus
+76,Glycera,taxon,taxonomy_name,Glycera,taxonomy_rank,genus
+77,Nereis,taxon,taxonomy_name,Nereis,taxonomy_rank,genus
+78,Cerebratulus,taxon,taxonomy_name,Cerebratulus,taxonomy_rank,genus
+79,Megaceryle,taxon,taxonomy_name,Megaceryle,taxonomy_rank,genus
+80,Nassarius,taxon,taxonomy_name,Nassarius,taxonomy_rank,genus
+81,Pseudopleuronectes,taxon,taxonomy_name,Pseudopleuronectes,taxonomy_rank,genus
+82,Chaetomorpha,taxon,taxonomy_name,Chaetomorpha,taxonomy_rank,genus
+83,organic matter,taxon,taxonomy_name,NA,taxonomy_rank,NA

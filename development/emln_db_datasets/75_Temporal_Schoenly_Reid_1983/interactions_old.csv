@@ -1,0 +1,95 @@
+node_from,layer_from,node_to,layer_to,weight,type,attribute1,value1
+Pheidole sp.,1,dipteran eggs (unknown),1,1,predation,method,field observation and literature
+Blaesoxipha plinthopyga,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Cochyliomyia macellaria,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Musca domestica,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Boreocanthon puncticollis,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Dermestes marmoratus,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Eleodes carbonarius,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+E. longicollis,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Embaphion sp.,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Silpha truncata,1,B. plinthopyga larvae,1,1,predation,method,field observation and literature
+Silpha truncata,1,C. macellaria larvae,1,1,predation,method,field observation and literature
+Silpha truncata,1,M. domestica larvae,1,1,predation,method,field observation and literature
+Silpha truncata,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Necrophorus marginatus,1,B. plinthopyga larvae,1,1,predation,method,field observation and literature
+Necrophorus marginatus,1,C. macellaria larvae,1,1,predation,method,field observation and literature
+Necrophorus marginatus,1,M. domestica larvae,1,1,predation,method,field observation and literature
+Necrophorus marginatus,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Conomyrma bicolor,1,dipteran eggs (unknown),1,1,predation,method,field observation and literature
+Conomyrma bicolor,1,B. plinthopyga larvae,1,1,predation,method,field observation and literature
+Conomyrma bicolor,1,C. macellaria larvae,1,1,predation,method,field observation and literature
+Conomyrma bicolor,1,M. domestica larvae,1,1,predation,method,field observation and literature
+Conomyrma bicolor,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Pheidole sp.,1,B. plinthopyga larvae,1,1,predation,method,field observation and literature
+Pheidole sp.,1,C. macellaria larvae,1,1,predation,method,field observation and literature
+Pheidole sp.,1,M. domestica larvae,1,1,predation,method,field observation and literature
+Pheidole sp.,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Novomessor cockerelli,1,dipteran eggs (unknown),1,1,predation,method,field observation and literature
+Novomessor cockerelli,1,B. plinthopyga larvae,1,1,predation,method,field observation and literature
+Novomessor cockerelli,1,C. macellaria larvae,1,1,predation,method,field observation and literature
+Novomessor cockerelli,1,M. domestica larvae,1,1,predation,method,field observation and literature
+Novomessor cockerelli,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Crematogaster clara,1,dipteran eggs (unknown),1,1,predation,method,field observation and literature
+Crematogaster clara,1,B. plinthopyga larvae,1,1,predation,method,field observation and literature
+Crematogaster clara,1,C. macellaria larvae,1,1,predation,method,field observation and literature
+Crematogaster clara,1,M. domestica larvae,1,1,predation,method,field observation and literature
+Crematogaster clara,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Iridomyrmex pruinosum,1,dipteran eggs (unknown),1,1,predation,method,field observation and literature
+Iridomyrmex pruinosum,1,B. plinthopyga larvae,1,1,predation,method,field observation and literature
+Iridomyrmex pruinosum,1,C. macellaria larvae,1,1,predation,method,field observation and literature
+Iridomyrmex pruinosum,1,M. domestica larvae,1,1,predation,method,field observation and literature
+Iridomyrmex pruinosum,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Saprinus discoidalis,1,B. plinthopyga larvae,1,1,predation,method,field observation and literature
+Saprinus discoidalis,1,C. macellaria larvae,1,1,predation,method,field observation and literature
+Saprinus discoidalis,1,M. domestica larvae,1,1,predation,method,field observation and literature
+Syspira longipes,1,Blaesoxipha plinthopyga,1,1,predation,method,field observation and literature
+Syspira longipes,1,Cochyliomyia macellaria,1,1,predation,method,field observation and literature
+Syspira longipes,1,Musca domestica,1,1,predation,method,field observation and literature
+Psilochorus utahensis,1,Blaesoxipha plinthopyga,1,1,predation,method,field observation and literature
+Psilochorus utahensis,1,Cochyliomyia macellaria,1,1,predation,method,field observation and literature
+Psilochorus utahensis,1,Musca domestica,1,1,predation,method,field observation and literature
+Creophilis maxillosus,1,Blaesoxipha plinthopyga,1,1,predation,method,field observation and literature
+Creophilis maxillosus,1,Cochyliomyia macellaria,1,1,predation,method,field observation and literature
+Creophilis maxillosus,1,Musca domestica,1,1,predation,method,field observation and literature
+Creophilis maxillosus,1,Boreocanthon puncticollis,1,1,predation,method,field observation and literature
+Creophilis maxillosus,1,Dermestes marmoratus,1,1,predation,method,field observation and literature
+Creophilis maxillosus,1,Trox suberosus,1,1,predation,method,field observation and literature
+Creophilis maxillosus,1,Saprinus discoidalis,1,1,predation,method,field observation and literature
+Creophilis maxillosus,1,B. plinthopyga larvae,1,1,predation,method,field observation and literature
+Creophilis maxillosus,1,C. macellaria larvae,1,1,predation,method,field observation and literature
+Creophilis maxillosus,1,M. domestica larvae,1,1,predation,method,field observation and literature
+B. plinthopyga larvae,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+C. macellaria larvae,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+M. domestica larvae,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Trox suberosus,1,rabbit carcass (L. californicus),1,1,scavenger,method,field observation and literature
+Blaesoxipha plinthopyga,2,carrion,2,1,scavenger,method,field observation and literature
+Cochyliomyia macellaria,2,carrion,2,1,scavenger,method,field observation and literature
+Musca domestica,2,carrion,2,1,scavenger,method,field observation and literature
+Saprinus discoidalis,2,C. macellaria larvae,2,1,predation,method,field observation and literature
+Saprinus discoidalis,2,M. domestica larvae,2,1,predation,method,field observation and literature
+Saprinus discoidalis,2,B. plinthopyga larvae,2,1,predation,method,field observation and literature
+Dermestes marmoratus,2,carrion,2,1,scavenger,method,field observation and literature
+Conomyrma bicolor,2,C. macellaria larvae,2,1,predation,method,field observation and literature
+Conomyrma bicolor,2,M. domestica larvae,2,1,predation,method,field observation and literature
+Conomyrma bicolor,2,B. plinthopyga larvae,2,1,predation,method,field observation and literature
+Conomyrma bicolor,2,carrion,2,1,scavenger,method,field observation and literature
+Pheidole sp.,2,C. macellaria larvae,2,1,predation,method,field observation and literature
+Pheidole sp.,2,M. domestica larvae,2,1,predation,method,field observation and literature
+Pheidole sp.,2,B. plinthopyga larvae,2,1,predation,method,field observation and literature
+Pheidole sp.,2,carrion,2,1,scavenger,method,field observation and literature
+Novomessor cockerelli,2,C. macellaria larvae,2,1,predation,method,field observation and literature
+Novomessor cockerelli,2,M. domestica larvae,2,1,predation,method,field observation and literature
+Novomessor cockerelli,2,B. plinthopyga larvae,2,1,predation,method,field observation and literature
+Novomessor cockerelli,2,carrion,2,1,scavenger,method,field observation and literature
+Crematogaster clara,2,C. macellaria larvae,2,1,predation,method,field observation and literature
+Crematogaster clara,2,M. domestica larvae,2,1,predation,method,field observation and literature
+Crematogaster clara,2,B. plinthopyga larvae,2,1,predation,method,field observation and literature
+Crematogaster clara,2,carrion,2,1,scavenger,method,field observation and literature
+Iridomyrmex pruinosum,2,C. macellaria larvae,2,1,predation,method,field observation and literature
+Iridomyrmex pruinosum,2,M. domestica larvae,2,1,predation,method,field observation and literature
+Iridomyrmex pruinosum,2,B. plinthopyga larvae,2,1,predation,method,field observation and literature
+Iridomyrmex pruinosum,2,carrion,2,1,scavenger,method,field observation and literature
+C. macellaria larvae,2,carrion,2,1,scavenger,method,field observation and literature
+M. domestica larvae,2,carrion,2,1,scavenger,method,field observation and literature
+B. plinthopyga larvae,2,carrion,2,1,scavenger,method,field observation and literature

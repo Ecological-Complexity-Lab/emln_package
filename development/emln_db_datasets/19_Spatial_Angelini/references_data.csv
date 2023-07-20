@@ -1,0 +1,5 @@
+"ID","Species","Interactions","Connectance","Type of interactions","Type of data","Reference","Locality of Studi","Latitude","Longitude"
+"FW_001","40","185","0.237","Food Webs","1","Angelini, R., Agostinho A. (2005) Food web model of the Upper Paran ́a River Floodplain: description and aggregation effects. Ecological Modelling 181: 109–121","Parana, Brazil","-24.4842187","-51.8148872"
+"FW_002","14","38","0.418","Food Webs","1","Angelini, R., Aloisio, GR., Carvalho, AR. (2011) Mixed food web control and stability in a Cerrado river (Brazil). Pan-American Journal of Aquatic Sciences 5(3):421-431","Cerrado River, Brazil","-24.0469624","-49.3478448"
+"FW_003","28","127","0.336","Food Webs","1","Angelini, R., Velho, VF. (2011) Ecosystem structure and trophic analysis of Angolan fishery landings. Scientia Marina 75(2)","Angola","-11.8775768","17.5691241"
+"FW_004","32","140","0.282","Food Webs","1","Angelini, R,. Agostinho A,. Carlos LG. (2006) Modeling energy flow in a large Neotropical Reservoir: a tool do evaluate fishing and stability. Neotrop. Ichthyol., 4(2):253-260, 2006","Itaipu, Brazil","-25.409371","-54.587545"

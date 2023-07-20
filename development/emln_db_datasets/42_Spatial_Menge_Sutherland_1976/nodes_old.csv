@@ -1,0 +1,18 @@
+node_id,node_name,type,attribute1,value1,attribute2,value2
+1,algae,taxon,taxonomy_name,Archanara algae,taxonomy_rank,species
+2,plankton,taxon,taxonomy_name,Plankton,taxonomy_rank,NA
+3,Acmaea testudinalis,taxon,taxonomy_name,NA,taxonomy_rank,NA
+4,Littorina,taxon,taxonomy_name,Littorina,taxonomy_rank,genus
+5,Mytilus edulis,taxon,taxonomy_name,Mytilus edulis,taxonomy_rank,species
+6,Balanus balanoides,taxon,taxonomy_name,Semibalanus balanoides,taxonomy_rank,species
+7,Thais lapillus,taxon,taxonomy_name,Nucella lapillus,taxonomy_rank,species
+8,detritus,taxon,taxonomy_name,NA,taxonomy_rank,NA
+9,acorn barnacles,taxon,taxonomy_name,Sessilia,taxonomy_rank,order
+10,limpets,taxon,taxonomy_name,Gastropoda,taxonomy_rank,class
+11,chitons,taxon,taxonomy_name,Neoloricata,taxonomy_rank,NA
+12,other herbivorous gastropods,taxon,taxonomy_name,Gastropoda,taxonomy_rank,class
+13,Thais,taxon,taxonomy_name,Thais,taxonomy_rank,genus
+14,Seariesia,taxon,taxonomy_name,Lirabuccinum fuscolabiatum,taxonomy_rank,species
+15,Mytilus californianus,taxon,taxonomy_name,Mytilus californianus,taxonomy_rank,species
+16,Pisaster,taxon,taxonomy_name,Pisaster,taxonomy_rank,genus
+17,Leptasterias,taxon,taxonomy_name,Leptasterias,taxonomy_rank,genus
