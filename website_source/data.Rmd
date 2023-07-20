@@ -55,7 +55,7 @@ paper_figs_theme_no_legend <-
 ## creation of the lists
 #read the file path
 #parent.folder <- "~/GitHub/ecomplab/emln_package/data-raw/"
-parent.folder <- "/Users/shai/GitHub/ecomplab/emln_package/data-raw/"
+parent.folder <- "/Users/shai/GitHub/ecomplab/emln_package/data/data-raw/"
 
 #setwd("~/GitHub/emln_db/EMLN_Datasets/datasets") ##in this chunk, we want the working directory to be the one with all the networks in order to read them
 
