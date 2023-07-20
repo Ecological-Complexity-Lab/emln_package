@@ -452,6 +452,35 @@ search_2 %&gt;% select(&quot;network_id&quot;,&quot;network_name&quot;,&quot;eco
 ## 4         71 emln71_temporal_perturbation_kaiser_bunbury_2009 Pollination             Perturbation                   24
 ## 5         72 emln72_temporal_ponisio_2017                     Pollination             Temporal                      141
 ## 6         78 emln78_temporal_zackenberg_2013                  Pollination             Temporal                      163</code></pre>
+<pre class="r"><code># Networks with state node attributes
+search_emln(state_nodes = TRUE)</code></pre>
+<pre><code>## # A tibble: 12 × 10
+## # Groups:   network_id, network_name [11]
+##    network_id network_name         ecological_network_t…¹ multilayer_network_t…² state_nodes weighted directed interlayer
+##         &lt;dbl&gt; &lt;chr&gt;                &lt;chr&gt;                  &lt;chr&gt;                  &lt;chr&gt;       &lt;lgl&gt;    &lt;lgl&gt;    &lt;lgl&gt;     
+##  1          6 emln6_environment_k… Pollination            Environment            TRUE        TRUE     FALSE    FALSE     
+##  2         23 emln23_spatial_cana… Host-Parasite          Spatial                TRUE        TRUE     FALSE    FALSE     
+##  3         28 emln28_spatial_dick… Pollination            Spatial                TRUE        TRUE     FALSE    FALSE     
+##  4         30 emln30_spatial_elbe… Pollination            Spatial                TRUE        FALSE    FALSE    FALSE     
+##  5         33 emln33_spatial_hadf… Host-Parasite          Spatial                TRUE        TRUE     FALSE    FALSE     
+##  6         36 emln36_spatial_joer… Plant-Herbivore        Spatial                TRUE        FALSE    FALSE    FALSE     
+##  7         39 emln39_spatial_leat… Plant-Herbivore        Spatial                TRUE        FALSE    FALSE    FALSE     
+##  8         43 emln43_spatial_mont… Pollination            Spatial                TRUE        FALSE    FALSE    FALSE     
+##  9         51 emln51_spatial_prim… Pollination            Spatial                TRUE        FALSE    FALSE    FALSE     
+## 10         54 emln54_spatial_snow… Pollination            Spatial                TRUE        TRUE     FALSE    FALSE     
+## 11         58 emln58_spatial_temp… Plant-Herbivore        Spatial                TRUE        TRUE     FALSE    FALSE     
+## 12         58 emln58_spatial_temp… Plant-Herbivore        Temporal               TRUE        TRUE     FALSE    FALSE     
+## # ℹ abbreviated names: ¹​ecological_network_type, ²​multilayer_network_type
+## # ℹ 2 more variables: layer_num &lt;dbl&gt;, node_num &lt;dbl&gt;</code></pre>
+<pre class="r"><code># Networks with interlayer links
+search_emln(interlayer = TRUE)</code></pre>
+<pre><code>## # A tibble: 1 × 10
+## # Groups:   network_id, network_name [1]
+##   network_id network_name          ecological_network_t…¹ multilayer_network_t…² state_nodes weighted directed interlayer
+##        &lt;dbl&gt; &lt;chr&gt;                 &lt;chr&gt;                  &lt;chr&gt;                  &lt;chr&gt;       &lt;lgl&gt;    &lt;lgl&gt;    &lt;lgl&gt;     
+## 1         17 emln17_multiplex_tra… Multiples              Multiplex              FALSE       TRUE     FALSE    TRUE      
+## # ℹ abbreviated names: ¹​ecological_network_type, ²​multilayer_network_type
+## # ℹ 2 more variables: layer_num &lt;dbl&gt;, node_num &lt;dbl&gt;</code></pre>
 </div>
 <div id="loading-a-network" class="section level1">
 <h1>Loading a network</h1>

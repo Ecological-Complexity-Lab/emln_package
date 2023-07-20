@@ -279,6 +279,12 @@ search_1 %>% select("network_id","network_name","ecological_network_type","multi
 
 search_2 <- search_emln(ecological_network_type = 'Pollination', layer_number_minimum = 15)
 search_2 %>% select("network_id","network_name","ecological_network_type","multilayer_network_type","layer_num")
+
+# Networks with state node attributes
+search_emln(state_nodes = TRUE)
+
+# Networks with interlayer links
+search_emln(interlayer = TRUE)
 ```
 
 # Loading a network
