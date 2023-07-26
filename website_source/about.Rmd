@@ -9,8 +9,9 @@ output:
 ---
 
 # About
-
 The package and this website were developed by Noa Frydman, Itamar Talpaz, Shirly Freilikhman and Shai Pilosof, in the [Ecological Complexity Lab](http://www.bgu.ac.il/ecomplab), in Israel.
+
+The R package code is available on GitGub here: [https://github.com/Ecological-Complexity-Lab/emln](https://github.com/Ecological-Complexity-Lab/emln)
 
 # Grants
 This work was supported by a research grant from Israel Science Foundation (1281/20), titled: "Ecological multilayer networks: advancing theory and methodology for understanding the complexity of ecological systems", awarded to Dr. Shai Pilosof.
