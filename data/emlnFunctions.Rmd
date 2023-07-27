@@ -40,7 +40,7 @@ paper_figs_theme_no_legend <-
 
 ## creation of the lists
 #read the file path
-parent.folder <- "~/GitHub/emln_package/development/data-raw/"
+parent.folder <- "~/GitHub/emln_package/data/data-raw/"
 
 #setwd("~/GitHub/emln_db/EMLN_Datasets/datasets") ##in this chunk, we want the working directory to be the one with all the networks in order to read them
 
@@ -283,17 +283,17 @@ p3
 
 
 #save multilayer types
-ggsave("~/GitHub/emln_package/development/data-raw/pie_multi_types.pdf",plot = p2,width =  10, height = 6)
+ggsave("~/GitHub/emln_package/data/data-raw/pie_multi_types.pdf",plot = p2,width =  10, height = 6)
 
 #save ecological types
-ggsave("~/GitHub/emln_package/development/data-raw/pie_eco_types.pdf",plot = p3,width =  10, height = 6)
+ggsave("~/GitHub/emln_package/data/data-raw/pie_eco_types.pdf",plot = p3,width =  10, height = 6)
 
 
 #array of the types
 library(ggpubr)
 p5 <- ggarrange(plotlist = list(p2,p3), labels = list('(A)','(B)'), vjust = 7)
 
-ggsave("~/GitHub/emln_package/development/data-raw/net_types_array.pdf",plot = p5,width =  10, height = 6)
+ggsave("~/GitHub/emln_package/data/data-raw/net_types_array.pdf",plot = p5,width =  10, height = 6)
 
 ```
 
@@ -303,7 +303,7 @@ p4 <- ggplot(counted_eco_types, aes(x=eco_type,y=count)) +
   geom_bar(stat = 'identity', color='black',fill="gray") + xlab('Layer Type') + paper_figs_theme +
   theme(axis.text.x = element_text(angle = 75, vjust = 0.5, size = 12))
 p4
-ggsave("~/GitHub/emln_package/development/data-raw/layer_types.pdf",plot = p4,width =  10, height = 6)
+ggsave("~/GitHub/emln_package/data/data-raw/layer_types.pdf",plot = p4,width =  10, height = 6)
 
 
 #combination of layer type and network type
@@ -318,7 +318,7 @@ p10 <- ggplot(multi_eco, aes(x=multi_type,y=n, fill=eco_type)) +
   theme(axis.text.x = element_text(angle = 75, vjust = 0.5, size = 12),legend.title = element_text(size=13)) + ylab('Count')  + scale_fill_nejm(name = 'Interaction Type')
 p10 
 
-ggsave("~/GitHub/emln_package/development/data-raw//multi_layer_types.pdf",plot = p10,width =  10, height = 6)
+ggsave("~/GitHub/emln_package/data/data-raw//multi_layer_types.pdf",plot = p10,width =  10, height = 6)
 
 ```
 
@@ -365,7 +365,7 @@ p6 <- ggplot(worldmap) +
 
 p6
 
-ggsave("~/GitHub/emln_package/development/data-raw/worldmap_plot_new.pdf",width = 25,height =15) 
+ggsave("~/GitHub/emln_package/data/data-raw/worldmap_plot_new.pdf",width = 25,height =15) 
 
 
 
@@ -382,5 +382,5 @@ grid <- ggpubr::ggarrange(
           nrow = 3,legend = "right")
 grid
 
-ggsave('~/GitHub/emln_package/development/data-raw/emln_metadata_figure.pdf',grid,width = 10, height = 12)
+ggsave('~/GitHub/emln_package/data/data-raw/emln_metadata_figure.pdf',grid,width = 10, height = 18)
 ```
