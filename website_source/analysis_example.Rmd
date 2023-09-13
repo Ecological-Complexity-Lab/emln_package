@@ -48,7 +48,7 @@ This comparison aims to highlight the differences between monolayer and multilay
 
 Before calculating the eigenvector centrality scores for each state node, it is recommended to transform the data into a multilayer object using the `create_multilayer_network` function. This facilitates the handling of the data and ensures a smoother analysis process.
 
-We use the data from [Kefi et al 2016](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002527). The data represents a node-aligned multiplex network consisting of three layers: trophic interactions, non-trophic positive interactions, and non-trophic negative interactions. For detailed instructions on creating a multilayer object, please refer to the [Example with real data from Kefi 2016 section](https://ecological-complexity-lab.github.io/emln_package/multilayer.html#Example_with_real_data_from_Kefi_2016).
+We use the data from [Kefi et al 2016](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002527). The data represents a node-aligned multiplex network consisting of three layers: trophic interactions, non-trophic positive interactions, and non-trophic negative interactions. For detailed instructions on creating a multilayer object, please refer to the [Example with real data from Kefi 2016 section](https://ecological-complexity-lab.github.io/emln_package/multilayer.html#Example_with_real_data_from_Kefi_2016). The files are also available on our repository (file: website_kefi_data.zip).
 
 ```{r creating a multilayer object from Kefi 2016, echo=TRUE, eval=TRUE, include=TRUE, message=FALSE, warning=FALSE}
 # Load and organize the trophic interactions matrix

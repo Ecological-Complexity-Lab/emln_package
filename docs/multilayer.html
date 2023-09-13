@@ -1345,9 +1345,9 @@ The <code>sn_id</code> corresponds to that in the
 <pre class="r"><code>g_layers &lt;- get_igraph(multilayer_unip_attributes, bipartite = F, directed = T)</code></pre>
 <p>Let’s look at one layer as an example.</p>
 <pre class="r"><code>g_layers$layers_igraph[[2]]</code></pre>
-<pre><code>## IGRAPH 703e415 DNW- 4 2 -- 
+<pre><code>## IGRAPH 72412cd DNW- 4 2 -- 
 ## + attr: name (v/c), sn_id (v/n), node_id (v/n), order (v/c), weight (e/n), method (e/c)
-## + edges from 703e415 (vertex names):
+## + edges from 72412cd (vertex names):
 ## [1] fish-&gt;pelican crab-&gt;fish</code></pre>
 <p>The state nodes are listed below. Note that they include the
 attributes of the physical nodes (order in this example), and that all
@@ -1427,9 +1427,9 @@ vertex.attributes(g_layers$layers_igraph[[3]])</code></pre>
 <pre class="r"><code>g_layers_bip &lt;- get_igraph(multilayer = multilayer_bip_toy, bipartite = T, directed = F)
 l2 &lt;- g_layers_bip$layers_igraph[[2]]
 l2</code></pre>
-<pre><code>## IGRAPH 740c5b1 UNWB 15 11 -- 
+<pre><code>## IGRAPH 5832c6c UNWB 15 11 -- 
 ## + attr: name (v/c), sn_id (v/n), node_id (v/n), type (v/l), weight (e/n)
-## + edges from 740c5b1 (vertex names):
+## + edges from 5832c6c (vertex names):
 ##  [1] H1--P1 H1--P3 H1--P4 H2--P1 H2--P2 H3--P1 H3--P3 H3--P4 H4--P1 H4--P2 H5--P1</code></pre>
 <pre class="r"><code>vertex.attributes(l2)</code></pre>
 <pre><code>## $name
