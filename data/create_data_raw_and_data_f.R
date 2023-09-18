@@ -45,13 +45,13 @@ library(usethis)
 # generate the Rdata for the DATA folder ----------------------------------
 
 #set working directory to data-raw
-setwd('./GitHub/emln_package/data-raw')
+setwd('./GitHub/emln_package/data/data-raw/')
 
 #set the path to the package (CHANGES FROM USER TO USER)
-package_path <- '/Users/noni/GitHub/emln_package'
+package_path <- '/Users/noni/GitHub/emln_package/package'
 
 #read the file path
-parent.folder <- paste0(package_path,"/data-raw")
+parent.folder <- '~/GitHub/emln_package/data/data-raw'
 parent_data.folder <- paste0(package_path,"/data")
 
 sub.folders.short <- list.dirs(path = parent.folder, recursive = F, full.names = F)
