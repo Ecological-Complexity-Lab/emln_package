@@ -106,3 +106,16 @@ write_csv(nodes_updated,'nodes.csv')
 
 nodes_updated <- read_csv('nodes.csv')
 nodes_updated <- nodes_updated[!nodes_updated$node_id>549,]
+
+
+#delete type
+nodes <- read_csv('nodes_w_type.csv')
+write_csv(nodes, 'nodes_w_type.csv')
+nodes <- nodes %<>%
+  tidyr::pivot_wider(names_from = 'attribute',values_from = 'value', values_fn = list) %>%
+  tidyr::unnest(cols = everything()) %>%
+  select(-type) %>%
+  distinct() %>%
+  pivot_longer(!node_id, names_to = 'attribute', values_to = 'value');nodes
+
+write_csv(nodes, 'nodes.csv')

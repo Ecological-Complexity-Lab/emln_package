@@ -3,9 +3,9 @@
 
 # Copy files from Datasets folder to Data-Raw folder ----------------------
 setwd('~')
-x <- list.dirs('./GitHub/emln_db/EMLN_Datasets/datasets/', full.names = F, recursive = F)
-sub.folders.short <- list.dirs(path = './GitHub/emln_db/EMLN_Datasets/datasets/', recursive = F, full.names = F)
-sub.folders.long <- list.dirs(path = './GitHub/emln_db/EMLN_Datasets/datasets/', recursive = F, full.names = T)
+x <- list.dirs('./GitHub/emln_package/data/emln_db_datasets/', full.names = F, recursive = F)
+sub.folders.short <- list.dirs(path = './GitHub/emln_package/data/emln_db_datasets/', recursive = F, full.names = F)
+sub.folders.long <- list.dirs(path = './GitHub/emln_package/data/emln_db_datasets/', recursive = F, full.names = T)
 
 
 #order the sub folders according to the id, using the short sub folders so I can use the id, but I eventually need the long to read the csvs
@@ -14,15 +14,15 @@ sub.folders.short <- sub.folders.short[str_order(sub.folders.short, numeric = T)
 
 
 for (i in 1:length(sub.folders.short)) {
-  dir.create(path = paste0("./GitHub/emln_package/data-raw/", sub.folders.short[i]))
+  dir.create(path = paste0("./GitHub/emln/data-raw/", sub.folders.short[i]))
 }
 
 
 #copy them to the new directory
 for (i in 1:length(sub.folders.long)) {
   list_of_files <- NULL
-  current_folder <- paste0("./GitHub/emln_db/EMLN_Datasets/datasets/",sub.folders.short[i])
-  new_folder <- paste0("./GitHub/emln_package/data-raw/",sub.folders.short[i])
+  current_folder <- paste0("./GitHub/emln_package/data/emln_db_datasets/",sub.folders.short[i])
+  new_folder <- paste0("./GitHub/emln/data-raw/",sub.folders.short[i])
   list_of_files <- list.files(current_folder, pattern =  "state_nodes.csv|interactions.csv|nodes.csv|layers.csv|references.csv|description.csv")
   file.copy(file.path(current_folder,list_of_files), new_folder, overwrite = T)
 }
@@ -45,13 +45,13 @@ library(usethis)
 # generate the Rdata for the DATA folder ----------------------------------
 
 #set working directory to data-raw
-setwd('./GitHub/emln_package/data/data-raw/')
+setwd('./GitHub/emln/data-raw/')
 
 #set the path to the package (CHANGES FROM USER TO USER)
-package_path <- '/Users/noni/GitHub/emln_package/package'
+package_path <- '/Users/noni/GitHub/emln'
 
 #read the file path
-parent.folder <- '~/GitHub/emln_package/data/data-raw'
+parent.folder <- '~/GitHub/emln/data-raw'
 parent_data.folder <- paste0(package_path,"/data")
 
 sub.folders.short <- list.dirs(path = parent.folder, recursive = F, full.names = F)
