@@ -8,6 +8,6 @@ This repository is still active because it contains the website that accompanies
 # Folders
 
 - **`website_source`**: All files for the emln package website.
-- **`package`**: All files for the emln package.
+- **`package`**: All files for the emln package (not active).
 - **`docs`**: The active website files.
 - **`data`**: All files needed for the development of the data in the package.
