@@ -412,28 +412,28 @@ matrix_to_list_unipartite(adjacency_matrix, directed = TRUE)</code></pre>
 ## 
 ## $mat
 ##    A1 A2 A3
-## A1  3  2  3
-## A2  5  4  2
-## A3  5  2  4
+## A1  4  5  3
+## A2  5  3  2
+## A3  4  3  3
 ## 
 ## $edge_list
 ## # A tibble: 9 × 3
 ##   from  to    weight
 ##   &lt;chr&gt; &lt;chr&gt;  &lt;dbl&gt;
-## 1 A1    A1         3
+## 1 A1    A1         4
 ## 2 A1    A2         5
-## 3 A1    A3         5
-## 4 A2    A1         2
-## 5 A2    A2         4
-## 6 A2    A3         2
+## 3 A1    A3         4
+## 4 A2    A1         5
+## 5 A2    A2         3
+## 6 A2    A3         3
 ## 7 A3    A1         3
 ## 8 A3    A2         2
-## 9 A3    A3         4
+## 9 A3    A3         3
 ## 
 ## $igraph_object
-## IGRAPH dd5943f DNW- 3 9 -- 
+## IGRAPH 272d377 DNW- 3 9 -- 
 ## + attr: name (v/c), weight (e/n)
-## + edges from dd5943f (vertex names):
+## + edges from 272d377 (vertex names):
 ## [1] A1-&gt;A1 A1-&gt;A2 A1-&gt;A3 A2-&gt;A1 A2-&gt;A2 A2-&gt;A3 A3-&gt;A1 A3-&gt;A2 A3-&gt;A3
 ## 
 ## attr(,&quot;class&quot;)
@@ -459,26 +459,26 @@ list_to_matrix(link_list_unipartite, directed = TRUE, bipartite = FALSE)</code><
 ## 
 ## $mat
 ##    A1 A2 A3
-## A1  1  3  4
-## A2  4  5  4
-## A3  1  2  1
+## A1  5  2  4
+## A2  4  4  4
+## A3  3  2  2
 ## 
 ## $edge_list
 ##   from to weight
-## 1   A1 A1      1
+## 1   A1 A1      5
 ## 2   A1 A2      4
-## 3   A1 A3      1
-## 4   A2 A1      3
-## 5   A2 A2      5
+## 3   A1 A3      3
+## 4   A2 A1      2
+## 5   A2 A2      4
 ## 6   A2 A3      2
 ## 7   A3 A1      4
 ## 8   A3 A2      4
-## 9   A3 A3      1
+## 9   A3 A3      2
 ## 
 ## $igraph_object
-## IGRAPH ee56cdd DNW- 3 9 -- 
+## IGRAPH 7fcdc36 DNW- 3 9 -- 
 ## + attr: name (v/c), weight (e/n)
-## + edges from ee56cdd (vertex names):
+## + edges from 7fcdc36 (vertex names):
 ## [1] A1-&gt;A1 A1-&gt;A2 A1-&gt;A3 A2-&gt;A1 A2-&gt;A2 A2-&gt;A3 A3-&gt;A1 A3-&gt;A2 A3-&gt;A3
 ## 
 ## attr(,&quot;class&quot;)
@@ -550,17 +550,17 @@ matrix_to_list_bipartite(incidence_matrix, group_names = c(&#39;A_set&#39;, &#39
 <pre><code>## # A tibble: 12 × 3
 ##    from  to    weight
 ##    &lt;chr&gt; &lt;chr&gt;  &lt;dbl&gt;
-##  1 A1    P1         5
-##  2 A1    P2         2
-##  3 A1    P3         2
-##  4 A1    P4         3
-##  5 A2    P1         4
-##  6 A2    P2         4
-##  7 A2    P3         4
-##  8 A2    P4         1
+##  1 A1    P1         4
+##  2 A1    P2         3
+##  3 A1    P3         1
+##  4 A1    P4         2
+##  5 A2    P1         5
+##  6 A2    P2         2
+##  7 A2    P3         2
+##  8 A2    P4         2
 ##  9 A3    P1         2
-## 10 A3    P2         5
-## 11 A3    P3         1
+## 10 A3    P2         1
+## 11 A3    P3         3
 ## 12 A3    P4         3</code></pre>
 <p>To demonstrate real data we use the incidence matrix olesen2002flores
 included in the bipartite package.</p>
@@ -604,9 +604,9 @@ monolayer_bipartite$edge_list</code></pre>
 ## # ℹ 20 more rows</code></pre>
 <pre class="r"><code># An igraph object is also created
 monolayer_bipartite$igraph_object</code></pre>
-<pre><code>## IGRAPH 1b959d1 UNWB 22 30 -- 
+<pre><code>## IGRAPH 8b8d1e2 UNWB 22 30 -- 
 ## + attr: type (v/l), name (v/c), weight (e/n)
-## + edges from 1b959d1 (vertex names):
+## + edges from 8b8d1e2 (vertex names):
 ##  [1] Halictus.sp.    --Azorina:vidalii       Halictus.sp.    --Solidago:sempervivens Halictus.sp.    --Daucus:carota        
 ##  [4] Halictus.sp.    --Silene:vulgaris       Halictus.sp.    --Chamomilla:suaveolens Halictus.sp.    --Reseda:luteola       
 ##  [7] Sepsis.thoracica--Azorina:vidalii       Sepsis.thoracica--Crithmum:maritimum    Sepsis.thoracica--Beta:vulgaris        

@@ -18,16 +18,16 @@ klippy::klippy(position = c('top', 'right'), color = 'darkred')
 ```
 
 
-This website contains complete examples for working with monolayer and multilayer network data with the package EMLN. It is rather self-explanatory but we recommend to read the paper [**Practical guidelines and the EMLN R package for handling ecological multilayer networks**](https://doi.org/10.32942/X2PG6X) to really understand it. The general workflow is described in the figure below. We start with monolayer networks, which are the basis for handling multilayer networks. Our paper and this website focus on handling data (blue rectangles in the figure), and not on analysis.
+This website contains complete examples for working with monolayer and multilayer network data with the package EMLN. It is rather self-explanatory but we recommend to read the paper [**Practical guidelines and the EMLN R package for handling ecological multilayer networks**](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14225) to really understand it. The general workflow is described in the figure below. We start with monolayer networks, which are the basis for handling multilayer networks. Our paper and this website focus on handling data (blue rectangles in the figure), and not on analysis.
 
 ![](workflow.png)
 
 # Citing this work
-Frydman N, Freilikhman S, Talpaz I, Pilosof S. _Practical guidelines and the EMLN R package for handling ecological multilayer networks_. EcoEvoRxiv. 2023. DOI: https://doi.org/10.32942/X2PG6X. Please cite the paper when implementing the guidelines we describe or when using the package, this helps us a lot!
+Frydman N, Freilikhman S, Talpaz I, Pilosof S. **Practical guidelines and the EMLN R package for handling ecological multilayer networks**. Methods in Ecology and Evolution. 2023. [DOI:10.1111/2041-210X.14225](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14225). Please cite the paper when implementing the guidelines we describe or when using the package, this helps us a lot!
 
 
 # Installation
-The EMLN package was built under R 4.1.0 and depends on several packages. The package is installed directly from GitHub. Run this code to install dependencies and the package.
+The EMLN package was built under R 4.1.0 and depends on several packages. The package is installed directly from GitHub. Run this code to install dependencies and the package. We are working on a CRAN version.
 
 ```{r eval=FALSE, include=TRUE}
 package.list=c("tidyverse", "magrittr","igraph","Matrix","DT","hablar","devtools")

@@ -382,8 +382,8 @@ div.tocify {
 <p>This website contains complete examples for working with monolayer
 and multilayer network data with the package EMLN. It is rather
 self-explanatory but we recommend to read the paper <a
-href="https://doi.org/10.32942/X2PG6X"><strong>Practical guidelines and
-the EMLN R package for handling ecological multilayer
+href="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14225"><strong>Practical
+guidelines and the EMLN R package for handling ecological multilayer
 networks</strong></a> to really understand it. The general workflow is
 described in the figure below. We start with monolayer networks, which
 are the basis for handling multilayer networks. Our paper and this
@@ -392,19 +392,19 @@ on analysis.</p>
 <p><img src="workflow.png" /></p>
 <div id="citing-this-work" class="section level1">
 <h1>Citing this work</h1>
-<p>Frydman N, Freilikhman S, Talpaz I, Pilosof S. <em>Practical
+<p>Frydman N, Freilikhman S, Talpaz I, Pilosof S. <strong>Practical
 guidelines and the EMLN R package for handling ecological multilayer
-networks</em>. EcoEvoRxiv. 2023. DOI: <a
-href="https://doi.org/10.32942/X2PG6X"
-class="uri">https://doi.org/10.32942/X2PG6X</a>. Please cite the paper
-when implementing the guidelines we describe or when using the package,
-this helps us a lot!</p>
+networks</strong>. Methods in Ecology and Evolution. 2023. <a
+href="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14225">DOI:10.1111/2041-210X.14225</a>.
+Please cite the paper when implementing the guidelines we describe or
+when using the package, this helps us a lot!</p>
 </div>
 <div id="installation" class="section level1">
 <h1>Installation</h1>
 <p>The EMLN package was built under R 4.1.0 and depends on several
 packages. The package is installed directly from GitHub. Run this code
-to install dependencies and the package.</p>
+to install dependencies and the package. We are working on a CRAN
+version.</p>
 <pre class="r"><code>package.list=c(&quot;tidyverse&quot;, &quot;magrittr&quot;,&quot;igraph&quot;,&quot;Matrix&quot;,&quot;DT&quot;,&quot;hablar&quot;,&quot;devtools&quot;)
 loaded &lt;-  package.list %in% .packages()
 package.list &lt;-  package.list[!loaded]
