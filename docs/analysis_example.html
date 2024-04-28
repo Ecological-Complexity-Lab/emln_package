@@ -13,7 +13,7 @@
 
 <title>Example for EMLN analysis</title>
 
-<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -604,11 +604,7 @@ as relaxation rate and limits.</p>
 prepares a multilayer object for <code>infomapecology</code>. Future
 versions of <code>infomapecology</code> will directly use the multilayer
 object created by the EMLN package.</em></p>
-<pre class="r"><code>emln_65_for_infomap &lt;- infomapecology::create_multilayer_object(extended = emln_65$extended_ids[,1:5], nodes = emln_65$nodes, intra_output_extended = F)
-
-
-
-emln_65_modularity &lt;- run_infomap_multilayer(M = emln_65_for_infomap,
+<pre class="r"><code>emln_65_modularity &lt;- run_infomap_multilayer(M = emln_65,
                                                relax = T, silent = TRUE,
                                                trials = 50, seed = 497294,
                                                multilayer_relax_rate = 0.15,

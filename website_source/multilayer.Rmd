@@ -306,13 +306,12 @@ dist <- data.matrix(read_csv('Gilarranz2014_distances.csv'))
 dimnames(dist) <- list(layer_attrib$layer_name, layer_attrib$layer_name)
 
 # Get the dispersal matrix, for pollinators only. This matrix shows which pollinator is in which layer
-dispersal <- multilayer$extended %>% group_by(node_from) %>% dplyr::select(layer_from) %>% table()
+dispersal <- multilayer_sierras$extended %>% group_by(node_from) %>% dplyr::select(layer_from) %>% table()
 dispersal <- 1*(dispersal>0)
 
 Sierras_interlayer <- NULL
 for (s in rownames(dispersal)){ # For each pollinator
   x <- dispersal[s,]
-  print(s)
   locations <- names(which(x!=0)) # locations where pollinator occurs
   if (length(locations)<2){next}
   pairwise <- combn(locations, 2)
@@ -329,8 +328,8 @@ for (s in rownames(dispersal)){ # For each pollinator
 multilayer_sierras_interlayer <- create_multilayer_network(list_of_layers = Sierras_matrices, bipartite = T, directed = F, layer_attributes = layer_attrib, interlayer_links = Sierras_interlayer)
 
 # See the interlayer links
-multilayer_sierras_interlayer$extended %>% filter(node_from==node_to)
-multilayer_sierras_interlayer$extended_ids %>% filter(node_from==node_to)
+multilayer_sierras_interlayer$extended %>% filter(layer_from!=layer_to)
+multilayer_sierras_interlayer$extended_ids %>% filter(layer_from!=layer_to)
 ```
 
 <!-- ## Example of linking node/layer attributes with network topology -->

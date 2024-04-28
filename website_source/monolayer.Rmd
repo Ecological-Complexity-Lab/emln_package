@@ -129,15 +129,15 @@ monolayer_bipartite_2 <- list_to_matrix(ll, bipartite = T, group_names = c('Poll
 ```
 
 
-# Function `create_monolayer_object`
+# Function `create_monolayer_network`
 
 This function is a wrapper for the `matrix_to_list_unipartite`, `matrix_to_list_bipartite`, and `list_to_matrix` functions. It is convenient because it automatically selects the input type.
 
-```{r create_monolayer_object}
+```{r create_monolayer_network}
 #Input is a link list
-monolayer_unipartite <- create_monolayer_object(x=interactions, directed = T, bipartite = F, node_metadata = nodes)
+monolayer_unipartite <- create_monolayer_network(x=interactions, directed = T, bipartite = F, node_metadata = nodes)
 
 # Input is a matrix
-bipartite_monolayer <- create_monolayer_object(x = olesen2002flores, group_names = c('Pollinator', 'Plant'), bipartite = T)
+bipartite_monolayer <- create_monolayer_network(x = olesen2002flores, group_names = c('Pollinator', 'Plant'), bipartite = T)
 ```
 
